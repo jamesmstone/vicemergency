@@ -1,5 +1,6 @@
-run() {
-  local db="events.db"
+makeDB() {
+  local db="$1"
+
   local dockerGitHistory="git-history"
   local dockerSQLUtil="sqlite-utils"
 
@@ -22,6 +23,27 @@ for event in data["features"]:
     -v"$(pwd):/wd" \
     -w /wd \
     "$dockerSQLUtil" extract "$db" item sourceOrg sourceFeed
+
+}
+
+commitDB() {
+  local dbBranch="db"
+  local db="$1"
+  local tempDB="$(mktemp)"
+  git branch -D "$dbBranch"
+  git checkout --orphan "$dbBranch"
+  mv "$db" "$tempDB"
+  rm -rf *
+  mv "$tempDB" "$db"
+  git add "$db"
+  git commit "$db" -m "push db"
+  git push origin "$dbBranch" -f
+}
+
+run() {
+  local db="events.db"
+  makeDB "$db"
+  commitDB "$db"
 
 }
 
