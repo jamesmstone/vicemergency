@@ -15,6 +15,9 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl https://emergency.vic.gov.au/public/events-geojson.json > events.json
+    - name: Git history
+      run: |-
+        ./run.sh
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
