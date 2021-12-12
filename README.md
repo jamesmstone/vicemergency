@@ -1,6 +1,6 @@
 # vicemergency
 
-Tracking fire data from https://emergency.vic.gov.au/
+Tracking emergency data from https://emergency.vic.gov.au/
 
 This repo archives the latest version of https://emergency.vic.gov.au/public/events-geojson.json every twenty minutes, if it has changed.
 
