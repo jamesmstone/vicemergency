@@ -28,3 +28,50 @@ jobs:
     - name: Git history
       run: |-
         ./run.sh
+    - name: Check out this repo
+      uses: actions/checkout@v2
+      with:
+        path: latest-datasette-with-all-plugins
+    - name: Check out datasette
+      uses: actions/checkout@v2
+      with:
+        repository: simonw/datasette
+        path: datasette
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - uses: actions/cache@v2
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/deploy.yml') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        pwd
+        cd datasette && pip install -e '.[test]'
+        pwd
+    - name: Install all plugins
+      run: |
+        cd latest-datasette-with-all-plugins
+        pip install -r plugins.txt
+        cd ..
+    - name: Test that plugins successfully installed
+      run: |
+        cd latest-datasette-with-all-plugins
+        cat plugins.txt | grep -v '#' | cut -d '>' -f 1 | cut -d '=' -f 1 | sort > plugins-sorted.txt
+        datasette -i ../fixtures.db --get /
+        datasette --get /-/plugins.json | jq '.[].name' -r | sort | diff plugins-sorted.txt -
+    - name: Update pipdeptree.txt
+      run: |
+        pip install pipdeptree
+        pipdeptree > latest-datasette-with-all-plugins/pipdeptree.txt
+    - name: Deploy Datasette using Vercel
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      run: |-
+        datasette publish vercel mydb.db \
+          --token $VERCEL_TOKEN \
+          --project my-vercel-project
