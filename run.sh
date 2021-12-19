@@ -40,10 +40,16 @@ commitDB() {
   git push origin "$dbBranch" -f
 }
 
+
+publishDB() {
+./datasette.sh publish vercel $db --project=vicemergency
+}
+
 run() {
   local db="events.db"
   makeDB "$db"
   commitDB "$db"
+  publishDB "$db"
 
 }
 
