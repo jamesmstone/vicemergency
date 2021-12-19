@@ -42,7 +42,11 @@ commitDB() {
 
 
 publishDB() {
-  ./datasette.sh publish vercel $db --project=vicemergency
+    docker run \
+    -v"$(pwd):/wd" \
+    -w /wd \
+    datasetteproject/datasette \
+    datasette -token $VERCEL_TOKEN --load-extension=spatialite publish vercel "$db" --project=vicemergency
 }
 
 run() {
