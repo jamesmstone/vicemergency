@@ -42,7 +42,7 @@ commitDB() {
 
 
 publishDB() {
-./datasette.sh publish vercel $db --project=vicemergency
+  ./datasette.sh publish vercel $db --project=vicemergency
 }
 
 run() {
