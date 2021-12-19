@@ -45,6 +45,7 @@ publishDB() {
     docker run \
     -v"$(pwd):/wd" \
     -w /wd \
+    --entrypoint=datasette \
     datasetteproject/datasette \
     datasette --token $VERCEL_TOKEN --load-extension=spatialite publish vercel "$db" --project=vicemergency
 }
