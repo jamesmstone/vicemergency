@@ -46,7 +46,7 @@ publishDB() {
     -v"$(pwd):/wd" \
     -w /wd \
     datasetteproject/datasette \
-    datasette -token $VERCEL_TOKEN --load-extension=spatialite publish vercel "$db" --project=vicemergency
+    datasette --token $VERCEL_TOKEN --load-extension=spatialite publish vercel "$db" --project=vicemergency
 }
 
 run() {
