@@ -7,7 +7,7 @@ run() {
     -w /wd \
     datasetteproject/datasette \
     datasette -p 8001 -h 0.0.0.0 "$db" \
-    --load-extension=spatialite
+    --load-extension=spatialite "$@"
 
 }
 
