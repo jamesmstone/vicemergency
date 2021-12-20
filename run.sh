@@ -42,12 +42,13 @@ commitDB() {
 
 
 publishDB() {
+  local dockerDatasette="datasette"
+  docker build --tag "$dockerDatasette" --pull --file datasette.Dockerfile .
     docker run \
     -v"$(pwd):/wd" \
     -w /wd \
-    --entrypoint=datasette \
-    datasetteproject/datasette \
-    datasette --token $VERCEL_TOKEN --load-extension=spatialite publish vercel "$db" --project=vicemergency
+    "$dockerDatasette" \
+    publish vercel "$db" --token $VERCEL_TOKEN --load-extension=spatialite --project=vicemergency
 }
 
 run() {
