@@ -25,6 +25,8 @@ jobs:
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
 
-    - name: Git history
+    - name: build and publish
+      env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       run: |-
         ./run.sh
