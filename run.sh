@@ -1,3 +1,9 @@
+#!/bin/bash
+set -e # Exit with nonzero exit code if anything fails
+#set -x # debug: print commands before they are executed
+set -o pipefail
+set -o errexit
+
 makeDB() {
   local db="$1"
 
