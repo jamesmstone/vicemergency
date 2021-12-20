@@ -36,8 +36,8 @@ commitDB() {
   local dbBranch="db"
   local db="$1"
   local tempDB="$(mktemp)"
-  git branch -D "$dbBranch"
-  git checkout --orphan "$dbBranch"
+  git branch -D "$dbBranch" || true
+  git checkout -b --orphan "$dbBranch"
   mv "$db" "$tempDB"
   rm -rf *
   mv "$tempDB" "$db"
