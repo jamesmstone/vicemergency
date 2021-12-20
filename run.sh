@@ -54,7 +54,7 @@ publishDB() {
     -v"$(pwd):/wd" \
     -w /wd \
     "$dockerDatasette" \
-    publish vercel "$db" --token $VERCEL_TOKEN --load-extension=spatialite --project=vicemergency
+    publish vercel "$db" --token $VERCEL_TOKEN --project=vicemergency
 }
 
 run() {
