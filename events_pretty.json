@@ -1129,33 +1129,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117649906,
+        "status": "Responding",
+        "estaId": 117650149,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 193852,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mills Rd",
-        "eventId": 241207798,
-        "id": "ESTA:241207798",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117650149,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Cape Schanck",
+        "eventId": "S241251189",
+        "id": "ESTA:241251189",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-10T18:05:00.000Z",
-        "updated": "2024-12-10T18:21:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-10T19:17:56.000Z",
+        "updated": "2024-12-10T19:20:14.019Z",
         "resources": 0,
-        "location": "Mills Rd, Warragul",
-        "cfaId": 193852,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Cape Schanck"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.94941227436453,
-          -38.139524096353576
+          144.90422362819032,
+          -38.45977875535185
         ]
       }
     },
@@ -2630,6 +2627,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 193852,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 193852,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mills Rd",
+        "eventId": 241207798,
+        "id": "ESTA:241207798",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-10T18:05:00.000Z",
+        "updated": "2024-12-10T18:21:00.000Z",
+        "resources": 0,
+        "location": "Mills Rd, Warragul",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94941227436453,
+          -38.139524096353576
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "241207803",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241207803",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Watsons Rd",
+        "id": "ESTA:241207803",
+        "eventId": "241207803",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-10T19:17:10.000Z",
+        "updated": "2024-12-10T19:17:10.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Watsons Rd, Newcomb"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.38950210597534,
+          -38.16459892017575
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "241207647",
         "feedType": "incident",
@@ -2864,7 +2919,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2872,7 +2926,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2024-12-13T13:00:00.000Z",
           "heat": {
@@ -2912,7 +2967,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-10T18:52:59.786Z",
-    "featureCount": 147
+    "lastUpdated": "2024-12-10T19:20:19.848Z",
+    "featureCount": 149
   }
 }
