@@ -1128,19 +1128,51 @@
       }
     },
     {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117649906,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 193852,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mills Rd",
+        "eventId": 241207798,
+        "id": "ESTA:241207798",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-10T18:05:00.000Z",
+        "updated": "2024-12-10T18:21:00.000Z",
+        "resources": 2,
+        "location": "Mills Rd, Warragul",
+        "cfaId": 193852,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94941227436453,
+          -38.139524096353576
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/9415625f83f6b40a639ebf2c7711bd59",
+        "sourceId": "IDV20600/f82087bc0b1c5bdac00b140bf4e8b3c6",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/9415625f83f6b40a639ebf2c7711bd59",
+        "id": "IDV20600/f82087bc0b1c5bdac00b140bf4e8b3c6",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2024-12-10T13:00:00.000Z",
+        "created": "2024-12-10T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2598,95 +2630,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 193846,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 193846,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Augustine St",
-        "eventId": 241207787,
-        "id": "ESTA:241207787",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-10T16:43:00.000Z",
-        "updated": "2024-12-10T16:59:00.000Z",
-        "resources": 0,
-        "location": "Augustine St, Cohuna",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2152947654243,
-          -35.80018314335087
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 193847,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 552929,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241207788,
-        "id": "ESTA:241207788",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2024-12-10T16:48:00.000Z",
-        "updated": "2024-12-10T17:33:00.000Z",
-        "resources": 5,
-        "location": "Taradale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 552929
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.37297484819737,
-          -37.10696158924887
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 193841,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241207776",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Trafalgar",
-        "eventId": "241207776",
-        "id": "ESTA:241207776",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-10T17:27:02.000Z",
-        "updated": "2024-12-10T17:27:02.000Z",
-        "resources": 7,
-        "location": "Trafalgar, Trafalgar",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241207776"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.1302486875708,
-          -38.18454110959264
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "241207647",
         "feedType": "incident",
@@ -2716,7 +2659,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 552930,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2728,7 +2671,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2024-12-10T17:18:00.000Z",
-        "updated": "2024-12-10T17:46:00.000Z",
+        "updated": "2024-12-10T17:56:00.000Z",
         "resources": 1,
         "location": "Germantown"
       },
@@ -2921,6 +2864,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2928,8 +2872,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2024-12-13T13:00:00.000Z",
           "heat": {
@@ -2969,7 +2912,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-10T17:50:05.442Z",
-    "featureCount": 149
+    "lastUpdated": "2024-12-10T18:35:20.053Z",
+    "featureCount": 147
   }
 }
