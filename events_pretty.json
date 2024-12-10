@@ -1129,70 +1129,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117648476,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 193837,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Webster St",
-        "eventId": 241207756,
-        "id": "ESTA:241207756",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2024-12-10T12:30:00.000Z",
-        "updated": "2024-12-10T12:30:00.000Z",
-        "resources": 2,
-        "location": "Webster St, Mortlake",
-        "cfaId": 193837,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.8063053206202,
-          -38.07800192802392
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 117648345,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 193836,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Morgan St",
-        "eventId": 241207750,
-        "id": "ESTA:241207750",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-10T12:10:00.000Z",
-        "updated": "2024-12-10T12:32:00.000Z",
-        "resources": 1,
-        "location": "Morgan St, Timboon",
-        "cfaId": 193836,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9791999911718,
-          -38.482333951063666
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 117648301,
         "feedType": "incident",
@@ -1240,7 +1176,7 @@
         "category2": "Non Structure Fire",
         "created": "2024-12-10T12:41:11.000Z",
         "updated": "2024-12-10T12:41:11.000Z",
-        "resources": 1,
+        "resources": 2,
         "location": "Mackenzie St, Golden Square",
         "cfaId": 193838,
         "size": "Small",
@@ -1258,30 +1194,126 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117648547,
+        "status": "Complete",
+        "estaId": 117648125,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117648547,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Shepparton",
-        "eventId": "F241207759",
-        "id": "ESTA:241207759",
+        "source": "",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 552925,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251182,
+        "id": "ESTA:241251182",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2024-12-10T12:42:43.000Z",
-        "updated": "2024-12-10T12:43:00.594Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-10T11:36:00.000Z",
+        "updated": "2024-12-10T12:44:00.000Z",
         "resources": 0,
-        "location": "Tom Collins Dr, Shepparton"
+        "location": "Malvern East",
+        "sesId": 552925
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3926327473937,
-          -36.390920875608565
+          145.06180971274784,
+          -37.877796670428495
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117648322,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 552926,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251183,
+        "id": "ESTA:241251183",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-10T12:04:00.000Z",
+        "updated": "2024-12-10T12:50:00.000Z",
+        "resources": 0,
+        "location": "Endeavour Hills",
+        "sesId": 552926
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24726958917995,
+          -37.96311035438697
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117648547,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241207759",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Tom Collins Dr",
+        "eventId": "241207759",
+        "id": "ESTA:241207759",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-10T12:43:05.000Z",
+        "updated": "2024-12-10T12:43:05.000Z",
+        "resources": 3,
+        "location": "Tom Collins Dr, Shepparton",
+        "cfaId": 193839,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241207759"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39263025561772,
+          -36.390921703440306
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 117648476,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 193837,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Webster St",
+        "eventId": 241207756,
+        "id": "ESTA:241207756",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-10T12:30:00.000Z",
+        "updated": "2024-12-10T12:45:00.000Z",
+        "resources": 2,
+        "location": "Webster St, Mortlake",
+        "cfaId": 193837,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8063053206202,
+          -38.07800192802392
         ]
       }
     },
@@ -1462,29 +1494,29 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "241207647",
+        "cfaId": 193836,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241207647",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bandicoot Ct",
-        "id": "ESTA:241207647",
-        "eventId": "241207647",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 193836,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Morgan St",
+        "eventId": 241207750,
+        "id": "ESTA:241207750",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-10T09:27:37.000Z",
-        "updated": "2024-12-10T09:27:37.000Z",
+        "category2": "Other",
+        "created": "2024-12-10T12:10:00.000Z",
+        "updated": "2024-12-10T12:32:00.000Z",
         "resources": 1,
+        "location": "Morgan St, Timboon",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Bandicoot Ct, Derrimut"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.76232282676804,
-          -37.789785682867006
+          142.9791999911718,
+          -38.482333951063666
         ]
       }
     },
@@ -1519,55 +1551,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 552925,
+        "status": "Under Control",
+        "mfbId": "241207647",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 552925,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251182,
-        "id": "ESTA:241251182",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2024-12-10T11:36:00.000Z",
-        "updated": "2024-12-10T12:22:00.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241207647",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bandicoot Ct",
+        "id": "ESTA:241207647",
+        "eventId": "241207647",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-10T09:27:37.000Z",
+        "updated": "2024-12-10T09:27:37.000Z",
         "resources": 1,
-        "location": "Malvern East"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bandicoot Ct, Derrimut"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06180971274784,
-          -37.877796670428495
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 552926,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 552926,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251183,
-        "id": "ESTA:241251183",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2024-12-10T12:04:00.000Z",
-        "updated": "2024-12-10T12:29:00.000Z",
-        "resources": 1,
-        "location": "Endeavour Hills"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24726958917995,
-          -37.96311035438697
+          144.76232282676804,
+          -37.789785682867006
         ]
       }
     }
@@ -1799,7 +1806,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-10T12:43:05.404Z",
+    "lastUpdated": "2024-12-10T12:51:59.638Z",
     "featureCount": 152
   }
 }
