@@ -961,19 +961,51 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117661788,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208326",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wellington St",
+        "eventId": "241208326",
+        "id": "ESTA:241208326",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-11T18:33:36.000Z",
+        "updated": "2024-12-11T18:33:36.000Z",
+        "resources": 2,
+        "location": "Wellington St, Collingwood",
+        "mfbId": "241208326",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98721381143267,
+          -37.8015984472998
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/6114f1d4bace5218d851e2dae507b269",
+        "sourceId": "IDV20600/a5715b413fee9bfdbf302159919c345b",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/6114f1d4bace5218d851e2dae507b269",
+        "id": "IDV20600/a5715b413fee9bfdbf302159919c345b",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2024-12-11T13:00:00.000Z",
+        "created": "2024-12-11T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2251,86 +2283,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "241208318",
+        "status": "Safe",
+        "cfaId": 194014,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241208318",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Marine Pde",
-        "id": "ESTA:241208318",
-        "eventId": "241208318",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194014,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Margaret St",
+        "eventId": 241208323,
+        "id": "ESTA:241208323",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-11T17:21:16.000Z",
-        "updated": "2024-12-11T17:21:16.000Z",
-        "resources": 3,
+        "category2": "Other",
+        "created": "2024-12-11T18:09:00.000Z",
+        "updated": "2024-12-11T18:16:00.000Z",
+        "resources": 0,
+        "location": "Margaret St, Morwell",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Marine Pde, St Kilda"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97638214971235,
-          -37.86976616647331
+          146.40467072661176,
+          -38.23402842537058
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "241208322",
+        "status": "Responding",
+        "cfaId": 194015,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241208322",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Newlands Rd",
-        "id": "ESTA:241208322",
-        "eventId": "241208322",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194015,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Chetwynd Gr",
+        "eventId": 241208324,
+        "id": "ESTA:241208324",
         "category1": "Other",
         "category2": "Other",
-        "created": "2024-12-11T17:44:14.000Z",
-        "updated": "2024-12-11T17:44:14.000Z",
+        "created": "2024-12-11T18:21:00.000Z",
+        "updated": "2024-12-11T18:21:00.000Z",
         "resources": 1,
+        "location": "Chetwynd Gr, Wollert",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Newlands Rd, Reservoir"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98379177371558,
-          -37.71467616740062
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 553002,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553002,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251255,
-        "id": "ESTA:241251255",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2024-12-11T17:31:00.000Z",
-        "updated": "2024-12-11T17:34:00.000Z",
-        "resources": 0,
-        "location": "Reservoir"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9837878084901,
-          -37.71467876168755
+          145.01098528131232,
+          -37.614683859745874
         ]
       }
     }
@@ -2467,6 +2472,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2474,8 +2480,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2024-12-13T13:00:00.000Z",
           "heat": {
@@ -2562,7 +2567,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-11T17:50:19.914Z",
+    "lastUpdated": "2024-12-11T18:35:25.613Z",
     "featureCount": 150
   }
 }
