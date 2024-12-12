@@ -532,33 +532,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1001461,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Murray Goldfields 66 - Havelock - Bendigo-Maryborough Road",
-        "id": 1001461,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2024-12-11T05:15:00.000Z",
-        "updated": "2024-12-11T22:57:00.000Z",
-        "resources": 0,
-        "size": "3.00",
-        "sizeFmt": "3.00 Ha.",
-        "location": "6.1Kms North East Of Bowenvale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.7709,
-          -36.9607
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Controlled",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
@@ -585,7 +558,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3001207,
@@ -594,8 +567,8 @@
         "id": 3001207,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2024-12-12T03:05:32.000Z",
-        "updated": "2024-12-12T03:05:32.000Z",
+        "created": "2024-12-12T07:05:27.000Z",
+        "updated": "2024-12-12T07:05:27.000Z",
         "resources": 0,
         "size": "8.37",
         "sizeFmt": "8.37 Ha.",
@@ -753,24 +726,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117668688,
+        "status": "Not Yet Under Control",
+        "estaId": 117668976,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 194112,
+        "sourceId": 194115,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Maroondah Hwy",
-        "eventId": 241208723,
-        "id": "ESTA:241208723",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 241208735,
+        "id": "ESTA:241208735",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-12T06:34:00.000Z",
-        "updated": "2024-12-12T06:36:00.000Z",
-        "resources": 0,
-        "location": "Maroondah Hwy, Lilydale",
-        "cfaId": 194112,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-12T06:58:00.000Z",
+        "updated": "2024-12-12T06:58:00.000Z",
+        "resources": 3,
+        "location": "Princes Hwy, Werribee",
+        "cfaId": 194115,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -778,14 +751,110 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.37039344584235,
-          -37.75121033729574
+          144.6989472945496,
+          -37.88567898952983
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Safe",
+        "estaId": 117668955,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208732",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Victoria St",
+        "eventId": "241208732",
+        "id": "ESTA:241208732",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-12T07:15:32.000Z",
+        "updated": "2024-12-12T07:15:32.000Z",
+        "resources": 1,
+        "location": "Victoria St, Templestowe",
+        "mfbId": "241208732",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1445638746134,
+          -37.776887307343785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117669219,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194117,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "James St",
+        "eventId": 241208745,
+        "id": "ESTA:241208745",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-12T07:18:00.000Z",
+        "updated": "2024-12-12T07:20:00.000Z",
+        "resources": 0,
+        "location": "James St, Hastings",
+        "cfaId": 194117,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1883572404602,
+          -38.3149048988944
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117669147,
+        "feedType": "incident",
+        "source": "POL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208744",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Melbourne",
+        "eventId": "241208744",
+        "id": "ESTA:241208744",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-12T07:21:22.000Z",
+        "updated": "2024-12-12T07:21:22.000Z",
+        "resources": 2,
+        "location": "Melbourne, Melbourne",
+        "mfbId": "241208744",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9753360908368,
+          -37.836267168863216
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
         "estaId": 117668885,
         "feedType": "incident",
         "source": "000",
@@ -799,8 +868,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2024-12-12T06:51:00.000Z",
-        "updated": "2024-12-12T06:52:00.000Z",
-        "resources": 0,
+        "updated": "2024-12-12T07:12:00.000Z",
+        "resources": 7,
         "location": "Nar Nar Goon North",
         "cfaId": 194114,
         "size": "Small",
@@ -819,91 +888,34 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 117668743,
+        "status": "Safe",
+        "estaId": 117669104,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194113,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 241208724,
-        "id": "ESTA:241208724",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208740",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Coolabah Dr",
+        "eventId": "241208740",
+        "id": "ESTA:241208740",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-12T06:38:00.000Z",
-        "updated": "2024-12-12T06:41:00.000Z",
-        "resources": 2,
-        "location": "Lilydale",
-        "cfaId": 194113,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-12T07:23:23.000Z",
+        "updated": "2024-12-12T07:23:23.000Z",
+        "resources": 4,
+        "location": "Coolabah Dr, Churchill",
+        "cfaId": 194116,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "241208740"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.37161124014486,
-          -37.750542233502316
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117668908,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117668908,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ocean Grove",
-        "eventId": "F241208730",
-        "id": "ESTA:241208730",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-12T06:50:32.000Z",
-        "updated": "2024-12-12T06:53:26.414Z",
-        "resources": 0,
-        "location": "Orton St, Ocean Grove"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.51875012604373,
-          -38.268939898668386
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117668908,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117668908,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ocean Grove",
-        "eventId": "S241251290",
-        "id": "ESTA:241251290",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2024-12-12T06:50:32.000Z",
-        "updated": "2024-12-12T06:53:26.449Z",
-        "resources": 0,
-        "location": "Orton St, Ocean Grove"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.51875012604373,
-          -38.268939898668386
+          146.41586744864452,
+          -38.30259145684913
         ]
       }
     },
@@ -1257,60 +1269,29 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 194105,
+        "cfaId": 194112,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241208711",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Blackmore Rd",
-        "eventId": "241208711",
-        "id": "ESTA:241208711",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-12T06:23:26.000Z",
-        "updated": "2024-12-12T06:23:26.000Z",
-        "resources": 1,
-        "location": "Blackmore Rd, Mickleham",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194112,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Maroondah Hwy",
+        "eventId": 241208723,
+        "id": "ESTA:241208723",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2024-12-12T06:34:00.000Z",
+        "updated": "2024-12-12T06:36:00.000Z",
+        "resources": 0,
+        "location": "Maroondah Hwy, Lilydale",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241208711"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.904438003703,
-          -37.528252477742
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 194109,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241208720",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Nicklaus Dr",
-        "eventId": "241208720",
-        "id": "ESTA:241208720",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-12T06:34:05.000Z",
-        "updated": "2024-12-12T06:34:05.000Z",
-        "resources": 2,
-        "location": "Nicklaus Dr, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241208720"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70991981627688,
-          -37.865219542473
+          145.37039344584235,
+          -37.75121033729574
         ]
       }
     },
@@ -1319,28 +1300,27 @@
         "status": "Safe",
         "cfaId": 194107,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241208713",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194107,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Inlander Way",
-        "eventId": "241208713",
+        "eventId": 241208713,
         "id": "ESTA:241208713",
         "category1": "Other",
         "category2": "Other",
-        "created": "2024-12-12T06:41:05.000Z",
-        "updated": "2024-12-12T06:41:05.000Z",
-        "resources": 2,
+        "created": "2024-12-12T06:09:00.000Z",
+        "updated": "2024-12-12T06:41:00.000Z",
+        "resources": 0,
         "location": "Inlander Way, Doreen",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241208713"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1225277870389,
-          -37.579364940214006
+          145.1225251307751,
+          -37.57937228652174
         ]
       }
     },
@@ -1359,7 +1339,7 @@
         "category2": "Other",
         "created": "2024-12-12T06:21:00.000Z",
         "updated": "2024-12-12T06:44:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Lilydale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1404,6 +1384,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 194113,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194113,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 241208724,
+        "id": "ESTA:241208724",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-12T06:38:00.000Z",
+        "updated": "2024-12-12T06:53:00.000Z",
+        "resources": 2,
+        "location": "Lilydale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.37161124014486,
+          -37.750542233502316
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 194109,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194109,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nicklaus Dr",
+        "eventId": 241208720,
+        "id": "ESTA:241208720",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-12T06:23:00.000Z",
+        "updated": "2024-12-12T07:21:00.000Z",
+        "resources": 0,
+        "location": "Nicklaus Dr, Hoppers Crossing",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70991636159945,
+          -37.86522106868183
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "241208697",
         "feedType": "incident",
@@ -1434,6 +1472,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "241208730",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208730",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Orton St",
+        "id": "ESTA:241208730",
+        "eventId": "241208730",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-12T07:01:06.000Z",
+        "updated": "2024-12-12T07:01:06.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Orton St, Ocean Grove"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.51874174507026,
+          -38.26894291473119
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "241208726",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1446,7 +1513,7 @@
         "category2": "Other",
         "created": "2024-12-12T06:48:36.000Z",
         "updated": "2024-12-12T06:48:36.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Braybrook, Braybrook"
@@ -1511,6 +1578,33 @@
         "coordinates": [
           145.02136241016095,
           -37.68174590763874
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 553035,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553035,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251290,
+        "id": "ESTA:241251290",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2024-12-12T06:53:00.000Z",
+        "updated": "2024-12-12T07:04:00.000Z",
+        "resources": 1,
+        "location": "Ocean Grove"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.51873941121247,
+          -38.26894689832023
         ]
       }
     }
@@ -1742,7 +1836,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-12T06:53:40.166Z",
-    "featureCount": 166
+    "lastUpdated": "2024-12-12T07:25:19.880Z",
+    "featureCount": 169
   }
 }
