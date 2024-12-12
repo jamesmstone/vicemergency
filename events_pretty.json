@@ -726,7 +726,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 117675335,
         "feedType": "incident",
         "source": "000",
@@ -739,9 +739,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2024-12-12T22:35:19.000Z",
-        "updated": "2024-12-12T22:35:19.000Z",
-        "resources": 2,
+        "created": "2024-12-12T22:40:11.000Z",
+        "updated": "2024-12-12T22:40:11.000Z",
+        "resources": 3,
         "location": "Wheelers Hill, Wheelers Hill",
         "mfbId": "241208997",
         "size": "Small",
@@ -792,32 +792,35 @@
         "estaId": 117675420,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117675420,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Bendigo",
-        "eventId": "F241209001",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209001",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Napier St",
+        "eventId": "241209001",
         "id": "ESTA:241209001",
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2024-12-12T22:37:52.000Z",
-        "updated": "2024-12-12T22:40:33.055Z",
-        "resources": 0,
-        "location": "Napier St, Bendigo"
+        "created": "2024-12-12T22:45:37.000Z",
+        "updated": "2024-12-12T22:45:37.000Z",
+        "resources": 1,
+        "location": "Napier St, Bendigo",
+        "mfbId": "241209001",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.29238654324985,
-          -36.74804279816009
+          144.29238120509024,
+          -36.748043249335566
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
         "estaId": 117675121,
         "feedType": "incident",
         "source": "",
@@ -831,8 +834,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2024-12-12T22:09:00.000Z",
-        "updated": "2024-12-12T22:09:00.000Z",
-        "resources": 1,
+        "updated": "2024-12-12T22:41:00.000Z",
+        "resources": 0,
         "location": "Millers Lane, Lancefield",
         "cfaId": 194184,
         "size": "Small",
@@ -849,30 +852,122 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
         "estaId": 117675430,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117675430,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Dromana",
-        "eventId": "S241251325",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553064,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251325,
         "id": "ESTA:241251325",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2024-12-12T22:38:34.000Z",
-        "updated": "2024-12-12T22:41:11.518Z",
+        "created": "2024-12-12T22:41:00.000Z",
+        "updated": "2024-12-12T22:47:00.000Z",
         "resources": 0,
-        "location": "Caldwell Rd, Dromana"
+        "location": "Dromana",
+        "sesId": 553064
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95957390601353,
-          -38.345334020729126
+          144.9595667288705,
+          -38.34534373660139
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117675449,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209005",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Queensville St",
+        "eventId": "241209005",
+        "id": "ESTA:241209005",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-12T22:43:20.000Z",
+        "updated": "2024-12-12T22:43:20.000Z",
+        "resources": 1,
+        "location": "Queensville St, Kingsville",
+        "mfbId": "241209005",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88348304431258,
+          -37.808372195457544
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117674946,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553062,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251323,
+        "id": "ESTA:241251323",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-12T21:51:00.000Z",
+        "updated": "2024-12-12T22:44:00.000Z",
+        "resources": 0,
+        "location": "Dandenong",
+        "sesId": 553062
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2265872678848,
+          -37.986276252070496
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117675533,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117675533,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Fitzroy",
+        "eventId": "F241209013",
+        "id": "ESTA:241209013",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-12T22:48:42.000Z",
+        "updated": "2024-12-12T22:50:08.259Z",
+        "resources": 0,
+        "location": "Nicholson St, Fitzroy"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97419046172342,
+          -37.80360203853538
         ]
       }
     },
@@ -1254,35 +1349,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 194183,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194183,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Corrigan Rd",
-        "eventId": 241208959,
-        "id": "ESTA:241208959",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-12T21:36:00.000Z",
-        "updated": "2024-12-12T21:45:00.000Z",
-        "resources": 0,
-        "location": "Corrigan Rd, Keysborough",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16363002919206,
-          -37.98818461935175
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 194186,
         "feedType": "incident",
@@ -1383,7 +1449,7 @@
         "category2": "Other",
         "created": "2024-12-12T20:52:00.000Z",
         "updated": "2024-12-12T22:36:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Porter St, Templestowe",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1441,7 +1507,7 @@
         "category2": "Other",
         "created": "2024-12-12T22:21:00.000Z",
         "updated": "2024-12-12T22:37:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Rosedale-Longford Rd, Longford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1506,33 +1572,6 @@
         "coordinates": [
           145.7754232268652,
           -38.34488160979591
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 553062,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553062,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251323,
-        "id": "ESTA:241251323",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2024-12-12T21:51:00.000Z",
-        "updated": "2024-12-12T22:27:00.000Z",
-        "resources": 1,
-        "location": "Dandenong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2265872678848,
-          -37.986276252070496
         ]
       }
     }
@@ -1764,7 +1803,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-12T22:41:19.974Z",
-    "featureCount": 167
+    "lastUpdated": "2024-12-12T22:50:40.395Z",
+    "featureCount": 168
   }
 }
