@@ -726,7 +726,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 117672572,
         "feedType": "incident",
         "source": "000",
@@ -738,9 +738,9 @@
         "id": "ESTA:241208863",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2024-12-12T13:18:00.000Z",
-        "updated": "2024-12-12T13:18:00.000Z",
+        "updated": "2024-12-12T13:44:00.000Z",
         "resources": 1,
         "location": "Gibson St, Korong Vale",
         "cfaId": 194157,
@@ -759,29 +759,94 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117672686,
+        "estaId": 117672775,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117672686,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Altona Meadows",
-        "eventId": "F241208864",
-        "id": "ESTA:241208864",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208866",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Melrose St",
+        "eventId": "241208866",
+        "id": "ESTA:241208866",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2024-12-12T13:31:55.000Z",
-        "updated": "2024-12-12T13:32:20.309Z",
-        "resources": 0,
-        "location": "Hall Av, Altona Meadows"
+        "category2": "Structure Fire",
+        "created": "2024-12-12T13:47:02.000Z",
+        "updated": "2024-12-12T13:47:02.000Z",
+        "resources": 2,
+        "location": "Melrose St, Mont Albert North",
+        "mfbId": "241208866",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.78299879093106,
-          -37.86599227980122
+          145.11354580030297,
+          -37.81118618421678
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117672744,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241208865",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Malvern",
+        "eventId": "241208865",
+        "id": "ESTA:241208865",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-12T13:49:23.000Z",
+        "updated": "2024-12-12T13:49:23.000Z",
+        "resources": 2,
+        "location": "Malvern, Malvern",
+        "mfbId": "241208865",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02770816269197,
+          -37.86615234799455
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "578649",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Walbundrie Rd, Culcairn",
+        "id": "2024-12-12T08:44:00.0000000:578649",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Walbundrie Rd, Culcairn",
+        "location": "Walbundrie Rd, Culcairn 2660",
+        "created": "2024-12-12T08:44:00+11:00",
+        "updated": "2024-12-12T08:44:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.963668823,
+          -35.666034698
         ]
       }
     },
@@ -988,36 +1053,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "578649",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Walbundrie Rd, Culcairn",
-        "id": "2024-12-12T08:44:00.0000000:578649",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Walbundrie Rd, Culcairn",
-        "location": "Walbundrie Rd, Culcairn 2660",
-        "created": "2024-12-12T08:44:00+11:00",
-        "updated": "2024-12-12T08:44:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.963668823,
-          -35.666034698
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1163,30 +1198,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "241208859",
+        "status": "Safe",
+        "mfbId": "241208864",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "241208859",
+        "sourceId": "241208864",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Metelman Ct",
-        "id": "ESTA:241208859",
-        "eventId": "241208859",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-12T13:00:39.000Z",
-        "updated": "2024-12-12T13:00:39.000Z",
+        "sourceTitle": "Hall Av",
+        "id": "ESTA:241208864",
+        "eventId": "241208864",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-12T13:41:58.000Z",
+        "updated": "2024-12-12T13:41:58.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Metelman Ct, Broadmeadows"
+        "location": "Hall Av, Altona Meadows"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93362244539907,
-          -37.69120468875034
+          144.78299466378485,
+          -37.86599551108427
         ]
       }
     },
@@ -1501,7 +1536,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-12T13:33:00.416Z",
-    "featureCount": 158
+    "lastUpdated": "2024-12-12T13:50:25.287Z",
+    "featureCount": 159
   }
 }
