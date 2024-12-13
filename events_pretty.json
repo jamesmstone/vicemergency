@@ -1102,31 +1102,66 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117687417,
+        "status": "Responding",
+        "estaId": 117687686,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553101,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251369,
-        "id": "ESTA:241251369",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194317,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whittlesea-Yea Rd",
+        "eventId": 241209586,
+        "id": "ESTA:241209586",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2024-12-13T18:20:00.000Z",
-        "updated": "2024-12-13T19:19:00.000Z",
-        "resources": 0,
-        "location": "Heathcote",
-        "sesId": 553101
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-13T19:35:00.000Z",
+        "updated": "2024-12-13T19:35:00.000Z",
+        "resources": 2,
+        "location": "Whittlesea-Yea Rd, Flowerdale",
+        "cfaId": 194317,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.73660235460753,
-          -36.9422914980284
+          145.3028859989399,
+          -37.322637365017606
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117687536,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209578",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Colchester Rd",
+        "eventId": "241209578",
+        "id": "ESTA:241209578",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-13T19:42:18.000Z",
+        "updated": "2024-12-13T19:42:18.000Z",
+        "resources": 1,
+        "location": "Colchester Rd, Kilsyth",
+        "cfaId": 194316,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241209578"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30528576462746,
+          -37.81724872428313
         ]
       }
     },
@@ -1157,6 +1192,36 @@
         "coordinates": [
           146.963668823,
           -35.666034698
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "578874",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Swan Hill Rd",
+        "id": "2024-12-14T05:58:00.0000000:578874",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Swan Hill Rd",
+        "location": "Murray Downs Almonds Swan Hill Rd, Murray Downs 2734",
+        "created": "2024-12-14T05:58:00+11:00",
+        "updated": "2024-12-14T05:58:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.643478394,
+          -35.3189468379999
         ]
       }
     },
@@ -1509,36 +1574,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 194316,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241209578",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Colchester Rd",
-        "eventId": "241209578",
-        "id": "ESTA:241209578",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2024-12-13T19:14:19.000Z",
-        "updated": "2024-12-13T19:14:19.000Z",
-        "resources": 3,
-        "location": "Colchester Rd, Kilsyth",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241209578"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.30528576462746,
-          -37.81724872428313
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "241209577",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1551,7 +1586,7 @@
         "category2": "Structure Fire",
         "created": "2024-12-13T19:04:39.000Z",
         "updated": "2024-12-13T19:04:39.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Commercial Rd, South Yarra"
@@ -1649,35 +1684,6 @@
         "coordinates": [
           144.80478349081977,
           -37.74663120550297
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "241209582",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241209582",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melbourne",
-        "id": "ESTA:241209582",
-        "eventId": "241209582",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-13T19:22:31.000Z",
-        "updated": "2024-12-13T19:22:31.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Melbourne, Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95582012792826,
-          -37.814142018121125
         ]
       }
     },
@@ -1963,7 +1969,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-13T19:30:19.894Z",
+    "lastUpdated": "2024-12-13T19:50:25.399Z",
     "featureCount": 165
   }
 }
