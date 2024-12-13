@@ -754,31 +754,187 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117687766,
+        "status": "Responding",
+        "estaId": 117688112,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553103,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241251371,
-        "id": "ESTA:241251371",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194322,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Aitken Av",
+        "eventId": 241209638,
+        "id": "ESTA:241209638",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2024-12-13T20:00:00.000Z",
-        "updated": "2024-12-13T20:43:00.000Z",
-        "resources": 0,
-        "location": "Glen Iris",
-        "sesId": 553103
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-13T21:11:00.000Z",
+        "updated": "2024-12-13T21:11:00.000Z",
+        "resources": 1,
+        "location": "Aitken Av, Donald",
+        "cfaId": 194322,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06017319322194,
-          -37.8517615881946
+          142.97608749629185,
+          -36.36644528980552
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117688024,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194320,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mahony St",
+        "eventId": 241209624,
+        "id": "ESTA:241209624",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-13T20:56:00.000Z",
+        "updated": "2024-12-13T21:15:00.000Z",
+        "resources": 1,
+        "location": "Mahony St, Upwey",
+        "cfaId": 194320,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3318107680389,
+          -37.90672580640892
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117688150,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117688150,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Cobram",
+        "eventId": "S241251374",
+        "id": "ESTA:241251374",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-13T21:17:02.000Z",
+        "updated": "2024-12-13T21:17:57.654Z",
+        "resources": 0,
+        "location": "Rockarama Rd, Cobram"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.66669130540788,
+          -35.913146380849085
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117688169,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209644",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lockwood Rd",
+        "eventId": "241209644",
+        "id": "ESTA:241209644",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-13T21:20:42.000Z",
+        "updated": "2024-12-13T21:20:42.000Z",
+        "resources": 1,
+        "location": "Lockwood Rd, Kangaroo Flat",
+        "cfaId": 194323,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241209644"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.23086562585158,
+          -36.797878372349224
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "578649",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Walbundrie Rd, Culcairn",
+        "id": "2024-12-13T21:13:00.0000000:578649",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Walbundrie Rd, Culcairn",
+        "location": "Walbundrie Rd, Culcairn 2660",
+        "created": "2024-12-13T21:13:00+11:00",
+        "updated": "2024-12-13T21:13:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.963668823,
+          -35.666034698
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "578874",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Swan Hill Rd",
+        "id": "2024-12-14T05:58:00.0000000:578874",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Swan Hill Rd",
+        "location": "Murray Downs Almonds Swan Hill Rd, Murray Downs 2734",
+        "created": "2024-12-14T05:58:00+11:00",
+        "updated": "2024-12-14T05:58:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.643478394,
+          -35.3189468379999
         ]
       }
     },
@@ -1015,60 +1171,116 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 193718,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "578649",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Walbundrie Rd, Culcairn",
-        "id": "2024-12-13T21:13:00.0000000:578649",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Walbundrie Rd, Culcairn",
-        "location": "Walbundrie Rd, Culcairn 2660",
-        "created": "2024-12-13T21:13:00+11:00",
-        "updated": "2024-12-13T21:13:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 193718,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burrumbite Rd",
+        "eventId": 241207316,
+        "id": "ESTA:241207316",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-09T21:39:00.000Z",
+        "updated": "2024-12-13T04:25:00.000Z",
+        "resources": 1,
+        "location": "Burrumbite Rd, Coonooer West",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.963668823,
-          -35.666034698
+          143.26068668701316,
+          -36.40696812008453
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 194186,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "578874",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Swan Hill Rd",
-        "id": "2024-12-14T05:58:00.0000000:578874",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Swan Hill Rd",
-        "location": "Murray Downs Almonds Swan Hill Rd, Murray Downs 2734",
-        "created": "2024-12-14T05:58:00+11:00",
-        "updated": "2024-12-14T05:58:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194186,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 241208979,
+        "id": "ESTA:241208979",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-12T22:11:00.000Z",
+        "updated": "2024-12-13T04:54:00.000Z",
+        "resources": 0,
+        "location": "Claretown",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.643478394,
-          -35.3189468379999
+          144.0374478716255,
+          -37.50648600624789
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 194318,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194318,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kerr St",
+        "eventId": 241209591,
+        "id": "ESTA:241209591",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-13T20:06:00.000Z",
+        "updated": "2024-12-13T20:29:00.000Z",
+        "resources": 0,
+        "location": "Kerr St, Lilydale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33748655568564,
+          -37.75180508194945
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 194321,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194321,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ogilvies Rd",
+        "eventId": 241209635,
+        "id": "ESTA:241209635",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-13T21:07:00.000Z",
+        "updated": "2024-12-13T21:07:00.000Z",
+        "resources": 1,
+        "location": "Ogilvies Rd, Mansfield",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1074967436053,
+          -37.078119378434536
         ]
       }
     },
@@ -1163,151 +1375,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 193718,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 193718,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Burrumbite Rd",
-        "eventId": 241207316,
-        "id": "ESTA:241207316",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-09T21:39:00.000Z",
-        "updated": "2024-12-13T04:25:00.000Z",
-        "resources": 1,
-        "location": "Burrumbite Rd, Coonooer West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.26068668701316,
-          -36.40696812008453
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 194186,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194186,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 241208979,
-        "id": "ESTA:241208979",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-12T22:11:00.000Z",
-        "updated": "2024-12-13T04:54:00.000Z",
-        "resources": 0,
-        "location": "Claretown",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.0374478716255,
-          -37.50648600624789
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 194318,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194318,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kerr St",
-        "eventId": 241209591,
-        "id": "ESTA:241209591",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-13T20:06:00.000Z",
-        "updated": "2024-12-13T20:29:00.000Z",
-        "resources": 0,
-        "location": "Kerr St, Lilydale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.33748655568564,
-          -37.75180508194945
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 194319,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194319,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Graham St",
-        "eventId": 241209617,
-        "id": "ESTA:241209617",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-13T20:44:00.000Z",
-        "updated": "2024-12-13T20:44:00.000Z",
-        "resources": 2,
-        "location": "Graham St, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.40463287121491,
-          -36.36264553179634
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "241209610",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241209610",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Langridge St",
-        "id": "ESTA:241209610",
-        "eventId": "241209610",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-13T20:45:39.000Z",
-        "updated": "2024-12-13T20:45:39.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Langridge St, Collingwood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98738334493856,
-          -37.8063738080877
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "241209604",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1331,6 +1398,35 @@
         "coordinates": [
           145.09023632467768,
           -37.8828708865324
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "241209621",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209621",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Beaufort Rd",
+        "id": "ESTA:241209621",
+        "eventId": "241209621",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-13T21:03:32.000Z",
+        "updated": "2024-12-13T21:03:32.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Beaufort Rd, Croydon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25772823558793,
+          -37.796582987102965
         ]
       }
     },
@@ -1366,35 +1462,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "241209580",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241209580",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sunshine West",
-        "id": "ESTA:241209580",
-        "eventId": "241209580",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-13T19:12:00.000Z",
-        "updated": "2024-12-13T19:12:00.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Sunshine West, Sunshine West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.79104566194079,
-          -37.78637925043089
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "241209546",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1418,6 +1485,35 @@
         "coordinates": [
           144.80478349081977,
           -37.74663120550297
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "241209636",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241209636",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heidelberg",
+        "id": "ESTA:241209636",
+        "eventId": "241209636",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-13T21:16:29.000Z",
+        "updated": "2024-12-13T21:16:29.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Heidelberg, Heidelberg"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07032394039229,
+          -37.75269828046098
         ]
       }
     },
@@ -1676,7 +1772,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-13T20:50:25.497Z",
-    "featureCount": 165
+    "lastUpdated": "2024-12-13T21:22:59.831Z",
+    "featureCount": 168
   }
 }
