@@ -810,23 +810,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117695494,
+        "estaId": 117695579,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 194437,
+        "sourceId": 194440,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Paynesville Rd",
-        "eventId": 241210260,
-        "id": "ESTA:241210260",
+        "sourceTitle": "Monbulk Rd",
+        "eventId": 241210266,
+        "id": "ESTA:241210266",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-14T09:06:00.000Z",
-        "updated": "2024-12-14T09:22:00.000Z",
-        "resources": 1,
-        "location": "Paynesville Rd, Paynesville",
-        "cfaId": 194437,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2024-12-14T09:12:00.000Z",
+        "updated": "2024-12-14T09:45:00.000Z",
+        "resources": 4,
+        "location": "Monbulk Rd, Silvan",
+        "cfaId": 194440,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -834,14 +834,76 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.70227747300103,
-          -37.90490885264158
+          145.42789105847342,
+          -37.83124624792859
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 117695964,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241210275",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Airport West",
+        "eventId": "241210275",
+        "id": "ESTA:241210275",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-14T09:47:08.000Z",
+        "updated": "2024-12-14T09:47:08.000Z",
+        "resources": 1,
+        "location": "Airport West, Airport West",
+        "mfbId": "241210275",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86983209435215,
+          -37.723004259942755
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 117696001,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553142,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241251414,
+        "id": "ESTA:241251414",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-14T09:48:00.000Z",
+        "updated": "2024-12-14T09:49:00.000Z",
+        "resources": 0,
+        "location": "Seaford",
+        "sesId": 553142
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13377055220815,
+          -38.12652097626018
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 117695692,
         "feedType": "incident",
         "source": "000",
@@ -873,33 +935,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 117695579,
+        "status": "Safe",
+        "estaId": 117695998,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194440,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Monbulk Rd",
-        "eventId": 241210266,
-        "id": "ESTA:241210266",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117695998,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Oakleigh South",
+        "eventId": "F241210276",
+        "id": "ESTA:241210276",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2024-12-14T09:12:00.000Z",
-        "updated": "2024-12-14T09:29:00.000Z",
-        "resources": 4,
-        "location": "Monbulk Rd, Silvan",
-        "cfaId": 194440,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Structure Fire",
+        "created": "2024-12-14T09:46:58.000Z",
+        "updated": "2024-12-14T09:49:40.664Z",
+        "resources": 3,
+        "location": "Oakleigh South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.42789105847342,
-          -37.83124624792859
+          145.07969897652643,
+          -37.93858103391201
         ]
       }
     },
@@ -1341,6 +1400,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 194437,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 194437,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Paynesville Rd",
+        "eventId": 241210260,
+        "id": "ESTA:241210260",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2024-12-14T09:06:00.000Z",
+        "updated": "2024-12-14T09:22:00.000Z",
+        "resources": 1,
+        "location": "Paynesville Rd, Paynesville",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.70227747300103,
+          -37.90490885264158
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "241210251",
         "feedType": "incident",
@@ -1596,7 +1684,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-14T09:35:20.000Z",
-    "featureCount": 164
+    "lastUpdated": "2024-12-14T09:50:20.344Z",
+    "featureCount": 167
   }
 }
