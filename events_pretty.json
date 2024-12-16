@@ -1545,7 +1545,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1001605,
@@ -1555,10 +1555,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2024-12-16T11:29:00.000Z",
-        "updated": "2024-12-16T13:38:00.000Z",
-        "resources": 3,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "updated": "2024-12-16T15:01:00.000Z",
+        "resources": 4,
+        "size": "5.00",
+        "sizeFmt": "5.00 Ha.",
         "location": "7Km West Of Dorodong"
       },
       "type": "Feature",
@@ -1593,32 +1593,6 @@
         "coordinates": [
           140.844297520028,
           -37.341355957813
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Contained",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1617648",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Kongal Rd/Carew Rd , Kongal",
-        "id": "1617648",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Kongal Rd/Carew Rd , Kongal",
-        "created": "2024-12-16T08:41:00.000Z",
-        "updated": "2024-12-16T08:41:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Kongal Rd/Carew Rd , Kongal"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.480467970019,
-          -36.3501970423593
         ]
       }
     },
@@ -1849,55 +1823,89 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117723540,
+        "estaId": 117723866,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194917,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stella Av",
-        "eventId": 241211370,
-        "id": "ESTA:241211370",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241211380",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bennet St",
+        "eventId": "241211380",
+        "id": "ESTA:241211380",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-16T14:01:00.000Z",
-        "updated": "2024-12-16T14:15:00.000Z",
-        "resources": 0,
-        "location": "Stella Av, Noble Park",
-        "cfaId": 194917,
+        "category2": "Non Structure Fire",
+        "created": "2024-12-16T15:17:09.000Z",
+        "updated": "2024-12-16T15:17:09.000Z",
+        "resources": 2,
+        "location": "Bennet St, Dandenong",
+        "cfaId": 194925,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "241211380"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17773771654637,
-          -37.97485034433665
+          145.19890990949997,
+          -37.98591789143321
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 117721833,
+        "status": "Responding",
+        "estaId": 117723929,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241211382",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Young St",
+        "eventId": "241211382",
+        "id": "ESTA:241211382",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-16T15:21:02.000Z",
+        "updated": "2024-12-16T15:21:02.000Z",
+        "resources": 2,
+        "location": "Young St, Frankston",
+        "cfaId": 194926,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241211382"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12298316788798,
+          -38.14583033620119
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117723591,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 194894,
+        "sourceId": 194922,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Newmans Rd",
-        "eventId": 241211316,
-        "id": "ESTA:241211316",
+        "sourceTitle": "Ararat Rd",
+        "eventId": 241211375,
+        "id": "ESTA:241211375",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2024-12-16T10:13:00.000Z",
-        "updated": "2024-12-16T14:48:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-16T14:10:00.000Z",
+        "updated": "2024-12-16T15:07:00.000Z",
         "resources": 0,
-        "location": "Newmans Rd, Dergholm",
-        "cfaId": 194894,
+        "location": "Ararat Rd, Stawell",
+        "cfaId": 194922,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1905,8 +1913,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.14813210842647,
-          -37.34746307394027
+          142.7729282180367,
+          -37.072605524096524
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117723554,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117723554,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Officer",
+        "eventId": "F241211373",
+        "id": "ESTA:241211373",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-16T14:01:03.000Z",
+        "updated": "2024-12-16T15:26:25.076Z",
+        "resources": 0,
+        "location": "Cardinia Rd, Officer"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.43324322796633,
+          -38.08293752139714
         ]
       }
     },
@@ -4224,64 +4261,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 194921,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194921,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Winterley Rd",
-        "eventId": 241211374,
-        "id": "ESTA:241211374",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-16T14:05:00.000Z",
-        "updated": "2024-12-16T14:07:00.000Z",
-        "resources": 0,
-        "location": "Winterley Rd, Point Lonsdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.60881022328644,
-          -38.288911425732614
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 194920,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194920,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cardinia Rd",
-        "eventId": 241211373,
-        "id": "ESTA:241211373",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-16T14:03:00.000Z",
-        "updated": "2024-12-16T14:22:00.000Z",
-        "resources": 2,
-        "location": "Cardinia Rd, Officer",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.43323315446412,
-          -38.08294534431477
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 194918,
         "feedType": "incident",
@@ -4313,49 +4292,20 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 194922,
+        "cfaId": 194894,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 194922,
+        "sourceId": 194894,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ararat Rd",
-        "eventId": 241211375,
-        "id": "ESTA:241211375",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2024-12-16T14:10:00.000Z",
-        "updated": "2024-12-16T14:26:00.000Z",
-        "resources": 2,
-        "location": "Ararat Rd, Stawell",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.7729282180367,
-          -37.072605524096524
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 194924,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 194924,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Brougham St",
-        "eventId": 241211379,
-        "id": "ESTA:241211379",
+        "sourceTitle": "Newmans Rd",
+        "eventId": 241211316,
+        "id": "ESTA:241211316",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-16T14:37:00.000Z",
-        "updated": "2024-12-16T14:37:00.000Z",
-        "resources": 4,
-        "location": "Brougham St, Geelong",
+        "category2": "Bushfire",
+        "created": "2024-12-16T10:13:00.000Z",
+        "updated": "2024-12-16T14:48:00.000Z",
+        "resources": 0,
+        "location": "Newmans Rd, Dergholm",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4363,8 +4313,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.36224718437992,
-          -38.14514428914021
+          141.14813210842647,
+          -37.34746307394027
         ]
       }
     },
@@ -4383,7 +4333,7 @@
         "category2": "Structure Fire",
         "created": "2024-12-16T08:19:19.000Z",
         "updated": "2024-12-16T08:19:19.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Chapman St, North Melbourne"
@@ -6664,7 +6614,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-16T14:50:19.975Z",
-    "featureCount": 194
+    "lastUpdated": "2024-12-16T15:27:25.703Z",
+    "featureCount": 192
   }
 }
