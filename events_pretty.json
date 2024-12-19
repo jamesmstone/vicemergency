@@ -1360,23 +1360,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117763554,
+        "estaId": 117763701,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241213283",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Niddrie",
-        "eventId": "241213283",
-        "id": "ESTA:241213283",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195525,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 241213291,
+        "id": "ESTA:241213291",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-19T22:14:50.000Z",
-        "updated": "2024-12-19T22:14:50.000Z",
-        "resources": 1,
-        "location": "Niddrie, Niddrie",
-        "mfbId": "241213283",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2024-12-19T22:28:00.000Z",
+        "updated": "2024-12-19T22:28:00.000Z",
+        "resources": 0,
+        "location": "Yarragon",
+        "cfaId": 195525,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1384,8 +1384,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8890517453553,
-          -37.73603454887009
+          146.06695286235808,
+          -38.2070908438164
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117763730,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195526,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Western Port Hwy",
+        "eventId": 241213292,
+        "id": "ESTA:241213292",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-19T22:32:00.000Z",
+        "updated": "2024-12-19T22:32:00.000Z",
+        "resources": 1,
+        "location": "Western Port Hwy, Pearcedale",
+        "cfaId": 195526,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22038375169225,
+          -38.178051139462966
         ]
       }
     },
@@ -2471,35 +2503,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 195505,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195505,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Goulburn Valley Hwy",
-        "eventId": 241213220,
-        "id": "ESTA:241213220",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-19T20:28:00.000Z",
-        "updated": "2024-12-19T21:26:00.000Z",
-        "resources": 0,
-        "location": "Goulburn Valley Hwy, Kerrisdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25328321740463,
-          -37.143504131582056
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "cfaId": 195519,
         "feedType": "incident",
@@ -2587,36 +2590,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 195511,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553670,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241213245,
-        "id": "ESTA:241213245",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2024-12-19T21:25:00.000Z",
-        "updated": "2024-12-19T22:18:00.000Z",
-        "resources": 8,
-        "location": "Reedy Lake",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 553670
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.84420599503204,
-          -35.65112354036295
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 195524,
         "feedType": "incident",
@@ -2676,30 +2649,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "241213263",
+        "status": "On Scene",
+        "cfaId": 195511,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241213263",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Serpells Rd",
-        "id": "ESTA:241213263",
-        "eventId": "241213263",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-19T22:01:27.000Z",
-        "updated": "2024-12-19T22:01:27.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553670,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241213245,
+        "id": "ESTA:241213245",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2024-12-19T21:25:00.000Z",
+        "updated": "2024-12-19T22:18:00.000Z",
+        "resources": 8,
+        "location": "Reedy Lake",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Serpells Rd, Templestowe"
+        "sesId": 553670
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1300265310534,
-          -37.75953224214359
+          143.84420599503204,
+          -35.65112354036295
         ]
       }
     },
@@ -2718,7 +2692,7 @@
         "category2": "Structure Fire",
         "created": "2024-12-19T21:09:26.000Z",
         "updated": "2024-12-19T21:09:26.000Z",
-        "resources": 2,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Walker St, Coburg"
@@ -2763,59 +2737,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "241213273",
+        "status": "Responding",
+        "mfbId": "241213294",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "241213273",
+        "sourceId": "241213294",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Northcote",
-        "id": "ESTA:241213273",
-        "eventId": "241213273",
+        "sourceTitle": "Golf Rd",
+        "id": "ESTA:241213294",
+        "eventId": "241213294",
         "category1": "Other",
         "category2": "Other",
-        "created": "2024-12-19T22:03:38.000Z",
-        "updated": "2024-12-19T22:03:38.000Z",
+        "created": "2024-12-19T22:35:35.000Z",
+        "updated": "2024-12-19T22:35:35.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Northcote, Northcote"
+        "location": "Golf Rd, Oakleigh South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00962715303942,
-          -37.784083064736784
+          145.08784493735342,
+          -37.91833487968645
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "241213198",
+        "mfbId": "241213283",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "241213198",
+        "sourceId": "241213283",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bangs St",
-        "id": "ESTA:241213198",
-        "eventId": "241213198",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-19T20:55:10.000Z",
-        "updated": "2024-12-19T20:55:10.000Z",
-        "resources": 0,
+        "sourceTitle": "Niddrie",
+        "id": "ESTA:241213283",
+        "eventId": "241213283",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-19T22:31:06.000Z",
+        "updated": "2024-12-19T22:31:06.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Bangs St, Prahran"
+        "location": "Niddrie, Niddrie"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99677295380434,
-          -37.85100089552438
+          144.8890517453553,
+          -37.73603454887009
         ]
       }
     },
@@ -2901,33 +2875,6 @@
         "coordinates": [
           145.1299091900026,
           -37.75910229958625
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 553671,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553671,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241213256,
-        "id": "ESTA:241213256",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2024-12-19T21:32:00.000Z",
-        "updated": "2024-12-19T22:12:00.000Z",
-        "resources": 2,
-        "location": "Bendigo"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.29073667137664,
-          -36.74978685012251
         ]
       }
     },
@@ -5144,7 +5091,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-19T22:23:40.228Z",
-    "featureCount": 212
+    "lastUpdated": "2024-12-19T22:37:00.158Z",
+    "featureCount": 210
   }
 }
