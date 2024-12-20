@@ -1714,36 +1714,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117775812,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117775812,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Clyde",
-        "eventId": "F241213923",
-        "id": "ESTA:241213923",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-20T15:57:37.000Z",
-        "updated": "2024-12-20T16:41:25.950Z",
-        "resources": 0,
-        "location": "Clyde"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.37969844331337,
-          -38.14042883111729
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 117776047,
         "feedType": "incident",
         "source": "000",
@@ -1755,10 +1726,10 @@
         "id": "ESTA:241213932",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Building Fire",
         "created": "2024-12-20T16:44:00.000Z",
-        "updated": "2024-12-20T16:44:00.000Z",
-        "resources": 0,
+        "updated": "2024-12-20T17:09:00.000Z",
+        "resources": 7,
         "location": "Church St, Hastings",
         "cfaId": 195786,
         "size": "Small",
@@ -1770,6 +1741,71 @@
         "coordinates": [
           145.1859343794136,
           -38.30564881210599
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117776158,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195788,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tulong St",
+        "eventId": 241213934,
+        "id": "ESTA:241213934",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-20T17:09:00.000Z",
+        "updated": "2024-12-20T17:11:00.000Z",
+        "resources": 0,
+        "location": "Tulong St, Hurstbridge",
+        "cfaId": 195788,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20708428100335,
+          -37.635392386704574
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 117776118,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241213933",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Old Geelong Rd",
+        "eventId": "241213933",
+        "id": "ESTA:241213933",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-20T17:13:32.000Z",
+        "updated": "2024-12-20T17:13:32.000Z",
+        "resources": 3,
+        "location": "Old Geelong Rd, Hoppers Crossing",
+        "cfaId": 195787,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241213933"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70368704121978,
+          -37.88089950018813
         ]
       }
     },
@@ -2467,6 +2503,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "580676",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hume Hwy, Kyeamba",
+        "id": "2024-12-21T04:00:00.0000000:580676",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Hume Hwy, Kyeamba",
+        "location": "Hume Hwy, Kyeamba 2650",
+        "created": "2024-12-21T04:00:00+11:00",
+        "updated": "2024-12-21T04:00:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.559997558,
+          -35.516101837
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -2714,66 +2780,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 195780,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553792,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241213922,
-        "id": "ESTA:241213922",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2024-12-20T16:00:00.000Z",
-        "updated": "2024-12-20T16:29:00.000Z",
-        "resources": 8,
-        "location": "Clyde",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241213922",
-        "sesId": 553792
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38173038845318,
-          -38.14089648409077
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 195785,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195785,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gilchrist St",
-        "eventId": 241213929,
-        "id": "ESTA:241213929",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-20T16:15:00.000Z",
-        "updated": "2024-12-20T16:24:00.000Z",
-        "resources": 0,
-        "location": "Gilchrist St, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.41731818903625,
-          -36.38840601484535
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
@@ -2979,88 +2985,61 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 195778,
+        "status": "On Scene",
+        "cfaId": 195780,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195778,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Epsom-Barnadown Rd",
-        "eventId": 241213917,
-        "id": "ESTA:241213917",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2024-12-20T15:25:00.000Z",
-        "updated": "2024-12-20T15:59:00.000Z",
-        "resources": 0,
-        "location": "Epsom-Barnadown Rd, Wellsford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3575695145921,
-          -36.68877385357794
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 195783,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195783,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Deakin Av",
-        "eventId": 241213925,
-        "id": "ESTA:241213925",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-20T16:04:00.000Z",
-        "updated": "2024-12-20T16:14:00.000Z",
-        "resources": 0,
-        "location": "Deakin Av, Mildura",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.14879475155416,
-          -34.19604647761342
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "241213931",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241213931",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bingo St",
-        "id": "ESTA:241213931",
-        "eventId": "241213931",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-20T16:42:16.000Z",
-        "updated": "2024-12-20T16:42:16.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553792,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241213922,
+        "id": "ESTA:241213922",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2024-12-20T16:00:00.000Z",
+        "updated": "2024-12-20T16:29:00.000Z",
+        "resources": 5,
+        "location": "Clyde",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Bingo St, Preston"
+        "mfbId": "241213922",
+        "sesId": 553792
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01975631283773,
-          -37.75016736859002
+          145.38173038845318,
+          -38.14089648409077
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 195785,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195785,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gilchrist St",
+        "eventId": 241213929,
+        "id": "ESTA:241213929",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-20T16:15:00.000Z",
+        "updated": "2024-12-20T16:24:00.000Z",
+        "resources": 0,
+        "location": "Gilchrist St, Shepparton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41731818903625,
+          -36.38840601484535
         ]
       }
     },
@@ -3088,6 +3067,33 @@
         "coordinates": [
           141.65901431060334,
           -36.87462543042697
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 553793,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 553793,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241252083,
+        "id": "ESTA:241252083",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-20T17:07:00.000Z",
+        "updated": "2024-12-20T17:11:00.000Z",
+        "resources": 0,
+        "location": "Hurstbridge"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20708428100335,
+          -37.635392386704574
         ]
       }
     }
@@ -3319,7 +3325,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-20T16:50:05.643Z",
-    "featureCount": 228
+    "lastUpdated": "2024-12-20T17:21:25.839Z",
+    "featureCount": 227
   }
 }
