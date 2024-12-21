@@ -2058,64 +2058,70 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117787138,
+        "estaId": 117787378,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117787138,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "North Melbourne",
-        "eventId": "F241214806",
-        "id": "ESTA:241214806",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195980,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Olive Rd",
+        "eventId": 241214815,
+        "id": "ESTA:241214815",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-21T13:18:18.000Z",
-        "updated": "2024-12-21T13:18:33.935Z",
-        "resources": 0,
-        "location": "Haines St, North Melbourne"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-21T13:42:00.000Z",
+        "updated": "2024-12-21T13:42:00.000Z",
+        "resources": 3,
+        "location": "Olive Rd, Lynbrook",
+        "cfaId": 195980,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94365166520694,
-          -37.798479002266596
+          145.2602920797083,
+          -38.045492045230816
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117786504,
+        "estaId": 117787344,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117786504,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Warragul",
-        "eventId": "F241214785",
-        "id": "ESTA:241214785",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241214812",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ringwood",
+        "eventId": "241214812",
+        "id": "ESTA:241214812",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-21T12:15:13.000Z",
-        "updated": "2024-12-21T13:19:10.756Z",
-        "resources": 0,
-        "location": "Pharaohs Rd, Warragul"
+        "category2": "Non Structure Fire",
+        "created": "2024-12-21T13:44:05.000Z",
+        "updated": "2024-12-21T13:44:05.000Z",
+        "resources": 2,
+        "location": "Ringwood, Ringwood",
+        "mfbId": "241214812",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.91968776575638,
-          -38.1462006436457
+          145.2242322932282,
+          -37.8158417753985
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 117787194,
         "feedType": "incident",
         "source": "000",
@@ -2129,8 +2135,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2024-12-21T13:24:00.000Z",
-        "updated": "2024-12-21T13:24:00.000Z",
-        "resources": 1,
+        "updated": "2024-12-21T13:44:00.000Z",
+        "resources": 7,
         "location": "Hilldene",
         "cfaId": 195979,
         "size": "Small",
@@ -2140,8 +2146,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06807395612128,
-          -37.03117668032744
+          145.06820172584105,
+          -37.03145816308162
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117787318,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241214811",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elizabeth St",
+        "eventId": "241214811",
+        "id": "ESTA:241214811",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-21T13:47:10.000Z",
+        "updated": "2024-12-21T13:47:10.000Z",
+        "resources": 2,
+        "location": "Elizabeth St, Melbourne",
+        "mfbId": "241214811",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95838173486462,
+          -37.80286233286694
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117787349,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241214813",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rotino Cr",
+        "eventId": "241214813",
+        "id": "ESTA:241214813",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-21T13:48:46.000Z",
+        "updated": "2024-12-21T13:48:46.000Z",
+        "resources": 2,
+        "location": "Rotino Cr, Lalor",
+        "mfbId": "241214813",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9849469591555,
+          -37.6664071411769
         ]
       }
     },
@@ -3959,20 +4029,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 195970,
+        "cfaId": 195977,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 195970,
+        "sourceId": 195977,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mcclelland Av",
-        "eventId": 241214782,
-        "id": "ESTA:241214782",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-21T12:06:00.000Z",
-        "updated": "2024-12-21T12:40:00.000Z",
+        "sourceTitle": "Whitfield Cr",
+        "eventId": 241214800,
+        "id": "ESTA:241214800",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-21T12:54:00.000Z",
+        "updated": "2024-12-21T13:36:00.000Z",
         "resources": 0,
-        "location": "Mcclelland Av, Lara",
+        "location": "Whitfield Cr, Craigieburn",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3980,43 +4050,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.42667676092336,
-          -38.02586879115332
+          144.89346078594315,
+          -37.590510300464786
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 195975,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195975,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Station Creek Way",
-        "eventId": 241214791,
-        "id": "ESTA:241214791",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2024-12-21T12:34:00.000Z",
-        "updated": "2024-12-21T12:46:00.000Z",
-        "resources": 0,
-        "location": "Station Creek Way, Botanic Ridge",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24881016421628,
-          -38.14609077582293
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
         "cfaId": 195978,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4025,11 +4066,11 @@
         "sourceTitle": "Foster St",
         "eventId": 241214801,
         "id": "ESTA:241214801",
-        "category1": "Fire",
-        "category2": "Building Fire",
+        "category1": "Other",
+        "category2": "Other",
         "created": "2024-12-21T12:59:00.000Z",
-        "updated": "2024-12-21T12:59:00.000Z",
-        "resources": 1,
+        "updated": "2024-12-21T13:40:00.000Z",
+        "resources": 0,
         "location": "Foster St, Sale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4040,36 +4081,6 @@
         "coordinates": [
           147.06296779661994,
           -38.11181394602367
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 195977,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241214800",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Whitfield Cr",
-        "eventId": "241214800",
-        "id": "ESTA:241214800",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-21T13:04:08.000Z",
-        "updated": "2024-12-21T13:04:08.000Z",
-        "resources": 1,
-        "location": "Whitfield Cr, Craigieburn",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241214800"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89346600321898,
-          -37.59050863907654
         ]
       }
     },
@@ -4088,7 +4099,7 @@
         "category2": "Structure Fire",
         "created": "2024-12-21T08:31:04.000Z",
         "updated": "2024-12-21T08:31:04.000Z",
-        "resources": 5,
+        "resources": 4,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Hocking St, Coburg North"
@@ -4115,9 +4126,9 @@
         "eventId": "241214805",
         "category1": "Other",
         "category2": "Other",
-        "created": "2024-12-21T13:30:23.000Z",
-        "updated": "2024-12-21T13:30:23.000Z",
-        "resources": 1,
+        "created": "2024-12-21T13:37:03.000Z",
+        "updated": "2024-12-21T13:37:03.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Haines St, North Melbourne"
@@ -4359,7 +4370,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-21T13:33:20.318Z",
+    "lastUpdated": "2024-12-21T13:50:20.203Z",
     "featureCount": 245
   }
 }
