@@ -1749,6 +1749,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1618455",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Robertson Street, Naracoorte",
+        "id": "1618455",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Robertson Street, Naracoorte",
+        "created": "2024-12-21T15:30:00.000Z",
+        "updated": "2024-12-21T15:30:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Robertson Street, Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.743158840943,
+          -36.9573016842091
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2052,6 +2078,71 @@
         "coordinates": [
           142.4535946,
           -37.6202315
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117788285,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241214833",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Kilda East",
+        "eventId": "241214833",
+        "id": "ESTA:241214833",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-21T15:38:49.000Z",
+        "updated": "2024-12-21T15:38:49.000Z",
+        "resources": 1,
+        "location": "St Kilda East, St Kilda East",
+        "mfbId": "241214833",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00132959622746,
+          -37.8591819081705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117788338,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241214834",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Davey St",
+        "eventId": "241214834",
+        "id": "ESTA:241214834",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-21T15:43:31.000Z",
+        "updated": "2024-12-21T15:43:31.000Z",
+        "resources": 2,
+        "location": "Davey St, Frankston",
+        "cfaId": 195985,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241214834"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12360086995128,
+          -38.146865698759356
         ]
       }
     },
@@ -3868,7 +3959,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 195983,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 195983,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tideswell St",
+        "eventId": 241214824,
+        "id": "ESTA:241214824",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-21T14:52:00.000Z",
+        "updated": "2024-12-21T15:19:00.000Z",
+        "resources": 0,
+        "location": "Tideswell St, Clyde North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3418020813558,
+          -38.08048295363582
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 195984,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3877,10 +3997,10 @@
         "sourceTitle": "",
         "eventId": 241214829,
         "id": "ESTA:241214829",
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
         "created": "2024-12-21T15:15:00.000Z",
-        "updated": "2024-12-21T15:15:00.000Z",
+        "updated": "2024-12-21T15:32:00.000Z",
         "resources": 1,
         "location": "Longwarry",
         "size": "Small",
@@ -3897,36 +4017,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 195983,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 195983,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tideswell St",
-        "eventId": 241214824,
-        "id": "ESTA:241214824",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-21T14:52:00.000Z",
-        "updated": "2024-12-21T15:19:00.000Z",
-        "resources": 2,
-        "location": "Tideswell St, Clyde North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3418020813558,
-          -38.08048295363582
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "mfbId": "241214821",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3937,8 +4028,8 @@
         "eventId": "241214821",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2024-12-21T14:56:56.000Z",
-        "updated": "2024-12-21T14:56:56.000Z",
+        "created": "2024-12-21T15:35:08.000Z",
+        "updated": "2024-12-21T15:35:08.000Z",
         "resources": 6,
         "size": "Small",
         "sizeFmt": "Small",
@@ -3968,7 +4059,7 @@
         "category2": "Structure Fire",
         "created": "2024-12-21T08:31:04.000Z",
         "updated": "2024-12-21T08:31:04.000Z",
-        "resources": 5,
+        "resources": 4,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Hocking St, Coburg North"
@@ -3979,35 +4070,6 @@
         "coordinates": [
           144.9570844620878,
           -37.7277256219802
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "241214825",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241214825",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Darebin Bvd",
-        "id": "ESTA:241214825",
-        "eventId": "241214825",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2024-12-21T15:05:24.000Z",
-        "updated": "2024-12-21T15:05:24.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Darebin Bvd, Reservoir"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03340904204123,
-          -37.70213910430741
         ]
       }
     },
@@ -4037,33 +4099,6 @@
         "coordinates": [
           145.2206814284243,
           -37.81334355970152
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 553892,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 553892,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241252180,
-        "id": "ESTA:241252180",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2024-12-21T14:45:00.000Z",
-        "updated": "2024-12-21T15:19:00.000Z",
-        "resources": 1,
-        "location": "Boronia"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2828646537392,
-          -37.863764108274346
         ]
       }
     }
@@ -4189,6 +4224,7 @@
         },
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -4196,8 +4232,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4295,7 +4330,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-21T15:31:05.985Z",
-    "featureCount": 240
+    "lastUpdated": "2024-12-21T15:50:25.647Z",
+    "featureCount": 241
   }
 }
