@@ -1636,7 +1636,7 @@
     },
     {
       "properties": {
-        "status": "Contained",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1001901,
@@ -1646,7 +1646,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2024-12-24T03:07:00.000Z",
-        "updated": "2024-12-24T07:40:00.000Z",
+        "updated": "2024-12-24T10:08:00.000Z",
         "resources": 6,
         "size": "8.00",
         "sizeFmt": "8.00 Ha.",
@@ -1830,23 +1830,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117820799,
+        "estaId": 117821138,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 196436,
+        "sourceId": 196438,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mcminn Ct",
-        "eventId": 241216118,
-        "id": "ESTA:241216118",
+        "sourceTitle": "Horwood Dr",
+        "eventId": 241216131,
+        "id": "ESTA:241216131",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2024-12-24T09:01:00.000Z",
-        "updated": "2024-12-24T09:29:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2024-12-24T09:33:00.000Z",
+        "updated": "2024-12-24T10:10:00.000Z",
         "resources": 0,
-        "location": "Mcminn Ct, Marengo",
-        "cfaId": 196436,
+        "location": "Horwood Dr, Canadian",
+        "cfaId": 196438,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1854,14 +1854,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.6610210483088,
-          -38.779200269417224
+          143.8716236272638,
+          -37.59219913981283
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 117821573,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117821573,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ocean Grove",
+        "eventId": "F241216145",
+        "id": "ESTA:241216145",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-24T10:14:24.000Z",
+        "updated": "2024-12-24T10:14:46.593Z",
+        "resources": 0,
+        "location": "Presidents Av, Ocean Grove"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.52192615831808,
+          -38.267752944516296
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 117821239,
         "feedType": "incident",
         "source": "000",
@@ -1875,8 +1904,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2024-12-24T09:43:00.000Z",
-        "updated": "2024-12-24T09:43:00.000Z",
-        "resources": 1,
+        "updated": "2024-12-24T09:55:00.000Z",
+        "resources": 0,
         "location": "Gurdies-St Helier Rd, The Gurdies",
         "cfaId": 196439,
         "size": "Small",
@@ -1886,31 +1915,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.5645571813891,
-          -38.38288903237482
+          145.5689661624845,
+          -38.37992403924603
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117821275,
+        "status": "Safe",
+        "estaId": 117821407,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 196440,
+        "sourceId": 196441,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mccartin St",
-        "eventId": 241216134,
-        "id": "ESTA:241216134",
+        "sourceTitle": "Victoria Rd",
+        "eventId": 241216138,
+        "id": "ESTA:241216138",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2024-12-24T09:46:00.000Z",
-        "updated": "2024-12-24T09:46:00.000Z",
-        "resources": 0,
-        "location": "Mccartin St, Leongatha",
-        "cfaId": 196440,
+        "created": "2024-12-24T09:59:00.000Z",
+        "updated": "2024-12-24T10:16:00.000Z",
+        "resources": 1,
+        "location": "Victoria Rd, Tallygaroopna",
+        "cfaId": 196441,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1918,8 +1947,134 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.94006085475039,
-          -38.48093414998409
+          145.4716841979928,
+          -36.23877025811342
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117821389,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 554155,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241252469,
+        "id": "ESTA:241252469",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2024-12-24T09:56:00.000Z",
+        "updated": "2024-12-24T10:19:00.000Z",
+        "resources": 0,
+        "location": "Brighton",
+        "sesId": 554155
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98670043102922,
+          -37.91715135326076
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 117821526,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241216143",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "The Terrace -",
+        "eventId": "241216143",
+        "id": "ESTA:241216143",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-24T10:22:20.000Z",
+        "updated": "2024-12-24T10:22:20.000Z",
+        "resources": 5,
+        "location": "The Terrace -, Ocean Grove",
+        "cfaId": 196443,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241216143"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5221068286979,
+          -38.26803744702203
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117821493,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 554156,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241252471,
+        "id": "ESTA:241252471",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2024-12-24T10:08:00.000Z",
+        "updated": "2024-12-24T10:22:00.000Z",
+        "resources": 0,
+        "location": "Ardeer",
+        "sesId": 554156
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.80200537128815,
+          -37.780033997039354
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117821557,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241216144",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Echuca Rd",
+        "eventId": "241216144",
+        "id": "ESTA:241216144",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2024-12-24T10:20:55.000Z",
+        "updated": "2024-12-24T10:20:55.000Z",
+        "resources": 3,
+        "location": "Echuca Rd, Mooroopna",
+        "cfaId": 196444,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241216144"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35130476573707,
+          -36.3806606473579
         ]
       }
     },
@@ -2316,13 +2471,13 @@
         "sourceId": "579349",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Endeavour Dr, Balranald",
-        "id": "2024-12-23T22:10:00.0000000:579349",
+        "id": "2024-12-24T20:54:00.0000000:579349",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Endeavour Dr, Balranald",
         "location": "Endeavour Dr, Balranald 2715",
-        "created": "2024-12-23T22:10:00+11:00",
-        "updated": "2024-12-23T22:10:00+11:00",
+        "created": "2024-12-24T20:54:00+11:00",
+        "updated": "2024-12-24T20:54:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2393,13 +2548,13 @@
         "sourceId": "581200",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Billabong Rd, Curlwaa",
-        "id": "2024-12-24T12:11:00.0000000:581200",
+        "id": "2024-12-24T21:00:00.0000000:581200",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Billabong Rd, Curlwaa",
         "location": "17 Billabong Rd, Curlwaa 2648",
-        "created": "2024-12-24T12:11:00+11:00",
-        "updated": "2024-12-24T12:11:00+11:00",
+        "created": "2024-12-24T21:00:00+11:00",
+        "updated": "2024-12-24T21:00:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2624,20 +2779,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 196432,
+        "cfaId": 196436,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 196432,
+        "sourceId": 196436,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 241216105,
-        "id": "ESTA:241216105",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-24T08:39:00.000Z",
-        "updated": "2024-12-24T09:01:00.000Z",
+        "sourceTitle": "Mcminn Ct",
+        "eventId": 241216118,
+        "id": "ESTA:241216118",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-24T09:01:00.000Z",
+        "updated": "2024-12-24T09:29:00.000Z",
         "resources": 0,
-        "location": "Grovedale",
+        "location": "Mcminn Ct, Marengo",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2645,125 +2800,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.33978363731833,
-          -38.209727852513915
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 196433,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 196433,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 241216106,
-        "id": "ESTA:241216106",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-24T08:39:00.000Z",
-        "updated": "2024-12-24T09:02:00.000Z",
-        "resources": 0,
-        "location": "Cranbourne West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24877486071207,
-          -38.10889898881364
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 196430,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 196430,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Western Hwy",
-        "eventId": 241216101,
-        "id": "ESTA:241216101",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2024-12-24T08:22:00.000Z",
-        "updated": "2024-12-24T09:13:00.000Z",
-        "resources": 0,
-        "location": "Western Hwy, Great Western",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.88074284168545,
-          -37.19588125271412
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 196438,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 196438,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Horwood Dr",
-        "eventId": 241216131,
-        "id": "ESTA:241216131",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2024-12-24T09:33:00.000Z",
-        "updated": "2024-12-24T09:33:00.000Z",
-        "resources": 0,
-        "location": "Horwood Dr, Canadian",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8716236272638,
-          -37.59219913981283
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 196424,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241216081",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mclaren Ct",
-        "eventId": "241216081",
-        "id": "ESTA:241216081",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-24T09:39:48.000Z",
-        "updated": "2024-12-24T09:39:48.000Z",
-        "resources": 1,
-        "location": "Mclaren Ct, Rosebud",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241216081"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93140814337053,
-          -38.369976932419846
+          143.6610210483088,
+          -38.779200269417224
         ]
       }
     },
@@ -2798,30 +2836,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "241216128",
+        "status": "Safe",
+        "cfaId": 196424,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241216128",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Main St",
-        "id": "ESTA:241216128",
-        "eventId": "241216128",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 196424,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mclaren Ct",
+        "eventId": 241216081,
+        "id": "ESTA:241216081",
         "category1": "Other",
         "category2": "Other",
-        "created": "2024-12-24T09:40:51.000Z",
-        "updated": "2024-12-24T09:40:51.000Z",
-        "resources": 1,
+        "created": "2024-12-24T07:24:00.000Z",
+        "updated": "2024-12-24T09:58:00.000Z",
+        "resources": 0,
+        "location": "Mclaren Ct, Rosebud",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Main St, Point Cook"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.73627525673405,
-          -37.88475058579442
+          144.9314046087239,
+          -38.3699817724554
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 196442,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 196442,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Penshurst-Warrnambool Rd",
+        "eventId": 241216142,
+        "id": "ESTA:241216142",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-24T10:08:00.000Z",
+        "updated": "2024-12-24T10:08:00.000Z",
+        "resources": 4,
+        "location": "Penshurst-Warrnambool Rd, Hawkesdale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3226339481363,
+          -38.10844148351324
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 196440,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 196440,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mccartin St",
+        "eventId": 241216134,
+        "id": "ESTA:241216134",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-24T09:46:00.000Z",
+        "updated": "2024-12-24T10:10:00.000Z",
+        "resources": 0,
+        "location": "Mccartin St, Leongatha",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94027088649156,
+          -38.480683719848805
         ]
       }
     },
@@ -3048,7 +3144,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "HIGH",
             "North East": "HIGH",
@@ -3056,7 +3151,8 @@
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -3107,7 +3203,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-24T09:50:20.307Z",
-    "featureCount": 249
+    "lastUpdated": "2024-12-24T10:25:20.031Z",
+    "featureCount": 252
   }
 }
