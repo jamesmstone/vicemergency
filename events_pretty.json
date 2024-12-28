@@ -1782,64 +1782,119 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117871965,
+        "status": "Safe",
+        "estaId": 117872382,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 554774,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 241253077,
-        "id": "ESTA:241253077",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 197432,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Western Fwy",
+        "eventId": 241218096,
+        "id": "ESTA:241218096",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2024-12-28T16:23:00.000Z",
-        "updated": "2024-12-28T18:16:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2024-12-28T18:07:00.000Z",
+        "updated": "2024-12-28T18:31:00.000Z",
         "resources": 0,
-        "location": "Reservoir",
-        "sesId": 554774
+        "location": "Western Fwy, Nerrina",
+        "cfaId": 197432,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00996898759607,
-          -37.70201134531172
+          143.8834142559809,
+          -37.53856862052917
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 117872382,
+        "status": "Responding",
+        "estaId": 117872492,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218096",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Western Fwy",
-        "eventId": "241218096",
-        "id": "ESTA:241218096",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 197434,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mincha West-Cohuna Rd",
+        "eventId": 241218102,
+        "id": "ESTA:241218102",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2024-12-28T18:21:24.000Z",
-        "updated": "2024-12-28T18:21:24.000Z",
-        "resources": 2,
-        "location": "Western Fwy, Nerrina",
-        "cfaId": 197432,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2024-12-28T18:48:00.000Z",
+        "updated": "2024-12-28T18:48:00.000Z",
+        "resources": 0,
+        "location": "Mincha West-Cohuna Rd, Mincha West",
+        "cfaId": 197434,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241218096"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.8834241458899,
-          -37.538566416123786
+          144.10423271434018,
+          -35.89415371405502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "580515",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Running Waters, Barry Way Kosciuszko ",
+        "id": "2024-12-28T09:30:00.0000000:580515",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Running Waters, Barry Way Kosciuszko ",
+        "location": "Barry Way, Ingeegoodbee 2627",
+        "created": "2024-12-28T09:30:00+11:00",
+        "updated": "2024-12-28T09:30:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.4004,
+                  -36.8259
+                ],
+                [
+                  148.4023,
+                  -36.8277
+                ],
+                [
+                  148.4004,
+                  -36.8259
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.401779175,
+              -36.8271484369999
+            ]
+          }
         ]
       }
     },
@@ -2168,60 +2223,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "580515",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Running Waters, Barry Way Kosciuszko ",
-        "id": "2024-12-28T09:30:00.0000000:580515",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Running Waters, Barry Way Kosciuszko ",
-        "location": "Barry Way, Ingeegoodbee 2627",
-        "created": "2024-12-28T09:30:00+11:00",
-        "updated": "2024-12-28T09:30:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.4004,
-                  -36.8259
-                ],
-                [
-                  148.4023,
-                  -36.8277
-                ],
-                [
-                  148.4004,
-                  -36.8259
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.401779175,
-              -36.8271484369999
-            ]
-          }
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Under Control",
         "cfaId": 189816,
@@ -2312,36 +2313,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 197431,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218094",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burgess Rd",
-        "eventId": "241218094",
-        "id": "ESTA:241218094",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2024-12-28T18:07:37.000Z",
-        "updated": "2024-12-28T18:07:37.000Z",
-        "resources": 2,
-        "location": "Burgess Rd, Tarneit",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241218094"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68279551200442,
-          -37.82099303304103
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 197433,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2366,6 +2337,35 @@
         "coordinates": [
           145.02923897197707,
           -37.65180735661994
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 197431,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 197431,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 241218094,
+        "id": "ESTA:241218094",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-28T17:52:00.000Z",
+        "updated": "2024-12-28T18:29:00.000Z",
+        "resources": 0,
+        "location": "Tarneit",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68279335556738,
+          -37.82099432371224
         ]
       }
     },
@@ -2410,8 +2410,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2024-12-28T18:09:00.000Z",
-        "updated": "2024-12-28T18:13:00.000Z",
-        "resources": 0,
+        "updated": "2024-12-28T18:34:00.000Z",
+        "resources": 1,
         "location": "Epping"
       },
       "type": "Feature",
@@ -2651,7 +2651,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-28T18:29:20.543Z",
+    "lastUpdated": "2024-12-28T18:50:03.062Z",
     "featureCount": 249
   }
 }
