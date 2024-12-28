@@ -1545,38 +1545,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117873746,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218128",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Airport West",
-        "eventId": "241218128",
-        "id": "ESTA:241218128",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-28T23:20:31.000Z",
-        "updated": "2024-12-28T23:20:31.000Z",
-        "resources": 1,
-        "location": "Airport West, Airport West",
-        "mfbId": "241218128",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88864586951254,
-          -37.71118354940687
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Complete",
         "estaId": 117873562,
         "feedType": "incident",
@@ -1608,23 +1576,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117873808,
+        "estaId": 117873882,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218129",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lincoln Rd",
-        "eventId": "241218129",
-        "id": "ESTA:241218129",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 197446,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ocean Beach Rd",
+        "eventId": 241218131,
+        "id": "ESTA:241218131",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-28T23:19:14.000Z",
-        "updated": "2024-12-28T23:19:14.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2024-12-28T23:27:00.000Z",
+        "updated": "2024-12-28T23:27:00.000Z",
         "resources": 1,
-        "location": "Lincoln Rd, Essendon",
-        "mfbId": "241218129",
+        "location": "Ocean Beach Rd, Sorrento",
+        "cfaId": 197446,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1632,8 +1600,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90924408522432,
-          -37.747791972885864
+          144.73913742224389,
+          -38.339145735752496
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117873895,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 197447,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Debra Ct",
+        "eventId": 241218133,
+        "id": "ESTA:241218133",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2024-12-28T23:29:00.000Z",
+        "updated": "2024-12-28T23:29:00.000Z",
+        "resources": 0,
+        "location": "Debra Ct, Koondrook",
+        "cfaId": 197447,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1320872006328,
+          -35.649848888537555
         ]
       }
     },
@@ -2136,6 +2136,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "241218128",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241218128",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Airport West",
+        "id": "ESTA:241218128",
+        "eventId": "241218128",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-28T23:22:23.000Z",
+        "updated": "2024-12-28T23:22:23.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Airport West, Airport West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88864586951254,
+          -37.71118354940687
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "241218122",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2444,7 +2473,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-28T23:21:45.743Z",
-    "featureCount": 249
+    "lastUpdated": "2024-12-28T23:31:00.865Z",
+    "featureCount": 250
   }
 }
