@@ -1677,56 +1677,53 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117893466,
+        "status": "Complete",
+        "estaId": 117894069,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218774",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Exeter Rd",
-        "eventId": "241218774",
-        "id": "ESTA:241218774",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 554906,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 241253205,
+        "id": "ESTA:241253205",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-30T17:19:37.000Z",
-        "updated": "2024-12-30T17:19:37.000Z",
-        "resources": 2,
-        "location": "Exeter Rd, Croydon North",
-        "cfaId": 197761,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241218774"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2024-12-30T17:33:00.000Z",
+        "updated": "2024-12-30T17:42:00.000Z",
+        "resources": 0,
+        "location": "Montrose",
+        "sesId": 554906
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29481345478118,
-          -37.770593263327555
+          145.35883363201097,
+          -37.815100331700734
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 117894038,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "241218793",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cahir Ct",
+        "sourceTitle": "Somerville Rd",
         "eventId": "241218793",
         "id": "ESTA:241218793",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2024-12-30T17:26:12.000Z",
-        "updated": "2024-12-30T17:26:12.000Z",
+        "created": "2024-12-30T17:41:49.000Z",
+        "updated": "2024-12-30T17:41:49.000Z",
         "resources": 2,
-        "location": "Cahir Ct, Brooklyn",
+        "location": "Somerville Rd, Brooklyn",
         "mfbId": "241218793",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1735,8 +1732,112 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.84475368733393,
-          -37.815797679063245
+          144.84163489924848,
+          -37.80821614070327
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582171",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Geehi Campground Accs, Geehi",
+        "id": "2024-12-30T10:38:00.0000000:582171",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Geehi Campground Accs, Geehi",
+        "location": "Geehi Campground Accs, Geehi 2642",
+        "created": "2024-12-30T10:38:00+11:00",
+        "updated": "2024-12-30T10:38:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.178665161,
+          -36.378696442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "581586",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Patons Hut",
+        "id": "2024-12-30T13:54:00.0000000:581586",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Patons Hut",
+        "location": "Dargals Trl, Jagumba 2642",
+        "created": "2024-12-30T13:54:00+11:00",
+        "updated": "2024-12-30T13:54:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "122 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.3114,
+                  -36.0554
+                ],
+                [
+                  148.3147,
+                  -36.0555
+                ],
+                [
+                  148.32,
+                  -36.0625
+                ],
+                [
+                  148.3011,
+                  -36.0631
+                ],
+                [
+                  148.2981,
+                  -36.0611
+                ],
+                [
+                  148.301,
+                  -36.0561
+                ],
+                [
+                  148.3046,
+                  -36.0572
+                ],
+                [
+                  148.3114,
+                  -36.0554
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.296966552,
+              -36.0611877439999
+            ]
+          }
         ]
       }
     },
@@ -1887,110 +1988,6 @@
             "coordinates": [
               143.542129516,
               -34.646060943
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582171",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Geehi Campground Accs, Geehi",
-        "id": "2024-12-30T10:38:00.0000000:582171",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Geehi Campground Accs, Geehi",
-        "location": "Geehi Campground Accs, Geehi 2642",
-        "created": "2024-12-30T10:38:00+11:00",
-        "updated": "2024-12-30T10:38:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.178665161,
-          -36.378696442
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "581586",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Patons Hut",
-        "id": "2024-12-30T13:54:00.0000000:581586",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Patons Hut",
-        "location": "Dargals Trl, Jagumba 2642",
-        "created": "2024-12-30T13:54:00+11:00",
-        "updated": "2024-12-30T13:54:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "122 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.3114,
-                  -36.0554
-                ],
-                [
-                  148.3147,
-                  -36.0555
-                ],
-                [
-                  148.32,
-                  -36.0625
-                ],
-                [
-                  148.3011,
-                  -36.0631
-                ],
-                [
-                  148.2981,
-                  -36.0611
-                ],
-                [
-                  148.301,
-                  -36.0561
-                ],
-                [
-                  148.3046,
-                  -36.0572
-                ],
-                [
-                  148.3114,
-                  -36.0554
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.296966552,
-              -36.0611877439999
             ]
           }
         ]
@@ -2173,35 +2170,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "241218791",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241218791",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Buckley St",
-        "id": "ESTA:241218791",
-        "eventId": "241218791",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-30T17:20:49.000Z",
-        "updated": "2024-12-30T17:20:49.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Buckley St, Footscray"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8885227008767,
-          -37.80243933956451
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "241218732",
         "feedType": "incident",
@@ -2226,6 +2194,35 @@
         "coordinates": [
           144.906832991919,
           -37.74301466491969
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "241218774",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241218774",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Exeter Rd",
+        "id": "ESTA:241218774",
+        "eventId": "241218774",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-30T17:19:37.000Z",
+        "updated": "2024-12-30T17:19:37.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Exeter Rd, Croydon North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29481345478118,
+          -37.770593263327555
         ]
       }
     }
@@ -2457,7 +2454,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-30T17:32:00.026Z",
+    "lastUpdated": "2024-12-30T17:50:20.229Z",
     "featureCount": 249
   }
 }
