@@ -1698,32 +1698,6 @@
     },
     {
       "properties": {
-        "status": "Controlled",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1619761",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Glencoe West Road, Glencoe",
-        "id": "1619761",
-        "category1": "Fire",
-        "category2": "Planned Burn",
-        "name": "Glencoe West Road, Glencoe",
-        "created": "2024-12-31T05:59:00.000Z",
-        "updated": "2024-12-31T05:59:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Glencoe West Road, Glencoe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.580038945555,
-          -37.6659842238725
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1752,74 +1726,39 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117909611,
+        "status": "Safe",
+        "estaId": 117908786,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100175",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Deakin Av",
-        "eventId": "250100175",
-        "id": "ESTA:250100175",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2024-12-31T18:17:34.000Z",
-        "updated": "2024-12-31T18:17:34.000Z",
-        "resources": 1,
-        "location": "Deakin Av, Lalor",
-        "mfbId": "250100175",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03373595836456,
-          -37.67232327295075
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117909633,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100176",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Adib Ct",
-        "eventId": "250100176",
-        "id": "ESTA:250100176",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117908786,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Little River",
+        "eventId": "F250100146",
+        "id": "ESTA:250100146",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2024-12-31T18:22:09.000Z",
-        "updated": "2024-12-31T18:22:09.000Z",
-        "resources": 1,
-        "location": "Adib Ct, Frankston North",
-        "mfbId": "250100176",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Other",
+        "created": "2024-12-31T16:11:35.000Z",
+        "updated": "2024-12-31T18:36:26.885Z",
+        "resources": 0,
+        "location": "Little River"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16074612053822,
-          -38.1265613323553
+          144.5452039758522,
+          -37.921385907443636
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 117909665,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250100178",
         "sourceFeed": "mfb-incident",
@@ -1829,8 +1768,8 @@
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2024-12-31T18:27:41.000Z",
-        "updated": "2024-12-31T18:27:41.000Z",
+        "created": "2024-12-31T18:40:44.000Z",
+        "updated": "2024-12-31T18:40:44.000Z",
         "resources": 1,
         "location": "Princes Hwy, Traralgon East",
         "cfaId": 198034,
@@ -3519,6 +3458,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "mfbId": "250100175",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100175",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Deakin Av",
+        "id": "ESTA:250100175",
+        "eventId": "250100175",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2024-12-31T18:34:36.000Z",
+        "updated": "2024-12-31T18:34:36.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Deakin Av, Lalor"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03373595836456,
+          -37.67232327295075
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "mfbId": "250100174",
         "feedType": "incident",
@@ -3548,35 +3516,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250100173",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100173",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Railway Cr",
-        "id": "ESTA:250100173",
-        "eventId": "250100173",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2024-12-31T18:15:24.000Z",
-        "updated": "2024-12-31T18:15:24.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Railway Cr, Williamstown"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8924217462339,
-          -37.86335034268286
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250100169",
         "feedType": "incident",
@@ -3601,6 +3540,35 @@
         "coordinates": [
           144.96883841060128,
           -37.80729846225985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250100179",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100179",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Oak Gr",
+        "id": "ESTA:250100179",
+        "eventId": "250100179",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2024-12-31T18:33:35.000Z",
+        "updated": "2024-12-31T18:33:35.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Oak Gr, Ripponlea"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99649908694906,
+          -37.875985211397364
         ]
       }
     },
@@ -3913,7 +3881,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2024-12-31T18:30:26.072Z",
-    "featureCount": 264
+    "lastUpdated": "2024-12-31T18:50:20.608Z",
+    "featureCount": 263
   }
 }
