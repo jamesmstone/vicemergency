@@ -1399,59 +1399,146 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117921239,
+        "status": "Complete",
+        "estaId": 117921115,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117921239,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "West Wodonga",
-        "eventId": "F250100539",
-        "id": "ESTA:250100539",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555056,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150085,
+        "id": "ESTA:250150085",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-01T18:48:47.000Z",
-        "updated": "2025-01-01T18:49:34.400Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-01T18:06:00.000Z",
+        "updated": "2025-01-01T19:04:00.000Z",
         "resources": 0,
-        "location": "Hume Fwy, West Wodonga"
+        "location": "Hampton",
+        "sesId": 555056
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.82338974547332,
-          -36.101612924075845
+          145.02268722676894,
+          -37.94366128858859
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117921244,
+        "status": "Safe",
+        "estaId": 117921251,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117921244,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wedderburn",
-        "eventId": "F250100540",
-        "id": "ESTA:250100540",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100541",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Goodall Cl",
+        "eventId": "250100541",
+        "id": "ESTA:250100541",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-01T18:49:24.000Z",
-        "updated": "2025-01-01T18:50:12.273Z",
-        "resources": 0,
-        "location": "Calder Hwy, Wedderburn"
+        "created": "2025-01-01T19:09:29.000Z",
+        "updated": "2025-01-01T19:09:29.000Z",
+        "resources": 2,
+        "location": "Goodall Cl, Dandenong South",
+        "cfaId": 198206,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250100541"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.57638818123053,
-          -36.37312039495416
+          145.22309070302097,
+          -38.05223751433066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582377",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Tom Roberts Rd, Redlands",
+        "id": "2025-01-01T22:43:00.0000000:582377",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Tom Roberts Rd, Redlands",
+        "location": "Tom Roberts Rd, Redlands 2646",
+        "created": "2025-01-01T22:43:00+11:00",
+        "updated": "2025-01-01T22:43:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.3378,
+                  -35.9191
+                ],
+                [
+                  146.334,
+                  -35.9203
+                ],
+                [
+                  146.3298,
+                  -35.9201
+                ],
+                [
+                  146.3306,
+                  -35.9126
+                ],
+                [
+                  146.3323,
+                  -35.9105
+                ],
+                [
+                  146.337,
+                  -35.9108
+                ],
+                [
+                  146.3395,
+                  -35.9124
+                ],
+                [
+                  146.341,
+                  -35.9143
+                ],
+                [
+                  146.3406,
+                  -35.918
+                ],
+                [
+                  146.3378,
+                  -35.9191
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              146.336080989,
+              -35.914885845
+            ]
+          }
         ]
       }
     },
@@ -1829,88 +1916,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582377",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Tom Roberts Rd, Redlands",
-        "id": "2025-01-01T22:43:00.0000000:582377",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Tom Roberts Rd, Redlands",
-        "location": "Tom Roberts Rd, Redlands 2646",
-        "created": "2025-01-01T22:43:00+11:00",
-        "updated": "2025-01-01T22:43:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.3378,
-                  -35.9191
-                ],
-                [
-                  146.334,
-                  -35.9203
-                ],
-                [
-                  146.3298,
-                  -35.9201
-                ],
-                [
-                  146.3306,
-                  -35.9126
-                ],
-                [
-                  146.3323,
-                  -35.9105
-                ],
-                [
-                  146.337,
-                  -35.9108
-                ],
-                [
-                  146.3395,
-                  -35.9124
-                ],
-                [
-                  146.341,
-                  -35.9143
-                ],
-                [
-                  146.3406,
-                  -35.918
-                ],
-                [
-                  146.3378,
-                  -35.9191
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              146.336080989,
-              -35.914885845
-            ]
-          }
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Responding",
         "cfaId": 195724,
@@ -2042,7 +2047,7 @@
         "category2": "Other",
         "created": "2025-01-01T15:42:47.000Z",
         "updated": "2025-01-01T15:42:47.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "License Rd, Diggers Rest",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2100,8 +2105,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-01-01T18:20:00.000Z",
-        "updated": "2025-01-01T18:28:00.000Z",
-        "resources": 6,
+        "updated": "2025-01-01T18:57:00.000Z",
+        "resources": 5,
         "location": "Maddingley",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2119,31 +2124,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 198202,
+        "status": "Responding",
+        "cfaId": 198205,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100534",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": "250100534",
-        "id": "ESTA:250100534",
-        "category1": "Other",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198205,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Hwy",
+        "eventId": 250100540,
+        "id": "ESTA:250100540",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-01T18:31:23.000Z",
-        "updated": "2025-01-01T18:31:23.000Z",
+        "created": "2025-01-01T18:50:00.000Z",
+        "updated": "2025-01-01T18:50:00.000Z",
         "resources": 1,
-        "location": "Hume Fwy, Wollert",
+        "location": "Calder Hwy, Wedderburn",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100534"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9576435356404,
-          -37.60049649782345
+          143.57637394388664,
+          -36.37312792143659
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198202,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198202,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 250100534,
+        "id": "ESTA:250100534",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-01T18:21:00.000Z",
+        "updated": "2025-01-01T18:54:00.000Z",
+        "resources": 0,
+        "location": "Hume Fwy, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95763976607103,
+          -37.60049758147458
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198204,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198204,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 250100539,
+        "id": "ESTA:250100539",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-01T18:50:00.000Z",
+        "updated": "2025-01-01T18:57:00.000Z",
+        "resources": 0,
+        "location": "Hume Fwy, West Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.82337888339714,
+          -36.10162783882715
         ]
       }
     },
@@ -2178,28 +2240,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 555056,
+        "status": "Safe",
+        "mfbId": "250100141",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555056,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150085,
-        "id": "ESTA:250150085",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-01T18:06:00.000Z",
-        "updated": "2025-01-01T18:36:00.000Z",
-        "resources": 1,
-        "location": "Hampton"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100141",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Canterbury Rd",
+        "id": "ESTA:250100141",
+        "eventId": "250100141",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-01T18:57:40.000Z",
+        "updated": "2025-01-01T18:57:40.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Canterbury Rd, Kilsyth"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02268722676894,
-          -37.94366128858859
+          145.31924444988027,
+          -37.817230422757014
         ]
       }
     }
@@ -2372,6 +2436,7 @@
         },
         {
           "fdr": {
+            "Mallee": "EXTREME",
             "East Gippsland": "HIGH",
             "West and South Gippsland": "HIGH",
             "North East": "HIGH",
@@ -2379,8 +2444,7 @@
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH",
-            "Mallee": "EXTREME"
+            "Wimmera": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2431,7 +2495,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-01T18:50:20.085Z",
-    "featureCount": 255
+    "lastUpdated": "2025-01-01T19:17:46.041Z",
+    "featureCount": 257
   }
 }
