@@ -1399,64 +1399,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117921115,
+        "status": "Responding",
+        "estaId": 117921340,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555056,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150085,
-        "id": "ESTA:250150085",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100545",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Truganina",
+        "eventId": "250100545",
+        "id": "ESTA:250100545",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-01T18:06:00.000Z",
-        "updated": "2025-01-01T19:04:00.000Z",
-        "resources": 0,
-        "location": "Hampton",
-        "sesId": 555056
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-01T19:28:04.000Z",
+        "updated": "2025-01-01T19:28:04.000Z",
+        "resources": 1,
+        "location": "Truganina, Truganina",
+        "mfbId": "250100545",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02268722676894,
-          -37.94366128858859
+          144.76187850680375,
+          -37.84070068696491
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117921251,
+        "status": "Responding",
+        "estaId": 117921244,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100541",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Goodall Cl",
-        "eventId": "250100541",
-        "id": "ESTA:250100541",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198205,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Hwy",
+        "eventId": 250100540,
+        "id": "ESTA:250100540",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-01T19:09:29.000Z",
-        "updated": "2025-01-01T19:09:29.000Z",
-        "resources": 2,
-        "location": "Goodall Cl, Dandenong South",
-        "cfaId": 198206,
+        "created": "2025-01-01T18:50:00.000Z",
+        "updated": "2025-01-01T18:50:00.000Z",
+        "resources": 0,
+        "location": "Calder Hwy, Wedderburn",
+        "cfaId": 198205,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100541"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22309070302097,
-          -38.05223751433066
+          143.57637394388664,
+          -36.37312792143659
         ]
       }
     },
@@ -2077,7 +2078,7 @@
         "category2": "Building Fire",
         "created": "2025-01-01T16:52:00.000Z",
         "updated": "2025-01-01T18:26:00.000Z",
-        "resources": 8,
+        "resources": 7,
         "location": "Calder Hwy, Dumosa",
         "size": "Medium",
         "sizeFmt": "Medium"
@@ -2119,35 +2120,6 @@
         "coordinates": [
           144.43349466122933,
           -37.68632614723361
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 198205,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198205,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Calder Hwy",
-        "eventId": 250100540,
-        "id": "ESTA:250100540",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-01T18:50:00.000Z",
-        "updated": "2025-01-01T18:50:00.000Z",
-        "resources": 1,
-        "location": "Calder Hwy, Wedderburn",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.57637394388664,
-          -36.37312792143659
         ]
       }
     },
@@ -2206,6 +2178,36 @@
         "coordinates": [
           146.82337888339714,
           -36.10162783882715
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198206,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100541",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Goodall Cl",
+        "eventId": "250100541",
+        "id": "ESTA:250100541",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-01T19:09:29.000Z",
+        "updated": "2025-01-01T19:09:29.000Z",
+        "resources": 1,
+        "location": "Goodall Cl, Dandenong South",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250100541"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22309070302097,
+          -38.05223751433066
         ]
       }
     },
@@ -2436,7 +2438,6 @@
         },
         {
           "fdr": {
-            "Mallee": "EXTREME",
             "East Gippsland": "HIGH",
             "West and South Gippsland": "HIGH",
             "North East": "HIGH",
@@ -2444,7 +2445,8 @@
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "EXTREME"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2495,7 +2497,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-01T19:17:46.041Z",
+    "lastUpdated": "2025-01-01T19:30:20.542Z",
     "featureCount": 257
   }
 }
