@@ -1502,29 +1502,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117919935,
+        "estaId": 117920035,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117919935,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moolap",
-        "eventId": "F250100501",
-        "id": "ESTA:250100501",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100504",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Francis St",
+        "eventId": "250100504",
+        "id": "ESTA:250100504",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-01T13:32:19.000Z",
-        "updated": "2025-01-01T13:32:23.903Z",
-        "resources": 0,
-        "location": "Resort Bvd, Moolap"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-01T13:48:14.000Z",
+        "updated": "2025-01-01T13:48:14.000Z",
+        "resources": 1,
+        "location": "Francis St, Yarraville",
+        "mfbId": "250100504",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.42792427940552,
-          -38.18324191460031
+          144.90163521019613,
+          -37.822290945224935
         ]
       }
     },
@@ -2403,35 +2406,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 198183,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198183,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250100492,
-        "id": "ESTA:250100492",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-01T12:18:00.000Z",
-        "updated": "2025-01-01T12:43:00.000Z",
-        "resources": 0,
-        "location": "Yarrawonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00539594602023,
-          -36.02093570091978
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 198185,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2513,6 +2487,35 @@
         "coordinates": [
           144.60396848495378,
           -37.73376438592754
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 198187,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198187,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Resort Bvd",
+        "eventId": 250100501,
+        "id": "ESTA:250100501",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-01T13:32:00.000Z",
+        "updated": "2025-01-01T13:32:00.000Z",
+        "resources": 3,
+        "location": "Resort Bvd, Moolap",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.42790495861297,
+          -38.18324700466318
         ]
       }
     },
@@ -2773,7 +2776,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-01T13:32:46.201Z",
+    "lastUpdated": "2025-01-01T13:50:06.193Z",
     "featureCount": 255
   }
 }
