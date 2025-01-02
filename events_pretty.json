@@ -1628,31 +1628,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 117932544,
+        "status": "Safe",
+        "estaId": 117932611,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555114,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150142,
-        "id": "ESTA:250150142",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198363,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Toulon Ct",
+        "eventId": 250100900,
+        "id": "ESTA:250100900",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-02T17:42:00.000Z",
-        "updated": "2025-01-02T17:46:00.000Z",
-        "resources": 0,
-        "location": "Benalla",
-        "sesId": 555114
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-02T18:03:00.000Z",
+        "updated": "2025-01-02T18:29:00.000Z",
+        "resources": 1,
+        "location": "Toulon Ct, Winchelsea",
+        "cfaId": 198363,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.9813694158488,
-          -36.560601785723186
+          143.98209391719166,
+          -38.24757583880095
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117932698,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117932698,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dandenong South",
+        "eventId": "F250100903",
+        "id": "ESTA:250100903",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-02T18:30:05.000Z",
+        "updated": "2025-01-02T18:30:17.044Z",
+        "resources": 0,
+        "location": "Villas Rd, Dandenong South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19661591856038,
+          -38.0351281394332
         ]
       }
     },
@@ -2150,124 +2181,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 198329,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100838",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hazelmere Av",
-        "eventId": "250100838",
-        "id": "ESTA:250100838",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-02T12:16:09.000Z",
-        "updated": "2025-01-02T12:16:09.000Z",
-        "resources": 1,
-        "location": "Hazelmere Av, Cranbourne West",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100838"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2644544027555,
-          -38.109135528280476
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 198358,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198358,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Brian Cr",
-        "eventId": 250100891,
-        "id": "ESTA:250100891",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-02T16:38:00.000Z",
-        "updated": "2025-01-02T16:58:00.000Z",
-        "resources": 0,
-        "location": "Brian Cr, Mildura",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.15837187610083,
-          -34.20354952276579
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 198359,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198359,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250100892,
-        "id": "ESTA:250100892",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-02T17:02:00.000Z",
-        "updated": "2025-01-02T17:02:00.000Z",
-        "resources": 9,
-        "location": "Cobram",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.65797767431317,
-          -35.920529134549184
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 198360,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100894",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Scrubby Lane",
-        "eventId": "250100894",
-        "id": "ESTA:250100894",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-02T17:30:58.000Z",
-        "updated": "2025-01-02T17:30:58.000Z",
-        "resources": 1,
-        "location": "Scrubby Lane, Traralgon",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100894"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.48308777929543,
-          -38.19603449008089
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 198361,
         "feedType": "incident",
@@ -2297,28 +2210,114 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 555113,
+        "status": "Under Control",
+        "cfaId": 198359,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555113,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150141,
-        "id": "ESTA:250150141",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-01-02T16:51:00.000Z",
-        "updated": "2025-01-02T17:18:00.000Z",
-        "resources": 1,
-        "location": "Paynesville"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198359,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250100892,
+        "id": "ESTA:250100892",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-02T17:02:00.000Z",
+        "updated": "2025-01-02T18:14:00.000Z",
+        "resources": 9,
+        "location": "Cobram",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.72226644405382,
-          -37.916865117949264
+          145.65797767431317,
+          -35.920529134549184
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198329,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100838",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hazelmere Av",
+        "eventId": "250100838",
+        "id": "ESTA:250100838",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-02T18:14:44.000Z",
+        "updated": "2025-01-02T18:14:44.000Z",
+        "resources": 1,
+        "location": "Hazelmere Av, Cranbourne West",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250100838"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2644544027555,
+          -38.109135528280476
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 555114,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555114,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150142,
+        "id": "ESTA:250150142",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-02T17:42:00.000Z",
+        "updated": "2025-01-02T18:04:00.000Z",
+        "resources": 1,
+        "location": "Benalla"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9813694158488,
+          -36.560601785723186
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 555115,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555115,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150143,
+        "id": "ESTA:250150143",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-02T18:00:00.000Z",
+        "updated": "2025-01-02T18:25:00.000Z",
+        "resources": 1,
+        "location": "Essendon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92665857091012,
+          -37.7435527247237
         ]
       }
     }
@@ -2550,7 +2549,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-02T17:50:20.269Z",
+    "lastUpdated": "2025-01-02T18:31:25.827Z",
     "featureCount": 258
   }
 }
