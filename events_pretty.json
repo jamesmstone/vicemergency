@@ -1643,7 +1643,7 @@
         "category2": "Building Fire",
         "created": "2025-01-02T18:03:00.000Z",
         "updated": "2025-01-02T18:29:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Toulon Ct, Winchelsea",
         "cfaId": 198363,
         "size": "Small",
@@ -1660,30 +1660,93 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 117932698,
+        "status": "Complete",
+        "estaId": 117932603,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117932698,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Dandenong South",
-        "eventId": "F250100903",
-        "id": "ESTA:250100903",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555115,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150143,
+        "id": "ESTA:250150143",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-02T18:30:05.000Z",
-        "updated": "2025-01-02T18:30:17.044Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-02T18:00:00.000Z",
+        "updated": "2025-01-02T18:42:00.000Z",
         "resources": 0,
-        "location": "Villas Rd, Dandenong South"
+        "location": "Essendon",
+        "sesId": 555115
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19661591856038,
-          -38.0351281394332
+          144.92665857091012,
+          -37.7435527247237
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 117932724,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100905",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Melbourne",
+        "eventId": "250100905",
+        "id": "ESTA:250100905",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-02T18:47:48.000Z",
+        "updated": "2025-01-02T18:47:48.000Z",
+        "resources": 2,
+        "location": "Melbourne, Melbourne",
+        "mfbId": "250100905",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96036617020656,
+          -37.80818795958024
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117932705,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555116,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150144,
+        "id": "ESTA:250150144",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-02T18:36:00.000Z",
+        "updated": "2025-01-02T18:49:00.000Z",
+        "resources": 0,
+        "location": "Bayswater",
+        "sesId": 555116
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26674998592537,
+          -37.84221431717637
         ]
       }
     },
@@ -2181,35 +2244,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 198361,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198361,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250100895,
-        "id": "ESTA:250100895",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-02T17:19:00.000Z",
-        "updated": "2025-01-02T17:32:00.000Z",
-        "resources": 0,
-        "location": "Warragul",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.90607867068013,
-          -38.149087074091774
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 198359,
         "feedType": "incident",
@@ -2223,7 +2257,7 @@
         "category2": "Building Fire",
         "created": "2025-01-02T17:02:00.000Z",
         "updated": "2025-01-02T18:14:00.000Z",
-        "resources": 9,
+        "resources": 7,
         "location": "Cobram",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2242,28 +2276,56 @@
         "status": "Safe",
         "cfaId": 198329,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100838",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198329,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Hazelmere Av",
-        "eventId": "250100838",
+        "eventId": 250100838,
         "id": "ESTA:250100838",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-02T18:14:44.000Z",
-        "updated": "2025-01-02T18:14:44.000Z",
-        "resources": 1,
+        "category2": "Building Fire",
+        "created": "2025-01-02T11:13:00.000Z",
+        "updated": "2025-01-02T18:15:00.000Z",
+        "resources": 3,
         "location": "Hazelmere Av, Cranbourne West",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100838"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2644544027555,
-          -38.109135528280476
+          145.26445168403689,
+          -38.10914067861303
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198365,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198365,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Macauley Pl",
+        "eventId": 250100904,
+        "id": "ESTA:250100904",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-02T18:36:00.000Z",
+        "updated": "2025-01-02T18:44:00.000Z",
+        "resources": 0,
+        "location": "Macauley Pl, Bayswater",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26674998592537,
+          -37.84221431717637
         ]
       }
     },
@@ -2291,33 +2353,6 @@
         "coordinates": [
           145.9813694158488,
           -36.560601785723186
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 555115,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555115,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150143,
-        "id": "ESTA:250150143",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-02T18:00:00.000Z",
-        "updated": "2025-01-02T18:25:00.000Z",
-        "resources": 1,
-        "location": "Essendon"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92665857091012,
-          -37.7435527247237
         ]
       }
     }
@@ -2549,7 +2584,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-02T18:31:25.827Z",
-    "featureCount": 258
+    "lastUpdated": "2025-01-02T18:50:20.451Z",
+    "featureCount": 259
   }
 }
