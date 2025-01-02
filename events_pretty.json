@@ -1628,7 +1628,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 117931784,
         "feedType": "incident",
         "source": "000",
@@ -1642,8 +1642,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-01-02T14:34:00.000Z",
-        "updated": "2025-01-02T14:34:00.000Z",
-        "resources": 2,
+        "updated": "2025-01-02T15:10:00.000Z",
+        "resources": 4,
         "location": "White Lane, Beaconsfield Upper",
         "cfaId": 198346,
         "size": "Small",
@@ -1660,24 +1660,58 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 117931815,
+        "status": "Responding",
+        "estaId": 117931975,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555112,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150138,
-        "id": "ESTA:250150138",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198351,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grande Belmond Av",
+        "eventId": 250100881,
+        "id": "ESTA:250100881",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-02T14:40:00.000Z",
-        "updated": "2025-01-02T14:45:00.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-02T15:12:00.000Z",
+        "updated": "2025-01-02T15:12:00.000Z",
+        "resources": 3,
+        "location": "Grande Belmond Av, Clyde",
+        "cfaId": 198351,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32269410224757,
+          -38.13033540562647
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117931964,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198350,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Liverpool Rd",
+        "eventId": 250100880,
+        "id": "ESTA:250100880",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-02T15:10:00.000Z",
+        "updated": "2025-01-02T15:14:00.000Z",
         "resources": 0,
-        "location": "Kilsyth",
-        "sesId": 555112
+        "location": "Liverpool Rd, Kilsyth",
+        "cfaId": 198350,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -1685,39 +1719,6 @@
         "coordinates": [
           145.31905855140576,
           -37.834762680111936
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 117931663,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250100868",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ocean Beach Rd",
-        "eventId": "250100868",
-        "id": "ESTA:250100868",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-02T14:42:42.000Z",
-        "updated": "2025-01-02T14:42:42.000Z",
-        "resources": 3,
-        "location": "Ocean Beach Rd, Sorrento",
-        "cfaId": 198344,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250100868"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.72815352180064,
-          -38.34674841479038
         ]
       }
     },
@@ -2242,6 +2243,93 @@
           -38.109135528280476
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198344,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198344,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ocean Beach Rd",
+        "eventId": 250100868,
+        "id": "ESTA:250100868",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-02T14:14:00.000Z",
+        "updated": "2025-01-02T14:43:00.000Z",
+        "resources": 0,
+        "location": "Ocean Beach Rd, Sorrento",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72814541674205,
+          -38.34675450979551
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 198348,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198348,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Growse St",
+        "eventId": 250100878,
+        "id": "ESTA:250100878",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-02T15:07:00.000Z",
+        "updated": "2025-01-02T15:07:00.000Z",
+        "resources": 0,
+        "location": "Growse St, Yarram",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6827441039735,
+          -38.56811209420942
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250100874",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250100874",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cranbourne",
+        "id": "ESTA:250100874",
+        "eventId": "250100874",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-02T15:11:55.000Z",
+        "updated": "2025-01-02T15:11:55.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Cranbourne, Cranbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26011434019875,
+          -38.110307116590654
+        ]
+      }
     }
   ],
   "properties": {
@@ -2471,7 +2559,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-02T14:50:06.187Z",
-    "featureCount": 255
+    "lastUpdated": "2025-01-02T15:23:40.412Z",
+    "featureCount": 258
   }
 }
