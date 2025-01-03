@@ -1530,7 +1530,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 117942271,
         "feedType": "incident",
         "source": "SES STRM",
@@ -1544,7 +1544,7 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2025-01-03T11:20:00.000Z",
-        "updated": "2025-01-03T11:22:00.000Z",
+        "updated": "2025-01-03T11:38:00.000Z",
         "resources": 0,
         "location": "Wollert",
         "sesId": 555179
@@ -1561,23 +1561,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 117942097,
+        "estaId": 117942424,
         "feedType": "incident",
-        "source": "OTHER",
+        "source": "",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250101216",
+        "sourceId": "250101224",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cornish Rd",
-        "eventId": "250101216",
-        "id": "ESTA:250101216",
+        "sourceTitle": "Upfield Bike Path",
+        "eventId": "250101224",
+        "id": "ESTA:250101224",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-03T11:27:12.000Z",
-        "updated": "2025-01-03T11:27:12.000Z",
-        "resources": 1,
-        "location": "Cornish Rd, Lysterfield",
-        "mfbId": "250101216",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-03T11:46:24.000Z",
+        "updated": "2025-01-03T11:46:24.000Z",
+        "resources": 2,
+        "location": "Upfield Bike Path, Brunswick",
+        "mfbId": "250101224",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1585,8 +1585,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28454119691028,
-          -37.93041839146906
+          144.9587149280894,
+          -37.774985082620894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117942529,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198498,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bemersyde Dr",
+        "eventId": 250101225,
+        "id": "ESTA:250101225",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-03T11:47:00.000Z",
+        "updated": "2025-01-03T11:47:00.000Z",
+        "resources": 0,
+        "location": "Bemersyde Dr, Berwick",
+        "cfaId": 198498,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34806086965995,
+          -38.053643589726065
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117942555,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117942555,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Somerton",
+        "eventId": "F250101226",
+        "id": "ESTA:250101226",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-03T11:47:11.000Z",
+        "updated": "2025-01-03T11:49:49.791Z",
+        "resources": 0,
+        "location": "Somerton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95146706053495,
+          -37.64335418611886
         ]
       }
     },
@@ -1892,6 +1953,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582960",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Woolshed Rd, Finley",
+        "id": "2025-01-03T22:40:00.0000000:582960",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Woolshed Rd, Finley",
+        "location": "326 Woolshed Rd, Finley 2713",
+        "created": "2025-01-03T22:40:00+11:00",
+        "updated": "2025-01-03T22:40:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.655426025,
+          -35.675621033
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -2136,6 +2227,33 @@
             "coordinates": [
               [
                 [
+                  148.1961,
+                  -35.8386
+                ],
+                [
+                  148.1941,
+                  -35.839
+                ],
+                [
+                  148.1928,
+                  -35.8364
+                ],
+                [
+                  148.1955,
+                  -35.8362
+                ],
+                [
+                  148.1961,
+                  -35.8386
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   148.1973,
                   -35.8367
                 ],
@@ -2170,33 +2288,6 @@
                 [
                   148.1973,
                   -35.8367
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.1961,
-                  -35.8386
-                ],
-                [
-                  148.1941,
-                  -35.839
-                ],
-                [
-                  148.1928,
-                  -35.8364
-                ],
-                [
-                  148.1955,
-                  -35.8362
-                ],
-                [
-                  148.1961,
-                  -35.8386
                 ]
               ]
             ]
@@ -2365,6 +2456,66 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 198496,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250101220",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pt Lonsdale Rd",
+        "eventId": "250101220",
+        "id": "ESTA:250101220",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-03T11:38:34.000Z",
+        "updated": "2025-01-03T11:38:34.000Z",
+        "resources": 2,
+        "location": "Pt Lonsdale Rd, Point Lonsdale",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250101220"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6138330148204,
+          -38.288498659585514
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198497,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250101223",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wellington Rd",
+        "eventId": "250101223",
+        "id": "ESTA:250101223",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-03T11:45:01.000Z",
+        "updated": "2025-01-03T11:45:01.000Z",
+        "resources": 2,
+        "location": "Wellington Rd, Narre Warren East",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250101223"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35154961039558,
+          -37.95705362622756
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "cfaId": 195724,
         "feedType": "incident",
@@ -2497,7 +2648,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-03T06:41:43.000Z",
         "updated": "2025-01-03T06:41:43.000Z",
-        "resources": 9,
+        "resources": 6,
         "location": "Barry Rd, Meadow Heights",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2543,64 +2694,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 198488,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198488,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hurdle Flat Rd",
-        "eventId": 250101204,
-        "id": "ESTA:250101204",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-03T10:17:00.000Z",
-        "updated": "2025-01-03T10:39:00.000Z",
-        "resources": 0,
-        "location": "Hurdle Flat Rd, Beechworth",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.75428847714235,
-          -36.375344679310224
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 198490,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198490,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250101207,
-        "id": "ESTA:250101207",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-03T10:22:00.000Z",
-        "updated": "2025-01-03T10:41:00.000Z",
-        "resources": 0,
-        "location": "Colac",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.59243580470886,
-          -38.34707561934405
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "cfaId": 198494,
         "feedType": "incident",
@@ -2630,95 +2723,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 198496,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101220",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pt Lonsdale Rd",
-        "eventId": "250101220",
-        "id": "ESTA:250101220",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-03T11:22:13.000Z",
-        "updated": "2025-01-03T11:22:13.000Z",
-        "resources": 3,
-        "location": "Pt Lonsdale Rd, Point Lonsdale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250101220"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6138330148204,
-          -38.288498659585514
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250101210",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101210",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Churchill Av",
-        "id": "ESTA:250101210",
-        "eventId": "250101210",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-03T10:52:30.000Z",
-        "updated": "2025-01-03T10:52:30.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Churchill Av, Braybrook"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.85391918747433,
-          -37.78646328437642
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250101215",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101215",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Betula Tce",
-        "id": "ESTA:250101215",
-        "eventId": "250101215",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-03T11:07:15.000Z",
-        "updated": "2025-01-03T11:07:15.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Betula Tce, Sunbury"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.72286248903504,
-          -37.59341590727647
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 555177,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2730,7 +2735,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-03T11:08:00.000Z",
-        "updated": "2025-01-03T11:28:00.000Z",
+        "updated": "2025-01-03T11:42:00.000Z",
         "resources": 1,
         "location": "Bamawm Extension"
       },
@@ -2971,7 +2976,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-03T11:30:20.238Z",
+    "lastUpdated": "2025-01-03T11:50:25.749Z",
     "featureCount": 273
   }
 }
