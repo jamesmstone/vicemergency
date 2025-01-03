@@ -1589,6 +1589,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1620288",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Airport Rd/Hinton Rd , Wandilo",
+        "id": "1620288",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Airport Rd/Hinton Rd , Wandilo",
+        "created": "2025-01-03T19:07:00.000Z",
+        "updated": "2025-01-03T19:07:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Airport Rd/Hinton Rd , Wandilo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.754475608928,
+          -37.7387385629127
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1645,54 +1671,53 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117944717,
+        "status": "Unknown",
+        "estaId": 117944967,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555184,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250101296,
-        "id": "ESTA:250101296",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117944967,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Rye",
+        "eventId": "F250101301",
+        "id": "ESTA:250101301",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-03T16:47:00.000Z",
-        "updated": "2025-01-03T18:38:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-03T18:00:14.000Z",
+        "updated": "2025-01-03T19:05:07.063Z",
         "resources": 0,
-        "location": "Genoa",
-        "sesId": 555184
+        "location": "Rye"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.53354638488912,
-          -37.504489424600486
+          144.8193744221614,
+          -38.3699733430256
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117944931,
+        "status": "Responding",
+        "estaId": 117945164,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198521,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Meredith Park Rd",
-        "eventId": 250101300,
-        "id": "ESTA:250101300",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250101307",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Flemington Rd",
+        "eventId": "250101307",
+        "id": "ESTA:250101307",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-03T17:48:00.000Z",
-        "updated": "2025-01-03T18:43:00.000Z",
-        "resources": 0,
-        "location": "Meredith Park Rd, Ondit",
-        "cfaId": 198521,
+        "category2": "Non Structure Fire",
+        "created": "2025-01-03T19:16:23.000Z",
+        "updated": "2025-01-03T19:16:23.000Z",
+        "resources": 2,
+        "location": "Flemington Rd, Parkville",
+        "mfbId": "250101307",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1700,8 +1725,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.61075444873495,
-          -38.26900966613443
+          144.9532793348927,
+          -37.790543635552275
         ]
       }
     },
@@ -2281,6 +2306,33 @@
             "coordinates": [
               [
                 [
+                  148.1961,
+                  -35.8386
+                ],
+                [
+                  148.1941,
+                  -35.839
+                ],
+                [
+                  148.1928,
+                  -35.8364
+                ],
+                [
+                  148.1955,
+                  -35.8362
+                ],
+                [
+                  148.1961,
+                  -35.8386
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   148.1973,
                   -35.8367
                 ],
@@ -2315,33 +2367,6 @@
                 [
                   148.1973,
                   -35.8367
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.1961,
-                  -35.8386
-                ],
-                [
-                  148.1941,
-                  -35.839
-                ],
-                [
-                  148.1928,
-                  -35.8364
-                ],
-                [
-                  148.1955,
-                  -35.8362
-                ],
-                [
-                  148.1961,
-                  -35.8386
                 ]
               ]
             ]
@@ -2689,60 +2714,58 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 198522,
+        "cfaId": 198523,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101301",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rye",
-        "eventId": "250101301",
-        "id": "ESTA:250101301",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198523,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lt Bridge St",
+        "eventId": 250101302,
+        "id": "ESTA:250101302",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-03T18:12:35.000Z",
-        "updated": "2025-01-03T18:12:35.000Z",
-        "resources": 3,
-        "location": "Rye, Rye",
+        "category2": "Other",
+        "created": "2025-01-03T18:11:00.000Z",
+        "updated": "2025-01-03T18:30:00.000Z",
+        "resources": 0,
+        "location": "Lt Bridge St, Bakery Hill",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250101301"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.81937277390514,
-          -38.36997858095762
+          143.86525776034327,
+          -37.562627884043046
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 198523,
+        "cfaId": 198521,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101302",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lt Bridge St",
-        "eventId": "250101302",
-        "id": "ESTA:250101302",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198521,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Meredith Park Rd",
+        "eventId": 250101300,
+        "id": "ESTA:250101300",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-03T18:29:44.000Z",
-        "updated": "2025-01-03T18:29:44.000Z",
-        "resources": 1,
-        "location": "Lt Bridge St, Bakery Hill",
+        "category2": "Other",
+        "created": "2025-01-03T17:48:00.000Z",
+        "updated": "2025-01-03T18:43:00.000Z",
+        "resources": 0,
+        "location": "Meredith Park Rd, Ondit",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250101302"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.86526264684161,
-          -37.56262754239448
+          143.61075444873495,
+          -38.26900966613443
         ]
       }
     },
@@ -4183,7 +4206,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-03T18:50:00.221Z",
-    "featureCount": 271
+    "lastUpdated": "2025-01-03T19:17:40.242Z",
+    "featureCount": 272
   }
 }
