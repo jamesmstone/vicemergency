@@ -1646,32 +1646,66 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117943662,
+        "estaId": 117944503,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198509,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250101272,
-        "id": "ESTA:250101272",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250101293",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Learmonth St",
+        "eventId": "250101293",
+        "id": "ESTA:250101293",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-03T13:46:00.000Z",
-        "updated": "2025-01-03T16:46:00.000Z",
-        "resources": 0,
-        "location": "Stawell",
-        "cfaId": 198509,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-03T17:27:36.000Z",
+        "updated": "2025-01-03T17:27:36.000Z",
+        "resources": 1,
+        "location": "Learmonth St, Alfredton",
+        "cfaId": 198518,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250101293"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.77592752748464,
-          -37.06279040600171
+          143.81215086513862,
+          -37.563112060569075
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 117944717,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555184,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250101296,
+        "id": "ESTA:250101296",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-01-03T16:47:00.000Z",
+        "updated": "2025-01-03T17:29:00.000Z",
+        "resources": 7,
+        "location": "Genoa",
+        "cfaId": 198519,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 555184
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.53354638488912,
+          -37.504489424600486
         ]
       }
     },
@@ -2658,61 +2692,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 198518,
+        "status": "Safe",
+        "cfaId": 198509,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101293",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Learmonth St",
-        "eventId": "250101293",
-        "id": "ESTA:250101293",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-03T16:42:24.000Z",
-        "updated": "2025-01-03T16:42:24.000Z",
-        "resources": 2,
-        "location": "Learmonth St, Alfredton",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198509,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250101272,
+        "id": "ESTA:250101272",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-03T13:46:00.000Z",
+        "updated": "2025-01-03T16:46:00.000Z",
+        "resources": 0,
+        "location": "Stawell",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250101293"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.81215086513862,
-          -37.563112060569075
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 198519,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555184,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250101296,
-        "id": "ESTA:250101296",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-03T16:47:00.000Z",
-        "updated": "2025-01-03T17:02:00.000Z",
-        "resources": 7,
-        "location": "Genoa",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 555184
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.53354638488912,
-          -37.504489424600486
+          142.77592752748464,
+          -37.06279040600171
         ]
       }
     },
@@ -3969,6 +3972,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -3976,8 +3980,7 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "YES - TOTAL FIRE BAN IN FORCE",
         "Wimmera": "YES - TOTAL FIRE BAN IN FORCE",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3993,6 +3996,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -4000,8 +4004,7 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "YES - TOTAL FIRE BAN IN FORCE",
             "Wimmera": "YES - TOTAL FIRE BAN IN FORCE",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-03T13:00:00.000Z",
           "heat": {
@@ -4182,7 +4185,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-03T17:21:08.443Z",
+    "lastUpdated": "2025-01-03T17:32:00.369Z",
     "featureCount": 271
   }
 }
