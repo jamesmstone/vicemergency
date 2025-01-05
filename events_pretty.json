@@ -1477,7 +1477,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1002078,
@@ -1487,8 +1487,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2024-12-26T23:35:00.000Z",
-        "updated": "2025-01-04T06:18:00.000Z",
-        "resources": 5,
+        "updated": "2025-01-05T05:39:00.000Z",
+        "resources": 0,
         "size": "14.00",
         "sizeFmt": "14.00 Ha.",
         "location": "22Km Se Of Mount Buller"
@@ -1504,7 +1504,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1002254,
@@ -1514,8 +1514,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2024-12-30T23:41:00.000Z",
-        "updated": "2025-01-04T06:13:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-05T05:30:00.000Z",
+        "resources": 0,
         "size": "1.00",
         "sizeFmt": "1.00 Ha.",
         "location": "10Km Nw Of Stradbroke"
@@ -1720,7 +1720,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1002614,
@@ -1730,10 +1730,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-05T04:03:00.000Z",
-        "updated": "2025-01-05T04:03:00.000Z",
-        "resources": 5,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "updated": "2025-01-05T05:28:00.000Z",
+        "resources": 3,
+        "size": "0.50",
+        "sizeFmt": "0.50 Ha.",
         "location": "3.5Km South West Of Toolamba"
       },
       "type": "Feature",
@@ -1857,59 +1857,285 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 117960918,
+        "estaId": 117960508,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 555352,
+        "sourceId": 555347,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250150368,
-        "id": "ESTA:250150368",
+        "eventId": 250101972,
+        "id": "ESTA:250101972",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-05T04:30:00.000Z",
-        "updated": "2025-01-05T05:20:00.000Z",
-        "resources": 0,
-        "location": "Alfredton",
-        "sesId": 555352
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-01-05T03:42:00.000Z",
+        "updated": "2025-01-05T05:39:00.000Z",
+        "resources": 1,
+        "location": "Milawa",
+        "sesId": 555347
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.79478822327962,
-          -37.54882887565888
+          146.41379039837403,
+          -36.44727224562736
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117961690,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102030",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Tullamarine",
+        "eventId": "250102030",
+        "id": "ESTA:250102030",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-05T05:46:21.000Z",
+        "updated": "2025-01-05T05:46:21.000Z",
+        "resources": 1,
+        "location": "Tullamarine, Tullamarine",
+        "mfbId": "250102030",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.885974945393,
+          -37.707369626370145
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117961690,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555363,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150380,
+        "id": "ESTA:250150380",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-05T05:42:00.000Z",
+        "updated": "2025-01-05T05:46:00.000Z",
+        "resources": 0,
+        "location": "Tullamarine",
+        "sesId": 555363
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88597029211027,
+          -37.707377392723664
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 117960085,
+        "estaId": 117961590,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117960085,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Almurta",
-        "eventId": "F250101954",
-        "id": "ESTA:250101954",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102026",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mt Alexander Rd",
+        "eventId": "250102026",
+        "id": "ESTA:250102026",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-05T02:54:25.000Z",
-        "updated": "2025-01-05T05:21:08.174Z",
-        "resources": 0,
-        "location": "Almurta-Glen Forbes Rd, Almurta"
+        "category2": "Non Structure Fire",
+        "created": "2025-01-05T05:45:55.000Z",
+        "updated": "2025-01-05T05:45:55.000Z",
+        "resources": 2,
+        "location": "Mt Alexander Rd, Moonee Ponds",
+        "mfbId": "250102026",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.55975248228884,
-          -38.446938355855956
+          144.92528658965992,
+          -37.76192212663031
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117961650,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102028",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Simmons St",
+        "eventId": "250102028",
+        "id": "ESTA:250102028",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-05T05:46:10.000Z",
+        "updated": "2025-01-05T05:46:10.000Z",
+        "resources": 2,
+        "location": "Simmons St, South Yarra",
+        "mfbId": "250102028",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99672776725288,
+          -37.84489217273498
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117961725,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102032",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hazelwood Rd",
+        "eventId": "250102032",
+        "id": "ESTA:250102032",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-05T05:46:26.000Z",
+        "updated": "2025-01-05T05:46:26.000Z",
+        "resources": 1,
+        "location": "Hazelwood Rd, Hazelwood North",
+        "cfaId": 198902,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250102032"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.47888099167295,
+          -38.26360201349037
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 117961392,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198897,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250102019,
+        "id": "ESTA:250102019",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-05T05:14:00.000Z",
+        "updated": "2025-01-05T05:46:00.000Z",
+        "resources": 0,
+        "location": "Avoca",
+        "cfaId": 198897,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.45510069791345,
+          -37.05124115816069
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117961752,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102033",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wests Rd",
+        "eventId": "250102033",
+        "id": "ESTA:250102033",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-05T05:47:29.000Z",
+        "updated": "2025-01-05T05:47:29.000Z",
+        "resources": 0,
+        "location": "Wests Rd, Maribyrnong",
+        "mfbId": "250102033",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88064423804178,
+          -37.77224775989886
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 117961568,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198901,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pinniger St",
+        "eventId": 250102025,
+        "id": "ESTA:250102025",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-05T05:30:00.000Z",
+        "updated": "2025-01-05T05:48:00.000Z",
+        "resources": 4,
+        "location": "Pinniger St, Yarrawonga",
+        "cfaId": 198901,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0052080622319,
+          -36.02440510509028
         ]
       }
     },
@@ -1929,8 +2155,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-05T05:01:00.000Z",
-        "updated": "2025-01-05T05:14:00.000Z",
-        "resources": 3,
+        "updated": "2025-01-05T05:38:00.000Z",
+        "resources": 15,
         "location": "Moliagul",
         "cfaId": 198892,
         "size": "Small",
@@ -1947,407 +2173,228 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117961311,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555360,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150377,
-        "id": "ESTA:250150377",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-05T05:06:00.000Z",
-        "updated": "2025-01-05T05:23:00.000Z",
-        "resources": 0,
-        "location": "Mckenzie Hill",
-        "sesId": 555360
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.187582912932,
-          -37.06967068339104
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 117961512,
+        "status": "Safe",
+        "estaId": 117961775,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 117961512,
+        "sourceId": 117961775,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Warragul",
-        "eventId": "S250150379",
-        "id": "ESTA:250150379",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-05T05:22:34.000Z",
-        "updated": "2025-01-05T05:26:24.625Z",
-        "resources": 0,
-        "location": "Princes Fwy, Warragul"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.92232326769707,
-          -38.170775998674706
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117961537,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102024",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Weston St",
-        "eventId": "250102024",
-        "id": "ESTA:250102024",
+        "sourceTitle": "Essendon",
+        "eventId": "F250102034",
+        "id": "ESTA:250102034",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-05T05:30:38.000Z",
-        "updated": "2025-01-05T05:30:38.000Z",
-        "resources": 2,
-        "location": "Weston St, Brunswick East",
-        "mfbId": "250102024",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.975662080512,
-          -37.77653947078929
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117961525,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198899,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 250102022,
-        "id": "ESTA:250102022",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-05T05:26:00.000Z",
-        "updated": "2025-01-05T05:26:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Killarney",
-        "cfaId": 198899,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.3134071020819,
-          -38.34351466830504
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 117960902,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198876,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hillside Rd",
-        "eventId": 250101991,
-        "id": "ESTA:250101991",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-05T04:29:00.000Z",
-        "updated": "2025-01-05T05:29:00.000Z",
-        "resources": 9,
-        "location": "Hillside Rd, Hillside (Bairnsdale)",
-        "cfaId": 198876,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.49508490704468,
-          -37.85281307351123
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 117961015,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250101998",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pascoe Vale Rd",
-        "eventId": "250101998",
-        "id": "ESTA:250101998",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-05T05:30:39.000Z",
-        "updated": "2025-01-05T05:30:39.000Z",
-        "resources": 2,
-        "location": "Pascoe Vale Rd, Broadmeadows",
-        "mfbId": "250101998",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9110665602662,
-          -37.66476217330947
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 117961340,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198894,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 250102016,
-        "id": "ESTA:250102016",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-05T05:09:00.000Z",
-        "updated": "2025-01-05T05:30:00.000Z",
-        "resources": 2,
-        "location": "Hume Fwy, Wallan",
-        "cfaId": 198894,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01685016351462,
-          -37.40322918793551
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117961568,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198901,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pinniger St",
-        "eventId": 250102025,
-        "id": "ESTA:250102025",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-05T05:30:00.000Z",
-        "updated": "2025-01-05T05:30:00.000Z",
-        "resources": 0,
-        "location": "Pinniger St, Yarrawonga",
-        "cfaId": 198901,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0052080622319,
-          -36.02440510509028
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 117960535,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117960535,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Toolamba",
-        "eventId": "F250101974",
-        "id": "ESTA:250101974",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-05T03:45:16.000Z",
-        "updated": "2025-01-05T05:31:50.689Z",
-        "resources": 0,
-        "location": "Wattle Trk, Toolamba"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32248770318557,
-          -36.51803113343021
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 117961590,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102026",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mt Alexander Rd",
-        "eventId": "250102026",
-        "id": "ESTA:250102026",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-05T05:32:08.000Z",
-        "updated": "2025-01-05T05:32:08.000Z",
-        "resources": 2,
-        "location": "Mt Alexander Rd, Moonee Ponds",
-        "mfbId": "250102026",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92528658965992,
-          -37.76192212663031
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 117961392,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198897,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250102019,
-        "id": "ESTA:250102019",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-05T05:14:00.000Z",
-        "updated": "2025-01-05T05:32:00.000Z",
-        "resources": 5,
-        "location": "Avoca",
-        "cfaId": 198897,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.45510069791345,
-          -37.05124115816069
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 117961385,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102018",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "West Gate Fwy",
-        "eventId": "250102018",
-        "id": "ESTA:250102018",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-05T05:32:40.000Z",
-        "updated": "2025-01-05T05:32:40.000Z",
+        "created": "2025-01-05T05:49:08.000Z",
+        "updated": "2025-01-05T05:50:00.218Z",
         "resources": 3,
-        "location": "West Gate Fwy, Port Melbourne",
-        "mfbId": "250102018",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Fletcher St, Essendon"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90498370348516,
-          -37.83312365792638
+          144.92525261645002,
+          -37.75605053349624
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117961045,
+        "status": "Being Controlled",
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555354,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150371,
-        "id": "ESTA:250150371",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-05T04:43:00.000Z",
-        "updated": "2025-01-05T05:33:00.000Z",
-        "resources": 0,
-        "location": "Lorne",
-        "sesId": 555354
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "583161",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wymah Rd, Wymah",
+        "id": "2025-01-05T16:15:00.0000000:583161",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Wymah Rd, Wymah",
+        "location": "Dalkeith 2159 Wymah Rd, Wymah 2640",
+        "created": "2025-01-05T16:15:00+11:00",
+        "updated": "2025-01-05T16:15:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.97499632883648,
-          -38.533636479447246
+          147.294174194,
+          -36.0243759159999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582772",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Rolfe Rd, Logie Brae",
+        "id": "2025-01-05T16:15:00.0000000:582772",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Rolfe Rd, Logie Brae",
+        "location": "587 Rolfe Rd, Logie Brae 2713",
+        "created": "2025-01-05T16:15:00+11:00",
+        "updated": "2025-01-05T16:15:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.510574341,
+          -35.4969787599999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582171",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Geehi Campground Accs, Geehi",
+        "id": "2025-01-04T08:16:00.0000000:582171",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Geehi Campground Accs, Geehi",
+        "location": "Geehi Campground Accs, Geehi 2642",
+        "created": "2025-01-04T08:16:00+11:00",
+        "updated": "2025-01-04T08:16:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.178665161,
+          -36.378696442
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582935",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Tingaringy Creek, Byadbo Wilderness",
+        "id": "2025-01-05T16:13:00.0000000:582935",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Tingaringy Creek, Byadbo Wilderness",
+        "location": "Tingaringy Creek, Byadbo Wilderness 2628",
+        "created": "2025-01-05T16:13:00+11:00",
+        "updated": "2025-01-05T16:13:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.59831047,
+          -36.9424148269999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "582988",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Tingaringy Creek - Two",
+        "id": "2025-01-05T16:08:00.0000000:582988",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Tingaringy Creek - Two",
+        "location": "Monument Trk, Byadbo Wilderness 2628",
+        "created": "2025-01-05T16:08:00+11:00",
+        "updated": "2025-01-05T16:08:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.2083,
+                  -36.3842
+                ],
+                [
+                  148.2144,
+                  -36.3872
+                ],
+                [
+                  148.2137,
+                  -36.3888
+                ],
+                [
+                  148.2116,
+                  -36.3883
+                ],
+                [
+                  148.2122,
+                  -36.39
+                ],
+                [
+                  148.2135,
+                  -36.3897
+                ],
+                [
+                  148.2103,
+                  -36.393
+                ],
+                [
+                  148.2074,
+                  -36.3896
+                ],
+                [
+                  148.2083,
+                  -36.3842
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.616352081,
+              -36.944061194
+            ]
+          }
         ]
       }
     },
@@ -2595,204 +2642,6 @@
     },
     {
       "properties": {
-        "status": "Being Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "583161",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Wymah Rd, Wymah",
-        "id": "2025-01-05T16:15:00.0000000:583161",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Wymah Rd, Wymah",
-        "location": "Wymah Rd, Wymah 2640",
-        "created": "2025-01-05T16:15:00+11:00",
-        "updated": "2025-01-05T16:15:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.277862549,
-          -36.021595002
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582772",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Rolfe Rd, Logie Brae",
-        "id": "2025-01-05T16:15:00.0000000:582772",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Rolfe Rd, Logie Brae",
-        "location": "587 Rolfe Rd, Logie Brae 2713",
-        "created": "2025-01-05T16:15:00+11:00",
-        "updated": "2025-01-05T16:15:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.510574341,
-          -35.4969787599999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582171",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Geehi Campground Accs, Geehi",
-        "id": "2025-01-04T08:16:00.0000000:582171",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Geehi Campground Accs, Geehi",
-        "location": "Geehi Campground Accs, Geehi 2642",
-        "created": "2025-01-04T08:16:00+11:00",
-        "updated": "2025-01-04T08:16:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.178665161,
-          -36.378696442
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582935",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Tingaringy Creek, Byadbo Wilderness",
-        "id": "2025-01-05T16:13:00.0000000:582935",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Tingaringy Creek, Byadbo Wilderness",
-        "location": "Tingaringy Creek, Byadbo Wilderness 2628",
-        "created": "2025-01-05T16:13:00+11:00",
-        "updated": "2025-01-05T16:13:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.59831047,
-          -36.9424148269999
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "582988",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Tingaringy Creek - Two",
-        "id": "2025-01-05T16:08:00.0000000:582988",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Tingaringy Creek - Two",
-        "location": "Monument Trk, Byadbo Wilderness 2628",
-        "created": "2025-01-05T16:08:00+11:00",
-        "updated": "2025-01-05T16:08:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.2083,
-                  -36.3842
-                ],
-                [
-                  148.2144,
-                  -36.3872
-                ],
-                [
-                  148.2137,
-                  -36.3888
-                ],
-                [
-                  148.2116,
-                  -36.3883
-                ],
-                [
-                  148.2122,
-                  -36.39
-                ],
-                [
-                  148.2135,
-                  -36.3897
-                ],
-                [
-                  148.2103,
-                  -36.393
-                ],
-                [
-                  148.2074,
-                  -36.3896
-                ],
-                [
-                  148.2083,
-                  -36.3842
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.616352081,
-              -36.944061194
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
@@ -3029,93 +2878,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 198877,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198877,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "City Vista Ct",
-        "eventId": 250101990,
-        "id": "ESTA:250101990",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-05T04:28:00.000Z",
-        "updated": "2025-01-05T04:40:00.000Z",
-        "resources": 0,
-        "location": "City Vista Ct, Fraser Rise",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.72686188243614,
-          -37.707092366327984
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 198878,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198878,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Red Gum Trk",
-        "eventId": 250101992,
-        "id": "ESTA:250101992",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-05T04:29:00.000Z",
-        "updated": "2025-01-05T04:45:00.000Z",
-        "resources": 0,
-        "location": "Red Gum Trk, Merbein",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.07429768961285,
-          -34.155572048015436
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 198882,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198882,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Waverley Av",
-        "eventId": 250102002,
-        "id": "ESTA:250102002",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-05T04:43:00.000Z",
-        "updated": "2025-01-05T04:45:00.000Z",
-        "resources": 0,
-        "location": "Waverley Av, Lorne",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.97499632883648,
-          -38.533636479447246
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 198887,
         "feedType": "incident",
@@ -3140,35 +2902,6 @@
         "coordinates": [
           146.23806195195658,
           -38.27281845239279
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 198880,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 198880,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250101993,
-        "id": "ESTA:250101993",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-05T04:32:00.000Z",
-        "updated": "2025-01-05T04:51:00.000Z",
-        "resources": 2,
-        "location": "Echuca",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.75070911705498,
-          -36.1389437029341
         ]
       }
     },
@@ -3379,6 +3112,35 @@
     {
       "properties": {
         "status": "Responding",
+        "cfaId": 198899,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198899,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 250102022,
+        "id": "ESTA:250102022",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-05T05:26:00.000Z",
+        "updated": "2025-01-05T05:26:00.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Killarney",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3134071020819,
+          -38.34351466830504
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "cfaId": 198900,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3391,7 +3153,7 @@
         "category2": "Building Fire",
         "created": "2025-01-05T05:27:00.000Z",
         "updated": "2025-01-05T05:27:00.000Z",
-        "resources": 2,
+        "resources": 3,
         "location": "Western Av, Westmeadows",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3402,6 +3164,64 @@
         "coordinates": [
           144.87781351851532,
           -37.68395333689248
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198876,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198876,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hillside Rd",
+        "eventId": 250101991,
+        "id": "ESTA:250101991",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-05T04:29:00.000Z",
+        "updated": "2025-01-05T05:29:00.000Z",
+        "resources": 8,
+        "location": "Hillside Rd, Hillside (Bairnsdale)",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.49508490704468,
+          -37.85281307351123
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 198894,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198894,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 250102016,
+        "id": "ESTA:250102016",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-05T05:09:00.000Z",
+        "updated": "2025-01-05T05:30:00.000Z",
+        "resources": 1,
+        "location": "Hume Fwy, Wallan",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01685016351462,
+          -37.40322918793551
         ]
       }
     },
@@ -3420,7 +3240,7 @@
         "category2": "Building Fire",
         "created": "2025-01-05T05:01:00.000Z",
         "updated": "2025-01-05T05:30:00.000Z",
-        "resources": 6,
+        "resources": 7,
         "location": "Alma-Moonlight Rd, Alma",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3436,30 +3256,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250102021",
+        "status": "Safe",
+        "cfaId": 198880,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102021",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Glenferrie Rd",
-        "id": "ESTA:250102021",
-        "eventId": "250102021",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 198880,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250101993,
+        "id": "ESTA:250101993",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-05T05:30:40.000Z",
-        "updated": "2025-01-05T05:30:40.000Z",
-        "resources": 1,
+        "created": "2025-01-05T04:32:00.000Z",
+        "updated": "2025-01-05T05:44:00.000Z",
+        "resources": 0,
+        "location": "Echuca",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Glenferrie Rd, Hawthorn"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0354602085524,
-          -37.8199744024643
+          144.75070911705498,
+          -36.1389437029341
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250101998",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250101998",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pascoe Vale Rd",
+        "id": "ESTA:250101998",
+        "eventId": "250101998",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-05T05:30:39.000Z",
+        "updated": "2025-01-05T05:30:39.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Pascoe Vale Rd, Broadmeadows"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9110665602662,
+          -37.66476217330947
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250102018",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102018",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "West Gate Fwy",
+        "id": "ESTA:250102018",
+        "eventId": "250102018",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-05T05:32:40.000Z",
+        "updated": "2025-01-05T05:32:40.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "West Gate Fwy, Port Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90498370348516,
+          -37.83312365792638
         ]
       }
     },
@@ -3520,33 +3398,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 555347,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555347,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250101972,
-        "id": "ESTA:250101972",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-05T03:42:00.000Z",
-        "updated": "2025-01-05T03:55:00.000Z",
-        "resources": 2,
-        "location": "Milawa"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.41379039837403,
-          -36.44727224562736
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 555348,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -3585,8 +3436,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-05T05:02:00.000Z",
-        "updated": "2025-01-05T05:05:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-05T05:34:00.000Z",
+        "resources": 1,
         "location": "Hawthorn East"
       },
       "type": "Feature",
@@ -3600,7 +3451,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 555361,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -3612,7 +3463,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-05T05:17:00.000Z",
-        "updated": "2025-01-05T05:30:00.000Z",
+        "updated": "2025-01-05T05:43:00.000Z",
         "resources": 1,
         "location": "Warragul"
       },
@@ -8491,7 +8342,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -8499,7 +8349,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -8550,7 +8401,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-05T05:34:25.977Z",
-    "featureCount": 323
+    "lastUpdated": "2025-01-05T05:50:05.793Z",
+    "featureCount": 318
   }
 }
