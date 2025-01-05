@@ -1266,8 +1266,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-05T05:09:00.000Z",
-        "updated": "2025-01-05T10:22:00.000Z",
-        "resources": 2,
+        "updated": "2025-01-05T16:10:00.000Z",
+        "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
         "location": "1.2Km Nw Moliagual"
@@ -1293,8 +1293,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-05T05:41:00.000Z",
-        "updated": "2025-01-05T11:39:00.000Z",
-        "resources": 5,
+        "updated": "2025-01-05T15:55:00.000Z",
+        "resources": 0,
         "size": "3.60",
         "sizeFmt": "3.60 Ha.",
         "location": "3.7Km Nw Moliagul"
@@ -1347,8 +1347,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-05T06:55:00.000Z",
-        "updated": "2025-01-05T10:25:00.000Z",
-        "resources": 4,
+        "updated": "2025-01-05T16:11:00.000Z",
+        "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
         "location": "3.1Km W Moliagul"
@@ -1553,30 +1553,128 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117966713,
+        "status": "Responding",
+        "estaId": 117966857,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 117966713,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Frankston",
-        "eventId": "S250150426",
-        "id": "ESTA:250150426",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102239",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kingfisher Ct",
+        "eventId": "250102239",
+        "id": "ESTA:250102239",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-01-05T15:38:31.000Z",
-        "updated": "2025-01-05T15:42:47.616Z",
-        "resources": 0,
-        "location": "Lardner Rd, Frankston"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-05T16:15:23.000Z",
+        "updated": "2025-01-05T16:15:23.000Z",
+        "resources": 2,
+        "location": "Kingfisher Ct, Mildura",
+        "cfaId": 199014,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250102239"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.13796322661054,
-          -38.15476568713045
+          142.1444034803161,
+          -34.19346615067832
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117966864,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199015,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Morgan St",
+        "eventId": 250102240,
+        "id": "ESTA:250102240",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-05T16:17:00.000Z",
+        "updated": "2025-01-05T16:17:00.000Z",
+        "resources": 2,
+        "location": "Morgan St, Sebastopol",
+        "cfaId": 199015,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.83620634134593,
+          -37.60540984046881
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 117966777,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199012,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hamilton-Port Fairy Rd",
+        "eventId": 250102236,
+        "id": "ESTA:250102236",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-05T15:58:00.000Z",
+        "updated": "2025-01-05T15:58:00.000Z",
+        "resources": 4,
+        "location": "Hamilton-Port Fairy Rd, Broadwater",
+        "cfaId": 199012,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0548446076637,
+          -38.14590271116939
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 117966884,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555409,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150427,
+        "id": "ESTA:250150427",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-05T16:21:00.000Z",
+        "updated": "2025-01-05T16:22:00.000Z",
+        "resources": 0,
+        "location": "Glen Iris",
+        "sesId": 555409
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.06563355864492,
+          -37.865918922214746
         ]
       }
     },
@@ -2852,35 +2950,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 199011,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199011,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stamford St",
-        "eventId": 250102230,
-        "id": "ESTA:250102230",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-05T14:53:00.000Z",
-        "updated": "2025-01-05T15:04:00.000Z",
-        "resources": 0,
-        "location": "Stamford St, Wendouree",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8266898998302,
-          -37.529011128259164
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 199010,
         "feedType": "incident",
@@ -2910,6 +2979,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 199013,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199013,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "William Rd",
+        "eventId": 250102238,
+        "id": "ESTA:250102238",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-05T16:10:00.000Z",
+        "updated": "2025-01-05T16:10:00.000Z",
+        "resources": 5,
+        "location": "William Rd, Kallista",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.40147284375888,
+          -37.90068130165122
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250102221",
         "feedType": "incident",
@@ -2923,7 +3021,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-05T14:55:30.000Z",
         "updated": "2025-01-05T14:55:30.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Don St, Reservoir"
@@ -2951,8 +3049,8 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2025-01-05T15:35:00.000Z",
-        "updated": "2025-01-05T15:35:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-05T16:16:00.000Z",
+        "resources": 1,
         "location": "Frankston"
       },
       "type": "Feature",
@@ -3192,7 +3290,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-05T15:50:21.424Z",
-    "featureCount": 295
+    "lastUpdated": "2025-01-05T16:26:40.295Z",
+    "featureCount": 298
   }
 }
