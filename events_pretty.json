@@ -896,40 +896,69 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 117976994,
+        "status": "Request For Assistance",
+        "estaId": 117977249,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102604",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bakers Bridge Rd",
-        "eventId": "250102604",
-        "id": "ESTA:250102604",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555609,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150627,
+        "id": "ESTA:250150627",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-06T13:17:17.000Z",
-        "updated": "2025-01-06T13:17:17.000Z",
-        "resources": 3,
-        "location": "Bakers Bridge Rd, Sutherlands Creek",
-        "cfaId": 199152,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250102604"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-06T13:37:00.000Z",
+        "updated": "2025-01-06T13:44:00.000Z",
+        "resources": 0,
+        "location": "West Wodonga",
+        "sesId": 555609
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.242439091651,
-          -38.05178151349642
+          146.84559288080735,
+          -36.13269977656442
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 117977255,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199154,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Buln Buln Rd",
+        "eventId": 250102609,
+        "id": "ESTA:250102609",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-06T13:37:00.000Z",
+        "updated": "2025-01-06T13:37:00.000Z",
+        "resources": 3,
+        "location": "Buln Buln Rd, Drouin",
+        "cfaId": 199154,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87399327241994,
+          -38.132327435248044
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 117977146,
         "feedType": "incident",
         "source": "000",
@@ -956,6 +985,65 @@
         "coordinates": [
           145.24295218576918,
           -37.879117413042614
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 117977283,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555610,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150628,
+        "id": "ESTA:250150628",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-01-06T13:40:00.000Z",
+        "updated": "2025-01-06T13:42:00.000Z",
+        "resources": 0,
+        "location": "White Hills",
+        "sesId": 555610
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.30290330609958,
+          -36.73558121851064
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 117977342,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 117977342,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Doncaster",
+        "eventId": "F250102611",
+        "id": "ESTA:250102611",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-06T13:49:30.000Z",
+        "updated": "2025-01-06T13:50:14.758Z",
+        "resources": 0,
+        "location": "Firth St, Doncaster"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12232095067822,
+          -37.786800871766104
         ]
       }
     },
@@ -2739,84 +2827,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "581669",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Hannels Spur, Geehi",
-        "id": "2025-01-06T17:15:00.0000000:581669",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Hannels Spur, Geehi",
-        "location": "Alpine Way, Geehi 2642",
-        "created": "2025-01-06T17:15:00+11:00",
-        "updated": "2025-01-06T17:15:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "40 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.2083,
-                  -36.3842
-                ],
-                [
-                  148.2144,
-                  -36.3872
-                ],
-                [
-                  148.2137,
-                  -36.3888
-                ],
-                [
-                  148.2116,
-                  -36.3883
-                ],
-                [
-                  148.2122,
-                  -36.39
-                ],
-                [
-                  148.2135,
-                  -36.3897
-                ],
-                [
-                  148.2103,
-                  -36.393
-                ],
-                [
-                  148.2074,
-                  -36.3896
-                ],
-                [
-                  148.2083,
-                  -36.3842
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.211452083,
-              -36.391357972
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "579349",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Endeavour Dr, Balranald",
@@ -2884,6 +2894,84 @@
             "coordinates": [
               143.542129516,
               -34.646060943
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "581669",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hannels Spur, Geehi",
+        "id": "2025-01-06T17:15:00.0000000:581669",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Hannels Spur, Geehi",
+        "location": "Alpine Way, Geehi 2642",
+        "created": "2025-01-06T17:15:00+11:00",
+        "updated": "2025-01-06T17:15:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "40 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.2083,
+                  -36.3842
+                ],
+                [
+                  148.2144,
+                  -36.3872
+                ],
+                [
+                  148.2137,
+                  -36.3888
+                ],
+                [
+                  148.2116,
+                  -36.3883
+                ],
+                [
+                  148.2122,
+                  -36.39
+                ],
+                [
+                  148.2135,
+                  -36.3897
+                ],
+                [
+                  148.2103,
+                  -36.393
+                ],
+                [
+                  148.2074,
+                  -36.3896
+                ],
+                [
+                  148.2083,
+                  -36.3842
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.211452083,
+              -36.391357972
             ]
           }
         ]
@@ -2979,30 +3067,60 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250102605",
+        "status": "Safe",
+        "cfaId": 199152,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250102605",
+        "sourceId": "250102604",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Banksia St",
-        "id": "ESTA:250102605",
-        "eventId": "250102605",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-06T13:11:53.000Z",
-        "updated": "2025-01-06T13:11:53.000Z",
-        "resources": 1,
+        "sourceTitle": "Bakers Bridge Rd",
+        "eventId": "250102604",
+        "id": "ESTA:250102604",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-06T13:17:17.000Z",
+        "updated": "2025-01-06T13:17:17.000Z",
+        "resources": 2,
+        "location": "Bakers Bridge Rd, Sutherlands Creek",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Banksia St, Ivanhoe"
+        "mfbId": "250102604"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03669010879054,
-          -37.75646155920344
+          144.242439091651,
+          -38.05178151349642
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 199155,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199155,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dalzell Rd",
+        "eventId": 250102610,
+        "id": "ESTA:250102610",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-06T13:45:00.000Z",
+        "updated": "2025-01-06T13:45:00.000Z",
+        "resources": 2,
+        "location": "Dalzell Rd, Point Cook",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7436230175115,
+          -37.92615795575727
         ]
       }
     }
@@ -3234,7 +3352,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-06T13:29:00.387Z",
-    "featureCount": 280
+    "lastUpdated": "2025-01-06T13:50:26.163Z",
+    "featureCount": 284
   }
 }
