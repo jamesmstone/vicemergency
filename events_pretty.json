@@ -896,37 +896,39 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117978237,
+        "status": "Responding",
+        "estaId": 117978403,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555615,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150633,
-        "id": "ESTA:250150633",
+        "source": "PHONE",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199163,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray Valley Hwy",
+        "eventId": 250102637,
+        "id": "ESTA:250102637",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-06T16:50:00.000Z",
-        "updated": "2025-01-06T17:28:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-06T17:44:00.000Z",
+        "updated": "2025-01-06T17:44:00.000Z",
         "resources": 0,
-        "location": "Wodonga",
-        "sesId": 555615
+        "location": "Murray Valley Hwy, Wemen",
+        "cfaId": 199163,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.90422863812216,
-          -36.13418549706687
+          142.6275554077137,
+          -34.79311838885968
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 117978367,
         "feedType": "incident",
         "source": "000",
@@ -940,7 +942,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-06T17:32:00.000Z",
-        "updated": "2025-01-06T17:32:00.000Z",
+        "updated": "2025-01-06T17:42:00.000Z",
         "resources": 0,
         "location": "Splatt St, Swan Hill",
         "cfaId": 199161,
@@ -2508,6 +2510,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "583427",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Swan Hill Rd",
+        "id": "2025-01-07T04:36:00.0000000:583427",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Swan Hill Rd",
+        "location": "Wamba Wamba Reserve Indigenous Community 33-37 Swan Hill Rd, Murray Downs 2734",
+        "created": "2025-01-07T04:36:00+11:00",
+        "updated": "2025-01-07T04:36:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.56539917,
+          -35.3359985349999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -2639,92 +2671,6 @@
             "coordinates": [
               148.616352081,
               -36.944061194
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "581586",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Patons Hut",
-        "id": "2025-01-06T14:36:00.0000000:581586",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Patons Hut",
-        "location": "Dargals Trl, Jagumba 2642",
-        "created": "2025-01-06T14:36:00+11:00",
-        "updated": "2025-01-06T14:36:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "122 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.3143,
-                  -36.0554
-                ],
-                [
-                  148.3153,
-                  -36.0585
-                ],
-                [
-                  148.3202,
-                  -36.0619
-                ],
-                [
-                  148.3191,
-                  -36.0632
-                ],
-                [
-                  148.301,
-                  -36.063
-                ],
-                [
-                  148.2979,
-                  -36.0613
-                ],
-                [
-                  148.2983,
-                  -36.0581
-                ],
-                [
-                  148.3007,
-                  -36.0557
-                ],
-                [
-                  148.3041,
-                  -36.0569
-                ],
-                [
-                  148.308,
-                  -36.055
-                ],
-                [
-                  148.3143,
-                  -36.0554
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.296966552,
-              -36.0611877439999
             ]
           }
         ]
@@ -2887,6 +2833,92 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "581586",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Patons Hut",
+        "id": "2025-01-06T14:36:00.0000000:581586",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Patons Hut",
+        "location": "Dargals Trl, Jagumba 2642",
+        "created": "2025-01-06T14:36:00+11:00",
+        "updated": "2025-01-06T14:36:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "122 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.3143,
+                  -36.0554
+                ],
+                [
+                  148.3153,
+                  -36.0585
+                ],
+                [
+                  148.3202,
+                  -36.0619
+                ],
+                [
+                  148.3191,
+                  -36.0632
+                ],
+                [
+                  148.301,
+                  -36.063
+                ],
+                [
+                  148.2979,
+                  -36.0613
+                ],
+                [
+                  148.2983,
+                  -36.0581
+                ],
+                [
+                  148.3007,
+                  -36.0557
+                ],
+                [
+                  148.3041,
+                  -36.0569
+                ],
+                [
+                  148.308,
+                  -36.055
+                ],
+                [
+                  148.3143,
+                  -36.0554
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.296966552,
+              -36.0611877439999
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 189816,
@@ -2913,35 +2945,6 @@
         "coordinates": [
           141.3739967181328,
           -37.16936964424308
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199160,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199160,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sherwood Rd",
-        "eventId": 250102632,
-        "id": "ESTA:250102632",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-06T16:35:00.000Z",
-        "updated": "2025-01-06T16:47:00.000Z",
-        "resources": 0,
-        "location": "Sherwood Rd, Junction Village",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2920046090535,
-          -38.13667892851029
         ]
       }
     },
@@ -3229,7 +3232,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-06T17:33:40.653Z",
+    "lastUpdated": "2025-01-06T17:50:20.411Z",
     "featureCount": 280
   }
 }
