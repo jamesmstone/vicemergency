@@ -877,24 +877,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 117990119,
+        "status": "Not Yet Under Control",
+        "estaId": 117989105,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250102991",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "South Rd",
-        "eventId": "250102991",
-        "id": "ESTA:250102991",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199285,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lighthouse Rd",
+        "eventId": 250102954,
+        "id": "ESTA:250102954",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-07T19:09:51.000Z",
-        "updated": "2025-01-07T19:09:51.000Z",
-        "resources": 2,
-        "location": "South Rd, Braybrook",
-        "mfbId": "250102991",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-07T14:19:00.000Z",
+        "updated": "2025-01-07T17:15:00.000Z",
+        "resources": 26,
+        "location": "Lighthouse Rd, Cape Otway",
+        "cfaId": 199285,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -902,38 +902,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.84591751535157,
-          -37.79090428695718
+          143.54304786379848,
+          -38.846365403179895
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 117990119,
+        "status": "Responding",
+        "estaId": 117990178,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555749,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150774,
-        "id": "ESTA:250150774",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102992",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ovens Ct",
+        "eventId": "250102992",
+        "id": "ESTA:250102992",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-07T18:55:00.000Z",
-        "updated": "2025-01-07T19:12:00.000Z",
-        "resources": 0,
-        "location": "Braybrook",
-        "sesId": 555749
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-07T19:24:55.000Z",
+        "updated": "2025-01-07T19:24:55.000Z",
+        "resources": 1,
+        "location": "Ovens Ct, West Wodonga",
+        "mfbId": "250102992",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.84591325140372,
-          -37.7909112303187
+          146.85158248009859,
+          -36.11862260928045
         ]
       }
     },
@@ -2716,35 +2718,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 199285,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199285,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lighthouse Rd",
-        "eventId": 250102954,
-        "id": "ESTA:250102954",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-07T14:19:00.000Z",
-        "updated": "2025-01-07T17:15:00.000Z",
-        "resources": 27,
-        "location": "Lighthouse Rd, Cape Otway",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5519937580639,
-          -38.836205467228446
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 199294,
         "feedType": "incident",
@@ -2830,6 +2803,64 @@
         "coordinates": [
           142.20081977490167,
           -34.243252735879175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 199301,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199301,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Circular Dr",
+        "eventId": 250102993,
+        "id": "ESTA:250102993",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-07T19:27:00.000Z",
+        "updated": "2025-01-07T19:27:00.000Z",
+        "resources": 2,
+        "location": "Circular Dr, Sunbury",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73247205663674,
+          -37.59434782140556
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250102991",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250102991",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "South Rd",
+        "id": "ESTA:250102991",
+        "eventId": "250102991",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-07T19:09:51.000Z",
+        "updated": "2025-01-07T19:09:51.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "South Rd, Braybrook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84591751535157,
+          -37.79090428695718
         ]
       }
     }
@@ -3061,7 +3092,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-07T19:18:25.986Z",
-    "featureCount": 282
+    "lastUpdated": "2025-01-07T19:30:26.137Z",
+    "featureCount": 283
   }
 }
