@@ -767,6 +767,69 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 117990364,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103012",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gembrook Rd",
+        "eventId": "250103012",
+        "id": "ESTA:250103012",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-07T20:28:05.000Z",
+        "updated": "2025-01-07T20:28:05.000Z",
+        "resources": 2,
+        "location": "Gembrook Rd, Gembrook",
+        "cfaId": 199306,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103012"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.55115330590976,
+          -37.95624126178937
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 117990218,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555751,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150776,
+        "id": "ESTA:250150776",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-07T19:39:00.000Z",
+        "updated": "2025-01-07T20:26:00.000Z",
+        "resources": 0,
+        "location": "Inverloch",
+        "sesId": 555751
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.72949572856535,
+          -38.63382887175366
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 117990319,
         "feedType": "incident",
         "source": "000",
@@ -779,8 +842,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-07T20:12:19.000Z",
-        "updated": "2025-01-07T20:12:19.000Z",
+        "created": "2025-01-07T20:31:55.000Z",
+        "updated": "2025-01-07T20:31:55.000Z",
         "resources": 2,
         "location": "Bartons Lane, Loy Yang",
         "cfaId": 199304,
@@ -794,6 +857,36 @@
         "coordinates": [
           146.58016070046074,
           -38.25294924127158
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 117990395,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555752,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150777,
+        "id": "ESTA:250150777",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-07T20:33:00.000Z",
+        "updated": "2025-01-07T20:34:00.000Z",
+        "resources": 0,
+        "location": "Koo Wee Rup",
+        "sesId": 555752
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.48891381339365,
+          -38.2015777179934
         ]
       }
     },
@@ -2602,33 +2695,6 @@
           -38.846365403179895
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 555751,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555751,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150776,
-        "id": "ESTA:250150776",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-07T19:39:00.000Z",
-        "updated": "2025-01-07T19:54:00.000Z",
-        "resources": 1,
-        "location": "Inverloch"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.72949572856535,
-          -38.63382887175366
-        ]
-      }
     }
   ],
   "properties": {
@@ -2645,7 +2711,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2653,7 +2718,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2669,7 +2735,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2677,7 +2742,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-07T13:00:00.000Z",
           "heat": {
@@ -2858,7 +2924,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-07T20:24:25.752Z",
-    "featureCount": 280
+    "lastUpdated": "2025-01-07T20:36:00.963Z",
+    "featureCount": 282
   }
 }
