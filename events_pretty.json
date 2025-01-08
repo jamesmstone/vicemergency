@@ -484,23 +484,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118001137,
+        "estaId": 118001146,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 199455,
+        "sourceId": 199456,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Myrtleford-Yackandandah Rd",
-        "eventId": 250103385,
-        "id": "ESTA:250103385",
+        "sourceTitle": "Great Ocean Rd",
+        "eventId": 250103386,
+        "id": "ESTA:250103386",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-08T16:51:00.000Z",
-        "updated": "2025-01-08T17:18:00.000Z",
-        "resources": 1,
-        "location": "Myrtleford-Yackandandah Rd, Bruarong",
-        "cfaId": 199455,
+        "created": "2025-01-08T16:53:00.000Z",
+        "updated": "2025-01-08T17:48:00.000Z",
+        "resources": 0,
+        "location": "Great Ocean Rd, Bellbrae",
+        "cfaId": 199456,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -508,8 +508,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.86889063807544,
-          -36.4439066112251
+          144.21563846679308,
+          -38.37696403803181
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118001186,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555813,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150841,
+        "id": "ESTA:250150841",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-08T17:07:00.000Z",
+        "updated": "2025-01-08T17:49:00.000Z",
+        "resources": 0,
+        "location": "Port Melbourne",
+        "sesId": 555813
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9464214548991,
+          -37.83483659560908
         ]
       }
     },
@@ -1461,35 +1491,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 199452,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199452,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103376,
-        "id": "ESTA:250103376",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-08T16:14:00.000Z",
-        "updated": "2025-01-08T16:34:00.000Z",
-        "resources": 0,
-        "location": "Tootgarook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8432368291565,
-          -38.37308697850002
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 199454,
         "feedType": "incident",
@@ -1532,7 +1533,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-08T16:51:07.000Z",
         "updated": "2025-01-08T16:51:07.000Z",
-        "resources": 4,
+        "resources": 2,
         "location": "Morris St, Belmont",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1549,21 +1550,21 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 199456,
+        "status": "Safe",
+        "cfaId": 199455,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 199456,
+        "sourceId": 199455,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Great Ocean Rd",
-        "eventId": 250103386,
-        "id": "ESTA:250103386",
+        "sourceTitle": "Myrtleford-Yackandandah Rd",
+        "eventId": 250103385,
+        "id": "ESTA:250103385",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-08T16:53:00.000Z",
-        "updated": "2025-01-08T17:16:00.000Z",
-        "resources": 3,
-        "location": "Great Ocean Rd, Bellbrae",
+        "created": "2025-01-08T16:51:00.000Z",
+        "updated": "2025-01-08T17:18:00.000Z",
+        "resources": 1,
+        "location": "Myrtleford-Yackandandah Rd, Bruarong",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1571,64 +1572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.21563846679308,
-          -38.37696403803181
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250103378",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103378",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Toorak Rd",
-        "id": "ESTA:250103378",
-        "eventId": "250103378",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-08T16:56:59.000Z",
-        "updated": "2025-01-08T16:56:59.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Toorak Rd, South Yarra"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99305840749975,
-          -37.83901753778182
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 555813,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555813,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150841,
-        "id": "ESTA:250150841",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-08T17:07:00.000Z",
-        "updated": "2025-01-08T17:11:00.000Z",
-        "resources": 0,
-        "location": "Port Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9464214548991,
-          -37.83483659560908
+          146.86889063807544,
+          -36.4439066112251
         ]
       }
     },
@@ -1646,8 +1591,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-08T17:15:00.000Z",
-        "updated": "2025-01-08T17:20:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-08T17:39:00.000Z",
+        "resources": 1,
         "location": "Natte Yallock"
       },
       "type": "Feature",
@@ -1887,7 +1832,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-08T17:33:40.573Z",
-    "featureCount": 281
+    "lastUpdated": "2025-01-08T17:50:25.934Z",
+    "featureCount": 279
   }
 }
