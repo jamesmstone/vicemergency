@@ -360,6 +360,33 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1001589,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Midlands 35 - Creswick - Melbourne Rd",
+        "id": 1001589,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2024-12-16T06:02:00.000Z",
+        "updated": "2025-01-09T03:39:00.000Z",
+        "resources": 1,
+        "size": "191.00",
+        "sizeFmt": "191.00 Ha.",
+        "location": "4Km W Of Dean"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.934815,
+          -37.453251
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -409,6 +436,33 @@
         "coordinates": [
           145.564261,
           -38.382219
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1001775,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Midlands 37 - Bullengarook - Coffeys Road",
+        "id": 1001775,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2024-12-20T05:33:00.000Z",
+        "updated": "2025-01-09T03:42:00.000Z",
+        "resources": 4,
+        "size": "144.00",
+        "sizeFmt": "144.00 Ha.",
+        "location": "8Km W Of Gisborne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4974,
+          -37.4731
         ]
       }
     },
@@ -563,8 +617,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-09T03:11:51.000Z",
-        "updated": "2025-01-09T03:11:51.000Z",
+        "created": "2025-01-09T03:35:24.000Z",
+        "updated": "2025-01-09T03:35:24.000Z",
         "resources": 4,
         "location": "Scott St, Dandenong",
         "cfaId": 199510,
@@ -583,55 +637,56 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118004748,
+        "status": "Under Control",
+        "estaId": 118005929,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199497,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Smiths Rd",
-        "eventId": 250103521,
-        "id": "ESTA:250103521",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103561",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wahroonga Av",
+        "eventId": "250103561",
+        "id": "ESTA:250103561",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-09T01:38:00.000Z",
-        "updated": "2025-01-09T02:23:00.000Z",
-        "resources": 0,
-        "location": "Smiths Rd, Toolangi",
-        "cfaId": 199497,
+        "category2": "Structure Fire",
+        "created": "2025-01-09T03:35:54.000Z",
+        "updated": "2025-01-09T03:35:54.000Z",
+        "resources": 4,
+        "location": "Wahroonga Av, Keysborough",
+        "cfaId": 199511,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250103561"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.49927765165754,
-          -37.53046288664827
+          145.1714940165198,
+          -37.98366271349356
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118005826,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250103558",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Webb Rd",
+        "sourceTitle": "Airport West",
         "eventId": "250103558",
         "id": "ESTA:250103558",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-09T03:19:08.000Z",
-        "updated": "2025-01-09T03:19:08.000Z",
-        "resources": 2,
-        "location": "Webb Rd, Airport West",
+        "created": "2025-01-09T03:42:49.000Z",
+        "updated": "2025-01-09T03:42:49.000Z",
+        "resources": 1,
+        "location": "Airport West, Airport West",
         "mfbId": "250103558",
         "size": "Small",
         "sizeFmt": "Small"
@@ -640,43 +695,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.89107696502143,
-          -37.71632171896416
+          144.89196177754735,
+          -37.71625944707501
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118005893,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118005893,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Carlton",
-        "eventId": "F250103559",
-        "id": "ESTA:250103559",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T03:15:47.000Z",
-        "updated": "2025-01-09T03:22:43.852Z",
-        "resources": 0,
-        "location": "Berkeley St, Carlton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95891372033378,
-          -37.802903037548454
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118005801,
         "feedType": "incident",
         "source": "000",
@@ -688,10 +714,10 @@
         "id": "ESTA:250103557",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-09T03:12:53.000Z",
-        "updated": "2025-01-09T03:12:53.000Z",
-        "resources": 3,
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T03:44:02.000Z",
+        "updated": "2025-01-09T03:44:02.000Z",
+        "resources": 1,
         "location": "Jesica Rd, Campbellfield",
         "mfbId": "250103557",
         "size": "Small",
@@ -1022,180 +1048,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 199504,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199504,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103539,
-        "id": "ESTA:250103539",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T02:24:00.000Z",
-        "updated": "2025-01-09T02:26:00.000Z",
-        "resources": 0,
-        "location": "Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02993166872142,
-          -37.644994071069036
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199505,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199505,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103540,
-        "id": "ESTA:250103540",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T02:26:00.000Z",
-        "updated": "2025-01-09T02:27:00.000Z",
-        "resources": 0,
-        "location": "Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03057669240062,
-          -37.645031880980675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199507,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199507,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103545,
-        "id": "ESTA:250103545",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T02:32:00.000Z",
-        "updated": "2025-01-09T02:38:00.000Z",
-        "resources": 0,
-        "location": "Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03057669240062,
-          -37.645031880980675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199508,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199508,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Memorial Av",
-        "eventId": 250103547,
-        "id": "ESTA:250103547",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T02:37:00.000Z",
-        "updated": "2025-01-09T02:38:00.000Z",
-        "resources": 0,
-        "location": "Memorial Av, Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0297333676895,
-          -37.64520704807299
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199476,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199476,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103475,
-        "id": "ESTA:250103475",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-08T23:31:00.000Z",
-        "updated": "2025-01-09T02:40:00.000Z",
-        "resources": 0,
-        "location": "Bulla",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8048847928887,
-          -37.63565770662421
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199502,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199502,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103531,
-        "id": "ESTA:250103531",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T02:03:00.000Z",
-        "updated": "2025-01-09T02:46:00.000Z",
-        "resources": 0,
-        "location": "Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3226446434573,
-          -38.30054812871931
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 199509,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1219,6 +1071,35 @@
         "coordinates": [
           145.13734421399943,
           -38.14570021896325
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 199512,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199512,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250103563,
+        "id": "ESTA:250103563",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-09T03:30:00.000Z",
+        "updated": "2025-01-09T03:37:00.000Z",
+        "resources": 0,
+        "location": "Sunbury",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72061795777086,
+          -37.58606292312326
         ]
       }
     },
@@ -1364,33 +1245,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 555844,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555844,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150869,
-        "id": "ESTA:250150869",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-09T02:10:00.000Z",
-        "updated": "2025-01-09T02:50:00.000Z",
-        "resources": 1,
-        "location": "Caulfield South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02941482533055,
-          -37.89840026199947
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 555847,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1412,6 +1266,33 @@
         "coordinates": [
           145.0591833697398,
           -37.850934207002375
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 555850,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555850,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150879,
+        "id": "ESTA:250150879",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-09T03:46:00.000Z",
+        "updated": "2025-01-09T03:47:00.000Z",
+        "resources": 0,
+        "location": "Lorne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.97432955703215,
+          -38.541392450705196
         ]
       }
     }
@@ -1643,7 +1524,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-09T03:23:00.309Z",
-    "featureCount": 287
+    "lastUpdated": "2025-01-09T03:48:05.848Z",
+    "featureCount": 283
   }
 }
