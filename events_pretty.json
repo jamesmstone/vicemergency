@@ -401,33 +401,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1002787,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Snowy 8 - Corringle - Ewings Marsh Rd",
-        "id": 1002787,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-09T04:45:00.000Z",
-        "updated": "2025-01-09T05:17:00.000Z",
-        "resources": 1,
-        "size": "0.50",
-        "sizeFmt": "0.50 Ha.",
-        "location": "0.8Km Sw Of Corringle"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.44,
-          -37.7829
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -450,32 +423,6 @@
         "coordinates": [
           148.4131,
           -37.082
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1621053",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Rust Road, Tarpeena",
-        "id": "1621053",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Rust Road, Tarpeena",
-        "created": "2025-01-09T04:48:00.000Z",
-        "updated": "2025-01-09T04:48:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Rust Road, Tarpeena"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.781819034182,
-          -37.6206657707756
         ]
       }
     },
@@ -509,36 +456,102 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118006508,
+        "status": "Responding",
+        "estaId": 118008006,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 118006508,
+        "sourceId": 118008006,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Thologolong",
-        "eventId": "F250103578",
-        "id": "ESTA:250103578",
+        "sourceTitle": "Mickleham",
+        "eventId": "F250103620",
+        "id": "ESTA:250103620",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-09T04:17:03.000Z",
-        "updated": "2025-01-09T06:18:06.709Z",
-        "resources": 2,
-        "location": "Murray River Rd, Thologolong"
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-09T06:24:32.000Z",
+        "updated": "2025-01-09T06:36:24.100Z",
+        "resources": 0,
+        "location": "Margaretta Cct, Mickleham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.48042453801528,
-          -35.95614879188839
+          144.90720160901458,
+          -37.51911413758727
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Under Control",
+        "estaId": 118007536,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103607",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "View Gully Rd",
+        "eventId": "250103607",
+        "id": "ESTA:250103607",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-09T06:43:29.000Z",
+        "updated": "2025-01-09T06:43:29.000Z",
+        "resources": 2,
+        "location": "View Gully Rd, Hopetoun Park",
+        "cfaId": 199529,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103607"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.50983660140548,
+          -37.69913178852517
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118008140,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103623",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Plumpton",
+        "eventId": "250103623",
+        "id": "ESTA:250103623",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T06:44:04.000Z",
+        "updated": "2025-01-09T06:44:04.000Z",
+        "resources": 2,
+        "location": "Plumpton, Plumpton",
+        "cfaId": 199541,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103623"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70271043530468,
+          -37.65847917709933
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
         "estaId": 118007889,
         "feedType": "incident",
         "source": "000",
@@ -552,8 +565,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-01-09T06:18:00.000Z",
-        "updated": "2025-01-09T06:22:00.000Z",
-        "resources": 8,
+        "updated": "2025-01-09T06:35:00.000Z",
+        "resources": 7,
         "location": "Mickleham",
         "cfaId": 199534,
         "size": "Small",
@@ -572,167 +585,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118007960,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555862,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250103617,
-        "id": "ESTA:250103617",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-09T06:23:00.000Z",
-        "updated": "2025-01-09T06:29:00.000Z",
-        "resources": 5,
-        "location": "Ocean Grove",
-        "cfaId": 199538,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250103617",
-        "sesId": 555862
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.49846520048743,
-          -38.28223008354495
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
-        "estaId": 118007051,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103594",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wollert",
-        "eventId": "250103594",
-        "id": "ESTA:250103594",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-09T06:23:02.000Z",
-        "updated": "2025-01-09T06:23:02.000Z",
-        "resources": 6,
-        "location": "Wollert, Wollert",
-        "cfaId": 199525,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250103594"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02471890354082,
-          -37.622532722297166
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118007970,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103618",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bond St",
-        "eventId": "250103618",
-        "id": "ESTA:250103618",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T06:23:45.000Z",
-        "updated": "2025-01-09T06:23:45.000Z",
-        "resources": 1,
-        "location": "Bond St, Preston",
-        "mfbId": "250103618",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99869521774946,
-          -37.73851867302874
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118007975,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199539,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250103619,
-        "id": "ESTA:250103619",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-09T06:24:00.000Z",
-        "updated": "2025-01-09T06:24:00.000Z",
-        "resources": 1,
-        "location": "Safety Beach",
-        "cfaId": 199539,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97724510059527,
-          -38.32846601424071
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118007900,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118007900,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mickleham",
-        "eventId": "F250103615",
-        "id": "ESTA:250103615",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-09T06:17:40.000Z",
-        "updated": "2025-01-09T06:24:57.262Z",
-        "resources": 0,
-        "location": "Mickleham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89865650472623,
-          -37.534882298098836
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "estaId": 118007746,
         "feedType": "incident",
         "source": "000",
@@ -745,8 +598,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-09T06:26:03.000Z",
-        "updated": "2025-01-09T06:26:03.000Z",
+        "created": "2025-01-09T06:47:59.000Z",
+        "updated": "2025-01-09T06:47:59.000Z",
         "resources": 2,
         "location": "Garsed St, Bendigo",
         "mfbId": "250103611",
@@ -759,100 +612,6 @@
         "coordinates": [
           144.27620524929054,
           -36.76741289695377
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118008006,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199540,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Margaretta Cct",
-        "eventId": 250103620,
-        "id": "ESTA:250103620",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-09T06:27:00.000Z",
-        "updated": "2025-01-09T06:27:00.000Z",
-        "resources": 0,
-        "location": "Margaretta Cct, Mickleham",
-        "cfaId": 199540,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.90719202062772,
-          -37.51911809787541
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118008040,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118008040,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Bendigo",
-        "eventId": "F250103621",
-        "id": "ESTA:250103621",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T06:30:15.000Z",
-        "updated": "2025-01-09T06:30:49.714Z",
-        "resources": 0,
-        "location": "Gaol Rd, Bendigo"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.28046522572453,
-          -36.75365279484511
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118007732,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103610",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coalville Rd",
-        "eventId": "250103610",
-        "id": "ESTA:250103610",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-01-09T06:08:34.000Z",
-        "updated": "2025-01-09T06:08:34.000Z",
-        "resources": 6,
-        "location": "Coalville Rd, Hernes Oak",
-        "cfaId": 199532,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250103610"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.26836390754713,
-          -38.230060321582776
         ]
       }
     },
@@ -1172,35 +931,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 199528,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199528,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mons Pde",
-        "eventId": 250103604,
-        "id": "ESTA:250103604",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T05:38:00.000Z",
-        "updated": "2025-01-09T05:49:00.000Z",
-        "resources": 0,
-        "location": "Mons Pde, Noble Park",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17830079735654,
-          -37.967730713658824
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 199530,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1229,37 +959,97 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 199529,
+        "status": "Safe",
+        "cfaId": 199525,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250103607",
+        "sourceId": "250103594",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "View Gully Rd",
-        "eventId": "250103607",
-        "id": "ESTA:250103607",
+        "sourceTitle": "Wollert",
+        "eventId": "250103594",
+        "id": "ESTA:250103594",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-09T05:59:00.000Z",
-        "updated": "2025-01-09T05:59:00.000Z",
-        "resources": 3,
-        "location": "View Gully Rd, Hopetoun Park",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T06:23:02.000Z",
+        "updated": "2025-01-09T06:23:02.000Z",
+        "resources": 4,
+        "location": "Wollert, Wollert",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250103607"
+        "mfbId": "250103594"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.50983660140548,
-          -37.69913178852517
+          145.02471890354082,
+          -37.622532722297166
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 199539,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199539,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250103619,
+        "id": "ESTA:250103619",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-09T06:24:00.000Z",
+        "updated": "2025-01-09T06:33:00.000Z",
+        "resources": 0,
+        "location": "Safety Beach",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97724510059527,
+          -38.32846601424071
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 199538,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555862,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250103617,
+        "id": "ESTA:250103617",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-01-09T06:23:00.000Z",
+        "updated": "2025-01-09T06:35:00.000Z",
+        "resources": 2,
+        "location": "Ocean Grove",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103617",
+        "sesId": 555862
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.49846520048743,
+          -38.28223008354495
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 199533,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1268,11 +1058,11 @@
         "sourceTitle": "Ada River Rd",
         "eventId": 250103612,
         "id": "ESTA:250103612",
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
         "created": "2025-01-09T06:06:00.000Z",
-        "updated": "2025-01-09T06:06:00.000Z",
-        "resources": 4,
+        "updated": "2025-01-09T06:34:00.000Z",
+        "resources": 0,
         "location": "Ada River Rd, Gentle Annie",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1283,35 +1073,6 @@
         "coordinates": [
           145.89324138578522,
           -37.883099072857675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250103609",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103609",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Scott Gr",
-        "id": "ESTA:250103609",
-        "eventId": "250103609",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T05:57:12.000Z",
-        "updated": "2025-01-09T05:57:12.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Scott Gr, Glen Iris"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04943316447455,
-          -37.858351841610144
         ]
       }
     },
@@ -1374,33 +1135,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 555858,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555858,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150886,
-        "id": "ESTA:250150886",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-09T05:27:00.000Z",
-        "updated": "2025-01-09T05:55:00.000Z",
-        "resources": 1,
-        "location": "Glen Waverley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16196972603217,
-          -37.899040542459794
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 555859,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1422,6 +1156,33 @@
         "coordinates": [
           144.9916732566026,
           -36.00798977072489
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 555858,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555858,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150886,
+        "id": "ESTA:250150886",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-09T05:27:00.000Z",
+        "updated": "2025-01-09T06:41:00.000Z",
+        "resources": 1,
+        "location": "Glen Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16196972603217,
+          -37.899040542459794
         ]
       }
     }
@@ -1653,7 +1414,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-09T06:31:46.597Z",
-    "featureCount": 289
+    "lastUpdated": "2025-01-09T06:50:06.448Z",
+    "featureCount": 281
   }
 }
