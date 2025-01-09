@@ -430,33 +430,65 @@
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 118011303,
+        "estaId": 118011754,
         "feedType": "incident",
-        "source": "RADIO",
+        "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250103730",
+        "sourceId": "250103735",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gap Rd",
-        "eventId": "250103730",
-        "id": "ESTA:250103730",
+        "sourceTitle": "Aitken Av",
+        "eventId": "250103735",
+        "id": "ESTA:250103735",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-09T12:34:03.000Z",
-        "updated": "2025-01-09T12:34:03.000Z",
-        "resources": 5,
-        "location": "Gap Rd, Sunbury",
-        "cfaId": 199583,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-09T13:25:09.000Z",
+        "updated": "2025-01-09T13:25:09.000Z",
+        "resources": 4,
+        "location": "Aitken Av, Hoppers Crossing",
+        "cfaId": 199586,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250103730"
+        "mfbId": "250103735"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71091649156702,
-          -37.57829442945328
+          144.70336617865712,
+          -37.872879946403835
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118011887,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103737",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brooklyn",
+        "eventId": "250103737",
+        "id": "ESTA:250103737",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-09T13:26:03.000Z",
+        "updated": "2025-01-09T13:26:03.000Z",
+        "resources": 1,
+        "location": "Brooklyn, Brooklyn",
+        "mfbId": "250103737",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84869979321593,
+          -37.824623539652194
         ]
       }
     },
@@ -745,6 +777,36 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 199583,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103730",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gap Rd",
+        "eventId": "250103730",
+        "id": "ESTA:250103730",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-09T12:34:03.000Z",
+        "updated": "2025-01-09T12:34:03.000Z",
+        "resources": 5,
+        "location": "Gap Rd, Sunbury",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103730"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71091649156702,
+          -37.57829442945328
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "cfaId": 199582,
         "feedType": "incident",
@@ -774,6 +836,36 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 199584,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103733",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Obrien St",
+        "eventId": "250103733",
+        "id": "ESTA:250103733",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T12:57:36.000Z",
+        "updated": "2025-01-09T12:57:36.000Z",
+        "resources": 2,
+        "location": "Obrien St, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103733"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36063085308749,
+          -36.39191631160963
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250103697",
         "feedType": "incident",
@@ -787,7 +879,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-09T11:09:02.000Z",
         "updated": "2025-01-09T11:09:02.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Keilor Rd, Essendon North"
@@ -811,7 +903,7 @@
         "Central": "MODERATE",
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
-        "South West": "MODERATE",
+        "South West": "HIGH",
         "Wimmera": "MODERATE",
         "Mallee": "MODERATE"
       },
@@ -827,53 +919,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "East Gippsland": "MODERATE",
-            "West and South Gippsland": "MODERATE",
-            "North East": "MODERATE",
-            "Central": "MODERATE",
-            "North Central": "MODERATE",
-            "Northern Country": "MODERATE",
-            "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2025-01-08T13:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Not Declared"
-          },
-          "asthma": {
-            "Mallee": "None",
-            "Wimmera": "None",
-            "Northern Country": "None",
-            "North East": "None",
-            "East Gippsland": "None",
-            "West and South Gippsland": "None",
-            "Central": "None",
-            "North Central": "None",
-            "South West": "None"
-          }
-        },
         {
           "fdr": {
             "East Gippsland": "MODERATE",
@@ -1002,6 +1047,53 @@
             "Central": "Not Declared",
             "North Central": "Not Declared",
             "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "East Gippsland": "MODERATE",
+            "West and South Gippsland": "MODERATE",
+            "North East": "MODERATE",
+            "Central": "MODERATE",
+            "North Central": "MODERATE",
+            "Northern Country": "MODERATE",
+            "South West": "MODERATE",
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2025-01-12T13:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
           }
         }
       ],
@@ -1029,7 +1121,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-09T12:47:40.260Z",
-    "featureCount": 268
+    "lastUpdated": "2025-01-09T13:28:39.971Z",
+    "featureCount": 271
   }
 }
