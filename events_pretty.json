@@ -401,6 +401,38 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118015077,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103852",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ross St",
+        "eventId": "250103852",
+        "id": "ESTA:250103852",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T23:23:41.000Z",
+        "updated": "2025-01-09T23:23:41.000Z",
+        "resources": 2,
+        "location": "Ross St, Coburg",
+        "mfbId": "250103852",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96491989977187,
+          -37.73523378870621
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1348,65 +1380,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 199625,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103835",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sunbury",
-        "eventId": "250103835",
-        "id": "ESTA:250103835",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T22:11:06.000Z",
-        "updated": "2025-01-09T22:11:06.000Z",
-        "resources": 1,
-        "location": "Sunbury, Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250103835"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.71773401174218,
-          -37.565686422957
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199624,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199624,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stawell Rd",
-        "eventId": 250103834,
-        "id": "ESTA:250103834",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T21:56:00.000Z",
-        "updated": "2025-01-09T22:23:00.000Z",
-        "resources": 0,
-        "location": "Stawell Rd, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.20564381951064,
-          -36.727732837128336
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 199628,
         "feedType": "incident",
@@ -1494,30 +1467,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250103838",
+        "status": "Safe",
+        "cfaId": 199625,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103838",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Haughton Rd",
-        "id": "ESTA:250103838",
-        "eventId": "250103838",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199625,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250103835,
+        "id": "ESTA:250103835",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-09T22:44:12.000Z",
-        "updated": "2025-01-09T22:44:12.000Z",
-        "resources": 1,
+        "created": "2025-01-09T21:58:00.000Z",
+        "updated": "2025-01-09T23:32:00.000Z",
+        "resources": 0,
+        "location": "Sunbury",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Haughton Rd, Oakleigh"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.08834735511013,
-          -37.90063050008221
+          144.71772951054652,
+          -37.56569470584194
         ]
       }
     },
@@ -1549,35 +1522,6 @@
           -37.81164300559332
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250103815",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103815",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pecks Rd",
-        "id": "ESTA:250103815",
-        "eventId": "250103815",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-09T21:28:54.000Z",
-        "updated": "2025-01-09T21:28:54.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Pecks Rd, Sydenham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.76932472821903,
-          -37.70162436626658
-        ]
-      }
     }
   ],
   "properties": {
@@ -1594,7 +1538,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1602,7 +1545,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1618,7 +1562,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1626,7 +1569,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-09T13:00:00.000Z",
           "heat": {
@@ -1807,7 +1751,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-09T23:23:00.414Z",
-    "featureCount": 272
+    "lastUpdated": "2025-01-09T23:33:00.411Z",
+    "featureCount": 270
   }
 }
