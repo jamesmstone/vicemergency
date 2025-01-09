@@ -402,33 +402,34 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118015077,
+        "status": "Request For Assistance",
+        "estaId": 118015348,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250103852",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ross St",
-        "eventId": "250103852",
-        "id": "ESTA:250103852",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555893,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250103857,
+        "id": "ESTA:250103857",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-09T23:23:41.000Z",
-        "updated": "2025-01-09T23:23:41.000Z",
-        "resources": 2,
-        "location": "Ross St, Coburg",
-        "mfbId": "250103852",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-01-09T23:49:00.000Z",
+        "updated": "2025-01-09T23:49:00.000Z",
+        "resources": 0,
+        "location": "Athlone",
+        "cfaId": 199631,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 555893
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96491989977187,
-          -37.73523378870621
+          145.80874666324027,
+          -38.22799678372084
         ]
       }
     },
@@ -1496,6 +1497,65 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 199630,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103854",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Robertson Dr",
+        "eventId": "250103854",
+        "id": "ESTA:250103854",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-09T23:48:45.000Z",
+        "updated": "2025-01-09T23:48:45.000Z",
+        "resources": 3,
+        "location": "Robertson Dr, Mornington",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250103854"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0557271274438,
+          -38.2254698698233
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250103852",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250103852",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ross St",
+        "id": "ESTA:250103852",
+        "eventId": "250103852",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-09T23:34:24.000Z",
+        "updated": "2025-01-09T23:34:24.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Ross St, Coburg"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96491989977187,
+          -37.73523378870621
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250103767",
         "feedType": "incident",
@@ -1751,7 +1811,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-09T23:33:00.411Z",
-    "featureCount": 270
+    "lastUpdated": "2025-01-09T23:50:20.337Z",
+    "featureCount": 272
   }
 }
