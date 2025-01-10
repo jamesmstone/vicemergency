@@ -813,8 +813,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-10T20:00:00.000Z",
-        "updated": "2025-01-10T21:46:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-10T22:51:00.000Z",
+        "resources": 1,
         "size": "0.01",
         "sizeFmt": "0.01 Ha.",
         "location": "1 Km Sw Shepparton"
@@ -825,6 +825,33 @@
         "coordinates": [
           145.392212,
           -36.387232
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Contained",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1002838,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Murrindindi 27 - Humevale - Humevale Road",
+        "id": 1002838,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-10T21:50:00.000Z",
+        "updated": "2025-01-10T22:27:00.000Z",
+        "resources": 1,
+        "size": "0.10",
+        "sizeFmt": "0.10 Ha.",
+        "location": "Ene Humevale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2022,
+          -37.5049
         ]
       }
     },
@@ -858,24 +885,54 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118027389,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555968,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150999,
+        "id": "ESTA:250150999",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-10T23:07:00.000Z",
+        "updated": "2025-01-10T23:09:00.000Z",
+        "resources": 0,
+        "location": "Cranbourne South",
+        "sesId": 555968
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24048338872723,
+          -38.1473721193551
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
-        "estaId": 118026959,
+        "estaId": 118027250,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 199809,
+        "sourceId": 199814,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250104230,
-        "id": "ESTA:250104230",
+        "sourceTitle": "King George St",
+        "eventId": 250104240,
+        "id": "ESTA:250104240",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-10T22:12:00.000Z",
-        "updated": "2025-01-10T22:46:00.000Z",
-        "resources": 3,
-        "location": "Delburn",
-        "cfaId": 199809,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-10T22:52:00.000Z",
+        "updated": "2025-01-10T23:01:00.000Z",
+        "resources": 0,
+        "location": "King George St, Cohuna",
+        "cfaId": 199814,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -883,31 +940,192 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.2596980030071,
-          -38.323948353942086
+          144.2195485684918,
+          -35.80700526531165
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118027114,
+        "status": "Responding",
+        "estaId": 118027475,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104244",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250104244",
+        "id": "ESTA:250104244",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-10T23:14:58.000Z",
+        "updated": "2025-01-10T23:14:58.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Springvale",
+        "mfbId": "250104244",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1536075487795,
+          -37.93144988870793
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118027518,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104247",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Vineyard Rd",
+        "eventId": "250104247",
+        "id": "ESTA:250104247",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-10T23:17:33.000Z",
+        "updated": "2025-01-10T23:17:33.000Z",
+        "resources": 2,
+        "location": "Vineyard Rd, Wantirna South",
+        "cfaId": 199816,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250104247"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23522031108982,
+          -37.883160993633716
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118027523,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 199812,
+        "sourceId": 199817,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "One Tree Hill Rd",
-        "eventId": 250104237,
-        "id": "ESTA:250104237",
+        "sourceTitle": "Michael St",
+        "eventId": 250104248,
+        "id": "ESTA:250104248",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-10T22:34:00.000Z",
-        "updated": "2025-01-10T22:47:00.000Z",
-        "resources": 3,
+        "created": "2025-01-10T23:18:00.000Z",
+        "updated": "2025-01-10T23:18:00.000Z",
+        "resources": 0,
+        "location": "Michael St, Maryborough",
+        "cfaId": 199817,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.75437684733595,
+          -37.0435126788138
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118027530,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104250",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Outlook Dr",
+        "eventId": "250104250",
+        "id": "ESTA:250104250",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-10T23:21:16.000Z",
+        "updated": "2025-01-10T23:21:16.000Z",
+        "resources": 1,
+        "location": "Outlook Dr, Dandenong North",
+        "mfbId": "250104250",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22156310240482,
+          -37.951282000113544
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118027524,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199818,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mcgrettons Rd",
+        "eventId": 250104249,
+        "id": "ESTA:250104249",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-10T23:18:00.000Z",
+        "updated": "2025-01-10T23:18:00.000Z",
+        "resources": 0,
+        "location": "Mcgrettons Rd, Healesville",
+        "cfaId": 199818,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4990027633055,
+          -37.659170092658265
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118027545,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199819,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "One Tree Hill Rd",
+        "eventId": 250104251,
+        "id": "ESTA:250104251",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-01-10T23:21:00.000Z",
+        "updated": "2025-01-10T23:21:00.000Z",
+        "resources": 0,
         "location": "One Tree Hill Rd, Ferny Creek",
-        "cfaId": 199812,
+        "cfaId": 199819,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -923,33 +1141,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118027203,
+        "estaId": 118027549,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104239",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wing Cct",
-        "eventId": "250104239",
-        "id": "ESTA:250104239",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199820,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Main St",
+        "eventId": 250104252,
+        "id": "ESTA:250104252",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-10T22:47:58.000Z",
-        "updated": "2025-01-10T22:47:58.000Z",
-        "resources": 2,
-        "location": "Wing Cct, Tarneit",
-        "cfaId": 199813,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-01-10T23:21:00.000Z",
+        "updated": "2025-01-10T23:21:00.000Z",
+        "resources": 0,
+        "location": "Main St, Bairnsdale",
+        "cfaId": 199820,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250104239"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6567367123876,
-          -37.84656386395777
+          147.63029655861317,
+          -37.82617343969277
         ]
       }
     },
@@ -959,14 +1176,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/34aaebb817ebdf5e60648c80b20a30ea",
+        "sourceId": "IDV20600/89f915f128d3a440b0685d64c931d2eb",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/34aaebb817ebdf5e60648c80b20a30ea",
+        "id": "IDV20600/89f915f128d3a440b0685d64c931d2eb",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-01-10T18:00:00.000Z",
+        "created": "2025-01-10T23:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1262,13 +1479,13 @@
         "sourceId": "581669",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Hannels Spur, Geehi",
-        "id": "2025-01-10T14:42:00.0000000:581669",
+        "id": "2025-01-11T09:52:00.0000000:581669",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Hannels Spur, Geehi",
         "location": "Alpine Way, Geehi 2642",
-        "created": "2025-01-10T14:42:00+11:00",
-        "updated": "2025-01-10T14:42:00+11:00",
+        "created": "2025-01-11T09:52:00+11:00",
+        "updated": "2025-01-11T09:52:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1422,64 +1639,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 199711,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199711,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Buller Rd",
-        "eventId": 250104007,
-        "id": "ESTA:250104007",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-10T07:04:00.000Z",
-        "updated": "2025-01-10T22:19:00.000Z",
-        "resources": 0,
-        "location": "Mt Buller Rd, Mirimbah",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.39045562728674,
-          -37.10004880763505
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199807,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 199807,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250104223,
-        "id": "ESTA:250104223",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-10T21:45:00.000Z",
-        "updated": "2025-01-10T22:19:00.000Z",
-        "resources": 0,
-        "location": "Pearcedale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2812050172443,
-          -38.20253185929025
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 199811,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1503,6 +1662,64 @@
         "coordinates": [
           145.18830750747904,
           -38.260349108452985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 199809,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199809,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250104230,
+        "id": "ESTA:250104230",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-10T22:12:00.000Z",
+        "updated": "2025-01-10T22:46:00.000Z",
+        "resources": 0,
+        "location": "Delburn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2596980030071,
+          -38.323948353942086
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 199812,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199812,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "One Tree Hill Rd",
+        "eventId": 250104237,
+        "id": "ESTA:250104237",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-10T22:34:00.000Z",
+        "updated": "2025-01-10T23:02:00.000Z",
+        "resources": 3,
+        "location": "One Tree Hill Rd, Ferny Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3405402869755,
+          -37.87761389713386
         ]
       }
     },
@@ -1566,35 +1783,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250104226",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104226",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bundoora",
-        "id": "ESTA:250104226",
-        "eventId": "250104226",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-10T22:11:25.000Z",
-        "updated": "2025-01-10T22:11:25.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Bundoora, Bundoora"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.06625029449353,
-          -37.688312391373955
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "sesId": 555912,
         "feedType": "incident",
@@ -1617,33 +1805,6 @@
         "coordinates": [
           142.44742524756737,
           -38.163286218461145
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 555967,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555967,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150997,
-        "id": "ESTA:250150997",
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2025-01-10T22:25:00.000Z",
-        "updated": "2025-01-10T22:44:00.000Z",
-        "resources": 0,
-        "location": "Tyabb"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18830750747904,
-          -38.260349108452985
         ]
       }
     }
@@ -1875,7 +2036,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-10T22:50:25.778Z",
-    "featureCount": 279
+    "lastUpdated": "2025-01-10T23:21:45.827Z",
+    "featureCount": 284
   }
 }
