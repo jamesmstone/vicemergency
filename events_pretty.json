@@ -1069,31 +1069,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118026320,
+        "status": "Responding",
+        "estaId": 118026386,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555963,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150993,
-        "id": "ESTA:250150993",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 199800,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Morgan St",
+        "eventId": 250104212,
+        "id": "ESTA:250104212",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-10T20:23:00.000Z",
-        "updated": "2025-01-10T20:26:00.000Z",
-        "resources": 0,
-        "location": "Heywood",
-        "sesId": 555963
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-10T20:41:00.000Z",
+        "updated": "2025-01-10T20:41:00.000Z",
+        "resources": 2,
+        "location": "Morgan St, Sebastopol",
+        "cfaId": 199800,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.75378357324539,
-          -38.09075685604117
+          143.83620634134593,
+          -37.60540984046881
         ]
       }
     },
@@ -1102,7 +1104,7 @@
         "status": "Safe",
         "estaId": 118026285,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
         "sourceId": 199797,
         "sourceFeed": "cfa-incident",
@@ -1114,7 +1116,7 @@
         "category2": "Bushfire",
         "created": "2025-01-10T20:12:00.000Z",
         "updated": "2025-01-10T20:27:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Powlett St, Kyneton",
         "cfaId": 199797,
         "size": "Small",
@@ -1132,39 +1134,39 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118026336,
+        "estaId": 118026389,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250104209",
+        "sourceId": "250104214",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Altamount Dr",
-        "eventId": "250104209",
-        "id": "ESTA:250104209",
+        "sourceTitle": "Tom Collins Dr",
+        "eventId": "250104214",
+        "id": "ESTA:250104214",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-10T20:28:14.000Z",
-        "updated": "2025-01-10T20:28:14.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-10T20:45:30.000Z",
+        "updated": "2025-01-10T20:45:30.000Z",
         "resources": 2,
-        "location": "Altamount Dr, Truganina",
-        "cfaId": 199798,
+        "location": "Tom Collins Dr, Shepparton",
+        "cfaId": 199801,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250104209"
+        "mfbId": "250104214"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71260210302083,
-          -37.83832231110516
+          145.39257902441094,
+          -36.38743396640607
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 118026340,
         "feedType": "incident",
         "source": "000",
@@ -1178,7 +1180,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-01-10T20:28:00.000Z",
-        "updated": "2025-01-10T20:33:00.000Z",
+        "updated": "2025-01-10T20:47:00.000Z",
         "resources": 0,
         "location": "Northcote",
         "sesId": 555964
@@ -1189,65 +1191,6 @@
         "coordinates": [
           145.00865849572128,
           -37.783961612660576
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118026222,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 555958,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250150988,
-        "id": "ESTA:250150988",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-10T19:55:00.000Z",
-        "updated": "2025-01-10T20:34:00.000Z",
-        "resources": 0,
-        "location": "Cowes",
-        "sesId": 555958
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23924565061728,
-          -38.45360740936768
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118026371,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118026371,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Craigieburn",
-        "eventId": "F250104211",
-        "id": "ESTA:250104211",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-10T20:32:12.000Z",
-        "updated": "2025-01-10T20:36:58.213Z",
-        "resources": 0,
-        "location": "Hume Fwy, Craigieburn"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.94170917360907,
-          -37.564975217557226
         ]
       }
     },
@@ -1761,7 +1704,7 @@
         "category2": "Other",
         "created": "2025-01-10T19:55:00.000Z",
         "updated": "2025-01-10T20:21:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Thompson Av, Cowes",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1832,6 +1775,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 555963,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 555963,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250150993,
+        "id": "ESTA:250150993",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-10T20:23:00.000Z",
+        "updated": "2025-01-10T20:26:00.000Z",
+        "resources": 0,
+        "location": "Heywood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.75378357324539,
+          -38.09075685604117
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
         "sesId": 555962,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1843,7 +1813,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-10T20:07:00.000Z",
-        "updated": "2025-01-10T20:28:00.000Z",
+        "updated": "2025-01-10T20:49:00.000Z",
         "resources": 1,
         "location": "Murrumbeena"
       },
@@ -2084,7 +2054,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-10T20:37:00.327Z",
-    "featureCount": 279
+    "lastUpdated": "2025-01-10T20:50:25.558Z",
+    "featureCount": 278
   }
 }
