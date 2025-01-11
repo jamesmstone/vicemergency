@@ -1465,30 +1465,91 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 118037049,
+        "estaId": 118036870,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556059,
+        "sourceId": 556058,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151088,
-        "id": "ESTA:250151088",
+        "eventId": 250151087,
+        "id": "ESTA:250151087",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-01-11T16:11:00.000Z",
-        "updated": "2025-01-11T16:45:00.000Z",
+        "created": "2025-01-11T15:38:00.000Z",
+        "updated": "2025-01-11T17:06:00.000Z",
         "resources": 0,
-        "location": "Hilldene",
-        "sesId": 556059
+        "location": "Fernshaw",
+        "sesId": 556058
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03946115183982,
-          -37.054438188049
+          145.6347512758222,
+          -37.597684933098115
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118033644,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118033644,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "East Albury (Nsw)",
+        "eventId": "S250151075",
+        "id": "ESTA:250151075",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-01-11T10:01:46.000Z",
+        "updated": "2025-01-11T17:11:18.635Z",
+        "resources": 0,
+        "location": "Broad St, East Albury (Nsw)"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.92917962879034,
+          -36.076726602393975
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118037358,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104681",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bay Trl",
+        "eventId": "250104681",
+        "id": "ESTA:250104681",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-11T17:16:27.000Z",
+        "updated": "2025-01-11T17:16:27.000Z",
+        "resources": 2,
+        "location": "Bay Trl, Unknown",
+        "mfbId": "250104681",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01046994352188,
+          -37.96730632436031
         ]
       }
     },
@@ -1689,30 +1750,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250104677",
+        "status": "Responding",
+        "cfaId": 200075,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250104677",
+        "sourceId": "250104678",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yardley St",
-        "id": "ESTA:250104677",
-        "eventId": "250104677",
+        "sourceTitle": "Balliang",
+        "eventId": "250104678",
+        "id": "ESTA:250104678",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-11T16:11:01.000Z",
-        "updated": "2025-01-11T16:11:01.000Z",
-        "resources": 1,
+        "created": "2025-01-11T17:01:47.000Z",
+        "updated": "2025-01-11T17:01:47.000Z",
+        "resources": 4,
+        "location": "Balliang, Balliang",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Yardley St, Maidstone"
+        "mfbId": "250104678"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.87024076778403,
-          -37.78893281093299
+          144.3674738004141,
+          -37.89277204195127
         ]
       }
     },
@@ -1769,33 +1831,6 @@
           -37.682604173373505
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 556058,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556058,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151087,
-        "id": "ESTA:250151087",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-11T15:38:00.000Z",
-        "updated": "2025-01-11T16:16:00.000Z",
-        "resources": 1,
-        "location": "Fernshaw"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6347512758222,
-          -37.597684933098115
-        ]
-      }
     }
   ],
   "properties": {
@@ -1812,7 +1847,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1820,7 +1854,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1836,7 +1871,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1844,7 +1878,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-11T13:00:00.000Z",
           "heat": {
@@ -1966,7 +2001,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "HIGH",
@@ -1974,7 +2008,8 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2025,7 +2060,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-11T16:50:20.065Z",
-    "featureCount": 296
+    "lastUpdated": "2025-01-11T17:20:05.589Z",
+    "featureCount": 297
   }
 }
