@@ -1017,6 +1017,33 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1002569,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Ovens 29 - Smoko - Dungeys Track",
+        "id": 1002569,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-04T11:00:00.000Z",
+        "updated": "2025-01-11T10:29:00.000Z",
+        "resources": 0,
+        "size": 0,
+        "sizeFmt": "Unknown",
+        "location": "5Km Ne Smoko"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1155,
+          -36.7947
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1216,7 +1243,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-11T04:15:00.000Z",
-        "updated": "2025-01-11T06:44:00.000Z",
+        "updated": "2025-01-11T10:23:00.000Z",
         "resources": 0,
         "size": "2.00",
         "sizeFmt": "2.00 Ha.",
@@ -1503,33 +1530,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1002931,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Macalister 26 - Glenmaggie - Black Range Road",
-        "id": 1002931,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T08:16:00.000Z",
-        "updated": "2025-01-11T09:41:00.000Z",
-        "resources": 0,
-        "size": 0,
-        "sizeFmt": "Unknown",
-        "location": "19.5Km Nw Glenmaggie"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5981,
-          -37.7585
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1586,29 +1586,122 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118033852,
+        "estaId": 118034021,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118033852,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yarraberb",
-        "eventId": "F250104568",
-        "id": "ESTA:250104568",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200020,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Meredith Park Rd",
+        "eventId": 250104574,
+        "id": "ESTA:250104574",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T10:19:35.000Z",
-        "updated": "2025-01-11T10:26:25.645Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-11T10:36:00.000Z",
+        "updated": "2025-01-11T10:36:00.000Z",
         "resources": 0,
-        "location": "Yarraberb"
+        "location": "Meredith Park Rd, Ondit",
+        "cfaId": 200020,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.06600334431383,
-          -36.54553832170688
+          143.6103721114474,
+          -38.268865003232335
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118030127,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118030127,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Buln Buln East",
+        "eventId": "F250104388",
+        "id": "ESTA:250104388",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-11T04:12:20.000Z",
+        "updated": "2025-01-11T10:38:49.419Z",
+        "resources": 0,
+        "location": "Ingleman Rd, Buln Buln East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.02694003578037,
+          -38.050022491968434
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118033431,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200008,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sussex St",
+        "eventId": 250104546,
+        "id": "ESTA:250104546",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-11T09:45:00.000Z",
+        "updated": "2025-01-11T10:04:00.000Z",
+        "resources": 0,
+        "location": "Sussex St, Blairgowrie",
+        "cfaId": 200008,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7858161407805,
+          -38.364293860985114
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118033041,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118033041,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hampton Park",
+        "eventId": "F250104531",
+        "id": "ESTA:250104531",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-11T09:09:49.000Z",
+        "updated": "2025-01-11T10:40:14.003Z",
+        "resources": 0,
+        "location": "Coral Dr, Hampton Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.271700482862,
+          -38.0369898823975
         ]
       }
     },
@@ -1646,148 +1739,118 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 118033803,
+        "status": "Responding",
+        "estaId": 118034098,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250104566",
+        "sourceId": "250104576",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Channel Rd",
-        "eventId": "250104566",
-        "id": "ESTA:250104566",
+        "sourceTitle": "Craigieburn Rd",
+        "eventId": "250104576",
+        "id": "ESTA:250104576",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-11T10:44:07.000Z",
+        "updated": "2025-01-11T10:44:07.000Z",
+        "resources": 1,
+        "location": "Craigieburn Rd, Craigieburn",
+        "mfbId": "250104576",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92137276017928,
+          -37.59661253053323
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118034101,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118034101,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Craigieburn",
+        "eventId": "F250104577",
+        "id": "ESTA:250104577",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-11T10:43:36.000Z",
+        "updated": "2025-01-11T10:43:56.023Z",
+        "resources": 0,
+        "location": "Craigieburn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92187597664747,
+          -37.59683802023982
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118034103,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104579",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lyle St",
+        "eventId": "250104579",
+        "id": "ESTA:250104579",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-11T10:31:51.000Z",
-        "updated": "2025-01-11T10:31:51.000Z",
-        "resources": 4,
-        "location": "Channel Rd, Merbein",
-        "cfaId": 200015,
+        "created": "2025-01-11T10:45:39.000Z",
+        "updated": "2025-01-11T10:45:39.000Z",
+        "resources": 5,
+        "location": "Lyle St, Bacchus Marsh",
+        "cfaId": 200022,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250104566"
+        "mfbId": "250104579"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.06482640678203,
-          -34.17160547058304
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 118033773,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104563",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Swinburne Dr",
-        "eventId": "250104563",
-        "id": "ESTA:250104563",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-11T10:32:27.000Z",
-        "updated": "2025-01-11T10:32:27.000Z",
-        "resources": 4,
-        "location": "Swinburne Dr, Wangaratta",
-        "cfaId": 200014,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250104563"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.30445874287162,
-          -36.33356843507209
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118029864,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118029864,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moondarra",
-        "eventId": "F250104373",
-        "id": "ESTA:250104373",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T03:46:36.000Z",
-        "updated": "2025-01-11T10:32:37.132Z",
-        "resources": 0,
-        "location": "Tanjil Bren Rd, Moondarra"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.30180511200632,
-          -37.99267788048837
+          144.43046987334608,
+          -37.67157760095713
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118033939,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118033939,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yarraberb",
-        "eventId": "F250104571",
-        "id": "ESTA:250104571",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T10:29:29.000Z",
-        "updated": "2025-01-11T10:33:18.745Z",
-        "resources": 0,
-        "location": "Yarraberb"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.06600334431383,
-          -36.54553832170688
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118033982,
+        "estaId": 118034102,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 200019,
+        "sourceId": 200021,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Surf St",
-        "eventId": 250104572,
-        "id": "ESTA:250104572",
+        "sourceTitle": "Pearl Ct",
+        "eventId": 250104578,
+        "id": "ESTA:250104578",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-11T10:33:00.000Z",
-        "updated": "2025-01-11T10:33:00.000Z",
-        "resources": 0,
-        "location": "Surf St, Merricks Beach",
-        "cfaId": 200019,
+        "created": "2025-01-11T10:44:00.000Z",
+        "updated": "2025-01-11T10:44:00.000Z",
+        "resources": 1,
+        "location": "Pearl Ct, Tootgarook",
+        "cfaId": 200021,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1795,69 +1858,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.10000486607638,
-          -38.40190641417545
+          144.84260754237107,
+          -38.38463630181468
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118033739,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200012,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250104560,
-        "id": "ESTA:250104560",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T10:12:00.000Z",
-        "updated": "2025-01-11T10:35:00.000Z",
-        "resources": 4,
-        "location": "Talgarno",
-        "cfaId": 200012,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.20783417417928,
-          -36.09129075928504
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118034021,
+        "estaId": 118033430,
         "feedType": "incident",
         "source": "RADIO",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118034021,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ondit",
-        "eventId": "F250104574",
-        "id": "ESTA:250104574",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200007,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Island Rd",
+        "eventId": 250104545,
+        "id": "ESTA:250104545",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-11T10:33:37.000Z",
-        "updated": "2025-01-11T10:36:08.806Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-11T09:45:00.000Z",
+        "updated": "2025-01-11T10:21:00.000Z",
         "resources": 0,
-        "location": "Meredith Park Rd, Ondit"
+        "location": "Island Rd, Bonegilla",
+        "cfaId": 200007,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.61038277116043,
-          -38.26885997757326
+          146.9678109439066,
+          -36.085182640437424
         ]
       }
     },
@@ -3236,65 +3270,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 200006,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200006,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250104544,
-        "id": "ESTA:250104544",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-11T09:41:00.000Z",
-        "updated": "2025-01-11T09:45:00.000Z",
-        "resources": 0,
-        "location": "Aspendale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09879012210573,
-          -38.01967721494182
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 199998,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104531",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coral Dr",
-        "eventId": "250104531",
-        "id": "ESTA:250104531",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-11T09:49:25.000Z",
-        "updated": "2025-01-11T09:49:25.000Z",
-        "resources": 1,
-        "location": "Coral Dr, Hampton Park",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250104531"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27169625984868,
-          -38.03699327472671
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 200000,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3347,36 +3322,6 @@
         "coordinates": [
           144.4529560117228,
           -38.18768595681995
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 200008,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104546",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Adelaide St",
-        "eventId": "250104546",
-        "id": "ESTA:250104546",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-11T10:04:32.000Z",
-        "updated": "2025-01-11T10:04:32.000Z",
-        "resources": 2,
-        "location": "Adelaide St, Blairgowrie",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250104546"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.78581958181934,
-          -38.36428507536129
         ]
       }
     },
@@ -3470,6 +3415,36 @@
     },
     {
       "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 200015,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104566",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Channel Rd",
+        "eventId": "250104566",
+        "id": "ESTA:250104566",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-11T10:31:51.000Z",
+        "updated": "2025-01-11T10:31:51.000Z",
+        "resources": 4,
+        "location": "Channel Rd, Merbein",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250104566"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.06482640678203,
+          -34.17160547058304
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "cfaId": 199997,
         "feedType": "incident",
@@ -3494,36 +3469,6 @@
         "coordinates": [
           145.00769717400675,
           -35.857266999859235
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 200007,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250104545",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Island Rd",
-        "eventId": "250104545",
-        "id": "ESTA:250104545",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-11T10:21:24.000Z",
-        "updated": "2025-01-11T10:21:24.000Z",
-        "resources": 1,
-        "location": "Island Rd, Bonegilla",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250104545"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.9678208590021,
-          -36.085180179497904
         ]
       }
     },
@@ -3558,6 +3503,123 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 200014,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104563",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Swinburne Dr",
+        "eventId": "250104563",
+        "id": "ESTA:250104563",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-11T10:32:27.000Z",
+        "updated": "2025-01-11T10:32:27.000Z",
+        "resources": 4,
+        "location": "Swinburne Dr, Wangaratta",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250104563"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.30445874287162,
+          -36.33356843507209
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 200019,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200019,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Surf St",
+        "eventId": 250104572,
+        "id": "ESTA:250104572",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-11T10:33:00.000Z",
+        "updated": "2025-01-11T10:33:00.000Z",
+        "resources": 2,
+        "location": "Surf St, Merricks Beach",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10000486607638,
+          -38.40190641417545
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 200012,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200012,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250104560,
+        "id": "ESTA:250104560",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-11T10:12:00.000Z",
+        "updated": "2025-01-11T10:35:00.000Z",
+        "resources": 0,
+        "location": "Talgarno",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.20783417417928,
+          -36.09129075928504
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250104580",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250104580",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Boneo Rd",
+        "id": "ESTA:250104580",
+        "eventId": "250104580",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-11T10:47:36.000Z",
+        "updated": "2025-01-11T10:47:36.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Boneo Rd, Boneo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88855353828887,
+          -38.39718357124274
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "mfbId": "250104573",
         "feedType": "incident",
@@ -3569,9 +3631,9 @@
         "eventId": "250104573",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-11T10:35:49.000Z",
-        "updated": "2025-01-11T10:35:49.000Z",
-        "resources": 0,
+        "created": "2025-01-11T10:48:44.000Z",
+        "updated": "2025-01-11T10:48:44.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Osullivan Rd, Glen Waverley"
@@ -3588,29 +3650,29 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250104551",
+        "mfbId": "250104575",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250104551",
+        "sourceId": "250104575",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Horsburgh Dr",
-        "id": "ESTA:250104551",
-        "eventId": "250104551",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-11T10:20:42.000Z",
-        "updated": "2025-01-11T10:20:42.000Z",
+        "sourceTitle": "Epping",
+        "id": "ESTA:250104575",
+        "eventId": "250104575",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-11T10:48:13.000Z",
+        "updated": "2025-01-11T10:48:13.000Z",
         "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Horsburgh Dr, Altona North"
+        "location": "Epping, Epping"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.81010712777294,
-          -37.84076864575043
+          144.99144401485498,
+          -37.64844064798544
         ]
       }
     },
@@ -3784,61 +3846,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556044,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556044,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151079,
-        "id": "ESTA:250151079",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-11T10:22:00.000Z",
-        "updated": "2025-01-11T10:24:00.000Z",
-        "resources": 0,
-        "location": "Leneva"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.8994049513029,
-          -36.16909037746498
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 556030,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556030,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151065,
-        "id": "ESTA:250151065",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-11T08:49:00.000Z",
-        "updated": "2025-01-11T10:29:00.000Z",
-        "resources": 0,
-        "location": "Sassafras"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34748898502545,
-          -37.87143018674706
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 556042,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -3850,7 +3858,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-01-11T10:10:00.000Z",
-        "updated": "2025-01-11T10:29:00.000Z",
+        "updated": "2025-01-11T10:43:00.000Z",
         "resources": 1,
         "location": "Monbulk"
       },
@@ -3860,6 +3868,33 @@
         "coordinates": [
           145.414809848817,
           -37.86215420694111
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 556044,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556044,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151079,
+        "id": "ESTA:250151079",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-11T10:22:00.000Z",
+        "updated": "2025-01-11T10:49:00.000Z",
+        "resources": 1,
+        "location": "Leneva"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8994049513029,
+          -36.16909037746498
         ]
       }
     }
@@ -4091,7 +4126,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-11T10:36:40.251Z",
-    "featureCount": 326
+    "lastUpdated": "2025-01-11T10:50:20.062Z",
+    "featureCount": 327
   }
 }
