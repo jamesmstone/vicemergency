@@ -1491,7 +1491,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118049404,
         "feedType": "incident",
         "source": "000",
@@ -1503,10 +1503,10 @@
         "id": "ESTA:250105232",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-01-12T22:25:00.000Z",
-        "updated": "2025-01-12T22:25:00.000Z",
-        "resources": 2,
+        "updated": "2025-01-12T22:38:00.000Z",
+        "resources": 0,
         "location": "Boxshall Rd, Longwarry",
         "cfaId": 200309,
         "size": "Small",
@@ -1524,30 +1524,92 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 118049450,
+        "estaId": 118049543,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556358,
+        "sourceId": 556359,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151399,
-        "id": "ESTA:250151399",
+        "eventId": 250151400,
+        "id": "ESTA:250151400",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-12T22:31:00.000Z",
-        "updated": "2025-01-12T22:32:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-12T22:42:00.000Z",
+        "updated": "2025-01-12T22:48:00.000Z",
         "resources": 0,
-        "location": "Somerville",
-        "sesId": 556358
+        "location": "Malvern East",
+        "sesId": 556359
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.21402320670336,
-          -38.238863549149364
+          145.0624935780506,
+          -37.87035516201056
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118049544,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105236",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mcdonalds Rd",
+        "eventId": "250105236",
+        "id": "ESTA:250105236",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-12T22:42:24.000Z",
+        "updated": "2025-01-12T22:42:24.000Z",
+        "resources": 2,
+        "location": "Mcdonalds Rd, Epping",
+        "mfbId": "250105236",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04129416559834,
+          -37.64621721697057
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118049120,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556355,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151394,
+        "id": "ESTA:250151394",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-12T21:53:00.000Z",
+        "updated": "2025-01-12T22:47:00.000Z",
+        "resources": 0,
+        "location": "Melton",
+        "sesId": 556355
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.57147844465237,
+          -37.685988112256126
         ]
       }
     },
@@ -1589,13 +1651,13 @@
         "sourceId": "583957",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Barham Rd, Thule",
-        "id": "2025-01-12T23:02:00.0000000:583957",
+        "id": "2025-01-13T09:41:00.0000000:583957",
         "category1": "Other",
         "category2": "Other Non-Urgent Alerts",
         "name": "Barham Rd, Thule",
         "location": "6280 Barham Rd, Thule 2732",
-        "created": "2025-01-12T23:02:00+11:00",
-        "updated": "2025-01-12T23:02:00+11:00",
+        "created": "2025-01-13T09:41:00+11:00",
+        "updated": "2025-01-13T09:41:00+11:00",
         "webHeadline": "Unknown",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1608,36 +1670,6 @@
         "coordinates": [
           144.312484741,
           -35.603279114
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "584064",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Weimby Kyalite Rd, Kyalite",
-        "id": "2025-01-13T09:07:00.0000000:584064",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Weimby Kyalite Rd, Kyalite",
-        "location": "1127 Weimby Kyalite Rd, Kyalite 2715",
-        "created": "2025-01-13T09:07:00+11:00",
-        "updated": "2025-01-13T09:07:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.419372558,
-          -34.83499527
         ]
       }
     },
@@ -1716,6 +1748,36 @@
               -36.391357972
             ]
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "584064",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "-34.8192520",
+        "id": "2025-01-13T09:07:00.0000000:584064",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "-34.8192520",
+        "location": "-34.8192520",
+        "created": "2025-01-13T09:07:00+11:00",
+        "updated": "2025-01-13T09:07:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.360463055,
+          -34.817678966
         ]
       }
     },
@@ -1867,35 +1929,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 200310,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200310,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hummingbird Dr",
-        "eventId": 250105234,
-        "id": "ESTA:250105234",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-12T22:31:00.000Z",
-        "updated": "2025-01-12T22:31:00.000Z",
-        "resources": 1,
-        "location": "Hummingbird Dr, Botanic Ridge",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.29040659625403,
-          -38.14941627081355
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250105117",
         "feedType": "incident",
@@ -1980,27 +2013,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 556355,
+        "sesId": 556358,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556355,
+        "sourceId": 556358,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151394,
-        "id": "ESTA:250151394",
+        "eventId": 250151399,
+        "id": "ESTA:250151399",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-01-12T21:53:00.000Z",
-        "updated": "2025-01-12T22:22:00.000Z",
-        "resources": 1,
-        "location": "Melton"
+        "created": "2025-01-12T22:31:00.000Z",
+        "updated": "2025-01-12T22:36:00.000Z",
+        "resources": 0,
+        "location": "Somerville"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.57147844465237,
-          -37.685988112256126
+          145.21402320670336,
+          -38.238863549149364
         ]
       }
     }
@@ -2232,7 +2265,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-12T22:34:40.209Z",
-    "featureCount": 307
+    "lastUpdated": "2025-01-12T22:50:20.163Z",
+    "featureCount": 308
   }
 }
