@@ -1297,30 +1297,60 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 118046873,
+        "estaId": 118047195,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "PAL",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556335,
+        "sourceId": 556336,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151373,
-        "id": "ESTA:250151373",
+        "eventId": 250151374,
+        "id": "ESTA:250151374",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-12T12:59:00.000Z",
-        "updated": "2025-01-12T14:22:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-12T13:52:00.000Z",
+        "updated": "2025-01-12T14:47:00.000Z",
         "resources": 0,
-        "location": "Narre Warren South",
-        "sesId": 556335
+        "location": "St Kilda East",
+        "sesId": 556336
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.31200142393104,
-          -38.0704790088927
+          145.008451955032,
+          -37.865181537468544
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118047463,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556337,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151375,
+        "id": "ESTA:250151375",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-12T14:48:00.000Z",
+        "updated": "2025-01-12T14:49:00.000Z",
+        "resources": 0,
+        "location": "Yallourn",
+        "sesId": 556337
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3329886619493,
+          -38.17836966569068
         ]
       }
     },
@@ -1582,7 +1612,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "mfbId": "250105146",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1593,9 +1623,9 @@
         "eventId": "250105146",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-12T14:29:46.000Z",
-        "updated": "2025-01-12T14:29:46.000Z",
-        "resources": 2,
+        "created": "2025-01-12T14:46:30.000Z",
+        "updated": "2025-01-12T14:46:30.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Lawrence St, Wodonga"
@@ -1624,7 +1654,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-12T13:43:20.000Z",
         "updated": "2025-01-12T13:43:20.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Cooma St, Preston"
@@ -1662,33 +1692,6 @@
         "coordinates": [
           145.21856912573608,
           -37.80285133018485
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556336,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556336,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151374,
-        "id": "ESTA:250151374",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-12T13:52:00.000Z",
-        "updated": "2025-01-12T13:55:00.000Z",
-        "resources": 0,
-        "location": "St Kilda East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.008451955032,
-          -37.865181537468544
         ]
       }
     }
@@ -1814,7 +1817,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -1822,7 +1824,8 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -1920,7 +1923,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-12T14:31:45.570Z",
+    "lastUpdated": "2025-01-12T14:50:06.195Z",
     "featureCount": 300
   }
 }
