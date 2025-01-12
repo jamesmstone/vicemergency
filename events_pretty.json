@@ -1296,30 +1296,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118047336,
+        "status": "Complete",
+        "estaId": 118046873,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118047336,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wodonga",
-        "eventId": "F250105146",
-        "id": "ESTA:250105146",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556335,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151373,
+        "id": "ESTA:250151373",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-12T14:19:42.000Z",
-        "updated": "2025-01-12T14:19:57.369Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-12T12:59:00.000Z",
+        "updated": "2025-01-12T14:22:00.000Z",
         "resources": 0,
-        "location": "Lawrence St, Wodonga"
+        "location": "Narre Warren South",
+        "sesId": 556335
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.88281722195475,
-          -36.123627626181204
+          145.31200142393104,
+          -38.0704790088927
         ]
       }
     },
@@ -1553,35 +1554,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 200283,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200283,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "The Esplanade -",
-        "eventId": 250105129,
-        "id": "ESTA:250105129",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-12T12:46:00.000Z",
-        "updated": "2025-01-12T13:29:00.000Z",
-        "resources": 0,
-        "location": "The Esplanade -, Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.32425665464805,
-          -38.33879684031054
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 200260,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1605,6 +1577,35 @@
         "coordinates": [
           146.3320257548367,
           -36.18555277667618
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250105146",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105146",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lawrence St",
+        "id": "ESTA:250105146",
+        "eventId": "250105146",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-12T14:29:46.000Z",
+        "updated": "2025-01-12T14:29:46.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Lawrence St, Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88281294117928,
+          -36.12363325568436
         ]
       }
     },
@@ -1661,33 +1662,6 @@
         "coordinates": [
           145.21856912573608,
           -37.80285133018485
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556335,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556335,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151373,
-        "id": "ESTA:250151373",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-12T12:59:00.000Z",
-        "updated": "2025-01-12T13:32:00.000Z",
-        "resources": 1,
-        "location": "Narre Warren South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.31200142393104,
-          -38.0704790088927
         ]
       }
     },
@@ -1840,6 +1814,7 @@
         },
         {
           "fdr": {
+            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -1847,8 +1822,7 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH",
-            "Mallee": "HIGH"
+            "Wimmera": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -1946,7 +1920,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-12T14:20:40.129Z",
-    "featureCount": 301
+    "lastUpdated": "2025-01-12T14:31:45.570Z",
+    "featureCount": 300
   }
 }
