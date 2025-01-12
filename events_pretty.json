@@ -1326,7 +1326,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 118047713,
         "feedType": "incident",
         "source": "SES STRM",
@@ -1340,8 +1340,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-12T15:55:00.000Z",
-        "updated": "2025-01-12T16:20:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-12T17:19:00.000Z",
+        "resources": 0,
         "location": "Yarra Junction",
         "sesId": 556339
       },
@@ -1351,6 +1351,38 @@
         "coordinates": [
           145.61140265130078,
           -37.78210076764156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118048024,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105170",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Fitzroy St",
+        "eventId": "250105170",
+        "id": "ESTA:250105170",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-12T17:21:25.000Z",
+        "updated": "2025-01-12T17:21:25.000Z",
+        "resources": 2,
+        "location": "Fitzroy St, St Kilda",
+        "mfbId": "250105170",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98134071129402,
+          -37.85709918472149
         ]
       }
     },
@@ -1583,35 +1615,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 200289,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200289,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Young St",
-        "eventId": 250105153,
-        "id": "ESTA:250105153",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-12T15:17:00.000Z",
-        "updated": "2025-01-12T16:21:00.000Z",
-        "resources": 0,
-        "location": "Young St, Drouin",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8579479288894,
-          -38.13545298801492
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 200291,
         "feedType": "incident",
@@ -1625,7 +1628,7 @@
         "category2": "Building Fire",
         "created": "2025-01-12T16:35:00.000Z",
         "updated": "2025-01-12T16:35:00.000Z",
-        "resources": 4,
+        "resources": 5,
         "location": "Bendigo-Murchison Rd, Goornong",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1636,35 +1639,6 @@
         "coordinates": [
           144.5776154379573,
           -36.5924342797991
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250105163",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105163",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Beach Rd",
-        "id": "ESTA:250105163",
-        "eventId": "250105163",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-12T16:54:54.000Z",
-        "updated": "2025-01-12T16:54:54.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Beach Rd, Beaumaris"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04007286651,
-          -37.993544424231466
         ]
       }
     },
@@ -1683,7 +1657,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-12T16:36:25.000Z",
         "updated": "2025-01-12T16:36:25.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Kevin St, Bundoora"
@@ -1902,6 +1876,7 @@
         },
         {
           "fdr": {
+            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -1909,8 +1884,7 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH",
-            "Mallee": "HIGH"
+            "Wimmera": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2008,7 +1982,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-12T17:19:39.900Z",
-    "featureCount": 303
+    "lastUpdated": "2025-01-12T17:30:19.926Z",
+    "featureCount": 302
   }
 }
