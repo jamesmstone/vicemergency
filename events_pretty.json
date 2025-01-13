@@ -1430,6 +1430,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1621667",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Distillery Road, Glossop",
+        "id": "1621667",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Distillery Road, Glossop",
+        "created": "2025-01-13T15:24:00.000Z",
+        "updated": "2025-01-13T15:24:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Distillery Road, Glossop"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.536128604274,
+          -34.274252497419
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1621,38 +1647,6 @@
         "coordinates": [
           142.3087764,
           -37.6905182
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118059143,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105568",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Barkly St",
-        "eventId": "250105568",
-        "id": "ESTA:250105568",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-01-13T15:21:18.000Z",
-        "updated": "2025-01-13T15:21:18.000Z",
-        "resources": 2,
-        "location": "Barkly St, Brunswick",
-        "mfbId": "250105568",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95730702785005,
-          -37.77556124174515
         ]
       }
     },
@@ -1892,19 +1886,19 @@
     },
     {
       "properties": {
-        "status": "Being Controlled",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "584161",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Cadell St, Wentworth",
-        "id": "2025-01-13T22:27:00.0000000:584161",
+        "id": "2025-01-14T02:41:00.0000000:584161",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Cadell St, Wentworth",
         "location": "73 Cadell St, Wentworth 2648",
-        "created": "2025-01-13T22:27:00+11:00",
-        "updated": "2025-01-13T22:27:00+11:00",
+        "created": "2025-01-14T02:41:00+11:00",
+        "updated": "2025-01-14T02:41:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2043,28 +2037,56 @@
         "status": "Safe",
         "cfaId": 200458,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105566",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200458,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Ontario Av",
-        "eventId": "250105566",
+        "eventId": 250105566,
         "id": "ESTA:250105566",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-13T15:21:13.000Z",
-        "updated": "2025-01-13T15:21:13.000Z",
-        "resources": 1,
+        "created": "2025-01-13T15:00:00.000Z",
+        "updated": "2025-01-13T15:21:00.000Z",
+        "resources": 0,
         "location": "Ontario Av, Mildura",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250105566"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.14643549586597,
-          -34.181623922192735
+          142.1464291025296,
+          -34.18163083592355
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250105568",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105568",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Barkly St",
+        "id": "ESTA:250105568",
+        "eventId": "250105568",
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-13T15:32:04.000Z",
+        "updated": "2025-01-13T15:32:04.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Barkly St, Brunswick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95730702785005,
+          -37.77556124174515
         ]
       }
     }
@@ -2296,7 +2318,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-13T15:26:05.772Z",
-    "featureCount": 316
+    "lastUpdated": "2025-01-13T15:50:19.841Z",
+    "featureCount": 317
   }
 }
