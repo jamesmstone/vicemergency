@@ -1655,24 +1655,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118059946,
+        "status": "Responding",
+        "estaId": 118059993,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200463,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Katerina Lane",
-        "eventId": 250105592,
-        "id": "ESTA:250105592",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105594",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Collins St",
+        "eventId": "250105594",
+        "id": "ESTA:250105594",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-13T19:03:00.000Z",
-        "updated": "2025-01-13T19:06:00.000Z",
-        "resources": 0,
-        "location": "Katerina Lane, Macclesfield",
-        "cfaId": 200463,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-13T19:20:38.000Z",
+        "updated": "2025-01-13T19:20:38.000Z",
+        "resources": 3,
+        "location": "Collins St, Melbourne",
+        "mfbId": "250105594",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1680,37 +1680,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4865732894474,
-          -37.87660815678814
+          144.96936907839307,
+          -37.814885064870026
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118059993,
+        "status": "Complete",
+        "estaId": 118059939,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118059993,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F250105594",
-        "id": "ESTA:250105594",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556421,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151464,
+        "id": "ESTA:250151464",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-13T19:17:11.000Z",
-        "updated": "2025-01-13T19:18:02.728Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-13T19:02:00.000Z",
+        "updated": "2025-01-13T19:22:00.000Z",
         "resources": 0,
-        "location": "Collins St, Melbourne"
+        "location": "Macclesfield",
+        "sesId": 556421
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9693733033497,
-          -37.81488220774959
+          145.4865732894474,
+          -37.87660815678814
         ]
       }
     },
@@ -2098,21 +2099,23 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556421,
+        "status": "Safe",
+        "cfaId": 200463,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556421,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151464,
-        "id": "ESTA:250151464",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-13T19:02:00.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200463,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Katerina Lane",
+        "eventId": 250105592,
+        "id": "ESTA:250105592",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-13T19:03:00.000Z",
         "updated": "2025-01-13T19:06:00.000Z",
         "resources": 0,
-        "location": "Macclesfield"
+        "location": "Katerina Lane, Macclesfield",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -2138,6 +2141,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -2145,8 +2149,7 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2162,6 +2165,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -2169,8 +2173,7 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-13T13:00:00.000Z",
           "heat": {
@@ -2351,7 +2354,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-13T19:18:46.050Z",
+    "lastUpdated": "2025-01-13T19:30:25.831Z",
     "featureCount": 318
   }
 }
