@@ -40,7 +40,7 @@ makeDB() {
     -u"$(id -u):$(id -g)" \
     -v"$(pwd):/wd" \
     -w /wd \
-    "$dockerSQLUtil" extract "$db" item sourceOrg sourceFeed
+    "$dockerSQLUtil" extract "$db" item properties_sourceOrg properties_sourceFeed
 
 }
 
