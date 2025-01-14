@@ -761,7 +761,7 @@
     },
     {
       "properties": {
-        "status": "Contained",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1002857,
@@ -771,7 +771,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-11T03:15:00.000Z",
-        "updated": "2025-01-14T02:13:00.000Z",
+        "updated": "2025-01-14T03:47:00.000Z",
         "resources": 5,
         "size": "2.00",
         "sizeFmt": "2.00 Ha.",
@@ -798,8 +798,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-11T03:59:00.000Z",
-        "updated": "2025-01-12T23:23:00.000Z",
-        "resources": 4,
+        "updated": "2025-01-14T03:56:00.000Z",
+        "resources": 0,
         "size": "1.80",
         "sizeFmt": "1.80 Ha.",
         "location": "Ryans"
@@ -1193,7 +1193,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1003106,
@@ -1203,7 +1203,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-13T04:08:00.000Z",
-        "updated": "2025-01-14T01:32:00.000Z",
+        "updated": "2025-01-14T04:09:00.000Z",
         "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
@@ -1413,96 +1413,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118064434,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200508,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fire-Murray Valley Hwy- Cobram",
-        "eventId": 250105727,
-        "id": "ESTA:250105727",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-14T03:12:00.000Z",
-        "updated": "2025-01-14T03:49:00.000Z",
-        "resources": 7,
-        "location": "Fire-Murray Valley Hwy- Cobram, Cobram",
-        "cfaId": 200508,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6681891454504,
-          -35.94079201604617
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118064445,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105728",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Taylor Dr",
-        "eventId": "250105728",
-        "id": "ESTA:250105728",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-14T03:46:11.000Z",
-        "updated": "2025-01-14T03:46:11.000Z",
-        "resources": 2,
-        "location": "Taylor Dr, Darley",
-        "cfaId": 200509,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250105728"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.435772220018,
-          -37.66133046961998
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "estaId": 118063937,
+        "estaId": 118065127,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556441,
+        "sourceId": 556447,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151484,
-        "id": "ESTA:250151484",
+        "eventId": 250151492,
+        "id": "ESTA:250151492",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-01-14T02:27:00.000Z",
-        "updated": "2025-01-14T02:29:00.000Z",
+        "created": "2025-01-14T04:21:00.000Z",
+        "updated": "2025-01-14T04:23:00.000Z",
         "resources": 0,
-        "location": "Clayton",
-        "sesId": 556441
+        "location": "Pakenham Upper",
+        "sesId": 556447
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1213335814977,
-          -37.91562942085506
+          145.5404341660248,
+          -37.992167881371145
         ]
       }
     },
@@ -1824,7 +1759,65 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
+        "cfaId": 200509,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200509,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Taylor Dr",
+        "eventId": 250105728,
+        "id": "ESTA:250105728",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-14T03:13:00.000Z",
+        "updated": "2025-01-14T03:46:00.000Z",
+        "resources": 0,
+        "location": "Taylor Dr, Darley",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4357614471954,
+          -37.66133365063986
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 200508,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200508,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fire-Murray Valley Hwy- Cobram",
+        "eventId": 250105727,
+        "id": "ESTA:250105727",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-14T03:12:00.000Z",
+        "updated": "2025-01-14T03:57:00.000Z",
+        "resources": 2,
+        "location": "Fire-Murray Valley Hwy- Cobram, Cobram",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6681891454504,
+          -35.94079201604617
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 200506,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1836,7 +1829,7 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-01-14T02:54:00.000Z",
-        "updated": "2025-01-14T03:49:00.000Z",
+        "updated": "2025-01-14T04:11:00.000Z",
         "resources": 6,
         "location": "River Rd, Swan Hill",
         "size": "Medium",
@@ -1854,6 +1847,64 @@
     {
       "properties": {
         "status": "Responding",
+        "cfaId": 200510,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200510,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Racecourse Rd",
+        "eventId": 250105740,
+        "id": "ESTA:250105740",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-14T04:22:00.000Z",
+        "updated": "2025-01-14T04:22:00.000Z",
+        "resources": 2,
+        "location": "Racecourse Rd, Mount Martha",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05884315725655,
+          -38.2503663311366
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250105738",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105738",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Fitzroy St",
+        "id": "ESTA:250105738",
+        "eventId": "250105738",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-14T04:02:18.000Z",
+        "updated": "2025-01-14T04:02:18.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Fitzroy St, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97527108098555,
+          -37.861323717335026
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250105736",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1864,8 +1915,8 @@
         "eventId": "250105736",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-14T03:35:27.000Z",
-        "updated": "2025-01-14T03:35:27.000Z",
+        "created": "2025-01-14T04:11:47.000Z",
+        "updated": "2025-01-14T04:11:47.000Z",
         "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1895,7 +1946,7 @@
         "category2": "Other",
         "created": "2025-01-14T03:35:18.000Z",
         "updated": "2025-01-14T03:35:18.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Brooklyn, Brooklyn"
@@ -1906,35 +1957,6 @@
         "coordinates": [
           144.8558130652475,
           -37.81730714402839
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250105730",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105730",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ravenhall",
-        "id": "ESTA:250105730",
-        "eventId": "250105730",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-14T03:35:21.000Z",
-        "updated": "2025-01-14T03:35:21.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ravenhall, Ravenhall"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.75264330732531,
-          -37.79514517640825
         ]
       }
     },
@@ -1994,28 +2016,28 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 556444,
+        "status": "Request For Assistance",
+        "sesId": 556446,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556444,
+        "sourceId": 556446,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151488,
-        "id": "ESTA:250151488",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-14T03:01:00.000Z",
-        "updated": "2025-01-14T03:36:00.000Z",
-        "resources": 1,
-        "location": "Melton West"
+        "eventId": 250151491,
+        "id": "ESTA:250151491",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-14T03:54:00.000Z",
+        "updated": "2025-01-14T03:56:00.000Z",
+        "resources": 0,
+        "location": "St Kilda"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.56395405810497,
-          -37.6751003588573
+          144.97526252198872,
+          -37.86132598526936
         ]
       }
     }
@@ -2247,7 +2269,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-14T03:50:19.941Z",
-    "featureCount": 323
+    "lastUpdated": "2025-01-14T04:26:25.509Z",
+    "featureCount": 324
   }
 }
