@@ -991,6 +991,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1621841",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Kalangadoo House Road, Kalangadoo",
+        "id": "1621841",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Kalangadoo House Road, Kalangadoo",
+        "created": "2025-01-14T20:23:00.000Z",
+        "updated": "2025-01-14T20:23:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Kalangadoo House Road, Kalangadoo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.725938669262,
+          -37.5175095429639
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1103,71 +1129,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118071759,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105949",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Learmonth Rd",
-        "eventId": "250105949",
-        "id": "ESTA:250105949",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-14T20:10:54.000Z",
-        "updated": "2025-01-14T20:10:54.000Z",
-        "resources": 2,
-        "location": "Learmonth Rd, Mitchell Park",
-        "cfaId": 200594,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250105949"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8042245676178,
-          -37.519470617098314
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118071898,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105959",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cole St",
-        "eventId": "250105959",
-        "id": "ESTA:250105959",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-14T20:20:05.000Z",
-        "updated": "2025-01-14T20:20:05.000Z",
-        "resources": 2,
-        "location": "Cole St, Hawthorn East",
-        "mfbId": "250105959",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05012267551143,
-          -37.835682600597536
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "estaId": 118071894,
         "feedType": "incident",
@@ -1183,7 +1144,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-14T20:20:37.000Z",
         "updated": "2025-01-14T20:20:37.000Z",
-        "resources": 2,
+        "resources": 4,
         "location": "Edgars Rd, Wollert",
         "cfaId": 200598,
         "size": "Small",
@@ -1201,7 +1162,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 118071866,
         "feedType": "incident",
         "source": "000",
@@ -1228,6 +1189,131 @@
         "coordinates": [
           142.88835991724926,
           -38.239666471362284
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118071785,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200595,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "De Fredricks Rd",
+        "eventId": 250105950,
+        "id": "ESTA:250105950",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-14T19:49:00.000Z",
+        "updated": "2025-01-14T20:26:00.000Z",
+        "resources": 4,
+        "location": "De Fredricks Rd, Langkoop",
+        "cfaId": 200595,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.09915463323858,
+          -37.05527652084908
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118071759,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200594,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Learmonth Rd",
+        "eventId": 250105949,
+        "id": "ESTA:250105949",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-14T19:42:00.000Z",
+        "updated": "2025-01-14T20:11:00.000Z",
+        "resources": 0,
+        "location": "Learmonth Rd, Mitchell Park",
+        "cfaId": 200594,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8042244125942,
+          -37.51947302984151
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118071962,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105960",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ireland St",
+        "eventId": "250105960",
+        "id": "ESTA:250105960",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-14T20:34:17.000Z",
+        "updated": "2025-01-14T20:34:17.000Z",
+        "resources": 2,
+        "location": "Ireland St, West Melbourne",
+        "mfbId": "250105960",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9456146204112,
+          -37.80761454603284
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118071971,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118071971,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wheelers Hill",
+        "eventId": "F250105961",
+        "id": "ESTA:250105961",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-14T20:32:46.000Z",
+        "updated": "2025-01-14T20:33:26.147Z",
+        "resources": 0,
+        "location": "Wheelers Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17974386495382,
+          -37.90557582990047
         ]
       }
     },
@@ -3179,36 +3265,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "584289",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Warmata Rd, Mulwala",
-        "id": "2025-01-15T06:21:00.0000000:584289",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Warmata Rd, Mulwala",
-        "location": "Warmata Rd, Mulwala 2647",
-        "created": "2025-01-15T06:21:00+11:00",
-        "updated": "2025-01-15T06:21:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.969268799,
-          -35.8458595279999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "584105",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Ivanhoe Rd, Balranald",
@@ -3458,35 +3514,6 @@
         "coordinates": [
           144.93440402375754,
           -38.34588330159222
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 200595,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200595,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "De Fredricks Rd",
-        "eventId": 250105950,
-        "id": "ESTA:250105950",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-14T19:49:00.000Z",
-        "updated": "2025-01-14T19:49:00.000Z",
-        "resources": 4,
-        "location": "De Fredricks Rd, Langkoop",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.09915463323858,
-          -37.05527652084908
         ]
       }
     },
@@ -3830,7 +3857,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-14T20:24:05.600Z",
-    "featureCount": 313
+    "lastUpdated": "2025-01-14T20:35:00.171Z",
+    "featureCount": 314
   }
 }
