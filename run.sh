@@ -19,9 +19,21 @@ makeDB() {
     -u"$(id -u):$(id -g)" \
     -v"$(pwd):/wd" \
     -w /wd \
-    "$dockerGitHistory" file "$db" events.json --convert 'data = json.loads(content)
-for event in data["features"]:
-    yield event["properties"]
+    "$dockerGitHistory" file "$db" events.json --convert '
+  def flatten_dict(d, parent_key="", sep="_"):
+        items = []
+        for k, v in d.items():
+            new_key = f"{parent_key}{sep}{k}" if parent_key else k
+            if isinstance(v, dict):
+                items.extend(flatten_dict(v, new_key, sep=sep).items())
+            else:
+                items.append((new_key, v))
+        return dict(items)
+  data = json.loads(content)
+  for event in data["features"]:
+      flattened_event = flatten_dict(event)
+      flattened_event["id"] = flattened_event["properties_id"]
+      yield flattened_event
 ' --id id
 
   docker run \
