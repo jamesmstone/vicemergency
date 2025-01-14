@@ -991,6 +991,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1621826",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Riddoch Highway, Padthaway",
+        "id": "1621826",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Riddoch Highway, Padthaway",
+        "created": "2025-01-14T13:58:00.000Z",
+        "updated": "2025-01-14T13:58:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Riddoch Highway, Padthaway"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.517881636584,
+          -36.6209545666329
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1098,6 +1124,71 @@
         "coordinates": [
           142.3087764,
           -37.6905182
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118070501,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 200583,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250105906,
+        "id": "ESTA:250105906",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-14T14:05:00.000Z",
+        "updated": "2025-01-14T14:18:00.000Z",
+        "resources": 0,
+        "location": "Geelong",
+        "cfaId": 200583,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36011342725644,
+          -38.151160309297936
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118070570,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250105907",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Moorabool St",
+        "eventId": "250105907",
+        "id": "ESTA:250105907",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-14T14:15:32.000Z",
+        "updated": "2025-01-14T14:15:32.000Z",
+        "resources": 4,
+        "location": "Moorabool St, Geelong",
+        "cfaId": 200584,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250105907"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35884706127928,
+          -38.15198066227063
         ]
       }
     },
@@ -3303,64 +3394,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 200571,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200571,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250105883,
-        "id": "ESTA:250105883",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-14T11:51:00.000Z",
-        "updated": "2025-01-14T13:06:00.000Z",
-        "resources": 0,
-        "location": "Clyde North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34894830020332,
-          -38.10592492587255
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 200576,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200576,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Surf Coast Walk",
-        "eventId": 250105889,
-        "id": "ESTA:250105889",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-14T12:04:00.000Z",
-        "updated": "2025-01-14T13:08:00.000Z",
-        "resources": 0,
-        "location": "Surf Coast Walk, Anglesea",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.18852248230516,
-          -38.414220578449765
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "cfaId": 200582,
         "feedType": "incident",
@@ -3432,7 +3465,7 @@
         "category2": "Structure Fire",
         "created": "2025-01-14T13:33:21.000Z",
         "updated": "2025-01-14T13:33:21.000Z",
-        "resources": 2,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Murray St, Sunshine West"
@@ -3642,6 +3675,7 @@
         },
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -3649,8 +3683,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -3701,7 +3734,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-14T13:50:20.176Z",
-    "featureCount": 309
+    "lastUpdated": "2025-01-14T14:23:01.746Z",
+    "featureCount": 310
   }
 }
