@@ -1103,24 +1103,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118070948,
+        "status": "Safe",
+        "estaId": 118071042,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250105912",
+        "sourceId": "250105917",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dillwynia Pl",
-        "eventId": "250105912",
-        "id": "ESTA:250105912",
+        "sourceTitle": "Melbourne",
+        "eventId": "250105917",
+        "id": "ESTA:250105917",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-14T15:47:12.000Z",
-        "updated": "2025-01-14T15:47:12.000Z",
-        "resources": 1,
-        "location": "Dillwynia Pl, Meadow Heights",
-        "mfbId": "250105912",
+        "created": "2025-01-14T16:20:17.000Z",
+        "updated": "2025-01-14T16:20:17.000Z",
+        "resources": 2,
+        "location": "Melbourne, Melbourne",
+        "mfbId": "250105917",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1128,8 +1128,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91319370833443,
-          -37.648319379494716
+          144.9647476452813,
+          -37.81267633531009
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118071104,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118071104,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Pascoe Vale South",
+        "eventId": "F250105919",
+        "id": "ESTA:250105919",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-01-14T16:27:39.000Z",
+        "updated": "2025-01-14T16:28:29.113Z",
+        "resources": 0,
+        "location": "Pascoe Vale South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94413103548007,
+          -37.739006006922395
         ]
       }
     },
@@ -3336,20 +3365,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 200582,
+        "cfaId": 200585,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 200582,
+        "sourceId": 200585,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Growse St",
-        "eventId": 250105904,
-        "id": "ESTA:250105904",
+        "sourceTitle": "Castle Rd",
+        "eventId": 250105910,
+        "id": "ESTA:250105910",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-14T13:09:00.000Z",
-        "updated": "2025-01-14T14:52:00.000Z",
+        "created": "2025-01-14T15:04:00.000Z",
+        "updated": "2025-01-14T15:30:00.000Z",
         "resources": 0,
-        "location": "Growse St, Yarram",
+        "location": "Castle Rd, North Warrandyte",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3357,38 +3386,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.68218990567095,
-          -38.56884056234625
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 200585,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250105910",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Castle Rd",
-        "eventId": "250105910",
-        "id": "ESTA:250105910",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-14T15:30:44.000Z",
-        "updated": "2025-01-14T15:30:44.000Z",
-        "resources": 1,
-        "location": "Castle Rd, North Warrandyte",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250105910"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.22331186782895,
-          -37.735021904914014
+          145.22330529912938,
+          -37.73502524638914
         ]
       }
     },
@@ -3445,33 +3444,6 @@
         "coordinates": [
           144.9344017543639,
           -38.34588518330167
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556479,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556479,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151523,
-        "id": "ESTA:250151523",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-14T15:29:00.000Z",
-        "updated": "2025-01-14T15:45:00.000Z",
-        "resources": 1,
-        "location": "Wangaratta"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.27565132242333,
-          -36.35199033172351
         ]
       }
     }
@@ -3644,7 +3616,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -3652,7 +3623,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -3703,7 +3675,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-14T15:50:20.077Z",
-    "featureCount": 309
+    "lastUpdated": "2025-01-14T16:28:59.912Z",
+    "featureCount": 308
   }
 }
