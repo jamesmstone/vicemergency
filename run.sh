@@ -30,11 +30,18 @@ makeDB() {
             else:
                 items.append((new_key, v))
         return dict(items)
-  data = json.loads(content)
-  for event in data["features"]:
-      flattened_event = flatten_dict(event)
-      flattened_event["id"] = flattened_event["properties_id"]
-      yield flattened_event
+  try:
+      data = json.loads(content)
+      for event in data["features"]:
+          flattened_event = flatten_dict(event)
+          flattened_event["id"] = flattened_event["properties_id"]
+          yield flattened_event
+  except json.JSONDecodeError as e:
+      print(f"JSON decode error: {e}")
+  except KeyError as e:
+      print(f"Key error: {e}")
+  except Exception as e:
+      print(f"An error occurred: {e}")
 ' --id id
 
   docker run \
