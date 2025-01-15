@@ -71,9 +71,9 @@ publishDB() {
   local dockerDatasette="datasette"
   docker build --tag "$dockerDatasette" --pull --file datasette.Dockerfile .
   docker run \
-    -v"$(pwd):/wd" \
-    -w /wd \
-    "$dockerDatasette" \
+      -v"$(pwd):/wd" \
+      -w /wd \
+      "$dockerDatasette" \
     publish vercel "$db" --token $VERCEL_TOKEN --project=vicemergency
 }
 
