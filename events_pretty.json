@@ -1113,7 +1113,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 118080358,
         "feedType": "incident",
         "source": "SES STRM",
@@ -1127,8 +1127,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-15T10:35:00.000Z",
-        "updated": "2025-01-15T10:48:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-15T11:08:00.000Z",
+        "resources": 0,
         "location": "Benalla",
         "sesId": 556693
       },
@@ -1143,30 +1143,64 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118079785,
+        "status": "Safe",
+        "estaId": 118080493,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118079785,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melton",
-        "eventId": "S250151729",
-        "id": "ESTA:250151729",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250106254",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Merribrook Bvd",
+        "eventId": "250106254",
+        "id": "ESTA:250106254",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-15T09:13:24.000Z",
-        "updated": "2025-01-15T10:35:28.530Z",
-        "resources": 0,
-        "location": "High St, Melton"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-15T11:09:11.000Z",
+        "updated": "2025-01-15T11:09:11.000Z",
+        "resources": 3,
+        "location": "Merribrook Bvd, Clyde",
+        "cfaId": 200733,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250106254"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.57613413534705,
-          -37.683268036538664
+          145.35136250466005,
+          -38.124399625177574
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118079919,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556684,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151731,
+        "id": "ESTA:250151731",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-15T09:32:00.000Z",
+        "updated": "2025-01-15T11:10:00.000Z",
+        "resources": 0,
+        "location": "Keysborough",
+        "sesId": 556684
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15686229530888,
+          -37.98288793884287
         ]
       }
     },
@@ -1205,53 +1239,53 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 118080088,
+        "estaId": 118080348,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 556690,
+        "sourceId": 556692,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250151737,
-        "id": "ESTA:250151737",
+        "eventId": 250151740,
+        "id": "ESTA:250151740",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-01-15T09:57:00.000Z",
-        "updated": "2025-01-15T10:46:00.000Z",
+        "created": "2025-01-15T10:34:00.000Z",
+        "updated": "2025-01-15T11:13:00.000Z",
         "resources": 0,
-        "location": "Baxter",
-        "sesId": 556690
+        "location": "Benalla",
+        "sesId": 556692
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17809438795786,
-          -38.19653390424247
+          145.91513240590163,
+          -36.57142093109389
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118080450,
+        "estaId": 118080608,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250106252",
+        "sourceId": "250106257",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bridge St",
-        "eventId": "250106252",
-        "id": "ESTA:250106252",
+        "sourceTitle": "Moolap",
+        "eventId": "250106257",
+        "id": "ESTA:250106257",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-15T10:48:46.000Z",
-        "updated": "2025-01-15T10:48:46.000Z",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-15T11:14:17.000Z",
+        "updated": "2025-01-15T11:14:17.000Z",
         "resources": 1,
-        "location": "Bridge St, Bendigo",
-        "mfbId": "250106252",
+        "location": "Moolap, Moolap",
+        "mfbId": "250106257",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1259,37 +1293,132 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2869042211973,
-          -36.74929016949237
+          144.40084973694516,
+          -38.1825020514022
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118078421,
+        "status": "Complete",
+        "estaId": 118080556,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118078421,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Kithbrook",
-        "eventId": "F250106187",
-        "id": "ESTA:250106187",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556695,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151746,
+        "id": "ESTA:250151746",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-15T06:52:23.000Z",
-        "updated": "2025-01-15T10:49:33.414Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-15T11:05:00.000Z",
+        "updated": "2025-01-15T11:15:00.000Z",
         "resources": 0,
-        "location": "Delaheys Rd, Kithbrook"
+        "location": "Baddaginnie",
+        "sesId": 556695
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.70898783758022,
-          -36.82077345988449
+          145.8910947427117,
+          -36.579889797537206
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118080633,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250106259",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kirkdale St",
+        "eventId": "250106259",
+        "id": "ESTA:250106259",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-15T11:16:43.000Z",
+        "updated": "2025-01-15T11:16:43.000Z",
+        "resources": 0,
+        "location": "Kirkdale St, Brunswick East",
+        "mfbId": "250106259",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98298532959092,
+          -37.770143495433395
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118080622,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250106258",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Northumberland St",
+        "eventId": "250106258",
+        "id": "ESTA:250106258",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-15T11:14:07.000Z",
+        "updated": "2025-01-15T11:14:07.000Z",
+        "resources": 3,
+        "location": "Northumberland St, Collingwood",
+        "mfbId": "250106258",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98676991691516,
+          -37.80750000074387
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118079154,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556661,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151710,
+        "id": "ESTA:250151710",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-15T08:09:00.000Z",
+        "updated": "2025-01-15T11:17:00.000Z",
+        "resources": 0,
+        "location": "Wingan River",
+        "sesId": 556661
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.45338005064352,
+          -37.69159193687611
         ]
       }
     },
@@ -1299,253 +1428,22 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/6e932d3f49dcc2dda5b0fe1fd22414fa",
+        "sourceId": "IDV20600/67c5764edb06d365db3d65367eb2fc40",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/6e932d3f49dcc2dda5b0fe1fd22414fa",
+        "id": "IDV20600/67c5764edb06d365db3d65367eb2fc40",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-01-15T06:00:00.000Z",
+        "created": "2025-01-15T11:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
-        "location": "Port Phillip, Western Port, West Coast, Central Coast, Central Gippsland Coast and East Gippsland Coast"
+        "location": "Port Phillip, Western Port, Central Coast, Central Gippsland Coast and East Gippsland Coast"
       },
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  143.5115,
-                  -38.856
-                ],
-                [
-                  143.5115,
-                  -39.536
-                ],
-                [
-                  140.9658,
-                  -39.2861
-                ],
-                [
-                  140.9658,
-                  -38.0563
-                ],
-                [
-                  141.1452,
-                  -38.1239
-                ],
-                [
-                  141.1486,
-                  -38.1254
-                ],
-                [
-                  141.2642,
-                  -38.1959
-                ],
-                [
-                  141.2728,
-                  -38.2018
-                ],
-                [
-                  141.3802,
-                  -38.3016
-                ],
-                [
-                  141.3858,
-                  -38.3084
-                ],
-                [
-                  141.3984,
-                  -38.3378
-                ],
-                [
-                  141.3643,
-                  -38.3751
-                ],
-                [
-                  141.3641,
-                  -38.3755
-                ],
-                [
-                  141.4066,
-                  -38.397
-                ],
-                [
-                  141.4089,
-                  -38.3779
-                ],
-                [
-                  141.4066,
-                  -38.3703
-                ],
-                [
-                  141.4227,
-                  -38.3627
-                ],
-                [
-                  141.4483,
-                  -38.36
-                ],
-                [
-                  141.5185,
-                  -38.3894
-                ],
-                [
-                  141.5205,
-                  -38.3905
-                ],
-                [
-                  141.5216,
-                  -38.4142
-                ],
-                [
-                  141.5214,
-                  -38.4144
-                ],
-                [
-                  141.5433,
-                  -38.4327
-                ],
-                [
-                  141.566,
-                  -38.4042
-                ],
-                [
-                  141.5731,
-                  -38.3906
-                ],
-                [
-                  141.626,
-                  -38.4063
-                ],
-                [
-                  141.6263,
-                  -38.4065
-                ],
-                [
-                  141.6274,
-                  -38.3939
-                ],
-                [
-                  141.6502,
-                  -38.3928
-                ],
-                [
-                  141.6002,
-                  -38.3215
-                ],
-                [
-                  141.6021,
-                  -38.3128
-                ],
-                [
-                  141.7358,
-                  -38.2538
-                ],
-                [
-                  141.7388,
-                  -38.2534
-                ],
-                [
-                  141.9299,
-                  -38.2782
-                ],
-                [
-                  142.1428,
-                  -38.3882
-                ],
-                [
-                  142.1447,
-                  -38.3902
-                ],
-                [
-                  142.2406,
-                  -38.3945
-                ],
-                [
-                  142.2481,
-                  -38.375
-                ],
-                [
-                  142.2694,
-                  -38.3632
-                ],
-                [
-                  142.3777,
-                  -38.3512
-                ],
-                [
-                  142.3784,
-                  -38.3512
-                ],
-                [
-                  142.4706,
-                  -38.4015
-                ],
-                [
-                  142.475,
-                  -38.4042
-                ],
-                [
-                  142.4895,
-                  -38.3939
-                ],
-                [
-                  142.4905,
-                  -38.3937
-                ],
-                [
-                  142.5632,
-                  -38.4215
-                ],
-                [
-                  142.859,
-                  -38.603
-                ],
-                [
-                  142.8591,
-                  -38.6046
-                ],
-                [
-                  143.0351,
-                  -38.6313
-                ],
-                [
-                  143.1247,
-                  -38.6786
-                ],
-                [
-                  143.2228,
-                  -38.7598
-                ],
-                [
-                  143.2344,
-                  -38.7666
-                ],
-                [
-                  143.3579,
-                  -38.7547
-                ],
-                [
-                  143.4218,
-                  -38.7824
-                ],
-                [
-                  143.4274,
-                  -38.783
-                ],
-                [
-                  143.5115,
-                  -38.856
-                ]
-              ]
-            ]
-          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -3188,14 +3086,6 @@
           {
             "type": "Point",
             "coordinates": [
-              142.23862991200008,
-              -38.79615925999997
-            ],
-            "name": "West Coast"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
               144.94338504700005,
               -38.96782901249995
             ],
@@ -3323,66 +3213,6 @@
         "coordinates": [
           147.903015137,
           -35.99274826
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Being Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "584364",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Lower Bago Rd, Lower Bago",
-        "id": "2025-01-15T16:31:00.0000000:584364",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Lower Bago Rd, Lower Bago",
-        "location": "Lower Bago Rd, Lower Bago 2730",
-        "created": "2025-01-15T16:31:00+11:00",
-        "updated": "2025-01-15T16:31:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.97680664,
-          -35.564510345
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "584105",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Ivanhoe Rd, Balranald",
-        "id": "2025-01-14T11:30:00.0000000:584105",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Ivanhoe Rd, Balranald",
-        "location": "Wynburn Station 1586 Ivanhoe Rd, Balranald 2715",
-        "created": "2025-01-14T11:30:00+11:00",
-        "updated": "2025-01-14T11:30:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.628494262,
-          -34.5075035099999
         ]
       }
     },
@@ -3586,6 +3416,66 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "584364",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Lower Bago Rd, Lower Bago",
+        "id": "2025-01-15T16:31:00.0000000:584364",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Lower Bago Rd, Lower Bago",
+        "location": "Lower Bago Rd, Lower Bago 2730",
+        "created": "2025-01-15T16:31:00+11:00",
+        "updated": "2025-01-15T16:31:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.97680664,
+          -35.564510345
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "584105",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Ivanhoe Rd, Balranald",
+        "id": "2025-01-14T11:30:00.0000000:584105",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Ivanhoe Rd, Balranald",
+        "location": "Wynburn Station 1586 Ivanhoe Rd, Balranald 2715",
+        "created": "2025-01-14T11:30:00+11:00",
+        "updated": "2025-01-14T11:30:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.628494262,
+          -34.5075035099999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
@@ -3645,36 +3535,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 200727,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200727,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Churchill Av",
-        "eventId": 250106233,
-        "id": "ESTA:250106233",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-15T09:55:00.000Z",
-        "updated": "2025-01-15T09:56:00.000Z",
-        "resources": 1,
-        "location": "Churchill Av, Bright",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.97111569138565,
-          -36.73211430731436
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 200731,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3683,11 +3544,11 @@
         "sourceTitle": "",
         "eventId": 250106247,
         "id": "ESTA:250106247",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
+        "category1": "Other",
+        "category2": "Other",
         "created": "2025-01-15T10:35:00.000Z",
-        "updated": "2025-01-15T10:35:00.000Z",
-        "resources": 4,
+        "updated": "2025-01-15T10:50:00.000Z",
+        "resources": 3,
         "location": "Donnybrook",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3920,87 +3781,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 556688,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556688,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151735,
-        "id": "ESTA:250151735",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-15T09:44:00.000Z",
-        "updated": "2025-01-15T09:54:00.000Z",
-        "resources": 1,
-        "location": "Metung"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.85676965170072,
-          -37.88804111265013
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 556678,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556678,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151727,
-        "id": "ESTA:250151727",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-15T09:10:00.000Z",
-        "updated": "2025-01-15T10:06:00.000Z",
-        "resources": 1,
-        "location": "Toolangi"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.51063466599953,
-          -37.58475552366332
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556684,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556684,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151731,
-        "id": "ESTA:250151731",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-15T09:32:00.000Z",
-        "updated": "2025-01-15T10:15:00.000Z",
-        "resources": 1,
-        "location": "Keysborough"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15686229530888,
-          -37.98288793884287
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 556691,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -4012,8 +3792,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-15T10:12:00.000Z",
-        "updated": "2025-01-15T10:16:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-15T10:55:00.000Z",
+        "resources": 1,
         "location": "Kallista"
       },
       "type": "Feature",
@@ -4022,60 +3802,6 @@
         "coordinates": [
           145.38187335806148,
           -37.879523203612884
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 556661,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556661,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151710,
-        "id": "ESTA:250151710",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-15T08:09:00.000Z",
-        "updated": "2025-01-15T10:20:00.000Z",
-        "resources": 1,
-        "location": "Wingan River"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.45338005064352,
-          -37.69159193687611
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 556692,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556692,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151740,
-        "id": "ESTA:250151740",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-15T10:34:00.000Z",
-        "updated": "2025-01-15T10:36:00.000Z",
-        "resources": 0,
-        "location": "Benalla"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.91513240590163,
-          -36.57142093109389
         ]
       }
     }
@@ -4094,7 +3820,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4102,7 +3827,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4118,7 +3844,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4126,7 +3851,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-14T13:00:00.000Z",
           "heat": {
@@ -4307,7 +4033,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-15T10:50:06.088Z",
-    "featureCount": 326
+    "lastUpdated": "2025-01-15T11:19:20.108Z",
+    "featureCount": 324
   }
 }
