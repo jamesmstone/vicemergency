@@ -70,7 +70,7 @@ commitDB() {
 publishDB() {
   local dockerDatasette="datasette"
   docker build --tag "$dockerDatasette" --pull --file datasette.Dockerfile .
-    docker run \
+  docker run \
     -v"$(pwd):/wd" \
     -w /wd \
     "$dockerDatasette" \
