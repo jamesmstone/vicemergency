@@ -87,21 +87,11 @@ publishDB() {
 
 run() {
   local db="events.db"
-  getDB || true
   makeDB "$db"
   commitDB "$db"
   publishDB "$db"
 
 
-}
-
-getDB() {
-  local chunkPrefix="chunk-"
-  local archive="events.db.tar.gz"
-  git checkout db
-  cat ${chunkPrefix}* > "$archive"
-  tar -xzf "$archive"
-  rm "$archive"
 }
 
 run "$@"
