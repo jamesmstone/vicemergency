@@ -87,7 +87,7 @@ publishDB() {
 
 run() {
   local db="events.db"
-  getDB
+  getDB || true
   makeDB "$db"
   commitDB "$db"
   publishDB "$db"
