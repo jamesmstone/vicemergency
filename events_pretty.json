@@ -857,6 +857,35 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118094224,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118094224,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hamlyn Heights",
+        "eventId": "F250106695",
+        "id": "ESTA:250106695",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-16T19:12:12.000Z",
+        "updated": "2025-01-16T19:13:26.200Z",
+        "resources": 0,
+        "location": "Hamlyn Heights"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.32679827136803,
+          -38.12918064164124
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -3963,30 +3992,32 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 200875,
+        "status": "Request For Assistance",
+        "cfaId": 200876,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 200875,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250106691,
-        "id": "ESTA:250106691",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-16T17:44:00.000Z",
-        "updated": "2025-01-16T17:55:00.000Z",
-        "resources": 0,
-        "location": "Swan Hill",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556784,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250106694,
+        "id": "ESTA:250106694",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-01-16T19:07:00.000Z",
+        "updated": "2025-01-16T19:12:00.000Z",
+        "resources": 4,
+        "location": "Hamlyn Heights",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250106694",
+        "sesId": 556784
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.5476871326444,
-          -35.3418874900889
+          144.32678730405263,
+          -38.12918667463567
         ]
       }
     },
@@ -4041,6 +4072,33 @@
         "coordinates": [
           141.49416262461745,
           -36.90750784310117
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 556785,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556785,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151852,
+        "id": "ESTA:250151852",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-01-16T19:13:00.000Z",
+        "updated": "2025-01-16T19:16:00.000Z",
+        "resources": 0,
+        "location": "Hamlyn Heights"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.32678730405263,
+          -38.12918667463567
         ]
       }
     }
@@ -4272,7 +4330,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-16T18:50:25.938Z",
-    "featureCount": 293
+    "lastUpdated": "2025-01-16T19:17:20.070Z",
+    "featureCount": 295
   }
 }
