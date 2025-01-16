@@ -53,18 +53,26 @@ makeDB() {
 }
 
 commitDB() {
+  local chunkSize="99M"
+  local archive="${db}.tar.gz"
+  local chunkPrefix="chunk-"
+  local dbBranch="db"
   local dbBranch="db"
   local db="$1"
+  tar -czf "$archive" "$db"
+  split -b "$chunkSize" "$archive" "$chunkPrefix"
   local tempDB="$(mktemp)"
   git branch -D "$dbBranch" || true
   git checkout --orphan "$dbBranch"
   mv "$db" "$tempDB"
   rm -rf *
   mv "$tempDB" "$db"
-  git add "$db"
-  git commit "$db" -m "push db"
+  mv "$chunkPrefix"* .
+  git add "${chunkPrefix}*"
+  git commit -m "push db chunks"
   git push origin "$dbBranch" -f
-}
+  git push origin "$dbBranch" -f
+  rm -f "$archive" "$chunkPrefix"*
 
 
 publishDB() {
@@ -79,11 +87,22 @@ publishDB() {
 
 run() {
   local db="events.db"
+  getDB
   makeDB "$db"
   commitDB "$db"
   publishDB "$db"
 
 
+}
+}
+
+getDB() {
+  local chunkPrefix="chunk-"
+  local archive="events.db.tar.gz"
+  git checkout db
+  cat ${chunkPrefix}* > "$archive"
+  tar -xzf "$archive"
+  rm "$archive"
 }
 
 run "$@"
