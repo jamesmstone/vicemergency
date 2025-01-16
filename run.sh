@@ -73,7 +73,7 @@ commitDB() {
   git push origin "$dbBranch" -f
   git push origin "$dbBranch" -f
   rm -f "$archive" "$chunkPrefix"*
-
+}
 
 publishDB() {
   local dockerDatasette="datasette"
