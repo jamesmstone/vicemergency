@@ -94,7 +94,6 @@ run() {
 
 
 }
-}
 
 getDB() {
   local chunkPrefix="chunk-"
