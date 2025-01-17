@@ -749,31 +749,89 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118106676,
+        "status": "Safe",
+        "estaId": 118106423,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 556859,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250151939,
-        "id": "ESTA:250151939",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118106423,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Swan Hill",
+        "eventId": "F250107069",
+        "id": "ESTA:250107069",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-17T20:09:00.000Z",
-        "updated": "2025-01-17T20:22:00.000Z",
-        "resources": 1,
-        "location": "Marysville",
-        "sesId": 556859
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-17T18:39:15.000Z",
+        "updated": "2025-01-17T20:27:13.308Z",
+        "resources": 0,
+        "location": "Chaplin St, Swan Hill"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.84396142077955,
-          -37.52724731620605
+          143.54756764992268,
+          -35.35202418388253
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118106756,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556860,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151940,
+        "id": "ESTA:250151940",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-17T20:28:00.000Z",
+        "updated": "2025-01-17T20:28:00.000Z",
+        "resources": 0,
+        "location": "Taradale",
+        "sesId": 556860
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35588071422134,
+          -37.124190078449125
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118106785,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118106785,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Narre Warren South",
+        "eventId": "F250107084",
+        "id": "ESTA:250107084",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-17T20:33:40.000Z",
+        "updated": "2025-01-17T20:33:58.303Z",
+        "resources": 0,
+        "location": "Narre Warren-Cranbourne Rd, Narre Warren South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3019437141872,
+          -38.05234274563283
         ]
       }
     },
@@ -2264,7 +2322,7 @@
         "category2": "Bushfire",
         "created": "2025-01-17T19:47:00.000Z",
         "updated": "2025-01-17T20:06:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Henty Hwy, Dooen",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2331,6 +2389,33 @@
         "coordinates": [
           144.9344017543639,
           -38.34588518330167
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 556859,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 556859,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250151939,
+        "id": "ESTA:250151939",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-17T20:09:00.000Z",
+        "updated": "2025-01-17T20:22:00.000Z",
+        "resources": 1,
+        "location": "Marysville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.84396142077955,
+          -37.52724731620605
         ]
       }
     }
@@ -2503,7 +2588,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "HIGH",
@@ -2511,7 +2595,8 @@
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "HIGH",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2562,7 +2647,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-17T20:23:39.735Z",
-    "featureCount": 293
+    "lastUpdated": "2025-01-17T20:33:59.862Z",
+    "featureCount": 296
   }
 }
