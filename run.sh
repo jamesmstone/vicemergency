@@ -4,17 +4,24 @@ set -e # Exit with nonzero exit code if anything fails
 set -o pipefail
 set -o errexit
 
+dockerBuilds(){
+    local dockerGitHistory="git-history"
+    local dockerSQLUtil="sqlite-utils"
+
+  #  rm "$db" || true
+
+    docker build --tag "$dockerGitHistory" --pull --file git-history.Dockerfile . &
+    docker build --tag "$dockerSQLUtil" --pull --file sqlite-utils.Dockerfile . &
+    wait
+}
+
 makeDB() {
   local db="$1"
 
   local dockerGitHistory="git-history"
   local dockerSQLUtil="sqlite-utils"
 
-  rm "$db" || true
-
-  docker build --tag "$dockerGitHistory" --pull --file git-history.Dockerfile . &
-  docker build --tag "$dockerSQLUtil" --pull --file sqlite-utils.Dockerfile . &
-  wait
+#  rm "$db" || true
 
   docker run \
     -u"$(id -u):$(id -g)" \
@@ -52,27 +59,13 @@ makeDB() {
 
 }
 
-commitDB() {
-  local chunkSize="99M"
-  local archive="${db}.tar.gz"
-  local chunkPrefix="chunk-"
-  local dbBranch="db"
-  local dbBranch="db"
+getDBs() {
   local db="$1"
-  tar -czf "$archive" "$db"
-  split -b "$chunkSize" "$archive" "$chunkPrefix"
-  local tempDB="$(mktemp)"
-  git branch -D "$dbBranch" || true
-  git checkout --orphan "$dbBranch"
-  mv "$db" "$tempDB"
-  rm -rf *
-  mv "$tempDB" "$db"
-  mv "$chunkPrefix"* .
-  git add "${chunkPrefix}*"
-  git commit -m "push db chunks"
-  git push origin "$dbBranch" -f
-  git push origin "$dbBranch" -f
-  rm -f "$archive" "$chunkPrefix"*
+  git fetch origin "$dbBranch"
+  git ls-tree -r --name-only "origin/$dbBranch" |
+    sort |
+    xargs -I % -n1 git show "origin/$dbBranch:%" |
+    tar -zxf "$db" || return 0
 }
 
 publishDB() {
@@ -85,12 +78,43 @@ publishDB() {
     publish vercel "$db" --token $VERCEL_TOKEN --project=vicemergency
 }
 
+
+commitData() {
+
+  mv "$db" "$tempDB"
+
+  git config user.name "Automated"
+  git config user.email "actions@users.noreply.github.com"
+  git add -A
+  timestamp=$(date -u)
+  git commit -m "Latest data: ${timestamp}" || true
+  git push
+
+  git branch -D "$dbBranch" || true
+  git checkout --orphan "$dbBranch"
+  rm -rf *
+  mkdir -p "$(dirname $db)"
+  mv "$tempDB" "$db"
+  tar -cvzf "$db.tar.gz" "$db"
+  split -b 99M "$db.tar.gz" "$db.tar.gz.part"
+  git add "$db.tar.gz.part*"
+  git commit "$db.tar.gz.part*" -m "push db parts"
+  git add "$db"
+  git commit "$db" -m "push db"
+  git push origin "$dbBranch" -f
+}
+
+
 run() {
   local db="events.db"
-  makeDB "$db"
-  commitDB "$db"
-  publishDB "$db"
+  dockerBuilds &
+  { getDBs "$db" || true
+  } &
+  wait
 
+  makeDB "$db"
+#  publishDB "$db"
+  commitDB "$db"
 
 }
 
