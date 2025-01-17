@@ -8,8 +8,6 @@ dockerBuilds(){
     local dockerGitHistory="git-history"
     local dockerSQLUtil="sqlite-utils"
 
-  #  rm "$db" || true
-
     docker build --tag "$dockerGitHistory" --pull --file git-history.Dockerfile . &
     docker build --tag "$dockerSQLUtil" --pull --file sqlite-utils.Dockerfile . &
     wait
