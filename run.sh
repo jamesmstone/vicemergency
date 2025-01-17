@@ -78,6 +78,7 @@ publishDB() {
 
 
 commitData() {
+  local db="$1"
   mv "$db" "$tempDB"
 
   git config user.name "Automated"
