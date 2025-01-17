@@ -78,7 +78,6 @@ publishDB() {
 
 
 commitData() {
-
   mv "$db" "$tempDB"
 
   git config user.name "Automated"
@@ -112,7 +111,7 @@ run() {
 
   makeDB "$db"
 #  publishDB "$db"
-  commitDB "$db"
+  commitData "$db"
 
 }
 
