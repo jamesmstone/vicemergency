@@ -832,66 +832,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118118957,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557001,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152091,
-        "id": "ESTA:250152091",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-01-18T20:14:00.000Z",
-        "updated": "2025-01-18T20:17:00.000Z",
-        "resources": 0,
-        "location": "Mount Waverley",
-        "sesId": 557001
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1269788042622,
-          -37.863008969773595
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118118961,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557002,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152092,
-        "id": "ESTA:250152092",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-18T20:15:00.000Z",
-        "updated": "2025-01-18T20:17:00.000Z",
-        "resources": 0,
-        "location": "Essendon",
-        "sesId": 557002
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91305728585817,
-          -37.75345083682803
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "estaId": 118118972,
         "feedType": "incident",
@@ -907,7 +847,7 @@
         "category2": "Road Accident",
         "created": "2025-01-18T20:18:00.000Z",
         "updated": "2025-01-18T20:18:00.000Z",
-        "resources": 0,
+        "resources": 1,
         "location": "Monbulk-Seville Rd, Seville",
         "cfaId": 201189,
         "size": "Small",
@@ -928,26 +868,29 @@
         "estaId": 118118981,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118118981,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Fawkner",
-        "eventId": "F250107501",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250107501",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Birchwood St",
+        "eventId": "250107501",
         "id": "ESTA:250107501",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-18T20:20:25.000Z",
-        "updated": "2025-01-18T20:21:06.344Z",
-        "resources": 0,
-        "location": "Birchwood St, Fawkner"
+        "created": "2025-01-18T20:29:50.000Z",
+        "updated": "2025-01-18T20:29:50.000Z",
+        "resources": 2,
+        "location": "Birchwood St, Fawkner",
+        "mfbId": "250107501",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96521348063345,
-          -37.69490175571545
+          144.96521074779898,
+          -37.69490331213701
         ]
       }
     },
@@ -1178,7 +1121,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250107499",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1189,8 +1132,8 @@
         "eventId": "250107499",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-18T20:15:12.000Z",
-        "updated": "2025-01-18T20:15:12.000Z",
+        "created": "2025-01-18T20:27:57.000Z",
+        "updated": "2025-01-18T20:27:57.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1200,8 +1143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.932453749476,
-          -37.81908666017052
+          144.9322039536152,
+          -37.81899641905016
         ]
       }
     },
@@ -1256,6 +1199,60 @@
         "coordinates": [
           142.2314732989016,
           -38.38654327715542
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 557002,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557002,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152092,
+        "id": "ESTA:250152092",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-18T20:15:00.000Z",
+        "updated": "2025-01-18T20:17:00.000Z",
+        "resources": 0,
+        "location": "Essendon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91305728585817,
+          -37.75345083682803
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 557001,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557001,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152091,
+        "id": "ESTA:250152091",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-01-18T20:14:00.000Z",
+        "updated": "2025-01-18T20:17:00.000Z",
+        "resources": 0,
+        "location": "Mount Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1269788042622,
+          -37.863008969773595
         ]
       }
     }
@@ -1487,7 +1484,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-18T20:21:59.719Z",
+    "lastUpdated": "2025-01-18T20:31:40.004Z",
     "featureCount": 299
   }
 }
