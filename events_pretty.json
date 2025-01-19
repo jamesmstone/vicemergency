@@ -884,7 +884,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118129409,
         "feedType": "incident",
         "source": "000",
@@ -896,9 +896,9 @@
         "id": "ESTA:250107895",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-19T19:14:22.000Z",
-        "updated": "2025-01-19T19:14:22.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-19T19:25:58.000Z",
+        "updated": "2025-01-19T19:25:58.000Z",
         "resources": 3,
         "location": "Campbell St, Collingwood",
         "mfbId": "250107895",
@@ -916,31 +916,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Complete",
+        "estaId": 118129191,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "585371",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Wood St, Gol Gol",
-        "id": "2025-01-19T23:20:00.0000000:585371",
-        "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Wood St, Gol Gol",
-        "location": "87 Wood St, Gol Gol 2738",
-        "created": "2025-01-19T23:20:00+11:00",
-        "updated": "2025-01-19T23:20:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557082,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152173,
+        "id": "ESTA:250152173",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-19T18:02:00.000Z",
+        "updated": "2025-01-19T19:29:00.000Z",
+        "resources": 0,
+        "location": "Bunyip",
+        "sesId": 557082
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.216873169,
-          -34.1767654409999
+          145.7267185683022,
+          -38.09273774179152
         ]
       }
     },
@@ -1054,88 +1054,31 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 201306,
+        "status": "Under Control",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201306,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Boroka Trk",
-        "eventId": 250107786,
-        "id": "ESTA:250107786",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "585371",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wood St, Gol Gol",
+        "id": "2025-01-19T23:20:00.0000000:585371",
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-19T10:00:00.000Z",
-        "updated": "2025-01-19T10:00:00.000Z",
-        "resources": 0,
-        "location": "Boroka Trk, Halls Gap",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5030960576748,
-          -37.12245458297845
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Wood St, Gol Gol",
+        "location": "87 Wood St, Gol Gol 2738",
+        "created": "2025-01-19T23:20:00+11:00",
+        "updated": "2025-01-19T23:20:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
         ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201338,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201338,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Milton Av",
-        "eventId": 250107884,
-        "id": "ESTA:250107884",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-19T17:51:00.000Z",
-        "updated": "2025-01-19T18:51:00.000Z",
-        "resources": 4,
-        "location": "Milton Av, Paynesville",
-        "size": "Small",
-        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.73046528249037,
-          -37.90497162161935
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 201341,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201341,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Victory Rd",
-        "eventId": 250107893,
-        "id": "ESTA:250107893",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-19T18:54:00.000Z",
-        "updated": "2025-01-19T18:54:00.000Z",
-        "resources": 4,
-        "location": "Mt Victory Rd, Halls Gap",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.50982176770003,
-          -37.13578100531477
+          142.216873169,
+          -34.1767654409999
         ]
       }
     },
@@ -1200,6 +1143,93 @@
     },
     {
       "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 201306,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201306,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Boroka Trk",
+        "eventId": 250107786,
+        "id": "ESTA:250107786",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-19T10:00:00.000Z",
+        "updated": "2025-01-19T10:00:00.000Z",
+        "resources": 0,
+        "location": "Boroka Trk, Halls Gap",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5030960576748,
+          -37.12245458297845
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 201338,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201338,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Milton Av",
+        "eventId": 250107884,
+        "id": "ESTA:250107884",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-19T17:51:00.000Z",
+        "updated": "2025-01-19T18:51:00.000Z",
+        "resources": 1,
+        "location": "Milton Av, Paynesville",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.73046528249037,
+          -37.90497162161935
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 201341,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201341,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mt Victory Rd",
+        "eventId": 250107893,
+        "id": "ESTA:250107893",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-19T18:54:00.000Z",
+        "updated": "2025-01-19T18:54:00.000Z",
+        "resources": 7,
+        "location": "Mt Victory Rd, Halls Gap",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.50982176770003,
+          -37.13578100531477
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250107890",
         "feedType": "incident",
@@ -1251,33 +1281,6 @@
         "coordinates": [
           144.9344017543639,
           -38.34588518330167
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 557082,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557082,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152173,
-        "id": "ESTA:250152173",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-19T18:02:00.000Z",
-        "updated": "2025-01-19T18:34:00.000Z",
-        "resources": 1,
-        "location": "Bunyip"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.7267185683022,
-          -38.09273774179152
         ]
       }
     },
@@ -1563,7 +1566,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-19T19:16:05.529Z",
+    "lastUpdated": "2025-01-19T19:30:25.650Z",
     "featureCount": 304
   }
 }
