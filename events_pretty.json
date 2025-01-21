@@ -683,33 +683,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1003364,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Metropolitan 31 - Doreen - Kempen Road",
-        "id": 1003364,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-20T22:20:00.000Z",
-        "updated": "2025-01-21T22:29:00.000Z",
-        "resources": 4,
-        "size": "0.50",
-        "sizeFmt": "0.50 Ha.",
-        "location": "Plenty Gorge Parklands"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1068,
-          -37.6124
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -823,38 +796,6 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118154113,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201696,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250108808,
-        "id": "ESTA:250108808",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-21T23:10:00.000Z",
-        "updated": "2025-01-21T23:10:00.000Z",
-        "resources": 1,
-        "location": "Swan Hill",
-        "cfaId": 201696,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5456902534076,
-          -35.32978776626507
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 118154194,
         "feedType": "incident",
         "source": "000",
@@ -869,7 +810,7 @@
         "category2": "Building Fire",
         "created": "2025-01-21T23:20:00.000Z",
         "updated": "2025-01-21T23:20:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Moore St, Colac",
         "cfaId": 201699,
         "size": "Small",
@@ -886,30 +827,33 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118154205,
+        "status": "Under Control",
+        "estaId": 118154113,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118154205,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Darley",
-        "eventId": "F250108813",
-        "id": "ESTA:250108813",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201696,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250108808,
+        "id": "ESTA:250108808",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-21T23:20:56.000Z",
-        "updated": "2025-01-21T23:21:00.566Z",
-        "resources": 0,
-        "location": "Grey St, Darley"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-21T23:10:00.000Z",
+        "updated": "2025-01-21T23:21:00.000Z",
+        "resources": 2,
+        "location": "Swan Hill",
+        "cfaId": 201696,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.43213277977858,
-          -37.65784204301933
+          143.5456902534076,
+          -35.32978776626507
         ]
       }
     },
@@ -928,8 +872,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-21T23:19:05.000Z",
-        "updated": "2025-01-21T23:19:05.000Z",
+        "created": "2025-01-21T23:22:26.000Z",
+        "updated": "2025-01-21T23:22:26.000Z",
         "resources": 2,
         "location": "Strong View, Fraser Rise",
         "cfaId": 201698,
@@ -943,6 +887,70 @@
         "coordinates": [
           144.70594416028433,
           -37.70424278949446
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118154219,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250108814",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Carnegie",
+        "eventId": "250108814",
+        "id": "ESTA:250108814",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-21T23:29:35.000Z",
+        "updated": "2025-01-21T23:29:35.000Z",
+        "resources": 1,
+        "location": "Carnegie, Carnegie",
+        "mfbId": "250108814",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0495844828288,
+          -37.88111061045317
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118154205,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201700,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grey St",
+        "eventId": 250108813,
+        "id": "ESTA:250108813",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-21T23:21:00.000Z",
+        "updated": "2025-01-21T23:21:00.000Z",
+        "resources": 5,
+        "location": "Grey St, Darley",
+        "cfaId": 201700,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4321183568841,
+          -37.657848147050906
         ]
       }
     },
@@ -2235,64 +2243,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 201697,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201697,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Watton St",
-        "eventId": 250108810,
-        "id": "ESTA:250108810",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-21T23:12:00.000Z",
-        "updated": "2025-01-21T23:12:00.000Z",
-        "resources": 4,
-        "location": "Watton St, Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6575237364749,
-          -37.90370399305288
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250108796",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250108796",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Laverton North",
-        "id": "ESTA:250108796",
-        "eventId": "250108796",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-21T22:53:40.000Z",
-        "updated": "2025-01-21T22:53:40.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Laverton North, Laverton North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.81074477998564,
-          -37.82207391318701
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250108809",
         "feedType": "incident",
@@ -2602,7 +2552,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-21T23:21:17.061Z",
-    "featureCount": 311
+    "lastUpdated": "2025-01-21T23:30:40.449Z",
+    "featureCount": 309
   }
 }
