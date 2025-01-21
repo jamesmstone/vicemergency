@@ -823,6 +823,36 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "estaId": 118151593,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557258,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152341,
+        "id": "ESTA:250152341",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-21T14:28:00.000Z",
+        "updated": "2025-01-21T14:30:00.000Z",
+        "resources": 0,
+        "location": "Morton Plains",
+        "sesId": 557258
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.87711621206316,
+          -36.1109683382163
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "estaId": 118151559,
         "feedType": "incident",
         "source": "SES STRM",
@@ -836,7 +866,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-21T14:20:00.000Z",
-        "updated": "2025-01-21T14:20:00.000Z",
+        "updated": "2025-01-21T14:33:00.000Z",
         "resources": 0,
         "location": "Kilmore",
         "sesId": 557257
@@ -853,62 +883,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118151561,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250108703",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250108703",
-        "id": "ESTA:250108703",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-21T14:20:22.000Z",
-        "updated": "2025-01-21T14:20:22.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Traralgon",
-        "cfaId": 201664,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250108703"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5032167636466,
-          -38.20696610865661
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 118151576,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118151576,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Clayton",
-        "eventId": "F250108704",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250108704",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kionga St",
+        "eventId": "250108704",
         "id": "ESTA:250108704",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-01-21T14:18:59.000Z",
-        "updated": "2025-01-21T14:23:15.969Z",
-        "resources": 0,
-        "location": "Kionga St, Clayton"
+        "created": "2025-01-21T14:35:41.000Z",
+        "updated": "2025-01-21T14:35:41.000Z",
+        "resources": 2,
+        "location": "Kionga St, Clayton",
+        "mfbId": "250108704",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1313799395257,
-          -37.92290714485814
+          145.13137734121602,
+          -37.922908106006695
         ]
       }
     },
@@ -2025,6 +2025,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 201621,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201621,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250108609,
+        "id": "ESTA:250108609",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-21T08:29:00.000Z",
+        "updated": "2025-01-21T14:00:00.000Z",
+        "resources": 1,
+        "location": "Traralgon East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.59258178323182,
+          -38.18552360657952
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 201661,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201661,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 250108698,
+        "id": "ESTA:250108698",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-21T13:34:00.000Z",
+        "updated": "2025-01-21T14:01:00.000Z",
+        "resources": 0,
+        "location": "Princes Hwy, Hallam",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26663893681854,
+          -38.0049063020152
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
@@ -2084,65 +2142,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 201621,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201621,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250108609,
-        "id": "ESTA:250108609",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-21T08:29:00.000Z",
-        "updated": "2025-01-21T14:00:00.000Z",
-        "resources": 1,
-        "location": "Traralgon East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.59258178323182,
-          -38.18552360657952
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201661,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201661,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 250108698,
-        "id": "ESTA:250108698",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-21T13:34:00.000Z",
-        "updated": "2025-01-21T14:01:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Hallam",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26663893681854,
-          -38.0049063020152
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250108701",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2153,8 +2153,8 @@
         "eventId": "250108701",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-21T14:12:04.000Z",
-        "updated": "2025-01-21T14:12:04.000Z",
+        "created": "2025-01-21T14:28:22.000Z",
+        "updated": "2025-01-21T14:28:22.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -2397,7 +2397,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-21T14:23:40.049Z",
+    "lastUpdated": "2025-01-21T14:37:20.431Z",
     "featureCount": 304
   }
 }
