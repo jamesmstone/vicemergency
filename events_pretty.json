@@ -1007,69 +1007,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118163831,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557400,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152488,
-        "id": "ESTA:250152488",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-22T19:13:00.000Z",
-        "updated": "2025-01-22T19:14:00.000Z",
-        "resources": 0,
-        "location": "Olinda",
-        "sesId": 557400
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3709358884358,
-          -37.84438694694541
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118163836,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109174",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mildura",
-        "eventId": "250109174",
-        "id": "ESTA:250109174",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-22T19:15:37.000Z",
-        "updated": "2025-01-22T19:15:37.000Z",
-        "resources": 2,
-        "location": "Mildura, Mildura",
-        "cfaId": 201833,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109174"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.13782987695353,
-          -34.19204970067565
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Complete",
         "estaId": 118163797,
         "feedType": "incident",
@@ -1100,30 +1037,34 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118163845,
+        "status": "Under Control",
+        "estaId": 118163836,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118163845,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Quarry Hill",
-        "eventId": "F250109176",
-        "id": "ESTA:250109176",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109174",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lilley Dr",
+        "eventId": "250109174",
+        "id": "ESTA:250109174",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-22T19:15:12.000Z",
-        "updated": "2025-01-22T19:18:37.198Z",
-        "resources": 2,
-        "location": "Harkness St, Quarry Hill"
+        "category2": "Non Structure Fire",
+        "created": "2025-01-22T19:23:43.000Z",
+        "updated": "2025-01-22T19:23:43.000Z",
+        "resources": 1,
+        "location": "Lilley Dr, Mildura",
+        "cfaId": 201833,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109174"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2812984666509,
-          -36.77232613284036
+          142.13762763983397,
+          -34.19194553862369
         ]
       }
     },
@@ -1756,30 +1697,28 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250109173",
+        "status": "Request For Assistance",
+        "sesId": 557400,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109173",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Footscray",
-        "id": "ESTA:250109173",
-        "eventId": "250109173",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-22T19:02:40.000Z",
-        "updated": "2025-01-22T19:02:40.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Footscray, Footscray"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557400,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152488,
+        "id": "ESTA:250152488",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-22T19:13:00.000Z",
+        "updated": "2025-01-22T19:14:00.000Z",
+        "resources": 0,
+        "location": "Olinda"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90115331347374,
-          -37.799954613481454
+          145.3709358884358,
+          -37.84438694694541
         ]
       }
     },
@@ -1825,6 +1764,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1832,8 +1772,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1849,6 +1788,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1856,8 +1796,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-22T13:00:00.000Z",
           "heat": {
@@ -2038,7 +1977,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-22T19:18:39.993Z",
-    "featureCount": 313
+    "lastUpdated": "2025-01-22T19:30:26.357Z",
+    "featureCount": 311
   }
 }
