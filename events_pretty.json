@@ -656,33 +656,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1003081,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Midlands 55 - Mudlark Track - 3Km East Wheatsheaf",
-        "id": 1003081,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-13T03:18:00.000Z",
-        "updated": "2025-01-23T03:47:00.000Z",
-        "resources": 0,
-        "size": "0.30",
-        "sizeFmt": "0.30 Ha.",
-        "location": "Mudlark Track"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3062,
-          -37.3202
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -877,53 +850,90 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 118167797,
+        "status": "Responding",
+        "estaId": 118168602,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118167797,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moama (Nsw)",
-        "eventId": "F250109355",
-        "id": "ESTA:250109355",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109388",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bacchus Marsh Rd",
+        "eventId": "250109388",
+        "id": "ESTA:250109388",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-23T03:21:20.000Z",
-        "updated": "2025-01-23T03:58:36.693Z",
-        "resources": 0,
-        "location": "Barmah Rd, Moama (Nsw)"
+        "category2": "Structure Fire",
+        "created": "2025-01-23T04:42:28.000Z",
+        "updated": "2025-01-23T04:42:28.000Z",
+        "resources": 4,
+        "location": "Bacchus Marsh Rd, Lara",
+        "cfaId": 201898,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109388"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8496251476852,
-          -36.01074256423428
+          144.3474475567384,
+          -37.98401492698134
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 118168082,
+        "status": "Responding",
+        "estaId": 118168695,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201889,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Simpson Rd",
-        "eventId": 250109365,
-        "id": "ESTA:250109365",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109391",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ghazeepore Rd",
+        "eventId": "250109391",
+        "id": "ESTA:250109391",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-23T03:52:00.000Z",
-        "updated": "2025-01-23T03:52:00.000Z",
-        "resources": 4,
-        "location": "Simpson Rd, Christmas Hills",
-        "cfaId": 201889,
+        "category2": "Non Structure Fire",
+        "created": "2025-01-23T04:48:46.000Z",
+        "updated": "2025-01-23T04:48:46.000Z",
+        "resources": 1,
+        "location": "Ghazeepore Rd, Mount Duneed",
+        "cfaId": 201899,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109391"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2982908233664,
+          -38.23012694249169
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118168676,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109390",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ascot Vale",
+        "eventId": "250109390",
+        "id": "ESTA:250109390",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-23T04:48:29.000Z",
+        "updated": "2025-01-23T04:48:29.000Z",
+        "resources": 1,
+        "location": "Ascot Vale, Ascot Vale",
+        "mfbId": "250109390",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -931,77 +941,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29515848644462,
-          -37.679137710011915
+          144.92304607165244,
+          -37.77766154629602
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118168406,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557427,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152522,
-        "id": "ESTA:250152522",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-23T04:22:00.000Z",
-        "updated": "2025-01-23T04:24:00.000Z",
-        "resources": 0,
-        "location": "Cheltenham",
-        "sesId": 557427
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04731455115868,
-          -37.96936851496086
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118168403,
+        "status": "Safe",
+        "estaId": 118167523,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109381",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Saint Rd",
-        "eventId": "250109381",
-        "id": "ESTA:250109381",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201878,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mansfield-Woods Point Rd",
+        "eventId": 250109342,
+        "id": "ESTA:250109342",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-23T04:22:40.000Z",
-        "updated": "2025-01-23T04:22:40.000Z",
-        "resources": 2,
-        "location": "Saint Rd, Craigieburn",
-        "cfaId": 201896,
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-01-23T02:55:00.000Z",
+        "updated": "2025-01-23T04:39:00.000Z",
+        "resources": 0,
+        "location": "Mansfield-Woods Point Rd, Macs Cove",
+        "cfaId": 201878,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109381"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.89534871813512,
-          -37.596556555060424
+          146.15484351796897,
+          -37.21518062842377
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118168440,
         "feedType": "incident",
         "source": "000",
@@ -1015,7 +994,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-01-23T04:25:00.000Z",
-        "updated": "2025-01-23T04:25:00.000Z",
+        "updated": "2025-01-23T04:49:00.000Z",
         "resources": 0,
         "location": "Bacchus Marsh Rd, Bullengarook",
         "cfaId": 201897,
@@ -1513,94 +1492,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 201878,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201878,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mansfield-Woods Point Rd",
-        "eventId": 250109342,
-        "id": "ESTA:250109342",
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-01-23T02:55:00.000Z",
-        "updated": "2025-01-23T03:19:00.000Z",
-        "resources": 1,
-        "location": "Mansfield-Woods Point Rd, Macs Cove",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.15484351796897,
-          -37.21518062842377
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201880,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109346",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Boat Rd",
-        "eventId": "250109346",
-        "id": "ESTA:250109346",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-23T03:34:34.000Z",
-        "updated": "2025-01-23T03:34:34.000Z",
-        "resources": 0,
-        "location": "Boat Rd, Portarlington",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109346"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6380842606234,
-          -38.11108036030284
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201883,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201883,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Storkbill Rd",
-        "eventId": 250109351,
-        "id": "ESTA:250109351",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-01-23T03:15:00.000Z",
-        "updated": "2025-01-23T03:39:00.000Z",
-        "resources": 0,
-        "location": "Storkbill Rd, Wyndham Vale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.61354701081794,
-          -37.887122707925535
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 201888,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1613,7 +1504,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-23T03:44:24.000Z",
         "updated": "2025-01-23T03:44:24.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Spring Sq, Hallam",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1688,36 +1579,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 201893,
+        "status": "Safe",
+        "cfaId": 201889,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201893,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Queens Av",
-        "eventId": 250109372,
-        "id": "ESTA:250109372",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-23T04:10:00.000Z",
-        "updated": "2025-01-23T04:10:00.000Z",
-        "resources": 1,
-        "location": "Queens Av, St Arnaud",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109365",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Simpson Rd",
+        "eventId": "250109365",
+        "id": "ESTA:250109365",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T04:27:08.000Z",
+        "updated": "2025-01-23T04:27:08.000Z",
+        "resources": 2,
+        "location": "Simpson Rd, Christmas Hills",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250109365"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.25431840073597,
-          -36.615489852084174
+          145.29515999885075,
+          -37.67913674895095
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250109380",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1726,10 +1618,10 @@
         "sourceTitle": "Williams Rd",
         "id": "ESTA:250109380",
         "eventId": "250109380",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-23T04:22:05.000Z",
-        "updated": "2025-01-23T04:22:05.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T04:26:33.000Z",
+        "updated": "2025-01-23T04:26:33.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1741,35 +1633,6 @@
         "coordinates": [
           145.00281791101662,
           -37.84904575626601
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250109376",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109376",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Thompson Rd",
-        "id": "ESTA:250109376",
-        "eventId": "250109376",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-23T04:17:16.000Z",
-        "updated": "2025-01-23T04:17:16.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Thompson Rd, Bell Park"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3454940244973,
-          -38.09882818097198
         ]
       }
     },
@@ -1861,6 +1724,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 557427,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557427,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152522,
+        "id": "ESTA:250152522",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-23T04:22:00.000Z",
+        "updated": "2025-01-23T04:24:00.000Z",
+        "resources": 0,
+        "location": "Cheltenham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04731455115868,
+          -37.96936851496086
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 557426,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1872,8 +1762,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-23T04:07:00.000Z",
-        "updated": "2025-01-23T04:10:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-23T04:30:00.000Z",
+        "resources": 1,
         "location": "Eltham"
       },
       "type": "Feature",
@@ -2113,7 +2003,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-23T04:27:00.167Z",
-    "featureCount": 322
+    "lastUpdated": "2025-01-23T04:50:19.968Z",
+    "featureCount": 318
   }
 }
