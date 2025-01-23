@@ -1178,52 +1178,56 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118174870,
+        "status": "Safe",
+        "estaId": 118174915,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118174870,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "South Yarra",
-        "eventId": "F250109595",
-        "id": "ESTA:250109595",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109599",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Monte St",
+        "eventId": "250109599",
+        "id": "ESTA:250109599",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-23T18:33:32.000Z",
-        "updated": "2025-01-23T18:35:53.456Z",
-        "resources": 0,
-        "location": "Alexandra Av, South Yarra"
+        "created": "2025-01-23T19:06:39.000Z",
+        "updated": "2025-01-23T19:06:39.000Z",
+        "resources": 1,
+        "location": "Monte St, Nerrina",
+        "cfaId": 201969,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109599"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00508122157004,
-          -37.8316655404921
+          143.89535646135693,
+          -37.54292172073275
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 118174904,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250109597",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Finchs Rd",
+        "sourceTitle": "Cardigan",
         "eventId": "250109597",
         "id": "ESTA:250109597",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-23T18:48:37.000Z",
-        "updated": "2025-01-23T18:48:37.000Z",
-        "resources": 2,
-        "location": "Finchs Rd, Cardigan",
+        "created": "2025-01-23T19:11:54.000Z",
+        "updated": "2025-01-23T19:11:54.000Z",
+        "resources": 4,
+        "location": "Cardigan, Cardigan",
         "cfaId": 201967,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1233,37 +1237,105 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.75970257160486,
-          -37.54097854216099
+          143.7601069300211,
+          -37.53909027230186
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118174907,
+        "estaId": 118174963,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118174907,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "The Gurdies",
-        "eventId": "F250109598",
-        "id": "ESTA:250109598",
+        "source": "NOC",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109602",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Radiata St",
+        "eventId": "250109602",
+        "id": "ESTA:250109602",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-23T18:48:20.000Z",
-        "updated": "2025-01-23T18:50:18.466Z",
-        "resources": 0,
-        "location": "Gurdies-St Helier Rd, The Gurdies"
+        "category2": "Structure Fire",
+        "created": "2025-01-23T19:13:00.000Z",
+        "updated": "2025-01-23T19:13:00.000Z",
+        "resources": 2,
+        "location": "Radiata St, Frankston North",
+        "cfaId": 201973,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109602"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.57621910381033,
-          -38.381668560547276
+          145.15215380038006,
+          -38.11858171571086
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118174966,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201972,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dempsey St",
+        "eventId": 250109603,
+        "id": "ESTA:250109603",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-23T19:13:00.000Z",
+        "updated": "2025-01-23T19:13:00.000Z",
+        "resources": 0,
+        "location": "Dempsey St, Wycheproof",
+        "cfaId": 201972,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.22416875057024,
+          -36.076425428888534
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118174907,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201968,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gurdies-St Helier Rd",
+        "eventId": 250109598,
+        "id": "ESTA:250109598",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T18:50:00.000Z",
+        "updated": "2025-01-23T19:14:00.000Z",
+        "resources": 2,
+        "location": "Gurdies-St Helier Rd, The Gurdies",
+        "cfaId": 201968,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57620146231116,
+          -38.38167931117233
         ]
       }
     },
@@ -2110,7 +2182,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 201965,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2120,10 +2192,10 @@
         "eventId": 250109591,
         "id": "ESTA:250109591",
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-01-23T18:24:00.000Z",
-        "updated": "2025-01-23T18:24:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-23T18:52:00.000Z",
+        "resources": 2,
         "location": "Ingleman Rd, Buln Buln East",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2132,37 +2204,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.02613894853764,
-          -38.0502682117395
+          146.0260595347484,
+          -38.05024051625101
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250109593",
+        "status": "Under Control",
+        "cfaId": 201970,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109593",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Main Yarra Trl",
-        "id": "ESTA:250109593",
-        "eventId": "250109593",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-23T18:29:47.000Z",
-        "updated": "2025-01-23T18:29:47.000Z",
-        "resources": 0,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201970,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pt Nepean Rd",
+        "eventId": 250109601,
+        "id": "ESTA:250109601",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T18:55:00.000Z",
+        "updated": "2025-01-23T19:12:00.000Z",
+        "resources": 1,
+        "location": "Pt Nepean Rd, Tootgarook",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Main Yarra Trl, Richmond"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00312404644987,
-          -37.833260333917636
+          144.8536667285196,
+          -38.36913347484042
         ]
       }
     },
@@ -2181,7 +2253,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-23T18:20:49.000Z",
         "updated": "2025-01-23T18:20:49.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Toorak, Toorak"
@@ -2423,7 +2495,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-23T18:50:19.679Z",
-    "featureCount": 315
+    "lastUpdated": "2025-01-23T19:17:40.002Z",
+    "featureCount": 317
   }
 }
