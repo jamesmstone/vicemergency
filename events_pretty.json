@@ -871,7 +871,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1003408,
@@ -881,7 +881,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-23T08:00:00.000Z",
-        "updated": "2025-01-23T09:31:00.000Z",
+        "updated": "2025-01-23T11:27:00.000Z",
         "resources": 5,
         "size": "0.30",
         "sizeFmt": "0.30 Ha.",
@@ -1178,37 +1178,7 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118170008,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557435,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152531,
-        "id": "ESTA:250152531",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-23T06:55:00.000Z",
-        "updated": "2025-01-23T11:20:00.000Z",
-        "resources": 0,
-        "location": "Rowville",
-        "sesId": 557435
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23067735602325,
-          -37.93827739165843
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118172552,
         "feedType": "incident",
         "source": "000",
@@ -1220,10 +1190,10 @@
         "id": "ESTA:250109529",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-01-23T11:24:07.000Z",
-        "updated": "2025-01-23T11:24:07.000Z",
-        "resources": 4,
+        "category2": "Non Structure Fire",
+        "created": "2025-01-23T11:37:04.000Z",
+        "updated": "2025-01-23T11:37:04.000Z",
+        "resources": 2,
         "location": "Lansell Rd, Wyndham Vale",
         "cfaId": 201943,
         "size": "Small",
@@ -1236,6 +1206,66 @@
         "coordinates": [
           144.61854584027984,
           -37.88975020805684
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118172646,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557455,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152551,
+        "id": "ESTA:250152551",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-23T11:36:00.000Z",
+        "updated": "2025-01-23T11:38:00.000Z",
+        "resources": 0,
+        "location": "Epping",
+        "sesId": 557455
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02244687857703,
+          -37.6361901684322
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118172680,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557456,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152553,
+        "id": "ESTA:250152553",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-23T11:40:00.000Z",
+        "updated": "2025-01-23T11:42:00.000Z",
+        "resources": 0,
+        "location": "Ascot Vale",
+        "sesId": 557456
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91504033086113,
+          -37.774988000551176
         ]
       }
     },
@@ -1361,64 +1391,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 201937,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201937,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Armstrong St",
-        "eventId": 250109513,
-        "id": "ESTA:250109513",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-23T10:16:00.000Z",
-        "updated": "2025-01-23T10:31:00.000Z",
-        "resources": 0,
-        "location": "Armstrong St, Colac",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.57713623411507,
-          -38.3340959245654
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201934,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201934,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mansfield-Woods Point Rd",
-        "eventId": 250109494,
-        "id": "ESTA:250109494",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-23T09:11:00.000Z",
-        "updated": "2025-01-23T10:32:00.000Z",
-        "resources": 0,
-        "location": "Mansfield-Woods Point Rd, Jamieson",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.14111868751846,
-          -37.25469753956956
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 201941,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1447,7 +1419,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 201942,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1458,9 +1430,9 @@
         "id": "ESTA:250109525",
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-23T11:08:34.000Z",
-        "updated": "2025-01-23T11:08:34.000Z",
-        "resources": 2,
+        "created": "2025-01-23T11:34:56.000Z",
+        "updated": "2025-01-23T11:34:56.000Z",
+        "resources": 1,
         "location": "Liege Av, Noble Park",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1478,29 +1450,88 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250109528",
+        "cfaId": 201944,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250109528",
+        "sourceId": "250109532",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "North Rd",
-        "id": "ESTA:250109528",
-        "eventId": "250109528",
+        "sourceTitle": "Goldsworthy Rd",
+        "eventId": "250109532",
+        "id": "ESTA:250109532",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-23T11:27:32.000Z",
-        "updated": "2025-01-23T11:27:32.000Z",
-        "resources": 2,
+        "created": "2025-01-23T11:42:43.000Z",
+        "updated": "2025-01-23T11:42:43.000Z",
+        "resources": 3,
+        "location": "Goldsworthy Rd, Corio",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "North Rd, Oakleigh South"
+        "mfbId": "250109532"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09669519949142,
-          -37.91108432196866
+          144.35063871884714,
+          -38.07734225183479
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250109533",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109533",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Guilfoyle Av",
+        "id": "ESTA:250109533",
+        "eventId": "250109533",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-23T11:35:55.000Z",
+        "updated": "2025-01-23T11:35:55.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Guilfoyle Av, Coburg North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.953648345249,
+          -37.725751073114175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250109531",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109531",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Somerton Rd",
+        "id": "ESTA:250109531",
+        "eventId": "250109531",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T11:47:41.000Z",
+        "updated": "2025-01-23T11:47:41.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Somerton Rd, Oaklands Junction"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.85358421148464,
+          -37.63124017179475
         ]
       }
     },
@@ -1761,7 +1792,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-23T11:30:19.765Z",
-    "featureCount": 315
+    "lastUpdated": "2025-01-23T11:50:25.642Z",
+    "featureCount": 316
   }
 }
