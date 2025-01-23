@@ -683,27 +683,28 @@
     },
     {
       "properties": {
-        "status": "Going",
+        "status": "Under Control",
         "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1623053",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Church Street, Penola",
-        "id": "1623053",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Church Street, Penola",
-        "created": "2025-01-23T01:38:00.000Z",
-        "updated": "2025-01-23T01:38:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Church Street, Penola"
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1003402,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Latrobe 57 - Crossover - Mizpah Settlement Road",
+        "id": 1003402,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T02:10:00.000Z",
+        "updated": "2025-01-23T03:26:00.000Z",
+        "resources": 2,
+        "size": "0.01",
+        "sizeFmt": "0.01 Ha.",
+        "location": "5.5Km East Of Crossover"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.837005512123,
-          -37.3721395461107
+          146.0299,
+          -38.0644
         ]
       }
     },
@@ -849,56 +850,115 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118167537,
+        "status": "Under Control",
+        "estaId": 118167701,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201879,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Boat Rd",
-        "eventId": 250109343,
-        "id": "ESTA:250109343",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109351",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Storkbill Rd",
+        "eventId": "250109351",
+        "id": "ESTA:250109351",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-23T02:57:00.000Z",
-        "updated": "2025-01-23T03:00:00.000Z",
-        "resources": 0,
-        "location": "Boat Rd, Portarlington",
-        "cfaId": 201879,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T03:25:52.000Z",
+        "updated": "2025-01-23T03:25:52.000Z",
+        "resources": 1,
+        "location": "Storkbill Rd, Wyndham Vale",
+        "cfaId": 201883,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250109351"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6443060927038,
-          -38.11259507132123
+          144.61355704770634,
+          -37.887121412038134
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118166792,
+        "estaId": 118167797,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201866,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wallaroo Way",
-        "eventId": 250109308,
-        "id": "ESTA:250109308",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118167797,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Moama (Nsw)",
+        "eventId": "F250109355",
+        "id": "ESTA:250109355",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-01-23T01:41:00.000Z",
-        "updated": "2025-01-23T03:02:00.000Z",
+        "created": "2025-01-23T03:21:20.000Z",
+        "updated": "2025-01-23T03:26:58.658Z",
         "resources": 0,
-        "location": "Wallaroo Way, Doreen",
-        "cfaId": 201866,
+        "location": "Barmah Rd, Moama (Nsw)"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8496251476852,
+          -36.01074256423428
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118166941,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118166941,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Nangana",
+        "eventId": "F250109316",
+        "id": "ESTA:250109316",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T01:55:39.000Z",
+        "updated": "2025-01-23T03:28:54.581Z",
+        "resources": 0,
+        "location": "Woori Yallock Rd, Nangana"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5315650871954,
+          -37.88399142265431
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118167392,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201874,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "River Rd",
+        "eventId": 250109336,
+        "id": "ESTA:250109336",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-23T02:43:00.000Z",
+        "updated": "2025-01-23T03:03:00.000Z",
+        "resources": 0,
+        "location": "River Rd, Barmah",
+        "cfaId": 201874,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -906,8 +966,105 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.10836711719602,
-          -37.60722836960381
+          145.02896628865858,
+          -35.85469723962268
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118167883,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201885,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Davies Rd",
+        "eventId": 250109358,
+        "id": "ESTA:250109358",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T03:32:00.000Z",
+        "updated": "2025-01-23T03:32:00.000Z",
+        "resources": 0,
+        "location": "Davies Rd, Warrenbayne",
+        "cfaId": 201885,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.86698609676552,
+          -36.70052900877269
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118167623,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109346",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Boat Rd",
+        "eventId": "250109346",
+        "id": "ESTA:250109346",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-23T03:34:34.000Z",
+        "updated": "2025-01-23T03:34:34.000Z",
+        "resources": 2,
+        "location": "Boat Rd, Portarlington",
+        "cfaId": 201880,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109346"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6380842606234,
+          -38.11108036030284
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118167731,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201884,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mt Grandview Rd",
+        "eventId": 250109353,
+        "id": "ESTA:250109353",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-23T03:19:00.000Z",
+        "updated": "2025-01-23T03:35:00.000Z",
+        "resources": 2,
+        "location": "Mt Grandview Rd, Pearcedale",
+        "cfaId": 201884,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22090964743566,
+          -38.185529715420984
         ]
       }
     },
@@ -940,229 +1097,6 @@
         "coordinates": [
           146.0275049104414,
           -38.06245540640755
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118167709,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109352",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bailey Av",
-        "eventId": "250109352",
-        "id": "ESTA:250109352",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-23T03:15:57.000Z",
-        "updated": "2025-01-23T03:15:57.000Z",
-        "resources": 2,
-        "location": "Bailey Av, Preston",
-        "mfbId": "250109352",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01357211954473,
-          -37.7517990878954
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118167701,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109351",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Storkbill Rd",
-        "eventId": "250109351",
-        "id": "ESTA:250109351",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-23T03:17:26.000Z",
-        "updated": "2025-01-23T03:17:26.000Z",
-        "resources": 1,
-        "location": "Storkbill Rd, Wyndham Vale",
-        "cfaId": 201883,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109351"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.61355704770634,
-          -37.887121412038134
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118167731,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201884,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Grandview Rd",
-        "eventId": 250109353,
-        "id": "ESTA:250109353",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-23T03:19:00.000Z",
-        "updated": "2025-01-23T03:19:00.000Z",
-        "resources": 0,
-        "location": "Mt Grandview Rd, Pearcedale",
-        "cfaId": 201884,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.22090964743566,
-          -38.185529715420984
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 118167523,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201878,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mansfield-Woods Point Rd",
-        "eventId": 250109342,
-        "id": "ESTA:250109342",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-01-23T02:55:00.000Z",
-        "updated": "2025-01-23T03:19:00.000Z",
-        "resources": 1,
-        "location": "Mansfield-Woods Point Rd, Macs Cove",
-        "cfaId": 201878,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.15484351796897,
-          -37.21518062842377
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118167497,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557422,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250109340,
-        "id": "ESTA:250109340",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-23T02:52:00.000Z",
-        "updated": "2025-01-23T03:20:00.000Z",
-        "resources": 0,
-        "location": "Glenmaggie",
-        "cfaId": 201877,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 557422
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.7745733571109,
-          -37.94739164923865
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118167661,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109348",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Keilor Downs",
-        "eventId": "250109348",
-        "id": "ESTA:250109348",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-23T03:13:36.000Z",
-        "updated": "2025-01-23T03:13:36.000Z",
-        "resources": 2,
-        "location": "Keilor Downs, Keilor Downs",
-        "mfbId": "250109348",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.80074290671845,
-          -37.716872339321945
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118167797,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118167797,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moama (Nsw)",
-        "eventId": "F250109355",
-        "id": "ESTA:250109355",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-23T03:21:20.000Z",
-        "updated": "2025-01-23T03:24:29.025Z",
-        "resources": 0,
-        "location": "Barmah Rd, Moama (Nsw)"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8496251476852,
-          -36.01074256423428
         ]
       }
     },
@@ -1677,6 +1611,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 201879,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201879,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Boat Rd",
+        "eventId": 250109343,
+        "id": "ESTA:250109343",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T02:57:00.000Z",
+        "updated": "2025-01-23T03:00:00.000Z",
+        "resources": 0,
+        "location": "Boat Rd, Portarlington",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6443060927038,
+          -38.11259507132123
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 201873,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1706,20 +1669,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 201874,
+        "cfaId": 201866,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 201874,
+        "sourceId": 201866,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "River Rd",
-        "eventId": 250109336,
-        "id": "ESTA:250109336",
+        "sourceTitle": "Wallaroo Way",
+        "eventId": 250109308,
+        "id": "ESTA:250109308",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-23T02:43:00.000Z",
-        "updated": "2025-01-23T03:03:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-01-23T01:41:00.000Z",
+        "updated": "2025-01-23T03:02:00.000Z",
         "resources": 0,
-        "location": "River Rd, Barmah",
+        "location": "Wallaroo Way, Doreen",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1727,96 +1690,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02896628865858,
-          -35.85469723962268
+          145.10836711719602,
+          -37.60722836960381
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 201880,
+        "status": "Safe",
+        "cfaId": 201877,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109346",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pt Richards Rd",
-        "eventId": "250109346",
-        "id": "ESTA:250109346",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-23T03:09:06.000Z",
-        "updated": "2025-01-23T03:09:06.000Z",
-        "resources": 2,
-        "location": "Pt Richards Rd, Portarlington",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201877,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tinamba-Seaton Rd",
+        "eventId": 250109340,
+        "id": "ESTA:250109340",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-23T02:52:00.000Z",
+        "updated": "2025-01-23T03:13:00.000Z",
+        "resources": 0,
+        "location": "Tinamba-Seaton Rd, Glenmaggie",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109346"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.63088129840892,
-          -38.11739173503447
+          146.7745733571109,
+          -37.94739164923865
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250109324",
+        "cfaId": 201878,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109324",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bedford Ct",
-        "id": "ESTA:250109324",
-        "eventId": "250109324",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-23T02:23:37.000Z",
-        "updated": "2025-01-23T02:23:37.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201878,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mansfield-Woods Point Rd",
+        "eventId": 250109342,
+        "id": "ESTA:250109342",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-01-23T02:55:00.000Z",
+        "updated": "2025-01-23T03:19:00.000Z",
+        "resources": 1,
+        "location": "Mansfield-Woods Point Rd, Macs Cove",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Bedford Ct, Templestowe Lower"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.11597309664228,
-          -37.7648086383849
+          146.15484351796897,
+          -37.21518062842377
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "mfbId": "250109350",
+        "cfaId": 201887,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109350",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Craigieburn",
-        "id": "ESTA:250109350",
-        "eventId": "250109350",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201887,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pigdons Rd",
+        "eventId": 250109360,
+        "id": "ESTA:250109360",
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-01-23T03:13:42.000Z",
-        "updated": "2025-01-23T03:13:42.000Z",
-        "resources": 2,
+        "category2": "Building Fire",
+        "created": "2025-01-23T03:38:00.000Z",
+        "updated": "2025-01-23T03:38:00.000Z",
+        "resources": 0,
+        "location": "Pigdons Rd, Waurn Ponds",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Craigieburn, Craigieburn"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93716315347203,
-          -37.59204437641525
+          144.30411211426173,
+          -38.19850673024868
         ]
       }
     },
@@ -1881,29 +1843,58 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250109326",
+        "mfbId": "250109348",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250109326",
+        "sourceId": "250109348",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coomgarie Tce",
-        "id": "ESTA:250109326",
-        "eventId": "250109326",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-23T02:29:55.000Z",
-        "updated": "2025-01-23T02:29:55.000Z",
-        "resources": 1,
+        "sourceTitle": "Keilor Downs",
+        "id": "ESTA:250109348",
+        "eventId": "250109348",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T03:32:17.000Z",
+        "updated": "2025-01-23T03:32:17.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Coomgarie Tce, Cairnlea"
+        "location": "Keilor Downs, Keilor Downs"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.79401827946876,
-          -37.762092860952635
+          144.80074290671845,
+          -37.716872339321945
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250109324",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109324",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bedford Ct",
+        "id": "ESTA:250109324",
+        "eventId": "250109324",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-23T02:23:37.000Z",
+        "updated": "2025-01-23T02:23:37.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bedford Ct, Templestowe Lower"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11597309664228,
+          -37.7648086383849
         ]
       }
     },
@@ -1936,7 +1927,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 557423,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1948,8 +1939,8 @@
         "category1": "Rescue",
         "category2": "Rescue Persons Trapped",
         "created": "2025-01-23T03:15:00.000Z",
-        "updated": "2025-01-23T03:17:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-23T03:38:00.000Z",
+        "resources": 1,
         "location": "Wyndham Vale"
       },
       "type": "Feature",
@@ -1958,33 +1949,6 @@
         "coordinates": [
           144.61354701081794,
           -37.887122707925535
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 557421,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557421,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152515,
-        "id": "ESTA:250152515",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-23T02:30:00.000Z",
-        "updated": "2025-01-23T03:23:00.000Z",
-        "resources": 0,
-        "location": "Clayton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12047839308926,
-          -37.926880541269
         ]
       }
     }
@@ -2216,7 +2180,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-23T03:25:19.864Z",
-    "featureCount": 325
+    "lastUpdated": "2025-01-23T03:39:06.084Z",
+    "featureCount": 324
   }
 }
