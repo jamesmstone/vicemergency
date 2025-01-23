@@ -1178,24 +1178,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118174349,
+        "status": "Responding",
+        "estaId": 118174498,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201960,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109574,
-        "id": "ESTA:250109574",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109580",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Canterbury Rd",
+        "eventId": "250109580",
+        "id": "ESTA:250109580",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-23T16:04:00.000Z",
-        "updated": "2025-01-23T16:06:00.000Z",
-        "resources": 0,
-        "location": "Mernda",
-        "cfaId": 201960,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-23T16:46:32.000Z",
+        "updated": "2025-01-23T16:46:32.000Z",
+        "resources": 2,
+        "location": "Canterbury Rd, Forest Hill",
+        "mfbId": "250109580",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1203,31 +1203,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0940062005155,
-          -37.6106561861061
+          145.18179212209608,
+          -37.8359968941468
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118174424,
+        "estaId": 118174524,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201962,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109577,
-        "id": "ESTA:250109577",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118174524,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Roxburgh Park",
+        "eventId": "F250109583",
+        "id": "ESTA:250109583",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-23T16:22:00.000Z",
-        "updated": "2025-01-23T16:22:00.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-01-23T16:48:22.000Z",
+        "updated": "2025-01-23T16:48:45.303Z",
         "resources": 0,
-        "location": "Greenwald",
-        "cfaId": 201962,
+        "location": "Terrell Ct, Roxburgh Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92870214586165,
+          -37.638731895460914
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118174493,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109579",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Terrell Ct",
+        "eventId": "250109579",
+        "id": "ESTA:250109579",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-23T16:49:04.000Z",
+        "updated": "2025-01-23T16:49:04.000Z",
+        "resources": 2,
+        "location": "Terrell Ct, Roxburgh Park",
+        "mfbId": "250109579",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1235,8 +1264,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.37773209089053,
-          -37.97318378123798
+          144.92869415174744,
+          -37.638733275021245
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118173940,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201955,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Browns Rd",
+        "eventId": 250109562,
+        "id": "ESTA:250109562",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-23T14:34:00.000Z",
+        "updated": "2025-01-23T16:31:00.000Z",
+        "resources": 0,
+        "location": "Browns Rd, Rye",
+        "cfaId": 201955,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.81943259036183,
+          -38.3954437764336
         ]
       }
     },
@@ -2054,64 +2115,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 201955,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201955,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Browns Rd",
-        "eventId": 250109562,
-        "id": "ESTA:250109562",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-23T14:34:00.000Z",
-        "updated": "2025-01-23T14:50:00.000Z",
-        "resources": 1,
-        "location": "Browns Rd, Rye",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.81943259036183,
-          -38.3954437764336
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 201956,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 201956,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109563,
-        "id": "ESTA:250109563",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-23T14:35:00.000Z",
-        "updated": "2025-01-23T15:41:00.000Z",
-        "resources": 0,
-        "location": "Buln Buln East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00812904184755,
-          -38.05972493257402
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 201959,
         "feedType": "incident",
@@ -2136,6 +2139,35 @@
         "coordinates": [
           146.55288987007822,
           -38.206198130750764
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 201960,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201960,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250109574,
+        "id": "ESTA:250109574",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T16:04:00.000Z",
+        "updated": "2025-01-23T16:06:00.000Z",
+        "resources": 0,
+        "location": "Mernda",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0940062005155,
+          -37.6106561861061
         ]
       }
     },
@@ -2170,6 +2202,64 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 201962,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 201962,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250109577,
+        "id": "ESTA:250109577",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-23T16:22:00.000Z",
+        "updated": "2025-01-23T16:22:00.000Z",
+        "resources": 7,
+        "location": "Greenwald",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.34677372443454,
+          -37.9560824785001
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250109581",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109581",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Munro Ct",
+        "id": "ESTA:250109581",
+        "eventId": "250109581",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-23T16:49:05.000Z",
+        "updated": "2025-01-23T16:49:05.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Munro Ct, Meadow Heights"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9153407184826,
+          -37.653817397047526
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250109571",
         "feedType": "incident",
@@ -2194,6 +2284,33 @@
         "coordinates": [
           144.95316118056405,
           -37.81630341926349
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 557463,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557463,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152561,
+        "id": "ESTA:250152561",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-23T16:35:00.000Z",
+        "updated": "2025-01-23T16:41:00.000Z",
+        "resources": 0,
+        "location": "Mildura"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1383916709805,
+          -34.19397914644113
         ]
       }
     }
@@ -2425,7 +2542,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-23T16:29:19.881Z",
-    "featureCount": 315
+    "lastUpdated": "2025-01-23T16:50:59.798Z",
+    "featureCount": 319
   }
 }
