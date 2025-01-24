@@ -961,34 +961,91 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118188333,
+        "status": "Request For Assistance",
+        "estaId": 118188706,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250110072",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Simpson St",
-        "eventId": "250110072",
-        "id": "ESTA:250110072",
+        "source": "OTHER",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557534,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152636,
+        "id": "ESTA:250152636",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-24T21:42:11.000Z",
-        "updated": "2025-01-24T21:42:11.000Z",
-        "resources": 4,
-        "location": "Simpson St, Buninyong",
-        "cfaId": 202177,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250110072"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-24T22:12:00.000Z",
+        "updated": "2025-01-24T22:17:00.000Z",
+        "resources": 0,
+        "location": "Arapiles",
+        "sesId": 557534
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.8910336489162,
-          -37.65583055379627
+          141.84833387119332,
+          -36.759770893896906
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118188452,
+        "feedType": "incident",
+        "source": "",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557533,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152634,
+        "id": "ESTA:250152634",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-24T21:34:00.000Z",
+        "updated": "2025-01-24T22:22:00.000Z",
+        "resources": 0,
+        "location": "Flemington",
+        "sesId": 557533
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9252318211873,
+          -37.78771231473685
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "576752",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Shands Rd, Berrigan",
+        "id": "2025-01-25T04:21:00.0000000:576752",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Shands Rd, Berrigan",
+        "location": "The Valley 864 Shands Rd, Berrigan 2712",
+        "created": "2025-01-25T04:21:00+11:00",
+        "updated": "2025-01-25T04:21:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.839492798,
+          -35.575279236
         ]
       }
     },
@@ -1055,36 +1112,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "576752",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Shands Rd, Berrigan",
-        "id": "2025-01-25T04:21:00.0000000:576752",
-        "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Shands Rd, Berrigan",
-        "location": "The Valley 864 Shands Rd, Berrigan 2712",
-        "created": "2025-01-25T04:21:00+11:00",
-        "updated": "2025-01-25T04:21:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.839492798,
-          -35.575279236
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1115,20 +1142,50 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 202176,
+        "cfaId": 202177,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110072",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Simpson St",
+        "eventId": "250110072",
+        "id": "ESTA:250110072",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-24T21:42:11.000Z",
+        "updated": "2025-01-24T21:42:11.000Z",
+        "resources": 1,
+        "location": "Simpson St, Buninyong",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250110072"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8910336489162,
+          -37.65583055379627
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 202180,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202176,
+        "sourceId": 202180,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wattle Dr",
-        "eventId": 250110069,
-        "id": "ESTA:250110069",
-        "category1": "Fire",
+        "sourceTitle": "",
+        "eventId": 250110083,
+        "id": "ESTA:250110083",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-24T21:04:00.000Z",
-        "updated": "2025-01-24T21:14:00.000Z",
-        "resources": 0,
-        "location": "Wattle Dr, Frankston",
+        "created": "2025-01-24T22:00:00.000Z",
+        "updated": "2025-01-24T22:17:00.000Z",
+        "resources": 3,
+        "location": "Yarra Junction",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1136,66 +1193,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14905533119133,
-          -38.16271896421787
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250110078",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250110078",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ascot St",
-        "id": "ESTA:250110078",
-        "eventId": "250110078",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-24T21:33:08.000Z",
-        "updated": "2025-01-24T21:33:08.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ascot St, Ballarat Central"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8436026096011,
-          -37.56363661166909
+          145.61182091821738,
+          -37.78280867728987
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250110080",
+        "mfbId": "250110082",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250110080",
+        "sourceId": "250110082",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Racecourse Rd",
-        "id": "ESTA:250110080",
-        "eventId": "250110080",
+        "sourceTitle": "Moe",
+        "id": "ESTA:250110082",
+        "eventId": "250110082",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-24T21:42:42.000Z",
-        "updated": "2025-01-24T21:42:42.000Z",
+        "created": "2025-01-24T22:07:07.000Z",
+        "updated": "2025-01-24T22:07:07.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Racecourse Rd, Flemington"
+        "location": "Moe, Moe"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92523838222587,
-          -37.7877092640043
+          146.2526693420006,
+          -38.17928657374646
         ]
       }
     },
@@ -1223,33 +1251,6 @@
         "coordinates": [
           145.21160469466443,
           -37.27710281911049
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 557533,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557533,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152634,
-        "id": "ESTA:250152634",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-24T21:34:00.000Z",
-        "updated": "2025-01-24T21:40:00.000Z",
-        "resources": 0,
-        "location": "Flemington"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9252318211873,
-          -37.78771231473685
         ]
       }
     }
@@ -1481,7 +1482,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-24T21:50:25.670Z",
+    "lastUpdated": "2025-01-24T22:22:19.730Z",
     "featureCount": 310
   }
 }
