@@ -933,32 +933,6 @@
     },
     {
       "properties": {
-        "status": "Controlled",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1623183",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Cooper Drive, Naracoorte",
-        "id": "1623183",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Cooper Drive, Naracoorte",
-        "created": "2025-01-24T03:33:00.000Z",
-        "updated": "2025-01-24T03:33:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Cooper Drive, Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.726854090649,
-          -36.9601999299431
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1183,24 +1157,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118181381,
+        "status": "Request For Assistance",
+        "estaId": 118182339,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557508,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250109868,
+        "id": "ESTA:250109868",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-01-24T07:38:00.000Z",
+        "updated": "2025-01-24T07:48:00.000Z",
+        "resources": 6,
+        "location": "Kilmore",
+        "cfaId": 202084,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 557508
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95793248598247,
+          -37.30128737530327
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118182364,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202072,
+        "sourceId": 202085,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109842,
-        "id": "ESTA:250109842",
+        "sourceTitle": "Anderson Rd",
+        "eventId": 250109870,
+        "id": "ESTA:250109870",
         "suppress": false,
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
-        "created": "2025-01-24T06:24:00.000Z",
-        "updated": "2025-01-24T07:17:00.000Z",
+        "created": "2025-01-24T07:41:00.000Z",
+        "updated": "2025-01-24T07:41:00.000Z",
         "resources": 0,
-        "location": "Swan Hill",
-        "cfaId": 202072,
+        "location": "Anderson Rd, Kilmore",
+        "cfaId": 202085,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1208,31 +1215,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.4540884485129,
-          -35.371669864713795
+          144.96050238560292,
+          -37.300538612694716
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118182053,
+        "estaId": 118182375,
         "feedType": "incident",
-        "source": "STATION",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202078,
+        "sourceId": 202086,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 250109855,
-        "id": "ESTA:250109855",
+        "sourceTitle": "Anderson Rd",
+        "eventId": 250109871,
+        "id": "ESTA:250109871",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-24T07:42:00.000Z",
+        "updated": "2025-01-24T07:42:00.000Z",
+        "resources": 0,
+        "location": "Anderson Rd, Kilmore",
+        "cfaId": 202086,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96050238560292,
+          -37.300538612694716
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118182376,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202087,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hamilton Hwy",
+        "eventId": 250109872,
+        "id": "ESTA:250109872",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-01-24T07:16:00.000Z",
-        "updated": "2025-01-24T07:16:00.000Z",
-        "resources": 4,
-        "location": "Hume Fwy, Baddaginnie",
-        "cfaId": 202078,
+        "created": "2025-01-24T07:42:00.000Z",
+        "updated": "2025-01-24T07:42:00.000Z",
+        "resources": 2,
+        "location": "Hamilton Hwy, Tarrington",
+        "cfaId": 202087,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1240,289 +1279,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.86393611152013,
-          -36.60111566928184
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118181564,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557502,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152599,
-        "id": "ESTA:250152599",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-01-24T06:37:00.000Z",
-        "updated": "2025-01-24T07:18:00.000Z",
-        "resources": 0,
-        "location": "Craigieburn",
-        "sesId": 557502
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93866616092396,
-          -37.579196604923695
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118181153,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557499,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250109830,
-        "id": "ESTA:250109830",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-01-24T06:05:00.000Z",
-        "updated": "2025-01-24T07:19:00.000Z",
-        "resources": 0,
-        "location": "Broadford",
-        "sesId": 557499
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0815961358984,
-          -37.20781391611233
+          142.1074270825687,
+          -37.769658374141095
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118182138,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202081,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109859,
-        "id": "ESTA:250109859",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-24T07:24:00.000Z",
-        "updated": "2025-01-24T07:24:00.000Z",
-        "resources": 0,
-        "location": "Bannockburn",
-        "cfaId": 202081,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.17281906935617,
-          -38.04488483051756
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118182140,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202082,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109860,
-        "id": "ESTA:250109860",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-24T07:24:00.000Z",
-        "updated": "2025-01-24T07:24:00.000Z",
-        "resources": 0,
-        "location": "Bannockburn",
-        "cfaId": 202082,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.17281906935617,
-          -38.04488483051756
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118182161,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202083,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "High St",
-        "eventId": 250109861,
-        "id": "ESTA:250109861",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-24T07:25:00.000Z",
-        "updated": "2025-01-24T07:25:00.000Z",
-        "resources": 0,
-        "location": "High St, Bannockburn",
-        "cfaId": 202083,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.17174035858383,
-          -38.04538145284963
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118182136,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202080,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109858,
-        "id": "ESTA:250109858",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-24T07:24:00.000Z",
-        "updated": "2025-01-24T07:24:00.000Z",
-        "resources": 0,
-        "location": "Bannockburn",
-        "cfaId": 202080,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.17281906935617,
-          -38.04488483051756
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118182101,
+        "estaId": 118182337,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250109857",
+        "sourceId": "250109867",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kurunjang",
-        "eventId": "250109857",
-        "id": "ESTA:250109857",
+        "sourceTitle": "Docklands",
+        "eventId": "250109867",
+        "id": "ESTA:250109867",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-01-24T07:27:21.000Z",
-        "updated": "2025-01-24T07:27:21.000Z",
+        "created": "2025-01-24T07:46:31.000Z",
+        "updated": "2025-01-24T07:46:31.000Z",
         "resources": 1,
-        "location": "Kurunjang, Kurunjang",
-        "cfaId": 202079,
+        "location": "Docklands, Docklands",
+        "mfbId": "250109867",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250109857"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.59412048959047,
-          -37.673045946959775
+          144.94370252951404,
+          -37.81329000075577
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118181772,
+        "status": "Responding",
+        "estaId": 118182460,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557505,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152602,
-        "id": "ESTA:250152602",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118182460,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Keysborough",
+        "eventId": "F250109874",
+        "id": "ESTA:250109874",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-01-24T06:55:00.000Z",
-        "updated": "2025-01-24T07:28:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-24T07:49:01.000Z",
+        "updated": "2025-01-24T07:49:35.269Z",
         "resources": 0,
-        "location": "Kurunjang",
-        "sesId": 557505
+        "location": "Cheltenham Rd, Keysborough"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.59010162207966,
-          -37.670789727283726
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118181730,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557504,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152601,
-        "id": "ESTA:250152601",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-24T06:51:00.000Z",
-        "updated": "2025-01-24T07:30:00.000Z",
-        "resources": 0,
-        "location": "Ferntree Gully",
-        "sesId": 557504
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2921672877665,
-          -37.886240432477464
+          145.17326873547435,
+          -37.99397474117391
         ]
       }
     },
@@ -1947,64 +1766,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 202064,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202064,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Halpin Cr",
-        "eventId": 250109827,
-        "id": "ESTA:250109827",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-24T06:00:00.000Z",
-        "updated": "2025-01-24T06:32:00.000Z",
-        "resources": 0,
-        "location": "Halpin Cr, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39928702884401,
-          -36.36136609217981
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 202063,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202063,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250109826,
-        "id": "ESTA:250109826",
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-01-24T05:58:00.000Z",
-        "updated": "2025-01-24T06:32:00.000Z",
-        "resources": 1,
-        "location": "Darnum",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00234104315928,
-          -38.16016423098506
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 202073,
         "feedType": "incident",
@@ -2029,64 +1790,6 @@
         "coordinates": [
           145.96375464200972,
           -36.562559411685804
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 202071,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202071,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Craig Av",
-        "eventId": 250109841,
-        "id": "ESTA:250109841",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-24T06:24:00.000Z",
-        "updated": "2025-01-24T06:44:00.000Z",
-        "resources": 0,
-        "location": "Craig Av, Ferntree Gully",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2921672877665,
-          -37.886240432477464
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 202045,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202045,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wallinduc-Berrybank Rd",
-        "eventId": 250109781,
-        "id": "ESTA:250109781",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-24T03:59:00.000Z",
-        "updated": "2025-01-24T06:48:00.000Z",
-        "resources": 7,
-        "location": "Wallinduc-Berrybank Rd, Wallinduc",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5063694472197,
-          -37.88874720005836
         ]
       }
     },
@@ -2179,59 +1882,118 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250109856",
+        "status": "Safe",
+        "cfaId": 202072,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109856",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Thomson (Geelong)",
-        "id": "ESTA:250109856",
-        "eventId": "250109856",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-24T07:18:07.000Z",
-        "updated": "2025-01-24T07:18:07.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202072,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250109842,
+        "id": "ESTA:250109842",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-24T06:24:00.000Z",
+        "updated": "2025-01-24T07:17:00.000Z",
+        "resources": 0,
+        "location": "Swan Hill",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Thomson (Geelong), Thomson (Geelong)"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.37610390751473,
-          -38.16899867281367
+          143.4540884485129,
+          -35.371669864713795
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 202079,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109857",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kurunjang",
+        "eventId": "250109857",
+        "id": "ESTA:250109857",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-24T07:27:21.000Z",
+        "updated": "2025-01-24T07:27:21.000Z",
+        "resources": 1,
+        "location": "Kurunjang, Kurunjang",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250109857"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.59412048959047,
+          -37.673045946959775
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250109854",
+        "cfaId": 202080,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250109854",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melbourne",
-        "id": "ESTA:250109854",
-        "eventId": "250109854",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202080,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250109858,
+        "id": "ESTA:250109858",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-24T07:14:18.000Z",
-        "updated": "2025-01-24T07:14:18.000Z",
-        "resources": 1,
+        "created": "2025-01-24T07:24:00.000Z",
+        "updated": "2025-01-24T07:38:00.000Z",
+        "resources": 3,
+        "location": "Bannockburn",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Melbourne, Melbourne"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95826753675328,
-          -37.80402459399136
+          144.17281906935617,
+          -38.04488483051756
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250109869",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250109869",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Anderson Rd",
+        "id": "ESTA:250109869",
+        "eventId": "250109869",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-24T07:47:01.000Z",
+        "updated": "2025-01-24T07:47:01.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Anderson Rd, Albion"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82749407553476,
+          -37.784265753988514
         ]
       }
     },
@@ -2546,7 +2308,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-24T07:30:20.082Z",
-    "featureCount": 332
+    "lastUpdated": "2025-01-24T07:50:20.010Z",
+    "featureCount": 324
   }
 }
