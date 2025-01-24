@@ -1059,7 +1059,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 118187718,
         "feedType": "incident",
         "source": "000",
@@ -1071,10 +1071,10 @@
         "id": "ESTA:250110042",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-01-24T18:20:00.000Z",
-        "updated": "2025-01-24T18:20:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-24T18:38:00.000Z",
+        "resources": 3,
         "location": "Gordon",
         "cfaId": 202170,
         "size": "Small",
@@ -1092,33 +1092,32 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118187475,
+        "estaId": 118187244,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250110034",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coxon Pde",
-        "eventId": "250110034",
-        "id": "ESTA:250110034",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202166,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250110027,
+        "id": "ESTA:250110027",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-24T18:22:37.000Z",
-        "updated": "2025-01-24T18:22:37.000Z",
-        "resources": 3,
-        "location": "Coxon Pde, North Geelong",
-        "cfaId": 202168,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-01-24T16:22:00.000Z",
+        "updated": "2025-01-24T18:33:00.000Z",
+        "resources": 0,
+        "location": "Carngham",
+        "cfaId": 202166,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250110034"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.35072002166777,
-          -38.12736094381674
+          143.58501155795906,
+          -37.58143787249074
         ]
       }
     },
@@ -1244,31 +1243,60 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 202166,
+        "status": "Safe",
+        "cfaId": 202168,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250110027",
+        "sourceId": "250110034",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Carngham",
-        "eventId": "250110027",
-        "id": "ESTA:250110027",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-24T16:57:22.000Z",
-        "updated": "2025-01-24T16:57:22.000Z",
-        "resources": 1,
-        "location": "Carngham, Carngham",
+        "sourceTitle": "Coxon Pde",
+        "eventId": "250110034",
+        "id": "ESTA:250110034",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-24T18:22:37.000Z",
+        "updated": "2025-01-24T18:22:37.000Z",
+        "resources": 3,
+        "location": "Coxon Pde, North Geelong",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250110027"
+        "mfbId": "250110034"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.58502060550092,
-          -37.58143059656795
+          144.35072002166777,
+          -38.12736094381674
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 202171,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202171,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Capel Av",
+        "eventId": 250110044,
+        "id": "ESTA:250110044",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-24T18:41:00.000Z",
+        "updated": "2025-01-24T18:41:00.000Z",
+        "resources": 3,
+        "location": "Capel Av, Capel Sound",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87688758034943,
+          -38.364906836697635
         ]
       }
     },
@@ -1527,7 +1555,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-24T18:31:05.933Z",
-    "featureCount": 309
+    "lastUpdated": "2025-01-24T18:50:19.570Z",
+    "featureCount": 310
   }
 }
