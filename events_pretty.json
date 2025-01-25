@@ -737,6 +737,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1623409",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Downer Avenue, Lyrup",
+        "id": "1623409",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Downer Avenue, Lyrup",
+        "created": "2025-01-25T21:43:00.000Z",
+        "updated": "2025-01-25T21:43:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Downer Avenue, Lyrup"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.652864573055,
+          -34.2558524275404
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -989,24 +1015,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118200677,
+        "status": "Safe",
+        "estaId": 118194017,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202338,
+        "sourceId": 202258,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Toyon Rd",
-        "eventId": 250110483,
-        "id": "ESTA:250110483",
+        "sourceTitle": "Calder Fwy",
+        "eventId": 250110279,
+        "id": "ESTA:250110279",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-25T21:22:00.000Z",
-        "updated": "2025-01-25T21:22:00.000Z",
-        "resources": 2,
-        "location": "Toyon Rd, Kalkallo",
-        "cfaId": 202338,
+        "category2": "Bushfire",
+        "created": "2025-01-25T06:57:00.000Z",
+        "updated": "2025-01-25T21:39:00.000Z",
+        "resources": 0,
+        "location": "Calder Fwy, Kyneton",
+        "cfaId": 202258,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1014,31 +1040,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96204463743885,
-          -37.53449713458071
+          144.4717515651839,
+          -37.24817998361652
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118200826,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110488",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Barwon Heads",
+        "eventId": "250110488",
+        "id": "ESTA:250110488",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-25T21:43:38.000Z",
+        "updated": "2025-01-25T21:43:38.000Z",
+        "resources": 3,
+        "location": "Barwon Heads, Barwon Heads",
+        "cfaId": 202342,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250110488"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.49069791391327,
+          -38.26276538074642
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118200334,
+        "estaId": 118200787,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202335,
+        "sourceId": 202341,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lower Homestead Rd",
-        "eventId": 250110468,
-        "id": "ESTA:250110468",
+        "sourceTitle": "Cornish St",
+        "eventId": 250110486,
+        "id": "ESTA:250110486",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-25T20:09:00.000Z",
-        "updated": "2025-01-25T20:33:00.000Z",
-        "resources": 0,
-        "location": "Lower Homestead Rd, Chirnside Park",
-        "cfaId": 202335,
+        "category2": "Building Fire",
+        "created": "2025-01-25T21:38:00.000Z",
+        "updated": "2025-01-25T21:48:00.000Z",
+        "resources": 1,
+        "location": "Cornish St, Castlemaine",
+        "cfaId": 202341,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1046,8 +1105,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29345206693256,
-          -37.71301747842738
+          144.21131799929924,
+          -37.05228983665685
         ]
       }
     },
@@ -1866,88 +1925,119 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 202337,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202337,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250110470,
-        "id": "ESTA:250110470",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-01-25T20:22:00.000Z",
-        "updated": "2025-01-25T20:34:00.000Z",
-        "resources": 0,
-        "location": "Pakenham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.51376341945831,
-          -38.09309374491899
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250110481",
+        "status": "Under Control",
+        "cfaId": 202340,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250110481",
+        "sourceId": "250110485",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Southbank",
-        "id": "ESTA:250110481",
-        "eventId": "250110481",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-25T21:24:33.000Z",
-        "updated": "2025-01-25T21:24:33.000Z",
-        "resources": 1,
+        "sourceTitle": "Rythdale",
+        "eventId": "250110485",
+        "id": "ESTA:250110485",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-25T21:48:30.000Z",
+        "updated": "2025-01-25T21:48:30.000Z",
+        "resources": 4,
+        "location": "Rythdale, Rythdale",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Southbank, Southbank"
+        "mfbId": "250110485"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96019786509396,
-          -37.825865587720955
+          145.46661014299886,
+          -38.13666590043293
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250110476",
+        "cfaId": 202339,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250110476",
+        "sourceId": "250110484",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mulgrave",
-        "id": "ESTA:250110476",
-        "eventId": "250110476",
+        "sourceTitle": "Waterview Dr",
+        "eventId": "250110484",
+        "id": "ESTA:250110484",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-25T20:50:06.000Z",
-        "updated": "2025-01-25T20:50:06.000Z",
-        "resources": 1,
+        "created": "2025-01-25T21:48:20.000Z",
+        "updated": "2025-01-25T21:48:20.000Z",
+        "resources": 3,
+        "location": "Waterview Dr, Mernda",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Mulgrave, Mulgrave"
+        "mfbId": "250110484"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17375030592714,
-          -37.92056586733365
+          145.0843385889254,
+          -37.61011579728819
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250110489",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110489",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Maroondah Hwy",
+        "id": "ESTA:250110489",
+        "eventId": "250110489",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-25T21:45:34.000Z",
+        "updated": "2025-01-25T21:45:34.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Maroondah Hwy, Ringwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23903662317701,
+          -37.81037111434171
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250110487",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110487",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Preston",
+        "id": "ESTA:250110487",
+        "eventId": "250110487",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-25T21:47:13.000Z",
+        "updated": "2025-01-25T21:47:13.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Preston, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99029947505556,
+          -37.73659007854318
         ]
       }
     },
@@ -2264,7 +2354,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-25T21:30:19.867Z",
-    "featureCount": 314
+    "lastUpdated": "2025-01-25T21:50:19.756Z",
+    "featureCount": 317
   }
 }
