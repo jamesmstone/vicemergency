@@ -988,6 +988,68 @@
       }
     },
     {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118199757,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557585,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250152687,
+        "id": "ESTA:250152687",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-01-25T17:06:00.000Z",
+        "updated": "2025-01-25T17:17:00.000Z",
+        "resources": 0,
+        "location": "Kew",
+        "sesId": 557585
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0298302938299,
+          -37.8068113026789
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118199712,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110442",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Caulfield North",
+        "eventId": "250110442",
+        "id": "ESTA:250110442",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-25T17:18:20.000Z",
+        "updated": "2025-01-25T17:18:20.000Z",
+        "resources": 2,
+        "location": "Caulfield North, Caulfield North",
+        "mfbId": "250110442",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02241386861922,
+          -37.872388256021715
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1832,35 +1894,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 202325,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202325,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Victoria St",
-        "eventId": 250110434,
-        "id": "ESTA:250110434",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-01-25T15:28:00.000Z",
-        "updated": "2025-01-25T16:06:00.000Z",
-        "resources": 0,
-        "location": "Victoria St, Ballarat East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.87401289883553,
-          -37.561000235805686
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 202327,
         "feedType": "incident",
@@ -1874,7 +1907,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-25T16:20:12.000Z",
         "updated": "2025-01-25T16:20:12.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Elsternwick Way, Craigieburn",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1891,28 +1924,30 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 557583,
+        "status": "Under Control",
+        "mfbId": "250110444",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557583,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250152684,
-        "id": "ESTA:250152684",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-01-25T13:28:00.000Z",
-        "updated": "2025-01-25T16:43:00.000Z",
-        "resources": 0,
-        "location": "Templestowe"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110444",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "High St",
+        "id": "ESTA:250110444",
+        "eventId": "250110444",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-25T17:15:56.000Z",
+        "updated": "2025-01-25T17:15:56.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "High St, Kew"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15275344753843,
-          -37.75249635186216
+          145.0298327108294,
+          -37.806803246178184
         ]
       }
     }
@@ -1931,7 +1966,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1939,7 +1973,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1955,7 +1990,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1963,7 +1997,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-25T13:00:00.000Z",
           "heat": {
@@ -2144,7 +2179,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-25T16:50:25.645Z",
-    "featureCount": 310
+    "lastUpdated": "2025-01-25T17:18:39.788Z",
+    "featureCount": 311
   }
 }
