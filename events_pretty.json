@@ -1162,6 +1162,68 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118199506,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118199506,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Craigieburn",
+        "eventId": "F250110439",
+        "id": "ESTA:250110439",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-25T16:12:25.000Z",
+        "updated": "2025-01-25T16:13:42.932Z",
+        "resources": 0,
+        "location": "Craigieburn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9342798770465,
+          -37.585253560810195
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118199494,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110438",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elsternwick Way",
+        "eventId": "250110438",
+        "id": "ESTA:250110438",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-25T16:20:12.000Z",
+        "updated": "2025-01-25T16:20:12.000Z",
+        "resources": 2,
+        "location": "Elsternwick Way, Craigieburn",
+        "cfaId": 202327,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250110438"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93482465363684,
+          -37.585573354650556
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1989,7 +2051,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-25T14:51:32.000Z",
         "updated": "2025-01-25T14:51:32.000Z",
-        "resources": 9,
+        "resources": 2,
         "location": "Gordon St, Maribyrnong",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2007,35 +2069,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 202322,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202322,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Banfield St",
-        "eventId": 250110426,
-        "id": "ESTA:250110426",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-25T14:41:00.000Z",
-        "updated": "2025-01-25T15:01:00.000Z",
-        "resources": 0,
-        "location": "Banfield St, Ararat",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9191753763269,
-          -37.27868625269965
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "cfaId": 202325,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2047,8 +2080,8 @@
         "category1": "Accident / Rescue",
         "category2": "Rescue",
         "created": "2025-01-25T15:28:00.000Z",
-        "updated": "2025-01-25T15:28:00.000Z",
-        "resources": 1,
+        "updated": "2025-01-25T16:06:00.000Z",
+        "resources": 0,
         "location": "Victoria St, Ballarat East",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2104,6 +2137,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2111,8 +2145,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2128,6 +2161,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2135,8 +2169,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-25T13:00:00.000Z",
           "heat": {
@@ -2164,6 +2197,7 @@
         },
         {
           "fdr": {
+            "Mallee": "EXTREME",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "HIGH",
             "North East": "HIGH",
@@ -2171,8 +2205,7 @@
             "North Central": "EXTREME",
             "Northern Country": "HIGH",
             "South West": "EXTREME",
-            "Wimmera": "EXTREME",
-            "Mallee": "EXTREME"
+            "Wimmera": "EXTREME"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2317,7 +2350,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-25T15:50:05.791Z",
-    "featureCount": 311
+    "lastUpdated": "2025-01-25T16:26:39.622Z",
+    "featureCount": 312
   }
 }
