@@ -1164,23 +1164,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118199173,
+        "estaId": 118199256,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 202323,
+        "sourceId": 202325,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume And Hovell Rd",
-        "eventId": 250110432,
-        "id": "ESTA:250110432",
+        "sourceTitle": "Victoria St",
+        "eventId": 250110434,
+        "id": "ESTA:250110434",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-25T15:12:00.000Z",
-        "updated": "2025-01-25T15:12:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-01-25T15:28:00.000Z",
+        "updated": "2025-01-25T15:28:00.000Z",
         "resources": 0,
-        "location": "Hume And Hovell Rd, Seymour",
-        "cfaId": 202323,
+        "location": "Victoria St, Ballarat East",
+        "cfaId": 202325,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1188,8 +1188,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1453046955356,
-          -37.0667851537185
+          143.87401289883553,
+          -37.561000235805686
         ]
       }
     },
@@ -1199,26 +1199,30 @@
         "estaId": 118199228,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118199228,
-        "sourceFeed": "esta-cad-event",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250110433",
+        "sourceFeed": "mfb-incident",
         "sourceTitle": "Epping",
-        "eventId": "F250110433",
+        "eventId": "250110433",
         "id": "ESTA:250110433",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-25T15:19:07.000Z",
-        "updated": "2025-01-25T15:21:03.024Z",
-        "resources": 0,
-        "location": "Epping"
+        "category2": "Fire",
+        "created": "2025-01-25T15:28:48.000Z",
+        "updated": "2025-01-25T15:28:48.000Z",
+        "resources": 3,
+        "location": "Epping, Epping",
+        "cfaId": 202324,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250110433"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00541276263596,
-          -37.649745487782674
+          145.00540566273608,
+          -37.64974737246976
         ]
       }
     },
@@ -2068,65 +2072,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 202321,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 202321,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Victoria St",
-        "eventId": 250110423,
-        "id": "ESTA:250110423",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-01-25T14:18:00.000Z",
-        "updated": "2025-01-25T14:23:00.000Z",
-        "resources": 0,
-        "location": "Victoria St, Ballarat East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.87401289883553,
-          -37.561000235805686
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 202299,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250110369",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Eynesbury Rd",
-        "eventId": "250110369",
-        "id": "ESTA:250110369",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-25T14:30:27.000Z",
-        "updated": "2025-01-25T14:30:27.000Z",
-        "resources": 1,
-        "location": "Eynesbury Rd, Eynesbury",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250110369"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5775427303201,
-          -37.791565861542104
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 202322,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2150,6 +2095,35 @@
         "coordinates": [
           142.9191753763269,
           -37.27868625269965
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 202323,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202323,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume And Hovell Rd",
+        "eventId": 250110432,
+        "id": "ESTA:250110432",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-25T15:12:00.000Z",
+        "updated": "2025-01-25T15:12:00.000Z",
+        "resources": 3,
+        "location": "Hume And Hovell Rd, Seymour",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1453046955356,
+          -37.0667851537185
         ]
       }
     },
@@ -2408,7 +2382,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-25T15:21:07.668Z",
-    "featureCount": 314
+    "lastUpdated": "2025-01-25T15:30:45.529Z",
+    "featureCount": 313
   }
 }
