@@ -2481,64 +2481,91 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118223652,
+        "status": "Request For Assistance",
+        "estaId": 118223734,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250111400",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Grand Bvd",
-        "eventId": "250111400",
-        "id": "ESTA:250111400",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557931,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250153009,
+        "id": "ESTA:250153009",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-27T17:46:39.000Z",
-        "updated": "2025-01-27T17:46:39.000Z",
-        "resources": 1,
-        "location": "Grand Bvd, Craigieburn",
-        "cfaId": 202888,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250111400"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-27T18:20:00.000Z",
+        "updated": "2025-01-27T18:23:00.000Z",
+        "resources": 0,
+        "location": "Strathbogie",
+        "sesId": 557931
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9263630636248,
-          -37.577305499316864
+          145.74649471893906,
+          -36.867993858262444
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 118223659,
+        "estaId": 118223755,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "STATION",
         "sourceOrg": "VIC/SES",
-        "sourceId": 557929,
+        "sourceId": 557932,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250153007,
-        "id": "ESTA:250153007",
+        "eventId": 250153010,
+        "id": "ESTA:250153010",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-01-27T17:49:00.000Z",
-        "updated": "2025-01-27T17:49:13.000Z",
+        "created": "2025-01-27T18:26:00.000Z",
+        "updated": "2025-01-27T18:27:00.000Z",
         "resources": 0,
-        "location": "Lancefield",
-        "sesId": 557929
+        "location": "Baynton",
+        "sesId": 557932
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71356194795018,
-          -37.24022974372542
+          144.6276830749771,
+          -37.14802266379654
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118223669,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 557930,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250153008,
+        "id": "ESTA:250153008",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-27T17:55:00.000Z",
+        "updated": "2025-01-27T18:28:00.000Z",
+        "resources": 0,
+        "location": "Sandy Creek",
+        "sesId": 557930
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1011006042414,
+          -36.31140985912479
         ]
       }
     },
@@ -2548,14 +2575,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/b363e279340420a5e5d79062da00b200",
+        "sourceId": "IDV20600/a0694a10eb7f39d93b4e5aae29058857",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/b363e279340420a5e5d79062da00b200",
+        "id": "IDV20600/a0694a10eb7f39d93b4e5aae29058857",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-01-27T13:00:00.000Z",
+        "created": "2025-01-27T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -3489,7 +3516,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-27T11:07:20.000Z",
         "updated": "2025-01-27T11:07:20.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Driffield, Driffield",
         "size": "Small",
         "sizeFmt": "Small",
@@ -3593,6 +3620,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 202888,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 202888,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grand Bvd",
+        "eventId": 250111400,
+        "id": "ESTA:250111400",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-27T17:47:00.000Z",
+        "updated": "2025-01-27T17:56:00.000Z",
+        "resources": 0,
+        "location": "Grand Bvd, Craigieburn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9263530833052,
+          -37.57731363383183
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250111404",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250111404",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bailey St",
+        "id": "ESTA:250111404",
+        "eventId": "250111404",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-27T18:21:12.000Z",
+        "updated": "2025-01-27T18:21:12.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bailey St, Belmont"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35024723828525,
+          -38.18207790016492
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 557841,
         "feedType": "incident",
@@ -3644,60 +3729,6 @@
           -37.77889238209599
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 557927,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557927,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250153005,
-        "id": "ESTA:250153005",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-01-27T17:21:00.000Z",
-        "updated": "2025-01-27T17:25:00.000Z",
-        "resources": 0,
-        "location": "Princes Hill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96342775666696,
-          -37.780809088594204
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 557926,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 557926,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250153004,
-        "id": "ESTA:250153004",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-27T17:11:00.000Z",
-        "updated": "2025-01-27T17:32:00.000Z",
-        "resources": 1,
-        "location": "Goschen"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.4557627803539,
-          -35.49606588722966
-        ]
-      }
     }
   ],
   "properties": {
@@ -3714,6 +3745,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -3721,8 +3753,7 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3738,6 +3769,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -3745,8 +3777,7 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-27T13:00:00.000Z",
           "heat": {
@@ -3927,7 +3958,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-27T17:50:05.759Z",
-    "featureCount": 349
+    "lastUpdated": "2025-01-27T18:31:19.805Z",
+    "featureCount": 350
   }
 }
