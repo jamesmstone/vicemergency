@@ -1707,8 +1707,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T06:44:00.000Z",
-        "updated": "2025-01-28T14:36:00.000Z",
-        "resources": 16,
+        "updated": "2025-01-28T20:48:00.000Z",
+        "resources": 34,
         "size": "312.00",
         "sizeFmt": "312.00 Ha.",
         "location": "15Km Se Of Brimpaen"
@@ -1761,8 +1761,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T07:39:00.000Z",
-        "updated": "2025-01-28T15:44:00.000Z",
-        "resources": 11,
+        "updated": "2025-01-28T21:05:00.000Z",
+        "resources": 23,
         "size": "4599.00",
         "sizeFmt": "4599.00 Ha.",
         "location": "18Km Ne Cavendish"
@@ -2084,23 +2084,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118235320,
+        "estaId": 118235543,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250111838",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Queens Pde",
-        "eventId": "250111838",
-        "id": "ESTA:250111838",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203084,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stud Rd",
+        "eventId": 250111845,
+        "id": "ESTA:250111845",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-28T20:40:22.000Z",
-        "updated": "2025-01-28T20:40:22.000Z",
+        "category2": "Building Fire",
+        "created": "2025-01-28T21:17:00.000Z",
+        "updated": "2025-01-28T21:17:00.000Z",
         "resources": 2,
-        "location": "Queens Pde, Fitzroy North",
-        "mfbId": "250111838",
+        "location": "Stud Rd, Wantirna South",
+        "cfaId": 203084,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2108,8 +2108,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9835480891845,
-          -37.792074316996185
+          145.23368603974924,
+          -37.87101208141306
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118235560,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250111846",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ashleigh Av",
+        "eventId": "250111846",
+        "id": "ESTA:250111846",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-28T21:19:28.000Z",
+        "updated": "2025-01-28T21:19:28.000Z",
+        "resources": 2,
+        "location": "Ashleigh Av, Frankston",
+        "cfaId": 203085,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250111846"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14496430833515,
+          -38.14534646590499
         ]
       }
     },
@@ -2423,7 +2456,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-27T11:07:20.000Z",
         "updated": "2025-01-27T11:07:20.000Z",
-        "resources": 3,
+        "resources": 7,
         "location": "Driffield, Driffield",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2483,7 +2516,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-01-28T17:27:34.000Z",
         "updated": "2025-01-28T17:27:34.000Z",
-        "resources": 10,
+        "resources": 9,
         "location": "Altona, Altona",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2495,6 +2528,36 @@
         "coordinates": [
           144.80563580987913,
           -37.86970130216104
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 203082,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250111842",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Greensborough",
+        "eventId": "250111842",
+        "id": "ESTA:250111842",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-28T21:06:55.000Z",
+        "updated": "2025-01-28T21:06:55.000Z",
+        "resources": 2,
+        "location": "Greensborough, Greensborough",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250111842"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11369414923143,
+          -37.69094386565158
         ]
       }
     }
@@ -2513,7 +2576,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2521,7 +2583,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2537,7 +2600,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2545,7 +2607,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-01-28T13:00:00.000Z",
           "heat": {
@@ -2726,7 +2789,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-28T20:50:26.162Z",
-    "featureCount": 354
+    "lastUpdated": "2025-01-28T21:20:59.853Z",
+    "featureCount": 356
   }
 }
