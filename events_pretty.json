@@ -1975,24 +1975,54 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118246380,
+        "status": "Complete",
+        "estaId": 118246246,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203233,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Westley St",
-        "eventId": 250112277,
-        "id": "ESTA:250112277",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 558082,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250153162,
+        "id": "ESTA:250153162",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-29T18:36:00.000Z",
+        "updated": "2025-01-29T19:38:00.000Z",
+        "resources": 0,
+        "location": "The Patch",
+        "sesId": 558082
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39684596665055,
+          -37.89691435292962
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118246430,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112279",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "The Boulevard -",
+        "eventId": "250112279",
+        "id": "ESTA:250112279",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-29T19:20:00.000Z",
-        "updated": "2025-01-29T19:20:00.000Z",
-        "resources": 5,
-        "location": "Westley St, Ferntree Gully",
-        "cfaId": 203233,
+        "category2": "Structure Fire",
+        "created": "2025-01-29T19:47:46.000Z",
+        "updated": "2025-01-29T19:47:46.000Z",
+        "resources": 2,
+        "location": "The Boulevard -, Thomastown",
+        "mfbId": "250112279",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2000,8 +2030,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28113775106604,
-          -37.88084384648262
+          145.01575831755304,
+          -37.67840910104304
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118246451,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 558084,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250153164,
+        "id": "ESTA:250153164",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-01-29T19:47:00.000Z",
+        "updated": "2025-01-29T19:47:00.000Z",
+        "resources": 0,
+        "location": "Blackburn South",
+        "sesId": 558084
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15341209801375,
+          -37.842789243404994
         ]
       }
     },
@@ -2100,27 +2160,28 @@
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 189816,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kadnook-Casterton-Edenhope Rd",
-        "eventId": 241122036,
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241122036",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Casterton-Edenhope Rd",
+        "eventId": "241122036",
         "id": "ESTA:241122036",
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2024-11-16T02:44:00.000Z",
-        "updated": "2025-01-01T08:54:00.000Z",
-        "resources": 2,
-        "location": "Kadnook-Casterton-Edenhope Rd, Kadnook",
-        "size": "Large",
-        "sizeFmt": "Large"
+        "category2": "Non Structure Fire",
+        "created": "2025-01-01T08:53:53.000Z",
+        "updated": "2025-01-01T08:53:53.000Z",
+        "resources": 0,
+        "location": "Casterton-Edenhope Rd, Kadnook",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241122036"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.3739869564197,
-          -37.16937114775964
+          141.3739967181328,
+          -37.16936964424308
         ]
       }
     },
@@ -2313,7 +2374,7 @@
         "category2": "Other",
         "created": "2025-01-29T19:04:00.000Z",
         "updated": "2025-01-29T19:10:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Creswick Rd, Wendouree",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2324,6 +2385,35 @@
         "coordinates": [
           143.84886066049683,
           -37.53006385121879
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250112254",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112254",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bernbanks Av",
+        "id": "ESTA:250112254",
+        "eventId": "250112254",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-01-29T16:25:11.000Z",
+        "updated": "2025-01-29T16:25:11.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bernbanks Av, St Albans"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82097028137267,
+          -37.74421467538124
         ]
       }
     },
@@ -2341,8 +2431,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-29T19:04:00.000Z",
-        "updated": "2025-01-29T19:08:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-29T19:38:00.000Z",
+        "resources": 1,
         "location": "Olinda"
       },
       "type": "Feature",
@@ -2351,33 +2441,6 @@
         "coordinates": [
           145.38810956925573,
           -37.8714527287668
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 558082,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 558082,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250153162,
-        "id": "ESTA:250153162",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-29T18:36:00.000Z",
-        "updated": "2025-01-29T19:11:00.000Z",
-        "resources": 1,
-        "location": "The Patch"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39684596665055,
-          -37.89691435292962
         ]
       }
     }
@@ -2609,7 +2672,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-29T19:30:07.898Z",
-    "featureCount": 352
+    "lastUpdated": "2025-01-29T19:50:05.973Z",
+    "featureCount": 354
   }
 }
