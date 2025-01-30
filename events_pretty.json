@@ -2122,53 +2122,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118254692,
+        "status": "Under Control",
+        "estaId": 118255013,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118254692,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Coomealla (Nsw)",
-        "eventId": "F250112588",
-        "id": "ESTA:250112588",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112594",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Chaucer St",
+        "eventId": "250112594",
+        "id": "ESTA:250112594",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-30T09:37:18.000Z",
-        "updated": "2025-01-30T09:41:29.138Z",
-        "resources": 0,
-        "location": "Silver City Hwy, Coomealla (Nsw)"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.06254517958484,
-          -34.094938296937805
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118254654,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203350,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rowe St",
-        "eventId": 250112587,
-        "id": "ESTA:250112587",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-01-30T09:38:00.000Z",
-        "updated": "2025-01-30T09:42:00.000Z",
-        "resources": 0,
-        "location": "Rowe St, Ouyen",
-        "cfaId": 203350,
+        "category2": "Non Structure Fire",
+        "created": "2025-01-30T10:22:19.000Z",
+        "updated": "2025-01-30T10:22:19.000Z",
+        "resources": 3,
+        "location": "Chaucer St, St Kilda",
+        "mfbId": "250112594",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2176,8 +2147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.31691332715724,
-          -35.06775687005503
+          144.9781897511443,
+          -37.86817176803923
         ]
       }
     },
@@ -2186,7 +2157,7 @@
         "status": "Safe",
         "estaId": 118253684,
         "feedType": "incident",
-        "source": "000",
+        "source": "CFA",
         "sourceOrg": "VIC/CFA",
         "sourceId": 203344,
         "sourceFeed": "cfa-incident",
@@ -2215,31 +2186,63 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118254545,
+        "status": "Safe",
+        "estaId": 118254922,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 558127,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250153220,
-        "id": "ESTA:250153220",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203353,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dunlop St",
+        "eventId": 250112593,
+        "id": "ESTA:250112593",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-01-30T09:27:00.000Z",
-        "updated": "2025-01-30T09:42:00.000Z",
-        "resources": 1,
-        "location": "Miepoll",
-        "sesId": 558127
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-30T10:06:00.000Z",
+        "updated": "2025-01-30T10:24:00.000Z",
+        "resources": 2,
+        "location": "Dunlop St, Kerang",
+        "cfaId": 203353,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.42411089019228,
-          -36.627281259284985
+          143.9222255184338,
+          -35.73961492001919
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "587713",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Silver City Hwy, Coomealla",
+        "id": "2025-01-30T20:57:00.0000000:587713",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Silver City Hwy, Coomealla",
+        "location": "Silver City Hwy, Coomealla 2717",
+        "created": "2025-01-30T20:57:00+11:00",
+        "updated": "2025-01-30T20:57:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.058822631,
+          -34.0939826969999
         ]
       }
     },
@@ -2270,36 +2273,6 @@
         "coordinates": [
           145.839492798,
           -35.575279236
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "587694",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Barmah River Rd, Moama",
-        "id": "2025-01-30T19:08:00.0000000:587694",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Barmah River Rd, Moama",
-        "location": "Barmah River Rd, Moama 2731",
-        "created": "2025-01-30T19:08:00+11:00",
-        "updated": "2025-01-30T19:08:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.924163819,
-          -35.9901695249999
         ]
       }
     },
@@ -2336,29 +2309,60 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 189816,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 189816,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kadnook-Casterton-Edenhope Rd",
-        "eventId": 241122036,
-        "id": "ESTA:241122036",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "587694",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Barmah River Rd, Moama",
+        "id": "2025-01-30T21:11:00.0000000:587694",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2024-11-16T02:44:00.000Z",
-        "updated": "2025-01-01T08:54:00.000Z",
-        "resources": 2,
-        "location": "Kadnook-Casterton-Edenhope Rd, Kadnook",
-        "size": "Large",
-        "sizeFmt": "Large"
+        "name": "Barmah River Rd, Moama",
+        "location": "Barmah River Rd, Moama 2731",
+        "created": "2025-01-30T21:11:00+11:00",
+        "updated": "2025-01-30T21:11:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "1 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.3739869564197,
-          -37.16937114775964
+          144.924163819,
+          -35.9901695249999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 189816,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "241122036",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Casterton-Edenhope Rd",
+        "eventId": "241122036",
+        "id": "ESTA:241122036",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-01T08:53:53.000Z",
+        "updated": "2025-01-01T08:53:53.000Z",
+        "resources": 0,
+        "location": "Casterton-Edenhope Rd, Kadnook",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "241122036"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3739967181328,
+          -37.16936964424308
         ]
       }
     },
@@ -2512,105 +2516,78 @@
         "status": "Under Control",
         "cfaId": 203241,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203241,
-        "sourceFeed": "cfa-incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112295",
+        "sourceFeed": "mfb-incident",
         "sourceTitle": "Chesterville Rd",
-        "eventId": 250112295,
+        "eventId": "250112295",
         "id": "ESTA:250112295",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-29T21:29:00.000Z",
-        "updated": "2025-01-30T03:32:00.000Z",
-        "resources": 22,
+        "category2": "Structure Fire",
+        "created": "2025-01-30T03:32:30.000Z",
+        "updated": "2025-01-30T03:32:30.000Z",
+        "resources": 5,
         "location": "Chesterville Rd, Cheltenham",
-        "size": "Medium",
-        "sizeFmt": "Medium"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250112295"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0590132168206,
-          -37.94875419749306
+          145.05901547067253,
+          -37.94875080154082
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 203319,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203319,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mickleham Rd",
-        "eventId": 250112493,
-        "id": "ESTA:250112493",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-30T05:14:00.000Z",
-        "updated": "2025-01-30T09:01:00.000Z",
-        "resources": 0,
-        "location": "Mickleham Rd, Mickleham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.87663617439048,
-          -37.58038568682462
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 203347,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203347,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bellbird St",
-        "eventId": 250112574,
-        "id": "ESTA:250112574",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-01-30T08:35:00.000Z",
-        "updated": "2025-01-30T09:03:00.000Z",
-        "resources": 0,
-        "location": "Bellbird St, Loch Sport",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.59569350436274,
-          -38.03733614779361
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
         "cfaId": 203349,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203349,
-        "sourceFeed": "cfa-incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112586",
+        "sourceFeed": "mfb-incident",
         "sourceTitle": "Mortlake Rd",
-        "eventId": 250112586,
+        "eventId": "250112586",
         "id": "ESTA:250112586",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-30T09:24:00.000Z",
-        "updated": "2025-01-30T09:26:00.000Z",
-        "resources": 8,
+        "created": "2025-01-30T09:26:29.000Z",
+        "updated": "2025-01-30T09:26:29.000Z",
+        "resources": 5,
         "location": "Mortlake Rd, Warrnambool",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250112586"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.49286103786915,
+          -38.36869674118459
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 203350,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203350,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rowe St",
+        "eventId": 250112587,
+        "id": "ESTA:250112587",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-30T09:38:00.000Z",
+        "updated": "2025-01-30T09:42:00.000Z",
+        "resources": 0,
+        "location": "Rowe St, Ouyen",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2618,8 +2595,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4928530559721,
-          -38.36869950187445
+          142.31691332715724,
+          -35.06775687005503
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250112591",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112591",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mcintyre Rd",
+        "id": "ESTA:250112591",
+        "eventId": "250112591",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-30T10:12:38.000Z",
+        "updated": "2025-01-30T10:12:38.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mcintyre Rd, Sunshine North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.83302254681,
+          -37.75360277554216
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250112584",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112584",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bromyard St",
+        "id": "ESTA:250112584",
+        "eventId": "250112584",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-01-30T09:27:15.000Z",
+        "updated": "2025-01-30T09:27:15.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bromyard St, Yarraville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8721252938699,
+          -37.81585699767959
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250112589",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250112589",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Carlisle St",
+        "id": "ESTA:250112589",
+        "eventId": "250112589",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-30T10:06:53.000Z",
+        "updated": "2025-01-30T10:06:53.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Carlisle St, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98808907663016,
+          -37.86791187266552
         ]
       }
     }
@@ -2851,7 +2915,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-30T09:50:19.895Z",
-    "featureCount": 363
+    "lastUpdated": "2025-01-30T10:24:59.824Z",
+    "featureCount": 365
   }
 }
