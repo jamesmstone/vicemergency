@@ -2122,34 +2122,94 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118254509,
+        "status": "Responding",
+        "estaId": 118254692,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250112586",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mortlake Rd",
-        "eventId": "250112586",
-        "id": "ESTA:250112586",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118254692,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Coomealla (Nsw)",
+        "eventId": "F250112588",
+        "id": "ESTA:250112588",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-01-30T09:26:29.000Z",
-        "updated": "2025-01-30T09:26:29.000Z",
-        "resources": 5,
-        "location": "Mortlake Rd, Warrnambool",
-        "cfaId": 203349,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250112586"
+        "created": "2025-01-30T09:37:18.000Z",
+        "updated": "2025-01-30T09:41:29.138Z",
+        "resources": 0,
+        "location": "Silver City Hwy, Coomealla (Nsw)"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.49286103786915,
-          -38.36869674118459
+          142.06254517958484,
+          -34.094938296937805
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118254654,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203350,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rowe St",
+        "eventId": 250112587,
+        "id": "ESTA:250112587",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-01-30T09:38:00.000Z",
+        "updated": "2025-01-30T09:42:00.000Z",
+        "resources": 0,
+        "location": "Rowe St, Ouyen",
+        "cfaId": 203350,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.31691332715724,
+          -35.06775687005503
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118253684,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203344,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barmah River Rd",
+        "eventId": 250112564,
+        "id": "ESTA:250112564",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-01-30T08:04:00.000Z",
+        "updated": "2025-01-30T09:47:00.000Z",
+        "resources": 0,
+        "location": "Barmah River Rd, Moama (Nsw)",
+        "cfaId": 203344,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92656461818603,
+          -35.9908994972983
         ]
       }
     },
@@ -2169,8 +2229,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-01-30T09:27:00.000Z",
-        "updated": "2025-01-30T09:28:00.000Z",
-        "resources": 0,
+        "updated": "2025-01-30T09:42:00.000Z",
+        "resources": 1,
         "location": "Miepoll",
         "sesId": 558127
       },
@@ -2278,28 +2338,27 @@
         "status": "Under Control",
         "cfaId": 189816,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "241122036",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Casterton-Edenhope Rd",
-        "eventId": "241122036",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 189816,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kadnook-Casterton-Edenhope Rd",
+        "eventId": 241122036,
         "id": "ESTA:241122036",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-01T08:53:53.000Z",
-        "updated": "2025-01-01T08:53:53.000Z",
-        "resources": 0,
-        "location": "Casterton-Edenhope Rd, Kadnook",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "241122036"
+        "category2": "Bushfire",
+        "created": "2024-11-16T02:44:00.000Z",
+        "updated": "2025-01-01T08:54:00.000Z",
+        "resources": 2,
+        "location": "Kadnook-Casterton-Edenhope Rd, Kadnook",
+        "size": "Large",
+        "sizeFmt": "Large"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.3739967181328,
-          -37.16936964424308
+          141.3739869564197,
+          -37.16937114775964
         ]
       }
     },
@@ -2453,57 +2512,27 @@
         "status": "Under Control",
         "cfaId": 203241,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250112295",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203241,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Chesterville Rd",
-        "eventId": "250112295",
+        "eventId": 250112295,
         "id": "ESTA:250112295",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-01-30T03:32:30.000Z",
-        "updated": "2025-01-30T03:32:30.000Z",
-        "resources": 5,
+        "category2": "Building Fire",
+        "created": "2025-01-29T21:29:00.000Z",
+        "updated": "2025-01-30T03:32:00.000Z",
+        "resources": 22,
         "location": "Chesterville Rd, Cheltenham",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250112295"
+        "size": "Medium",
+        "sizeFmt": "Medium"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05901547067253,
-          -37.94875080154082
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 203344,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203344,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Barmah River Rd",
-        "eventId": 250112564,
-        "id": "ESTA:250112564",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-01-30T08:04:00.000Z",
-        "updated": "2025-01-30T08:04:00.000Z",
-        "resources": 1,
-        "location": "Barmah River Rd, Moama (Nsw)",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92656461818603,
-          -35.9908994972983
+          145.0590132168206,
+          -37.94875419749306
         ]
       }
     },
@@ -2567,88 +2596,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250112567",
+        "status": "Not Yet Under Control",
+        "cfaId": 203349,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250112567",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Elizabeth St",
-        "id": "ESTA:250112567",
-        "eventId": "250112567",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203349,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mortlake Rd",
+        "eventId": 250112586,
+        "id": "ESTA:250112586",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-30T08:28:07.000Z",
-        "updated": "2025-01-30T08:28:07.000Z",
-        "resources": 1,
+        "created": "2025-01-30T09:24:00.000Z",
+        "updated": "2025-01-30T09:26:00.000Z",
+        "resources": 8,
+        "location": "Mortlake Rd, Warrnambool",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Elizabeth St, Coburg North"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98376588988802,
-          -37.72957932816562
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250112584",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250112584",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bromyard St",
-        "id": "ESTA:250112584",
-        "eventId": "250112584",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-30T09:27:15.000Z",
-        "updated": "2025-01-30T09:27:15.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Bromyard St, Yarraville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8721252938699,
-          -37.81585699767959
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250112582",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250112582",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Frankston",
-        "id": "ESTA:250112582",
-        "eventId": "250112582",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-30T09:25:04.000Z",
-        "updated": "2025-01-30T09:25:04.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Frankston, Frankston"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17292585838592,
-          -38.14132776698183
+          142.4928530559721,
+          -38.36869950187445
         ]
       }
     }
@@ -2880,7 +2851,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-30T09:34:19.826Z",
-    "featureCount": 364
+    "lastUpdated": "2025-01-30T09:50:19.895Z",
+    "featureCount": 363
   }
 }
