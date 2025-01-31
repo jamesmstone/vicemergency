@@ -2451,23 +2451,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118269935,
+        "estaId": 118270025,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 203562,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hirata Bvd",
-        "eventId": 250200025,
-        "id": "ESTA:250200025",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250200030",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Birdswing Tce",
+        "eventId": "250200030",
+        "id": "ESTA:250200030",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-01-31T15:21:00.000Z",
-        "updated": "2025-01-31T15:21:00.000Z",
-        "resources": 2,
-        "location": "Hirata Bvd, Wyndham Vale",
-        "cfaId": 203562,
+        "created": "2025-01-31T15:40:49.000Z",
+        "updated": "2025-01-31T15:40:49.000Z",
+        "resources": 1,
+        "location": "Birdswing Tce, Melton South",
+        "mfbId": "250200030",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2475,41 +2475,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.61947025987857,
-          -37.870193598783494
+          144.57424075039924,
+          -37.71666013272956
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118269940,
+        "status": "Safe",
+        "estaId": 118269713,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250200026",
+        "sourceId": "250200017",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Heyington Av",
-        "eventId": "250200026",
-        "id": "ESTA:250200026",
+        "sourceTitle": "Produce Dr",
+        "eventId": "250200017",
+        "id": "ESTA:250200017",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-01-31T15:29:14.000Z",
-        "updated": "2025-01-31T15:29:14.000Z",
-        "resources": 3,
-        "location": "Heyington Av, Thomastown",
-        "cfaId": 203563,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-01-31T15:45:35.000Z",
+        "updated": "2025-01-31T15:45:35.000Z",
+        "resources": 2,
+        "location": "Produce Dr, Epping",
+        "mfbId": "250200017",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250200026"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02370709265853,
-          -37.68349873520347
+          144.99704198946287,
+          -37.65473933911675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118270000,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250200029",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Frankston",
+        "eventId": "250200029",
+        "id": "ESTA:250200029",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-31T15:45:36.000Z",
+        "updated": "2025-01-31T15:45:36.000Z",
+        "resources": 1,
+        "location": "Frankston, Frankston",
+        "mfbId": "250200029",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16904231607504,
+          -38.13899101839116
         ]
       }
     },
@@ -2874,6 +2905,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "587844",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Logan Rd, North Albury",
+        "id": "2025-02-01T02:45:00.0000000:587844",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Logan Rd, North Albury",
+        "location": "489 Logan Rd, North Albury, Nsw 2640",
+        "created": "2025-02-01T02:45:00+11:00",
+        "updated": "2025-02-01T02:45:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.92408,
+          -36.0569139999999
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -3163,59 +3224,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250200017",
+        "status": "Under Control",
+        "cfaId": 203563,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250200017",
+        "sourceId": "250200026",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Produce Dr",
-        "id": "ESTA:250200017",
-        "eventId": "250200017",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-01-31T15:01:50.000Z",
-        "updated": "2025-01-31T15:01:50.000Z",
-        "resources": 2,
+        "sourceTitle": "Heyington Av",
+        "eventId": "250200026",
+        "id": "ESTA:250200026",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-01-31T15:31:04.000Z",
+        "updated": "2025-01-31T15:31:04.000Z",
+        "resources": 3,
+        "location": "Heyington Av, Thomastown",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Produce Dr, Epping"
+        "mfbId": "250200026"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99704198946287,
-          -37.65473933911675
+          145.02370709265853,
+          -37.68349873520347
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250200024",
+        "status": "Safe",
+        "cfaId": 203562,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250200024",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ringwood",
-        "id": "ESTA:250200024",
-        "eventId": "250200024",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-01-31T15:26:37.000Z",
-        "updated": "2025-01-31T15:26:37.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203562,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hirata Bvd",
+        "eventId": 250200025,
+        "id": "ESTA:250200025",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-01-31T15:21:00.000Z",
+        "updated": "2025-01-31T15:34:00.000Z",
+        "resources": 2,
+        "location": "Hirata Bvd, Wyndham Vale",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ringwood, Ringwood"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23746053596548,
-          -37.81116713098872
+          144.61947025987857,
+          -37.870193598783494
         ]
       }
     },
@@ -3501,7 +3563,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-01-31T15:30:40.037Z",
-    "featureCount": 369
+    "lastUpdated": "2025-01-31T15:50:06.028Z",
+    "featureCount": 371
   }
 }
