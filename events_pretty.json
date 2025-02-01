@@ -2293,31 +2293,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118282719,
+        "status": "Safe",
+        "estaId": 118282504,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 558268,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250250078,
-        "id": "ESTA:250250078",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 203725,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fellows Rd",
+        "eventId": 250200465,
+        "id": "ESTA:250200465",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-02-01T17:24:00.000Z",
-        "updated": "2025-02-01T17:28:00.000Z",
-        "resources": 0,
-        "location": "Cremorne",
-        "sesId": 558268
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-01T16:39:00.000Z",
+        "updated": "2025-02-01T17:31:00.000Z",
+        "resources": 1,
+        "location": "Fellows Rd, Mickleham",
+        "cfaId": 203725,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99033419046077,
-          -37.826186112984004
+          144.9048801206656,
+          -37.52087049381402
         ]
       }
     },
@@ -2886,36 +2888,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 203725,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250200465",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mickleham",
-        "eventId": "250200465",
-        "id": "ESTA:250200465",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-01T17:09:24.000Z",
-        "updated": "2025-02-01T17:09:24.000Z",
-        "resources": 1,
-        "location": "Mickleham, Mickleham",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250200465"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.90488853688595,
-          -37.520863799768115
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 203726,
         "feedType": "incident",
@@ -2975,35 +2947,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250200464",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250200464",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burnley",
-        "id": "ESTA:250200464",
-        "eventId": "250200464",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-01T16:45:07.000Z",
-        "updated": "2025-02-01T16:45:07.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Burnley, Burnley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02211628232794,
-          -37.826545899578385
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "mfbId": "250200473",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3014,8 +2957,8 @@
         "eventId": "250200473",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-01T17:28:49.000Z",
-        "updated": "2025-02-01T17:28:49.000Z",
+        "created": "2025-02-01T17:39:12.000Z",
+        "updated": "2025-02-01T17:39:12.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -3108,6 +3051,33 @@
         "coordinates": [
           147.155850577075,
           -36.451188249663595
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 558268,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 558268,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250250078,
+        "id": "ESTA:250250078",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-02-01T17:24:00.000Z",
+        "updated": "2025-02-01T17:28:00.000Z",
+        "resources": 0,
+        "location": "Cremorne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99033419046077,
+          -37.826186112984004
         ]
       }
     }
@@ -3233,15 +3203,15 @@
         },
         {
           "fdr": {
-            "East Gippsland": "HIGH",
-            "West and South Gippsland": "HIGH",
-            "North East": "HIGH",
-            "Central": "HIGH",
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "HIGH",
             "Wimmera": "HIGH",
-            "Mallee": "MODERATE"
+            "Mallee": "MODERATE",
+            "East Gippsland": "HIGH",
+            "West and South Gippsland": "HIGH",
+            "North East": "HIGH",
+            "Central": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -3339,7 +3309,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-01T17:30:25.974Z",
-    "featureCount": 364
+    "lastUpdated": "2025-02-01T17:50:05.703Z",
+    "featureCount": 363
   }
 }
