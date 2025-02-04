@@ -3493,30 +3493,33 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118317266,
+        "status": "Not Yet Under Control",
+        "estaId": 118318446,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118317266,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Langwarrin",
-        "eventId": "F250202236",
-        "id": "ESTA:250202236",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 204643,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Millar Rd",
+        "eventId": 250202263,
+        "id": "ESTA:250202263",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-04T11:59:05.000Z",
-        "updated": "2025-02-04T15:45:59.547Z",
-        "resources": 0,
-        "location": "Potts Rd, Langwarrin"
+        "category2": "Other",
+        "created": "2025-02-04T16:00:00.000Z",
+        "updated": "2025-02-04T16:00:00.000Z",
+        "resources": 4,
+        "location": "Millar Rd, Yanakie",
+        "cfaId": 204643,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2035079956834,
-          -38.128441148200146
+          146.19016947674714,
+          -38.83065544286858
         ]
       }
     },
@@ -4287,93 +4290,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 204640,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204640,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rimmington Dr",
-        "eventId": 250202252,
-        "id": "ESTA:250202252",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-04T14:18:00.000Z",
-        "updated": "2025-02-04T14:55:00.000Z",
-        "resources": 0,
-        "location": "Rimmington Dr, Sebastopol",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.84595210931482,
-          -37.60704023850805
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 204499,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204499,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250202001,
-        "id": "ESTA:250202001",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-04T03:42:00.000Z",
-        "updated": "2025-02-04T15:04:00.000Z",
-        "resources": 0,
-        "location": "Lillimur",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.10663409330346,
-          -36.51340224227655
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250202257",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250202257",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Heather Ct",
-        "id": "ESTA:250202257",
-        "eventId": "250202257",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-04T15:15:39.000Z",
-        "updated": "2025-02-04T15:15:39.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Heather Ct, Glenroy"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9196005046546,
-          -37.69791791430523
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 559680,
         "feedType": "incident",
@@ -4425,6 +4341,33 @@
           -37.89047618181657
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 559761,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 559761,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250251614,
+        "id": "ESTA:250251614",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-04T16:07:00.000Z",
+        "updated": "2025-02-04T16:25:00.000Z",
+        "resources": 1,
+        "location": "Delburn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.23155941742962,
+          -38.332220812653524
+        ]
+      }
     }
   ],
   "properties": {
@@ -4441,7 +4384,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4449,7 +4391,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4465,7 +4408,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4473,7 +4415,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-02-04T13:00:00.000Z",
           "heat": {
@@ -4654,7 +4597,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-04T15:50:20.204Z",
-    "featureCount": 422
+    "lastUpdated": "2025-02-04T16:29:25.648Z",
+    "featureCount": 420
   }
 }
