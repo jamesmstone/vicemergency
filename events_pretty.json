@@ -3353,7 +3353,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "estaId": 118330932,
         "feedType": "incident",
         "source": "000",
@@ -3367,7 +3367,7 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-02-05T18:50:00.000Z",
-        "updated": "2025-02-05T19:15:00.000Z",
+        "updated": "2025-02-05T19:26:00.000Z",
         "resources": 6,
         "location": "Harrietville",
         "cfaId": 204825,
@@ -3386,30 +3386,95 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
         "estaId": 118331026,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118331026,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Clonbinane",
-        "eventId": "S250251731",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 559871,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250251731,
         "id": "ESTA:250251731",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-02-05T19:16:56.000Z",
-        "updated": "2025-02-05T19:18:48.587Z",
+        "created": "2025-02-05T19:19:00.000Z",
+        "updated": "2025-02-05T19:23:00.000Z",
         "resources": 0,
-        "location": "Spur Rd, Clonbinane"
+        "location": "Clonbinane",
+        "sesId": 559871
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06818657683965,
-          -37.29130172839827
+          145.06817424924628,
+          -37.29131437866742
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118331034,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250202728",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pascoe Vale Rd",
+        "eventId": "250202728",
+        "id": "ESTA:250202728",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-05T19:23:27.000Z",
+        "updated": "2025-02-05T19:23:27.000Z",
+        "resources": 2,
+        "location": "Pascoe Vale Rd, Strathmore",
+        "mfbId": "250202728",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9258229420242,
+          -37.73581065323694
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118331045,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250202729",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Park Lane",
+        "eventId": "250202729",
+        "id": "ESTA:250202729",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-05T19:24:51.000Z",
+        "updated": "2025-02-05T19:24:51.000Z",
+        "resources": 1,
+        "location": "Park Lane, Traralgon",
+        "mfbId": "250202729",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.55281353362702,
+          -38.18856199373769
         ]
       }
     },
@@ -4185,6 +4250,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 204827,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 204827,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Yanco Ct",
+        "eventId": 250202727,
+        "id": "ESTA:250202727",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-05T19:19:00.000Z",
+        "updated": "2025-02-05T19:19:00.000Z",
+        "resources": 1,
+        "location": "Yanco Ct, Cobram",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.65570924207603,
+          -35.91834910042671
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 559867,
         "feedType": "incident",
@@ -4224,8 +4318,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-02-05T19:00:00.000Z",
-        "updated": "2025-02-05T19:03:00.000Z",
-        "resources": 0,
+        "updated": "2025-02-05T19:24:00.000Z",
+        "resources": 1,
         "location": "Koonwarra"
       },
       "type": "Feature",
@@ -4465,7 +4559,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-05T19:19:26.095Z",
-    "featureCount": 409
+    "lastUpdated": "2025-02-05T19:30:20.407Z",
+    "featureCount": 412
   }
 }
