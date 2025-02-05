@@ -2261,8 +2261,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T02:20:00.000Z",
-        "updated": "2025-02-05T13:22:00.000Z",
-        "resources": 5,
+        "updated": "2025-02-05T23:09:00.000Z",
+        "resources": 9,
         "size": "94409.00",
         "sizeFmt": "94409.00 Ha.",
         "location": "15Km N Of Goroke"
@@ -2354,6 +2354,33 @@
         "coordinates": [
           145.79054,
           -36.223353
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1003946,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Mallee 29 - Coligan - Hewett Rd",
+        "id": 1003946,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-02T06:00:00.000Z",
+        "updated": "2025-02-05T23:16:00.000Z",
+        "resources": 0,
+        "size": "1.00",
+        "sizeFmt": "1.00 Ha.",
+        "location": "4Km Sse Of Nangiloc"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3802,
+          -34.5085
         ]
       }
     },
@@ -3033,6 +3060,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1625350",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Frances Road, Hynam",
+        "id": "1625350",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "name": "Frances Road, Hynam",
+        "created": "2025-02-05T23:19:00.000Z",
+        "updated": "2025-02-05T23:19:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Frances Road, Hynam"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.856244277848,
+          -36.9327567961113
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -3174,98 +3227,65 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 118332659,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 559883,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250251742,
-        "id": "ESTA:250251742",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-05T23:07:00.000Z",
-        "updated": "2025-02-05T23:18:00.000Z",
-        "resources": 1,
-        "location": "East Wangaratta",
-        "sesId": 559883
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.38991510514194,
-          -36.37544594062621
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118332666,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204845,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Forest Rd",
-        "eventId": 250202786,
-        "id": "ESTA:250202786",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-05T23:08:00.000Z",
-        "updated": "2025-02-05T23:08:00.000Z",
-        "resources": 2,
-        "location": "Forest Rd, Labertouche",
-        "cfaId": 204845,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8085183244721,
-          -38.02585900055797
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118332375,
+        "estaId": 118332852,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 559879,
+        "sourceId": 559884,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250251737,
-        "id": "ESTA:250251737",
+        "eventId": 250251743,
+        "id": "ESTA:250251743",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-02-05T22:36:00.000Z",
-        "updated": "2025-02-05T23:17:00.000Z",
+        "created": "2025-02-05T23:23:00.000Z",
+        "updated": "2025-02-05T23:26:00.000Z",
         "resources": 0,
-        "location": "Cowes",
-        "sesId": 559879
+        "location": "Somers",
+        "sesId": 559884
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22013692720265,
-          -38.46362740746163
+          145.17666434744143,
+          -38.38530918072186
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 118332893,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118332893,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Strathmore",
+        "eventId": "F250202800",
+        "id": "ESTA:250202800",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-05T23:24:45.000Z",
+        "updated": "2025-02-05T23:26:05.006Z",
+        "resources": 0,
+        "location": "Strathmore"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92905842216868,
+          -37.74082802456351
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 118332777,
         "feedType": "incident",
         "source": "STATION",
@@ -3298,116 +3318,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118332780,
+        "estaId": 118332942,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118332780,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Sunshine West",
-        "eventId": "F250202792",
-        "id": "ESTA:250202792",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-05T23:16:23.000Z",
-        "updated": "2025-02-05T23:17:53.708Z",
-        "resources": 0,
-        "location": "Sunshine West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8109089353433,
-          -37.81264109320303
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118332782,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118332782,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Sunshine West",
-        "eventId": "F250202794",
-        "id": "ESTA:250202794",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-05T23:14:04.000Z",
-        "updated": "2025-02-05T23:18:04.823Z",
-        "resources": 0,
-        "location": "Sunshine West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8109089353433,
-          -37.81264109320303
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118332807,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118332807,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Fitzroy North",
-        "eventId": "F250202795",
-        "id": "ESTA:250202795",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-05T23:18:54.000Z",
-        "updated": "2025-02-05T23:19:52.872Z",
-        "resources": 0,
-        "location": "Rowe St, Fitzroy North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98873424808363,
-          -37.78587161721144
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118332813,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118332813,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Southbank",
-        "eventId": "F250202796",
-        "id": "ESTA:250202796",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 204847,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250202801,
+        "id": "ESTA:250202801",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-05T23:19:18.000Z",
-        "updated": "2025-02-05T23:20:28.488Z",
+        "category2": "Other",
+        "created": "2025-02-05T23:30:00.000Z",
+        "updated": "2025-02-05T23:30:00.000Z",
         "resources": 0,
-        "location": "Sturt St, Southbank"
+        "location": "Colac",
+        "cfaId": 204847,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96580950555585,
-          -37.82970097081612
+          143.59055783832056,
+          -38.3524872424736
         ]
       }
     },
@@ -3473,23 +3409,53 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "588444",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Silver City Hwy, Buronga",
+        "id": "2025-02-06T10:19:00.0000000:588444",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Silver City Hwy, Buronga",
+        "location": "Silver City Hwy, Buronga 2739",
+        "created": "2025-02-06T10:19:00+11:00",
+        "updated": "2025-02-06T10:19:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.180999755,
+          -34.1711006159999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "588332",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Hay St, Moulamein",
-        "id": "2025-02-05T15:37:00.0000000:588332",
+        "id": "2025-02-06T10:22:00.0000000:588332",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Hay St, Moulamein",
         "location": "Hay St, Moulamein 2733",
-        "created": "2025-02-05T15:37:00+11:00",
-        "updated": "2025-02-05T15:37:00+11:00",
+        "created": "2025-02-06T10:22:00+11:00",
+        "updated": "2025-02-06T10:22:00+11:00",
         "webHeadline": "Unknown",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
-          "0 ha"
+          "2 ha"
         ]
       },
       "type": "Feature",
@@ -3648,92 +3614,6 @@
         "coordinates": [
           142.063908577,
           -34.168315869
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "587694",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Barmah River Rd, Moama",
-        "id": "2025-02-05T12:25:00.0000000:587694",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Barmah River Rd, Moama",
-        "location": "Barmah River Rd, Moama 2731",
-        "created": "2025-02-05T12:25:00+11:00",
-        "updated": "2025-02-05T12:25:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.9415,
-                  -36.004
-                ],
-                [
-                  144.9408,
-                  -36.0038
-                ],
-                [
-                  144.9406,
-                  -36.0035
-                ],
-                [
-                  144.9407,
-                  -36.003
-                ],
-                [
-                  144.9409,
-                  -36.0028
-                ],
-                [
-                  144.9408,
-                  -36.0025
-                ],
-                [
-                  144.941,
-                  -36.0024
-                ],
-                [
-                  144.9418,
-                  -36.0027
-                ],
-                [
-                  144.942,
-                  -36.0032
-                ],
-                [
-                  144.9421,
-                  -36.0037
-                ],
-                [
-                  144.9415,
-                  -36.004
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.94117679,
-              -36.0032314499999
-            ]
-          }
         ]
       }
     },
@@ -4012,6 +3892,92 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "587694",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Barmah River Rd, Moama",
+        "id": "2025-02-05T12:25:00.0000000:587694",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Barmah River Rd, Moama",
+        "location": "Barmah River Rd, Moama 2731",
+        "created": "2025-02-05T12:25:00+11:00",
+        "updated": "2025-02-05T12:25:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.9415,
+                  -36.004
+                ],
+                [
+                  144.9408,
+                  -36.0038
+                ],
+                [
+                  144.9406,
+                  -36.0035
+                ],
+                [
+                  144.9407,
+                  -36.003
+                ],
+                [
+                  144.9409,
+                  -36.0028
+                ],
+                [
+                  144.9408,
+                  -36.0025
+                ],
+                [
+                  144.941,
+                  -36.0024
+                ],
+                [
+                  144.9418,
+                  -36.0027
+                ],
+                [
+                  144.942,
+                  -36.0032
+                ],
+                [
+                  144.9421,
+                  -36.0037
+                ],
+                [
+                  144.9415,
+                  -36.004
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              144.94117679,
+              -36.0032314499999
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 189816,
@@ -4154,35 +4120,6 @@
         "coordinates": [
           145.95929679516937,
           -37.02563119819346
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 204842,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204842,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Barwon Heads Rd",
-        "eventId": 250202777,
-        "id": "ESTA:250202777",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-05T22:16:00.000Z",
-        "updated": "2025-02-05T22:30:00.000Z",
-        "resources": 0,
-        "location": "Barwon Heads Rd, Armstrong Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.37148792192824,
-          -38.22644481962587
         ]
       }
     },
@@ -4335,6 +4272,35 @@
     {
       "properties": {
         "status": "Responding",
+        "cfaId": 204845,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 204845,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Forest Rd",
+        "eventId": 250202786,
+        "id": "ESTA:250202786",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-05T23:08:00.000Z",
+        "updated": "2025-02-05T23:08:00.000Z",
+        "resources": 1,
+        "location": "Forest Rd, Labertouche",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8085183244721,
+          -38.02585900055797
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
         "mfbId": "250202785",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4392,7 +4358,61 @@
     },
     {
       "properties": {
+        "status": "Complete",
+        "sesId": 559879,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 559879,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250251737,
+        "id": "ESTA:250251737",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-05T22:36:00.000Z",
+        "updated": "2025-02-05T23:17:00.000Z",
+        "resources": 0,
+        "location": "Cowes"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22013692720265,
+          -38.46362740746163
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
+        "sesId": 559883,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 559883,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250251742,
+        "id": "ESTA:250251742",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-05T23:07:00.000Z",
+        "updated": "2025-02-05T23:18:00.000Z",
+        "resources": 1,
+        "location": "East Wangaratta"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38991510514194,
+          -36.37544594062621
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
         "sesId": 559882,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -4404,8 +4424,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-02-05T23:03:00.000Z",
-        "updated": "2025-02-05T23:07:00.000Z",
-        "resources": 0,
+        "updated": "2025-02-05T23:31:00.000Z",
+        "resources": 1,
         "location": "Pakenham"
       },
       "type": "Feature",
@@ -4645,7 +4665,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-05T23:22:00.314Z",
-    "featureCount": 419
+    "lastUpdated": "2025-02-05T23:32:00.222Z",
+    "featureCount": 420
   }
 }
