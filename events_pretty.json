@@ -2377,8 +2377,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T02:20:00.000Z",
-        "updated": "2025-02-06T07:50:00.000Z",
-        "resources": 9,
+        "updated": "2025-02-06T13:44:00.000Z",
+        "resources": 14,
         "size": "94708.00",
         "sizeFmt": "94708.00 Ha.",
         "location": "15Km N Of Goroke"
@@ -2404,7 +2404,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T06:44:00.000Z",
-        "updated": "2025-02-06T03:42:00.000Z",
+        "updated": "2025-02-06T13:54:00.000Z",
         "resources": 32,
         "size": "59201.00",
         "sizeFmt": "59201.00 Ha.",
@@ -2593,7 +2593,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-04T02:52:00.000Z",
-        "updated": "2025-02-06T13:03:00.000Z",
+        "updated": "2025-02-06T14:04:00.000Z",
         "resources": 32,
         "size": "752.00",
         "sizeFmt": "752.00 Ha.",
@@ -3128,24 +3128,57 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118341884,
+        "status": "Not Yet Under Control",
+        "estaId": 118342024,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204981,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parker Rd",
-        "eventId": 250203131,
-        "id": "ESTA:250203131",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250203136",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Eastern Beach Rd",
+        "eventId": "250203136",
+        "id": "ESTA:250203136",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-06T13:43:00.000Z",
-        "updated": "2025-02-06T13:43:00.000Z",
-        "resources": 0,
-        "location": "Parker Rd, Silvan",
-        "cfaId": 204981,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-06T14:16:43.000Z",
+        "updated": "2025-02-06T14:16:43.000Z",
+        "resources": 5,
+        "location": "Eastern Beach Rd, Geelong",
+        "cfaId": 204985,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250203136"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3716081112188,
+          -38.14713804629381
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118341955,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250203134",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Walsh St",
+        "eventId": "250203134",
+        "id": "ESTA:250203134",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-06T14:17:35.000Z",
+        "updated": "2025-02-06T14:17:35.000Z",
+        "resources": 5,
+        "location": "Walsh St, Broadmeadows",
+        "mfbId": "250203134",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3153,14 +3186,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.44024137317024,
-          -37.82859864587939
+          144.9233090765161,
+          -37.68629682076359
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 118342010,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250203135",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Walsh St",
+        "eventId": "250203135",
+        "id": "ESTA:250203135",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-06T14:18:22.000Z",
+        "updated": "2025-02-06T14:18:22.000Z",
+        "resources": 1,
+        "location": "Walsh St, Noble Park",
+        "cfaId": 204984,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250203135"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16723037749475,
+          -37.9653705909974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 118341861,
         "feedType": "incident",
         "source": "000",
@@ -3174,8 +3240,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-02-06T13:40:00.000Z",
-        "updated": "2025-02-06T13:40:00.000Z",
-        "resources": 1,
+        "updated": "2025-02-06T14:19:00.000Z",
+        "resources": 3,
         "location": "Parker Rd, Silvan",
         "cfaId": 204980,
         "size": "Small",
@@ -3187,164 +3253,6 @@
         "coordinates": [
           145.44024137317024,
           -37.82859864587939
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118341886,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 559955,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250251826,
-        "id": "ESTA:250251826",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-02-06T13:43:00.000Z",
-        "updated": "2025-02-06T13:45:00.000Z",
-        "resources": 0,
-        "location": "Vermont South",
-        "sesId": 559955
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.187258573557,
-          -37.850056252114754
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 118341817,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204979,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Samaria Rd",
-        "eventId": 250203128,
-        "id": "ESTA:250203128",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-06T13:34:00.000Z",
-        "updated": "2025-02-06T13:47:00.000Z",
-        "resources": 2,
-        "location": "Samaria Rd, Benalla",
-        "cfaId": 204979,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.99602771509078,
-          -36.55562381026875
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118341912,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204982,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parker Rd",
-        "eventId": 250203132,
-        "id": "ESTA:250203132",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-06T13:47:00.000Z",
-        "updated": "2025-02-06T13:47:00.000Z",
-        "resources": 0,
-        "location": "Parker Rd, Silvan",
-        "cfaId": 204982,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.44133113253753,
-          -37.82756764549522
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118341839,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250203129",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Shelley St",
-        "eventId": "250203129",
-        "id": "ESTA:250203129",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-06T13:47:40.000Z",
-        "updated": "2025-02-06T13:47:40.000Z",
-        "resources": 2,
-        "location": "Shelley St, Elwood",
-        "mfbId": "250203129",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.981812368336,
-          -37.88042571471182
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118341920,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204983,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Arthurs Seat Rd",
-        "eventId": 250203133,
-        "id": "ESTA:250203133",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-06T13:49:00.000Z",
-        "updated": "2025-02-06T13:49:00.000Z",
-        "resources": 0,
-        "location": "Arthurs Seat Rd, Red Hill",
-        "cfaId": 204983,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01737308652986,
-          -38.37173799719154
         ]
       }
     },
@@ -3977,93 +3885,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 204974,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204974,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Scorpio Dr",
-        "eventId": 250203114,
-        "id": "ESTA:250203114",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-06T12:44:00.000Z",
-        "updated": "2025-02-06T12:51:00.000Z",
-        "resources": 0,
-        "location": "Scorpio Dr, Moe",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.24968521599519,
-          -38.19417942120914
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 204967,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204967,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Clyde St",
-        "eventId": 250203096,
-        "id": "ESTA:250203096",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-06T11:39:00.000Z",
-        "updated": "2025-02-06T13:17:00.000Z",
-        "resources": 0,
-        "location": "Clyde St, Lilydale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34065084886907,
-          -37.758014113599685
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 204978,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 204978,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sun Valley Rd",
-        "eventId": 250203125,
-        "id": "ESTA:250203125",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-06T13:23:00.000Z",
-        "updated": "2025-02-06T13:23:00.000Z",
-        "resources": 2,
-        "location": "Sun Valley Rd, Falls Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.27910277079215,
-          -36.878351485610416
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 204977,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4093,90 +3914,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "mfbId": "250203123",
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 559954,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250203123",
-        "eventId": 250203123,
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-02-06T13:16:00.000Z",
-        "updated": "2025-02-06T13:22:00.000Z",
-        "resources": 5,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Carrum",
-        "sesId": 559954
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12304281879787,
-          -38.07543458275214
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 559949,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 559949,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250251821,
-        "id": "ESTA:250251821",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-06T12:25:00.000Z",
-        "updated": "2025-02-06T13:01:00.000Z",
-        "resources": 1,
-        "location": "Heathcote"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.71424059467293,
-          -36.9312462653947
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 559953,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 559953,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250251825,
-        "id": "ESTA:250251825",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-06T13:06:00.000Z",
-        "updated": "2025-02-06T13:11:00.000Z",
-        "resources": 1,
-        "location": "Tooborac"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7919435295467,
-          -37.02861990895114
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 559952,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -4198,6 +3935,33 @@
         "coordinates": [
           145.2616806939144,
           -38.453726248430165
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 559954,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 559954,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250203123,
+        "id": "ESTA:250203123",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-02-06T13:16:00.000Z",
+        "updated": "2025-02-06T14:10:00.000Z",
+        "resources": 5,
+        "location": "Carrum"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12304281879787,
+          -38.07543458275214
         ]
       }
     }
@@ -4429,7 +4193,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-06T13:50:00.303Z",
-    "featureCount": 410
+    "lastUpdated": "2025-02-06T14:21:42.081Z",
+    "featureCount": 402
   }
 }
