@@ -2061,7 +2061,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T02:20:00.000Z",
-        "updated": "2025-02-07T11:00:00.000Z",
+        "updated": "2025-02-07T19:37:00.000Z",
         "resources": 13,
         "size": "95395.00",
         "sizeFmt": "95395.00 Ha.",
@@ -2088,7 +2088,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T06:44:00.000Z",
-        "updated": "2025-02-07T12:06:00.000Z",
+        "updated": "2025-02-07T19:41:00.000Z",
         "resources": 31,
         "size": "59202.00",
         "sizeFmt": "59202.00 Ha.",
@@ -3216,24 +3216,57 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118356407,
+        "status": "Responding",
+        "estaId": 118356602,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250203629",
+        "sourceId": "250203636",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Crothers St",
-        "eventId": "250203629",
-        "id": "ESTA:250203629",
+        "sourceTitle": "Fitzjohn St",
+        "eventId": "250203636",
+        "id": "ESTA:250203636",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-02-07T19:38:02.000Z",
+        "updated": "2025-02-07T19:38:02.000Z",
+        "resources": 1,
+        "location": "Fitzjohn St, Shepparton",
+        "cfaId": 205210,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250203636"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38418741512046,
+          -36.396762731524824
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118356619,
+        "feedType": "incident",
+        "source": "SPR",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 205211,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Salisbury Rd",
+        "eventId": 250203637,
+        "id": "ESTA:250203637",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-02-07T19:17:16.000Z",
-        "updated": "2025-02-07T19:17:16.000Z",
-        "resources": 6,
-        "location": "Crothers St, Braybrook",
-        "mfbId": "250203629",
+        "category2": "Building Fire",
+        "created": "2025-02-07T19:43:00.000Z",
+        "updated": "2025-02-07T19:43:00.000Z",
+        "resources": 4,
+        "location": "Salisbury Rd, Beaconsfield Upper",
+        "cfaId": 205211,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3241,8 +3274,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8605693889884,
-          -37.78794886363061
+          145.41133746824764,
+          -38.00564386681639
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118356632,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 560126,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250203638,
+        "id": "ESTA:250203638",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-02-07T19:49:00.000Z",
+        "updated": "2025-02-07T19:49:00.000Z",
+        "resources": 0,
+        "location": "Knowsley",
+        "cfaId": 205212,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 560126
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65857518730084,
+          -36.85358244020134
         ]
       }
     },
@@ -6032,8 +6098,8 @@
         "id": "ESTA:250203539",
         "category1": "Other",
         "category2": "Grass and Scrub",
-        "created": "2025-02-07T14:24:12.000Z",
-        "updated": "2025-02-07T14:24:12.000Z",
+        "created": "2025-02-07T19:34:01.000Z",
+        "updated": "2025-02-07T19:34:01.000Z",
         "resources": 1,
         "location": "Lincoln Dr, Shepparton",
         "size": "Small",
@@ -6052,6 +6118,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250203629",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250203629",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Crothers St",
+        "id": "ESTA:250203629",
+        "eventId": "250203629",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-07T19:17:16.000Z",
+        "updated": "2025-02-07T19:17:16.000Z",
+        "resources": 5,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Crothers St, Braybrook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8605693889884,
+          -37.78794886363061
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250203628",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6064,7 +6159,7 @@
         "category2": "Structure Fire",
         "created": "2025-02-07T18:41:20.000Z",
         "updated": "2025-02-07T18:41:20.000Z",
-        "resources": 5,
+        "resources": 4,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Turner Rd, Highett"
@@ -6414,7 +6509,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-07T19:30:20.091Z",
-    "featureCount": 423
+    "lastUpdated": "2025-02-07T19:50:06.199Z",
+    "featureCount": 426
   }
 }
