@@ -2598,34 +2598,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118416523,
+        "status": "Complete",
+        "estaId": 118416568,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250205695",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Plantation Rd",
-        "eventId": "250205695",
-        "id": "ESTA:250205695",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561214,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250253106,
+        "id": "ESTA:250253106",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-12T14:28:58.000Z",
-        "updated": "2025-02-12T14:28:58.000Z",
-        "resources": 2,
-        "location": "Plantation Rd, Corio",
-        "cfaId": 206023,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250205695"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-12T14:11:00.000Z",
+        "updated": "2025-02-12T14:48:00.000Z",
+        "resources": 0,
+        "location": "Irrewillipe",
+        "sesId": 561214
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34978367510368,
-          -38.06549955990771
+          143.44209469489448,
+          -38.41103525322293
         ]
       }
     },
@@ -4170,7 +4167,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 206023,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250205695",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Plantation Rd",
+        "eventId": "250205695",
+        "id": "ESTA:250205695",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-12T14:28:58.000Z",
+        "updated": "2025-02-12T14:28:58.000Z",
+        "resources": 1,
+        "location": "Plantation Rd, Corio",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250205695"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.34978367510368,
+          -38.06549955990771
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "cfaId": 206024,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4183,7 +4210,7 @@
         "category2": "Building Fire",
         "created": "2025-02-12T14:34:00.000Z",
         "updated": "2025-02-12T14:34:00.000Z",
-        "resources": 2,
+        "resources": 3,
         "location": "Amaroo Way, Newborough",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4199,7 +4226,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250205697",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4210,8 +4237,8 @@
         "eventId": "250205697",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-12T14:19:52.000Z",
-        "updated": "2025-02-12T14:19:52.000Z",
+        "created": "2025-02-12T14:41:10.000Z",
+        "updated": "2025-02-12T14:41:10.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -4304,33 +4331,6 @@
         "coordinates": [
           143.72069798796977,
           -38.63057264876933
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 561214,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 561214,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250253106,
-        "id": "ESTA:250253106",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-12T14:11:00.000Z",
-        "updated": "2025-02-12T14:25:00.000Z",
-        "resources": 1,
-        "location": "Irrewillipe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.44209469489448,
-          -38.41103525322293
         ]
       }
     },
@@ -7299,7 +7299,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-12T14:37:39.978Z",
+    "lastUpdated": "2025-02-12T14:50:06.206Z",
     "featureCount": 409
   }
 }
