@@ -3580,56 +3580,53 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118444269,
+        "status": "Responding",
+        "estaId": 118444368,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250206666",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wonga Rd",
-        "eventId": "250206666",
-        "id": "ESTA:250206666",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118444368,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Eildon",
+        "eventId": "S250253441",
+        "id": "ESTA:250253441",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-14T21:12:27.000Z",
-        "updated": "2025-02-14T21:12:27.000Z",
-        "resources": 2,
-        "location": "Wonga Rd, Ringwood North",
-        "mfbId": "250206666",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-14T21:22:55.000Z",
+        "updated": "2025-02-14T21:23:34.712Z",
+        "resources": 0,
+        "location": "Jerusalem Creek Rd, Eildon"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24850957288473,
-          -37.783186302866916
+          145.93785830162489,
+          -37.23541696113423
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118444318,
+        "estaId": 118444366,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250206670",
+        "sourceId": "250206672",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Arden St",
-        "eventId": "250206670",
-        "id": "ESTA:250206670",
+        "sourceTitle": "Hume Rd",
+        "eventId": "250206672",
+        "id": "ESTA:250206672",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-14T21:15:16.000Z",
-        "updated": "2025-02-14T21:15:16.000Z",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-14T21:25:24.000Z",
+        "updated": "2025-02-14T21:25:24.000Z",
         "resources": 2,
-        "location": "Arden St, North Melbourne",
-        "mfbId": "250206670",
+        "location": "Hume Rd, Laverton North",
+        "mfbId": "250206672",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3637,8 +3634,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94270207047992,
-          -37.79967530687559
+          144.79642085404043,
+          -37.826600532873115
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118444279,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561542,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250206668,
+        "id": "ESTA:250206668",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-02-14T21:07:00.000Z",
+        "updated": "2025-02-14T21:27:00.000Z",
+        "resources": 2,
+        "location": "Yallourn North",
+        "cfaId": 206389,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 561542
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3458318789606,
+          -38.17341294803585
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118444415,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118444415,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wantirna South",
+        "eventId": "F250206674",
+        "id": "ESTA:250206674",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-14T21:27:50.000Z",
+        "updated": "2025-02-14T21:29:46.514Z",
+        "resources": 0,
+        "location": "Bushy Park Lane, Wantirna South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20000149950417,
+          -37.871799819999154
         ]
       }
     },
@@ -6114,37 +6173,6 @@
           -37.45317376496234
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 206389,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 561542,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250206668,
-        "id": "ESTA:250206668",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-02-14T21:07:00.000Z",
-        "updated": "2025-02-14T21:10:00.000Z",
-        "resources": 3,
-        "location": "Yallourn North",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250206668",
-        "sesId": 561542
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.3458318789606,
-          -38.17341294803585
-        ]
-      }
     }
   ],
   "properties": {
@@ -6374,7 +6402,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-14T21:20:46.018Z",
-    "featureCount": 393
+    "lastUpdated": "2025-02-14T21:30:20.229Z",
+    "featureCount": 394
   }
 }
