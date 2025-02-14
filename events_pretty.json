@@ -3606,94 +3606,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1626971",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Park Terrace, Naracoorte",
-        "id": "1626971",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "name": "Park Terrace, Naracoorte",
-        "created": "2025-02-14T15:16:00.000Z",
-        "updated": "2025-02-14T15:16:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Park Terrace, Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.742982873576,
-          -36.9514281572613
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118442948,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118442948,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moorabbin",
-        "eventId": "F250206622",
-        "id": "ESTA:250206622",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-14T15:35:52.000Z",
-        "updated": "2025-02-14T15:37:11.718Z",
-        "resources": 0,
-        "location": "Railway Station Con, Moorabbin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0366338913826,
-          -37.934888198701636
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 118442850,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250206619",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "North Geelong",
-        "eventId": "250206619",
-        "id": "ESTA:250206619",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-14T15:38:21.000Z",
-        "updated": "2025-02-14T15:38:21.000Z",
-        "resources": 2,
-        "location": "North Geelong, North Geelong",
-        "cfaId": 206373,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250206619"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3491179407851,
-          -38.131937845895
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "estaId": 118442969,
         "feedType": "incident",
@@ -3706,10 +3618,10 @@
         "id": "ESTA:250206623",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-02-14T15:40:00.000Z",
         "updated": "2025-02-14T15:40:00.000Z",
-        "resources": 1,
+        "resources": 3,
         "location": "Stanley",
         "cfaId": 206374,
         "size": "Small",
@@ -3719,14 +3631,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.79024470642528,
-          -36.361926228508636
+          146.7895968043817,
+          -36.362447981345326
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118442999,
         "feedType": "incident",
         "source": "000",
@@ -3738,9 +3650,9 @@
         "id": "ESTA:250206624",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
+        "category2": "Other",
         "created": "2025-02-14T15:45:00.000Z",
-        "updated": "2025-02-14T15:45:00.000Z",
+        "updated": "2025-02-14T16:22:00.000Z",
         "resources": 0,
         "location": "Tarwin Lower Rd, Tarwin",
         "cfaId": 206375,
@@ -3753,38 +3665,6 @@
         "coordinates": [
           145.97255529721372,
           -38.59843941878725
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118442933,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250206620",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clyde Ct",
-        "eventId": "250206620",
-        "id": "ESTA:250206620",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-02-14T15:46:48.000Z",
-        "updated": "2025-02-14T15:46:48.000Z",
-        "resources": 2,
-        "location": "Clyde Ct, Oak Park",
-        "mfbId": "250206620",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91835982448646,
-          -37.712721226940864
         ]
       }
     },
@@ -6263,6 +6143,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 206373,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 206373,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250206619,
+        "id": "ESTA:250206619",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-14T15:18:00.000Z",
+        "updated": "2025-02-14T15:51:00.000Z",
+        "resources": 0,
+        "location": "North Geelong",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.34911354133834,
+          -38.131945550793276
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250206621",
         "feedType": "incident",
@@ -6287,6 +6196,35 @@
         "coordinates": [
           145.03676606586365,
           -37.935939092291534
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250206620",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250206620",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clyde Ct",
+        "id": "ESTA:250206620",
+        "eventId": "250206620",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-14T15:46:48.000Z",
+        "updated": "2025-02-14T15:46:48.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Clyde Ct, Oak Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91835982448646,
+          -37.712721226940864
         ]
       }
     }
@@ -6518,7 +6456,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-14T15:50:06.027Z",
-    "featureCount": 398
+    "lastUpdated": "2025-02-14T16:28:06.111Z",
+    "featureCount": 396
   }
 }
