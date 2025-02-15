@@ -3682,7 +3682,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 118455580,
         "feedType": "incident",
         "source": "FIP",
@@ -3697,7 +3697,7 @@
         "category2": "Building Fire",
         "created": "2025-02-15T20:09:00.000Z",
         "updated": "2025-02-15T20:09:00.000Z",
-        "resources": 5,
+        "resources": 2,
         "location": "Bradfield St, Werribee",
         "cfaId": 206527,
         "size": "Small",
@@ -3715,29 +3715,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118455619,
+        "estaId": 118455638,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118455619,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Belmont",
-        "eventId": "F250207063",
-        "id": "ESTA:250207063",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 206528,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gatehouse Lane",
+        "eventId": 250207065,
+        "id": "ESTA:250207065",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-15T20:18:41.000Z",
-        "updated": "2025-02-15T20:21:08.038Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-15T20:26:00.000Z",
+        "updated": "2025-02-15T20:26:00.000Z",
         "resources": 0,
-        "location": "Torquay Rd, Belmont"
+        "location": "Gatehouse Lane, Tallarook",
+        "cfaId": 206528,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3449241757855,
-          -38.183354598686975
+          145.09808891877194,
+          -37.09830356421171
         ]
       }
     },
@@ -4217,7 +4220,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 206526,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4228,8 +4231,8 @@
         "id": "ESTA:250207059",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-15T20:12:06.000Z",
-        "updated": "2025-02-15T20:12:06.000Z",
+        "created": "2025-02-15T20:24:21.000Z",
+        "updated": "2025-02-15T20:24:21.000Z",
         "resources": 2,
         "location": "Dandenong South, Dandenong South",
         "size": "Small",
@@ -4242,6 +4245,35 @@
         "coordinates": [
           145.24218577438216,
           -38.062858350205154
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250207063",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250207063",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Torquay Rd",
+        "id": "ESTA:250207063",
+        "eventId": "250207063",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-15T20:30:37.000Z",
+        "updated": "2025-02-15T20:30:37.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Torquay Rd, Belmont"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.34491756629157,
+          -38.18335532829123
         ]
       }
     },
@@ -4529,7 +4561,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-15T20:22:26.153Z",
-    "featureCount": 398
+    "lastUpdated": "2025-02-15T20:32:19.783Z",
+    "featureCount": 399
   }
 }
