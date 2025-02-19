@@ -3298,7 +3298,34 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1005122,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Goulburn 120 - Mooroopna - Mcfarlane Road",
+        "id": 1005122,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-16T05:34:00.000Z",
+        "updated": "2025-02-19T22:31:00.000Z",
+        "resources": 1,
+        "size": "0.10",
+        "sizeFmt": "0.10 Ha.",
+        "location": "Gemmills Swamp"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3634,
+          -36.3796
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1005178,
@@ -3308,8 +3335,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-18T23:56:00.000Z",
-        "updated": "2025-02-19T00:03:00.000Z",
-        "resources": 3,
+        "updated": "2025-02-19T22:45:00.000Z",
+        "resources": 0,
         "size": "0.50",
         "sizeFmt": "0.50 Ha.",
         "location": "2.6Km South Of Eaglehawk"
@@ -3325,63 +3352,95 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 118494246,
+        "status": "Request For Assistance",
+        "estaId": 118503507,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118494246,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Kyabram",
-        "eventId": "F250208402",
-        "id": "ESTA:250208402",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561983,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250253915,
+        "id": "ESTA:250253915",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-19T02:38:56.000Z",
-        "updated": "2025-02-19T22:07:49.611Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-19T22:41:00.000Z",
+        "updated": "2025-02-19T22:43:00.000Z",
         "resources": 0,
-        "location": "Everard Rd, Kyabram"
+        "location": "Briar Hill",
+        "sesId": 561983
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02786236694132,
-          -36.3119318905341
+          145.12107559261332,
+          -37.706223042417555
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 118503205,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208667",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rockbank",
-        "eventId": "250208667",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207125,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250208667,
         "id": "ESTA:250208667",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-19T22:18:57.000Z",
-        "updated": "2025-02-19T22:18:57.000Z",
-        "resources": 2,
-        "location": "Rockbank, Rockbank",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-02-19T22:07:00.000Z",
+        "updated": "2025-02-19T22:43:00.000Z",
+        "resources": 1,
+        "location": "Rockbank",
         "cfaId": 207125,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250208667"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.65146386570478,
-          -37.72367644594214
+          144.65145449715422,
+          -37.72368159928564
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118503554,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208683",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Millers Rd",
+        "eventId": "250208683",
+        "id": "ESTA:250208683",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-02-19T22:46:29.000Z",
+        "updated": "2025-02-19T22:46:29.000Z",
+        "resources": 1,
+        "location": "Millers Rd, Altona North",
+        "mfbId": "250208683",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84657295002972,
+          -37.84273990987942
         ]
       }
     },
@@ -3390,64 +3449,30 @@
         "status": "Safe",
         "estaId": 118502986,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208661",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bourke Rd",
-        "eventId": "250208661",
+        "source": "LN",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207123,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250208661,
         "id": "ESTA:250208661",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-19T22:21:33.000Z",
-        "updated": "2025-02-19T22:21:33.000Z",
-        "resources": 2,
-        "location": "Bourke Rd, Pakenham",
+        "category2": "Other",
+        "created": "2025-02-19T21:39:00.000Z",
+        "updated": "2025-02-19T22:21:00.000Z",
+        "resources": 0,
+        "location": "Pakenham",
         "cfaId": 207123,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250208661"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.51364709491776,
-          -38.106312881986405
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118503203,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 561981,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250208666,
-        "id": "ESTA:250208666",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-02-19T22:07:00.000Z",
-        "updated": "2025-02-19T22:26:00.000Z",
-        "resources": 4,
-        "location": "Hillside (Bairnsdale)",
-        "cfaId": 207124,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 561981
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.54522368552287,
-          -37.85262764912984
+          145.5136438576354,
+          -38.106312859922326
         ]
       }
     },
@@ -3573,64 +3598,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 207112,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207112,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250208630,
-        "id": "ESTA:250208630",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-02-19T20:02:00.000Z",
-        "updated": "2025-02-19T21:34:00.000Z",
-        "resources": 0,
-        "location": "Muckatah",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.63793136966436,
-          -35.999105281919476
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 207106,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207106,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Drum St",
-        "eventId": 250208612,
-        "id": "ESTA:250208612",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-19T17:06:00.000Z",
-        "updated": "2025-02-19T21:36:00.000Z",
-        "resources": 0,
-        "location": "Drum St, Kyabram",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04769124277718,
-          -36.310869302225555
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 207127,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3643,7 +3610,7 @@
         "category2": "Other",
         "created": "2025-02-19T22:13:00.000Z",
         "updated": "2025-02-19T22:22:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Angela Ct, Doncaster East",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3654,6 +3621,65 @@
         "coordinates": [
           145.17607579027177,
           -37.75814981463766
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 207124,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561981,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250208666,
+        "id": "ESTA:250208666",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-02-19T22:07:00.000Z",
+        "updated": "2025-02-19T22:26:00.000Z",
+        "resources": 3,
+        "location": "Hillside (Bairnsdale)",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 561981
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.54522368552287,
+          -37.85262764912984
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250208682",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208682",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Western Fwy",
+        "id": "ESTA:250208682",
+        "eventId": "250208682",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-19T22:47:35.000Z",
+        "updated": "2025-02-19T22:47:35.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Western Fwy, Ravenhall"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75072955735186,
+          -37.79358245981059
         ]
       }
     }
@@ -3885,7 +3911,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-19T22:33:46.172Z",
-    "featureCount": 389
+    "lastUpdated": "2025-02-19T22:49:59.886Z",
+    "featureCount": 390
   }
 }
