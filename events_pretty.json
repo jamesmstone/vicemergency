@@ -3325,7 +3325,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "estaId": 118501869,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561971,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250253904,
+        "id": "ESTA:250253904",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-19T17:47:00.000Z",
+        "updated": "2025-02-19T17:48:00.000Z",
+        "resources": 0,
+        "location": "Miepoll",
+        "sesId": 561971
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4714834233597,
+          -36.60804955923362
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 118501785,
         "feedType": "incident",
         "source": "000",
@@ -3337,10 +3367,10 @@
         "id": "ESTA:250208614",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
+        "category2": "Other",
         "created": "2025-02-19T17:25:00.000Z",
-        "updated": "2025-02-19T17:25:00.000Z",
-        "resources": 2,
+        "updated": "2025-02-19T17:38:00.000Z",
+        "resources": 0,
         "location": "High St, Broadford",
         "cfaId": 207107,
         "size": "Small",
@@ -3352,38 +3382,6 @@
         "coordinates": [
           145.03988516307754,
           -37.208131223225216
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118501804,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208615",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Advantage Dr",
-        "eventId": "250208615",
-        "id": "ESTA:250208615",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-19T17:31:14.000Z",
-        "updated": "2025-02-19T17:31:14.000Z",
-        "resources": 2,
-        "location": "Advantage Dr, Dandenong South",
-        "mfbId": "250208615",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.22897221262497,
-          -38.019379053448624
         ]
       }
     },
@@ -3836,30 +3834,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250208613",
+        "status": "Responding",
+        "mfbId": "250208615",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250208613",
+        "sourceId": "250208615",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Caitlyn Dr",
-        "id": "ESTA:250208613",
-        "eventId": "250208613",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-19T17:27:37.000Z",
-        "updated": "2025-02-19T17:27:37.000Z",
-        "resources": 1,
+        "sourceTitle": "Advantage Dr",
+        "id": "ESTA:250208615",
+        "eventId": "250208615",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-02-19T17:36:14.000Z",
+        "updated": "2025-02-19T17:36:14.000Z",
+        "resources": 3,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Caitlyn Dr, Harkness"
+        "location": "Advantage Dr, Dandenong South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.56354977599955,
-          -37.66464864362438
+          145.22897221262497,
+          -38.019379053448624
         ]
       }
     }
@@ -3938,7 +3936,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "HIGH",
@@ -3946,7 +3943,8 @@
             "North Central": "HIGH",
             "Northern Country": "MODERATE",
             "South West": "HIGH",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4091,7 +4089,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-19T17:35:27.792Z",
+    "lastUpdated": "2025-02-19T17:50:06.149Z",
     "featureCount": 387
   }
 }
