@@ -3521,7 +3521,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1005174,
@@ -3531,8 +3531,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-18T20:35:00.000Z",
-        "updated": "2025-02-18T23:11:00.000Z",
-        "resources": 1,
+        "updated": "2025-02-19T05:18:00.000Z",
+        "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
         "location": "4.5Km Se Of Churchill"
@@ -3541,8 +3541,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.4657,
-          -38.3285
+          146.465703,
+          -38.32851
         ]
       }
     },
@@ -3575,64 +3575,151 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118496123,
+        "status": "Going",
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208455",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mooroopna North",
-        "eventId": "250208455",
-        "id": "ESTA:250208455",
-        "suppress": false,
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1627663",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Brighton Drive, Naracoorte",
+        "id": "1627663",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-19T05:22:07.000Z",
-        "updated": "2025-02-19T05:22:07.000Z",
-        "resources": 2,
-        "location": "Mooroopna North, Mooroopna North",
-        "cfaId": 207042,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250208455"
+        "name": "Brighton Drive, Naracoorte",
+        "created": "2025-02-19T05:30:00.000Z",
+        "updated": "2025-02-19T05:30:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Brighton Drive, Naracoorte"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3352085485885,
-          -36.34701826862476
+          140.730651314346,
+          -36.9594256717226
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118495585,
+        "status": "Request For Assistance",
+        "estaId": 118496229,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 561947,
+        "sourceId": 561948,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250253871,
-        "id": "ESTA:250253871",
+        "eventId": 250253873,
+        "id": "ESTA:250253873",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-19T04:33:00.000Z",
-        "updated": "2025-02-19T05:15:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-02-19T05:24:00.000Z",
+        "updated": "2025-02-19T05:29:00.000Z",
         "resources": 0,
-        "location": "Springhurst",
-        "sesId": 561947
+        "location": "Mitcham",
+        "sesId": 561948
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.4792611857227,
-          -36.195560803314805
+          145.20769177082556,
+          -37.81679021010204
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118496231,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 561949,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250253874,
+        "id": "ESTA:250253874",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-19T05:24:00.000Z",
+        "updated": "2025-02-19T05:27:00.000Z",
+        "resources": 0,
+        "location": "Cranbourne",
+        "sesId": 561949
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25376888863536,
+          -38.12237376003984
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118496121,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208454",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Flinders St",
+        "eventId": "250208454",
+        "id": "ESTA:250208454",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-19T05:28:12.000Z",
+        "updated": "2025-02-19T05:28:12.000Z",
+        "resources": 4,
+        "location": "Flinders St, Melbourne",
+        "mfbId": "250208454",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95564547188255,
+          -37.8214580979272
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118496298,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207044,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Claremont St",
+        "eventId": 250208461,
+        "id": "ESTA:250208461",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-19T05:30:00.000Z",
+        "updated": "2025-02-19T05:30:00.000Z",
+        "resources": 0,
+        "location": "Claremont St, Mount Eliza",
+        "cfaId": 207044,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10186577246523,
+          -38.210429012477384
         ]
       }
     },
@@ -3671,154 +3758,29 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118496197,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207043,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Browning St",
-        "eventId": 250208456,
-        "id": "ESTA:250208456",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-19T05:20:00.000Z",
-        "updated": "2025-02-19T05:20:00.000Z",
-        "resources": 1,
-        "location": "Browning St, Kangaroo Flat",
-        "cfaId": 207043,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.242586084165,
-          -36.78999910876569
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118496209,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208457",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Box Hill North",
-        "eventId": "250208457",
-        "id": "ESTA:250208457",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-19T05:22:47.000Z",
-        "updated": "2025-02-19T05:22:47.000Z",
-        "resources": 2,
-        "location": "Box Hill North, Box Hill North",
-        "mfbId": "250208457",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12647074274213,
-          -37.81168683143675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118496121,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250208454",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Flinders St",
-        "eventId": "250208454",
-        "id": "ESTA:250208454",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-02-19T05:17:31.000Z",
-        "updated": "2025-02-19T05:17:31.000Z",
-        "resources": 4,
-        "location": "Flinders St, Melbourne",
-        "mfbId": "250208454",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95564547188255,
-          -37.8214580979272
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118496229,
+        "estaId": 118496374,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 118496229,
+        "sourceId": 118496374,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mitcham",
-        "eventId": "S250253873",
-        "id": "ESTA:250253873",
+        "sourceTitle": "Wollert",
+        "eventId": "F250208463",
+        "id": "ESTA:250208463",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-02-19T05:22:26.000Z",
-        "updated": "2025-02-19T05:23:49.116Z",
-        "resources": 0,
-        "location": "Mitcham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20770122851908,
-          -37.816776574376995
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118496229,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118496229,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mitcham",
-        "eventId": "F250208458",
-        "id": "ESTA:250208458",
-        "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-02-19T05:22:26.000Z",
-        "updated": "2025-02-19T05:24:03.864Z",
+        "created": "2025-02-19T05:35:33.000Z",
+        "updated": "2025-02-19T05:36:31.535Z",
         "resources": 0,
-        "location": "Mitcham"
+        "location": "Champagne Av, Wollert"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.20770122851908,
-          -37.816776574376995
+          144.9971586869532,
+          -37.59371008213084
         ]
       }
     },
@@ -4589,7 +4551,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-02-19T04:00:16.000Z",
         "updated": "2025-02-19T04:00:16.000Z",
-        "resources": 12,
+        "resources": 9,
         "location": "Everard Rd, Kyabram",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4648,7 +4610,7 @@
         "category2": "Bushfire",
         "created": "2025-02-19T03:14:00.000Z",
         "updated": "2025-02-19T04:37:00.000Z",
-        "resources": 12,
+        "resources": 11,
         "location": "Marysville-Buxton Rd, Buxton",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4659,6 +4621,36 @@
         "coordinates": [
           145.7274741463251,
           -37.45603572239471
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 207042,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208455",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mooroopna North",
+        "eventId": "250208455",
+        "id": "ESTA:250208455",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-19T05:22:07.000Z",
+        "updated": "2025-02-19T05:22:07.000Z",
+        "resources": 3,
+        "location": "Mooroopna North, Mooroopna North",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250208455"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3352085485885,
+          -36.34701826862476
         ]
       }
     },
@@ -4693,6 +4685,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "mfbId": "250208460",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208460",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bella Ct",
+        "id": "ESTA:250208460",
+        "eventId": "250208460",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-19T05:32:48.000Z",
+        "updated": "2025-02-19T05:32:48.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bella Ct, Thomastown"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.998049971871,
+          -37.68143765747844
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250208451",
         "feedType": "incident",
@@ -4717,6 +4738,64 @@
         "coordinates": [
           144.9287831212087,
           -37.64051743865081
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250208457",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208457",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Box Hill North",
+        "id": "ESTA:250208457",
+        "eventId": "250208457",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-19T05:32:17.000Z",
+        "updated": "2025-02-19T05:32:17.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Box Hill North, Box Hill North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12647074274213,
+          -37.81168683143675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250208458",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250208458",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mitcham",
+        "id": "ESTA:250208458",
+        "eventId": "250208458",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-19T05:32:58.000Z",
+        "updated": "2025-02-19T05:32:58.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mitcham, Mitcham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20769824410934,
+          -37.81678154663057
         ]
       }
     },
@@ -5029,7 +5108,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-19T05:24:05.873Z",
-    "featureCount": 401
+    "lastUpdated": "2025-02-19T05:37:00.000Z",
+    "featureCount": 404
   }
 }
