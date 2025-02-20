@@ -3394,7 +3394,7 @@
         "category2": "Hazardous Material",
         "created": "2025-02-20T23:20:01.000Z",
         "updated": "2025-02-20T23:20:01.000Z",
-        "resources": 3,
+        "resources": 4,
         "location": "Cochranes Rd, Moorabbin",
         "mfbId": "250209092",
         "size": "Small",
@@ -3426,7 +3426,7 @@
         "category2": "Other",
         "created": "2025-02-20T23:22:00.000Z",
         "updated": "2025-02-20T23:22:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Peck St, Hamilton",
         "cfaId": 207274,
         "size": "Small",
@@ -3443,63 +3443,126 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118516089,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118516089,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hamilton",
-        "eventId": "F250209101",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207275,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Peck St",
+        "eventId": 250209101,
         "id": "ESTA:250209101",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-20T23:22:44.000Z",
-        "updated": "2025-02-20T23:22:50.801Z",
+        "created": "2025-02-20T23:23:00.000Z",
+        "updated": "2025-02-20T23:25:00.000Z",
         "resources": 0,
-        "location": "Peck St, Hamilton"
+        "location": "Peck St, Hamilton",
+        "cfaId": 207275,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.00247374623132,
-          -37.72500974228531
+          142.00245912143336,
+          -37.725019730205474
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118515734,
+        "status": "Safe",
+        "estaId": 118515275,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250209088",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hayes St",
-        "eventId": "250209088",
-        "id": "ESTA:250209088",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207264,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250209074,
+        "id": "ESTA:250209074",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-02-20T23:01:14.000Z",
-        "updated": "2025-02-20T23:01:14.000Z",
-        "resources": 1,
-        "location": "Hayes St, Shepparton",
-        "cfaId": 207271,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-02-20T22:12:00.000Z",
+        "updated": "2025-02-20T23:26:00.000Z",
+        "resources": 0,
+        "location": "Trafalgar",
+        "cfaId": 207264,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250209088"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.40759040233138,
-          -36.388888077090215
+          146.15187285400532,
+          -38.21009631933744
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118516192,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250209106",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Freda St",
+        "eventId": "250209106",
+        "id": "ESTA:250209106",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-20T23:31:45.000Z",
+        "updated": "2025-02-20T23:31:45.000Z",
+        "resources": 1,
+        "location": "Freda St, Hughesdale",
+        "mfbId": "250209106",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07757621498982,
+          -37.89727731361751
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118516247,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118516247,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bonang",
+        "eventId": "F250209109",
+        "id": "ESTA:250209109",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-02-20T23:32:57.000Z",
+        "updated": "2025-02-20T23:33:04.826Z",
+        "resources": 0,
+        "location": "Bonang"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.74970890640935,
+          -37.12528929795686
         ]
       }
     },
@@ -3535,19 +3598,19 @@
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
+        "status": "Being Controlled",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "591017",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Fleming St, South Albury",
-        "id": "2025-02-21T10:15:00.0000000:591017",
+        "id": "2025-02-21T10:22:00.0000000:591017",
         "category1": "Fire",
         "category2": "Grass Fire",
         "name": "Fleming St, South Albury",
         "location": "Fleming St, South Albury, Nsw 2640",
-        "created": "2025-02-21T10:15:00+11:00",
-        "updated": "2025-02-21T10:15:00+11:00",
+        "created": "2025-02-21T10:22:00+11:00",
+        "updated": "2025-02-21T10:22:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3683,35 +3746,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 207264,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207264,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250209074,
-        "id": "ESTA:250209074",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-02-20T22:12:00.000Z",
-        "updated": "2025-02-20T22:43:00.000Z",
-        "resources": 1,
-        "location": "Trafalgar",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.15187285400532,
-          -38.21009631933744
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 207268,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3770,21 +3804,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 207273,
+        "status": "Safe",
+        "cfaId": 207271,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 207273,
+        "sourceId": 207271,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Aberdeen St",
-        "eventId": 250209095,
-        "id": "ESTA:250209095",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-20T23:17:00.000Z",
-        "updated": "2025-02-20T23:17:00.000Z",
-        "resources": 3,
-        "location": "Aberdeen St, Geelong West",
+        "sourceTitle": "Hayes St",
+        "eventId": 250209088,
+        "id": "ESTA:250209088",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-02-20T22:50:00.000Z",
+        "updated": "2025-02-20T23:23:00.000Z",
+        "resources": 0,
+        "location": "Hayes St, Shepparton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3792,8 +3826,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34973525541236,
-          -38.14691681648873
+          145.40758636884206,
+          -36.38888961407248
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250209103",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250209103",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Childs Rd",
+        "id": "ESTA:250209103",
+        "eventId": "250209103",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-20T23:30:07.000Z",
+        "updated": "2025-02-20T23:30:07.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Childs Rd, Epping"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02380173908594,
+          -37.65999919988335
         ]
       }
     },
@@ -3810,9 +3873,9 @@
         "eventId": "250209096",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-20T23:21:02.000Z",
-        "updated": "2025-02-20T23:21:02.000Z",
-        "resources": 0,
+        "created": "2025-02-20T23:22:36.000Z",
+        "updated": "2025-02-20T23:22:36.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Straw St, Brunswick West"
@@ -3857,35 +3920,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250209097",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250209097",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Foster St",
-        "id": "ESTA:250209097",
-        "eventId": "250209097",
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-02-20T23:21:37.000Z",
-        "updated": "2025-02-20T23:21:37.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Foster St, Dandenong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21643917003118,
-          -37.98957245902347
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 562025,
         "feedType": "incident",
@@ -3898,7 +3932,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-02-20T23:22:00.000Z",
-        "updated": "2025-02-20T23:22:00.000Z",
+        "updated": "2025-02-20T23:27:00.000Z",
         "resources": 0,
         "location": "Hamilton"
       },
@@ -3908,33 +3942,6 @@
         "coordinates": [
           142.00273786269918,
           -37.7254950469148
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 562026,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562026,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250253971,
-        "id": "ESTA:250253971",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-20T23:23:00.000Z",
-        "updated": "2025-02-20T23:23:00.000Z",
-        "resources": 0,
-        "location": "Hamilton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.00245912143336,
-          -37.725019730205474
         ]
       }
     }
@@ -4166,7 +4173,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-20T23:23:06.398Z",
+    "lastUpdated": "2025-02-20T23:33:40.458Z",
     "featureCount": 398
   }
 }
