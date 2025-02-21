@@ -3302,7 +3302,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-01-27T02:20:00.000Z",
-        "updated": "2025-02-20T08:10:00.000Z",
+        "updated": "2025-02-21T08:22:00.000Z",
         "resources": 22,
         "size": "93107.00",
         "sizeFmt": "93107.00 Ha.",
@@ -3356,7 +3356,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-04T02:52:00.000Z",
-        "updated": "2025-02-20T05:57:00.000Z",
+        "updated": "2025-02-21T08:20:00.000Z",
         "resources": 1,
         "size": "752.00",
         "sizeFmt": "752.00 Ha.",
@@ -3395,33 +3395,6 @@
         "coordinates": [
           146.8792,
           -37.3508
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1005021,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Otway 55 - Barongarook - Wares Road",
-        "id": 1005021,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-13T00:51:00.000Z",
-        "updated": "2025-02-21T07:16:00.000Z",
-        "resources": 15,
-        "size": "13.00",
-        "sizeFmt": "13.00 Ha.",
-        "location": "3.5Km Ne Of Kawarren"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.6293,
-          -38.4633
         ]
       }
     },
@@ -3507,83 +3480,152 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 118521855,
+        "status": "Under Control",
+        "estaId": 118522487,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118521855,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Heidelberg Heights",
-        "eventId": "S250253998",
-        "id": "ESTA:250253998",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207363,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Vernon St",
+        "eventId": 250209357,
+        "id": "ESTA:250209357",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-02-21T06:56:28.000Z",
-        "updated": "2025-02-21T07:02:58.725Z",
-        "resources": 0,
-        "location": "Porter Rd, Heidelberg Heights"
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-21T07:51:00.000Z",
+        "updated": "2025-02-21T08:16:00.000Z",
+        "resources": 7,
+        "location": "Vernon St, Korong Vale",
+        "cfaId": 207363,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05759830205437,
-          -37.737876902699554
+          143.7092136577946,
+          -36.35728156944961
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118522825,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250209371",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wattle Cr",
+        "eventId": "250209371",
+        "id": "ESTA:250209371",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-21T08:20:19.000Z",
+        "updated": "2025-02-21T08:20:19.000Z",
+        "resources": 4,
+        "location": "Wattle Cr, Beaconsfield",
+        "cfaId": 207368,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250209371"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38327704638564,
+          -38.06282524296234
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 118522546,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562061,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250209358,
+        "id": "ESTA:250209358",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-02-21T07:57:00.000Z",
+        "updated": "2025-02-21T08:14:00.000Z",
+        "resources": 3,
+        "location": "Devon North",
+        "cfaId": 207364,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 562061
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.61522668530975,
+          -38.50748399877163
         ]
       }
     },
     {
       "properties": {
         "status": "Complete",
-        "estaId": 118521949,
+        "estaId": 118521189,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 562057,
+        "sourceId": 562051,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250254001,
-        "id": "ESTA:250254001",
+        "eventId": 250253995,
+        "id": "ESTA:250253995",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-21T07:07:00.000Z",
-        "updated": "2025-02-21T07:36:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-02-21T06:07:00.000Z",
+        "updated": "2025-02-21T08:24:00.000Z",
         "resources": 0,
-        "location": "Melton",
-        "sesId": 562057
+        "location": "Taylors Hill",
+        "sesId": 562051
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.5722753686534,
-          -37.68449963944527
+          144.74089916050664,
+          -37.716590131484764
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118521945,
+        "estaId": 118522870,
         "feedType": "incident",
-        "source": "RADIO",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 207360,
+        "sourceId": 207369,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250209343,
-        "id": "ESTA:250209343",
+        "sourceTitle": "Bowmore Rd",
+        "eventId": 250209372,
+        "id": "ESTA:250209372",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-21T07:07:00.000Z",
-        "updated": "2025-02-21T07:36:00.000Z",
+        "category2": "Other",
+        "created": "2025-02-21T08:23:00.000Z",
+        "updated": "2025-02-21T08:26:00.000Z",
         "resources": 0,
-        "location": "Dean",
-        "cfaId": 207360,
+        "location": "Bowmore Rd, Noble Park",
+        "cfaId": 207369,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3591,31 +3633,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.02556503459434,
-          -37.453935117380944
+          145.17631903959665,
+          -37.95903061268585
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118522391,
+        "estaId": 118522899,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250209354",
+        "sourceId": "250209373",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Altona",
-        "eventId": "250209354",
-        "id": "ESTA:250209354",
+        "sourceTitle": "Albert St",
+        "eventId": "250209373",
+        "id": "ESTA:250209373",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-02-21T07:44:26.000Z",
-        "updated": "2025-02-21T07:44:26.000Z",
-        "resources": 2,
-        "location": "Altona, Altona",
-        "mfbId": "250209354",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-21T08:26:33.000Z",
+        "updated": "2025-02-21T08:26:33.000Z",
+        "resources": 1,
+        "location": "Albert St, Moe",
+        "mfbId": "250209373",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3623,37 +3665,73 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8078997721805,
-          -37.868839999425035
+          146.26264075132772,
+          -38.174975250545465
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118522702,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250209365",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Seaford",
+        "eventId": "250209365",
+        "id": "ESTA:250209365",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-02-21T08:28:10.000Z",
+        "updated": "2025-02-21T08:28:10.000Z",
+        "resources": 4,
+        "location": "Seaford, Seaford",
+        "cfaId": 207366,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250209365"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1616092819781,
+          -38.108975030758266
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118522424,
+        "estaId": 118522928,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118522424,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moorabbin",
-        "eventId": "S250254004",
-        "id": "ESTA:250254004",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207370,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250209374,
+        "id": "ESTA:250209374",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-21T07:43:43.000Z",
-        "updated": "2025-02-21T07:46:53.464Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-21T08:28:00.000Z",
+        "updated": "2025-02-21T08:28:00.000Z",
         "resources": 0,
-        "location": "Matilda Rd, Moorabbin"
+        "location": "Clyde North",
+        "cfaId": 207370,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0584708262753,
-          -37.936901504055086
+          145.3327961142599,
+          -38.08947549682463
         ]
       }
     },
@@ -3779,36 +3857,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 207348,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250209310",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wodalla St",
-        "eventId": "250209310",
-        "id": "ESTA:250209310",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-02-21T06:26:53.000Z",
-        "updated": "2025-02-21T06:26:53.000Z",
-        "resources": 1,
-        "location": "Wodalla St, Kurunjang",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250209310"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.59014940975777,
-          -37.65693038008079
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 207349,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3821,7 +3869,7 @@
         "category2": "Other",
         "created": "2025-02-21T06:58:06.000Z",
         "updated": "2025-02-21T06:58:06.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Truganina, Truganina",
         "size": "Small",
         "sizeFmt": "Small",
@@ -3839,20 +3887,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 207351,
+        "cfaId": 207360,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 207351,
+        "sourceId": 207360,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Somerton Rd",
-        "eventId": 250209328,
-        "id": "ESTA:250209328",
+        "sourceTitle": "",
+        "eventId": 250209343,
+        "id": "ESTA:250209343",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-21T06:43:00.000Z",
-        "updated": "2025-02-21T06:53:00.000Z",
+        "category2": "Bushfire",
+        "created": "2025-02-21T07:07:00.000Z",
+        "updated": "2025-02-21T07:36:00.000Z",
         "resources": 0,
-        "location": "Somerton Rd, Bulla",
+        "location": "Dean",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3860,28 +3908,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.83046820246605,
-          -37.629174026570965
+          144.02556503459434,
+          -37.453935117380944
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 207365,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207365,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whitelaws Trk",
+        "eventId": 250209359,
+        "id": "ESTA:250209359",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-21T07:59:00.000Z",
+        "updated": "2025-02-21T07:59:00.000Z",
+        "resources": 0,
+        "location": "Whitelaws Trk, Devon North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.61522668530975,
+          -38.50748399877163
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 207355,
+        "cfaId": 207348,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 207355,
+        "sourceId": 207348,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Margaret St",
-        "eventId": 250209335,
-        "id": "ESTA:250209335",
+        "sourceTitle": "Wodalla St",
+        "eventId": 250209310,
+        "id": "ESTA:250209310",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-21T06:54:00.000Z",
-        "updated": "2025-02-21T06:58:00.000Z",
-        "resources": 0,
-        "location": "Margaret St, Werribee",
+        "category2": "Building Fire",
+        "created": "2025-02-21T06:12:00.000Z",
+        "updated": "2025-02-21T08:02:00.000Z",
+        "resources": 1,
+        "location": "Wodalla St, Kurunjang",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3889,43 +3966,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.65980472105267,
-          -37.89560327225726
+          144.59014183901013,
+          -37.65693104949396
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 207356,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207356,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Casterton-Penola Rd",
-        "eventId": 250209336,
-        "id": "ESTA:250209336",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-21T07:01:00.000Z",
-        "updated": "2025-02-21T07:01:00.000Z",
-        "resources": 10,
-        "location": "Casterton-Penola Rd, Lake Mundi",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.05022344499318,
-          -37.53805984469395
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 207354,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3937,8 +3985,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-21T06:51:00.000Z",
-        "updated": "2025-02-21T07:16:00.000Z",
-        "resources": 5,
+        "updated": "2025-02-21T08:07:00.000Z",
+        "resources": 0,
         "location": "Cemetery Rd, Cape Clear",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3954,65 +4002,65 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 207361,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207361,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Valentine Cr",
-        "eventId": 250209345,
-        "id": "ESTA:250209345",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-21T07:07:00.000Z",
-        "updated": "2025-02-21T07:23:00.000Z",
-        "resources": 0,
-        "location": "Valentine Cr, Sale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.08632635200792,
-          -38.09922633990061
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 207358,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207358,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "South Gippsland Hwy",
-        "eventId": 250209338,
-        "id": "ESTA:250209338",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-21T07:02:00.000Z",
-        "updated": "2025-02-21T07:23:00.000Z",
-        "resources": 0,
-        "location": "South Gippsland Hwy, Caldermeade",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5372089119488,
-          -38.24613133571747
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
+        "cfaId": 207356,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207356,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Casterton-Penola Rd",
+        "eventId": 250209336,
+        "id": "ESTA:250209336",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-21T07:01:00.000Z",
+        "updated": "2025-02-21T08:09:00.000Z",
+        "resources": 11,
+        "location": "Casterton-Penola Rd, Lake Mundi",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.05022344499318,
+          -37.53805984469395
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 207367,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207367,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whitelaws Trk",
+        "eventId": 250209367,
+        "id": "ESTA:250209367",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-21T08:11:00.000Z",
+        "updated": "2025-02-21T08:11:00.000Z",
+        "resources": 0,
+        "location": "Whitelaws Trk, Devon North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.61522668530975,
+          -38.50748399877163
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 207362,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4023,9 +4071,9 @@
         "id": "ESTA:250209351",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-21T07:47:38.000Z",
-        "updated": "2025-02-21T07:47:38.000Z",
-        "resources": 2,
+        "created": "2025-02-21T08:13:14.000Z",
+        "updated": "2025-02-21T08:13:14.000Z",
+        "resources": 1,
         "location": "Clyde, Clyde",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4043,35 +4091,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250209339",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250209339",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Porter Rd",
-        "id": "ESTA:250209339",
-        "eventId": "250209339",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-21T07:23:13.000Z",
-        "updated": "2025-02-21T07:23:13.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Porter Rd, Heidelberg Heights"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0575914733251,
-          -37.73788313384817
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "mfbId": "250209356",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4082,9 +4101,9 @@
         "eventId": "250209356",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-21T07:48:46.000Z",
-        "updated": "2025-02-21T07:48:46.000Z",
-        "resources": 0,
+        "created": "2025-02-21T08:14:53.000Z",
+        "updated": "2025-02-21T08:14:53.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Potter St, Dandenong"
@@ -4095,60 +4114,6 @@
         "coordinates": [
           145.20626529248764,
           -37.982427881080625
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 562051,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562051,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250253995,
-        "id": "ESTA:250253995",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-02-21T06:07:00.000Z",
-        "updated": "2025-02-21T06:27:00.000Z",
-        "resources": 1,
-        "location": "Taylors Hill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.74089916050664,
-          -37.716590131484764
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 562058,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562058,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254002,
-        "id": "ESTA:250254002",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-21T07:10:00.000Z",
-        "updated": "2025-02-21T07:40:00.000Z",
-        "resources": 1,
-        "location": "Moorabbin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05844887150016,
-          -37.93690349075024
         ]
       }
     },
@@ -4176,6 +4141,33 @@
         "coordinates": [
           144.89444316595439,
           -37.685341976391726
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562064,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562064,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254008,
+        "id": "ESTA:250254008",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-02-21T08:10:00.000Z",
+        "updated": "2025-02-21T08:14:00.000Z",
+        "resources": 0,
+        "location": "Warragul"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.93522583054715,
+          -38.15225690392765
         ]
       }
     }
@@ -4407,7 +4399,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-21T07:50:20.098Z",
-    "featureCount": 401
+    "lastUpdated": "2025-02-21T08:29:19.757Z",
+    "featureCount": 400
   }
 }
