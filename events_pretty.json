@@ -3352,61 +3352,33 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118528374,
+        "status": "Responding",
+        "estaId": 118528593,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562083,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254028,
-        "id": "ESTA:250254028",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207425,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mt Franklin Rd",
+        "eventId": 250209538,
+        "id": "ESTA:250209538",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-21T20:45:00.000Z",
-        "updated": "2025-02-21T21:10:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-21T21:23:00.000Z",
+        "updated": "2025-02-21T21:23:00.000Z",
         "resources": 0,
-        "location": "Frankston",
-        "sesId": 562083
+        "location": "Mt Franklin Rd, Mount Franklin",
+        "cfaId": 207425,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12999881332516,
-          -38.15897458394716
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118528545,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562084,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254029,
-        "id": "ESTA:250254029",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-21T21:14:00.000Z",
-        "updated": "2025-02-21T21:15:00.000Z",
-        "resources": 0,
-        "location": "The Basin",
-        "sesId": 562084
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.30428717445758,
-          -37.853584540456154
+          144.15081851016524,
+          -37.26574909565159
         ]
       }
     },
@@ -4397,36 +4369,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "591104",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Hume Hwy, Little Billabong",
-        "id": "2025-02-22T08:09:00.0000000:591104",
-        "category1": "Transport",
-        "category2": "Motor Vehicle Accident",
-        "name": "Hume Hwy, Little Billabong",
-        "location": "Hume Hwy, Little Billabong 2644",
-        "created": "2025-02-22T08:09:00+11:00",
-        "updated": "2025-02-22T08:09:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.490097046,
-          -35.6123695369999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "591036",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Green Hills Rd, Berrigan",
@@ -4621,6 +4563,33 @@
         "coordinates": [
           145.3260511539726,
           -37.9049046775614
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562084,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562084,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254029,
+        "id": "ESTA:250254029",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-21T21:14:00.000Z",
+        "updated": "2025-02-21T21:15:00.000Z",
+        "resources": 0,
+        "location": "The Basin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30428717445758,
+          -37.853584540456154
         ]
       }
     },
@@ -9443,15 +9412,15 @@
         },
         {
           "fdr": {
+            "East Gippsland": "MODERATE",
+            "West and South Gippsland": "MODERATE",
+            "North East": "HIGH",
             "Central": "MODERATE",
             "North Central": "HIGH",
             "Northern Country": "HIGH",
             "South West": "MODERATE",
             "Wimmera": "MODERATE",
-            "Mallee": "MODERATE",
-            "East Gippsland": "MODERATE",
-            "West and South Gippsland": "MODERATE",
-            "North East": "HIGH"
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -9549,7 +9518,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-21T21:19:19.852Z",
+    "lastUpdated": "2025-02-21T21:30:20.022Z",
     "featureCount": 387
   }
 }
