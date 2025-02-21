@@ -3352,34 +3352,34 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118527561,
+        "status": "Responding",
+        "estaId": 118527695,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250209502",
+        "sourceId": "250209505",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Blair Ct",
-        "eventId": "250209502",
-        "id": "ESTA:250209502",
+        "sourceTitle": "Moorooduc Hwy",
+        "eventId": "250209505",
+        "id": "ESTA:250209505",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-02-21T17:23:02.000Z",
-        "updated": "2025-02-21T17:23:02.000Z",
-        "resources": 1,
-        "location": "Blair Ct, Norlane",
-        "cfaId": 207412,
+        "created": "2025-02-21T17:40:46.000Z",
+        "updated": "2025-02-21T17:40:46.000Z",
+        "resources": 3,
+        "location": "Moorooduc Hwy, Mornington",
+        "cfaId": 207413,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250209502"
+        "mfbId": "250209505"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3576820025382,
-          -38.09739827637533
+          145.08716649256826,
+          -38.23659444409304
         ]
       }
     },
@@ -3400,7 +3400,7 @@
         "category2": "Rescue",
         "created": "2025-02-21T16:57:00.000Z",
         "updated": "2025-02-21T17:27:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Collins Rd, Irrewarra",
         "cfaId": 207410,
         "size": "Small",
@@ -3418,61 +3418,29 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118527517,
+        "estaId": 118527742,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 118527517,
+        "sourceId": 118527742,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Irrewarra",
-        "eventId": "F250209500",
-        "id": "ESTA:250209500",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-02-21T16:58:54.000Z",
-        "updated": "2025-02-21T17:28:31.956Z",
-        "resources": 0,
-        "location": "Collins Rd, Irrewarra"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.64453065484096,
-          -38.332204559762985
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118527658,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250209504",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mitchells Lane",
-        "eventId": "250209504",
-        "id": "ESTA:250209504",
+        "sourceTitle": "Sunbury",
+        "eventId": "F250209506",
+        "id": "ESTA:250209506",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-21T17:29:16.000Z",
-        "updated": "2025-02-21T17:29:16.000Z",
+        "created": "2025-02-21T17:49:34.000Z",
+        "updated": "2025-02-21T17:49:47.200Z",
         "resources": 0,
-        "location": "Mitchells Lane, Sunbury",
-        "mfbId": "250209504",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Mitchells Lane, Sunbury"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71807776091165,
-          -37.58587165136079
+          144.7180834815903,
+          -37.585869243098706
         ]
       }
     },
@@ -4544,6 +4512,65 @@
         "coordinates": [
           141.45834693770163,
           -36.45168115963399
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 207412,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207412,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Blair Ct",
+        "eventId": 250209502,
+        "id": "ESTA:250209502",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-02-21T17:06:00.000Z",
+        "updated": "2025-02-21T17:23:00.000Z",
+        "resources": 1,
+        "location": "Blair Ct, Norlane",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35767141992005,
+          -38.097403313087455
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "mfbId": "250209504",
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562080,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "id": "ESTA:250209504",
+        "eventId": 250209504,
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-02-21T17:29:00.000Z",
+        "updated": "2025-02-21T17:49:00.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Sunbury",
+        "sesId": 562080
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71807564630535,
+          -37.58587860135957
         ]
       }
     },
@@ -9472,7 +9499,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-21T17:30:46.267Z",
-    "featureCount": 384
+    "lastUpdated": "2025-02-21T17:50:05.944Z",
+    "featureCount": 385
   }
 }
