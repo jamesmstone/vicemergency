@@ -3959,7 +3959,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1005308,
@@ -3969,10 +3969,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-22T13:54:00.000Z",
-        "updated": "2025-02-22T15:16:00.000Z",
+        "updated": "2025-02-22T18:47:00.000Z",
         "resources": 4,
-        "size": "3.00",
-        "sizeFmt": "3.00 Ha.",
+        "size": "2.00",
+        "sizeFmt": "2.00 Ha.",
         "location": "12Km South East Of Violet Town"
       },
       "type": "Feature",
@@ -3986,398 +3986,523 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118541028,
+        "status": "Safe",
+        "estaId": 118541272,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562251,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254196,
-        "id": "ESTA:250254196",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207659,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Belgrave-Hallam Rd",
+        "eventId": 250210019,
+        "id": "ESTA:250210019",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T17:53:00.000Z",
-        "updated": "2025-02-22T18:36:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-22T18:51:00.000Z",
+        "updated": "2025-02-22T18:53:00.000Z",
         "resources": 0,
-        "location": "Ferntree Gully",
-        "sesId": 562251
+        "location": "Belgrave-Hallam Rd, Belgrave South",
+        "cfaId": 207659,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3033895577089,
-          -37.87984194146946
+          145.348091656756,
+          -37.95330463777279
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541308,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562270,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254215,
+        "id": "ESTA:250254215",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:04:00.000Z",
+        "updated": "2025-02-22T19:11:00.000Z",
+        "resources": 0,
+        "location": "Elphinstone",
+        "sesId": 562270
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31162730616413,
+          -37.104549248203774
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118541309,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207661,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Koonwarra Rd",
+        "eventId": 250210023,
+        "id": "ESTA:250210023",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-02-22T19:04:00.000Z",
+        "updated": "2025-02-22T19:04:00.000Z",
+        "resources": 1,
+        "location": "Koonwarra Rd, Leongatha",
+        "cfaId": 207661,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.95140595388844,
+          -38.48760587786304
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118541307,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118541307,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Tanjil South",
+        "eventId": "S250254214",
+        "id": "ESTA:250254214",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:00:18.000Z",
+        "updated": "2025-02-22T19:04:56.229Z",
+        "resources": 0,
+        "location": "Tanjil South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.29384688072608,
+          -38.13732022550589
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118541019,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207647,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Beard Rd",
+        "eventId": 250210001,
+        "id": "ESTA:250210001",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-22T17:49:00.000Z",
+        "updated": "2025-02-22T19:05:00.000Z",
+        "resources": 12,
+        "location": "Beard Rd, Drouin West",
+        "cfaId": 207647,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.855782246808,
+          -38.07827588436294
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541315,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562271,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254216,
+        "id": "ESTA:250254216",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:06:00.000Z",
+        "updated": "2025-02-22T19:09:00.000Z",
+        "resources": 0,
+        "location": "Mill Park",
+        "sesId": 562271
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0755985200544,
+          -37.661996981395404
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118541105,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562254,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254199,
+        "id": "ESTA:250254199",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:10:00.000Z",
+        "updated": "2025-02-22T19:08:00.000Z",
+        "resources": 0,
+        "location": "Healesville",
+        "sesId": 562254
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.54955354545402,
+          -37.64689646259974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541332,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562272,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254217,
+        "id": "ESTA:250254217",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:09:00.000Z",
+        "updated": "2025-02-22T19:13:00.000Z",
+        "resources": 0,
+        "location": "Mont Albert",
+        "sesId": 562272
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1049841737274,
+          -37.82123816907445
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541335,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562273,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254218,
+        "id": "ESTA:250254218",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:09:00.000Z",
+        "updated": "2025-02-22T19:15:00.000Z",
+        "resources": 0,
+        "location": "Kallista",
+        "sesId": 562273
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.37774882257145,
+          -37.88664913660586
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541337,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562274,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254219,
+        "id": "ESTA:250254219",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:09:00.000Z",
+        "updated": "2025-02-22T19:11:00.000Z",
+        "resources": 0,
+        "location": "Warragul",
+        "sesId": 562274
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.887785753464,
+          -38.17304104667871
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118541327,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207662,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250210024,
+        "id": "ESTA:250210024",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-02-22T19:08:00.000Z",
+        "updated": "2025-02-22T19:08:00.000Z",
+        "resources": 2,
+        "location": "Watsons Creek",
+        "cfaId": 207662,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25595999781532,
+          -37.670354166477736
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118540715,
+        "estaId": 118541303,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118540715,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Pine Grove",
-        "eventId": "F250209988",
-        "id": "ESTA:250209988",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250210021",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "King St",
+        "eventId": "250210021",
+        "id": "ESTA:250210021",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-02-22T16:49:40.000Z",
-        "updated": "2025-02-22T18:36:12.871Z",
-        "resources": 0,
-        "location": "Echuca-Mitiamo Rd, Pine Grove"
+        "category2": "Non Structure Fire",
+        "created": "2025-02-22T19:10:03.000Z",
+        "updated": "2025-02-22T19:10:03.000Z",
+        "resources": 2,
+        "location": "King St, Prahran",
+        "mfbId": "250210021",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.39515629948204,
-          -36.21119905214656
+          144.9951481460493,
+          -37.849784503766934
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118541081,
+        "status": "On Scene",
+        "estaId": 118541345,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 562253,
+        "sourceId": 562275,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250254198,
-        "id": "ESTA:250254198",
+        "eventId": 250254220,
+        "id": "ESTA:250254220",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:04:00.000Z",
-        "updated": "2025-02-22T18:39:00.000Z",
-        "resources": 0,
-        "location": "Browns Plains",
-        "sesId": 562253
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.6240992521179,
-          -36.01897139391339
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118540987,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562249,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254194,
-        "id": "ESTA:250254194",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T17:45:00.000Z",
-        "updated": "2025-02-22T18:40:00.000Z",
-        "resources": 0,
-        "location": "Emerald",
-        "sesId": 562249
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4319741058034,
-          -37.93079586878011
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118541163,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562260,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254205,
-        "id": "ESTA:250254205",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:24:00.000Z",
-        "updated": "2025-02-22T18:41:00.000Z",
-        "resources": 0,
-        "location": "Berrys Creek",
-        "sesId": 562260
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0474962223164,
-          -38.41212282047107
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118541240,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562262,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254207,
-        "id": "ESTA:250254207",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:42:00.000Z",
-        "updated": "2025-02-22T18:46:00.000Z",
-        "resources": 0,
-        "location": "Brunswick West",
-        "sesId": 562262
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95214353494302,
-          -37.75481263515234
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118541244,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250210015",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cooper St",
-        "eventId": "250210015",
-        "id": "ESTA:250210015",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-22T18:43:23.000Z",
-        "updated": "2025-02-22T18:43:23.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-02-22T19:12:00.000Z",
+        "updated": "2025-02-22T19:16:00.000Z",
         "resources": 1,
-        "location": "Cooper St, Brunswick West",
-        "mfbId": "250210015",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Lang Lang",
+        "sesId": 562275
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9521438885892,
-          -37.75480874517213
+          145.56381809476125,
+          -38.26612387250253
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 118541257,
+        "estaId": 118541351,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "STATION",
         "sourceOrg": "VIC/SES",
-        "sourceId": 562263,
+        "sourceId": 562276,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250254208,
-        "id": "ESTA:250254208",
+        "eventId": 250254221,
+        "id": "ESTA:250254221",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-02-22T18:47:00.000Z",
-        "updated": "2025-02-22T18:47:00.000Z",
+        "created": "2025-02-22T19:13:00.000Z",
+        "updated": "2025-02-22T19:15:00.000Z",
         "resources": 0,
-        "location": "Tecoma",
-        "sesId": 562263
+        "location": "Newborough",
+        "sesId": 562276
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34711345100223,
-          -37.90043500668254
+          146.28316572951718,
+          -38.18976523045029
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118541259,
+        "status": "Request For Assistance",
+        "estaId": 118541352,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207657,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "The Serpentine -",
-        "eventId": 250210016,
-        "id": "ESTA:250210016",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562277,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254222,
+        "id": "ESTA:250254222",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-22T18:47:00.000Z",
-        "updated": "2025-02-22T18:47:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T19:14:00.000Z",
+        "updated": "2025-02-22T19:14:00.000Z",
         "resources": 0,
-        "location": "The Serpentine -, Tecoma",
-        "cfaId": 207657,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Berwick",
+        "sesId": 562277
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34711345100223,
-          -37.90043500668254
+          145.33274482864513,
+          -38.02594096865009
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118541354,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562278,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254223,
+        "id": "ESTA:250254223",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-02-22T19:14:00.000Z",
+        "updated": "2025-02-22T19:15:00.000Z",
+        "resources": 0,
+        "location": "Cranbourne North",
+        "sesId": 562278
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28104073892993,
+          -38.082628657512764
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118541170,
+        "estaId": 118541306,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250210012",
+        "sourceId": "250210022",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yinnar Rd",
-        "eventId": "250210012",
-        "id": "ESTA:250210012",
+        "sourceTitle": "Swan St",
+        "eventId": "250210022",
+        "id": "ESTA:250210022",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-02-22T18:47:35.000Z",
-        "updated": "2025-02-22T18:47:35.000Z",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-22T19:05:25.000Z",
+        "updated": "2025-02-22T19:05:25.000Z",
         "resources": 3,
-        "location": "Yinnar Rd, Hazelwood",
-        "cfaId": 207655,
+        "location": "Swan St, Werribee",
+        "cfaId": 207660,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250210012"
+        "mfbId": "250210022"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.37701523622368,
-          -38.27991480246764
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 118541122,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562255,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254200,
-        "id": "ESTA:250254200",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:14:00.000Z",
-        "updated": "2025-02-22T18:48:00.000Z",
-        "resources": 0,
-        "location": "Clyde",
-        "sesId": 562255
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32014393456157,
-          -38.16243484992263
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118541265,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207658,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250210018,
-        "id": "ESTA:250210018",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-22T18:49:00.000Z",
-        "updated": "2025-02-22T18:49:00.000Z",
-        "resources": 0,
-        "location": "Wangaratta",
-        "cfaId": 207658,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.32054618386735,
-          -36.35673461429562
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118541267,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118541267,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Belgrave South",
-        "eventId": "S250254209",
-        "id": "ESTA:250254209",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:46:30.000Z",
-        "updated": "2025-02-22T18:49:19.295Z",
-        "resources": 0,
-        "location": "Belgrave-Hallam Rd, Belgrave South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34799042134762,
-          -37.953372398138
+          144.66068622403105,
+          -37.882966100256105
         ]
       }
     },
@@ -10000,36 +10125,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 207542,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562162,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250209808,
-        "id": "ESTA:250209808",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-02-22T06:55:00.000Z",
-        "updated": "2025-02-22T08:10:00.000Z",
-        "resources": 1,
-        "location": "Mount Buller",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 562162
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.39119324354772,
-          -37.21725326348353
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 207523,
         "feedType": "incident",
@@ -10055,35 +10150,6 @@
         "coordinates": [
           144.97068787579366,
           -37.548057164228766
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 207553,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207553,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wimmera Park Rd",
-        "eventId": 250209832,
-        "id": "ESTA:250209832",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-22T08:15:00.000Z",
-        "updated": "2025-02-22T10:14:00.000Z",
-        "resources": 0,
-        "location": "Wimmera Park Rd, Campbells Bridge",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.73492618856767,
-          -36.929468935346094
         ]
       }
     },
@@ -10147,122 +10213,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 207647,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207647,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Beard Rd",
-        "eventId": 250210001,
-        "id": "ESTA:250210001",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-22T17:49:00.000Z",
-        "updated": "2025-02-22T17:49:00.000Z",
-        "resources": 15,
-        "location": "Beard Rd, Drouin West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.855782246808,
-          -38.07827588436294
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 207649,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207649,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kia-Ora Pde",
-        "eventId": 250210003,
-        "id": "ESTA:250210003",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-22T17:53:00.000Z",
-        "updated": "2025-02-22T17:57:00.000Z",
-        "resources": 0,
-        "location": "Kia-Ora Pde, Ferntree Gully",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3033895577089,
-          -37.87984194146946
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 207645,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207645,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250209999,
-        "id": "ESTA:250209999",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-02-22T17:46:00.000Z",
-        "updated": "2025-02-22T17:58:00.000Z",
-        "resources": 0,
-        "location": "Wallan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97984923787936,
-          -37.40670316123783
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 207653,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 207653,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Maroondah Hwy",
-        "eventId": 250210009,
-        "id": "ESTA:250210009",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-22T18:11:00.000Z",
-        "updated": "2025-02-22T18:13:00.000Z",
-        "resources": 0,
-        "location": "Maroondah Hwy, Healesville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.54955354545402,
-          -37.64689646259974
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 207648,
         "feedType": "incident",
@@ -10305,7 +10255,7 @@
         "category2": "Bushfire",
         "created": "2025-02-22T12:56:00.000Z",
         "updated": "2025-02-22T18:31:00.000Z",
-        "resources": 19,
+        "resources": 13,
         "location": "Fire-Boho-Upperbohoroad, Boho",
         "size": "Medium",
         "sizeFmt": "Medium"
@@ -10350,30 +10300,148 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250210011",
+        "status": "On Scene",
+        "cfaId": 207542,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250210011",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dobson Av",
-        "id": "ESTA:250210011",
-        "eventId": "250210011",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-22T18:45:04.000Z",
-        "updated": "2025-02-22T18:45:04.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562162,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250209808,
+        "id": "ESTA:250209808",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-02-22T06:55:00.000Z",
+        "updated": "2025-02-22T08:10:00.000Z",
+        "resources": 1,
+        "location": "Mount Buller",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Dobson Av, Rosanna"
+        "sesId": 562162
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.07653511156582,
-          -37.73401611419323
+          146.39119324354772,
+          -37.21725326348353
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 207657,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207657,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "The Serpentine -",
+        "eventId": 250210016,
+        "id": "ESTA:250210016",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-22T18:47:00.000Z",
+        "updated": "2025-02-22T18:54:00.000Z",
+        "resources": 0,
+        "location": "The Serpentine -, Tecoma",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34711345100223,
+          -37.90043500668254
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 207658,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250210018",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wangaratta",
+        "eventId": "250210018",
+        "id": "ESTA:250210018",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-22T18:59:29.000Z",
+        "updated": "2025-02-22T18:59:29.000Z",
+        "resources": 1,
+        "location": "Wangaratta, Wangaratta",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250210018"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.32055221588925,
+          -36.35673376950318
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 207553,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 207553,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wimmera Park Rd",
+        "eventId": 250209832,
+        "id": "ESTA:250209832",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-22T08:15:00.000Z",
+        "updated": "2025-02-22T19:02:00.000Z",
+        "resources": 0,
+        "location": "Wimmera Park Rd, Campbells Bridge",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.73492618856767,
+          -36.929468935346094
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250210020",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250210020",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lockwood Rd",
+        "id": "ESTA:250210020",
+        "eventId": "250210020",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-22T19:06:22.000Z",
+        "updated": "2025-02-22T19:06:22.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Lockwood Rd, Shepparton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41625050187287,
+          -36.38248580804725
         ]
       }
     },
@@ -10421,7 +10489,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-02-22T16:47:04.000Z",
         "updated": "2025-02-22T16:47:04.000Z",
-        "resources": 6,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Karkarook Access Rd, Heatherton"
@@ -10438,56 +10506,29 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250209995",
+        "mfbId": "250210015",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250209995",
+        "sourceId": "250210015",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Flinders St",
-        "id": "ESTA:250209995",
-        "eventId": "250209995",
+        "sourceTitle": "Cooper St",
+        "id": "ESTA:250210015",
+        "eventId": "250210015",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-02-22T17:50:24.000Z",
-        "updated": "2025-02-22T17:50:24.000Z",
-        "resources": 3,
+        "created": "2025-02-22T18:59:46.000Z",
+        "updated": "2025-02-22T18:59:46.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Flinders St, Melbourne"
+        "location": "Cooper St, Brunswick West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96648312613794,
-          -37.81752423390778
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 562233,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562233,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254178,
-        "id": "ESTA:250254178",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T15:52:00.000Z",
-        "updated": "2025-02-22T15:55:00.000Z",
-        "resources": 0,
-        "location": "Yarraville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88931474902847,
-          -37.81165794232189
+          144.9521438885892,
+          -37.75480874517213
         ]
       }
     },
@@ -10521,33 +10562,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 562258,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562258,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254203,
-        "id": "ESTA:250254203",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:22:00.000Z",
-        "updated": "2025-02-22T18:25:00.000Z",
-        "resources": 0,
-        "location": "Rosanna"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.07652674078648,
-          -37.73401857179016
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 562261,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -10569,60 +10583,6 @@
         "coordinates": [
           145.27249318120238,
           -37.865405760653985
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 562257,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562257,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254202,
-        "id": "ESTA:250254202",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T18:19:00.000Z",
-        "updated": "2025-02-22T18:33:00.000Z",
-        "resources": 1,
-        "location": "Cranbourne East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2986021169289,
-          -38.10806323807928
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 562250,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 562250,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250254195,
-        "id": "ESTA:250254195",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-02-22T17:48:00.000Z",
-        "updated": "2025-02-22T18:34:00.000Z",
-        "resources": 1,
-        "location": "Lang Lang"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.56515501361133,
-          -38.26905104996858
         ]
       }
     },
@@ -10656,27 +10616,216 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 562254,
+        "sesId": 562262,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 562254,
+        "sourceId": 562262,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250254199,
-        "id": "ESTA:250254199",
+        "eventId": 250254207,
+        "id": "ESTA:250254207",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-02-22T18:10:00.000Z",
-        "updated": "2025-02-22T18:45:00.000Z",
-        "resources": 1,
-        "location": "Healesville"
+        "created": "2025-02-22T18:42:00.000Z",
+        "updated": "2025-02-22T18:46:00.000Z",
+        "resources": 0,
+        "location": "Brunswick West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.54955354545402,
-          -37.64689646259974
+          144.95214353494302,
+          -37.75481263515234
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562258,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562258,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254203,
+        "id": "ESTA:250254203",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:22:00.000Z",
+        "updated": "2025-02-22T19:01:00.000Z",
+        "resources": 1,
+        "location": "Rosanna"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07652674078648,
+          -37.73401857179016
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562266,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562266,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254211,
+        "id": "ESTA:250254211",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:57:00.000Z",
+        "updated": "2025-02-22T19:01:00.000Z",
+        "resources": 0,
+        "location": "Euroa"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.56696386477964,
+          -36.82278807840108
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562268,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562268,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254213,
+        "id": "ESTA:250254213",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:59:00.000Z",
+        "updated": "2025-02-22T19:03:00.000Z",
+        "resources": 0,
+        "location": "Tanjil South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.28430509260804,
+          -38.15033360873701
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 562264,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562264,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254209,
+        "id": "ESTA:250254209",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:49:00.000Z",
+        "updated": "2025-02-22T19:04:00.000Z",
+        "resources": 1,
+        "location": "Belgrave South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3479760612546,
+          -37.953384122721204
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562265,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562265,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254210,
+        "id": "ESTA:250254210",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:57:00.000Z",
+        "updated": "2025-02-22T19:04:00.000Z",
+        "resources": 0,
+        "location": "Warragul"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9037979442893,
+          -38.16955067743455
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 562250,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562250,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254195,
+        "id": "ESTA:250254195",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T17:48:00.000Z",
+        "updated": "2025-02-22T19:12:00.000Z",
+        "resources": 0,
+        "location": "Lang Lang"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.56515501361133,
+          -38.26905104996858
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 562267,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562267,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254212,
+        "id": "ESTA:250254212",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-22T18:59:00.000Z",
+        "updated": "2025-02-22T19:16:00.000Z",
+        "resources": 1,
+        "location": "Carrum Downs"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1850762504758,
+          -38.08951220107676
         ]
       }
     },
@@ -12738,7 +12887,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -12746,7 +12894,8 @@
         "North Central": "YES - TOTAL FIRE BAN IN FORCE",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -12762,7 +12911,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -12770,7 +12918,8 @@
             "North Central": "YES - TOTAL FIRE BAN IN FORCE",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-02-22T13:00:00.000Z",
           "heat": {
@@ -12951,7 +13100,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-22T18:50:00.045Z",
-    "featureCount": 436
+    "lastUpdated": "2025-02-22T19:17:19.831Z",
+    "featureCount": 441
   }
 }
