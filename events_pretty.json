@@ -3657,23 +3657,55 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
+        "estaId": 118565322,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 208072,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dalmore Dr",
+        "eventId": 250210862,
+        "id": "ESTA:250210862",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-02-24T19:03:00.000Z",
+        "updated": "2025-02-24T19:03:00.000Z",
+        "resources": 1,
+        "location": "Dalmore Dr, Scoresby",
+        "cfaId": 208072,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21801668190938,
+          -37.91077108917624
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 118565355,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250210865",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clayton",
+        "sourceTitle": "Kanooka Gr",
         "eventId": "250210865",
         "id": "ESTA:250210865",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-02-24T19:13:14.000Z",
-        "updated": "2025-02-24T19:13:14.000Z",
+        "created": "2025-02-24T19:23:52.000Z",
+        "updated": "2025-02-24T19:23:52.000Z",
         "resources": 3,
-        "location": "Clayton, Clayton",
+        "location": "Kanooka Gr, Clayton",
         "mfbId": "250210865",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3682,8 +3714,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12596206290155,
-          -37.922066998963075
+          145.12591876510763,
+          -37.92338244964392
         ]
       }
     },
@@ -3848,7 +3880,7 @@
         "category2": "Other",
         "created": "2025-02-24T18:53:00.000Z",
         "updated": "2025-02-24T18:53:00.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Buangor",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3859,35 +3891,6 @@
         "coordinates": [
           143.1995541761433,
           -37.41212491441528
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 208072,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 208072,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Dalmore Dr",
-        "eventId": 250210862,
-        "id": "ESTA:250210862",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-24T19:03:00.000Z",
-        "updated": "2025-02-24T19:03:00.000Z",
-        "resources": 2,
-        "location": "Dalmore Dr, Scoresby",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21801668190938,
-          -37.91077108917624
         ]
       }
     },
@@ -3906,7 +3909,7 @@
         "category2": "Other",
         "created": "2025-02-24T19:10:00.000Z",
         "updated": "2025-02-24T19:10:00.000Z",
-        "resources": 0,
+        "resources": 1,
         "location": "Christie Av, Cobram",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3948,35 +3951,6 @@
           -37.831891942431696
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250210857",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250210857",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mulgrave",
-        "id": "ESTA:250210857",
-        "eventId": "250210857",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-24T18:34:40.000Z",
-        "updated": "2025-02-24T18:34:40.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Mulgrave, Mulgrave"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17028049275837,
-          -37.920147380747615
-        ]
-      }
     }
   ],
   "properties": {
@@ -3993,7 +3967,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4001,7 +3974,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4017,7 +3991,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4025,7 +3998,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-02-24T13:00:00.000Z",
           "heat": {
@@ -4206,7 +4180,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-24T19:18:46.082Z",
-    "featureCount": 420
+    "lastUpdated": "2025-02-24T19:30:20.074Z",
+    "featureCount": 419
   }
 }
