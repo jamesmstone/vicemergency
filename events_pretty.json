@@ -4169,38 +4169,39 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118602135,
+        "estaId": 118602237,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 208494,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sharpley Av",
-        "eventId": 250212050,
-        "id": "ESTA:250212050",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250212054",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Venice St",
+        "eventId": "250212054",
+        "id": "ESTA:250212054",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-02-27T13:22:00.000Z",
-        "updated": "2025-02-27T13:22:00.000Z",
-        "resources": 2,
-        "location": "Sharpley Av, Safety Beach",
-        "cfaId": 208494,
+        "category2": "Structure Fire",
+        "created": "2025-02-27T13:35:32.000Z",
+        "updated": "2025-02-27T13:35:32.000Z",
+        "resources": 5,
+        "location": "Venice St, Mornington",
+        "cfaId": 208496,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250212054"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99569323225165,
-          -38.30617395173673
+          145.03757366892648,
+          -38.23253934904932
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118602154,
         "feedType": "incident",
         "source": "000",
@@ -4214,7 +4215,7 @@
         "category1": "Accident / Rescue",
         "category2": "Rescue",
         "created": "2025-02-27T13:24:00.000Z",
-        "updated": "2025-02-27T13:24:00.000Z",
+        "updated": "2025-02-27T13:36:00.000Z",
         "resources": 0,
         "location": "Hume Fwy, Wandong",
         "cfaId": 208495,
@@ -4232,63 +4233,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118602148,
+        "status": "Request For Assistance",
+        "estaId": 118602287,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118602148,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Eumemmerring",
-        "eventId": "F250212051",
-        "id": "ESTA:250212051",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562901,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250254877,
+        "id": "ESTA:250254877",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-27T13:22:19.000Z",
-        "updated": "2025-02-27T13:24:12.625Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-02-27T13:40:00.000Z",
+        "updated": "2025-02-27T13:42:00.000Z",
         "resources": 0,
-        "location": "Frawley Rd, Eumemmerring"
+        "location": "West Wodonga",
+        "sesId": 562901
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24513413150126,
-          -37.995143147878345
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118602123,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250212049",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Frawley Rd",
-        "eventId": "250212049",
-        "id": "ESTA:250212049",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-27T13:25:15.000Z",
-        "updated": "2025-02-27T13:25:15.000Z",
-        "resources": 2,
-        "location": "Frawley Rd, Eumemmerring",
-        "cfaId": 208493,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250212049"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2451330279946,
-          -37.99514825584049
+          146.83562974967552,
+          -36.11376246599109
         ]
       }
     },
@@ -4770,6 +4739,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 208493,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250212049",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Frawley Rd",
+        "eventId": "250212049",
+        "id": "ESTA:250212049",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-27T13:34:17.000Z",
+        "updated": "2025-02-27T13:34:17.000Z",
+        "resources": 3,
+        "location": "Frawley Rd, Eumemmerring",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250212049"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2451330279946,
+          -37.99514825584049
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 208492,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4780,8 +4779,8 @@
         "id": "ESTA:250212047",
         "category1": "Other",
         "category2": "Grass and Scrub",
-        "created": "2025-02-27T13:14:01.000Z",
-        "updated": "2025-02-27T13:14:01.000Z",
+        "created": "2025-02-27T13:35:11.000Z",
+        "updated": "2025-02-27T13:35:11.000Z",
         "resources": 2,
         "location": "Cranbourne East, Cranbourne East",
         "size": "Small",
@@ -4794,6 +4793,35 @@
         "coordinates": [
           145.29874297461402,
           -38.10992024048643
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250212057",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250212057",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Highbury Gr",
+        "id": "ESTA:250212057",
+        "eventId": "250212057",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-27T13:45:50.000Z",
+        "updated": "2025-02-27T13:45:50.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Highbury Gr, Prahran"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0068636125219,
+          -37.85603727249521
         ]
       }
     }
@@ -5025,7 +5053,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-27T13:30:25.704Z",
-    "featureCount": 437
+    "lastUpdated": "2025-02-27T13:50:20.135Z",
+    "featureCount": 438
   }
 }
