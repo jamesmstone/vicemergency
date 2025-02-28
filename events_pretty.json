@@ -3070,7 +3070,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-23T03:17:00.000Z",
-        "updated": "2025-02-28T13:02:00.000Z",
+        "updated": "2025-02-28T18:43:00.000Z",
         "resources": 5,
         "size": "2924.00",
         "sizeFmt": "2924.00 Ha.",
@@ -3310,70 +3310,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118617869,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250300072",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Holland Ct",
-        "eventId": "250300072",
-        "id": "ESTA:250300072",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-28T19:09:22.000Z",
-        "updated": "2025-02-28T19:09:22.000Z",
-        "resources": 1,
-        "location": "Holland Ct, Flemington",
-        "mfbId": "250300072",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9347179971059,
-          -37.788183324856746
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118617836,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 208686,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250300070,
-        "id": "ESTA:250300070",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-02-28T19:00:00.000Z",
-        "updated": "2025-02-28T19:13:00.000Z",
-        "resources": 1,
-        "location": "Boho",
-        "cfaId": 208686,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.78287337171196,
-          -36.71239986485888
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 202926,
         "feedType": "incident",
@@ -3403,7 +3339,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 208686,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 208686,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250300070,
+        "id": "ESTA:250300070",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-28T19:00:00.000Z",
+        "updated": "2025-02-28T19:13:00.000Z",
+        "resources": 1,
+        "location": "Boho",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.78287337171196,
+          -36.71239986485888
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "cfaId": 208687,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3462,6 +3427,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250300072",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250300072",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Holland Ct",
+        "id": "ESTA:250300072",
+        "eventId": "250300072",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-02-28T19:22:16.000Z",
+        "updated": "2025-02-28T19:22:16.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Holland Ct, Flemington"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9347179971059,
+          -37.788183324856746
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250300051",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3485,35 +3479,6 @@
         "coordinates": [
           145.0582594790976,
           -37.824407437056486
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250300074",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250300074",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Raglan St",
-        "id": "ESTA:250300074",
-        "eventId": "250300074",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-02-28T19:17:39.000Z",
-        "updated": "2025-02-28T19:17:39.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Raglan St, Redan"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.84857651602846,
-          -37.573047598924106
         ]
       }
     }
@@ -3745,7 +3710,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-28T19:20:00.158Z",
-    "featureCount": 435
+    "lastUpdated": "2025-02-28T19:30:20.063Z",
+    "featureCount": 434
   }
 }
