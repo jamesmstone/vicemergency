@@ -3310,34 +3310,62 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118617114,
+        "status": "Responding",
+        "estaId": 118617305,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250300044",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Heysen Dr",
-        "eventId": "250300044",
-        "id": "ESTA:250300044",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118617305,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Camberwell",
+        "eventId": "F250300051",
+        "id": "ESTA:250300051",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-28T16:25:26.000Z",
-        "updated": "2025-02-28T16:25:26.000Z",
-        "resources": 1,
-        "location": "Heysen Dr, Sunbury",
-        "cfaId": 208683,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250300044"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-02-28T16:48:07.000Z",
+        "updated": "2025-02-28T16:49:43.684Z",
+        "resources": 0,
+        "location": "Camberwell"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7088089262383,
-          -37.575784287358104
+          145.0581924040971,
+          -37.82352666523534
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118617307,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250300052",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Boldrewood Pde",
+        "eventId": "250300052",
+        "id": "ESTA:250300052",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-02-28T16:49:54.000Z",
+        "updated": "2025-02-28T16:49:54.000Z",
+        "resources": 2,
+        "location": "Boldrewood Pde, Reservoir",
+        "mfbId": "250300052",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02197220825838,
+          -37.721784447870675
         ]
       }
     },
@@ -3404,28 +3432,57 @@
         "status": "Safe",
         "cfaId": 208682,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250300039",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Thompsons Rd",
-        "eventId": "250300039",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 208682,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Duncans Lane",
+        "eventId": 250300039,
         "id": "ESTA:250300039",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-02-28T16:09:08.000Z",
-        "updated": "2025-02-28T16:09:08.000Z",
+        "category2": "Other",
+        "created": "2025-02-28T15:33:00.000Z",
+        "updated": "2025-02-28T16:09:00.000Z",
         "resources": 1,
-        "location": "Thompsons Rd, Diggers Rest",
+        "location": "Duncans Lane, Diggers Rest",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250300039"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.74271365427737,
-          -37.656832757716714
+          144.74271189825942,
+          -37.65683291510933
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 208683,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250300044",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heysen Dr",
+        "eventId": "250300044",
+        "id": "ESTA:250300044",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-02-28T16:25:26.000Z",
+        "updated": "2025-02-28T16:25:26.000Z",
+        "resources": 1,
+        "location": "Heysen Dr, Sunbury",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250300044"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7088089262383,
+          -37.575784287358104
         ]
       }
     },
@@ -3455,6 +3512,33 @@
         "coordinates": [
           144.80944341149325,
           -37.84715564658787
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 562967,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 562967,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350004,
+        "id": "ESTA:250350004",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-02-28T16:50:00.000Z",
+        "updated": "2025-02-28T16:49:41.000Z",
+        "resources": 0,
+        "location": "Camberwell"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05818573470953,
+          -37.82353973271126
         ]
       }
     }
@@ -3686,7 +3770,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-02-28T16:30:40.111Z",
-    "featureCount": 433
+    "lastUpdated": "2025-02-28T16:50:40.045Z",
+    "featureCount": 436
   }
 }
