@@ -3866,7 +3866,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 118630843,
         "feedType": "incident",
         "source": "SES STRM",
@@ -3880,7 +3880,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-03-01T19:43:00.000Z",
-        "updated": "2025-03-01T19:47:00.000Z",
+        "updated": "2025-03-01T20:09:00.000Z",
         "resources": 0,
         "location": "Kawarren",
         "sesId": 563046
@@ -3897,29 +3897,124 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118630852,
+        "estaId": 118630922,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118630852,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Essendon",
-        "eventId": "F250300506",
-        "id": "ESTA:250300506",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250300507",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Seaford",
+        "eventId": "250300507",
+        "id": "ESTA:250300507",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-01T19:47:21.000Z",
-        "updated": "2025-03-01T19:48:07.832Z",
-        "resources": 0,
-        "location": "Mt Alexander Rd, Essendon"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-01T20:12:05.000Z",
+        "updated": "2025-03-01T20:12:05.000Z",
+        "resources": 1,
+        "location": "Seaford, Seaford",
+        "mfbId": "250300507",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91848769928504,
-          -37.75581024770156
+          145.15695656175126,
+          -38.10860281093144
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118630757,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563045,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350072,
+        "id": "ESTA:250350072",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-01T19:18:00.000Z",
+        "updated": "2025-03-01T20:15:00.000Z",
+        "resources": 0,
+        "location": "Kilmore East",
+        "sesId": 563045
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99785276975769,
+          -37.235520264397096
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 118630852,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250300506",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mt Alexander Rd",
+        "eventId": "250300506",
+        "id": "ESTA:250300506",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-01T20:15:37.000Z",
+        "updated": "2025-03-01T20:15:37.000Z",
+        "resources": 11,
+        "location": "Mt Alexander Rd, Essendon",
+        "mfbId": "250300506",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9184835037597,
+          -37.75581775586477
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118630942,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563049,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350076,
+        "id": "ESTA:250350076",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-01T20:17:00.000Z",
+        "updated": "2025-03-01T20:18:00.000Z",
+        "resources": 0,
+        "location": "Bentleigh",
+        "sesId": 563049
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0473416182482,
+          -37.921922388115995
         ]
       }
     },
@@ -4026,7 +4121,7 @@
         "category2": "Bushfire",
         "created": "2025-02-28T19:00:00.000Z",
         "updated": "2025-03-01T19:05:00.000Z",
-        "resources": 13,
+        "resources": 12,
         "location": "Fire Boho Stilos Track, Boho",
         "size": "Large",
         "sizeFmt": "Large"
@@ -4042,58 +4137,84 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 208871,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250300497",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 208871,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Maber St",
-        "eventId": "250300497",
+        "eventId": 250300497,
         "id": "ESTA:250300497",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-01T19:29:42.000Z",
-        "updated": "2025-03-01T19:29:42.000Z",
-        "resources": 1,
+        "category2": "Other",
+        "created": "2025-03-01T19:19:00.000Z",
+        "updated": "2025-03-01T20:05:00.000Z",
+        "resources": 0,
         "location": "Maber St, Tarneit",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250300497"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.69280739121515,
-          -37.814144389462065
+          144.69279872366292,
+          -37.81415296948692
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 563045,
+        "status": "Request For Assistance",
+        "sesId": 563047,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 563045,
+        "sourceId": 563047,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250350072,
-        "id": "ESTA:250350072",
+        "eventId": 250350074,
+        "id": "ESTA:250350074",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-01T19:18:00.000Z",
-        "updated": "2025-03-01T19:40:00.000Z",
-        "resources": 1,
-        "location": "Kilmore East"
+        "created": "2025-03-01T19:56:00.000Z",
+        "updated": "2025-03-01T19:58:00.000Z",
+        "resources": 0,
+        "location": "Echuca Village"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99785276975769,
-          -37.235520264397096
+          144.79566865114367,
+          -36.12547527515889
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563048,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563048,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350075,
+        "id": "ESTA:250350075",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-01T20:04:00.000Z",
+        "updated": "2025-03-01T20:09:00.000Z",
+        "resources": 0,
+        "location": "Carlton North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97569312805626,
+          -37.786121217642716
         ]
       }
     }
@@ -4325,7 +4446,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-01T19:50:20.089Z",
-    "featureCount": 470
+    "lastUpdated": "2025-03-01T20:23:40.017Z",
+    "featureCount": 474
   }
 }
