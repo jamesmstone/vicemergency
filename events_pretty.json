@@ -4129,6 +4129,68 @@
       }
     },
     {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118678299,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563300,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350354,
+        "id": "ESTA:250350354",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-05T16:53:00.000Z",
+        "updated": "2025-03-05T17:27:00.000Z",
+        "resources": 0,
+        "location": "Horsham",
+        "sesId": 563300
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1872525748493,
+          -36.713693172650615
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118677965,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250302240",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wellington St",
+        "eventId": "250302240",
+        "id": "ESTA:250302240",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-05T17:30:29.000Z",
+        "updated": "2025-03-05T17:30:29.000Z",
+        "resources": 5,
+        "location": "Wellington St, Cremorne",
+        "mfbId": "250302240",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98991317629893,
+          -37.82572760363904
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -4604,35 +4666,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209545,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209545,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cemetery Rd",
-        "eventId": 250302251,
-        "id": "ESTA:250302251",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-05T16:24:00.000Z",
-        "updated": "2025-03-05T16:31:00.000Z",
-        "resources": 0,
-        "location": "Cemetery Rd, Cranbourne",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26906137115623,
-          -38.11872509137922
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 209544,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4643,8 +4676,8 @@
         "id": "ESTA:250302249",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-05T16:36:34.000Z",
-        "updated": "2025-03-05T16:36:34.000Z",
+        "created": "2025-03-05T17:35:28.000Z",
+        "updated": "2025-03-05T17:35:28.000Z",
         "resources": 2,
         "location": "Epping Rd, Wollert",
         "size": "Small",
@@ -4715,62 +4748,6 @@
         "coordinates": [
           144.8765067651415,
           -37.71322603000765
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250302240",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250302240",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wellington St",
-        "id": "ESTA:250302240",
-        "eventId": "250302240",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-05T16:04:52.000Z",
-        "updated": "2025-03-05T16:04:52.000Z",
-        "resources": 5,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Wellington St, Cremorne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98991317629893,
-          -37.82572760363904
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 563300,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563300,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350354,
-        "id": "ESTA:250350354",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-05T16:53:00.000Z",
-        "updated": "2025-03-05T16:55:00.000Z",
-        "resources": 0,
-        "location": "Horsham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1872525748493,
-          -36.713693172650615
         ]
       }
     }
@@ -4849,7 +4826,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "HIGH",
@@ -4857,7 +4833,8 @@
             "North Central": "HIGH",
             "Northern Country": "MODERATE",
             "South West": "HIGH",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5002,7 +4979,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-05T17:23:46.157Z",
-    "featureCount": 452
+    "lastUpdated": "2025-03-05T17:36:46.273Z",
+    "featureCount": 451
   }
 }
