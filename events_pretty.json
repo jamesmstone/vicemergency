@@ -4130,7 +4130,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 118678556,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563301,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350355,
+        "id": "ESTA:250350355",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-05T17:56:00.000Z",
+        "updated": "2025-03-05T18:40:00.000Z",
+        "resources": 0,
+        "location": "East Geelong",
+        "sesId": 563301
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.38458154499696,
+          -38.158709176222125
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 118678696,
         "feedType": "incident",
         "source": "000",
@@ -4141,11 +4171,11 @@
         "eventId": "250302272",
         "id": "ESTA:250302272",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-05T18:32:24.000Z",
-        "updated": "2025-03-05T18:32:24.000Z",
-        "resources": 2,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-05T18:40:24.000Z",
+        "updated": "2025-03-05T18:40:24.000Z",
+        "resources": 1,
         "location": "Vaucluse Av, Gladstone Park",
         "mfbId": "250302272",
         "size": "Small",
@@ -4163,29 +4193,33 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118678701,
+        "estaId": 118678720,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118678701,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Laverton North",
-        "eventId": "F250302273",
-        "id": "ESTA:250302273",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250302275",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Piper Lane",
+        "eventId": "250302275",
+        "id": "ESTA:250302275",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-05T18:33:45.000Z",
-        "updated": "2025-03-05T18:33:52.633Z",
-        "resources": 0,
-        "location": "Westside Dr, Laverton North"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-05T18:42:09.000Z",
+        "updated": "2025-03-05T18:42:09.000Z",
+        "resources": 3,
+        "location": "Piper Lane, East Bendigo",
+        "cfaId": 209555,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250302275"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.82111642770525,
-          -37.81777432661212
+          144.32272182177877,
+          -36.74665263513257
         ]
       }
     },
@@ -4665,87 +4699,29 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209544,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209544,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Epping Rd",
-        "eventId": 250302249,
-        "id": "ESTA:250302249",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-05T16:19:00.000Z",
-        "updated": "2025-03-05T17:35:00.000Z",
-        "resources": 0,
-        "location": "Epping Rd, Wollert",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03016806197994,
-          -37.618448381300674
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 209554,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209554,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Austrak Dr",
-        "eventId": 250302270,
-        "id": "ESTA:250302270",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-05T18:07:00.000Z",
-        "updated": "2025-03-05T18:07:00.000Z",
-        "resources": 2,
-        "location": "Austrak Dr, Somerton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9468726677396,
-          -37.6406844239869
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250302261",
+        "mfbId": "250302273",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250302261",
+        "sourceId": "250302273",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Outlook Rd",
-        "id": "ESTA:250302261",
-        "eventId": "250302261",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-05T17:53:53.000Z",
-        "updated": "2025-03-05T17:53:53.000Z",
+        "sourceTitle": "Laverton North",
+        "id": "ESTA:250302273",
+        "eventId": "250302273",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-05T18:50:30.000Z",
+        "updated": "2025-03-05T18:50:30.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Outlook Rd, Coburg North"
+        "location": "Laverton North, Laverton North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97708281981616,
-          -37.733227426396006
+          144.82136460631796,
+          -37.81743200089082
         ]
       }
     },
@@ -4764,7 +4740,7 @@
         "category2": "Other",
         "created": "2025-03-05T18:26:26.000Z",
         "updated": "2025-03-05T18:26:26.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Whitehorse Rd, Mont Albert"
@@ -4822,7 +4798,7 @@
         "category2": "Structure Fire",
         "created": "2025-03-05T18:02:12.000Z",
         "updated": "2025-03-05T18:02:12.000Z",
-        "resources": 8,
+        "resources": 6,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Barrie Rd, Tullamarine"
@@ -4833,33 +4809,6 @@
         "coordinates": [
           144.8765067651415,
           -37.71322603000765
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 563301,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563301,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350355,
-        "id": "ESTA:250350355",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-05T17:56:00.000Z",
-        "updated": "2025-03-05T18:18:00.000Z",
-        "resources": 1,
-        "location": "East Geelong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.38458154499696,
-          -38.158709176222125
         ]
       }
     }
@@ -5091,7 +5040,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-05T18:34:06.344Z",
-    "featureCount": 455
+    "lastUpdated": "2025-03-05T18:52:20.026Z",
+    "featureCount": 453
   }
 }
