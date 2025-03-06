@@ -3721,63 +3721,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118691558,
+        "status": "Request For Assistance",
+        "estaId": 118691669,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250302716",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melbourne",
-        "eventId": "250302716",
-        "id": "ESTA:250302716",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563375,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350453,
+        "id": "ESTA:250350453",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-06T17:11:37.000Z",
-        "updated": "2025-03-06T17:11:37.000Z",
-        "resources": 2,
-        "location": "Melbourne, Melbourne",
-        "mfbId": "250302716",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-06T17:29:00.000Z",
+        "updated": "2025-03-06T17:35:00.000Z",
+        "resources": 1,
+        "location": "Lilliput",
+        "sesId": 563375
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95436681375594,
-          -37.81344770079966
+          146.39822923074195,
+          -36.11881909261016
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118691608,
+        "status": "Responding",
+        "estaId": 118691683,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563374,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350452,
-        "id": "ESTA:250350452",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118691683,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Lilliput",
+        "eventId": "S250350454",
+        "id": "ESTA:250350454",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-06T17:14:00.000Z",
-        "updated": "2025-03-06T17:19:00.000Z",
+        "created": "2025-03-06T17:28:44.000Z",
+        "updated": "2025-03-06T17:31:38.361Z",
         "resources": 0,
-        "location": "Norong",
-        "sesId": 563374
+        "location": "Lilliput"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.39396974070857,
-          -36.14097597982058
+          146.3982454907959,
+          -36.11881176441194
         ]
       }
     },
@@ -4447,6 +4444,33 @@
           -38.37234817611667
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563374,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563374,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350452,
+        "id": "ESTA:250350452",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-06T17:14:00.000Z",
+        "updated": "2025-03-06T17:22:00.000Z",
+        "resources": 1,
+        "location": "Norong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.39396974070857,
+          -36.14097597982058
+        ]
+      }
     }
   ],
   "properties": {
@@ -4463,7 +4487,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -4471,7 +4494,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4487,7 +4511,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -4495,7 +4518,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-06T13:00:00.000Z",
           "heat": {
@@ -4523,7 +4547,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "HIGH",
@@ -4531,7 +4554,8 @@
             "North Central": "HIGH",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4676,7 +4700,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-06T17:23:00.391Z",
-    "featureCount": 445
+    "lastUpdated": "2025-03-06T17:36:26.087Z",
+    "featureCount": 446
   }
 }
