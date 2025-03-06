@@ -3721,53 +3721,54 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118691885,
+        "status": "Complete",
+        "estaId": 118691841,
         "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118691885,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Lilydale",
-        "eventId": "F250302727",
-        "id": "ESTA:250302727",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563377,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350455,
+        "id": "ESTA:250350455",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-06T18:14:50.000Z",
-        "updated": "2025-03-06T18:24:36.147Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-06T18:04:00.000Z",
+        "updated": "2025-03-06T18:47:00.000Z",
         "resources": 0,
-        "location": "Market St, Lilydale"
+        "location": "Heyfield",
+        "sesId": 563377
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35068524175605,
-          -37.75546931308542
+          146.78657543212702,
+          -37.98080697439802
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118691874,
+        "status": "Responding",
+        "estaId": 118691980,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209708,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Warburton Rail Trl",
-        "eventId": 250302726,
-        "id": "ESTA:250302726",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250302731",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dundas St",
+        "eventId": "250302731",
+        "id": "ESTA:250302731",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-06T18:12:00.000Z",
-        "updated": "2025-03-06T18:31:00.000Z",
-        "resources": 2,
-        "location": "Warburton Rail Trl, Lilydale",
-        "cfaId": 209708,
+        "created": "2025-03-06T18:48:06.000Z",
+        "updated": "2025-03-06T18:48:06.000Z",
+        "resources": 1,
+        "location": "Dundas St, Preston",
+        "mfbId": "250302731",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3775,8 +3776,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34805953620838,
-          -37.75614452024513
+          145.0022469011555,
+          -37.75219628693379
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118691998,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118691998,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Portland North",
+        "eventId": "S250350456",
+        "id": "ESTA:250350456",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-06T18:46:34.000Z",
+        "updated": "2025-03-06T18:50:32.145Z",
+        "resources": 0,
+        "location": "Portland-Nelson Rd, Portland North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.55802825506416,
+          -38.308121303328285
         ]
       }
     },
@@ -3897,6 +3927,36 @@
         "coordinates": [
           149.261108398,
           -37.082435608
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "592625",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Mudge St",
+        "id": "2025-03-07T05:43:00.0000000:592625",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Mudge St",
+        "location": "Albury Waste Management Ctr 565 Mudge St, Hamilton Valley 2641",
+        "created": "2025-03-07T05:43:00+11:00",
+        "updated": "2025-03-07T05:43:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.896972656,
+          -36.0298728939999
         ]
       }
     },
@@ -4048,21 +4108,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 209710,
+        "status": "Safe",
+        "cfaId": 209708,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 209710,
+        "sourceId": 209708,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mountjoy Pde",
-        "eventId": 250302729,
-        "id": "ESTA:250302729",
-        "category1": "Other",
+        "sourceTitle": "Warburton Rail Trl",
+        "eventId": 250302726,
+        "id": "ESTA:250302726",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-03-06T18:24:00.000Z",
-        "updated": "2025-03-06T18:24:00.000Z",
-        "resources": 0,
-        "location": "Mountjoy Pde, Lorne",
+        "created": "2025-03-06T18:12:00.000Z",
+        "updated": "2025-03-06T18:34:00.000Z",
+        "resources": 1,
+        "location": "Warburton Rail Trl, Lilydale",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4070,8 +4130,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.97496005507136,
-          -38.540547559558775
+          145.35067375539626,
+          -37.75547818127904
         ]
       }
     },
@@ -4157,33 +4217,6 @@
         "coordinates": [
           144.8977882887225,
           -38.37234817611667
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 563377,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563377,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350455,
-        "id": "ESTA:250350455",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-03-06T18:04:00.000Z",
-        "updated": "2025-03-06T18:18:00.000Z",
-        "resources": 0,
-        "location": "Heyfield"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.78657543212702,
-          -37.98080697439802
         ]
       }
     }
@@ -4415,7 +4448,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-06T18:33:06.686Z",
-    "featureCount": 447
+    "lastUpdated": "2025-03-06T18:51:00.048Z",
+    "featureCount": 448
   }
 }
