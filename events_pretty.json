@@ -3727,29 +3727,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118706715,
+        "estaId": 118706753,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118706715,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Surf Beach",
-        "eventId": "S250350561",
-        "id": "ESTA:250350561",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209909,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckirdys Rd",
+        "eventId": 250303210,
+        "id": "ESTA:250303210",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-03-07T17:27:57.000Z",
-        "updated": "2025-03-07T17:34:05.306Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-07T17:44:00.000Z",
+        "updated": "2025-03-07T17:44:00.000Z",
         "resources": 0,
-        "location": "Stradbroke Cr, Surf Beach"
+        "location": "Mckirdys Rd, Tyabb",
+        "cfaId": 209909,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29194836257304,
-          -38.50968532051744
+          145.21490553563504,
+          -38.26537974243782
         ]
       }
     },
@@ -4767,35 +4770,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 209908,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209908,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompsons Rd",
-        "eventId": 250303208,
-        "id": "ESTA:250303208",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-07T17:33:00.000Z",
-        "updated": "2025-03-07T17:33:00.000Z",
-        "resources": 0,
-        "location": "Thompsons Rd, Cranbourne",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.29110633850823,
-          -38.08466797278741
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250303186",
         "feedType": "incident",
@@ -4809,7 +4783,7 @@
         "category2": "Other",
         "created": "2025-03-07T15:43:55.000Z",
         "updated": "2025-03-07T15:43:55.000Z",
-        "resources": 4,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Lt Collins St, Melbourne"
@@ -4820,6 +4794,33 @@
         "coordinates": [
           144.97254992449407,
           -37.812759464192496
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563452,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563452,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350561,
+        "id": "ESTA:250350561",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-03-07T17:34:00.000Z",
+        "updated": "2025-03-07T17:40:00.000Z",
+        "resources": 0,
+        "location": "Surf Beach"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29193142300053,
+          -38.509689575413134
         ]
       }
     }
@@ -5051,7 +5052,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T17:34:26.207Z",
+    "lastUpdated": "2025-03-07T17:50:06.047Z",
     "featureCount": 453
   }
 }
