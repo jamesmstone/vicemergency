@@ -3530,32 +3530,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1630202",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Princes Highway, Wandilo",
-        "id": "1630202",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "name": "Princes Highway, Wandilo",
-        "created": "2025-03-07T11:22:00.000Z",
-        "updated": "2025-03-07T11:22:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Princes Highway, Wandilo"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.696935222519,
-          -37.7815274428062
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -3752,24 +3726,53 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118704347,
+        "status": "Safe",
+        "estaId": 118703739,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209888,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250303158,
-        "id": "ESTA:250303158",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118703739,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mooroopna",
+        "eventId": "F250303146",
+        "id": "ESTA:250303146",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-07T12:24:00.000Z",
-        "updated": "2025-03-07T12:40:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-07T11:26:17.000Z",
+        "updated": "2025-03-07T13:22:17.480Z",
+        "resources": 0,
+        "location": "Mclennan St, Mooroopna"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3430955491256,
+          -36.39650777209037
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118704947,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303173",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Thomas St",
+        "eventId": "250303173",
+        "id": "ESTA:250303173",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T13:23:27.000Z",
+        "updated": "2025-03-07T13:23:27.000Z",
         "resources": 2,
-        "location": "Sale",
-        "cfaId": 209888,
+        "location": "Thomas St, Thomastown",
+        "mfbId": "250303173",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3777,40 +3780,341 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.0707068056488,
-          -38.10508604578323
+          145.00904634763396,
+          -37.67411177062931
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118704599,
+        "estaId": 118705038,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209890,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Donnybrook Rd",
-        "eventId": 250303163,
-        "id": "ESTA:250303163",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303175",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Reservoir Rd",
+        "eventId": "250303175",
+        "id": "ESTA:250303175",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T12:47:00.000Z",
-        "updated": "2025-03-07T12:47:00.000Z",
-        "resources": 0,
-        "location": "Donnybrook Rd, Mickleham",
-        "cfaId": 209890,
+        "category2": "Fire",
+        "created": "2025-03-07T13:27:01.000Z",
+        "updated": "2025-03-07T13:27:01.000Z",
+        "resources": 2,
+        "location": "Reservoir Rd, Kennington",
+        "cfaId": 209892,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250303175"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93271340299825,
-          -37.538934742750556
+          144.31012639984388,
+          -36.772347196388075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Warning",
+        "feedType": "incident",
+        "sourceOrg": "AU/BOM",
+        "sourceId": "IDV20600/5892b89510325efc8e4f874a2d0a9686",
+        "sourceFeed": "bom-idv20600",
+        "sourceTitle": "Strong Wind Warning",
+        "id": "IDV20600/5892b89510325efc8e4f874a2d0a9686",
+        "category1": "Met",
+        "category2": "Strong Wind",
+        "name": "Strong Wind Warning",
+        "created": "2025-03-07T13:00:00.000Z",
+        "webHeadline": "Strong Wind Warning",
+        "webBody": null,
+        "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
+        "location": "East Gippsland Coast"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.9045,
+                  -37.5429
+                ],
+                [
+                  149.9117,
+                  -37.569
+                ],
+                [
+                  149.9124,
+                  -37.5693
+                ],
+                [
+                  151.0211,
+                  -37.568
+                ],
+                [
+                  151.0211,
+                  -38.4446
+                ],
+                [
+                  147.9951,
+                  -39.6977
+                ],
+                [
+                  147.9951,
+                  -37.8844
+                ],
+                [
+                  148.0796,
+                  -37.8616
+                ],
+                [
+                  148.083,
+                  -37.8609
+                ],
+                [
+                  148.0776,
+                  -37.8331
+                ],
+                [
+                  148.0702,
+                  -37.827
+                ],
+                [
+                  148.1033,
+                  -37.8413
+                ],
+                [
+                  148.127,
+                  -37.809
+                ],
+                [
+                  148.1262,
+                  -37.8351
+                ],
+                [
+                  148.0915,
+                  -37.8563
+                ],
+                [
+                  148.088,
+                  -37.8581
+                ],
+                [
+                  148.2788,
+                  -37.8115
+                ],
+                [
+                  148.3433,
+                  -37.8047
+                ],
+                [
+                  148.6517,
+                  -37.8025
+                ],
+                [
+                  148.6993,
+                  -37.8009
+                ],
+                [
+                  148.7296,
+                  -37.8131
+                ],
+                [
+                  148.73,
+                  -37.8134
+                ],
+                [
+                  148.7432,
+                  -37.799
+                ],
+                [
+                  148.7492,
+                  -37.7963
+                ],
+                [
+                  148.8251,
+                  -37.7847
+                ],
+                [
+                  149.1344,
+                  -37.7775
+                ],
+                [
+                  149.1431,
+                  -37.7774
+                ],
+                [
+                  149.1367,
+                  -37.7705
+                ],
+                [
+                  149.1215,
+                  -37.7677
+                ],
+                [
+                  149.1175,
+                  -37.742
+                ],
+                [
+                  149.1255,
+                  -37.7401
+                ],
+                [
+                  149.1412,
+                  -37.7745
+                ],
+                [
+                  149.1458,
+                  -37.7775
+                ],
+                [
+                  149.2382,
+                  -37.7785
+                ],
+                [
+                  149.2753,
+                  -37.8031
+                ],
+                [
+                  149.3405,
+                  -37.7767
+                ],
+                [
+                  149.3448,
+                  -37.7757
+                ],
+                [
+                  149.4669,
+                  -37.7689
+                ],
+                [
+                  149.4869,
+                  -37.775
+                ],
+                [
+                  149.4973,
+                  -37.7534
+                ],
+                [
+                  149.5964,
+                  -37.7256
+                ],
+                [
+                  149.5966,
+                  -37.7257
+                ],
+                [
+                  149.6175,
+                  -37.7011
+                ],
+                [
+                  149.6748,
+                  -37.6866
+                ],
+                [
+                  149.7541,
+                  -37.5782
+                ],
+                [
+                  149.7672,
+                  -37.573
+                ],
+                [
+                  149.7593,
+                  -37.5458
+                ],
+                [
+                  149.7598,
+                  -37.5449
+                ],
+                [
+                  149.6979,
+                  -37.5072
+                ],
+                [
+                  149.7063,
+                  -37.4993
+                ],
+                [
+                  149.7354,
+                  -37.4982
+                ],
+                [
+                  149.7449,
+                  -37.4929
+                ],
+                [
+                  149.7402,
+                  -37.5251
+                ],
+                [
+                  149.7431,
+                  -37.5272
+                ],
+                [
+                  149.7793,
+                  -37.5072
+                ],
+                [
+                  149.7753,
+                  -37.4916
+                ],
+                [
+                  149.7839,
+                  -37.5019
+                ],
+                [
+                  149.8045,
+                  -37.4923
+                ],
+                [
+                  149.8108,
+                  -37.4878
+                ],
+                [
+                  149.7894,
+                  -37.511
+                ],
+                [
+                  149.8024,
+                  -37.5311
+                ],
+                [
+                  149.8022,
+                  -37.5333
+                ],
+                [
+                  149.7699,
+                  -37.5595
+                ],
+                [
+                  149.7686,
+                  -37.5609
+                ],
+                [
+                  149.9045,
+                  -37.5429
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.50811274100005,
+              -38.59273152499995
+            ],
+            "name": "East Gippsland Coast"
+          }
         ]
       }
     },
@@ -4468,65 +4772,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209882,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303146",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mclennan St",
-        "eventId": "250303146",
-        "id": "ESTA:250303146",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-07T11:53:03.000Z",
-        "updated": "2025-03-07T11:53:03.000Z",
-        "resources": 1,
-        "location": "Mclennan St, Mooroopna",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250303146"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3430940378316,
-          -36.3965110985032
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209886,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209886,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Caroline Chisholm Dr",
-        "eventId": 250303154,
-        "id": "ESTA:250303154",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-03-07T12:04:00.000Z",
-        "updated": "2025-03-07T12:04:00.000Z",
-        "resources": 0,
-        "location": "Caroline Chisholm Dr, Kyneton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4699200370662,
-          -37.250024279977644
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 209884,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4555,21 +4800,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 209889,
+        "status": "Safe",
+        "cfaId": 209890,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 209889,
+        "sourceId": 209890,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompsons Rd",
-        "eventId": 250303161,
-        "id": "ESTA:250303161",
+        "sourceTitle": "Donnybrook Rd",
+        "eventId": 250303163,
+        "id": "ESTA:250303163",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-07T12:42:00.000Z",
-        "updated": "2025-03-07T12:42:00.000Z",
-        "resources": 2,
-        "location": "Thompsons Rd, Cranbourne",
+        "category2": "Other",
+        "created": "2025-03-07T12:47:00.000Z",
+        "updated": "2025-03-07T12:49:00.000Z",
+        "resources": 0,
+        "location": "Donnybrook Rd, Mickleham",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4577,62 +4822,150 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29110633850823,
-          -38.08466797278741
+          144.93271340299825,
+          -37.538934742750556
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 209888,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209888,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250303158,
+        "id": "ESTA:250303158",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-07T12:24:00.000Z",
+        "updated": "2025-03-07T12:56:00.000Z",
+        "resources": 0,
+        "location": "Sale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0707068056488,
+          -38.10508604578323
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 209891,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303165",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Monash Fwy",
+        "eventId": "250303165",
+        "id": "ESTA:250303165",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-07T13:09:36.000Z",
+        "updated": "2025-03-07T13:09:36.000Z",
+        "resources": 2,
+        "location": "Monash Fwy, Dandenong North",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250303165"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20308756822615,
+          -37.94369256095232
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250303171",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303171",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Donnelly Av",
+        "id": "ESTA:250303171",
+        "eventId": "250303171",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-07T13:12:37.000Z",
+        "updated": "2025-03-07T13:12:37.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Donnelly Av, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36204425325204,
+          -38.093844853694854
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 563445,
+        "sesId": 563448,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 563445,
+        "sourceId": 563448,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250350552,
-        "id": "ESTA:250350552",
+        "eventId": 250350558,
+        "id": "ESTA:250350558",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-07T12:58:00.000Z",
+        "updated": "2025-03-07T13:01:00.000Z",
+        "resources": 0,
+        "location": "Springvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15407251339713,
+          -37.94062384527025
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563449,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563449,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350559,
+        "id": "ESTA:250350559",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-07T11:50:00.000Z",
-        "updated": "2025-03-07T12:17:00.000Z",
-        "resources": 1,
-        "location": "Ferny Creek"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34239664695147,
-          -37.87595478321707
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 563447,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563447,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350557,
-        "id": "ESTA:250350557",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-03-07T12:28:00.000Z",
-        "updated": "2025-03-07T12:35:00.000Z",
+        "created": "2025-03-07T13:12:00.000Z",
+        "updated": "2025-03-07T13:18:00.000Z",
         "resources": 0,
-        "location": "Burwood East"
+        "location": "Eskdale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.13532390719843,
-          -37.849866893469446
+          147.20824674039375,
+          -36.44827755314301
         ]
       }
     }
@@ -4640,15 +4973,15 @@
   "properties": {
     "conditions": {
       "fdr": {
-        "Mallee": "MODERATE",
         "East Gippsland": "MODERATE",
-        "West and South Gippsland": "HIGH",
+        "West and South Gippsland": "MODERATE",
         "North East": "HIGH",
         "Central": "HIGH",
         "North Central": "HIGH",
         "Northern Country": "MODERATE",
-        "South West": "HIGH",
-        "Wimmera": "MODERATE"
+        "South West": "MODERATE",
+        "Wimmera": "HIGH",
+        "Mallee": "HIGH"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4662,53 +4995,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "Mallee": "MODERATE",
-            "East Gippsland": "MODERATE",
-            "West and South Gippsland": "HIGH",
-            "North East": "HIGH",
-            "Central": "HIGH",
-            "North Central": "HIGH",
-            "Northern Country": "MODERATE",
-            "South West": "HIGH",
-            "Wimmera": "MODERATE"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2025-03-06T13:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Declared"
-          },
-          "asthma": {
-            "Mallee": "None",
-            "Wimmera": "None",
-            "Northern Country": "None",
-            "North East": "None",
-            "East Gippsland": "None",
-            "West and South Gippsland": "None",
-            "Central": "None",
-            "North Central": "None",
-            "South West": "None"
-          }
-        },
         {
           "fdr": {
             "East Gippsland": "MODERATE",
@@ -4837,6 +5123,53 @@
             "Central": "Not Declared",
             "North Central": "Not Declared",
             "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "East Gippsland": "MODERATE",
+            "West and South Gippsland": "MODERATE",
+            "North East": "HIGH",
+            "Central": "MODERATE",
+            "North Central": "HIGH",
+            "Northern Country": "MODERATE",
+            "South West": "HIGH",
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2025-03-10T13:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
           }
         }
       ],
@@ -4849,7 +5182,7 @@
         "West and South Gippsland": "Not Declared",
         "Central": "Not Declared",
         "North Central": "Not Declared",
-        "South West": "Declared"
+        "South West": "Not Declared"
       },
       "asthma": {
         "Mallee": "None",
@@ -4864,7 +5197,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T12:48:20.144Z",
-    "featureCount": 456
+    "lastUpdated": "2025-03-07T13:29:26.204Z",
+    "featureCount": 458
   }
 }
