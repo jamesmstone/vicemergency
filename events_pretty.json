@@ -3726,33 +3726,34 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118706308,
+        "status": "Under Control",
+        "estaId": 118706515,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209904,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "St James Ct",
-        "eventId": 250303200,
-        "id": "ESTA:250303200",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303203",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dranes Rd",
+        "eventId": "250303203",
+        "id": "ESTA:250303203",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-07T16:13:00.000Z",
-        "updated": "2025-03-07T16:23:00.000Z",
-        "resources": 0,
-        "location": "St James Ct, Narre Warren",
-        "cfaId": 209904,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T17:08:02.000Z",
+        "updated": "2025-03-07T17:08:02.000Z",
+        "resources": 3,
+        "location": "Dranes Rd, Traralgon East",
+        "cfaId": 209906,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250303203"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.31249998266435,
-          -38.03537592168316
+          146.56540142583947,
+          -38.17525413584083
         ]
       }
     },
@@ -4709,6 +4710,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 209904,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209904,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "St James Ct",
+        "eventId": 250303200,
+        "id": "ESTA:250303200",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-07T16:13:00.000Z",
+        "updated": "2025-03-07T16:23:00.000Z",
+        "resources": 0,
+        "location": "St James Ct, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31249998266435,
+          -38.03537592168316
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "cfaId": 209903,
         "feedType": "incident",
@@ -4722,7 +4752,7 @@
         "category2": "Rescue Road Trap",
         "created": "2025-03-07T16:06:00.000Z",
         "updated": "2025-03-07T16:29:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Barrabool",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4735,6 +4765,35 @@
         "coordinates": [
           144.26122345535808,
           -38.15198493135346
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 209907,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209907,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dranes Rd",
+        "eventId": 250303205,
+        "id": "ESTA:250303205",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-07T16:56:00.000Z",
+        "updated": "2025-03-07T16:56:00.000Z",
+        "resources": 0,
+        "location": "Dranes Rd, Traralgon East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.56539792445733,
+          -38.175259970442475
         ]
       }
     },
@@ -4782,7 +4841,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4790,7 +4848,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4806,7 +4865,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4814,7 +4872,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-07T13:00:00.000Z",
           "heat": {
@@ -4995,7 +5054,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T16:51:20.268Z",
-    "featureCount": 451
+    "lastUpdated": "2025-03-07T17:22:00.372Z",
+    "featureCount": 453
   }
 }
