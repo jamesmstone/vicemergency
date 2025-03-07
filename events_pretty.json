@@ -3691,6 +3691,33 @@
         "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
+        "sourceId": 1005514,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Goulburn 135 - Boho - Honeysuckle Creek",
+        "id": 1005514,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-02-28T23:32:00.000Z",
+        "updated": "2025-03-07T07:27:00.000Z",
+        "resources": 0,
+        "size": "1.00",
+        "sizeFmt": "1.00 Ha.",
+        "location": "6Km South Of Boho"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7813,
+          -36.7425
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
         "sourceId": 1005621,
         "sourceFeed": "delwp-incident",
         "sourceTitle": "Midlands 112 - Main Lead - Waterloo Trk",
@@ -3764,32 +3791,6 @@
         "coordinates": [
           143.8911,
           -37.6084
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1630147",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Bookpurnong Road, Bookpurnong",
-        "id": "1630147",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Bookpurnong Road, Bookpurnong",
-        "created": "2025-03-07T06:57:00.000Z",
-        "updated": "2025-03-07T06:57:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Bookpurnong Road, Bookpurnong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.60295112745,
-          -34.3535305592786
         ]
       }
     },
@@ -3935,7 +3936,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3017902,
@@ -3944,8 +3945,8 @@
         "id": 3017902,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-03-06T00:36:23.000Z",
-        "updated": "2025-03-06T00:36:23.000Z",
+        "created": "2025-03-07T07:27:10.000Z",
+        "updated": "2025-03-07T07:27:10.000Z",
         "resources": 0,
         "size": "42.10",
         "sizeFmt": "42.10 Ha.",
@@ -3991,39 +3992,40 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118700634,
+        "status": "Responding",
+        "estaId": 118700854,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209833,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pier Rd",
-        "eventId": 250303044,
-        "id": "ESTA:250303044",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303050",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Darley",
+        "eventId": "250303050",
+        "id": "ESTA:250303050",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-07T07:07:00.000Z",
-        "updated": "2025-03-07T07:08:00.000Z",
-        "resources": 0,
-        "location": "Pier Rd, Inverloch",
-        "cfaId": 209833,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-07T07:23:18.000Z",
+        "updated": "2025-03-07T07:23:18.000Z",
+        "resources": 3,
+        "location": "Darley, Darley",
+        "cfaId": 209836,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250303050"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7350090835859,
-          -38.626057680370096
+          144.42333265802662,
+          -37.65610804659098
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118700731,
         "feedType": "incident",
         "source": "000",
@@ -4036,9 +4038,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-03-07T07:14:37.000Z",
-        "updated": "2025-03-07T07:14:37.000Z",
-        "resources": 2,
+        "created": "2025-03-07T07:23:53.000Z",
+        "updated": "2025-03-07T07:23:53.000Z",
+        "resources": 1,
         "location": "Heathmont, Heathmont",
         "mfbId": "250303046",
         "size": "Small",
@@ -4055,155 +4057,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118700753,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303047",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mornington Av",
-        "eventId": "250303047",
-        "id": "ESTA:250303047",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-07T07:14:49.000Z",
-        "updated": "2025-03-07T07:14:49.000Z",
-        "resources": 1,
-        "location": "Mornington Av, Tarneit",
-        "mfbId": "250303047",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.63986600130352,
-          -37.84847861665848
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "estaId": 118700753,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563428,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250350533,
-        "id": "ESTA:250350533",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-03-07T07:15:00.000Z",
-        "updated": "2025-03-07T07:19:00.000Z",
-        "resources": 0,
-        "location": "Tarneit",
-        "sesId": 563428
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.63986283336513,
-          -37.84848185165188
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118700779,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303048",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Midland Hwy",
-        "eventId": "250303048",
-        "id": "ESTA:250303048",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-07T07:17:29.000Z",
-        "updated": "2025-03-07T07:17:29.000Z",
-        "resources": 1,
-        "location": "Midland Hwy, Epsom",
-        "cfaId": 209835,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250303048"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.31655287392243,
-          -36.705014369201876
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118700791,
+        "estaId": 118700891,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 563429,
+        "sourceId": 563430,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250350534,
-        "id": "ESTA:250350534",
+        "eventId": 250350535,
+        "id": "ESTA:250350535",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-07T07:17:00.000Z",
-        "updated": "2025-03-07T07:19:00.000Z",
+        "created": "2025-03-07T07:24:00.000Z",
+        "updated": "2025-03-07T07:30:00.000Z",
         "resources": 0,
-        "location": "Goschen",
-        "sesId": 563429
+        "location": "Tecoma",
+        "sesId": 563430
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.51193172461342,
-          -35.4347862339704
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118700854,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118700854,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Darley",
-        "eventId": "F250303050",
-        "id": "ESTA:250303050",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-07T07:19:52.000Z",
-        "updated": "2025-03-07T07:21:44.712Z",
-        "resources": 0,
-        "location": "Darley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4233404468257,
-          -37.65610092199662
+          145.3471199593776,
+          -37.904211176933394
         ]
       }
     },
@@ -4222,8 +4100,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-03-07T07:19:18.000Z",
-        "updated": "2025-03-07T07:19:18.000Z",
+        "created": "2025-03-07T07:24:58.000Z",
+        "updated": "2025-03-07T07:24:58.000Z",
         "resources": 2,
         "location": "Lincoln Sq, Carlton",
         "mfbId": "250303049",
@@ -4236,6 +4114,130 @@
         "coordinates": [
           144.963026844131,
           -37.8014943207912
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118700936,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118700936,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Narre Warren",
+        "eventId": "F250303053",
+        "id": "ESTA:250303053",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-03-07T07:26:08.000Z",
+        "updated": "2025-03-07T07:28:33.884Z",
+        "resources": 0,
+        "location": "Narre Warren"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3049471082727,
+          -38.01470382988773
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118700779,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303048",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": "250303048",
+        "id": "ESTA:250303048",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-07T07:29:42.000Z",
+        "updated": "2025-03-07T07:29:42.000Z",
+        "resources": 3,
+        "location": "Midland Hwy, Epsom",
+        "cfaId": 209835,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250303048"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31655287392243,
+          -36.705014369201876
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118700933,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303052",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Narre Warren",
+        "eventId": "250303052",
+        "id": "ESTA:250303052",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-03-07T07:31:40.000Z",
+        "updated": "2025-03-07T07:31:40.000Z",
+        "resources": 4,
+        "location": "Narre Warren, Narre Warren",
+        "cfaId": 209837,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250303052"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3086486120213,
+          -38.01756138787348
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118700989,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118700989,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mickleham",
+        "eventId": "F250303055",
+        "id": "ESTA:250303055",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T07:30:47.000Z",
+        "updated": "2025-03-07T07:31:42.834Z",
+        "resources": 0,
+        "location": "Mickleham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8766651967253,
+          -37.56200200440935
         ]
       }
     },
@@ -4893,64 +4895,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209756,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209756,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250302847,
-        "id": "ESTA:250302847",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-07T00:38:00.000Z",
-        "updated": "2025-03-07T06:25:00.000Z",
-        "resources": 0,
-        "location": "Waubra",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.65711765534093,
-          -37.36769479203888
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209828,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209828,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250303034,
-        "id": "ESTA:250303034",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T06:22:00.000Z",
-        "updated": "2025-03-07T06:31:00.000Z",
-        "resources": 0,
-        "location": "Edenhope",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.22295142888115,
-          -37.01676138856336
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 209825,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4980,29 +4924,58 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250303043",
+        "cfaId": 209833,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303043",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Seaford Rd",
-        "id": "ESTA:250303043",
-        "eventId": "250303043",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209833,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pier Rd",
+        "eventId": 250303044,
+        "id": "ESTA:250303044",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-07T07:07:20.000Z",
-        "updated": "2025-03-07T07:07:20.000Z",
-        "resources": 1,
+        "created": "2025-03-07T07:07:00.000Z",
+        "updated": "2025-03-07T07:08:00.000Z",
+        "resources": 0,
+        "location": "Pier Rd, Inverloch",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Seaford Rd, Seaford"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15039593457692,
-          -38.111998493943766
+          145.7350090835859,
+          -38.626057680370096
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250303047",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303047",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mornington Av",
+        "id": "ESTA:250303047",
+        "eventId": "250303047",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-07T07:24:53.000Z",
+        "updated": "2025-03-07T07:24:53.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mornington Av, Tarneit"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.63986600130352,
+          -37.84847861665848
         ]
       }
     },
@@ -5140,6 +5113,60 @@
         "coordinates": [
           145.01119340845003,
           -37.92679592595249
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563428,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563428,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350533,
+        "id": "ESTA:250350533",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-07T07:15:00.000Z",
+        "updated": "2025-03-07T07:19:00.000Z",
+        "resources": 0,
+        "location": "Tarneit"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.63986283336513,
+          -37.84848185165188
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563429,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563429,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350534,
+        "id": "ESTA:250350534",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-07T07:17:00.000Z",
+        "updated": "2025-03-07T07:27:00.000Z",
+        "resources": 1,
+        "location": "Goschen"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.51193172461342,
+          -35.4347862339704
         ]
       }
     }
@@ -5371,7 +5398,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T07:22:40.091Z",
-    "featureCount": 468
+    "lastUpdated": "2025-03-07T07:32:40.296Z",
+    "featureCount": 469
   }
 }
