@@ -3405,8 +3405,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-23T03:17:00.000Z",
-        "updated": "2025-03-07T07:50:00.000Z",
-        "resources": 13,
+        "updated": "2025-03-07T15:23:00.000Z",
+        "resources": 3,
         "size": "5458.00",
         "sizeFmt": "5458.00 Ha.",
         "location": "7.3Km Ne Licola"
@@ -3727,71 +3727,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118705906,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303190",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Strathdale",
-        "eventId": "250303190",
-        "id": "ESTA:250303190",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-07T15:12:29.000Z",
-        "updated": "2025-03-07T15:12:29.000Z",
-        "resources": 2,
-        "location": "Strathdale, Strathdale",
-        "cfaId": 209900,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250303190"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3147362022095,
-          -36.769246574322906
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 118705749,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303182",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kimpton Way",
-        "eventId": "250303182",
-        "id": "ESTA:250303182",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-07T15:17:14.000Z",
-        "updated": "2025-03-07T15:17:14.000Z",
-        "resources": 2,
-        "location": "Kimpton Way, Altona",
-        "mfbId": "250303182",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.82978550745847,
-          -37.85059196253822
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 118705880,
         "feedType": "incident",
         "source": "000",
@@ -3818,38 +3753,6 @@
         "coordinates": [
           144.77277671722226,
           -38.35882052756287
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 118705572,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209896,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250303179,
-        "id": "ESTA:250303179",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T14:19:00.000Z",
-        "updated": "2025-03-07T15:07:00.000Z",
-        "resources": 0,
-        "location": "Mount Wallace",
-        "cfaId": 209896,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2220429055105,
-          -37.71027549213554
         ]
       }
     },
@@ -4866,6 +4769,65 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 209896,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209896,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250303179,
+        "id": "ESTA:250303179",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-07T14:19:00.000Z",
+        "updated": "2025-03-07T15:07:00.000Z",
+        "resources": 0,
+        "location": "Mount Wallace",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2220429055105,
+          -37.71027549213554
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 209900,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303190",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Strathdale",
+        "eventId": "250303190",
+        "id": "ESTA:250303190",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T15:12:29.000Z",
+        "updated": "2025-03-07T15:12:29.000Z",
+        "resources": 2,
+        "location": "Strathdale, Strathdale",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250303190"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3147362022095,
+          -36.769246574322906
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 209901,
         "feedType": "incident",
@@ -4919,6 +4881,35 @@
         "coordinates": [
           144.85982880850233,
           -37.81383402358102
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250303182",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303182",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kimpton Way",
+        "id": "ESTA:250303182",
+        "eventId": "250303182",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T15:17:14.000Z",
+        "updated": "2025-03-07T15:17:14.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Kimpton Way, Altona"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82978550745847,
+          -37.85059196253822
         ]
       }
     },
@@ -5179,7 +5170,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T15:25:26.117Z",
+    "lastUpdated": "2025-03-07T15:38:00.195Z",
     "featureCount": 457
   }
 }
