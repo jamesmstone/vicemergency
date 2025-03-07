@@ -3752,96 +3752,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118702863,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563440,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250303119,
-        "id": "ESTA:250303119",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-03-07T10:12:00.000Z",
-        "updated": "2025-03-07T11:36:00.000Z",
-        "resources": 2,
-        "location": "Berwick",
-        "cfaId": 209866,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 563440
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36786882161536,
-          -38.05980513988186
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "estaId": 118703739,
+        "estaId": 118704347,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303146",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mclennan St",
-        "eventId": "250303146",
-        "id": "ESTA:250303146",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209888,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250303158,
+        "id": "ESTA:250303158",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-07T11:46:59.000Z",
-        "updated": "2025-03-07T11:46:59.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-07T12:24:00.000Z",
+        "updated": "2025-03-07T12:40:00.000Z",
         "resources": 2,
-        "location": "Mclennan St, Mooroopna",
-        "cfaId": 209882,
+        "location": "Sale",
+        "cfaId": 209888,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250303146"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3430940378316,
-          -36.3965110985032
+          147.0707068056488,
+          -38.10508604578323
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 118703967,
+        "estaId": 118704599,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118703967,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "North Shore",
-        "eventId": "F250303149",
-        "id": "ESTA:250303149",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209890,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Donnybrook Rd",
+        "eventId": 250303163,
+        "id": "ESTA:250303163",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-07T11:47:42.000Z",
-        "updated": "2025-03-07T11:49:13.508Z",
+        "category2": "Other",
+        "created": "2025-03-07T12:47:00.000Z",
+        "updated": "2025-03-07T12:47:00.000Z",
         "resources": 0,
-        "location": "North Shore"
+        "location": "Donnybrook Rd, Mickleham",
+        "cfaId": 209890,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.37655989855452,
-          -38.100401549365
+          144.93271340299825,
+          -37.538934742750556
         ]
       }
     },
@@ -4499,20 +4468,50 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209867,
+        "cfaId": 209882,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250303146",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mclennan St",
+        "eventId": "250303146",
+        "id": "ESTA:250303146",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-07T11:53:03.000Z",
+        "updated": "2025-03-07T11:53:03.000Z",
+        "resources": 1,
+        "location": "Mclennan St, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250303146"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3430940378316,
+          -36.3965110985032
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 209886,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 209867,
+        "sourceId": 209886,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Forsyth Av",
-        "eventId": 250303120,
-        "id": "ESTA:250303120",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T10:12:00.000Z",
-        "updated": "2025-03-07T10:52:00.000Z",
+        "sourceTitle": "Caroline Chisholm Dr",
+        "eventId": 250303154,
+        "id": "ESTA:250303154",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-03-07T12:04:00.000Z",
+        "updated": "2025-03-07T12:04:00.000Z",
         "resources": 0,
-        "location": "Forsyth Av, Horsham",
+        "location": "Caroline Chisholm Dr, Kyneton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4520,57 +4519,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.21004695225093,
-          -36.70145657942651
+          144.4699200370662,
+          -37.250024279977644
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 209878,
+        "cfaId": 209884,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 209878,
+        "sourceId": 209884,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kent Ct",
-        "eventId": 250303137,
-        "id": "ESTA:250303137",
+        "sourceTitle": "Rubicon Rd",
+        "eventId": 250303151,
+        "id": "ESTA:250303151",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-07T11:55:00.000Z",
+        "updated": "2025-03-07T12:32:00.000Z",
+        "resources": 0,
+        "location": "Rubicon Rd, Rubicon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8201923656173,
+          -37.29405452651933
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 209889,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209889,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Thompsons Rd",
+        "eventId": 250303161,
+        "id": "ESTA:250303161",
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-03-07T10:45:00.000Z",
-        "updated": "2025-03-07T10:55:00.000Z",
-        "resources": 0,
-        "location": "Kent Ct, Eltham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15584934547624,
-          -37.7160187062794
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209876,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209876,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250303134,
-        "id": "ESTA:250303134",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-03-07T10:35:00.000Z",
-        "updated": "2025-03-07T10:56:00.000Z",
+        "created": "2025-03-07T12:42:00.000Z",
+        "updated": "2025-03-07T12:42:00.000Z",
         "resources": 2,
-        "location": "Drouin",
+        "location": "Thompsons Rd, Cranbourne",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4578,151 +4577,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.85236488913606,
-          -38.13566893803663
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209879,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209879,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sullivan Av",
-        "eventId": 250303139,
-        "id": "ESTA:250303139",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T10:50:00.000Z",
-        "updated": "2025-03-07T10:58:00.000Z",
-        "resources": 0,
-        "location": "Sullivan Av, Lysterfield",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27271166252638,
-          -37.91833673927359
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209856,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209856,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250303095,
-        "id": "ESTA:250303095",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-03-07T09:37:00.000Z",
-        "updated": "2025-03-07T11:01:00.000Z",
-        "resources": 0,
-        "location": "Bellbrae",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.26328102282264,
-          -38.329423879769166
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209880,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209880,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rodney Park Av",
-        "eventId": 250303142,
-        "id": "ESTA:250303142",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-07T11:06:00.000Z",
-        "updated": "2025-03-07T11:10:00.000Z",
-        "resources": 0,
-        "location": "Rodney Park Av, Mooroopna",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35186633944178,
-          -36.38822373782359
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 209857,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209857,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "River Trk",
-        "eventId": 250303096,
-        "id": "ESTA:250303096",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-07T09:39:00.000Z",
-        "updated": "2025-03-07T11:24:00.000Z",
-        "resources": 0,
-        "location": "River Trk, Ballan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.16961833651538,
-          -37.62204831685938
+          145.29110633850823,
+          -38.08466797278741
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 563443,
+        "sesId": 563445,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 563443,
+        "sourceId": 563445,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250350550,
-        "id": "ESTA:250350550",
+        "eventId": 250350552,
+        "id": "ESTA:250350552",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-07T11:18:00.000Z",
-        "updated": "2025-03-07T11:30:00.000Z",
+        "created": "2025-03-07T11:50:00.000Z",
+        "updated": "2025-03-07T12:17:00.000Z",
         "resources": 1,
-        "location": "Bathumi"
+        "location": "Ferny Creek"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.06966313199257,
-          -36.02662642587877
+          145.34239664695147,
+          -37.87595478321707
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563447,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563447,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350557,
+        "id": "ESTA:250350557",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-03-07T12:28:00.000Z",
+        "updated": "2025-03-07T12:35:00.000Z",
+        "resources": 0,
+        "location": "Burwood East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13532390719843,
+          -37.849866893469446
         ]
       }
     }
@@ -4730,6 +4640,7 @@
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "MODERATE",
         "East Gippsland": "MODERATE",
         "West and South Gippsland": "HIGH",
         "North East": "HIGH",
@@ -4737,8 +4648,7 @@
         "North Central": "HIGH",
         "Northern Country": "MODERATE",
         "South West": "HIGH",
-        "Wimmera": "MODERATE",
-        "Mallee": "MODERATE"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4754,6 +4664,7 @@
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "HIGH",
             "North East": "HIGH",
@@ -4761,8 +4672,7 @@
             "North Central": "HIGH",
             "Northern Country": "MODERATE",
             "South West": "HIGH",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4954,7 +4864,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T11:50:19.947Z",
-    "featureCount": 459
+    "lastUpdated": "2025-03-07T12:48:20.144Z",
+    "featureCount": 456
   }
 }
