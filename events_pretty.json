@@ -3726,33 +3726,64 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118706753,
+        "status": "Complete",
+        "estaId": 118706270,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 209909,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckirdys Rd",
-        "eventId": 250303210,
-        "id": "ESTA:250303210",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563450,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250303199,
+        "id": "ESTA:250303199",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-07T17:44:00.000Z",
-        "updated": "2025-03-07T17:44:00.000Z",
-        "resources": 0,
-        "location": "Mckirdys Rd, Tyabb",
-        "cfaId": 209909,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-03-07T16:06:00.000Z",
+        "updated": "2025-03-07T18:19:00.000Z",
+        "resources": 1,
+        "location": "Barrabool",
+        "cfaId": 209903,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 563450
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.21490553563504,
-          -38.26537974243782
+          144.26122345535808,
+          -38.15198493135346
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118706919,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563454,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350563,
+        "id": "ESTA:250350563",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-07T18:23:00.000Z",
+        "updated": "2025-03-07T18:28:00.000Z",
+        "resources": 0,
+        "location": "Rutherglen",
+        "sesId": 563454
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.48930704340123,
+          -36.073469328930905
         ]
       }
     },
@@ -3762,14 +3793,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/5892b89510325efc8e4f874a2d0a9686",
+        "sourceId": "IDV20600/07d636e06872acbc3c1b0de7002d5e8d",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/5892b89510325efc8e4f874a2d0a9686",
+        "id": "IDV20600/07d636e06872acbc3c1b0de7002d5e8d",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-03-07T13:00:00.000Z",
+        "created": "2025-03-07T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -4083,36 +4114,6 @@
         "coordinates": [
           145.756576538,
           -35.63709259
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "592753",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Noorong Rd, Murray Downs",
-        "id": "2025-03-07T18:51:00.0000000:592753",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Noorong Rd, Murray Downs",
-        "location": "Noorong Rd, Murray Downs 2734",
-        "created": "2025-03-07T18:51:00+11:00",
-        "updated": "2025-03-07T18:51:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.736541749,
-          -35.362262726
         ]
       }
     },
@@ -4709,38 +4710,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 209903,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 563450,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250303199,
-        "id": "ESTA:250303199",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-03-07T16:06:00.000Z",
-        "updated": "2025-03-07T16:29:00.000Z",
-        "resources": 1,
-        "location": "Barrabool",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250303199",
-        "sesId": 563450
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.26122345535808,
-          -38.15198493135346
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 209906,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4751,9 +4721,9 @@
         "id": "ESTA:250303203",
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-03-07T17:08:02.000Z",
-        "updated": "2025-03-07T17:08:02.000Z",
-        "resources": 3,
+        "created": "2025-03-07T17:54:49.000Z",
+        "updated": "2025-03-07T17:54:49.000Z",
+        "resources": 2,
         "location": "Dranes Rd, Traralgon East",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4771,29 +4741,29 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250303186",
+        "cfaId": 209909,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250303186",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lt Collins St",
-        "id": "ESTA:250303186",
-        "eventId": "250303186",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-07T15:43:55.000Z",
-        "updated": "2025-03-07T15:43:55.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 209909,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckirdys Rd",
+        "eventId": 250303210,
+        "id": "ESTA:250303210",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-07T17:44:00.000Z",
+        "updated": "2025-03-07T17:59:00.000Z",
+        "resources": 3,
+        "location": "Mckirdys Rd, Tyabb",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Lt Collins St, Melbourne"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97254992449407,
-          -37.812759464192496
+          145.21468174515542,
+          -38.26658387259828
         ]
       }
     },
@@ -4811,8 +4781,8 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2025-03-07T17:34:00.000Z",
-        "updated": "2025-03-07T17:40:00.000Z",
-        "resources": 0,
+        "updated": "2025-03-07T18:00:00.000Z",
+        "resources": 1,
         "location": "Surf Beach"
       },
       "type": "Feature",
@@ -4821,6 +4791,33 @@
         "coordinates": [
           145.29193142300053,
           -38.509689575413134
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 563453,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563453,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250350562,
+        "id": "ESTA:250350562",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-07T18:15:00.000Z",
+        "updated": "2025-03-07T18:27:00.000Z",
+        "resources": 0,
+        "location": "Cornishtown"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.56715595839003,
+          -36.11824127838726
         ]
       }
     }
@@ -5052,7 +5049,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-07T17:50:06.047Z",
+    "lastUpdated": "2025-03-07T18:32:39.836Z",
     "featureCount": 453
   }
 }
