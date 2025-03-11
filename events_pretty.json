@@ -4823,24 +4823,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118760128,
+        "status": "Under Control",
+        "estaId": 118760257,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 210730,
+        "sourceId": 210732,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Anchorage Way",
-        "eventId": 250304995,
-        "id": "ESTA:250304995",
+        "sourceTitle": "",
+        "eventId": 250305000,
+        "id": "ESTA:250305000",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-11T16:20:00.000Z",
-        "updated": "2025-03-11T16:39:00.000Z",
-        "resources": 1,
-        "location": "Anchorage Way, Goughs Bay",
-        "cfaId": 210730,
+        "category2": "Bushfire",
+        "created": "2025-03-11T16:56:00.000Z",
+        "updated": "2025-03-11T17:17:00.000Z",
+        "resources": 3,
+        "location": "West Creek",
+        "cfaId": 210732,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4848,8 +4848,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.07447708136658,
-          -37.181697522110376
+          145.57708315802668,
+          -38.546727548846896
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118760320,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250305002",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Miller Rd",
+        "eventId": "250305002",
+        "id": "ESTA:250305002",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-11T17:17:51.000Z",
+        "updated": "2025-03-11T17:17:51.000Z",
+        "resources": 3,
+        "location": "Miller Rd, The Basin",
+        "cfaId": 210733,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250305002"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30480881705702,
+          -37.85103748487362
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118760345,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563838,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250351028,
+        "id": "ESTA:250351028",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-11T17:23:00.000Z",
+        "updated": "2025-03-11T17:22:31.000Z",
+        "resources": 0,
+        "location": "Benalla",
+        "sesId": 563838
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.03440296579825,
+          -36.57412346371818
         ]
       }
     },
@@ -6270,13 +6333,13 @@
         "sourceId": "593108",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Buchanans Rd, Barooga",
-        "id": "2025-03-11T06:18:00.0000000:593108",
+        "id": "2025-03-12T03:58:00.0000000:593108",
         "category1": "Fire",
         "category2": "Grass Fire",
         "name": "Buchanans Rd, Barooga",
         "location": "Buchanans Rd, Barooga 3644",
-        "created": "2025-03-11T06:18:00+11:00",
-        "updated": "2025-03-11T06:18:00+11:00",
+        "created": "2025-03-12T03:58:00+11:00",
+        "updated": "2025-03-12T03:58:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -6462,7 +6525,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "cfaId": 210730,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 210730,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Anchorage Way",
+        "eventId": 250304995,
+        "id": "ESTA:250304995",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-11T16:20:00.000Z",
+        "updated": "2025-03-11T16:39:00.000Z",
+        "resources": 0,
+        "location": "Anchorage Way, Goughs Bay",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.07447708136658,
+          -37.181697522110376
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 210728,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6473,9 +6565,9 @@
         "id": "ESTA:250304992",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-03-11T16:01:33.000Z",
-        "updated": "2025-03-11T16:01:33.000Z",
-        "resources": 3,
+        "created": "2025-03-11T16:57:33.000Z",
+        "updated": "2025-03-11T16:57:33.000Z",
+        "resources": 1,
         "location": "Island Dr, Torquay",
         "size": "Small",
         "sizeFmt": "Small",
@@ -6485,28 +6577,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.33975958733518,
-          -38.31314669461897
+          144.34014768223162,
+          -38.314518035325236
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 210727,
+        "cfaId": 210731,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 210727,
+        "sourceId": 210731,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Drysdale Ct",
-        "eventId": 250304989,
-        "id": "ESTA:250304989",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-11T15:15:00.000Z",
-        "updated": "2025-03-11T16:09:00.000Z",
-        "resources": 2,
-        "location": "Drysdale Ct, Wheelers Hill",
+        "sourceTitle": "Monash Fwy",
+        "eventId": 250304996,
+        "id": "ESTA:250304996",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-11T16:27:00.000Z",
+        "updated": "2025-03-11T16:55:00.000Z",
+        "resources": 0,
+        "location": "Monash Fwy, Dandenong North",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -6514,14 +6606,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1683946366998,
-          -37.913749022361124
+          145.2331387754234,
+          -37.965205958281786
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 210729,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6532,9 +6624,9 @@
         "id": "ESTA:250304994",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-11T16:38:03.000Z",
-        "updated": "2025-03-11T16:38:03.000Z",
-        "resources": 3,
+        "created": "2025-03-11T17:02:29.000Z",
+        "updated": "2025-03-11T17:02:29.000Z",
+        "resources": 1,
         "location": "Midland Hwy, Gheringhap",
         "size": "Small",
         "sizeFmt": "Small",
@@ -6546,36 +6638,6 @@
         "coordinates": [
           144.24936074835995,
           -38.08090684025875
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 210731,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250304996",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Monash Fwy",
-        "eventId": "250304996",
-        "id": "ESTA:250304996",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-11T16:39:19.000Z",
-        "updated": "2025-03-11T16:39:19.000Z",
-        "resources": 1,
-        "location": "Monash Fwy, Dandenong North",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250304996"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2331434196382,
-          -37.96519779523067
         ]
       }
     },
@@ -6607,35 +6669,6 @@
           -37.744168591487814
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250304993",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250304993",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kingsway -",
-        "id": "ESTA:250304993",
-        "eventId": "250304993",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-11T16:33:56.000Z",
-        "updated": "2025-03-11T16:33:56.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Kingsway -, Glen Waverley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16367620078756,
-          -37.87987408888456
-        ]
-      }
     }
   ],
   "properties": {
@@ -6652,7 +6685,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -6660,7 +6692,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -6676,7 +6709,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -6684,7 +6716,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-11T13:00:00.000Z",
           "heat": {
@@ -6865,7 +6898,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-11T16:53:06.573Z",
-    "featureCount": 488
+    "lastUpdated": "2025-03-11T17:23:59.862Z",
+    "featureCount": 489
   }
 }
