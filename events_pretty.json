@@ -5015,7 +5015,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1006083,
@@ -5025,10 +5025,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-12T09:23:00.000Z",
-        "updated": "2025-03-12T09:25:00.000Z",
-        "resources": 0,
-        "size": "0.50",
-        "sizeFmt": "0.50 Ha.",
+        "updated": "2025-03-12T14:32:00.000Z",
+        "resources": 6,
+        "size": "1.00",
+        "sizeFmt": "1.00 Ha.",
         "location": "15 Km Sw Of Strathdownie"
       },
       "type": "Feature",
@@ -5261,63 +5261,95 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118771649,
+        "status": "Request For Assistance",
+        "estaId": 118772250,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118771649,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Leopold",
-        "eventId": "F250305483",
-        "id": "ESTA:250305483",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 563963,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250351169,
+        "id": "ESTA:250351169",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-12T13:13:33.000Z",
-        "updated": "2025-03-12T14:31:00.515Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-12T14:46:00.000Z",
+        "updated": "2025-03-12T14:50:00.000Z",
         "resources": 0,
-        "location": "Clifton Av, Leopold"
+        "location": "Dromana",
+        "sesId": 563963
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.45198426471637,
-          -38.181410408222206
+          144.95606455956062,
+          -38.342119847251205
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118772015,
+        "status": "Responding",
+        "estaId": 118772260,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250305493",
+        "sourceId": "250305496",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250305493",
-        "id": "ESTA:250305493",
+        "sourceTitle": "Southbank Bvd",
+        "eventId": "250305496",
+        "id": "ESTA:250305496",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-03-12T14:31:27.000Z",
-        "updated": "2025-03-12T14:31:27.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Dandenong",
-        "cfaId": 210939,
+        "created": "2025-03-12T14:48:09.000Z",
+        "updated": "2025-03-12T14:48:09.000Z",
+        "resources": 3,
+        "location": "Southbank Bvd, Southbank",
+        "mfbId": "250305496",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250305493"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.21216141817698,
-          -37.98239059708257
+          144.96377728150475,
+          -37.82312768011023
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118772265,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250305497",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elliott Av",
+        "eventId": "250305497",
+        "id": "ESTA:250305497",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-12T14:49:44.000Z",
+        "updated": "2025-03-12T14:49:44.000Z",
+        "resources": 2,
+        "location": "Elliott Av, Parkville",
+        "mfbId": "250305497",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95488405998586,
+          -37.78410199709534
         ]
       }
     },
@@ -6111,35 +6143,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 210936,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 210936,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Edwin Ct",
-        "eventId": 250305487,
-        "id": "ESTA:250305487",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-12T13:39:00.000Z",
-        "updated": "2025-03-12T13:48:00.000Z",
-        "resources": 0,
-        "location": "Edwin Ct, Warrnambool",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.50187882449518,
-          -38.36953943706331
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 210938,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -6226,6 +6229,36 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 210939,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250305493",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250305493",
+        "id": "ESTA:250305493",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-12T14:31:27.000Z",
+        "updated": "2025-03-12T14:31:27.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Dandenong",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250305493"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21216141817698,
+          -37.98239059708257
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 563958,
         "feedType": "incident",
@@ -6265,8 +6298,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-03-12T13:17:00.000Z",
-        "updated": "2025-03-12T13:38:00.000Z",
-        "resources": 3,
+        "updated": "2025-03-12T14:46:00.000Z",
+        "resources": 1,
         "location": "Lardner"
       },
       "type": "Feature",
@@ -6506,7 +6539,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-12T14:41:25.906Z",
-    "featureCount": 517
+    "lastUpdated": "2025-03-12T14:50:45.929Z",
+    "featureCount": 518
   }
 }
