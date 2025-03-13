@@ -4511,7 +4511,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1005933,
@@ -4521,8 +4521,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-11T02:27:00.000Z",
-        "updated": "2025-03-12T14:48:00.000Z",
-        "resources": 0,
+        "updated": "2025-03-13T11:03:00.000Z",
+        "resources": 1,
         "size": "0.30",
         "sizeFmt": "0.30 Ha.",
         "location": "3.5Km Nw Of Lyons"
@@ -5321,7 +5321,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1006175,
@@ -5331,10 +5331,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-13T06:38:00.000Z",
-        "updated": "2025-03-13T08:18:00.000Z",
+        "updated": "2025-03-13T11:07:00.000Z",
         "resources": 1,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "size": "0.01",
+        "sizeFmt": "0.01 Ha.",
         "location": "7.3Km Wnw Of Heathmere"
       },
       "type": "Feature",
@@ -5620,24 +5620,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118780034,
+        "status": "Responding",
+        "estaId": 118783563,
         "feedType": "incident",
-        "source": "RADIO",
+        "source": "OTHER",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 211035,
+        "sourceId": 211084,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cobboboonee Rd",
-        "eventId": 250305780,
-        "id": "ESTA:250305780",
+        "sourceTitle": "",
+        "eventId": 250305886,
+        "id": "ESTA:250305886",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-13T05:57:00.000Z",
-        "updated": "2025-03-13T10:38:00.000Z",
+        "category2": "Other",
+        "created": "2025-03-13T11:12:00.000Z",
+        "updated": "2025-03-13T11:12:00.000Z",
         "resources": 3,
-        "location": "Cobboboonee Rd, Drumborg",
-        "cfaId": 211035,
+        "location": "Warragul",
+        "cfaId": 211084,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5645,41 +5645,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.4371986411803,
-          -38.13975873208265
+          145.94834607011225,
+          -38.15417758445034
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118783126,
+        "status": "Responding",
+        "estaId": 118783590,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250305881",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Tadema Cr",
-        "eventId": "250305881",
-        "id": "ESTA:250305881",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211086,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Manna Gum Dr",
+        "eventId": 250305888,
+        "id": "ESTA:250305888",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-13T10:39:40.000Z",
-        "updated": "2025-03-13T10:39:40.000Z",
-        "resources": 3,
-        "location": "Tadema Cr, Eltham",
-        "cfaId": 211082,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-13T11:15:00.000Z",
+        "updated": "2025-03-13T11:15:00.000Z",
+        "resources": 0,
+        "location": "Manna Gum Dr, Cowes",
+        "cfaId": 211086,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250305881"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16326569889821,
-          -37.71116010838148
+          145.24566590967146,
+          -38.46200308892361
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118783642,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250305890",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elevation Bvd",
+        "eventId": "250305890",
+        "id": "ESTA:250305890",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-13T11:20:01.000Z",
+        "updated": "2025-03-13T11:20:01.000Z",
+        "resources": 1,
+        "location": "Elevation Bvd, Craigieburn",
+        "mfbId": "250305890",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89150736078443,
+          -37.598157055775445
         ]
       }
     },
@@ -6186,93 +6217,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 211077,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211077,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Island View Dr",
-        "eventId": 250305867,
-        "id": "ESTA:250305867",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-13T09:45:00.000Z",
-        "updated": "2025-03-13T10:00:00.000Z",
-        "resources": 0,
-        "location": "Island View Dr, Tyabb",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1623251144862,
-          -38.26414428403735
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 211076,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211076,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lake Rd",
-        "eventId": 250305866,
-        "id": "ESTA:250305866",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-13T09:42:00.000Z",
-        "updated": "2025-03-13T10:02:00.000Z",
-        "resources": 0,
-        "location": "Lake Rd, Newmerella",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.48848401231098,
-          -37.76362214776737
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 211079,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211079,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wangaratta-Whitfield Rd",
-        "eventId": 250305873,
-        "id": "ESTA:250305873",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-13T10:00:00.000Z",
-        "updated": "2025-03-13T10:05:00.000Z",
-        "resources": 0,
-        "location": "Wangaratta-Whitfield Rd, Edi",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.42127149472546,
-          -36.656420120263164
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Contained",
         "cfaId": 211052,
         "feedType": "incident",
@@ -6302,21 +6246,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 211078,
+        "status": "Under Control",
+        "cfaId": 211035,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 211078,
+        "sourceId": 211035,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Larcombe St",
-        "eventId": 250305871,
-        "id": "ESTA:250305871",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-13T09:52:00.000Z",
-        "updated": "2025-03-13T10:10:00.000Z",
+        "sourceTitle": "Cobboboonee Rd",
+        "eventId": 250305780,
+        "id": "ESTA:250305780",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-13T05:57:00.000Z",
+        "updated": "2025-03-13T10:38:00.000Z",
         "resources": 0,
-        "location": "Larcombe St, Highton",
+        "location": "Cobboboonee Rd, Drumborg",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -6324,96 +6268,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.31954503744464,
-          -38.179623420759945
+          141.4371986411803,
+          -38.13975873208265
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 211074,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211074,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Colony Club Dr",
-        "eventId": 250305863,
-        "id": "ESTA:250305863",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-13T09:26:00.000Z",
-        "updated": "2025-03-13T10:16:00.000Z",
-        "resources": 0,
-        "location": "Colony Club Dr, Newlands Arm",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.70591085554668,
-          -37.92445404038763
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 211081,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211081,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250305876,
-        "id": "ESTA:250305876",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-03-13T10:07:00.000Z",
-        "updated": "2025-03-13T10:19:00.000Z",
-        "resources": 0,
-        "location": "Mount Clear",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.86723420004512,
-          -37.59260328902439
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 211083,
+        "status": "Under Control",
+        "cfaId": 211082,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250305883",
+        "sourceId": "250305881",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wodonga St",
-        "eventId": "250305883",
-        "id": "ESTA:250305883",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-13T10:38:01.000Z",
-        "updated": "2025-03-13T10:38:01.000Z",
-        "resources": 3,
-        "location": "Wodonga St, Wodonga",
+        "sourceTitle": "Tadema Cr",
+        "eventId": "250305881",
+        "id": "ESTA:250305881",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-13T10:39:40.000Z",
+        "updated": "2025-03-13T10:39:40.000Z",
+        "resources": 2,
+        "location": "Tadema Cr, Eltham",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250305883"
+        "mfbId": "250305881"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.8939784894923,
-          -36.11317730384578
+          145.16326569889821,
+          -37.71116010838148
         ]
       }
     },
@@ -6448,7 +6334,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "mfbId": "250305879",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6459,8 +6345,8 @@
         "eventId": "250305879",
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-03-13T10:29:21.000Z",
-        "updated": "2025-03-13T10:29:21.000Z",
+        "created": "2025-03-13T11:04:06.000Z",
+        "updated": "2025-03-13T11:04:06.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -6528,6 +6414,60 @@
         "coordinates": [
           145.18762253847206,
           -37.76362713640069
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 564028,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 564028,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250351234,
+        "id": "ESTA:250351234",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-03-13T11:05:00.000Z",
+        "updated": "2025-03-13T11:10:00.000Z",
+        "resources": 0,
+        "location": "Prahran"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99349442604608,
+          -37.850860162459476
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 564027,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 564027,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250351233,
+        "id": "ESTA:250351233",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-03-13T11:02:00.000Z",
+        "updated": "2025-03-13T11:10:00.000Z",
+        "resources": 0,
+        "location": "Prahran"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99357503955702,
+          -37.850401937238594
         ]
       }
     }
@@ -6759,7 +6699,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-13T10:50:19.928Z",
-    "featureCount": 532
+    "lastUpdated": "2025-03-13T11:20:40.024Z",
+    "featureCount": 530
   }
 }
