@@ -4294,7 +4294,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-10T00:48:00.000Z",
-        "updated": "2025-03-14T12:48:00.000Z",
+        "updated": "2025-03-14T17:15:00.000Z",
         "resources": 15,
         "size": "2183.00",
         "sizeFmt": "2183.00 Ha.",
@@ -5581,24 +5581,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118799506,
+        "status": "Responding",
+        "estaId": 118799789,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211283,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kurrajong Rd",
-        "eventId": 250306454,
-        "id": "ESTA:250306454",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250306459",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heatherton Rd",
+        "eventId": "250306459",
+        "id": "ESTA:250306459",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-14T16:27:00.000Z",
-        "updated": "2025-03-14T16:41:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-14T17:22:09.000Z",
+        "updated": "2025-03-14T17:22:09.000Z",
         "resources": 0,
-        "location": "Kurrajong Rd, Wendouree",
-        "cfaId": 211283,
+        "location": "Heatherton Rd, Narre Warren North",
+        "cfaId": 211285,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250306459"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31097218255837,
+          -37.98180632768038
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118799828,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250306461",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Williamson St",
+        "eventId": "250306461",
+        "id": "ESTA:250306461",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-14T17:31:27.000Z",
+        "updated": "2025-03-14T17:31:27.000Z",
+        "resources": 0,
+        "location": "Williamson St, Bendigo",
+        "mfbId": "250306461",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5606,8 +5639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.81889190289996,
-          -37.52534104676457
+          144.28058916953918,
+          -36.75866123262587
         ]
       }
     },
@@ -5616,7 +5649,7 @@
         "status": "Safe",
         "estaId": 118799666,
         "feedType": "incident",
-        "source": "OTHER",
+        "source": "STATION",
         "sourceOrg": "VIC/CFA",
         "sourceId": 211284,
         "sourceFeed": "cfa-incident",
@@ -5628,7 +5661,7 @@
         "category2": "Other",
         "created": "2025-03-14T16:55:00.000Z",
         "updated": "2025-03-14T17:16:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Grant St, Dromana",
         "cfaId": 211284,
         "size": "Small",
@@ -6235,6 +6268,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 211283,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211283,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kurrajong Rd",
+        "eventId": 250306454,
+        "id": "ESTA:250306454",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-14T16:27:00.000Z",
+        "updated": "2025-03-14T16:41:00.000Z",
+        "resources": 0,
+        "location": "Kurrajong Rd, Wendouree",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.81889190289996,
+          -37.52534104676457
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250306447",
         "feedType": "incident",
@@ -6277,7 +6339,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -6285,7 +6346,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -6301,7 +6363,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -6309,7 +6370,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-14T13:00:00.000Z",
           "heat": {
@@ -6490,7 +6552,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-14T17:19:59.925Z",
-    "featureCount": 526
+    "lastUpdated": "2025-03-14T17:32:20.200Z",
+    "featureCount": 528
   }
 }
