@@ -5609,23 +5609,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 118800284,
+        "estaId": 118800504,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 211295,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "English Rd",
-        "eventId": 250306481,
-        "id": "ESTA:250306481",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250306489",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Smith St",
+        "eventId": "250306489",
+        "id": "ESTA:250306489",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-14T19:39:00.000Z",
-        "updated": "2025-03-14T20:33:00.000Z",
-        "resources": 1,
-        "location": "English Rd, Bannockburn",
-        "cfaId": 211295,
+        "category2": "Non Structure Fire",
+        "created": "2025-03-14T20:42:11.000Z",
+        "updated": "2025-03-14T20:42:11.000Z",
+        "resources": 2,
+        "location": "Smith St, Clifton Hill",
+        "mfbId": "250306489",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5633,14 +5633,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.10941341482106,
-          -38.021753533974305
+          144.98573949490284,
+          -37.791606070955076
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 118800557,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211302,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray St",
+        "eventId": 250306491,
+        "id": "ESTA:250306491",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-14T20:48:00.000Z",
+        "updated": "2025-03-14T20:48:00.000Z",
+        "resources": 1,
+        "location": "Murray St, Heywood",
+        "cfaId": 211302,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.63137000526112,
+          -38.135126325911195
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 118800487,
         "feedType": "incident",
         "source": "000",
@@ -5653,9 +5685,9 @@
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-03-14T20:33:37.000Z",
-        "updated": "2025-03-14T20:33:37.000Z",
-        "resources": 2,
+        "created": "2025-03-14T20:48:50.000Z",
+        "updated": "2025-03-14T20:48:50.000Z",
+        "resources": 4,
         "location": "Stonehill Dr, Maddingley",
         "cfaId": 211300,
         "size": "Small",
@@ -5701,38 +5733,6 @@
         "coordinates": [
           144.604798583605,
           -37.79471320543391
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118800504,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250306489",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Smith St",
-        "eventId": "250306489",
-        "id": "ESTA:250306489",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-14T20:36:51.000Z",
-        "updated": "2025-03-14T20:36:51.000Z",
-        "resources": 2,
-        "location": "Smith St, Clifton Hill",
-        "mfbId": "250306489",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98573949490284,
-          -37.791606070955076
         ]
       }
     },
@@ -6445,6 +6445,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 211295,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211295,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "English Rd",
+        "eventId": 250306481,
+        "id": "ESTA:250306481",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-14T19:39:00.000Z",
+        "updated": "2025-03-14T20:33:00.000Z",
+        "resources": 0,
+        "location": "English Rd, Bannockburn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.10941341482106,
+          -38.021753533974305
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 211299,
         "feedType": "incident",
@@ -6475,6 +6504,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "mfbId": "250306490",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250306490",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kalimna Cr",
+        "id": "ESTA:250306490",
+        "eventId": "250306490",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-14T20:47:09.000Z",
+        "updated": "2025-03-14T20:47:09.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Kalimna Cr, Doncaster"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13486111438425,
+          -37.78489964531371
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250306447",
         "feedType": "incident",
@@ -6499,35 +6557,6 @@
         "coordinates": [
           145.15238322859688,
           -37.78716724612143
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250306484",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250306484",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mt Alexander Rd",
-        "id": "ESTA:250306484",
-        "eventId": "250306484",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-14T20:28:23.000Z",
-        "updated": "2025-03-14T20:28:23.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Mt Alexander Rd, Ascot Vale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92822483203673,
-          -37.77520497660584
         ]
       }
     }
@@ -6759,7 +6788,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-14T20:37:40.195Z",
-    "featureCount": 535
+    "lastUpdated": "2025-03-14T20:50:06.235Z",
+    "featureCount": 536
   }
 }
