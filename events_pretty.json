@@ -4293,39 +4293,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118834952,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250307735",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Raftery Rd",
-        "eventId": "250307735",
-        "id": "ESTA:250307735",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-03-17T19:11:30.000Z",
-        "updated": "2025-03-17T19:11:30.000Z",
-        "resources": 2,
-        "location": "Raftery Rd, Kialla",
-        "cfaId": 211779,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250307735"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38763530942992,
-          -36.4217255750535
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "estaId": 118834904,
         "feedType": "incident",
@@ -4341,7 +4308,7 @@
         "category2": "Hazardous Material",
         "created": "2025-03-17T19:16:41.000Z",
         "updated": "2025-03-17T19:16:41.000Z",
-        "resources": 3,
+        "resources": 5,
         "location": "Hearn St, Colac",
         "cfaId": 211777,
         "size": "Small",
@@ -4359,7 +4326,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "estaId": 118834804,
         "feedType": "incident",
         "source": "SES STRM",
@@ -4373,8 +4340,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-03-17T18:11:00.000Z",
-        "updated": "2025-03-17T19:12:00.000Z",
-        "resources": 1,
+        "updated": "2025-03-17T19:19:00.000Z",
+        "resources": 0,
         "location": "Carrajung Lower",
         "sesId": 564439
       },
@@ -4384,6 +4351,35 @@
         "coordinates": [
           146.74743580663593,
           -38.41807354276426
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118835026,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118835026,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dandenong",
+        "eventId": "F250307737",
+        "id": "ESTA:250307737",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-17T19:27:58.000Z",
+        "updated": "2025-03-17T19:29:02.638Z",
+        "resources": 0,
+        "location": "Thomas St, Dandenong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21234928891153,
+          -37.98714838433652
         ]
       }
     },
@@ -5157,6 +5153,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 211779,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211779,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Raftery Rd",
+        "eventId": 250307735,
+        "id": "ESTA:250307735",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-17T19:01:00.000Z",
+        "updated": "2025-03-17T19:11:00.000Z",
+        "resources": 0,
+        "location": "Raftery Rd, Kialla",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38763102647374,
+          -36.421731252282754
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250307733",
         "feedType": "incident",
@@ -5227,14 +5252,14 @@
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -5251,14 +5276,14 @@
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-17T13:00:00.000Z",
           "heat": {
@@ -5439,7 +5464,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-17T19:19:20.070Z",
-    "featureCount": 487
+    "lastUpdated": "2025-03-17T19:30:19.911Z",
+    "featureCount": 488
   }
 }
