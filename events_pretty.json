@@ -3875,24 +3875,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118849122,
+        "status": "Responding",
+        "estaId": 118849361,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250308444",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Aminya Av",
-        "eventId": "250308444",
-        "id": "ESTA:250308444",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 211968,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barkly St",
+        "eventId": 250308452,
+        "id": "ESTA:250308452",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-18T23:21:10.000Z",
-        "updated": "2025-03-18T23:21:10.000Z",
+        "category2": "Building Fire",
+        "created": "2025-03-18T23:28:00.000Z",
+        "updated": "2025-03-18T23:28:00.000Z",
         "resources": 1,
-        "location": "Aminya Av, Delacombe",
-        "mfbId": "250308444",
+        "location": "Barkly St, Ararat",
+        "cfaId": 211968,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3900,8 +3900,99 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.82187072742408,
-          -37.58306067843831
+          142.94608332793973,
+          -37.285150444487165
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118849054,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 564505,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250308439,
+        "id": "ESTA:250308439",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-03-18T23:05:00.000Z",
+        "updated": "2025-03-18T23:17:00.000Z",
+        "resources": 4,
+        "location": "Nicholson",
+        "cfaId": 211966,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 564505
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.71695818739101,
+          -37.82584002464347
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118849418,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118849418,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ocean Grove",
+        "eventId": "S250351753",
+        "id": "ESTA:250351753",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-18T23:29:40.000Z",
+        "updated": "2025-03-18T23:33:19.318Z",
+        "resources": 0,
+        "location": "Ocean Grove"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.52161047265753,
+          -38.2568250114588
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118849428,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118849428,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Armadale",
+        "eventId": "F250308453",
+        "id": "ESTA:250308453",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-18T23:32:39.000Z",
+        "updated": "2025-03-18T23:33:49.209Z",
+        "resources": 0,
+        "location": "Evergreen Mews, Armadale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01431912418977,
+          -37.85182554963687
         ]
       }
     },
@@ -4202,6 +4293,36 @@
             ],
             "name": "East Gippsland Coast"
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "594065",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hendy Rd, Buronga",
+        "id": "2025-03-19T10:24:00.0000000:594065",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Hendy Rd, Buronga",
+        "location": "3-7 Hendy Rd, Buronga 2739",
+        "created": "2025-03-19T10:24:00+11:00",
+        "updated": "2025-03-19T10:24:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.181365967,
+          -34.170375824
         ]
       }
     },
@@ -4703,13 +4824,13 @@
         "sourceId": "593647",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Barmah Rd, Moama",
-        "id": "2025-03-19T05:55:00.0000000:593647",
+        "id": "2025-03-19T09:19:00.0000000:593647",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Barmah Rd, Moama",
         "location": "Marandale Pines 873 Barmah Rd, Moama 2731",
-        "created": "2025-03-19T05:55:00+11:00",
-        "updated": "2025-03-19T05:55:00+11:00",
+        "created": "2025-03-19T09:19:00+11:00",
+        "updated": "2025-03-19T09:19:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -4912,36 +5033,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 211966,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 564505,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250308439,
-        "id": "ESTA:250308439",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-03-18T23:05:00.000Z",
-        "updated": "2025-03-18T23:17:00.000Z",
-        "resources": 2,
-        "location": "Nicholson",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 564505
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.71695818739101,
-          -37.82584002464347
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "mfbId": "250308415",
         "feedType": "incident",
@@ -4966,35 +5057,6 @@
         "coordinates": [
           145.12501037212888,
           -38.14383733859903
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250308417",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250308417",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dandenong",
-        "id": "ESTA:250308417",
-        "eventId": "250308417",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-18T22:58:15.000Z",
-        "updated": "2025-03-18T22:58:15.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Dandenong, Dandenong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21276977421192,
-          -37.988218591369645
         ]
       }
     },
@@ -5284,7 +5346,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-18T23:23:06.590Z",
-    "featureCount": 471
+    "lastUpdated": "2025-03-18T23:34:00.289Z",
+    "featureCount": 473
   }
 }
