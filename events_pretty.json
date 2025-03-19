@@ -3718,57 +3718,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118858310,
+        "status": "Responding",
+        "estaId": 118858491,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250308957",
+        "sourceId": "250308961",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Laurel St",
-        "eventId": "250308957",
-        "id": "ESTA:250308957",
+        "sourceTitle": "Claredale Rd",
+        "eventId": "250308961",
+        "id": "ESTA:250308961",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-19T13:23:51.000Z",
-        "updated": "2025-03-19T13:23:51.000Z",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-03-19T13:37:09.000Z",
+        "updated": "2025-03-19T13:37:09.000Z",
         "resources": 2,
-        "location": "Laurel St, Rockbank",
-        "cfaId": 212126,
+        "location": "Claredale Rd, Doveton",
+        "cfaId": 212127,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250308957"
+        "mfbId": "250308961"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6573365717492,
-          -37.73443379035768
+          145.22848813811095,
+          -37.99495578806805
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 118857878,
+        "status": "Safe",
+        "estaId": 118858310,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250308945",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Harcourt Rd",
-        "eventId": "250308945",
-        "id": "ESTA:250308945",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212126,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Laurel St",
+        "eventId": 250308957,
+        "id": "ESTA:250308957",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-19T13:28:58.000Z",
-        "updated": "2025-03-19T13:28:58.000Z",
-        "resources": 6,
-        "location": "Harcourt Rd, Altona",
-        "mfbId": "250308945",
+        "category2": "Building Fire",
+        "created": "2025-03-19T13:13:00.000Z",
+        "updated": "2025-03-19T13:24:00.000Z",
+        "resources": 0,
+        "location": "Laurel St, Rockbank",
+        "cfaId": 212126,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3776,8 +3776,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.78135661565116,
-          -37.8508108632845
+          144.65733245710047,
+          -37.73444108539024
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118856140,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 564539,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250351782,
+        "id": "ESTA:250351782",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-19T08:51:00.000Z",
+        "updated": "2025-03-19T13:41:00.000Z",
+        "resources": 0,
+        "location": "Rosanna",
+        "sesId": 564539
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.06804201129248,
+          -37.74175626131755
         ]
       }
     },
@@ -6127,35 +6157,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 212123,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212123,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hobson St",
-        "eventId": 250308949,
-        "id": "ESTA:250308949",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-19T12:22:00.000Z",
-        "updated": "2025-03-19T12:33:00.000Z",
-        "resources": 0,
-        "location": "Hobson St, North Bendigo",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.27563821434157,
-          -36.73244543423936
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 212056,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6214,28 +6215,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 564539,
+        "status": "Under Control",
+        "mfbId": "250308945",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 564539,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250351782,
-        "id": "ESTA:250351782",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-19T08:51:00.000Z",
-        "updated": "2025-03-19T09:24:00.000Z",
-        "resources": 1,
-        "location": "Rosanna"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250308945",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Harcourt Rd",
+        "id": "ESTA:250308945",
+        "eventId": "250308945",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-19T13:28:58.000Z",
+        "updated": "2025-03-19T13:28:58.000Z",
+        "resources": 6,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Harcourt Rd, Altona"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06804201129248,
-          -37.74175626131755
+          144.78135661565116,
+          -37.8508108632845
         ]
       }
     }
@@ -6467,7 +6470,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-19T13:32:46.631Z",
+    "lastUpdated": "2025-03-19T13:50:06.095Z",
     "featureCount": 471
   }
 }
