@@ -3742,35 +3742,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118871773,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118871773,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F250309426",
-        "id": "ESTA:250309426",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-20T16:30:54.000Z",
-        "updated": "2025-03-20T16:31:02.660Z",
-        "resources": 0,
-        "location": "Spring St, Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97303203250488,
-          -37.81197295235718
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 118871759,
         "feedType": "incident",
@@ -3798,6 +3769,68 @@
         "coordinates": [
           144.2409553265316,
           -36.774866534324445
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118871798,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212287,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Faithfull St",
+        "eventId": 250309427,
+        "id": "ESTA:250309427",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-03-20T16:39:00.000Z",
+        "updated": "2025-03-20T16:39:00.000Z",
+        "resources": 2,
+        "location": "Faithfull St, Benalla",
+        "cfaId": 212287,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96417290107354,
+          -36.54880665612579
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118870750,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 564856,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352094,
+        "id": "ESTA:250352094",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-20T13:03:00.000Z",
+        "updated": "2025-03-20T16:49:00.000Z",
+        "resources": 0,
+        "location": "Jamieson",
+        "sesId": 564856
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1351230603527,
+          -37.29383660144328
         ]
       }
     },
@@ -9653,57 +9686,6 @@
             "coordinates": [
               [
                 [
-                  149.0181,
-                  -37.0975
-                ],
-                [
-                  149.0195,
-                  -37.0981
-                ],
-                [
-                  149.0222,
-                  -37.0984
-                ],
-                [
-                  149.0224,
-                  -37.0995
-                ],
-                [
-                  149.0219,
-                  -37.0997
-                ],
-                [
-                  149.0217,
-                  -37.1008
-                ],
-                [
-                  149.0212,
-                  -37.1008
-                ],
-                [
-                  149.0206,
-                  -37.1002
-                ],
-                [
-                  149.0197,
-                  -37.0999
-                ],
-                [
-                  149.0181,
-                  -37.0988
-                ],
-                [
-                  149.0181,
-                  -37.0975
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
                   149.0143,
                   -37.0911
                 ],
@@ -9750,6 +9732,57 @@
                 [
                   149.0143,
                   -37.0911
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.0181,
+                  -37.0975
+                ],
+                [
+                  149.0195,
+                  -37.0981
+                ],
+                [
+                  149.0222,
+                  -37.0984
+                ],
+                [
+                  149.0224,
+                  -37.0995
+                ],
+                [
+                  149.0219,
+                  -37.0997
+                ],
+                [
+                  149.0217,
+                  -37.1008
+                ],
+                [
+                  149.0212,
+                  -37.1008
+                ],
+                [
+                  149.0206,
+                  -37.1002
+                ],
+                [
+                  149.0197,
+                  -37.0999
+                ],
+                [
+                  149.0181,
+                  -37.0988
+                ],
+                [
+                  149.0181,
+                  -37.0975
                 ]
               ]
             ]
@@ -9824,28 +9857,60 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 564856,
+        "status": "Under Control",
+        "cfaId": 212288,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 564856,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352094,
-        "id": "ESTA:250352094",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-20T13:03:00.000Z",
-        "updated": "2025-03-20T14:18:00.000Z",
-        "resources": 1,
-        "location": "Jamieson"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250309428",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sunbrook Ct",
+        "eventId": "250309428",
+        "id": "ESTA:250309428",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-20T16:50:22.000Z",
+        "updated": "2025-03-20T16:50:22.000Z",
+        "resources": 3,
+        "location": "Sunbrook Ct, Sunbury",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250309428"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.1351230603527,
-          -37.29383660144328
+          144.73313073808905,
+          -37.581364699212706
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250309426",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250309426",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Spring St",
+        "id": "ESTA:250309426",
+        "eventId": "250309426",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-20T16:42:38.000Z",
+        "updated": "2025-03-20T16:42:38.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Spring St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97302720200318,
+          -37.811975698097946
         ]
       }
     },
@@ -10104,7 +10169,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-20T16:32:26.180Z",
-    "featureCount": 455
+    "lastUpdated": "2025-03-20T16:53:20.082Z",
+    "featureCount": 457
   }
 }
