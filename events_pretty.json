@@ -3634,33 +3634,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1006183,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Far South West 63 - Cobboboonee - C6 Track",
-        "id": 1006183,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-13T07:18:00.000Z",
-        "updated": "2025-03-22T05:46:00.000Z",
-        "resources": 0,
-        "size": "1.50",
-        "sizeFmt": "1.50 Ha.",
-        "location": "17 Km West Of Heywood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.437,
-          -38.1234
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Controlled",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
@@ -3713,7 +3686,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3000868,
@@ -3722,8 +3695,8 @@
         "id": 3000868,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-03-22T03:16:32.000Z",
-        "updated": "2025-03-22T03:16:32.000Z",
+        "created": "2025-03-22T06:43:49.000Z",
+        "updated": "2025-03-22T06:43:49.000Z",
         "resources": 0,
         "size": "17.65",
         "sizeFmt": "17.65 Ha.",
@@ -3938,86 +3911,57 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118889201,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 564996,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250310091,
-        "id": "ESTA:250310091",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-03-22T03:01:00.000Z",
-        "updated": "2025-03-22T06:25:00.000Z",
-        "resources": 0,
-        "location": "Chinkapook",
-        "sesId": 564996
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.94563998223506,
-          -35.186327399704325
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118891382,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250310215",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Camberwell Rd",
-        "eventId": "250310215",
-        "id": "ESTA:250310215",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-22T06:28:29.000Z",
-        "updated": "2025-03-22T06:28:29.000Z",
-        "resources": 1,
-        "location": "Camberwell Rd, Hawthorn East",
-        "mfbId": "250310215",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05346913836937,
-          -37.828770505349745
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118891420,
+        "status": "Safe",
+        "estaId": 118891228,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212515,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Belgrave-Gembrook Rd",
-        "eventId": 250310216,
-        "id": "ESTA:250310216",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250310211",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Trafalgar",
+        "eventId": "250310211",
+        "id": "ESTA:250310211",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-03-22T06:31:00.000Z",
-        "updated": "2025-03-22T06:31:00.000Z",
-        "resources": 0,
-        "location": "Belgrave-Gembrook Rd, Belgrave",
-        "cfaId": 212515,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-22T06:35:18.000Z",
+        "updated": "2025-03-22T06:35:18.000Z",
+        "resources": 1,
+        "location": "Trafalgar, Trafalgar",
+        "cfaId": 212514,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250310211"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.16431461920774,
+          -38.18420804794729
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118891549,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212518,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Parkhill Dr",
+        "eventId": 250310224,
+        "id": "ESTA:250310224",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-03-22T06:44:00.000Z",
+        "updated": "2025-03-22T06:44:00.000Z",
+        "resources": 2,
+        "location": "Parkhill Dr, Berwick",
+        "cfaId": 212518,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4025,8 +3969,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.36036219073748,
-          -37.9133004199565
+          145.32756113982128,
+          -38.02744441756889
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118890700,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565000,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352231,
+        "id": "ESTA:250352231",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-22T05:27:00.000Z",
+        "updated": "2025-03-22T06:45:00.000Z",
+        "resources": 0,
+        "location": "Joel South",
+        "sesId": 565000
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.05594522396726,
+          -37.08453828928194
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118891545,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250310223",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": "250310223",
+        "id": "ESTA:250310223",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-03-22T06:45:37.000Z",
+        "updated": "2025-03-22T06:45:37.000Z",
+        "resources": 2,
+        "location": "Midland Hwy, Creswick",
+        "cfaId": 212517,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250310223"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.89001356057557,
+          -37.44406774989809
         ]
       }
     },
@@ -4438,182 +4445,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 212508,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250310183",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Canterbury Rd",
-        "eventId": "250310183",
-        "id": "ESTA:250310183",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-22T05:35:50.000Z",
-        "updated": "2025-03-22T05:35:50.000Z",
-        "resources": 5,
-        "location": "Canterbury Rd, Montrose",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250310183"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3260648593708,
-          -37.81592364263199
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212498,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212498,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pound Rd",
-        "eventId": 250310160,
-        "id": "ESTA:250310160",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-22T04:38:00.000Z",
-        "updated": "2025-03-22T05:37:00.000Z",
-        "resources": 0,
-        "location": "Pound Rd, Yarram",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.618466842698,
-          -38.595415727238446
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212505,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250310177",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wentworth Rd",
-        "eventId": "250310177",
-        "id": "ESTA:250310177",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-22T05:40:07.000Z",
-        "updated": "2025-03-22T05:40:07.000Z",
-        "resources": 1,
-        "location": "Wentworth Rd, Yelta",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250310177"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.99435388145673,
-          -34.1239976755309
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212503,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212503,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Southey Rd",
-        "eventId": 250310172,
-        "id": "ESTA:250310172",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-22T05:08:00.000Z",
-        "updated": "2025-03-22T05:43:00.000Z",
-        "resources": 0,
-        "location": "Southey Rd, Boronia",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2961807676845,
-          -37.84331982570111
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212502,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212502,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fowler Rd",
-        "eventId": 250310169,
-        "id": "ESTA:250310169",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-22T05:03:00.000Z",
-        "updated": "2025-03-22T05:44:00.000Z",
-        "resources": 1,
-        "location": "Fowler Rd, Rowville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2437059547387,
-          -37.937814762060086
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212500,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212500,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bass Hwy",
-        "eventId": 250310164,
-        "id": "ESTA:250310164",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-03-22T04:42:00.000Z",
-        "updated": "2025-03-22T05:46:00.000Z",
-        "resources": 4,
-        "location": "Bass Hwy, San Remo",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.44627885011727,
-          -38.52718591660819
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 212511,
         "feedType": "incident",
@@ -4638,6 +4469,35 @@
         "coordinates": [
           147.0343076807674,
           -38.29540318644857
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 212510,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212510,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250310189,
+        "id": "ESTA:250310189",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-22T05:38:00.000Z",
+        "updated": "2025-03-22T06:12:00.000Z",
+        "resources": 0,
+        "location": "Olinda",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39210831907863,
+          -37.85014843518193
         ]
       }
     },
@@ -4674,21 +4534,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 212510,
+        "status": "Responding",
+        "cfaId": 212516,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 212510,
+        "sourceId": 212516,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 250310189,
-        "id": "ESTA:250310189",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-22T05:38:00.000Z",
-        "updated": "2025-03-22T06:12:00.000Z",
+        "eventId": 250310221,
+        "id": "ESTA:250310221",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-03-22T06:35:00.000Z",
+        "updated": "2025-03-22T06:35:00.000Z",
         "resources": 0,
-        "location": "Olinda",
+        "location": "Bright",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4696,8 +4556,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.39210831907863,
-          -37.85014843518193
+          146.9760404975894,
+          -36.742121861003675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 212508,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250310183",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Canterbury Rd",
+        "eventId": "250310183",
+        "id": "ESTA:250310183",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-22T06:37:36.000Z",
+        "updated": "2025-03-22T06:37:36.000Z",
+        "resources": 4,
+        "location": "Canterbury Rd, Montrose",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250310183"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3260648593708,
+          -37.81592364263199
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 212515,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212515,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Belgrave-Gembrook Rd",
+        "eventId": 250310216,
+        "id": "ESTA:250310216",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-22T06:31:00.000Z",
+        "updated": "2025-03-22T06:41:00.000Z",
+        "resources": 1,
+        "location": "Belgrave-Gembrook Rd, Belgrave",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36036219073748,
+          -37.9133004199565
         ]
       }
     },
@@ -4715,7 +4634,7 @@
         "category1": "Rescue",
         "category2": "Rescue High Angle",
         "created": "2025-03-22T06:14:00.000Z",
-        "updated": "2025-03-22T06:19:00.000Z",
+        "updated": "2025-03-22T06:36:00.000Z",
         "resources": 6,
         "location": "Bright",
         "size": "Small",
@@ -4734,58 +4653,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 212514,
+        "status": "Under Control",
+        "mfbId": "250310215",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250310211",
+        "sourceId": "250310215",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Trafalgar",
-        "eventId": "250310211",
-        "id": "ESTA:250310211",
+        "sourceTitle": "Camberwell Rd",
+        "id": "ESTA:250310215",
+        "eventId": "250310215",
         "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-03-22T06:15:05.000Z",
-        "updated": "2025-03-22T06:15:05.000Z",
-        "resources": 2,
-        "location": "Trafalgar, Trafalgar",
+        "category2": "Other",
+        "created": "2025-03-22T06:39:05.000Z",
+        "updated": "2025-03-22T06:39:05.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250310211"
+        "location": "Camberwell Rd, Hawthorn East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.16431461920774,
-          -38.18420804794729
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 565000,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565000,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352231,
-        "id": "ESTA:250352231",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-22T05:27:00.000Z",
-        "updated": "2025-03-22T05:38:00.000Z",
-        "resources": 1,
-        "location": "Joel South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.05594522396726,
-          -37.08453828928194
+          145.05346913836937,
+          -37.828770505349745
         ]
       }
     },
@@ -4813,6 +4704,60 @@
         "coordinates": [
           144.9853140395874,
           -37.860786541471384
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 565007,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565007,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352238,
+        "id": "ESTA:250352238",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-03-22T06:35:00.000Z",
+        "updated": "2025-03-22T06:35:00.000Z",
+        "resources": 1,
+        "location": "Bright"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9760404975894,
+          -36.742121861003675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 565008,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565008,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352239,
+        "id": "ESTA:250352239",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-03-22T06:44:00.000Z",
+        "updated": "2025-03-22T06:48:00.000Z",
+        "resources": 0,
+        "location": "Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96783695791638,
+          -37.8171396572885
         ]
       }
     }
@@ -5044,7 +4989,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-22T06:32:06.043Z",
-    "featureCount": 454
+    "lastUpdated": "2025-03-22T06:50:00.160Z",
+    "featureCount": 452
   }
 }
