@@ -3882,30 +3882,33 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118897591,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118897591,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Upper Ferntree Gully",
-        "eventId": "F250310400",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212586,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Talaskia Rd",
+        "eventId": 250310400,
         "id": "ESTA:250310400",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-03-22T16:48:15.000Z",
-        "updated": "2025-03-22T16:49:46.119Z",
+        "created": "2025-03-22T16:50:00.000Z",
+        "updated": "2025-03-22T17:02:00.000Z",
         "resources": 0,
-        "location": "Talaskia Rd, Upper Ferntree Gully"
+        "location": "Talaskia Rd, Upper Ferntree Gully",
+        "cfaId": 212586,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.31397326679286,
-          -37.89704163636417
+          145.31395779327255,
+          -37.897053721946506
         ]
       }
     },
@@ -4317,30 +4320,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 212584,
+        "status": "Under Control",
+        "mfbId": "250310401",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212584,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Coastside Dr",
-        "eventId": 250310396,
-        "id": "ESTA:250310396",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-22T15:15:00.000Z",
-        "updated": "2025-03-22T16:01:00.000Z",
-        "resources": 0,
-        "location": "Coastside Dr, Armstrong Creek",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250310401",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ballarat Rd",
+        "id": "ESTA:250310401",
+        "eventId": "250310401",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-22T17:09:24.000Z",
+        "updated": "2025-03-22T17:09:24.000Z",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Ballarat Rd, Footscray"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3409214297306,
-          -38.242136516587145
+          144.90764276911395,
+          -37.795328588639286
         ]
       }
     },
@@ -4388,7 +4391,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -4396,7 +4398,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4412,7 +4415,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -4420,7 +4422,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-22T13:00:00.000Z",
           "heat": {
@@ -4601,7 +4604,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-22T16:50:20.099Z",
+    "lastUpdated": "2025-03-22T17:20:26.362Z",
     "featureCount": 439
   }
 }
