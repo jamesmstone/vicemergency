@@ -3908,34 +3908,64 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 118898788,
+        "status": "Safe",
+        "estaId": 118898878,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250310464",
+        "sourceId": "250310467",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Seymour St",
-        "eventId": "250310464",
-        "id": "ESTA:250310464",
+        "sourceTitle": "Western Fwy",
+        "eventId": "250310467",
+        "id": "ESTA:250310467",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-22T21:48:52.000Z",
-        "updated": "2025-03-22T21:48:52.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-22T22:15:22.000Z",
+        "updated": "2025-03-22T22:15:22.000Z",
         "resources": 2,
-        "location": "Seymour St, Traralgon",
-        "cfaId": 212595,
+        "location": "Western Fwy, Truganina",
+        "cfaId": 212596,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250310464"
+        "mfbId": "250310467"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.53634240920147,
-          -38.19588149822426
+          144.68047312319982,
+          -37.73902090508231
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118898586,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565029,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352262,
+        "id": "ESTA:250352262",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-22T21:14:00.000Z",
+        "updated": "2025-03-22T22:17:00.000Z",
+        "resources": 0,
+        "location": "Warragul",
+        "sesId": 565029
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9225566177909,
+          -38.13135899179057
         ]
       }
     },
@@ -4360,7 +4390,7 @@
         "category2": "Rescue Road Trap",
         "created": "2025-03-22T21:08:00.000Z",
         "updated": "2025-03-22T21:35:00.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Stratford",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4372,94 +4402,6 @@
         "coordinates": [
           147.10434582203885,
           -37.9540416557323
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "mfbId": "250310456",
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565030,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250310456",
-        "eventId": 250310456,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-03-22T21:18:00.000Z",
-        "updated": "2025-03-22T21:27:00.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Geelong",
-        "sesId": 565030
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3544439421379,
-          -38.13849020818123
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250310460",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250310460",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "George St",
-        "id": "ESTA:250310460",
-        "eventId": "250310460",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-22T21:45:54.000Z",
-        "updated": "2025-03-22T21:45:54.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "George St, East Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9869842906956,
-          -37.815600061377246
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250310443",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250310443",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Footscray Rd",
-        "id": "ESTA:250310443",
-        "eventId": "250310443",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-22T21:04:26.000Z",
-        "updated": "2025-03-22T21:04:26.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Footscray Rd, Docklands"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93791261344333,
-          -37.81056610877491
         ]
       }
     },
@@ -4487,33 +4429,6 @@
         "coordinates": [
           144.78282900858838,
           -38.38191650356806
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 565029,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565029,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352262,
-        "id": "ESTA:250352262",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-22T21:14:00.000Z",
-        "updated": "2025-03-22T21:45:00.000Z",
-        "resources": 1,
-        "location": "Warragul"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9225566177909,
-          -38.13135899179057
         ]
       }
     }
@@ -4745,7 +4660,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-22T21:50:20.113Z",
-    "featureCount": 444
+    "lastUpdated": "2025-03-22T22:23:00.059Z",
+    "featureCount": 441
   }
 }
