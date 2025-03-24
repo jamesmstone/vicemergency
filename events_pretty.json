@@ -3343,6 +3343,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1633277",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Riddoch Highway, Tarpeena",
+        "id": "1633277",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Riddoch Highway, Tarpeena",
+        "created": "2025-03-24T14:12:00.000Z",
+        "updated": "2025-03-24T14:12:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Riddoch Highway, Tarpeena"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.796470847048,
+          -37.6153780810937
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -3988,30 +4014,62 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 118919484,
+        "estaId": 118919662,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "STATION",
         "sourceOrg": "VIC/SES",
-        "sourceId": 565108,
+        "sourceId": 565110,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250352340,
-        "id": "ESTA:250352340",
+        "eventId": 250352342,
+        "id": "ESTA:250352342",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-24T13:44:00.000Z",
-        "updated": "2025-03-24T13:48:00.000Z",
+        "created": "2025-03-24T14:20:00.000Z",
+        "updated": "2025-03-24T14:23:00.000Z",
         "resources": 0,
-        "location": "Mitcham",
-        "sesId": 565108
+        "location": "Bethanga",
+        "sesId": 565110
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.20093848178092,
-          -37.82636618245556
+          147.09974509953022,
+          -36.1213257980645
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 118919636,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 212867,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stawell Rd",
+        "eventId": 250311443,
+        "id": "ESTA:250311443",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-24T14:13:00.000Z",
+        "updated": "2025-03-24T14:24:00.000Z",
+        "resources": 2,
+        "location": "Stawell Rd, Horsham",
+        "cfaId": 212867,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20493251979505,
+          -36.723061632819544
         ]
       }
     },
@@ -4650,93 +4708,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 212865,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212865,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250311435,
-        "id": "ESTA:250311435",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-24T12:39:00.000Z",
-        "updated": "2025-03-24T12:51:00.000Z",
-        "resources": 0,
-        "location": "Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.334390141933,
-          -38.04735858703804
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 212864,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212864,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Salisbury St",
-        "eventId": 250311433,
-        "id": "ESTA:250311433",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-24T12:13:00.000Z",
-        "updated": "2025-03-24T13:08:00.000Z",
-        "resources": 0,
-        "location": "Salisbury St, Wangaratta",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.31246884711115,
-          -36.37791017902248
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 212866,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 212866,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Graham St",
-        "eventId": 250311441,
-        "id": "ESTA:250311441",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-24T13:49:00.000Z",
-        "updated": "2025-03-24T13:49:00.000Z",
-        "resources": 0,
-        "location": "Graham St, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.40463287121491,
-          -36.36264553179634
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250311434",
         "feedType": "incident",
@@ -4790,6 +4761,60 @@
         "coordinates": [
           145.10595703106566,
           -37.70424139911246
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 565108,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565108,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352340,
+        "id": "ESTA:250352340",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-24T13:44:00.000Z",
+        "updated": "2025-03-24T13:48:00.000Z",
+        "resources": 0,
+        "location": "Mitcham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20093848178092,
+          -37.82636618245556
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 565109,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565109,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352341,
+        "id": "ESTA:250352341",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-24T14:07:00.000Z",
+        "updated": "2025-03-24T14:15:00.000Z",
+        "resources": 1,
+        "location": "Koonoomoo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57914890017128,
+          -35.89042171634088
         ]
       }
     }
@@ -4868,6 +4893,7 @@
         },
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -4875,8 +4901,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5021,7 +5046,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-24T13:50:26.350Z",
-    "featureCount": 441
+    "lastUpdated": "2025-03-24T14:26:20.113Z",
+    "featureCount": 442
   }
 }
