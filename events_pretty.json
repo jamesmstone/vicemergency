@@ -3961,36 +3961,40 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118919615,
+        "status": "Safe",
+        "estaId": 118920246,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118919615,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Koonoomoo",
-        "eventId": "S250352341",
-        "id": "ESTA:250352341",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250311455",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Karoonda Way",
+        "eventId": "250311455",
+        "id": "ESTA:250311455",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-24T14:04:36.000Z",
-        "updated": "2025-03-24T15:39:00.332Z",
-        "resources": 0,
-        "location": "Cobram-Koonoomoo Rd, Koonoomoo"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-24T16:18:58.000Z",
+        "updated": "2025-03-24T16:18:58.000Z",
+        "resources": 2,
+        "location": "Karoonda Way, Hampton Park",
+        "cfaId": 212871,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250311455"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.57916156091014,
-          -35.89041927979806
+          145.26979071089727,
+          -38.048799540723415
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 118920137,
         "feedType": "incident",
         "source": "000",
@@ -4004,8 +4008,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-03-24T15:47:00.000Z",
-        "updated": "2025-03-24T15:47:00.000Z",
-        "resources": 0,
+        "updated": "2025-03-24T16:17:00.000Z",
+        "resources": 2,
         "location": "Auchmore",
         "cfaId": 212869,
         "size": "Small",
@@ -4017,6 +4021,38 @@
         "coordinates": [
           144.14040091866042,
           -36.45827749051325
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118920332,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250311457",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dandenong Rd",
+        "eventId": "250311457",
+        "id": "ESTA:250311457",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-24T16:29:04.000Z",
+        "updated": "2025-03-24T16:29:04.000Z",
+        "resources": 2,
+        "location": "Dandenong Rd, St Kilda East",
+        "mfbId": "250311457",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00096594805277,
+          -37.85934408930602
         ]
       }
     },
@@ -4655,35 +4691,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250311451",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250311451",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Station St",
-        "id": "ESTA:250311451",
-        "eventId": "250311451",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-24T15:31:35.000Z",
-        "updated": "2025-03-24T15:31:35.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Station St, Fairfield"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01982870766975,
-          -37.76659303954661
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 565108,
         "feedType": "incident",
@@ -4708,33 +4715,6 @@
           -37.82636618245556
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 565110,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565110,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352342,
-        "id": "ESTA:250352342",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-24T14:20:00.000Z",
-        "updated": "2025-03-24T15:17:00.000Z",
-        "resources": 1,
-        "location": "Bethanga"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.09974509953022,
-          -36.1213257980645
-        ]
-      }
     }
   ],
   "properties": {
@@ -4751,6 +4731,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4758,8 +4739,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4775,6 +4755,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4782,8 +4763,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-03-24T13:00:00.000Z",
           "heat": {
@@ -4964,7 +4944,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-24T15:50:20.034Z",
-    "featureCount": 439
+    "lastUpdated": "2025-03-24T16:32:46.310Z",
+    "featureCount": 438
   }
 }
