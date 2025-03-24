@@ -3320,32 +3320,6 @@
         "status": "Going",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
-        "sourceId": "1633275",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Scott Avenue, Barmera",
-        "id": "1633275",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Scott Avenue, Barmera",
-        "created": "2025-03-24T13:31:00.000Z",
-        "updated": "2025-03-24T13:31:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Scott Avenue, Barmera"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.469142440543,
-          -34.251215028374
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
         "sourceId": "1633277",
         "sourceFeed": "cfs-incident",
         "sourceTitle": "Riddoch Highway, Tarpeena",
@@ -4013,40 +3987,72 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118919662,
+        "status": "Safe",
+        "estaId": 118919720,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565110,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352342,
-        "id": "ESTA:250352342",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250311444",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Raglan St",
+        "eventId": "250311444",
+        "id": "ESTA:250311444",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-24T14:20:00.000Z",
-        "updated": "2025-03-24T14:23:00.000Z",
-        "resources": 0,
-        "location": "Bethanga",
-        "sesId": 565110
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-24T14:41:03.000Z",
+        "updated": "2025-03-24T14:41:03.000Z",
+        "resources": 3,
+        "location": "Raglan St, Wallan",
+        "cfaId": 212868,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250311444"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.09974509953022,
-          -36.1213257980645
+          144.9750660896216,
+          -37.41538715435376
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "estaId": 118919615,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118919615,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Koonoomoo",
+        "eventId": "S250352341",
+        "id": "ESTA:250352341",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-24T14:04:36.000Z",
+        "updated": "2025-03-24T14:42:40.400Z",
+        "resources": 0,
+        "location": "Cobram-Koonoomoo Rd, Koonoomoo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57916156091014,
+          -35.89041927979806
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 118919636,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
         "sourceId": 212867,
         "sourceFeed": "cfa-incident",
@@ -4057,8 +4063,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-24T14:13:00.000Z",
-        "updated": "2025-03-24T14:24:00.000Z",
-        "resources": 2,
+        "updated": "2025-03-24T14:33:00.000Z",
+        "resources": 0,
         "location": "Stawell Rd, Horsham",
         "cfaId": 212867,
         "size": "Small",
@@ -4794,27 +4800,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 565109,
+        "sesId": 565110,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 565109,
+        "sourceId": 565110,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250352341,
-        "id": "ESTA:250352341",
+        "eventId": 250352342,
+        "id": "ESTA:250352342",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-03-24T14:07:00.000Z",
-        "updated": "2025-03-24T14:15:00.000Z",
+        "created": "2025-03-24T14:20:00.000Z",
+        "updated": "2025-03-24T14:49:00.000Z",
         "resources": 1,
-        "location": "Koonoomoo"
+        "location": "Bethanga"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.57914890017128,
-          -35.89042171634088
+          147.09974509953022,
+          -36.1213257980645
         ]
       }
     }
@@ -4893,7 +4899,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -4901,7 +4906,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5046,7 +5052,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-24T14:26:20.113Z",
+    "lastUpdated": "2025-03-24T14:50:20.094Z",
     "featureCount": 442
   }
 }
