@@ -4717,7 +4717,68 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 118939624,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213087,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Commercial Rd",
+        "eventId": 250312592,
+        "id": "ESTA:250312592",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-26T04:34:00.000Z",
+        "updated": "2025-03-26T04:35:00.000Z",
+        "resources": 0,
+        "location": "Commercial Rd, Koroit",
+        "cfaId": 213087,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.367645415849,
+          -38.29236532282979
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118939304,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118939304,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ivanhoe",
+        "eventId": "S250352416",
+        "id": "ESTA:250352416",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-26T04:10:12.000Z",
+        "updated": "2025-03-26T04:37:39.354Z",
+        "resources": 0,
+        "location": "Buchanan St, Ivanhoe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0386970197427,
+          -37.77326455747149
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 118939421,
         "feedType": "incident",
         "source": "000",
@@ -4729,10 +4790,10 @@
         "id": "ESTA:250312580",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-03-26T04:19:00.000Z",
-        "updated": "2025-03-26T04:19:00.000Z",
-        "resources": 0,
+        "updated": "2025-03-26T04:38:00.000Z",
+        "resources": 1,
         "location": "Mirboo North",
         "cfaId": 213085,
         "size": "Small",
@@ -4749,62 +4810,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118939067,
+        "status": "Request For Assistance",
+        "estaId": 118939716,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213081,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Danes Rd",
-        "eventId": 250312552,
-        "id": "ESTA:250312552",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565185,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352418,
+        "id": "ESTA:250352418",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-26T03:54:00.000Z",
-        "updated": "2025-03-26T04:10:00.000Z",
-        "resources": 4,
-        "location": "Danes Rd, Warragul",
-        "cfaId": 213081,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9035613530681,
-          -38.16934118686734
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 118939542,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118939542,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Strathtulloh",
-        "eventId": "F250312584",
-        "id": "ESTA:250312584",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-26T04:24:47.000Z",
-        "updated": "2025-03-26T04:28:29.221Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-26T04:42:00.000Z",
+        "updated": "2025-03-26T04:48:00.000Z",
         "resources": 0,
-        "location": "Greigs Rd, Strathtulloh"
+        "location": "Doreen",
+        "sesId": 565185
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.58297506273362,
-          -37.74881536877981
+          145.11224588590818,
+          -37.60884060497453
         ]
       }
     },
@@ -5502,7 +5532,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 213081,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213081,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Danes Rd",
+        "eventId": 250312552,
+        "id": "ESTA:250312552",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-26T03:54:00.000Z",
+        "updated": "2025-03-26T04:10:00.000Z",
+        "resources": 2,
+        "location": "Danes Rd, Warragul",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9035613530681,
+          -38.16934118686734
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 213084,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -5514,7 +5573,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-03-26T04:09:00.000Z",
-        "updated": "2025-03-26T04:09:00.000Z",
+        "updated": "2025-03-26T04:32:00.000Z",
         "resources": 0,
         "location": "Breakaway Creek",
         "size": "Small",
@@ -5526,6 +5585,94 @@
         "coordinates": [
           141.86105570422242,
           -38.04194682131045
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 213086,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213086,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250312591,
+        "id": "ESTA:250312591",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-03-26T04:34:00.000Z",
+        "updated": "2025-03-26T04:34:00.000Z",
+        "resources": 1,
+        "location": "Sale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0990191026956,
+          -38.08981602982514
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 213088,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213088,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250312593,
+        "id": "ESTA:250312593",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-03-26T04:34:00.000Z",
+        "updated": "2025-03-26T04:34:00.000Z",
+        "resources": 0,
+        "location": "Sale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0990191026956,
+          -38.08981602982514
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 213082,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250312562",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brushwood Dr",
+        "eventId": "250312562",
+        "id": "ESTA:250312562",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-26T04:24:51.000Z",
+        "updated": "2025-03-26T04:24:51.000Z",
+        "resources": 2,
+        "location": "Brushwood Dr, Aintree",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250312562"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67149535335608,
+          -37.71360528627427
         ]
       }
     },
@@ -5561,31 +5708,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 213082,
+        "status": "Responding",
+        "mfbId": "250312584",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250312562",
+        "sourceId": "250312584",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brushwood Dr",
-        "eventId": "250312562",
-        "id": "ESTA:250312562",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-26T04:24:51.000Z",
-        "updated": "2025-03-26T04:24:51.000Z",
-        "resources": 3,
-        "location": "Brushwood Dr, Aintree",
+        "sourceTitle": "Greigs Rd",
+        "id": "ESTA:250312584",
+        "eventId": "250312584",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-26T04:28:36.000Z",
+        "updated": "2025-03-26T04:28:36.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250312562"
+        "location": "Greigs Rd, Strathtulloh"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.67149535335608,
-          -37.71360528627427
+          144.58296746256934,
+          -37.74882199824242
         ]
       }
     },
@@ -5678,35 +5824,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250312425",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250312425",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Horswood Rd",
-        "id": "ESTA:250312425",
-        "eventId": "250312425",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-26T03:50:18.000Z",
-        "updated": "2025-03-26T03:50:18.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Horswood Rd, Lysterfield"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.31327872545077,
-          -37.967123944477805
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 565181,
         "feedType": "incident",
@@ -5735,33 +5852,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 565183,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565183,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352416,
-        "id": "ESTA:250352416",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-03-26T04:10:00.000Z",
-        "updated": "2025-03-26T04:10:18.000Z",
-        "resources": 0,
-        "location": "Ivanhoe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03869096060856,
-          -37.773272750447234
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 565182,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -5773,8 +5863,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-03-26T04:09:00.000Z",
-        "updated": "2025-03-26T04:16:00.000Z",
-        "resources": 0,
+        "updated": "2025-03-26T04:38:00.000Z",
+        "resources": 1,
         "location": "Ivanhoe"
       },
       "type": "Feature",
@@ -5861,7 +5951,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -5869,7 +5958,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -6014,7 +6104,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-26T04:29:06.416Z",
-    "featureCount": 465
+    "lastUpdated": "2025-03-26T04:50:20.176Z",
+    "featureCount": 468
   }
 }
