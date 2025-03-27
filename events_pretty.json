@@ -3163,32 +3163,6 @@
         "status": "Going",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
-        "sourceId": "1633577",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Sturt Highway, Yamba",
-        "id": "1633577",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Sturt Highway, Yamba",
-        "created": "2025-03-26T20:06:00.000Z",
-        "updated": "2025-03-26T20:06:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Sturt Highway, Yamba"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.941462369131,
-          -34.2741624955438
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
         "sourceId": "1633647",
         "sourceFeed": "cfs-incident",
         "sourceTitle": "Jubilee Highway, Mount Gambier",
@@ -4556,24 +4530,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118958118,
+        "status": "Not Yet Under Control",
+        "estaId": 118958374,
         "feedType": "incident",
-        "source": "000",
+        "source": "RADIO",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250313568",
+        "sourceId": "250313571",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chomley St",
-        "eventId": "250313568",
-        "id": "ESTA:250313568",
+        "sourceTitle": "Norlane",
+        "eventId": "250313571",
+        "id": "ESTA:250313571",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-03-27T14:37:25.000Z",
-        "updated": "2025-03-27T14:37:25.000Z",
-        "resources": 2,
-        "location": "Chomley St, Prahran",
-        "mfbId": "250313568",
+        "created": "2025-03-27T15:13:32.000Z",
+        "updated": "2025-03-27T15:13:32.000Z",
+        "resources": 3,
+        "location": "Norlane, Norlane",
+        "cfaId": 213302,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250313571"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35623879598137,
+          -38.09419234996275
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118958353,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213301,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": 250313570,
+        "id": "ESTA:250313570",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-03-27T15:00:00.000Z",
+        "updated": "2025-03-27T15:24:00.000Z",
+        "resources": 0,
+        "location": "Midland Hwy, Girgarre East",
+        "cfaId": 213301,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4581,8 +4588,101 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0051705945898,
-          -37.85834388611599
+          145.051455250125,
+          -36.438205862411316
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118958498,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118958498,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "F250313575",
+        "id": "ESTA:250313575",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-27T15:23:42.000Z",
+        "updated": "2025-03-27T15:24:34.357Z",
+        "resources": 0,
+        "location": "Bedwell St, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99318531787944,
+          -37.6934526583633
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118958486,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250313574",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bedwell St",
+        "eventId": "250313574",
+        "id": "ESTA:250313574",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-27T15:25:01.000Z",
+        "updated": "2025-03-27T15:25:01.000Z",
+        "resources": 2,
+        "location": "Bedwell St, Reservoir",
+        "mfbId": "250313574",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9931851562848,
+          -37.69345748298738
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118958430,
+        "feedType": "incident",
+        "source": "OFFICER",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250313573",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Doncaster Rd",
+        "eventId": "250313573",
+        "id": "ESTA:250313573",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-27T15:26:42.000Z",
+        "updated": "2025-03-27T15:26:42.000Z",
+        "resources": 2,
+        "location": "Doncaster Rd, Doncaster",
+        "mfbId": "250313573",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1229681122709,
+          -37.78787676734636
         ]
       }
     },
@@ -5193,20 +5293,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 213300,
+        "cfaId": 213303,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 213300,
+        "sourceId": 213303,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Arcadia Av",
-        "eventId": 250313560,
-        "id": "ESTA:250313560",
-        "category1": "Fire",
+        "sourceTitle": "Maroondah Hwy",
+        "eventId": 250313572,
+        "id": "ESTA:250313572",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-27T13:49:00.000Z",
-        "updated": "2025-03-27T14:08:00.000Z",
-        "resources": 0,
-        "location": "Arcadia Av, Hallam",
+        "created": "2025-03-27T15:10:00.000Z",
+        "updated": "2025-03-27T15:23:00.000Z",
+        "resources": 1,
+        "location": "Maroondah Hwy, Healesville",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5214,8 +5314,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26110978626158,
-          -37.996452610618014
+          145.51798109525507,
+          -37.653425707716636
         ]
       }
     }
@@ -5447,7 +5547,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-27T14:50:20.217Z",
-    "featureCount": 446
+    "lastUpdated": "2025-03-27T15:27:46.192Z",
+    "featureCount": 449
   }
 }
