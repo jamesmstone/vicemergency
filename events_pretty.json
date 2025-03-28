@@ -4620,26 +4620,120 @@
         "estaId": 118972979,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118972979,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Elwood",
-        "eventId": "F250314302",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314302",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Shelley St",
+        "eventId": "250314302",
         "id": "ESTA:250314302",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-28T17:21:16.000Z",
-        "updated": "2025-03-28T17:22:45.194Z",
-        "resources": 0,
-        "location": "Shelley St, Elwood"
+        "created": "2025-03-28T17:27:34.000Z",
+        "updated": "2025-03-28T17:27:34.000Z",
+        "resources": 1,
+        "location": "Shelley St, Elwood",
+        "mfbId": "250314302",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98491283439154,
-          -37.880802719090845
+          144.98490418995672,
+          -37.880804554124765
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 118972988,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565339,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352568,
+        "id": "ESTA:250352568",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-28T17:24:00.000Z",
+        "updated": "2025-03-28T17:32:00.000Z",
+        "resources": 0,
+        "location": "Heidelberg West",
+        "sesId": 565339
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03692951197797,
+          -37.7484335598565
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118973023,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213456,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Talbot Rd",
+        "eventId": 250314303,
+        "id": "ESTA:250314303",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-03-28T17:33:00.000Z",
+        "updated": "2025-03-28T17:33:00.000Z",
+        "resources": 0,
+        "location": "Talbot Rd, Clunes",
+        "cfaId": 213456,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.77321071580673,
+          -37.29119076546999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118973040,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118973040,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Clarinda",
+        "eventId": "F250314304",
+        "id": "ESTA:250314304",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-28T17:35:24.000Z",
+        "updated": "2025-03-28T17:37:09.112Z",
+        "resources": 0,
+        "location": "Clarinda Rd, Clarinda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09978361672367,
+          -37.9321717533146
         ]
       }
     },
@@ -6573,6 +6667,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "mfbId": "250314301",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314301",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Liberty Pde",
+        "id": "ESTA:250314301",
+        "eventId": "250314301",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-28T17:31:41.000Z",
+        "updated": "2025-03-28T17:31:41.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Liberty Pde, Heidelberg West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03693585542058,
+          -37.748433332904646
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 565320,
         "feedType": "incident",
@@ -6853,7 +6976,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-28T17:23:26.095Z",
-    "featureCount": 453
+    "lastUpdated": "2025-03-28T17:37:20.110Z",
+    "featureCount": 457
   }
 }
