@@ -4616,7 +4616,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 118973687,
         "feedType": "incident",
         "source": "000",
@@ -4630,7 +4630,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-03-28T20:43:00.000Z",
-        "updated": "2025-03-28T20:43:00.000Z",
+        "updated": "2025-03-28T20:52:00.000Z",
         "resources": 0,
         "location": "Woorndoo-Streatham Rd, Woorndoo",
         "cfaId": 213470,
@@ -4648,10 +4648,70 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "estaId": 118973813,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565344,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352573,
+        "id": "ESTA:250352573",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-28T21:06:00.000Z",
+        "updated": "2025-03-28T21:09:00.000Z",
+        "resources": 0,
+        "location": "Cobram",
+        "sesId": 565344
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.65096789146955,
+          -35.92213642199508
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 118973837,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565346,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352575,
+        "id": "ESTA:250352575",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-28T21:10:00.000Z",
+        "updated": "2025-03-28T21:12:00.000Z",
+        "resources": 0,
+        "location": "Ivanhoe",
+        "sesId": 565346
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04159929514074,
+          -37.767607578526174
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 118973733,
         "feedType": "incident",
-        "source": "000",
+        "source": "LN",
         "sourceOrg": "VIC/CFA",
         "sourceId": 213471,
         "sourceFeed": "cfa-incident",
@@ -4660,9 +4720,9 @@
         "id": "ESTA:250314329",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
+        "category2": "Other",
         "created": "2025-03-28T20:49:00.000Z",
-        "updated": "2025-03-28T20:49:00.000Z",
+        "updated": "2025-03-28T21:08:00.000Z",
         "resources": 0,
         "location": "Comben Dr, Werribee",
         "cfaId": 213471,
@@ -4675,6 +4735,70 @@
         "coordinates": [
           144.65452254406148,
           -37.90295033309064
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118973804,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314340",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ferrars Pl",
+        "eventId": "250314340",
+        "id": "ESTA:250314340",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-03-28T21:14:59.000Z",
+        "updated": "2025-03-28T21:14:59.000Z",
+        "resources": 2,
+        "location": "Ferrars Pl, South Melbourne",
+        "mfbId": "250314340",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9595197161277,
+          -37.840722802830214
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 118973908,
+        "feedType": "incident",
+        "source": "PHONE",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314347",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Drummond St",
+        "eventId": "250314347",
+        "id": "ESTA:250314347",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-28T21:21:35.000Z",
+        "updated": "2025-03-28T21:21:35.000Z",
+        "resources": 2,
+        "location": "Drummond St, Chadstone",
+        "mfbId": "250314347",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09189908261217,
+          -37.885401373077755
         ]
       }
     },
@@ -6521,94 +6645,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 213462,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250314317",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250314317",
-        "id": "ESTA:250314317",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-03-28T19:36:34.000Z",
-        "updated": "2025-03-28T19:36:34.000Z",
-        "resources": 3,
-        "location": "Princes Hwy, Springvale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250314317"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16784953324262,
-          -37.941899969304885
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 213463,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213463,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250314318,
-        "id": "ESTA:250314318",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-28T19:26:00.000Z",
-        "updated": "2025-03-28T20:07:00.000Z",
-        "resources": 0,
-        "location": "Robinvale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.77179401420574,
-          -34.58883037806426
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 213465,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213465,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gallery Lane",
-        "eventId": 250314321,
-        "id": "ESTA:250314321",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-28T19:58:00.000Z",
-        "updated": "2025-03-28T20:07:00.000Z",
-        "resources": 0,
-        "location": "Gallery Lane, Frankston",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12499931827,
-          -38.14384562057787
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 212775,
         "feedType": "incident",
@@ -6697,6 +6733,65 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 213462,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314317",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250314317",
+        "id": "ESTA:250314317",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-28T19:36:34.000Z",
+        "updated": "2025-03-28T19:36:34.000Z",
+        "resources": 1,
+        "location": "Princes Hwy, Springvale",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250314317"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16784953324262,
+          -37.941899969304885
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 213472,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213472,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rainbow Rises Rd",
+        "eventId": 250314332,
+        "id": "ESTA:250314332",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-28T20:55:00.000Z",
+        "updated": "2025-03-28T20:55:00.000Z",
+        "resources": 1,
+        "location": "Rainbow Rises Rd, Rainbow",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.98468169647222,
+          -35.89580005948365
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250314304",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6720,6 +6815,147 @@
         "coordinates": [
           145.09978213920934,
           -37.93217333469639
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250314334",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314334",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Crown St",
+        "id": "ESTA:250314334",
+        "eventId": "250314334",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-28T21:18:26.000Z",
+        "updated": "2025-03-28T21:18:26.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Crown St, Flemington"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9225491426802,
+          -37.786247914042136
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250314330",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314330",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sturt St",
+        "id": "ESTA:250314330",
+        "eventId": "250314330",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-03-28T21:11:59.000Z",
+        "updated": "2025-03-28T21:11:59.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Sturt St, Southbank"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96647959089978,
+          -37.825489086546646
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250314335",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314335",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Miller St",
+        "id": "ESTA:250314335",
+        "eventId": "250314335",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-28T21:07:58.000Z",
+        "updated": "2025-03-28T21:07:58.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Miller St, Essendon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91235707660945,
+          -37.7542816894709
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 565343,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565343,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352572,
+        "id": "ESTA:250352572",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-28T20:52:00.000Z",
+        "updated": "2025-03-28T21:17:00.000Z",
+        "resources": 1,
+        "location": "Beechworth"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.69896806556778,
+          -36.35560969209537
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 565345,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565345,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352574,
+        "id": "ESTA:250352574",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-28T21:06:00.000Z",
+        "updated": "2025-03-28T21:20:00.000Z",
+        "resources": 0,
+        "location": "Smoko"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.11268845673132,
+          -36.82889198728315
         ]
       }
     }
@@ -6951,7 +7187,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-28T20:50:20.513Z",
-    "featureCount": 456
+    "lastUpdated": "2025-03-28T21:23:00.065Z",
+    "featureCount": 464
   }
 }
