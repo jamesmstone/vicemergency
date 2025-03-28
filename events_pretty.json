@@ -4754,60 +4754,66 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 118964845,
+        "status": "Responding",
+        "estaId": 118965447,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565299,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352537,
-        "id": "ESTA:250352537",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213363,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250314038,
+        "id": "ESTA:250314038",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-03-28T04:02:00.000Z",
-        "updated": "2025-03-28T04:25:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-03-28T04:48:00.000Z",
+        "updated": "2025-03-28T04:48:00.000Z",
         "resources": 0,
-        "location": "Narre Warren",
-        "sesId": 565299
+        "location": "Robinvale",
+        "cfaId": 213363,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3064518133664,
-          -38.04171440514814
+          142.7739956292725,
+          -34.58828444422643
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 118965230,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 118965230,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Pakenham Upper",
-        "eventId": "F250314035",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250314035",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gordon Rd",
+        "eventId": "250314035",
         "id": "ESTA:250314035",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-03-28T04:29:10.000Z",
-        "updated": "2025-03-28T04:29:26.312Z",
-        "resources": 0,
-        "location": "Gordon Rd, Pakenham Upper"
+        "category2": "Structure Fire",
+        "created": "2025-03-28T04:50:25.000Z",
+        "updated": "2025-03-28T04:50:25.000Z",
+        "resources": 5,
+        "location": "Gordon Rd, Pakenham Upper",
+        "cfaId": 213362,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250314035"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.50425838139867,
-          -38.03625902510884
+          145.5042500874079,
+          -38.036261713785855
         ]
       }
     },
@@ -5477,64 +5483,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 213359,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213359,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Campbell St",
-        "eventId": 250313993,
-        "id": "ESTA:250313993",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-28T03:43:00.000Z",
-        "updated": "2025-03-28T03:45:00.000Z",
-        "resources": 0,
-        "location": "Campbell St, Ararat",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.94348650834976,
-          -37.2740895900217
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 213361,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213361,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parry Dr",
-        "eventId": 250314009,
-        "id": "ESTA:250314009",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-28T04:03:00.000Z",
-        "updated": "2025-03-28T04:03:00.000Z",
-        "resources": 0,
-        "location": "Parry Dr, Narre Warren",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3064518133664,
-          -38.04171440514814
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 213360,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5577,7 +5525,7 @@
         "category2": "Structure Fire",
         "created": "2025-03-28T02:34:40.000Z",
         "updated": "2025-03-28T02:34:40.000Z",
-        "resources": 1,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Hines Way, Braybrook"
@@ -5588,35 +5536,6 @@
         "coordinates": [
           144.8482808302771,
           -37.795700689358874
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250314003",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250314003",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Plunkett Rd",
-        "id": "ESTA:250314003",
-        "eventId": "250314003",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-28T04:13:21.000Z",
-        "updated": "2025-03-28T04:13:21.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Plunkett Rd, Dandenong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.22443489593815,
-          -37.99866625440493
         ]
       }
     },
@@ -5664,7 +5583,7 @@
         "category2": "Other",
         "created": "2025-03-28T04:29:18.000Z",
         "updated": "2025-03-28T04:29:18.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "New St, Brighton"
@@ -5675,114 +5594,6 @@
         "coordinates": [
           144.9952591317881,
           -37.89183335997325
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 565279,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565279,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250313731,
-        "id": "ESTA:250313731",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-03-27T23:40:00.000Z",
-        "updated": "2025-03-28T04:19:00.000Z",
-        "resources": 3,
-        "location": "Creightons Creek"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.50868366233837,
-          -36.77714618303196
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 565302,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565302,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352539,
-        "id": "ESTA:250352539",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-03-28T04:03:00.000Z",
-        "updated": "2025-03-28T04:25:00.000Z",
-        "resources": 0,
-        "location": "Narre Warren"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3064518133664,
-          -38.04171440514814
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 565301,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565301,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250314005,
-        "id": "ESTA:250314005",
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2025-03-28T04:02:00.000Z",
-        "updated": "2025-03-28T04:25:00.000Z",
-        "resources": 2,
-        "location": "Boronia"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27646579761335,
-          -37.863228996939284
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 565300,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565300,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352538,
-        "id": "ESTA:250352538",
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2025-03-28T04:02:00.000Z",
-        "updated": "2025-03-28T04:29:00.000Z",
-        "resources": 0,
-        "location": "Boronia"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27646579761335,
-          -37.863228996939284
         ]
       }
     }
@@ -6014,7 +5825,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-28T04:30:06.008Z",
-    "featureCount": 464
+    "lastUpdated": "2025-03-28T04:51:40.421Z",
+    "featureCount": 457
   }
 }
