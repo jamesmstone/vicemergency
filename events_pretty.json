@@ -4507,63 +4507,126 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 118995805,
+        "status": "Under Control",
+        "estaId": 118995932,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565527,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352752,
-        "id": "ESTA:250352752",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250315135",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ringwood-Warrandyte Rd",
+        "eventId": "250315135",
+        "id": "ESTA:250315135",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-03-30T14:39:00.000Z",
-        "updated": "2025-03-30T14:42:00.000Z",
-        "resources": 0,
-        "location": "Thornbury",
-        "sesId": 565527
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-03-30T15:13:42.000Z",
+        "updated": "2025-03-30T15:13:42.000Z",
+        "resources": 1,
+        "location": "Ringwood-Warrandyte Rd, Warrandyte",
+        "cfaId": 213730,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250315135"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02158113541816,
-          -37.763064520147495
+          145.2327022146893,
+          -37.755944030738064
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 118995742,
+        "status": "Request For Assistance",
+        "estaId": 118996001,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250315132",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Eighth St",
-        "eventId": "250315132",
-        "id": "ESTA:250315132",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565528,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250352753,
+        "id": "ESTA:250352753",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-30T14:40:22.000Z",
-        "updated": "2025-03-30T14:40:22.000Z",
-        "resources": 1,
-        "location": "Eighth St, Mildura",
-        "mfbId": "250315132",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-03-30T15:19:00.000Z",
+        "updated": "2025-03-30T15:20:00.000Z",
+        "resources": 0,
+        "location": "Montrose",
+        "sesId": 565528
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.15486032884044,
-          -34.178572040143244
+          145.35368677720203,
+          -37.80541241293542
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118996012,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 118996012,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Frankston",
+        "eventId": "F250315137",
+        "id": "ESTA:250315137",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-30T15:22:01.000Z",
+        "updated": "2025-03-30T15:23:09.438Z",
+        "resources": 0,
+        "location": "Davey St, Frankston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12119439777717,
+          -38.14603088549408
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 118996009,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250315136",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Frankston",
+        "eventId": "250315136",
+        "id": "ESTA:250315136",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-03-30T15:22:22.000Z",
+        "updated": "2025-03-30T15:22:22.000Z",
+        "resources": 2,
+        "location": "Frankston, Frankston",
+        "cfaId": 213731,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250315136"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12080186732732,
+          -38.14428305367886
         ]
       }
     },
@@ -7418,7 +7481,7 @@
         "category2": "Rescue Road Trap Fire",
         "created": "2025-03-30T13:36:00.000Z",
         "updated": "2025-03-30T14:30:00.000Z",
-        "resources": 5,
+        "resources": 4,
         "location": "Bacchus Marsh",
         "size": "Small",
         "sizeFmt": "Small",
@@ -7431,35 +7494,6 @@
         "coordinates": [
           144.43094983345983,
           -37.6736551869661
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 213728,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213728,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Maneroo Ct",
-        "eventId": 250315126,
-        "id": "ESTA:250315126",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-03-30T13:57:00.000Z",
-        "updated": "2025-03-30T14:16:00.000Z",
-        "resources": 0,
-        "location": "Maneroo Ct, Eastwood",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.62394470275706,
-          -37.812678681832175
         ]
       }
     },
@@ -7494,55 +7528,28 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 565491,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565491,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250352720,
-        "id": "ESTA:250352720",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-30T06:01:00.000Z",
-        "updated": "2025-03-30T11:45:00.000Z",
-        "resources": 1,
-        "location": "Little Hampton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2974643117507,
-          -37.36541245048425
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "sesId": 565526,
+        "sesId": 565527,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 565526,
+        "sourceId": 565527,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250352751,
-        "id": "ESTA:250352751",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-03-30T14:08:00.000Z",
-        "updated": "2025-03-30T14:16:00.000Z",
-        "resources": 1,
-        "location": "Barunah Park"
+        "eventId": 250352752,
+        "id": "ESTA:250352752",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-03-30T14:39:00.000Z",
+        "updated": "2025-03-30T14:42:00.000Z",
+        "resources": 0,
+        "location": "Thornbury"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.85528269842067,
-          -37.98665727156064
+          145.02158113541816,
+          -37.763064520147495
         ]
       }
     }
@@ -7774,7 +7781,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-30T14:50:02.119Z",
+    "lastUpdated": "2025-03-30T15:24:06.301Z",
     "featureCount": 456
   }
 }
