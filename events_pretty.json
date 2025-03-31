@@ -4334,24 +4334,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119008002,
+        "status": "Request For Assistance",
+        "estaId": 119008247,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213858,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Boundary Rd",
-        "eventId": 250400029,
-        "id": "ESTA:250400029",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565610,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450005,
+        "id": "ESTA:250450005",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-03-31T17:38:00.000Z",
+        "updated": "2025-03-31T17:48:00.000Z",
+        "resources": 1,
+        "location": "Cobram",
+        "sesId": 565610
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64874224910423,
+          -35.92005590709102
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119008247,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213862,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bank St",
+        "eventId": 250400039,
+        "id": "ESTA:250400039",
+        "suppress": false,
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-03-31T16:24:00.000Z",
-        "updated": "2025-03-31T17:09:00.000Z",
+        "created": "2025-03-31T17:38:00.000Z",
+        "updated": "2025-03-31T17:38:00.000Z",
         "resources": 0,
-        "location": "Boundary Rd, Narre Warren North",
-        "cfaId": 213858,
+        "location": "Bank St, Cobram",
+        "cfaId": 213862,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4359,37 +4389,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33742922649546,
-          -37.968862373369156
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119007842,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119007842,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Woodstock",
-        "eventId": "F250400023",
-        "id": "ESTA:250400023",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-03-31T15:41:47.000Z",
-        "updated": "2025-03-31T17:28:42.290Z",
-        "resources": 0,
-        "location": "Knockcurra St, Woodstock"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02399894554648,
-          -37.5447699823045
+          145.64874224910423,
+          -35.92005590709102
         ]
       }
     },
@@ -5627,6 +5628,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 213858,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213858,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Boundary Rd",
+        "eventId": 250400029,
+        "id": "ESTA:250400029",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-31T16:24:00.000Z",
+        "updated": "2025-03-31T17:09:00.000Z",
+        "resources": 0,
+        "location": "Boundary Rd, Narre Warren North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33742922649546,
+          -37.968862373369156
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250315448",
         "feedType": "incident",
@@ -5882,7 +5912,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-31T17:37:00.469Z",
-    "featureCount": 432
+    "lastUpdated": "2025-03-31T17:50:20.208Z",
+    "featureCount": 433
   }
 }
