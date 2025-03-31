@@ -4338,30 +4338,58 @@
         "estaId": 119008002,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250400029",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213858,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Boundary Rd",
-        "eventId": "250400029",
+        "eventId": 250400029,
         "id": "ESTA:250400029",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-03-31T17:09:01.000Z",
-        "updated": "2025-03-31T17:09:01.000Z",
-        "resources": 1,
+        "category2": "Other",
+        "created": "2025-03-31T16:24:00.000Z",
+        "updated": "2025-03-31T17:09:00.000Z",
+        "resources": 0,
         "location": "Boundary Rd, Narre Warren North",
         "cfaId": 213858,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250400029"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33743573535614,
-          -37.96886048218802
+          145.33742922649546,
+          -37.968862373369156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119007842,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119007842,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Woodstock",
+        "eventId": "F250400023",
+        "id": "ESTA:250400023",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-03-31T15:41:47.000Z",
+        "updated": "2025-03-31T17:28:42.290Z",
+        "resources": 0,
+        "location": "Knockcurra St, Woodstock"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02399894554648,
+          -37.5447699823045
         ]
       }
     },
@@ -5625,35 +5653,6 @@
           -37.80822043712849
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250400031",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250400031",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Arnold St",
-        "id": "ESTA:250400031",
-        "eventId": "250400031",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-03-31T16:44:12.000Z",
-        "updated": "2025-03-31T16:44:12.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Arnold St, Princes Hill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9659206294805,
-          -37.78040246387688
-        ]
-      }
     }
   ],
   "properties": {
@@ -5730,7 +5729,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -5738,7 +5736,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5883,7 +5882,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-03-31T17:23:06.804Z",
+    "lastUpdated": "2025-03-31T17:37:00.469Z",
     "featureCount": 432
   }
 }
