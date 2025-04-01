@@ -1529,23 +1529,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119020529,
+        "estaId": 119020656,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250400752",
+        "sourceId": "250400757",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Monash In-Toorak Ramp",
-        "eventId": "250400752",
-        "id": "ESTA:250400752",
+        "sourceTitle": "Palmer St",
+        "eventId": "250400757",
+        "id": "ESTA:250400757",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-01T17:42:52.000Z",
-        "updated": "2025-04-01T17:42:52.000Z",
-        "resources": 1,
-        "location": "Monash In-Toorak Ramp, Malvern",
-        "mfbId": "250400752",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-01T18:27:44.000Z",
+        "updated": "2025-04-01T18:27:44.000Z",
+        "resources": 3,
+        "location": "Palmer St, Fitzroy",
+        "mfbId": "250400757",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1553,8 +1553,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0407109349251,
-          -37.84707472564207
+          144.97620960489732,
+          -37.80419167447257
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119020676,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214001,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kooringa Pl",
+        "eventId": 250400758,
+        "id": "ESTA:250400758",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-01T18:32:00.000Z",
+        "updated": "2025-04-01T18:32:00.000Z",
+        "resources": 0,
+        "location": "Kooringa Pl, Torquay",
+        "cfaId": 214001,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31557789241546,
+          -38.32443450015242
         ]
       }
     },
@@ -2611,29 +2643,58 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250400751",
+        "mfbId": "250400752",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250400751",
+        "sourceId": "250400752",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fakenham Rd",
-        "id": "ESTA:250400751",
-        "eventId": "250400751",
+        "sourceTitle": "Monash In-Toorak Ramp",
+        "id": "ESTA:250400752",
+        "eventId": "250400752",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-01T17:47:16.000Z",
-        "updated": "2025-04-01T17:47:16.000Z",
+        "created": "2025-04-01T17:51:27.000Z",
+        "updated": "2025-04-01T17:51:27.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Fakenham Rd, Ashburton"
+        "location": "Monash In-Toorak Ramp, Malvern"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09003024357762,
-          -37.86258993340328
+          145.0407109349251,
+          -37.84707472564207
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250400756",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250400756",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Nerang Pl",
+        "id": "ESTA:250400756",
+        "eventId": "250400756",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-01T18:33:22.000Z",
+        "updated": "2025-04-01T18:33:22.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Nerang Pl, Delahey"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7680142231023,
+          -37.71109182855582
         ]
       }
     },
@@ -2894,7 +2955,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-01T17:50:20.134Z",
-    "featureCount": 421
+    "lastUpdated": "2025-04-01T18:33:40.577Z",
+    "featureCount": 423
   }
 }
