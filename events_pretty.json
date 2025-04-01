@@ -1654,31 +1654,33 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119018355,
+        "status": "Safe",
+        "estaId": 119018347,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565661,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450063,
-        "id": "ESTA:250450063",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213979,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250400697,
+        "id": "ESTA:250400697",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-01T11:04:00.000Z",
-        "updated": "2025-04-01T11:12:00.000Z",
-        "resources": 0,
-        "location": "Bayswater",
-        "sesId": 565661
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-01T11:03:00.000Z",
+        "updated": "2025-04-01T11:26:00.000Z",
+        "resources": 2,
+        "location": "Wandin North",
+        "cfaId": 213979,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.263282709287,
-          -37.84274900817742
+          145.4152129199395,
+          -37.77372177880505
         ]
       }
     },
@@ -2677,35 +2679,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 213974,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213974,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bellarine Rail Trl",
-        "eventId": 250400680,
-        "id": "ESTA:250400680",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-01T10:07:00.000Z",
-        "updated": "2025-04-01T10:30:00.000Z",
-        "resources": 0,
-        "location": "Bellarine Rail Trl, Whittington",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.39534013621176,
-          -38.17352729472862
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 213977,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2729,64 +2702,6 @@
         "coordinates": [
           144.74362858644312,
           -37.35598140595518
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 213979,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213979,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250400697,
-        "id": "ESTA:250400697",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-01T11:03:00.000Z",
-        "updated": "2025-04-01T11:03:00.000Z",
-        "resources": 2,
-        "location": "Wandin North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4152129199395,
-          -37.77372177880505
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 213981,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 213981,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250400700,
-        "id": "ESTA:250400700",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-01T11:06:00.000Z",
-        "updated": "2025-04-01T11:06:00.000Z",
-        "resources": 3,
-        "location": "Watsons Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2620112680211,
-          -37.66563092060425
         ]
       }
     },
@@ -2823,6 +2738,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 213981,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 213981,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250400700,
+        "id": "ESTA:250400700",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-01T11:06:00.000Z",
+        "updated": "2025-04-01T11:26:00.000Z",
+        "resources": 3,
+        "location": "Watsons Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2620112680211,
+          -37.66563092060425
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250400574",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2851,7 +2795,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "mfbId": "250400696",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2862,9 +2806,9 @@
         "eventId": "250400696",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-01T11:10:21.000Z",
-        "updated": "2025-04-01T11:10:21.000Z",
-        "resources": 1,
+        "created": "2025-04-01T11:21:58.000Z",
+        "updated": "2025-04-01T11:21:58.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Egret Ct, Lara"
@@ -2919,8 +2863,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-04-01T11:02:00.000Z",
-        "updated": "2025-04-01T11:04:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-01T11:25:00.000Z",
+        "resources": 1,
         "location": "Tremont"
       },
       "type": "Feature",
@@ -3160,7 +3104,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-01T11:21:46.125Z",
-    "featureCount": 428
+    "lastUpdated": "2025-04-01T11:32:00.016Z",
+    "featureCount": 426
   }
 }
