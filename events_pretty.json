@@ -1612,24 +1612,54 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 119029529,
+        "status": "Complete",
+        "estaId": 119028975,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565691,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450100,
+        "id": "ESTA:250450100",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-04-02T07:34:00.000Z",
+        "updated": "2025-04-02T08:43:00.000Z",
+        "resources": 0,
+        "location": "Doreen",
+        "sesId": 565691
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12013319929102,
+          -37.5857779908478
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119029783,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 214114,
+        "sourceId": 214116,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Palmer Pl",
-        "eventId": 250401496,
-        "id": "ESTA:250401496",
+        "sourceTitle": "",
+        "eventId": 250401508,
+        "id": "ESTA:250401508",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-02T08:21:00.000Z",
-        "updated": "2025-04-02T08:21:00.000Z",
-        "resources": 4,
-        "location": "Palmer Pl, Kyneton",
-        "cfaId": 214114,
+        "category2": "Other",
+        "created": "2025-04-02T08:44:00.000Z",
+        "updated": "2025-04-02T08:44:00.000Z",
+        "resources": 1,
+        "location": "Healesville",
+        "cfaId": 214116,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1637,14 +1667,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.4543668802792,
-          -37.2582878254723
+          145.5437496203109,
+          -37.6666528464616
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119029647,
         "feedType": "incident",
         "source": "000",
@@ -1655,10 +1685,10 @@
         "eventId": "250401500",
         "id": "ESTA:250401500",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-04-02T08:32:43.000Z",
-        "updated": "2025-04-02T08:32:43.000Z",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-02T08:49:02.000Z",
+        "updated": "2025-04-02T08:49:02.000Z",
         "resources": 2,
         "location": "Osborne Av, Springvale",
         "cfaId": 214115,
@@ -1677,31 +1707,63 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119029670,
+        "status": "Safe",
+        "estaId": 119029529,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565696,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450106,
-        "id": "ESTA:250450106",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214114,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Palmer Pl",
+        "eventId": 250401496,
+        "id": "ESTA:250401496",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-02T08:33:00.000Z",
-        "updated": "2025-04-02T08:32:35.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-02T08:21:00.000Z",
+        "updated": "2025-04-02T08:36:00.000Z",
         "resources": 0,
-        "location": "Springvale",
-        "sesId": 565696
+        "location": "Palmer Pl, Kyneton",
+        "cfaId": 214114,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14810013217362,
-          -37.94690133040152
+          144.4543668802792,
+          -37.2582878254723
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "596508",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Riverina Hwy, Hopefield",
+        "id": "2025-04-02T19:29:00.0000000:596508",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Riverina Hwy, Hopefield",
+        "location": "5836 Riverina Hwy, Hopefield 2646",
+        "created": "2025-04-02T19:29:00+11:00",
+        "updated": "2025-04-02T19:29:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.524383544,
+          -35.9407501219999
         ]
       }
     },
@@ -2700,94 +2762,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 214106,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214106,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Strider St",
-        "eventId": 250401469,
-        "id": "ESTA:250401469",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-02T07:17:00.000Z",
-        "updated": "2025-04-02T07:38:00.000Z",
-        "resources": 0,
-        "location": "Strider St, Mernda",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.06562169584305,
-          -37.60784199118922
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214100,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250401457",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sayers Trk",
-        "eventId": "250401457",
-        "id": "ESTA:250401457",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-04-02T07:47:58.000Z",
-        "updated": "2025-04-02T07:47:58.000Z",
-        "resources": 0,
-        "location": "Sayers Trk, Hernes Oak",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250401457"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.31088129962586,
-          -38.231146530068635
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214107,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214107,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Agora Bvd",
-        "eventId": 250401476,
-        "id": "ESTA:250401476",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-02T07:30:00.000Z",
-        "updated": "2025-04-02T07:51:00.000Z",
-        "resources": 0,
-        "location": "Agora Bvd, Ferntree Gully",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27800673594876,
-          -37.86979432818391
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 214109,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2905,6 +2879,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250401502",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250401502",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Broadmeadows",
+        "id": "ESTA:250401502",
+        "eventId": "250401502",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-02T08:50:29.000Z",
+        "updated": "2025-04-02T08:50:29.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Broadmeadows, Broadmeadows"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92216444611677,
+          -37.66375170514464
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250401489",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2934,27 +2937,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 565691,
+        "sesId": 565696,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 565691,
+        "sourceId": 565696,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250450100,
-        "id": "ESTA:250450100",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-04-02T07:34:00.000Z",
-        "updated": "2025-04-02T07:38:00.000Z",
-        "resources": 1,
-        "location": "Doreen"
+        "eventId": 250450106,
+        "id": "ESTA:250450106",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-02T08:33:00.000Z",
+        "updated": "2025-04-02T08:52:00.000Z",
+        "resources": 0,
+        "location": "Springvale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12013319929102,
-          -37.5857779908478
+          145.14810013217362,
+          -37.94690133040152
         ]
       }
     }
@@ -3186,7 +3189,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-02T08:33:40.550Z",
+    "lastUpdated": "2025-04-02T08:54:00.387Z",
     "featureCount": 429
   }
 }
