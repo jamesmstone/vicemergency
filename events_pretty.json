@@ -1612,7 +1612,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119033049,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -1626,8 +1626,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-04-02T16:28:00.000Z",
-        "updated": "2025-04-02T16:28:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-02T16:43:00.000Z",
+        "resources": 1,
         "location": "Maroondah Hwy, Healesville",
         "cfaId": 214146,
         "size": "Small",
@@ -1644,24 +1644,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119032983,
+        "status": "Complete",
+        "estaId": 119033085,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214144,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Aitken St",
-        "eventId": 250401591,
-        "id": "ESTA:250401591",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565700,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450112,
+        "id": "ESTA:250450112",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-02T16:13:00.000Z",
-        "updated": "2025-04-02T16:25:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-02T16:41:00.000Z",
+        "updated": "2025-04-02T16:43:00.000Z",
         "resources": 0,
-        "location": "Aitken St, Gisborne",
-        "cfaId": 214144,
+        "location": "Mulgrave",
+        "sesId": 565700
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15816786603486,
+          -37.91969942396225
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119033091,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214149,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Clyde Rd",
+        "eventId": 250401600,
+        "id": "ESTA:250401600",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-02T16:42:00.000Z",
+        "updated": "2025-04-02T16:45:00.000Z",
+        "resources": 0,
+        "location": "Clyde Rd, Berwick",
+        "cfaId": 214149,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1669,8 +1699,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.59129812233664,
-          -37.4872321628521
+          145.338280100426,
+          -38.058272990945774
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119033083,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214148,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250401599,
+        "id": "ESTA:250401599",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-02T16:39:00.000Z",
+        "updated": "2025-04-02T16:48:00.000Z",
+        "resources": 2,
+        "location": "Hallam",
+        "cfaId": 214148,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27225358565823,
+          -38.01171181642502
         ]
       }
     },
@@ -2192,6 +2254,61 @@
             "coordinates": [
               [
                 [
+                  149.3603,
+                  -37.0142
+                ],
+                [
+                  149.357,
+                  -37.0124
+                ],
+                [
+                  149.3572,
+                  -37.0116
+                ],
+                [
+                  149.3588,
+                  -37.0111
+                ],
+                [
+                  149.361,
+                  -37.0116
+                ],
+                [
+                  149.3634,
+                  -37.0114
+                ],
+                [
+                  149.3645,
+                  -37.0118
+                ],
+                [
+                  149.3643,
+                  -37.0126
+                ],
+                [
+                  149.3637,
+                  -37.0127
+                ],
+                [
+                  149.3639,
+                  -37.0132
+                ],
+                [
+                  149.3618,
+                  -37.0143
+                ],
+                [
+                  149.3603,
+                  -37.0142
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   149.3703,
                   -37.0137
                 ],
@@ -2270,61 +2387,6 @@
                 [
                   149.3703,
                   -37.0137
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.3603,
-                  -37.0142
-                ],
-                [
-                  149.357,
-                  -37.0124
-                ],
-                [
-                  149.3572,
-                  -37.0116
-                ],
-                [
-                  149.3588,
-                  -37.0111
-                ],
-                [
-                  149.361,
-                  -37.0116
-                ],
-                [
-                  149.3634,
-                  -37.0114
-                ],
-                [
-                  149.3645,
-                  -37.0118
-                ],
-                [
-                  149.3643,
-                  -37.0126
-                ],
-                [
-                  149.3637,
-                  -37.0127
-                ],
-                [
-                  149.3639,
-                  -37.0132
-                ],
-                [
-                  149.3618,
-                  -37.0143
-                ],
-                [
-                  149.3603,
-                  -37.0142
                 ]
               ]
             ]
@@ -2633,6 +2695,64 @@
         "coordinates": [
           145.50842268545904,
           -36.77731417448298
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 214144,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214144,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Aitken St",
+        "eventId": 250401591,
+        "id": "ESTA:250401591",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-02T16:13:00.000Z",
+        "updated": "2025-04-02T16:25:00.000Z",
+        "resources": 0,
+        "location": "Aitken St, Gisborne",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.59129812233664,
+          -37.4872321628521
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 214147,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214147,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kilarnie Bvd",
+        "eventId": 250401598,
+        "id": "ESTA:250401598",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-02T16:35:00.000Z",
+        "updated": "2025-04-02T16:51:00.000Z",
+        "resources": 3,
+        "location": "Kilarnie Bvd, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01846165437846,
+          -37.580987175498514
         ]
       }
     },
@@ -2951,7 +3071,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-02T16:33:26.524Z",
-    "featureCount": 421
+    "lastUpdated": "2025-04-02T16:54:26.377Z",
+    "featureCount": 425
   }
 }
