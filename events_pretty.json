@@ -1613,23 +1613,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119032896,
+        "estaId": 119033049,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250401589",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burnett St",
-        "eventId": "250401589",
-        "id": "ESTA:250401589",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214146,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Maroondah Hwy",
+        "eventId": 250401597,
+        "id": "ESTA:250401597",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-02T15:48:59.000Z",
-        "updated": "2025-04-02T15:48:59.000Z",
-        "resources": 2,
-        "location": "Burnett St, St Kilda",
-        "mfbId": "250401589",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-02T16:28:00.000Z",
+        "updated": "2025-04-02T16:28:00.000Z",
+        "resources": 0,
+        "location": "Maroondah Hwy, Healesville",
+        "cfaId": 214146,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1637,8 +1637,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97994181759216,
-          -37.8614327067282
+          145.51724091444396,
+          -37.65416445506727
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119032983,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214144,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Aitken St",
+        "eventId": 250401591,
+        "id": "ESTA:250401591",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-02T16:13:00.000Z",
+        "updated": "2025-04-02T16:25:00.000Z",
+        "resources": 0,
+        "location": "Aitken St, Gisborne",
+        "cfaId": 214144,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.59129812233664,
+          -37.4872321628521
         ]
       }
     },
@@ -2635,7 +2667,36 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Responding",
+        "mfbId": "250401596",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250401596",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Steane St",
+        "id": "ESTA:250401596",
+        "eventId": "250401596",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-04-02T16:27:43.000Z",
+        "updated": "2025-04-02T16:27:43.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Steane St, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02019353118024,
+          -37.73017340962597
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250401580",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2646,9 +2707,9 @@
         "eventId": "250401580",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-04-02T14:55:13.000Z",
-        "updated": "2025-04-02T14:55:13.000Z",
-        "resources": 5,
+        "created": "2025-04-02T15:55:34.000Z",
+        "updated": "2025-04-02T15:55:34.000Z",
+        "resources": 4,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Camp Rd, Broadmeadows"
@@ -2890,7 +2951,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-02T15:50:20.111Z",
-    "featureCount": 419
+    "lastUpdated": "2025-04-02T16:33:26.524Z",
+    "featureCount": 421
   }
 }
