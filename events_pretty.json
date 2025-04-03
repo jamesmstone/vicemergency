@@ -1865,7 +1865,40 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
+        "estaId": 119046138,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402217",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kirkbride Way",
+        "eventId": "250402217",
+        "id": "ESTA:250402217",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-03T20:14:24.000Z",
+        "updated": "2025-04-03T20:14:24.000Z",
+        "resources": 7,
+        "location": "Kirkbride Way, Craigieburn",
+        "cfaId": 214308,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250402217"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93665535124697,
+          -37.603460785076734
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 119046066,
         "feedType": "incident",
         "source": "RADIO",
@@ -1879,8 +1912,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-04-03T19:42:00.000Z",
-        "updated": "2025-04-03T19:42:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-03T20:24:00.000Z",
+        "resources": 2,
         "location": "Princes Hwy, Terang",
         "cfaId": 214306,
         "size": "Small",
@@ -1892,6 +1925,39 @@
         "coordinates": [
           142.887860136925,
           -38.258769592755826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119046250,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402222",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Saric St",
+        "eventId": "250402222",
+        "id": "ESTA:250402222",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-03T20:26:54.000Z",
+        "updated": "2025-04-03T20:26:54.000Z",
+        "resources": 2,
+        "location": "Saric St, Fraser Rise",
+        "cfaId": 214309,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250402222"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7167688104877,
+          -37.71489219910254
         ]
       }
     },
@@ -4249,30 +4315,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250402209",
+        "status": "Not Yet Under Control",
+        "cfaId": 214307,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250402209",
+        "sourceId": "250402216",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sunshine Rd",
-        "id": "ESTA:250402209",
-        "eventId": "250402209",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-03T19:31:50.000Z",
-        "updated": "2025-04-03T19:31:50.000Z",
-        "resources": 1,
+        "sourceTitle": "Keam Cr",
+        "eventId": "250402216",
+        "id": "ESTA:250402216",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-03T19:58:46.000Z",
+        "updated": "2025-04-03T19:58:46.000Z",
+        "resources": 5,
+        "location": "Keam Cr, Mildura",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Sunshine Rd, West Footscray"
+        "mfbId": "250402216"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.86294443164314,
-          -37.79925931223465
+          142.15792158132922,
+          -34.20228961123142
         ]
       }
     },
@@ -4302,33 +4369,6 @@
           -37.83973629315571
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 565746,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565746,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450163,
-        "id": "ESTA:250450163",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-03T19:24:00.000Z",
-        "updated": "2025-04-03T19:38:00.000Z",
-        "resources": 1,
-        "location": "Tootgarook"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.85478168334916,
-          -38.370911009062226
-        ]
-      }
     }
   ],
   "properties": {
@@ -4345,7 +4385,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4353,7 +4392,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4369,7 +4409,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4377,7 +4416,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-04-03T13:00:00.000Z",
           "heat": {
@@ -4558,7 +4598,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-03T19:50:26.227Z",
-    "featureCount": 425
+    "lastUpdated": "2025-04-03T20:27:26.505Z",
+    "featureCount": 426
   }
 }
