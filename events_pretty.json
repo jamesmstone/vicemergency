@@ -676,8 +676,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-02-23T03:17:00.000Z",
-        "updated": "2025-03-31T03:55:00.000Z",
-        "resources": 1,
+        "updated": "2025-04-03T02:06:00.000Z",
+        "resources": 2,
         "size": "5646.00",
         "sizeFmt": "5646.00 Ha.",
         "location": "7.3Km Ne Licola"
@@ -1529,7 +1529,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3016221,
@@ -1538,8 +1538,8 @@
         "id": 3016221,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-02T00:51:12.000Z",
-        "updated": "2025-04-02T00:51:12.000Z",
+        "created": "2025-04-03T02:15:50.000Z",
+        "updated": "2025-04-03T02:15:50.000Z",
         "resources": 0,
         "size": "15.25",
         "sizeFmt": "15.25 Ha.",
@@ -1728,6 +1728,34 @@
         "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
+        "sourceId": 3022654,
+        "sourceFeed": "delwp-burns",
+        "sourceTitle": "Newborough - Ollerton Av Bushland Reserve",
+        "id": 3022654,
+        "category1": "Planned Burn",
+        "category2": "Planned Burn",
+        "created": "2025-04-03T02:10:04.000Z",
+        "updated": "2025-04-03T02:10:04.000Z",
+        "resources": 0,
+        "size": "1.62",
+        "sizeFmt": "1.62 Ha.",
+        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
+        "location": ".01Km N Of Newborough"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2836709,
+          -38.1779619
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "In Progress",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
         "sourceId": 3023707,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Goughs Bay - Walshs Road",
@@ -1781,53 +1809,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119028551,
+        "status": "Under Control",
+        "estaId": 119037826,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119028551,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hernes Oak",
-        "eventId": "F250401457",
-        "id": "ESTA:250401457",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250401883",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bendigo",
+        "eventId": "250401883",
+        "id": "ESTA:250401883",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-02T06:53:12.000Z",
-        "updated": "2025-04-03T01:48:04.143Z",
-        "resources": 0,
-        "location": "Sayers Trk, Hernes Oak"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.31088872044504,
-          -38.23113985990765
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119037136,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214194,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "David St",
-        "eventId": 250401846,
-        "id": "ESTA:250401846",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-03T01:49:00.000Z",
-        "updated": "2025-04-03T01:51:00.000Z",
-        "resources": 0,
-        "location": "David St, Knoxfield",
-        "cfaId": 214194,
+        "category2": "Non Structure Fire",
+        "created": "2025-04-03T02:59:05.000Z",
+        "updated": "2025-04-03T02:59:05.000Z",
+        "resources": 1,
+        "location": "Bendigo, Bendigo",
+        "mfbId": "250401883",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1835,38 +1834,134 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.25186006472364,
-          -37.88466629741503
+          144.27466779608807,
+          -36.7582375314011
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119037813,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250401881",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Franklin St",
+        "eventId": "250401881",
+        "id": "ESTA:250401881",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-03T02:59:15.000Z",
+        "updated": "2025-04-03T02:59:15.000Z",
+        "resources": 2,
+        "location": "Franklin St, Melbourne",
+        "mfbId": "250401881",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96092271756388,
+          -37.8080259609307
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119037939,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "596571",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "The Snowy River Way",
-        "id": "2025-04-03T12:41:00.0000000:596571",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "The Snowy River Way",
-        "location": "The Station 8228 The Snowy River Way, Jindabyne 2627",
-        "created": "2025-04-03T12:41:00+11:00",
-        "updated": "2025-04-03T12:41:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250401888",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250401888",
+        "id": "ESTA:250401888",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-04-03T03:01:50.000Z",
+        "updated": "2025-04-03T03:01:50.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Noble Park North",
+        "cfaId": 214197,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250401888"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.615280152,
-          -36.4505538939999
+          145.18765756795247,
+          -37.96076363790894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119037950,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119037950,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Emerald",
+        "eventId": "F250401889",
+        "id": "ESTA:250401889",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-03T03:01:42.000Z",
+        "updated": "2025-04-03T03:02:57.558Z",
+        "resources": 0,
+        "location": "Emerald Lake Rd, Emerald"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.45720001314132,
+          -37.930999998493576
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119037901,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214196,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dunoon St",
+        "eventId": 250401886,
+        "id": "ESTA:250401886",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-03T02:59:00.000Z",
+        "updated": "2025-04-03T02:59:00.000Z",
+        "resources": 0,
+        "location": "Dunoon St, Colac",
+        "cfaId": 214196,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.57665373383847,
+          -38.34565768447578
         ]
       }
     },
@@ -2870,145 +2965,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 214191,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214191,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Russell St",
-        "eventId": 250401797,
-        "id": "ESTA:250401797",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-03T00:46:00.000Z",
-        "updated": "2025-04-03T01:04:00.000Z",
-        "resources": 0,
-        "location": "Russell St, Balnarring",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1249098708454,
-          -38.372705860735145
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214189,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250401778",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hood Rd",
-        "eventId": "250401778",
-        "id": "ESTA:250401778",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-03T01:23:08.000Z",
-        "updated": "2025-04-03T01:23:08.000Z",
-        "resources": 4,
-        "location": "Hood Rd, Portarlington",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250401778"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6671894522668,
-          -38.122434315204856
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214192,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214192,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "St Ives Av",
-        "eventId": 250401799,
-        "id": "ESTA:250401799",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-03T00:55:00.000Z",
-        "updated": "2025-04-03T01:44:00.000Z",
-        "resources": 0,
-        "location": "St Ives Av, Frankston South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12691775049834,
-          -38.185707608838065
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "mfbId": "250401828",
+        "mfbId": "250401865",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250401828",
+        "sourceId": "250401865",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Campbellfield",
-        "id": "ESTA:250401828",
-        "eventId": "250401828",
+        "sourceTitle": "Highland Av",
+        "id": "ESTA:250401865",
+        "eventId": "250401865",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-03T01:26:14.000Z",
-        "updated": "2025-04-03T01:26:14.000Z",
+        "created": "2025-04-03T02:28:49.000Z",
+        "updated": "2025-04-03T02:28:49.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Campbellfield, Campbellfield"
+        "location": "Highland Av, Oakleigh East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96336209639344,
-          -37.648759730668296
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 565704,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565704,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450117,
-        "id": "ESTA:250450117",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-04-02T21:56:00.000Z",
-        "updated": "2025-04-03T00:57:00.000Z",
-        "resources": 1,
-        "location": "Springvale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15638244086318,
-          -37.93698323993878
+          145.11886301248632,
+          -37.899180649724116
         ]
       }
     }
@@ -3240,7 +3220,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-03T01:58:00.093Z",
-    "featureCount": 423
+    "lastUpdated": "2025-04-03T03:03:26.095Z",
+    "featureCount": 422
   }
 }
