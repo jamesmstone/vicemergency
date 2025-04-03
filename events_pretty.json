@@ -333,7 +333,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 899096,
@@ -342,8 +342,8 @@
         "id": 899096,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-01T02:20:45.000Z",
-        "updated": "2025-04-01T02:20:45.000Z",
+        "created": "2025-04-03T23:02:24.000Z",
+        "updated": "2025-04-03T23:02:24.000Z",
         "resources": 0,
         "size": "458.69",
         "sizeFmt": "458.69 Ha.",
@@ -529,7 +529,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 941162,
@@ -538,8 +538,8 @@
         "id": 941162,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-01T01:56:02.000Z",
-        "updated": "2025-04-01T01:56:02.000Z",
+        "created": "2025-04-03T22:53:18.000Z",
+        "updated": "2025-04-03T22:53:18.000Z",
         "resources": 0,
         "size": "358.24",
         "sizeFmt": "358.24 Ha.",
@@ -1838,23 +1838,56 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119047274,
+        "estaId": 119047581,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214318,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray Valley Hwy",
-        "eventId": 250402273,
-        "id": "ESTA:250402273",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402292",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hogan Ct",
+        "eventId": "250402292",
+        "id": "ESTA:250402292",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-03T22:42:00.000Z",
-        "updated": "2025-04-03T22:42:00.000Z",
-        "resources": 1,
-        "location": "Murray Valley Hwy, Narrung",
-        "cfaId": 214318,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-03T23:17:44.000Z",
+        "updated": "2025-04-03T23:17:44.000Z",
+        "resources": 4,
+        "location": "Hogan Ct, Darley",
+        "cfaId": 214320,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250402292"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.43369725554035,
+          -37.64628169982093
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119047640,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402294",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Middle Park",
+        "eventId": "250402294",
+        "id": "ESTA:250402294",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-04-03T23:23:57.000Z",
+        "updated": "2025-04-03T23:23:57.000Z",
+        "resources": 2,
+        "location": "Middle Park, Middle Park",
+        "mfbId": "250402294",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1862,8 +1895,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2189047322587,
-          -34.758798866788005
+          144.97017146701344,
+          -37.85373624227817
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 119047367,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565754,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250402280,
+        "id": "ESTA:250402280",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-03T22:52:00.000Z",
+        "updated": "2025-04-03T23:23:00.000Z",
+        "resources": 3,
+        "location": "Rosedale",
+        "cfaId": 214319,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 565754
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.79435706826578,
+          -38.13809410316484
         ]
       }
     },
@@ -1873,14 +1939,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/82e059aafbedbf5030329257f9807192",
+        "sourceId": "IDV20600/6049fd5ce6e1fa6862503a67abe99e93",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/82e059aafbedbf5030329257f9807192",
+        "id": "IDV20600/6049fd5ce6e1fa6862503a67abe99e93",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-04-03T18:00:00.000Z",
+        "created": "2025-04-03T23:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -4192,147 +4258,59 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 214307,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250402216",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Keam Cr",
-        "eventId": "250402216",
-        "id": "ESTA:250402216",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-03T21:59:09.000Z",
-        "updated": "2025-04-03T21:59:09.000Z",
-        "resources": 0,
-        "location": "Keam Cr, Mildura",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250402216"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.15792158132922,
-          -34.20228961123142
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214308,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214308,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kirkbride Way",
-        "eventId": 250402217,
-        "id": "ESTA:250402217",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-03T19:57:00.000Z",
-        "updated": "2025-04-03T22:01:00.000Z",
-        "resources": 2,
-        "location": "Kirkbride Way, Craigieburn",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93664843106004,
-          -37.60346675216472
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 214316,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214316,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heaths Rd",
-        "eventId": 250402269,
-        "id": "ESTA:250402269",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-03T22:40:00.000Z",
-        "updated": "2025-04-03T22:40:00.000Z",
-        "resources": 2,
-        "location": "Heaths Rd, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68001591239218,
-          -37.87699885753065
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "mfbId": "250402244",
+        "cfaId": 214318,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250402244",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "High Street Rd",
-        "id": "ESTA:250402244",
-        "eventId": "250402244",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-03T21:57:21.000Z",
-        "updated": "2025-04-03T21:57:21.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214318,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray Valley Hwy",
+        "eventId": 250402273,
+        "id": "ESTA:250402273",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-03T22:42:00.000Z",
+        "updated": "2025-04-03T22:59:00.000Z",
         "resources": 1,
+        "location": "Murray Valley Hwy, Narrung",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "High Street Rd, Mount Waverley"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.127807277957,
-          -37.86997077502217
+          143.2189047322587,
+          -34.758798866788005
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250402250",
+        "mfbId": "250402293",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250402250",
+        "sourceId": "250402293",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Spencer St",
-        "id": "ESTA:250402250",
-        "eventId": "250402250",
+        "sourceTitle": "Bouverie St",
+        "id": "ESTA:250402293",
+        "eventId": "250402293",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-03T22:46:26.000Z",
-        "updated": "2025-04-03T22:46:26.000Z",
-        "resources": 2,
+        "created": "2025-04-03T23:20:04.000Z",
+        "updated": "2025-04-03T23:20:04.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Spencer St, Docklands"
+        "location": "Bouverie St, Carlton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95251250469846,
-          -37.81835745156964
+          144.9621285666727,
+          -37.803890723570845
         ]
       }
     },
@@ -4387,33 +4365,6 @@
         "coordinates": [
           145.18224040416072,
           -37.97184699975042
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 565753,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565753,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250402260,
-        "id": "ESTA:250402260",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-04-03T22:18:00.000Z",
-        "updated": "2025-04-03T22:45:00.000Z",
-        "resources": 2,
-        "location": "Epsom"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.31256340715095,
-          -36.72056962939145
         ]
       }
     }
@@ -4645,7 +4596,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-03T22:50:20.208Z",
-    "featureCount": 428
+    "lastUpdated": "2025-04-03T23:25:00.424Z",
+    "featureCount": 426
   }
 }
