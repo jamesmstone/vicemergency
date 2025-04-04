@@ -1921,56 +1921,53 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119059227,
+        "status": "Request For Assistance",
+        "estaId": 119059276,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250402784",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cook Dr",
-        "eventId": "250402784",
-        "id": "ESTA:250402784",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565779,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450193,
+        "id": "ESTA:250450193",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-04T19:19:09.000Z",
-        "updated": "2025-04-04T19:19:09.000Z",
-        "resources": 4,
-        "location": "Cook Dr, Pakenham",
-        "cfaId": 214429,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250402784"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-04T19:36:00.000Z",
+        "updated": "2025-04-04T19:49:00.000Z",
+        "resources": 1,
+        "location": "Rye",
+        "sesId": 565779
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.48489506152657,
-          -38.078432043604906
+          144.8177045942141,
+          -38.37332613810408
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119059226,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250402783",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Caroline Springs",
+        "sourceTitle": "Gourlay Rd",
         "eventId": "250402783",
         "id": "ESTA:250402783",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-04-04T19:21:57.000Z",
-        "updated": "2025-04-04T19:21:57.000Z",
+        "created": "2025-04-04T19:48:17.000Z",
+        "updated": "2025-04-04T19:48:17.000Z",
         "resources": 4,
-        "location": "Caroline Springs, Caroline Springs",
+        "location": "Gourlay Rd, Caroline Springs",
         "cfaId": 214428,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1980,8 +1977,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.74058189719992,
-          -37.71003542172766
+          144.73996793189664,
+          -37.71047560316539
         ]
       }
     },
@@ -4318,7 +4315,7 @@
         "category2": "Building Fire",
         "created": "2025-04-04T18:23:00.000Z",
         "updated": "2025-04-04T19:07:00.000Z",
-        "resources": 10,
+        "resources": 9,
         "location": "Merriang Rd, Woodstock",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4329,6 +4326,35 @@
         "coordinates": [
           145.02910917572464,
           -37.538772144880014
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250402787",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402787",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mcfees Rd",
+        "id": "ESTA:250402787",
+        "eventId": "250402787",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-04T19:45:59.000Z",
+        "updated": "2025-04-04T19:45:59.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mcfees Rd, Dandenong North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2082160561283,
+          -37.96339660067414
         ]
       }
     }
@@ -4454,15 +4480,15 @@
         },
         {
           "fdr": {
-            "Northern Country": "MODERATE",
-            "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
             "Central": "MODERATE",
-            "North Central": "MODERATE"
+            "North Central": "MODERATE",
+            "Northern Country": "MODERATE",
+            "South West": "MODERATE",
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4560,7 +4586,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-04T19:30:20.477Z",
-    "featureCount": 416
+    "lastUpdated": "2025-04-04T19:50:20.320Z",
+    "featureCount": 417
   }
 }
