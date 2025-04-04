@@ -1921,7 +1921,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 119059276,
         "feedType": "incident",
         "source": "SES STRM",
@@ -1935,8 +1935,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-04-04T19:36:00.000Z",
-        "updated": "2025-04-04T19:49:00.000Z",
-        "resources": 1,
+        "updated": "2025-04-04T20:13:00.000Z",
+        "resources": 0,
         "location": "Rye",
         "sesId": 565779
       },
@@ -1946,39 +1946,6 @@
         "coordinates": [
           144.8177045942141,
           -38.37332613810408
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119059226,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250402783",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gourlay Rd",
-        "eventId": "250402783",
-        "id": "ESTA:250402783",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-04T19:48:17.000Z",
-        "updated": "2025-04-04T19:48:17.000Z",
-        "resources": 4,
-        "location": "Gourlay Rd, Caroline Springs",
-        "cfaId": 214428,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250402783"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.73996793189664,
-          -37.71047560316539
         ]
       }
     },
@@ -4315,7 +4282,7 @@
         "category2": "Building Fire",
         "created": "2025-04-04T18:23:00.000Z",
         "updated": "2025-04-04T19:07:00.000Z",
-        "resources": 9,
+        "resources": 8,
         "location": "Merriang Rd, Woodstock",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4332,29 +4299,59 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250402787",
+        "cfaId": 214428,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250402787",
+        "sourceId": "250402783",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mcfees Rd",
-        "id": "ESTA:250402787",
-        "eventId": "250402787",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-04T19:45:59.000Z",
-        "updated": "2025-04-04T19:45:59.000Z",
-        "resources": 2,
+        "sourceTitle": "Gourlay Rd",
+        "eventId": "250402783",
+        "id": "ESTA:250402783",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-04T19:48:17.000Z",
+        "updated": "2025-04-04T19:48:17.000Z",
+        "resources": 1,
+        "location": "Gourlay Rd, Caroline Springs",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Mcfees Rd, Dandenong North"
+        "mfbId": "250402783"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2082160561283,
-          -37.96339660067414
+          144.73996793189664,
+          -37.71047560316539
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250402791",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250402791",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Grattan St",
+        "id": "ESTA:250402791",
+        "eventId": "250402791",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-04T20:07:25.000Z",
+        "updated": "2025-04-04T20:07:25.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Grattan St, Parkville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95605588195187,
+          -37.79934756749404
         ]
       }
     }
@@ -4373,7 +4370,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4381,7 +4377,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4397,7 +4394,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4405,7 +4401,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-04-04T13:00:00.000Z",
           "heat": {
@@ -4586,7 +4583,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-04T19:50:20.320Z",
+    "lastUpdated": "2025-04-04T20:26:46.395Z",
     "featureCount": 417
   }
 }
