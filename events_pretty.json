@@ -2071,23 +2071,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119080825,
+        "estaId": 119080994,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250403708",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Abeckett St",
-        "eventId": "250403708",
-        "id": "ESTA:250403708",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214700,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dalmore Dr",
+        "eventId": 250403712,
+        "id": "ESTA:250403712",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-06T14:40:22.000Z",
-        "updated": "2025-04-06T14:40:22.000Z",
-        "resources": 1,
-        "location": "Abeckett St, Melbourne",
-        "mfbId": "250403708",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-06T15:12:00.000Z",
+        "updated": "2025-04-06T15:12:00.000Z",
+        "resources": 3,
+        "location": "Dalmore Dr, Scoresby",
+        "cfaId": 214700,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2095,67 +2095,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9603201056089,
-          -37.809404302932926
+          145.21940685613666,
+          -37.903591574900595
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119080989,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250403711",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heidelberg West",
+        "eventId": "250403711",
+        "id": "ESTA:250403711",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-06T15:20:33.000Z",
+        "updated": "2025-04-06T15:20:33.000Z",
+        "resources": 2,
+        "location": "Heidelberg West, Heidelberg West",
+        "mfbId": "250403711",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0367960679923,
+          -37.74099988003002
         ]
       }
     },
     {
       "properties": {
         "status": "Complete",
-        "estaId": 119080652,
+        "estaId": 119080605,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119080652,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Croydon North",
-        "eventId": "S250450289",
-        "id": "ESTA:250450289",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565885,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450288,
+        "id": "ESTA:250450288",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-04-06T14:12:53.000Z",
-        "updated": "2025-04-06T14:44:58.240Z",
+        "created": "2025-04-06T14:09:00.000Z",
+        "updated": "2025-04-06T15:21:00.000Z",
         "resources": 0,
-        "location": "Maroondah Hwy, Croydon North"
+        "location": "Croydon",
+        "sesId": 565885
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2980010994767,
-          -37.76837823361893
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 119079855,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565882,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450285,
-        "id": "ESTA:250450285",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-04-06T12:15:00.000Z",
-        "updated": "2025-04-06T14:45:00.000Z",
-        "resources": 0,
-        "location": "Warragul",
-        "sesId": 565882
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.94160123687038,
-          -38.14624925319149
+          145.29518763277508,
+          -37.770901472035426
         ]
       }
     },
@@ -4216,36 +4219,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 214698,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250403699",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yallourn",
-        "eventId": "250403699",
-        "id": "ESTA:250403699",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-06T14:14:39.000Z",
-        "updated": "2025-04-06T14:14:39.000Z",
-        "resources": 1,
-        "location": "Yallourn, Yallourn",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250403699"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.3442165630051,
-          -38.17477822829027
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 214699,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4274,28 +4247,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "sesId": 565885,
+        "status": "Under Control",
+        "mfbId": "250403708",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565885,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450288,
-        "id": "ESTA:250450288",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-06T14:09:00.000Z",
-        "updated": "2025-04-06T14:43:00.000Z",
-        "resources": 0,
-        "location": "Croydon"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250403708",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Abeckett St",
+        "id": "ESTA:250403708",
+        "eventId": "250403708",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-06T14:57:58.000Z",
+        "updated": "2025-04-06T14:57:58.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Abeckett St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29518763277508,
-          -37.770901472035426
+          144.9603201056089,
+          -37.809404302932926
         ]
       }
     }
@@ -4527,7 +4502,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-06T14:50:00.543Z",
-    "featureCount": 407
+    "lastUpdated": "2025-04-06T15:23:20.449Z",
+    "featureCount": 406
   }
 }
