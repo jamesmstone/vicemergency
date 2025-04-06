@@ -2071,23 +2071,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119082348,
+        "estaId": 119082413,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 214716,
+        "sourceId": 214718,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Silvan Rd",
-        "eventId": 250403763,
-        "id": "ESTA:250403763",
+        "sourceTitle": "Eucalyptus Ct",
+        "eventId": 250403770,
+        "id": "ESTA:250403770",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-06T21:21:00.000Z",
-        "updated": "2025-04-06T21:21:00.000Z",
-        "resources": 6,
-        "location": "Silvan Rd, Wattle Glen",
-        "cfaId": 214716,
+        "category2": "Other",
+        "created": "2025-04-06T21:35:00.000Z",
+        "updated": "2025-04-06T21:35:00.000Z",
+        "resources": 1,
+        "location": "Eucalyptus Ct, Beaufort",
+        "cfaId": 214718,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2095,8 +2095,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19435717423062,
-          -37.65414208568933
+          143.36958010704606,
+          -37.43088953012256
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119082348,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250403763",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Silvan Rd",
+        "eventId": "250403763",
+        "id": "ESTA:250403763",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-06T21:39:45.000Z",
+        "updated": "2025-04-06T21:39:45.000Z",
+        "resources": 2,
+        "location": "Silvan Rd, Wattle Glen",
+        "cfaId": 214716,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250403763"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19436595524226,
+          -37.65414010509039
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119082425,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565890,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450293,
+        "id": "ESTA:250450293",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-04-06T21:37:00.000Z",
+        "updated": "2025-04-06T21:46:00.000Z",
+        "resources": 1,
+        "location": "Donnybrook",
+        "sesId": 565890
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99155651716498,
+          -37.53501195531637
         ]
       }
     },
@@ -4189,28 +4252,56 @@
         "status": "Safe",
         "cfaId": 214713,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250403757",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214713,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Creswick Rd",
-        "eventId": "250403757",
+        "eventId": 250403757,
         "id": "ESTA:250403757",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-06T21:30:48.000Z",
-        "updated": "2025-04-06T21:30:48.000Z",
-        "resources": 1,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-06T21:04:00.000Z",
+        "updated": "2025-04-06T21:31:00.000Z",
+        "resources": 0,
         "location": "Creswick Rd, Wendouree",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250403757"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.85009016169863,
-          -37.54194519361727
+          143.85008260716916,
+          -37.54194650933361
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 214719,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214719,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bartons Lane",
+        "eventId": 250403771,
+        "id": "ESTA:250403771",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-06T21:38:00.000Z",
+        "updated": "2025-04-06T21:38:00.000Z",
+        "resources": 5,
+        "location": "Bartons Lane, Loy Yang",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5658267125797,
+          -38.24917317041413
         ]
       }
     },
@@ -4471,7 +4562,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-06T21:31:26.583Z",
-    "featureCount": 405
+    "lastUpdated": "2025-04-06T21:50:00.668Z",
+    "featureCount": 408
   }
 }
