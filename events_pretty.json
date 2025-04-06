@@ -2070,7 +2070,39 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
+        "estaId": 119082048,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250403747",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sharpe St",
+        "eventId": "250403747",
+        "id": "ESTA:250403747",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-06T20:38:33.000Z",
+        "updated": "2025-04-06T20:38:33.000Z",
+        "resources": 2,
+        "location": "Sharpe St, Reservoir",
+        "mfbId": "250403747",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00255233080048,
+          -37.72358850985735
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119082155,
         "feedType": "incident",
         "source": "000",
@@ -2081,11 +2113,11 @@
         "eventId": "250403753",
         "id": "ESTA:250403753",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-04-06T20:36:00.000Z",
-        "updated": "2025-04-06T20:36:00.000Z",
-        "resources": 2,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-06T20:39:35.000Z",
+        "updated": "2025-04-06T20:39:35.000Z",
+        "resources": 1,
         "location": "Thompsons Rd, Templestowe Lower",
         "mfbId": "250403753",
         "size": "Small",
@@ -2097,6 +2129,36 @@
         "coordinates": [
           145.1056366499031,
           -37.76716985818871
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119082059,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565889,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450291,
+        "id": "ESTA:250450291",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-06T20:03:00.000Z",
+        "updated": "2025-04-06T20:45:00.000Z",
+        "resources": 0,
+        "location": "Nhill",
+        "sesId": 565889
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.65593988552413,
+          -36.333200992575726
         ]
       }
     },
@@ -4186,30 +4248,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250403747",
+        "status": "Responding",
+        "cfaId": 214712,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250403747",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sharpe St",
-        "id": "ESTA:250403747",
-        "eventId": "250403747",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214712,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "South Gippsland Hwy",
+        "eventId": 250403755,
+        "id": "ESTA:250403755",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-06T20:13:38.000Z",
-        "updated": "2025-04-06T20:13:38.000Z",
+        "category2": "Building Fire",
+        "created": "2025-04-06T20:46:00.000Z",
+        "updated": "2025-04-06T20:46:00.000Z",
         "resources": 2,
+        "location": "South Gippsland Hwy, Cranbourne",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Sharpe St, Reservoir"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00255233080048,
-          -37.72358850985735
+          145.28283613463148,
+          -38.10773468994075
         ]
       }
     },
@@ -4228,7 +4290,7 @@
         "category2": "Other",
         "created": "2025-04-06T20:28:42.000Z",
         "updated": "2025-04-06T20:28:42.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Park St, South Melbourne"
@@ -4239,33 +4301,6 @@
         "coordinates": [
           144.9683052093293,
           -37.83306698064485
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 565889,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565889,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450291,
-        "id": "ESTA:250450291",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-06T20:03:00.000Z",
-        "updated": "2025-04-06T20:18:00.000Z",
-        "resources": 1,
-        "location": "Nhill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.65593988552413,
-          -36.333200992575726
         ]
       }
     }
@@ -4497,7 +4532,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-06T20:37:00.334Z",
-    "featureCount": 406
+    "lastUpdated": "2025-04-06T20:50:20.332Z",
+    "featureCount": 407
   }
 }
