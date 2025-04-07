@@ -1929,31 +1929,129 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119089176,
+        "status": "Responding",
+        "estaId": 119089581,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565924,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450332,
-        "id": "ESTA:250450332",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214784,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fergusson St",
+        "eventId": 250404259,
+        "id": "ESTA:250404259",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-04-07T07:58:00.000Z",
-        "updated": "2025-04-07T08:24:00.000Z",
-        "resources": 0,
-        "location": "Wantirna",
-        "sesId": 565924
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-07T08:40:00.000Z",
+        "updated": "2025-04-07T08:40:00.000Z",
+        "resources": 1,
+        "location": "Fergusson St, Camperdown",
+        "cfaId": 214784,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2286068617964,
-          -37.84573807343562
+          143.14720185671993,
+          -38.23104266107705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119089609,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250404261",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Devenish Ct",
+        "eventId": "250404261",
+        "id": "ESTA:250404261",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-04-07T08:43:45.000Z",
+        "updated": "2025-04-07T08:43:45.000Z",
+        "resources": 2,
+        "location": "Devenish Ct, Westmeadows",
+        "mfbId": "250404261",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90353478616993,
+          -37.66900933304862
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119089548,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250404257",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Altona",
+        "eventId": "250404257",
+        "id": "ESTA:250404257",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-07T08:46:15.000Z",
+        "updated": "2025-04-07T08:46:15.000Z",
+        "resources": 2,
+        "location": "Altona, Altona",
+        "mfbId": "250404257",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82365760451228,
+          -37.866620718987036
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119089652,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250404263",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Anderson Rd",
+        "eventId": "250404263",
+        "id": "ESTA:250404263",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-07T08:48:29.000Z",
+        "updated": "2025-04-07T08:48:29.000Z",
+        "resources": 2,
+        "location": "Anderson Rd, Fawkner",
+        "mfbId": "250404263",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97163978357952,
+          -37.695968242006984
         ]
       }
     },
@@ -3014,6 +3112,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597047",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Old Deniliquin Rd, Moama",
+        "id": "2025-04-07T18:18:00.0000000:597047",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Old Deniliquin Rd, Moama",
+        "location": "597 Old Deniliquin Rd, Moama 2731",
+        "created": "2025-04-07T18:18:00+10:00",
+        "updated": "2025-04-07T18:18:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.787170411,
+          -36.0600433349999
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -4043,153 +4171,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 214778,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214778,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250404218,
-        "id": "ESTA:250404218",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-07T07:24:00.000Z",
-        "updated": "2025-04-07T07:34:00.000Z",
-        "resources": 0,
-        "location": "Elaine",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.98806075517766,
-          -37.73251593804428
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214779,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214779,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Churchill Av",
-        "eventId": 250404225,
-        "id": "ESTA:250404225",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-07T07:38:00.000Z",
-        "updated": "2025-04-07T07:40:00.000Z",
-        "resources": 0,
-        "location": "Churchill Av, Newtown (Geelong)",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.33416196561785,
-          -38.14563608446531
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214772,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214772,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nayook-Powelltown Rd",
-        "eventId": 250404190,
-        "id": "ESTA:250404190",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-07T06:34:00.000Z",
-        "updated": "2025-04-07T07:43:00.000Z",
-        "resources": 0,
-        "location": "Nayook-Powelltown Rd, Nayook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.92148092868536,
-          -37.90305388033954
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214780,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214780,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Whites Rd",
-        "eventId": 250404226,
-        "id": "ESTA:250404226",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-07T07:40:00.000Z",
-        "updated": "2025-04-07T07:53:00.000Z",
-        "resources": 0,
-        "location": "Whites Rd, Warrnambool",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.51410503775492,
-          -38.36849901140337
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 214782,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 565925,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250404246,
-        "id": "ESTA:250404246",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-04-07T08:13:00.000Z",
-        "updated": "2025-04-07T08:32:00.000Z",
-        "resources": 7,
-        "location": "Inverloch",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250404246",
-        "sesId": 565925
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.80599012151336,
-          -38.58800904345585
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 214781,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4218,31 +4199,32 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 214783,
+        "status": "On Scene",
+        "cfaId": 214782,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250404254",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "St Georges Way",
-        "eventId": "250404254",
-        "id": "ESTA:250404254",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-07T08:32:04.000Z",
-        "updated": "2025-04-07T08:32:04.000Z",
-        "resources": 4,
-        "location": "St Georges Way, Torquay",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565925,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250404246,
+        "id": "ESTA:250404246",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-04-07T08:13:00.000Z",
+        "updated": "2025-04-07T08:35:00.000Z",
+        "resources": 7,
+        "location": "Inverloch",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250404254"
+        "mfbId": "250404246",
+        "sesId": 565925
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3539837454609,
-          -38.30635044647869
+          145.82940347830782,
+          -38.57796337779364
         ]
       }
     },
@@ -4277,64 +4259,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250404229",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250404229",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Porter Rd",
-        "id": "ESTA:250404229",
-        "eventId": "250404229",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-07T07:55:47.000Z",
-        "updated": "2025-04-07T07:55:47.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Porter Rd, Heidelberg Heights"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05772698352197,
-          -37.737045108459775
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250404255",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250404255",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Alma Rd",
-        "id": "ESTA:250404255",
-        "eventId": "250404255",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-07T08:29:13.000Z",
-        "updated": "2025-04-07T08:29:13.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Alma Rd, St Kilda East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99185169314384,
-          -37.86166836193187
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 565911,
         "feedType": "incident",
@@ -4362,7 +4286,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "sesId": 565914,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -4374,8 +4298,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-04-07T03:41:00.000Z",
-        "updated": "2025-04-07T03:48:00.000Z",
-        "resources": 1,
+        "updated": "2025-04-07T08:53:00.000Z",
+        "resources": 0,
         "location": "Thomastown"
       },
       "type": "Feature",
@@ -4391,6 +4315,7 @@
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "MODERATE",
         "East Gippsland": "MODERATE",
         "West and South Gippsland": "MODERATE",
         "North East": "MODERATE",
@@ -4398,8 +4323,7 @@
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
         "South West": "MODERATE",
-        "Wimmera": "MODERATE",
-        "Mallee": "MODERATE"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4415,6 +4339,7 @@
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -4422,8 +4347,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4615,7 +4539,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-07T08:33:40.803Z",
-    "featureCount": 409
+    "lastUpdated": "2025-04-07T08:53:46.494Z",
+    "featureCount": 406
   }
 }
