@@ -2287,53 +2287,90 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 119105423,
+        "status": "Responding",
+        "estaId": 119105733,
         "feedType": "incident",
-        "source": "AMB",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119105423,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Euroa",
-        "eventId": "F250405258",
-        "id": "ESTA:250405258",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250405270",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hurd St",
+        "eventId": "250405270",
+        "id": "ESTA:250405270",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-08T17:11:18.000Z",
-        "updated": "2025-04-08T18:07:01.500Z",
-        "resources": 0,
-        "location": "Clifton St, Euroa"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-08T18:40:51.000Z",
+        "updated": "2025-04-08T18:40:51.000Z",
+        "resources": 3,
+        "location": "Hurd St, Portland",
+        "cfaId": 214967,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250405270"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.56927202998995,
-          -36.75713162776036
+          141.60184575991357,
+          -38.335951464156054
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119105768,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565978,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250405271,
+        "id": "ESTA:250405271",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-08T18:46:00.000Z",
+        "updated": "2025-04-08T18:49:00.000Z",
+        "resources": 3,
+        "location": "Oaklands Junction",
+        "mfbId": "250405271",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 565978
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84136594359708,
+          -37.59831917287263
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 119105620,
+        "estaId": 119105728,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250405262",
+        "sourceId": "250405269",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brosnan Rd",
-        "eventId": "250405262",
-        "id": "ESTA:250405262",
+        "sourceTitle": "Whitehall St",
+        "eventId": "250405269",
+        "id": "ESTA:250405269",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-08T18:26:15.000Z",
-        "updated": "2025-04-08T18:26:15.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-04-08T18:49:41.000Z",
+        "updated": "2025-04-08T18:49:41.000Z",
         "resources": 2,
-        "location": "Brosnan Rd, Bentleigh East",
-        "mfbId": "250405262",
+        "location": "Whitehall St, Yarraville",
+        "mfbId": "250405269",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2341,8 +2378,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0639735229852,
-          -37.93231485235178
+          144.9016446451222,
+          -37.81504688851926
         ]
       }
     },
@@ -3376,30 +3413,30 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 214966,
+        "status": "Under Control",
+        "mfbId": "250405262",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214966,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompsons Rd",
-        "eventId": 250405263,
-        "id": "ESTA:250405263",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250405262",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brosnan Rd",
+        "id": "ESTA:250405262",
+        "eventId": "250405262",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-08T18:10:00.000Z",
-        "updated": "2025-04-08T18:10:00.000Z",
-        "resources": 1,
-        "location": "Thompsons Rd, Cranbourne",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-08T18:26:15.000Z",
+        "updated": "2025-04-08T18:26:15.000Z",
+        "resources": 2,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Brosnan Rd, Bentleigh East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2803115083653,
-          -38.08309561100772
+          145.0639735229852,
+          -37.93231485235178
         ]
       }
     }
@@ -3631,7 +3668,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-08T18:34:40.274Z",
-    "featureCount": 406
+    "lastUpdated": "2025-04-08T18:52:46.555Z",
+    "featureCount": 407
   }
 }
