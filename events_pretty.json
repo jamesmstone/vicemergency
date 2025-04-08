@@ -2288,23 +2288,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119104652,
+        "estaId": 119104984,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250405243",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dandenong South",
-        "eventId": "250405243",
-        "id": "ESTA:250405243",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214961,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Forest St",
+        "eventId": 250405252,
+        "id": "ESTA:250405252",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-08T14:22:27.000Z",
-        "updated": "2025-04-08T14:22:27.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-08T15:18:00.000Z",
+        "updated": "2025-04-08T15:18:00.000Z",
         "resources": 2,
-        "location": "Dandenong South, Dandenong South",
-        "mfbId": "250405243",
+        "location": "Forest St, Colac",
+        "cfaId": 214961,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2312,14 +2312,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2079160875063,
-          -38.003164556032914
+          143.60616000182387,
+          -38.33671581104618
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Responding",
+        "estaId": 119104978,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250405251",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Larissa Av",
+        "eventId": "250405251",
+        "id": "ESTA:250405251",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-08T15:23:22.000Z",
+        "updated": "2025-04-08T15:23:22.000Z",
+        "resources": 1,
+        "location": "Larissa Av, Ringwood",
+        "mfbId": "250405251",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23482794081087,
+          -37.81187509799833
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "estaId": 119104370,
         "feedType": "incident",
         "source": "000",
@@ -2333,12 +2365,9 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-04-08T13:42:00.000Z",
-        "updated": "2025-04-08T14:24:00.000Z",
-        "resources": 2,
+        "updated": "2025-04-08T15:25:00.000Z",
+        "resources": 0,
         "location": "Devenish",
-        "cfaId": 214956,
-        "size": "Small",
-        "sizeFmt": "Small",
         "sesId": 565977
       },
       "type": "Feature",
@@ -2352,30 +2381,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119104670,
+        "status": "Under Control",
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119104670,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Dandenong",
-        "eventId": "F250405244",
-        "id": "ESTA:250405244",
-        "suppress": false,
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597164",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Mount Darragh Rd, Lochiel",
+        "id": "2025-04-09T01:20:00.0000000:597164",
         "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-08T14:22:46.000Z",
-        "updated": "2025-04-08T14:25:43.530Z",
-        "resources": 0,
-        "location": "Dandenong"
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Mount Darragh Rd, Lochiel",
+        "location": "Mount Darragh Rd, Lochiel 2549",
+        "created": "2025-04-09T01:20:00+10:00",
+        "updated": "2025-04-09T01:20:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.20797306574192,
-          -38.00294757142405
+          149.745742798,
+          -36.9224014289999
         ]
       }
     },
@@ -3351,36 +3381,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597163",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Captain Cook Dr, North Albury",
-        "id": "2025-04-09T00:19:00.0000000:597163",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Captain Cook Dr, North Albury",
-        "location": "957 Captain Cook Dr, North Albury, Nsw 2640",
-        "created": "2025-04-09T00:19:00+10:00",
-        "updated": "2025-04-09T00:19:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.919833,
-          -36.058009
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "cfaId": 213337,
         "feedType": "incident",
@@ -3439,64 +3439,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 214952,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214952,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sawmill Rd",
-        "eventId": 250405227,
-        "id": "ESTA:250405227",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-08T12:59:00.000Z",
-        "updated": "2025-04-08T13:32:00.000Z",
-        "resources": 0,
-        "location": "Sawmill Rd, Huntly",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.34170529786905,
-          -36.65910405578804
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 214955,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214955,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Trawalla St",
-        "eventId": 250405238,
-        "id": "ESTA:250405238",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-08T13:38:00.000Z",
-        "updated": "2025-04-08T13:55:00.000Z",
-        "resources": 0,
-        "location": "Trawalla St, Aspendale Gardens",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.11166245467504,
-          -38.0183437155778
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 214958,
         "feedType": "incident",
@@ -3510,7 +3452,7 @@
         "category2": "Other",
         "created": "2025-04-08T14:21:45.000Z",
         "updated": "2025-04-08T14:21:45.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Creekside Dr, Curlewis",
         "size": "Small",
         "sizeFmt": "Small",
@@ -3527,30 +3469,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250405228",
+        "status": "Not Yet Under Control",
+        "mfbId": "250405243",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250405228",
+        "sourceId": "250405243",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Tyler St",
-        "id": "ESTA:250405228",
-        "eventId": "250405228",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-08T13:10:36.000Z",
-        "updated": "2025-04-08T13:10:36.000Z",
-        "resources": 1,
+        "sourceTitle": "Dandenong South",
+        "id": "ESTA:250405243",
+        "eventId": "250405243",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-08T14:36:01.000Z",
+        "updated": "2025-04-08T14:36:01.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Tyler St, Preston"
+        "location": "Dandenong South, Dandenong South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02343862359476,
-          -37.73183072272292
+          145.2079160875063,
+          -38.003164556032914
         ]
       }
     }
@@ -3569,7 +3511,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3577,7 +3518,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3593,7 +3535,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3601,7 +3542,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-04-08T14:00:00.000Z",
           "heat": {
@@ -3782,7 +3724,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-08T14:27:40.956Z",
-    "featureCount": 411
+    "lastUpdated": "2025-04-08T15:28:40.749Z",
+    "featureCount": 409
   }
 }
