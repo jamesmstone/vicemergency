@@ -2287,24 +2287,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119106044,
+        "status": "Responding",
+        "estaId": 119106164,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 214976,
+        "sourceId": 214979,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wantirna Rd",
-        "eventId": 250405285,
-        "id": "ESTA:250405285",
+        "sourceTitle": "High St",
+        "eventId": 250405295,
+        "id": "ESTA:250405295",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-08T20:05:00.000Z",
-        "updated": "2025-04-08T20:20:00.000Z",
-        "resources": 0,
-        "location": "Wantirna Rd, Wantirna",
-        "cfaId": 214976,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-08T20:41:00.000Z",
+        "updated": "2025-04-08T20:41:00.000Z",
+        "resources": 1,
+        "location": "High St, Berwick",
+        "cfaId": 214979,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2312,8 +2312,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2286068617964,
-          -37.84573807343562
+          145.34479298283802,
+          -38.03073436336563
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119106164,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 565979,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450387,
+        "id": "ESTA:250450387",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-04-08T20:41:00.000Z",
+        "updated": "2025-04-08T20:46:00.000Z",
+        "resources": 0,
+        "location": "Berwick",
+        "sesId": 565979
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34479298283802,
+          -38.03073436336563
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 119106135,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214978,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kent St",
+        "eventId": 250405293,
+        "id": "ESTA:250405293",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-08T20:33:00.000Z",
+        "updated": "2025-04-08T20:33:00.000Z",
+        "resources": 2,
+        "location": "Kent St, Maffra",
+        "cfaId": 214978,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.98326575624557,
+          -37.960981655604236
         ]
       }
     },
@@ -3176,6 +3238,57 @@
             "coordinates": [
               [
                 [
+                  149.0181,
+                  -37.0975
+                ],
+                [
+                  149.0195,
+                  -37.0981
+                ],
+                [
+                  149.0222,
+                  -37.0984
+                ],
+                [
+                  149.0224,
+                  -37.0995
+                ],
+                [
+                  149.0219,
+                  -37.0997
+                ],
+                [
+                  149.0217,
+                  -37.1008
+                ],
+                [
+                  149.0212,
+                  -37.1008
+                ],
+                [
+                  149.0206,
+                  -37.1002
+                ],
+                [
+                  149.0197,
+                  -37.0999
+                ],
+                [
+                  149.0181,
+                  -37.0988
+                ],
+                [
+                  149.0181,
+                  -37.0975
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   149.0143,
                   -37.0911
                 ],
@@ -3222,57 +3335,6 @@
                 [
                   149.0143,
                   -37.0911
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.0181,
-                  -37.0975
-                ],
-                [
-                  149.0195,
-                  -37.0981
-                ],
-                [
-                  149.0222,
-                  -37.0984
-                ],
-                [
-                  149.0224,
-                  -37.0995
-                ],
-                [
-                  149.0219,
-                  -37.0997
-                ],
-                [
-                  149.0217,
-                  -37.1008
-                ],
-                [
-                  149.0212,
-                  -37.1008
-                ],
-                [
-                  149.0206,
-                  -37.1002
-                ],
-                [
-                  149.0197,
-                  -37.0999
-                ],
-                [
-                  149.0181,
-                  -37.0988
-                ],
-                [
-                  149.0181,
-                  -37.0975
                 ]
               ]
             ]
@@ -3348,35 +3410,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 214968,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 214968,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Andromeda Loop",
-        "eventId": 250405273,
-        "id": "ESTA:250405273",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-08T19:06:00.000Z",
-        "updated": "2025-04-08T19:47:00.000Z",
-        "resources": 1,
-        "location": "Andromeda Loop, Wollert",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99355151414144,
-          -37.617993435603815
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 214972,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3405,30 +3438,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250405284",
+        "status": "Safe",
+        "cfaId": 214976,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250405284",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clifton St",
-        "id": "ESTA:250405284",
-        "eventId": "250405284",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-08T20:13:50.000Z",
-        "updated": "2025-04-08T20:13:50.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 214976,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wantirna Rd",
+        "eventId": 250405285,
+        "id": "ESTA:250405285",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-08T20:05:00.000Z",
+        "updated": "2025-04-08T20:20:00.000Z",
+        "resources": 0,
+        "location": "Wantirna Rd, Wantirna",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Clifton St, Aberfeldie"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.89059383372233,
-          -37.76018354634343
+          145.2286068617964,
+          -37.84573807343562
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250405294",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250405294",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ardeer",
+        "id": "ESTA:250405294",
+        "eventId": "250405294",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-08T20:47:45.000Z",
+        "updated": "2025-04-08T20:47:45.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Ardeer, Ardeer"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7961972572645,
+          -37.77055719952315
         ]
       }
     },
@@ -3476,7 +3538,7 @@
         "category2": "Structure Fire",
         "created": "2025-04-08T19:48:47.000Z",
         "updated": "2025-04-08T19:48:47.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Brosnan Cr, Strathmore"
@@ -3718,7 +3780,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-08T20:28:06.374Z",
-    "featureCount": 409
+    "lastUpdated": "2025-04-08T20:50:06.224Z",
+    "featureCount": 411
   }
 }
