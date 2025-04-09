@@ -2318,24 +2318,24 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 119117637,
+        "status": "Safe",
+        "estaId": 119117598,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250406234",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Morang Av",
-        "eventId": "250406234",
-        "id": "ESTA:250406234",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215129,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Melton Hwy",
+        "eventId": 250406231,
+        "id": "ESTA:250406231",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-09T16:45:24.000Z",
-        "updated": "2025-04-09T16:45:24.000Z",
-        "resources": 6,
-        "location": "Morang Av, Templestowe Lower",
-        "mfbId": "250406234",
+        "category2": "Other",
+        "created": "2025-04-09T16:16:00.000Z",
+        "updated": "2025-04-09T17:09:00.000Z",
+        "resources": 0,
+        "location": "Melton Hwy, Plumpton",
+        "cfaId": 215129,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2343,31 +2343,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09853297166953,
-          -37.759670379523314
+          144.6583279950476,
+          -37.68229367905057
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119117695,
+        "status": "Responding",
+        "estaId": 119117867,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215131,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wallace St",
-        "eventId": 250406236,
-        "id": "ESTA:250406236",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250406241",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kingston Rule St",
+        "eventId": "250406241",
+        "id": "ESTA:250406241",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-09T16:35:00.000Z",
-        "updated": "2025-04-09T16:46:00.000Z",
+        "created": "2025-04-09T17:18:38.000Z",
+        "updated": "2025-04-09T17:18:38.000Z",
         "resources": 0,
-        "location": "Wallace St, Colac",
-        "cfaId": 215131,
+        "location": "Kingston Rule St, Kurunjang",
+        "mfbId": "250406241",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2375,8 +2375,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.59323311997233,
-          -38.34216542583987
+          144.5900151247949,
+          -37.65870502450981
         ]
       }
     },
@@ -3383,20 +3383,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 215128,
+        "cfaId": 215131,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 215128,
+        "sourceId": 215131,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250406229,
-        "id": "ESTA:250406229",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-09T15:35:00.000Z",
-        "updated": "2025-04-09T16:11:00.000Z",
+        "sourceTitle": "Wallace St",
+        "eventId": 250406236,
+        "id": "ESTA:250406236",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-09T16:35:00.000Z",
+        "updated": "2025-04-09T16:46:00.000Z",
         "resources": 0,
-        "location": "Wangaratta",
+        "location": "Wallace St, Colac",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3404,38 +3404,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.29710398241772,
-          -36.374431053752915
+          143.59323311997233,
+          -38.34216542583987
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 215132,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566013,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250406238,
+        "id": "ESTA:250406238",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-09T16:57:00.000Z",
+        "updated": "2025-04-09T17:09:00.000Z",
+        "resources": 1,
+        "location": "Warragul",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 566013
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.93717827128972,
+          -38.1466959761175
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 215129,
+        "mfbId": "250406234",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250406231",
+        "sourceId": "250406234",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bonnie Brook",
-        "eventId": "250406231",
-        "id": "ESTA:250406231",
+        "sourceTitle": "Morang Av",
+        "id": "ESTA:250406234",
+        "eventId": "250406234",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-09T16:30:17.000Z",
-        "updated": "2025-04-09T16:30:17.000Z",
-        "resources": 2,
-        "location": "Bonnie Brook, Bonnie Brook",
+        "category2": "Structure Fire",
+        "created": "2025-04-09T17:02:17.000Z",
+        "updated": "2025-04-09T17:02:17.000Z",
+        "resources": 6,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250406231"
+        "location": "Morang Av, Templestowe Lower"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.66162761933055,
-          -37.683176346418904
+          145.09853297166953,
+          -37.759670379523314
         ]
       }
     },
@@ -3694,7 +3723,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-09T16:55:00.557Z",
-    "featureCount": 413
+    "lastUpdated": "2025-04-09T17:24:00.703Z",
+    "featureCount": 414
   }
 }
