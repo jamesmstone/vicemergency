@@ -2318,31 +2318,66 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119116305,
+        "status": "Responding",
+        "estaId": 119116736,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566010,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450422,
-        "id": "ESTA:250450422",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215121,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250406211,
+        "id": "ESTA:250406211",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-09T12:33:00.000Z",
-        "updated": "2025-04-09T13:34:00.000Z",
-        "resources": 0,
-        "location": "Beremboke",
-        "sesId": 566010
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-09T13:45:00.000Z",
+        "updated": "2025-04-09T13:45:00.000Z",
+        "resources": 1,
+        "location": "Mount Dryden",
+        "cfaId": 215121,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.21165062872223,
-          -37.79677489058691
+          142.5143567760704,
+          -37.06050619853498
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119116749,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250406212",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Jantar Way",
+        "eventId": "250406212",
+        "id": "ESTA:250406212",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-09T13:48:52.000Z",
+        "updated": "2025-04-09T13:48:52.000Z",
+        "resources": 2,
+        "location": "Jantar Way, Fraser Rise",
+        "cfaId": 215122,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250406212"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69371467161275,
+          -37.713646114810096
         ]
       }
     },
@@ -3379,30 +3414,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 215120,
+        "status": "Under Control",
+        "mfbId": "250406198",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215120,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Shannon Av",
-        "eventId": 250406195,
-        "id": "ESTA:250406195",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-09T12:28:00.000Z",
-        "updated": "2025-04-09T12:45:00.000Z",
-        "resources": 0,
-        "location": "Shannon Av, Newtown (Geelong)",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250406198",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ballarat Rd",
+        "id": "ESTA:250406198",
+        "eventId": "250406198",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-09T12:49:20.000Z",
+        "updated": "2025-04-09T12:49:20.000Z",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Ballarat Rd, Footscray"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.333075710357,
-          -38.156973440990754
+          144.88522631398487,
+          -37.78965087570503
         ]
       }
     },
@@ -3421,7 +3456,7 @@
         "category2": "Other",
         "created": "2025-04-09T12:38:57.000Z",
         "updated": "2025-04-09T12:38:57.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Tram Rd, Doncaster"
@@ -3432,35 +3467,6 @@
         "coordinates": [
           145.12477470618484,
           -37.78873086575707
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250406198",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250406198",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ballarat Rd",
-        "id": "ESTA:250406198",
-        "eventId": "250406198",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-09T12:49:20.000Z",
-        "updated": "2025-04-09T12:49:20.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ballarat Rd, Footscray"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88522631398487,
-          -37.78965087570503
         ]
       }
     }
@@ -3692,7 +3698,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-09T13:35:20.538Z",
+    "lastUpdated": "2025-04-09T13:54:26.531Z",
     "featureCount": 413
   }
 }
