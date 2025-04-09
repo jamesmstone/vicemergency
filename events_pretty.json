@@ -1142,6 +1142,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1635555",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Robertson Street, Naracoorte",
+        "id": "1635555",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Robertson Street, Naracoorte",
+        "created": "2025-04-09T17:20:00.000Z",
+        "updated": "2025-04-09T17:20:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Robertson Street, Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.743158840943,
+          -36.9573016842091
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2318,70 +2344,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119117598,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215129,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Melton Hwy",
-        "eventId": 250406231,
-        "id": "ESTA:250406231",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-09T16:16:00.000Z",
-        "updated": "2025-04-09T17:09:00.000Z",
-        "resources": 0,
-        "location": "Melton Hwy, Plumpton",
-        "cfaId": 215129,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6583279950476,
-          -37.68229367905057
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119117867,
-        "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250406241",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kingston Rule St",
-        "eventId": "250406241",
-        "id": "ESTA:250406241",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-09T17:18:38.000Z",
-        "updated": "2025-04-09T17:18:38.000Z",
-        "resources": 0,
-        "location": "Kingston Rule St, Kurunjang",
-        "mfbId": "250406241",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5900151247949,
-          -37.65870502450981
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -3441,6 +3403,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 215129,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215129,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Melton Hwy",
+        "eventId": 250406231,
+        "id": "ESTA:250406231",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-09T16:16:00.000Z",
+        "updated": "2025-04-09T17:09:00.000Z",
+        "resources": 0,
+        "location": "Melton Hwy, Plumpton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6583279950476,
+          -37.68229367905057
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250406241",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250406241",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kingston Rule St",
+        "id": "ESTA:250406241",
+        "eventId": "250406241",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-09T17:18:38.000Z",
+        "updated": "2025-04-09T17:18:38.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Kingston Rule St, Kurunjang"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5900151247949,
+          -37.65870502450981
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250406234",
         "feedType": "incident",
@@ -3454,7 +3474,7 @@
         "category2": "Structure Fire",
         "created": "2025-04-09T17:02:17.000Z",
         "updated": "2025-04-09T17:02:17.000Z",
-        "resources": 6,
+        "resources": 5,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Morang Av, Templestowe Lower"
@@ -3723,7 +3743,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-09T17:24:00.703Z",
-    "featureCount": 414
+    "lastUpdated": "2025-04-09T17:38:40.705Z",
+    "featureCount": 415
   }
 }
