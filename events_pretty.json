@@ -1508,10 +1508,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-11T06:39:00.000Z",
-        "updated": "2025-04-12T15:21:00.000Z",
+        "updated": "2025-04-12T19:36:00.000Z",
         "resources": 59,
-        "size": "90.00",
-        "sizeFmt": "90.00 Ha.",
+        "size": "91.00",
+        "sizeFmt": "91.00 Ha.",
         "location": "4Km Sw Daylesford"
       },
       "type": "Feature",
@@ -3230,64 +3230,97 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119157238,
+        "status": "Responding",
+        "estaId": 119157483,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250409010",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lysterfield",
-        "eventId": "250409010",
-        "id": "ESTA:250409010",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215663,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Clyde Rd",
+        "eventId": 250409017,
+        "id": "ESTA:250409017",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-12T19:37:07.000Z",
-        "updated": "2025-04-12T19:37:07.000Z",
-        "resources": 1,
-        "location": "Lysterfield, Lysterfield",
-        "cfaId": 215660,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-12T20:10:00.000Z",
+        "updated": "2025-04-12T20:10:00.000Z",
+        "resources": 0,
+        "location": "Clyde Rd, Berwick",
+        "cfaId": 215663,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250409010"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.32906632244166,
-          -37.94955825288276
+          145.338280100426,
+          -38.058272990945774
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119156818,
+        "status": "Responding",
+        "estaId": 119157509,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566148,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450573,
-        "id": "ESTA:250450573",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250409021",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Tyler St",
+        "eventId": "250409021",
+        "id": "ESTA:250409021",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-12T17:40:00.000Z",
-        "updated": "2025-04-12T19:48:00.000Z",
-        "resources": 0,
-        "location": "Glenaroua",
-        "sesId": 566148
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-12T20:20:42.000Z",
+        "updated": "2025-04-12T20:20:42.000Z",
+        "resources": 2,
+        "location": "Tyler St, Preston",
+        "mfbId": "250409021",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93324318895426,
-          -37.11976105058536
+          145.03899298007752,
+          -37.73271869592465
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 119157475,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215662,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Clyde Rd",
+        "eventId": 250409016,
+        "id": "ESTA:250409016",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-12T20:09:00.000Z",
+        "updated": "2025-04-12T20:09:00.000Z",
+        "resources": 5,
+        "location": "Clyde Rd, Berwick",
+        "cfaId": 215662,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.338280100426,
+          -38.058272990945774
         ]
       }
     },
@@ -4670,20 +4703,50 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 215659,
+        "cfaId": 215660,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250409010",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lysterfield",
+        "eventId": "250409010",
+        "id": "ESTA:250409010",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-12T19:37:07.000Z",
+        "updated": "2025-04-12T19:37:07.000Z",
+        "resources": 1,
+        "location": "Lysterfield, Lysterfield",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250409010"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32906632244166,
+          -37.94955825288276
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 215661,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 215659,
+        "sourceId": 215661,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Harris Rd",
-        "eventId": 250409006,
-        "id": "ESTA:250409006",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-12T18:40:00.000Z",
-        "updated": "2025-04-12T19:18:00.000Z",
-        "resources": 1,
-        "location": "Harris Rd, Clydebank",
+        "sourceTitle": "Coburns Rd",
+        "eventId": 250409012,
+        "id": "ESTA:250409012",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-12T19:16:00.000Z",
+        "updated": "2025-04-12T20:13:00.000Z",
+        "resources": 0,
+        "location": "Coburns Rd, Melton West",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4691,38 +4754,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.1716471708858,
-          -38.04966155690795
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 215661,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250409012",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coburns Rd",
-        "eventId": "250409012",
-        "id": "ESTA:250409012",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-12T19:24:05.000Z",
-        "updated": "2025-04-12T19:24:05.000Z",
-        "resources": 2,
-        "location": "Coburns Rd, Melton West",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250409012"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.56748660213643,
-          -37.68782024155695
+          144.56748375161666,
+          -37.68782514356274
         ]
       }
     }
@@ -4954,7 +4987,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-12T19:50:20.624Z",
-    "featureCount": 432
+    "lastUpdated": "2025-04-12T20:24:40.422Z",
+    "featureCount": 433
   }
 }
