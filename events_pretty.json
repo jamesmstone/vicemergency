@@ -1578,32 +1578,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1635998",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Princes Highway, Tantanoola",
-        "id": "1635998",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Princes Highway, Tantanoola",
-        "created": "2025-04-12T15:52:00.000Z",
-        "updated": "2025-04-12T15:52:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Princes Highway, Tantanoola"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.570436813092,
-          -37.7360746732666
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -3256,64 +3230,97 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119156536,
+        "status": "Responding",
+        "estaId": 119156736,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250408988",
+        "sourceId": "250408994",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Roslyn Rd",
-        "eventId": "250408988",
-        "id": "ESTA:250408988",
+        "sourceTitle": "Wendel St",
+        "eventId": "250408994",
+        "id": "ESTA:250408994",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-12T17:15:13.000Z",
-        "updated": "2025-04-12T17:15:13.000Z",
-        "resources": 1,
-        "location": "Roslyn Rd, Highton",
-        "cfaId": 215650,
+        "category2": "Structure Fire",
+        "created": "2025-04-12T17:25:05.000Z",
+        "updated": "2025-04-12T17:25:05.000Z",
+        "resources": 2,
+        "location": "Wendel St, Brunswick",
+        "mfbId": "250408994",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250408988"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.31699953133324,
-          -38.17215576903063
+          144.95492967933077,
+          -37.76472109337463
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "estaId": 119156028,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597652",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Gunbower Pde, Koondrook",
-        "id": "2025-04-13T02:02:00.0000000:597652",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215643,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gunbower Pde",
+        "eventId": 250408972,
+        "id": "ESTA:250408972",
+        "suppress": false,
         "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Gunbower Pde, Koondrook",
-        "location": "Gunbower Pde, Koondrook 3580",
-        "created": "2025-04-13T02:02:00+10:00",
-        "updated": "2025-04-13T02:02:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "category2": "Building Fire",
+        "created": "2025-04-12T15:36:00.000Z",
+        "updated": "2025-04-12T17:29:00.000Z",
+        "resources": 1,
+        "location": "Gunbower Pde, Koondrook",
+        "cfaId": 215643,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.131698608,
-          -35.628219605
+          144.13268177025608,
+          -35.650205543892
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119156782,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215653,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250408995,
+        "id": "ESTA:250408995",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-12T17:32:00.000Z",
+        "updated": "2025-04-12T17:32:00.000Z",
+        "resources": 0,
+        "location": "Foster",
+        "cfaId": 215653,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.204743345532,
+          -38.65013669906772
         ]
       }
     },
@@ -4695,30 +4702,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 215643,
+        "status": "Safe",
+        "cfaId": 215650,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215643,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gunbower Pde",
-        "eventId": 250408972,
-        "id": "ESTA:250408972",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250408988",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Roslyn Rd",
+        "eventId": "250408988",
+        "id": "ESTA:250408988",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-12T15:36:00.000Z",
-        "updated": "2025-04-12T16:06:00.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-12T17:15:13.000Z",
+        "updated": "2025-04-12T17:15:13.000Z",
         "resources": 1,
-        "location": "Gunbower Pde, Koondrook",
+        "location": "Roslyn Rd, Highton",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250408988"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.13268177025608,
-          -35.650205543892
+          144.31699953133324,
+          -38.17215576903063
         ]
       }
     }
@@ -4950,7 +4958,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-12T17:22:06.550Z",
+    "lastUpdated": "2025-04-12T17:35:40.609Z",
     "featureCount": 430
   }
 }
