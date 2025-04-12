@@ -609,6 +609,36 @@
     },
     {
       "properties": {
+        "status": "Minor",
+        "feedType": "earthquake",
+        "sourceOrg": "AU/GA",
+        "sourceId": "695468",
+        "sourceFeed": "ga-earthquake",
+        "sourceTitle": "Magnitude 2.5 earthquake - Rawson, VIC - 12/04/2025 06:09:25 (UTC)",
+        "id": "695468",
+        "category1": "Earthquake",
+        "category2": "Earthquake",
+        "name": "Magnitude 2.5 - Rawson, VIC",
+        "sizeFmt": "Magnitude 2.5",
+        "created": "2025-04-12T06:09:25-00:00",
+        "updated": "2025-04-12T06:09:25-00:00",
+        "webBody": "A magnitude 2.5 earthquake has occurred in \"Rawson, VIC\" at a depth of 2.90 km at 12/04/2025 06:09:25 (UTC)",
+        "url": "https://earthquakes.ga.gov.au/event/ga2025hdwpgd",
+        "cssClass": "earthquake",
+        "magnitude": "2.534504433",
+        "location": "Rawson, VIC"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.245,
+          -37.95
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2163,7 +2193,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3010548,
@@ -2172,8 +2202,8 @@
         "id": 3010548,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-12T01:45:19.000Z",
-        "updated": "2025-04-12T01:45:19.000Z",
+        "created": "2025-04-12T06:25:55.000Z",
+        "updated": "2025-04-12T06:25:55.000Z",
         "resources": 0,
         "size": "1.50",
         "sizeFmt": "1.50 Ha.",
@@ -3227,53 +3257,24 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 119148623,
+        "status": "Responding",
+        "estaId": 119150190,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119148623,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Werribee",
-        "eventId": "F250408578",
-        "id": "ESTA:250408578",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-12T04:17:54.000Z",
-        "updated": "2025-04-12T06:09:13.561Z",
-        "resources": 0,
-        "location": "Werribee"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6327214105456,
-          -37.89342125003994
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119149899,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250408671",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Egerton Way",
-        "eventId": "250408671",
-        "id": "ESTA:250408671",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215566,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Horswood Rd",
+        "eventId": 250408691,
+        "id": "ESTA:250408691",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-12T06:22:58.000Z",
-        "updated": "2025-04-12T06:22:58.000Z",
-        "resources": 2,
-        "location": "Egerton Way, Delahey",
-        "mfbId": "250408671",
+        "category2": "Building Fire",
+        "created": "2025-04-12T06:38:00.000Z",
+        "updated": "2025-04-12T06:38:00.000Z",
+        "resources": 4,
+        "location": "Horswood Rd, Lysterfield",
+        "cfaId": 215566,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3281,197 +3282,101 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.77005659403162,
-          -37.71454676206007
+          145.3104404188921,
+          -37.96677447373617
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 119149747,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215562,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250408662,
-        "id": "ESTA:250408662",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-12T06:02:00.000Z",
-        "updated": "2025-04-12T06:24:00.000Z",
-        "resources": 2,
-        "location": "South Purrumbete",
-        "cfaId": 215562,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.24925341243824,
-          -38.32778123415034
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119150007,
-        "feedType": "incident",
-        "source": "OFFICER",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250408679",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250408679",
-        "id": "ESTA:250408679",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-12T06:24:22.000Z",
-        "updated": "2025-04-12T06:24:22.000Z",
-        "resources": 1,
-        "location": "Princes Hwy, Springvale",
-        "mfbId": "250408679",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15673953568776,
-          -37.93331083042551
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119148809,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215552,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray Valley Hwy",
-        "eventId": 250408590,
-        "id": "ESTA:250408590",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-12T04:37:00.000Z",
-        "updated": "2025-04-12T05:48:00.000Z",
-        "resources": 0,
-        "location": "Murray Valley Hwy, Leitchville",
-        "cfaId": 215552,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3150160202769,
-          -35.8801006089834
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119150016,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215564,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Piermont Dr",
-        "eventId": 250408680,
-        "id": "ESTA:250408680",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-12T06:24:00.000Z",
-        "updated": "2025-04-12T06:24:00.000Z",
-        "resources": 2,
-        "location": "Piermont Dr, Berwick",
-        "cfaId": 215564,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35482035099625,
-          -38.04392442589412
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119149182,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215558,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hutcheson Av",
-        "eventId": 250408624,
-        "id": "ESTA:250408624",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-12T05:10:00.000Z",
-        "updated": "2025-04-12T05:35:00.000Z",
-        "resources": 0,
-        "location": "Hutcheson Av, Highton",
-        "cfaId": 215558,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.32109171413748,
-          -38.17791074687292
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 119150102,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119150102,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ascot Vale",
-        "eventId": "F250408684",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250408684",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Maribyrnong Rd",
+        "eventId": "250408684",
         "id": "ESTA:250408684",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-12T06:30:31.000Z",
-        "updated": "2025-04-12T06:31:48.778Z",
-        "resources": 3,
-        "location": "Maribyrnong Rd, Ascot Vale"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-12T06:38:51.000Z",
+        "updated": "2025-04-12T06:38:51.000Z",
+        "resources": 1,
+        "location": "Maribyrnong Rd, Ascot Vale",
+        "mfbId": "250408684",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91434429433843,
-          -37.771708829632885
+          144.91433462691208,
+          -37.77170891352024
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119148770,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119148770,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Rye",
+        "eventId": "F250408587",
+        "id": "ESTA:250408587",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-12T04:33:14.000Z",
+        "updated": "2025-04-12T06:38:54.248Z",
+        "resources": 0,
+        "location": "Bay Trl, Rye"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82170598242016,
+          -38.36889101375154
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119150322,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215568,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250408698,
+        "id": "ESTA:250408698",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-12T06:50:00.000Z",
+        "updated": "2025-04-12T06:50:00.000Z",
+        "resources": 0,
+        "location": "Euroa",
+        "cfaId": 215568,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.56467833277287,
+          -36.740985919548095
         ]
       }
     },
@@ -4087,6 +3992,300 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
+        "sourceId": "596552",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Ridges Plantation- Powerline Easement",
+        "id": "2025-04-11T17:46:00.0000000:596552",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Ridges Plantation- Powerline Easement",
+        "location": "Ridges Plantation Burragate Rd Towamba",
+        "created": "2025-04-11T17:46:00+10:00",
+        "updated": "2025-04-11T17:46:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.6681,
+                  -37.0513
+                ],
+                [
+                  149.6683,
+                  -37.051
+                ],
+                [
+                  149.6687,
+                  -37.0512
+                ],
+                [
+                  149.6712,
+                  -37.0532
+                ],
+                [
+                  149.6709,
+                  -37.0538
+                ],
+                [
+                  149.6681,
+                  -37.0513
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.670095444,
+              -37.052762526
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "595576",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Pipers Rd, Pericoe",
+        "id": "2025-04-11T17:47:00.0000000:595576",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Pipers Rd, Pericoe",
+        "location": "Eden",
+        "created": "2025-04-11T17:47:00+10:00",
+        "updated": "2025-04-11T17:47:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "313 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.6645,
+                  -37.1066
+                ],
+                [
+                  149.6649,
+                  -37.1074
+                ],
+                [
+                  149.6667,
+                  -37.1086
+                ],
+                [
+                  149.6633,
+                  -37.1113
+                ],
+                [
+                  149.663,
+                  -37.1126
+                ],
+                [
+                  149.664,
+                  -37.1128
+                ],
+                [
+                  149.6681,
+                  -37.1115
+                ],
+                [
+                  149.6725,
+                  -37.1116
+                ],
+                [
+                  149.6685,
+                  -37.1155
+                ],
+                [
+                  149.6631,
+                  -37.1193
+                ],
+                [
+                  149.6593,
+                  -37.1181
+                ],
+                [
+                  149.6533,
+                  -37.1217
+                ],
+                [
+                  149.6505,
+                  -37.1184
+                ],
+                [
+                  149.6444,
+                  -37.1167
+                ],
+                [
+                  149.6463,
+                  -37.1155
+                ],
+                [
+                  149.6493,
+                  -37.114
+                ],
+                [
+                  149.6467,
+                  -37.1138
+                ],
+                [
+                  149.6461,
+                  -37.1114
+                ],
+                [
+                  149.6484,
+                  -37.111
+                ],
+                [
+                  149.6517,
+                  -37.1097
+                ],
+                [
+                  149.6533,
+                  -37.1084
+                ],
+                [
+                  149.6538,
+                  -37.1091
+                ],
+                [
+                  149.6554,
+                  -37.1095
+                ],
+                [
+                  149.6551,
+                  -37.1086
+                ],
+                [
+                  149.6558,
+                  -37.1082
+                ],
+                [
+                  149.6558,
+                  -37.1085
+                ],
+                [
+                  149.6564,
+                  -37.1071
+                ],
+                [
+                  149.6561,
+                  -37.1053
+                ],
+                [
+                  149.6547,
+                  -37.1033
+                ],
+                [
+                  149.6547,
+                  -37.1019
+                ],
+                [
+                  149.6559,
+                  -37.0962
+                ],
+                [
+                  149.6657,
+                  -37.0978
+                ],
+                [
+                  149.6657,
+                  -37.0988
+                ],
+                [
+                  149.6651,
+                  -37.0994
+                ],
+                [
+                  149.6645,
+                  -37.1012
+                ],
+                [
+                  149.6647,
+                  -37.1029
+                ],
+                [
+                  149.666,
+                  -37.1038
+                ],
+                [
+                  149.6649,
+                  -37.1047
+                ],
+                [
+                  149.6645,
+                  -37.1066
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.652938819,
+              -37.1085560449999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597532",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Mount Darragh Rd, Wyndham",
+        "id": "2025-04-12T09:26:00.0000000:597532",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Mount Darragh Rd, Wyndham",
+        "location": "Mount Darragh Rd, Wyndham 2550",
+        "created": "2025-04-12T09:26:00+10:00",
+        "updated": "2025-04-12T09:26:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.412963867,
+          -36.9652938839999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
         "sourceId": "595858",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Killarney",
@@ -4558,387 +4757,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "596552",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Ridges Plantation- Powerline Easement",
-        "id": "2025-04-11T17:46:00.0000000:596552",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Ridges Plantation- Powerline Easement",
-        "location": "Ridges Plantation Burragate Rd Towamba",
-        "created": "2025-04-11T17:46:00+10:00",
-        "updated": "2025-04-11T17:46:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.6681,
-                  -37.0513
-                ],
-                [
-                  149.6683,
-                  -37.051
-                ],
-                [
-                  149.6687,
-                  -37.0512
-                ],
-                [
-                  149.6712,
-                  -37.0532
-                ],
-                [
-                  149.6709,
-                  -37.0538
-                ],
-                [
-                  149.6681,
-                  -37.0513
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.670095444,
-              -37.052762526
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "595576",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Pipers Rd, Pericoe",
-        "id": "2025-04-11T17:47:00.0000000:595576",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Pipers Rd, Pericoe",
-        "location": "Eden",
-        "created": "2025-04-11T17:47:00+10:00",
-        "updated": "2025-04-11T17:47:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "313 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.6645,
-                  -37.1066
-                ],
-                [
-                  149.6649,
-                  -37.1074
-                ],
-                [
-                  149.6667,
-                  -37.1086
-                ],
-                [
-                  149.6633,
-                  -37.1113
-                ],
-                [
-                  149.663,
-                  -37.1126
-                ],
-                [
-                  149.664,
-                  -37.1128
-                ],
-                [
-                  149.6681,
-                  -37.1115
-                ],
-                [
-                  149.6725,
-                  -37.1116
-                ],
-                [
-                  149.6685,
-                  -37.1155
-                ],
-                [
-                  149.6631,
-                  -37.1193
-                ],
-                [
-                  149.6593,
-                  -37.1181
-                ],
-                [
-                  149.6533,
-                  -37.1217
-                ],
-                [
-                  149.6505,
-                  -37.1184
-                ],
-                [
-                  149.6444,
-                  -37.1167
-                ],
-                [
-                  149.6463,
-                  -37.1155
-                ],
-                [
-                  149.6493,
-                  -37.114
-                ],
-                [
-                  149.6467,
-                  -37.1138
-                ],
-                [
-                  149.6461,
-                  -37.1114
-                ],
-                [
-                  149.6484,
-                  -37.111
-                ],
-                [
-                  149.6517,
-                  -37.1097
-                ],
-                [
-                  149.6533,
-                  -37.1084
-                ],
-                [
-                  149.6538,
-                  -37.1091
-                ],
-                [
-                  149.6554,
-                  -37.1095
-                ],
-                [
-                  149.6551,
-                  -37.1086
-                ],
-                [
-                  149.6558,
-                  -37.1082
-                ],
-                [
-                  149.6558,
-                  -37.1085
-                ],
-                [
-                  149.6564,
-                  -37.1071
-                ],
-                [
-                  149.6561,
-                  -37.1053
-                ],
-                [
-                  149.6547,
-                  -37.1033
-                ],
-                [
-                  149.6547,
-                  -37.1019
-                ],
-                [
-                  149.6559,
-                  -37.0962
-                ],
-                [
-                  149.6657,
-                  -37.0978
-                ],
-                [
-                  149.6657,
-                  -37.0988
-                ],
-                [
-                  149.6651,
-                  -37.0994
-                ],
-                [
-                  149.6645,
-                  -37.1012
-                ],
-                [
-                  149.6647,
-                  -37.1029
-                ],
-                [
-                  149.666,
-                  -37.1038
-                ],
-                [
-                  149.6649,
-                  -37.1047
-                ],
-                [
-                  149.6645,
-                  -37.1066
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.652938819,
-              -37.1085560449999
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597532",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Mount Darragh Rd, Wyndham",
-        "id": "2025-04-12T09:26:00.0000000:597532",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Mount Darragh Rd, Wyndham",
-        "location": "Mount Darragh Rd, Wyndham 2550",
-        "created": "2025-04-12T09:26:00+10:00",
-        "updated": "2025-04-12T09:26:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.412963867,
-          -36.9652938839999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 215563,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215563,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Olinda Creek Rd",
-        "eventId": 250408670,
-        "id": "ESTA:250408670",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-12T06:12:00.000Z",
-        "updated": "2025-04-12T06:24:00.000Z",
-        "resources": 2,
-        "location": "Olinda Creek Rd, Kalorama",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38145279062354,
-          -37.81818014937479
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 215560,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215560,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Drage Rd",
-        "eventId": 250408636,
-        "id": "ESTA:250408636",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-12T05:27:00.000Z",
-        "updated": "2025-04-12T05:45:00.000Z",
-        "resources": 0,
-        "location": "Drage Rd, West Wodonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.84376954000646,
-          -36.11619859652019
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 215561,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 215561,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cicada Circuit Trl",
-        "eventId": 250408637,
-        "id": "ESTA:250408637",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-12T05:27:00.000Z",
-        "updated": "2025-04-12T05:48:00.000Z",
-        "resources": 0,
-        "location": "Cicada Circuit Trl, Rubicon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8539244085414,
-          -37.3119622967953
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Safe",
         "cfaId": 215559,
@@ -4970,6 +4788,64 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 215563,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215563,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Olinda Creek Rd",
+        "eventId": 250408670,
+        "id": "ESTA:250408670",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-12T06:12:00.000Z",
+        "updated": "2025-04-12T06:24:00.000Z",
+        "resources": 0,
+        "location": "Olinda Creek Rd, Kalorama",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38145279062354,
+          -37.81818014937479
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 215562,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215562,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250408662,
+        "id": "ESTA:250408662",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-12T06:02:00.000Z",
+        "updated": "2025-04-12T06:24:00.000Z",
+        "resources": 2,
+        "location": "South Purrumbete",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.24925341243824,
+          -38.32778123415034
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 215547,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4981,8 +4857,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-12T04:17:00.000Z",
-        "updated": "2025-04-12T06:03:00.000Z",
-        "resources": 7,
+        "updated": "2025-04-12T06:48:00.000Z",
+        "resources": 4,
         "location": "Shepherds Hill Rd, Lauriston",
         "size": "Small",
         "sizeFmt": "Small"
@@ -5009,9 +4885,9 @@
         "eventId": "250408646",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-12T06:27:28.000Z",
-        "updated": "2025-04-12T06:27:28.000Z",
-        "resources": 1,
+        "created": "2025-04-12T06:36:06.000Z",
+        "updated": "2025-04-12T06:36:06.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Coghlan St, Niddrie"
@@ -5027,30 +4903,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250408682",
+        "status": "Under Control",
+        "mfbId": "250408679",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250408682",
+        "sourceId": "250408679",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Linden St",
-        "id": "ESTA:250408682",
-        "eventId": "250408682",
+        "sourceTitle": "Princes Hwy",
+        "id": "ESTA:250408679",
+        "eventId": "250408679",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-12T06:26:42.000Z",
-        "updated": "2025-04-12T06:26:42.000Z",
-        "resources": 0,
+        "created": "2025-04-12T06:44:20.000Z",
+        "updated": "2025-04-12T06:44:20.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Linden St, Altona Meadows"
+        "location": "Princes Hwy, Springvale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.77678571420213,
-          -37.86720947227465
+          145.15673953568776,
+          -37.93331083042551
         ]
       }
     },
@@ -5336,7 +5212,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-12T06:32:26.560Z",
-    "featureCount": 444
+    "lastUpdated": "2025-04-12T06:52:07.118Z",
+    "featureCount": 439
   }
 }
