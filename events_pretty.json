@@ -749,7 +749,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 934975,
@@ -758,8 +758,8 @@
         "id": 934975,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-09T02:59:52.000Z",
-        "updated": "2025-04-09T02:59:52.000Z",
+        "created": "2025-04-14T21:40:19.000Z",
+        "updated": "2025-04-14T21:40:19.000Z",
         "resources": 0,
         "size": "644.22",
         "sizeFmt": "644.22 Ha.",
@@ -2834,23 +2834,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119181093,
+        "estaId": 119181240,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250410419",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Narre Warren North Rd",
-        "eventId": "250410419",
-        "id": "ESTA:250410419",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 215986,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Province Bvd",
+        "eventId": 250410435,
+        "id": "ESTA:250410435",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-14T21:26:04.000Z",
-        "updated": "2025-04-14T21:26:04.000Z",
-        "resources": 1,
-        "location": "Narre Warren North Rd, Narre Warren",
-        "mfbId": "250410419",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-14T21:49:00.000Z",
+        "updated": "2025-04-14T21:49:00.000Z",
+        "resources": 0,
+        "location": "Province Bvd, Highton",
+        "cfaId": 215986,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2858,41 +2858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.30813295103223,
-          -38.019562765598415
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119181160,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250410424",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gallois Gdns",
-        "eventId": "250410424",
-        "id": "ESTA:250410424",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-14T21:34:49.000Z",
-        "updated": "2025-04-14T21:34:49.000Z",
-        "resources": 2,
-        "location": "Gallois Gdns, Leopold",
-        "cfaId": 215985,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250410424"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.46595965657292,
-          -38.18762752223581
+          144.3079729025778,
+          -38.16157223774872
         ]
       }
     },
@@ -4541,6 +4508,61 @@
             "coordinates": [
               [
                 [
+                  149.3603,
+                  -37.0142
+                ],
+                [
+                  149.357,
+                  -37.0124
+                ],
+                [
+                  149.3572,
+                  -37.0116
+                ],
+                [
+                  149.3588,
+                  -37.0111
+                ],
+                [
+                  149.361,
+                  -37.0116
+                ],
+                [
+                  149.3634,
+                  -37.0114
+                ],
+                [
+                  149.3645,
+                  -37.0118
+                ],
+                [
+                  149.3643,
+                  -37.0126
+                ],
+                [
+                  149.3637,
+                  -37.0127
+                ],
+                [
+                  149.3639,
+                  -37.0132
+                ],
+                [
+                  149.3618,
+                  -37.0143
+                ],
+                [
+                  149.3603,
+                  -37.0142
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   149.3703,
                   -37.0137
                 ],
@@ -4619,61 +4641,6 @@
                 [
                   149.3703,
                   -37.0137
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.3603,
-                  -37.0142
-                ],
-                [
-                  149.357,
-                  -37.0124
-                ],
-                [
-                  149.3572,
-                  -37.0116
-                ],
-                [
-                  149.3588,
-                  -37.0111
-                ],
-                [
-                  149.361,
-                  -37.0116
-                ],
-                [
-                  149.3634,
-                  -37.0114
-                ],
-                [
-                  149.3645,
-                  -37.0118
-                ],
-                [
-                  149.3643,
-                  -37.0126
-                ],
-                [
-                  149.3637,
-                  -37.0127
-                ],
-                [
-                  149.3639,
-                  -37.0132
-                ],
-                [
-                  149.3618,
-                  -37.0143
-                ],
-                [
-                  149.3603,
-                  -37.0142
                 ]
               ]
             ]
@@ -4780,6 +4747,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "mfbId": "250410419",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250410419",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Narre Warren North Rd",
+        "id": "ESTA:250410419",
+        "eventId": "250410419",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-14T21:37:51.000Z",
+        "updated": "2025-04-14T21:37:51.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Narre Warren North Rd, Narre Warren"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30813295103223,
+          -38.019562765598415
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250410416",
         "feedType": "incident",
@@ -4809,7 +4805,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Responding",
         "sesId": 566262,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -4821,8 +4817,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-04-14T21:04:00.000Z",
-        "updated": "2025-04-14T21:08:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-14T21:47:00.000Z",
+        "resources": 1,
         "location": "Bayswater North"
       },
       "type": "Feature",
@@ -5062,7 +5058,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-14T21:36:00.517Z",
+    "lastUpdated": "2025-04-14T21:50:20.530Z",
     "featureCount": 421
   }
 }
