@@ -1271,7 +1271,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1006807,
@@ -1281,8 +1281,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-13T00:50:00.000Z",
-        "updated": "2025-04-14T04:46:00.000Z",
-        "resources": 11,
+        "updated": "2025-04-15T05:13:00.000Z",
+        "resources": 0,
         "size": "1.00",
         "sizeFmt": "1.00 Ha.",
         "location": "7.5 Kms Sw Deans Marsh"
@@ -1374,32 +1374,6 @@
         "coordinates": [
           145.207,
           -37.8708
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Controlled",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1630873",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Smith Street , Naracoorte",
-        "id": "1630873",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Smith Street , Naracoorte",
-        "created": "2025-03-10T20:41:00.000Z",
-        "updated": "2025-03-10T20:41:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Smith Street , Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.742854165877,
-          -36.954992835007
         ]
       }
     },
@@ -2805,24 +2779,83 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 119185590,
+        "status": "Unknown",
+        "estaId": 119177830,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216025,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nilma-Shady Creek Rd",
-        "eventId": 250410852,
-        "id": "ESTA:250410852",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119177830,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wantirna South",
+        "eventId": "F250410322",
+        "id": "ESTA:250410322",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-04-15T04:14:00.000Z",
-        "updated": "2025-04-15T04:14:00.000Z",
-        "resources": 5,
-        "location": "Nilma-Shady Creek Rd, Nilma North",
-        "cfaId": 216025,
+        "created": "2025-04-14T10:35:13.000Z",
+        "updated": "2025-04-15T05:10:54.991Z",
+        "resources": 0,
+        "location": "Wantirna South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20228701993054,
+          -37.8679657826681
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119185267,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566280,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450698,
+        "id": "ESTA:250450698",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-15T03:49:00.000Z",
+        "updated": "2025-04-15T05:19:00.000Z",
+        "resources": 0,
+        "location": "Lake Wendouree",
+        "sesId": 566280
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.83966282078464,
+          -37.556020189929455
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119186438,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216036,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Crags Rd",
+        "eventId": 250410920,
+        "id": "ESTA:250410920",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-15T05:22:00.000Z",
+        "updated": "2025-04-15T05:22:00.000Z",
+        "resources": 0,
+        "location": "Crags Rd, Yambuk",
+        "cfaId": 216036,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2830,74 +2863,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.02257391257132,
-          -38.119463272199944
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119185695,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250410860",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250410860",
-        "id": "ESTA:250410860",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-15T04:40:04.000Z",
-        "updated": "2025-04-15T04:40:04.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Corio",
-        "cfaId": 216026,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250410860"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.36335228315886,
-          -38.07937412579559
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119186076,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250410886",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Maude St",
-        "eventId": "250410886",
-        "id": "ESTA:250410886",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-04-15T04:51:49.000Z",
-        "updated": "2025-04-15T04:51:49.000Z",
-        "resources": 2,
-        "location": "Maude St, Shepparton",
-        "cfaId": 216030,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250410886"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4002338187264,
-          -36.38255035807869
+          142.1211545578308,
+          -38.36050649700332
         ]
       }
     },
@@ -3772,13 +3739,13 @@
         "sourceId": "596074",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Skyline Rd, Bondi State Forest",
-        "id": "2025-04-12T17:22:00.0000000:596074",
+        "id": "2025-04-15T15:24:00.0000000:596074",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Skyline Rd, Bondi State Forest",
         "location": "Bombala Nsw",
-        "created": "2025-04-12T17:22:00+10:00",
-        "updated": "2025-04-12T17:22:00+10:00",
+        "created": "2025-04-15T15:24:00+10:00",
+        "updated": "2025-04-15T15:24:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3933,13 +3900,13 @@
         "sourceId": "597820",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Corio Rd - Perricoota State Forest",
-        "id": "2025-04-15T09:01:00.0000000:597820",
+        "id": "2025-04-15T14:47:00.0000000:597820",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Corio Rd - Perricoota State Forest",
         "location": "Corio Rd",
-        "created": "2025-04-15T09:01:00+10:00",
-        "updated": "2025-04-15T09:01:00+10:00",
+        "created": "2025-04-15T14:47:00+10:00",
+        "updated": "2025-04-15T14:47:00+10:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3958,20 +3925,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 216022,
+        "cfaId": 216030,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 216022,
+        "sourceId": 216030,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Olsen St",
-        "eventId": 250410809,
-        "id": "ESTA:250410809",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-04-15T03:48:00.000Z",
-        "updated": "2025-04-15T03:58:00.000Z",
+        "sourceTitle": "Maude St",
+        "eventId": 250410886,
+        "id": "ESTA:250410886",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-15T04:52:00.000Z",
+        "updated": "2025-04-15T04:57:00.000Z",
         "resources": 0,
-        "location": "Olsen St, Frankston",
+        "location": "Maude St, Shepparton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3979,14 +3946,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12355178122016,
-          -38.141110028553186
+          145.40022402220706,
+          -36.38255330788269
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "cfaId": 216029,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3998,8 +3965,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-15T04:33:00.000Z",
-        "updated": "2025-04-15T04:33:00.000Z",
-        "resources": 3,
+        "updated": "2025-04-15T05:04:00.000Z",
+        "resources": 0,
         "location": "Arcadia South",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4015,7 +3982,66 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "cfaId": 216032,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250410906",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sibyl Av",
+        "eventId": "250410906",
+        "id": "ESTA:250410906",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-15T05:08:28.000Z",
+        "updated": "2025-04-15T05:08:28.000Z",
+        "resources": 1,
+        "location": "Sibyl Av, Frankston South",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250410906"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1286072642445,
+          -38.18598460298611
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 216031,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216031,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Walls Lane",
+        "eventId": 250410902,
+        "id": "ESTA:250410902",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-15T05:04:00.000Z",
+        "updated": "2025-04-15T05:12:00.000Z",
+        "resources": 2,
+        "location": "Walls Lane, Glenlyon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.23328106884986,
+          -37.26268723675649
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 216028,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4026,9 +4052,9 @@
         "id": "ESTA:250410864",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-15T04:41:07.000Z",
-        "updated": "2025-04-15T04:41:07.000Z",
-        "resources": 3,
+        "created": "2025-04-15T05:15:04.000Z",
+        "updated": "2025-04-15T05:15:04.000Z",
+        "resources": 1,
         "location": "Seahaven Way, Safety Beach",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4040,6 +4066,65 @@
         "coordinates": [
           145.00330420575202,
           -38.31575219455985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 216035,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216035,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "The Crescent -",
+        "eventId": 250410913,
+        "id": "ESTA:250410913",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-15T05:14:00.000Z",
+        "updated": "2025-04-15T05:22:00.000Z",
+        "resources": 1,
+        "location": "The Crescent -, Tyabb",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19354461406093,
+          -38.26393532224795
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 216026,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250410860",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250410860",
+        "id": "ESTA:250410860",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-15T05:02:46.000Z",
+        "updated": "2025-04-15T05:02:46.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Corio",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250410860"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36335228315886,
+          -38.07937412579559
         ]
       }
     },
@@ -4076,29 +4161,87 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250410796",
+        "cfaId": 216025,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250410796",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "River St",
-        "id": "ESTA:250410796",
-        "eventId": "250410796",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216025,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nilma-Shady Creek Rd",
+        "eventId": 250410852,
+        "id": "ESTA:250410852",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-15T04:34:46.000Z",
-        "updated": "2025-04-15T04:34:46.000Z",
-        "resources": 1,
+        "category2": "Bushfire",
+        "created": "2025-04-15T04:14:00.000Z",
+        "updated": "2025-04-15T04:56:00.000Z",
+        "resources": 7,
+        "location": "Nilma-Shady Creek Rd, Nilma North",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "River St, South Yarra"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99713702425322,
-          -37.83888255511854
+          146.02257391257132,
+          -38.119463272199944
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250410911",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250410911",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Arrival Dr",
+        "id": "ESTA:250410911",
+        "eventId": "250410911",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-15T05:17:01.000Z",
+        "updated": "2025-04-15T05:17:01.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Arrival Dr, Melbourne Airport"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84914223848082,
+          -37.67137701296417
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250410896",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250410896",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Monash Fwy",
+        "id": "ESTA:250410896",
+        "eventId": "250410896",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-15T05:06:45.000Z",
+        "updated": "2025-04-15T05:06:45.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Monash Fwy, Mulgrave"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19475491638067,
+          -37.93742668354976
         ]
       }
     },
@@ -4153,33 +4296,6 @@
         "coordinates": [
           144.75671731971784,
           -36.687928055777746
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 566280,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566280,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450698,
-        "id": "ESTA:250450698",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-15T03:49:00.000Z",
-        "updated": "2025-04-15T04:45:00.000Z",
-        "resources": 1,
-        "location": "Lake Wendouree"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.83966282078464,
-          -37.556020189929455
         ]
       }
     }
@@ -4411,7 +4527,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-15T04:52:46.258Z",
-    "featureCount": 424
+    "lastUpdated": "2025-04-15T05:26:40.643Z",
+    "featureCount": 428
   }
 }
