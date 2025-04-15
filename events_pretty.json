@@ -2734,7 +2734,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119192601,
         "feedType": "incident",
         "source": "000",
@@ -2748,7 +2748,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-04-15T17:10:00.000Z",
-        "updated": "2025-04-15T17:10:00.000Z",
+        "updated": "2025-04-15T17:36:00.000Z",
         "resources": 3,
         "location": "St Andrews",
         "cfaId": 216123,
@@ -2766,24 +2766,24 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 119192581,
+        "status": "Under Control",
+        "estaId": 119192674,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216121,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Village Av",
-        "eventId": 250411179,
-        "id": "ESTA:250411179",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250411182",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Devonshire Rd",
+        "eventId": "250411182",
+        "id": "ESTA:250411182",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-15T17:07:00.000Z",
-        "updated": "2025-04-15T17:07:00.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-04-15T17:36:33.000Z",
+        "updated": "2025-04-15T17:36:33.000Z",
         "resources": 2,
-        "location": "Village Av, Traralgon",
-        "cfaId": 216121,
+        "location": "Devonshire Rd, Sunshine",
+        "mfbId": "250411182",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2791,8 +2791,167 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.47093072717738,
-          -38.21986278211839
+          144.84574463010426,
+          -37.78660622362175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119192711,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566295,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250411183,
+        "id": "ESTA:250411183",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-15T17:37:00.000Z",
+        "updated": "2025-04-15T17:43:00.000Z",
+        "resources": 4,
+        "location": "Balliang East",
+        "cfaId": 216124,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 566295
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.40432664218503,
+          -37.803676770087144
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119192720,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216125,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250411184,
+        "id": "ESTA:250411184",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-15T17:39:00.000Z",
+        "updated": "2025-04-15T17:39:00.000Z",
+        "resources": 2,
+        "location": "Myall (Kerang)",
+        "cfaId": 216125,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.97876643095628,
+          -35.5752446125706
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119192738,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216126,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Allan St",
+        "eventId": 250411185,
+        "id": "ESTA:250411185",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-15T17:44:00.000Z",
+        "updated": "2025-04-15T17:44:00.000Z",
+        "resources": 0,
+        "location": "Allan St, Kyabram",
+        "cfaId": 216126,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03323216609078,
+          -36.31364284341164
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119192738,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566296,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450722,
+        "id": "ESTA:250450722",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-04-15T17:44:00.000Z",
+        "updated": "2025-04-15T17:48:00.000Z",
+        "resources": 0,
+        "location": "Kyabram",
+        "sesId": 566296
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03323216609078,
+          -36.31364284341164
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119192743,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216127,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Geelong-Bacchus Marsh Rd",
+        "eventId": 250411186,
+        "id": "ESTA:250411186",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-15T17:45:00.000Z",
+        "updated": "2025-04-15T17:45:00.000Z",
+        "resources": 0,
+        "location": "Geelong-Bacchus Marsh Rd, Balliang East",
+        "cfaId": 216127,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4068723042157,
+          -37.800705211051984
         ]
       }
     },
@@ -3579,35 +3738,6 @@
           -35.7725868219999
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 216122,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216122,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heaths Rd",
-        "eventId": 250411180,
-        "id": "ESTA:250411180",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-15T17:10:00.000Z",
-        "updated": "2025-04-15T17:10:00.000Z",
-        "resources": 3,
-        "location": "Heaths Rd, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68001591239218,
-          -37.87699885753065
-        ]
-      }
     }
   ],
   "properties": {
@@ -3837,7 +3967,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-15T17:24:06.259Z",
-    "featureCount": 412
+    "lastUpdated": "2025-04-15T17:50:06.130Z",
+    "featureCount": 416
   }
 }
