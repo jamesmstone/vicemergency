@@ -2579,31 +2579,30 @@
     },
     {
       "properties": {
-        "status": "Complete",
+        "status": "Unknown",
         "estaId": 119233958,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566465,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450874,
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119233958,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Balliang",
+        "eventId": "S250450874",
         "id": "ESTA:250450874",
         "suppress": false,
         "category1": "Building Damage",
         "category2": "Building Damage",
-        "created": "2025-04-18T19:12:00.000Z",
-        "updated": "2025-04-18T19:14:00.000Z",
+        "created": "2025-04-18T19:09:04.000Z",
+        "updated": "2025-04-18T19:14:13.236Z",
         "resources": 0,
-        "location": "Balliang",
-        "sesId": 566465
+        "location": "Balliang"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.38762250780502,
-          -37.85708386366163
+          144.38763352713428,
+          -37.857075514530976
         ]
       }
     },
@@ -2636,6 +2635,96 @@
         "coordinates": [
           144.38762250780502,
           -37.85708386366163
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119234008,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566466,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450875,
+        "id": "ESTA:250450875",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-18T19:28:00.000Z",
+        "updated": "2025-04-18T19:29:00.000Z",
+        "resources": 0,
+        "location": "Narbethong",
+        "sesId": 566466
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64279160369836,
+          -37.591567814697996
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597808",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Rangemore Rd, Burraboi",
+        "id": "2025-04-19T01:59:00.0000000:597808",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Rangemore Rd, Burraboi",
+        "location": "Rangemore Rd, Burraboi 2732",
+        "created": "2025-04-19T01:59:00+10:00",
+        "updated": "2025-04-19T01:59:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.343139648,
+          -35.326560974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "599296",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Langmans Fire, Gulpa",
+        "id": "2025-04-18T19:03:00.0000000:599296",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Langmans Fire, Gulpa",
+        "location": "Taylors Bridge Road",
+        "created": "2025-04-18T19:03:00+10:00",
+        "updated": "2025-04-18T19:03:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "1 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.940954108,
+          -35.734564866
         ]
       }
     },
@@ -3791,66 +3880,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597808",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Rangemore Rd, Burraboi",
-        "id": "2025-04-19T01:59:00.0000000:597808",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Rangemore Rd, Burraboi",
-        "location": "Rangemore Rd, Burraboi 2732",
-        "created": "2025-04-19T01:59:00+10:00",
-        "updated": "2025-04-19T01:59:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.343139648,
-          -35.326560974
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "599296",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Langmans Fire, Gulpa",
-        "id": "2025-04-18T19:03:00.0000000:599296",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Langmans Fire, Gulpa",
-        "location": "Taylors Bridge Road",
-        "created": "2025-04-18T19:03:00+10:00",
-        "updated": "2025-04-18T19:03:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "1 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.940954108,
-          -35.734564866
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 216605,
         "feedType": "incident",
@@ -4136,7 +4165,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-18T19:19:46.368Z",
-    "featureCount": 411
+    "lastUpdated": "2025-04-18T19:30:40.528Z",
+    "featureCount": 412
   }
 }
