@@ -1235,32 +1235,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1636927",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Kirip Road, Glencoe",
-        "id": "1636927",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Kirip Road, Glencoe",
-        "created": "2025-04-18T18:39:00.000Z",
-        "updated": "2025-04-18T18:39:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Kirip Road, Glencoe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.595218205007,
-          -37.670408459872
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2605,61 +2579,63 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Complete",
+        "estaId": 119233958,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597808",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Rangemore Rd, Burraboi",
-        "id": "2025-04-19T01:59:00.0000000:597808",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Rangemore Rd, Burraboi",
-        "location": "Rangemore Rd, Burraboi 2732",
-        "created": "2025-04-19T01:59:00+10:00",
-        "updated": "2025-04-19T01:59:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566465,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450874,
+        "id": "ESTA:250450874",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-04-18T19:12:00.000Z",
+        "updated": "2025-04-18T19:14:00.000Z",
+        "resources": 0,
+        "location": "Balliang",
+        "sesId": 566465
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.343139648,
-          -35.326560974
+          144.38762250780502,
+          -37.85708386366163
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "estaId": 119233958,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "599296",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Langmans Fire, Gulpa",
-        "id": "2025-04-18T19:03:00.0000000:599296",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Langmans Fire, Gulpa",
-        "location": "Taylors Bridge Road",
-        "created": "2025-04-18T19:03:00+10:00",
-        "updated": "2025-04-18T19:03:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "1 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216650,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250414068,
+        "id": "ESTA:250414068",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-18T19:12:00.000Z",
+        "updated": "2025-04-18T19:17:00.000Z",
+        "resources": 0,
+        "location": "Balliang",
+        "cfaId": 216650,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.940954108,
-          -35.734564866
+          144.38762250780502,
+          -37.85708386366163
         ]
       }
     },
@@ -3815,6 +3791,66 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597808",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Rangemore Rd, Burraboi",
+        "id": "2025-04-19T01:59:00.0000000:597808",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Rangemore Rd, Burraboi",
+        "location": "Rangemore Rd, Burraboi 2732",
+        "created": "2025-04-19T01:59:00+10:00",
+        "updated": "2025-04-19T01:59:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.343139648,
+          -35.326560974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "599296",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Langmans Fire, Gulpa",
+        "id": "2025-04-18T19:03:00.0000000:599296",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Langmans Fire, Gulpa",
+        "location": "Taylors Bridge Road",
+        "created": "2025-04-18T19:03:00+10:00",
+        "updated": "2025-04-18T19:03:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "1 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.940954108,
+          -35.734564866
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 216605,
         "feedType": "incident",
@@ -3845,7 +3881,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 216649,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3857,8 +3893,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-04-18T17:25:00.000Z",
-        "updated": "2025-04-18T18:33:00.000Z",
-        "resources": 1,
+        "updated": "2025-04-18T18:58:00.000Z",
+        "resources": 0,
         "location": "Pine Av, Dimboola",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4100,7 +4136,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-18T18:52:00.502Z",
-    "featureCount": 410
+    "lastUpdated": "2025-04-18T19:19:46.368Z",
+    "featureCount": 411
   }
 }
