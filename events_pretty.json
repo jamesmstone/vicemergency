@@ -1181,7 +1181,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1006905,
@@ -1191,8 +1191,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-18T03:44:00.000Z",
-        "updated": "2025-04-18T10:08:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-19T04:31:00.000Z",
+        "resources": 1,
         "size": "19.00",
         "sizeFmt": "19.00 Ha.",
         "location": "Benambra - Kelly Rd"
@@ -1203,6 +1203,32 @@
         "coordinates": [
           147.6283,
           -36.8733
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1636997",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Dunstone Rd/Evans Rd , Barmera",
+        "id": "1636997",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Dunstone Rd/Evans Rd , Barmera",
+        "created": "2025-04-19T05:17:00.000Z",
+        "updated": "2025-04-19T05:17:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Dunstone Rd/Evans Rd , Barmera"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.461406240268,
+          -34.2653581090286
         ]
       }
     },
@@ -2608,89 +2634,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119238342,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250414442",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mcfarland Rd",
-        "eventId": "250414442",
-        "id": "ESTA:250414442",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-19T04:36:38.000Z",
-        "updated": "2025-04-19T04:36:38.000Z",
-        "resources": 2,
-        "location": "Mcfarland Rd, Wodonga",
-        "cfaId": 216717,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250414442"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.86870087136782,
-          -36.13138573310742
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 119238484,
+        "estaId": 119238793,
         "feedType": "incident",
-        "source": "000",
+        "source": "OTHER",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 216719,
+        "sourceId": 216723,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250414453,
-        "id": "ESTA:250414453",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-19T04:40:00.000Z",
-        "updated": "2025-04-19T04:40:00.000Z",
-        "resources": 2,
-        "location": "Katandra",
-        "cfaId": 216719,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.63159194981247,
-          -36.263703205641846
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119238184,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216715,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Macedon Rd",
-        "eventId": 250414429,
-        "id": "ESTA:250414429",
+        "sourceTitle": "Lansell Av",
+        "eventId": 250414475,
+        "id": "ESTA:250414475",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-04-19T04:13:00.000Z",
-        "updated": "2025-04-19T04:41:00.000Z",
-        "resources": 2,
-        "location": "Mt Macedon Rd, Mount Macedon",
-        "cfaId": 216715,
+        "created": "2025-04-19T05:11:00.000Z",
+        "updated": "2025-04-19T05:11:00.000Z",
+        "resources": 1,
+        "location": "Lansell Av, Officer",
+        "cfaId": 216723,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2698,40 +2659,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.5906458485792,
-          -37.36941822617706
+          145.43047608781262,
+          -38.06257754188064
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119238799,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566501,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450912,
+        "id": "ESTA:250450912",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-19T05:12:00.000Z",
+        "updated": "2025-04-19T05:21:00.000Z",
+        "resources": 0,
+        "location": "Harcourt",
+        "sesId": 566501
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2637691857095,
+          -37.00494892896834
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119238373,
+        "estaId": 119237907,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250414446",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bond St",
-        "eventId": "250414446",
-        "id": "ESTA:250414446",
+        "source": "PHONE",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119237907,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "East Warburton",
+        "eventId": "F250414406",
+        "id": "ESTA:250414406",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-19T04:41:24.000Z",
-        "updated": "2025-04-19T04:41:24.000Z",
-        "resources": 1,
-        "location": "Bond St, Ringwood",
-        "mfbId": "250414446",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Other",
+        "created": "2025-04-19T03:45:48.000Z",
+        "updated": "2025-04-19T05:15:19.430Z",
+        "resources": 0,
+        "location": "Whitegum Dr, East Warburton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22528359698856,
-          -37.81418195449434
+          145.77153623703842,
+          -37.721426232496775
         ]
       }
     },
@@ -2752,7 +2740,7 @@
         "category2": "Other",
         "created": "2025-04-19T04:28:00.000Z",
         "updated": "2025-04-19T04:43:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Rowallan Av, Harkaway",
         "cfaId": 216718,
         "size": "Small",
@@ -2769,24 +2757,57 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 119238331,
+        "status": "Under Control",
+        "estaId": 119238590,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216716,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250414441,
-        "id": "ESTA:250414441",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414460",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Strong St",
+        "eventId": "250414460",
+        "id": "ESTA:250414460",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-19T04:26:00.000Z",
-        "updated": "2025-04-19T04:26:00.000Z",
-        "resources": 3,
-        "location": "Poowong North",
-        "cfaId": 216716,
+        "category2": "Structure Fire",
+        "created": "2025-04-19T05:17:38.000Z",
+        "updated": "2025-04-19T05:17:38.000Z",
+        "resources": 6,
+        "location": "Strong St, Terang",
+        "cfaId": 216720,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250414460"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.92111021795702,
+          -38.24362409175933
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119238850,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414481",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kensington Rd",
+        "eventId": "250414481",
+        "id": "ESTA:250414481",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-19T05:20:24.000Z",
+        "updated": "2025-04-19T05:20:24.000Z",
+        "resources": 1,
+        "location": "Kensington Rd, Kensington",
+        "mfbId": "250414481",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2794,38 +2815,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8081467811549,
-          -38.28152226182685
+          144.9253326725626,
+          -37.79569229721556
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "estaId": 119238916,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "597808",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Rangemore Rd, Burraboi",
-        "id": "2025-04-19T01:59:00.0000000:597808",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Rangemore Rd, Burraboi",
-        "location": "Rangemore Rd, Burraboi 2732",
-        "created": "2025-04-19T01:59:00+10:00",
-        "updated": "2025-04-19T01:59:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414489",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "South Rd",
+        "eventId": "250414489",
+        "id": "ESTA:250414489",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-04-19T05:23:53.000Z",
+        "updated": "2025-04-19T05:23:53.000Z",
+        "resources": 2,
+        "location": "South Rd, Bentleigh",
+        "mfbId": "250414489",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.343139648,
-          -35.326560974
+          145.03855068210962,
+          -37.93328071011305
         ]
       }
     },
@@ -2856,6 +2879,36 @@
         "coordinates": [
           148.959197998,
           -37.033519745
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "599434",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Nineteen Mile Rd, Moama",
+        "id": "2025-04-19T15:07:00.0000000:599434",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Nineteen Mile Rd, Moama",
+        "location": "Nineteen Mile Rd, Moama 2731",
+        "created": "2025-04-19T15:07:00+10:00",
+        "updated": "2025-04-19T15:07:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.527679443,
+          -35.9407501219999
         ]
       }
     },
@@ -4089,21 +4142,51 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "597808",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Rangemore Rd, Burraboi",
+        "id": "2025-04-19T01:59:00.0000000:597808",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Rangemore Rd, Burraboi",
+        "location": "Rangemore Rd, Burraboi 2732",
+        "created": "2025-04-19T01:59:00+10:00",
+        "updated": "2025-04-19T01:59:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.343139648,
+          -35.326560974
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
-        "cfaId": 216713,
+        "cfaId": 216717,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 216713,
+        "sourceId": 216717,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mclennan St",
-        "eventId": 250414415,
-        "id": "ESTA:250414415",
+        "sourceTitle": "Mcfarland Rd",
+        "eventId": 250414442,
+        "id": "ESTA:250414442",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-19T03:53:00.000Z",
-        "updated": "2025-04-19T04:06:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-04-19T04:27:00.000Z",
+        "updated": "2025-04-19T04:37:00.000Z",
         "resources": 0,
-        "location": "Mclennan St, Mooroopna",
+        "location": "Mcfarland Rd, Wodonga",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4111,87 +4194,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.36128917732722,
-          -36.39450113565634
+          146.86868998364204,
+          -36.131392994215595
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 216712,
+        "status": "Under Control",
+        "cfaId": 216716,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 216712,
+        "sourceId": 216716,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Whitegum Dr",
-        "eventId": 250414406,
-        "id": "ESTA:250414406",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-19T03:47:00.000Z",
-        "updated": "2025-04-19T04:12:00.000Z",
-        "resources": 0,
-        "location": "Whitegum Dr, East Warburton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.77152096107517,
-          -37.72142985002093
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 216714,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566497,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250414418,
-        "id": "ESTA:250414418",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-04-19T04:02:00.000Z",
-        "updated": "2025-04-19T04:28:00.000Z",
-        "resources": 3,
-        "location": "Berwick",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 566497
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.33427681055764,
-          -38.05939687170959
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 216698,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216698,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Longview Ct",
-        "eventId": 250414319,
-        "id": "ESTA:250414319",
+        "sourceTitle": "",
+        "eventId": 250414441,
+        "id": "ESTA:250414441",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-04-19T02:11:00.000Z",
-        "updated": "2025-04-19T04:22:00.000Z",
-        "resources": 2,
-        "location": "Longview Ct, Pyalong",
+        "created": "2025-04-19T04:26:00.000Z",
+        "updated": "2025-04-19T04:51:00.000Z",
+        "resources": 3,
+        "location": "Poowong North",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4199,8 +4223,124 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.85230977890552,
-          -37.10588465559953
+          145.8081467811549,
+          -38.28152226182685
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 216715,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216715,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mt Macedon Rd",
+        "eventId": 250414429,
+        "id": "ESTA:250414429",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-19T04:13:00.000Z",
+        "updated": "2025-04-19T04:51:00.000Z",
+        "resources": 0,
+        "location": "Mt Macedon Rd, Mount Macedon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5906458485792,
+          -37.36941822617706
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 216722,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216722,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250414465,
+        "id": "ESTA:250414465",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-19T04:56:00.000Z",
+        "updated": "2025-04-19T05:05:00.000Z",
+        "resources": 0,
+        "location": "Noble Park",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17345824748398,
+          -37.965159323566965
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 216719,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216719,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250414453,
+        "id": "ESTA:250414453",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-19T04:40:00.000Z",
+        "updated": "2025-04-19T05:10:00.000Z",
+        "resources": 3,
+        "location": "Katandra",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.63159194981247,
+          -36.263703205641846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 216721,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216721,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250414462,
+        "id": "ESTA:250414462",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-19T04:54:00.000Z",
+        "updated": "2025-04-19T05:12:00.000Z",
+        "resources": 0,
+        "location": "Colac",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58446283379715,
+          -38.34100763296657
         ]
       }
     },
@@ -4219,7 +4359,7 @@
         "category2": "Structure Fire",
         "created": "2025-04-19T04:23:29.000Z",
         "updated": "2025-04-19T04:23:29.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Townhall Av, Preston"
@@ -4461,7 +4601,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-19T04:50:26.525Z",
-    "featureCount": 418
+    "lastUpdated": "2025-04-19T05:25:40.344Z",
+    "featureCount": 423
   }
 }
