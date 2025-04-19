@@ -1360,6 +1360,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1636979",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Glencoe",
+        "id": "1636979",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Glencoe",
+        "created": "2025-04-19T03:47:00.000Z",
+        "updated": "2025-04-19T03:47:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Glencoe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.594653668986,
+          -37.6701404137375
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2483,34 +2509,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
-        "sourceId": 3020964,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Tatong - Triangle Road",
-        "id": 3020964,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-04-12T00:19:07.000Z",
-        "updated": "2025-04-12T00:19:07.000Z",
-        "resources": 0,
-        "size": "252.56",
-        "sizeFmt": "252.56 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "8Km Se Of Tatong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.1818827,
-          -36.7724409
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
         "sourceId": 3021088,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Bulleen - Bolin Bolin Billabong",
@@ -2788,7 +2786,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 119237600,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566495,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250450906,
+        "id": "ESTA:250450906",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-19T03:18:00.000Z",
+        "updated": "2025-04-19T03:42:00.000Z",
+        "resources": 0,
+        "location": "Kangaroo Ground",
+        "sesId": 566495
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24626242982242,
+          -37.674842665702826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119237726,
         "feedType": "incident",
         "source": "000",
@@ -2802,8 +2830,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-19T03:29:00.000Z",
-        "updated": "2025-04-19T03:29:00.000Z",
-        "resources": 0,
+        "updated": "2025-04-19T03:44:00.000Z",
+        "resources": 2,
         "location": "Hunts Rd, Willow Grove",
         "cfaId": 216709,
         "size": "Small",
@@ -2820,37 +2848,39 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119237129,
+        "status": "Safe",
+        "estaId": 119237797,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566493,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450901,
-        "id": "ESTA:250450901",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414399",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Georges Rd",
+        "eventId": "250414399",
+        "id": "ESTA:250414399",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-04-19T02:32:00.000Z",
-        "updated": "2025-04-19T03:31:00.000Z",
-        "resources": 0,
-        "location": "Altona North",
-        "sesId": 566493
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-19T03:44:58.000Z",
+        "updated": "2025-04-19T03:44:58.000Z",
+        "resources": 2,
+        "location": "St Georges Rd, Preston",
+        "mfbId": "250414399",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8482636730824,
-          -37.83160551233298
+          145.00052191401988,
+          -37.73868086473798
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119237755,
         "feedType": "incident",
         "source": "000",
@@ -2863,9 +2893,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-04-19T03:33:06.000Z",
-        "updated": "2025-04-19T03:33:06.000Z",
-        "resources": 1,
+        "created": "2025-04-19T03:46:14.000Z",
+        "updated": "2025-04-19T03:46:14.000Z",
+        "resources": 3,
         "location": "Hathfelde Bvd, Mernda",
         "cfaId": 216710,
         "size": "Small",
@@ -2883,30 +2913,65 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119237766,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119237766,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Red Cliffs",
-        "eventId": "F250414396",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216711,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray Av",
+        "eventId": 250414396,
         "id": "ESTA:250414396",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-04-19T03:33:19.000Z",
-        "updated": "2025-04-19T03:33:57.960Z",
+        "created": "2025-04-19T03:33:00.000Z",
+        "updated": "2025-04-19T03:47:00.000Z",
         "resources": 0,
-        "location": "Murray Av, Red Cliffs"
+        "location": "Murray Av, Red Cliffs",
+        "cfaId": 216711,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.18372775740386,
-          -34.31155630932014
+          142.1837188622363,
+          -34.311566586299385
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119237907,
+        "feedType": "incident",
+        "source": "PHONE",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 216712,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whitegum Dr",
+        "eventId": 250414406,
+        "id": "ESTA:250414406",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-19T03:47:00.000Z",
+        "updated": "2025-04-19T03:47:00.000Z",
+        "resources": 0,
+        "location": "Whitegum Dr, East Warburton",
+        "cfaId": 216712,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.77152096107517,
+          -37.72142985002093
         ]
       }
     },
@@ -2937,6 +3002,36 @@
         "coordinates": [
           144.343139648,
           -35.326560974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "599408",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Powers Rd, Delegate",
+        "id": "2025-04-19T13:33:00.0000000:599408",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Powers Rd, Delegate",
+        "location": "65 Powers Rd, Delegate 2633",
+        "created": "2025-04-19T13:33:00+10:00",
+        "updated": "2025-04-19T13:33:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.959197998,
+          -37.033519745
         ]
       }
     },
@@ -4171,122 +4266,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 216702,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216702,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Main Neerim Rd",
-        "eventId": 250414327,
-        "id": "ESTA:250414327",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-19T02:16:00.000Z",
-        "updated": "2025-04-19T02:37:00.000Z",
-        "resources": 0,
-        "location": "Main Neerim Rd, Neerim Junction",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.95635161342014,
-          -37.941122256598
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 216705,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216705,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Queen St",
-        "eventId": 250414345,
-        "id": "ESTA:250414345",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-19T02:28:00.000Z",
-        "updated": "2025-04-19T02:42:00.000Z",
-        "resources": 0,
-        "location": "Queen St, Yarra Junction",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.62279049652386,
-          -37.785253658111344
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 216704,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216704,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 250414344,
-        "id": "ESTA:250414344",
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-04-19T02:27:00.000Z",
-        "updated": "2025-04-19T02:48:00.000Z",
-        "resources": 0,
-        "location": "Hume Fwy, Wangaratta South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.24995750513432,
-          -36.439548893364105
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 216703,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 216703,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "The Esplanade -",
-        "eventId": 250414343,
-        "id": "ESTA:250414343",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-19T02:27:00.000Z",
-        "updated": "2025-04-19T02:50:00.000Z",
-        "resources": 0,
-        "location": "The Esplanade -, Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.34388069695478,
-          -38.31674494795381
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 216700,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4357,7 +4336,7 @@
         "category2": "Bushfire",
         "created": "2025-04-19T02:11:00.000Z",
         "updated": "2025-04-19T03:07:00.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Longview Ct, Pyalong",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4402,7 +4381,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "cfaId": 216708,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4414,8 +4393,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-19T03:15:00.000Z",
-        "updated": "2025-04-19T03:15:00.000Z",
-        "resources": 4,
+        "updated": "2025-04-19T03:35:00.000Z",
+        "resources": 2,
         "location": "Scobles Rd, Drummond",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4431,28 +4410,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 566495,
+        "status": "Responding",
+        "mfbId": "250414408",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566495,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250450906,
-        "id": "ESTA:250450906",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-19T03:18:00.000Z",
-        "updated": "2025-04-19T03:26:00.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414408",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hollingsworth Dr",
+        "id": "ESTA:250414408",
+        "eventId": "250414408",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-19T03:49:00.000Z",
+        "updated": "2025-04-19T03:49:00.000Z",
         "resources": 1,
-        "location": "Kangaroo Ground"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Hollingsworth Dr, Cobblebank"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24626242982242,
-          -37.674842665702826
+          144.60228265501672,
+          -37.71400828015083
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250414400",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250414400",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lima St",
+        "id": "ESTA:250414400",
+        "eventId": "250414400",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-19T03:46:14.000Z",
+        "updated": "2025-04-19T03:46:14.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Lima St, St Albans"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.80128384261144,
+          -37.75705937346139
         ]
       }
     },
@@ -4711,7 +4721,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-19T03:34:26.171Z",
+    "lastUpdated": "2025-04-19T03:52:06.918Z",
     "featureCount": 425
   }
 }
