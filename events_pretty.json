@@ -3599,7 +3599,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007116,
@@ -3609,7 +3609,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-04-24T09:30:00.000Z",
-        "updated": "2025-04-24T10:46:00.000Z",
+        "updated": "2025-04-24T11:32:00.000Z",
         "resources": 3,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
@@ -4661,38 +4661,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119305737,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217599,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Curtis St",
-        "eventId": 250418937,
-        "id": "ESTA:250418937",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-24T11:16:00.000Z",
-        "updated": "2025-04-24T11:19:00.000Z",
-        "resources": 0,
-        "location": "Curtis St, Ballarat Central",
-        "cfaId": 217599,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.86200022737367,
-          -37.56150854314903
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 119305792,
         "feedType": "incident",
         "source": "000",
@@ -4724,31 +4692,67 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119305780,
+        "status": "Responding",
+        "estaId": 119305979,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566812,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250451216,
-        "id": "ESTA:250451216",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418946",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wanstead St",
+        "eventId": "250418946",
+        "id": "ESTA:250418946",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-24T11:20:00.000Z",
-        "updated": "2025-04-24T11:31:00.000Z",
-        "resources": 0,
-        "location": "Kalorama",
-        "sesId": 566812
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-24T11:44:30.000Z",
+        "updated": "2025-04-24T11:44:30.000Z",
+        "resources": 2,
+        "location": "Wanstead St, Warrnambool",
+        "cfaId": 217603,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250418946"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.38098474525978,
-          -37.81152265104681
+          142.51584329017254,
+          -38.3811191678954
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119305964,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566814,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250418945,
+        "id": "ESTA:250418945",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-24T11:39:00.000Z",
+        "updated": "2025-04-24T11:47:00.000Z",
+        "resources": 0,
+        "location": "Mount Eccles",
+        "cfaId": 217602,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 566814
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.98393192100468,
+          -38.37251305662559
         ]
       }
     },
@@ -5724,6 +5728,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 217601,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 217601,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nepean Hwy",
+        "eventId": 250418944,
+        "id": "ESTA:250418944",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-24T11:37:00.000Z",
+        "updated": "2025-04-24T11:41:00.000Z",
+        "resources": 0,
+        "location": "Nepean Hwy, Bonbeach",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12079661491256,
+          -38.07055042762753
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 217488,
         "feedType": "incident",
@@ -5753,37 +5786,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 217580,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566808,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250418870,
-        "id": "ESTA:250418870",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-04-24T09:07:00.000Z",
-        "updated": "2025-04-24T09:35:00.000Z",
-        "resources": 7,
-        "location": "Eastern View",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250418870",
-        "sesId": 566808
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.02339670733014,
-          -38.48357562943956
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 217581,
         "feedType": "incident",
@@ -5808,35 +5810,6 @@
         "coordinates": [
           144.20076548053217,
           -37.47827669540118
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 217596,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217596,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Caroline Springs Bvd",
-        "eventId": 250418921,
-        "id": "ESTA:250418921",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-24T10:41:00.000Z",
-        "updated": "2025-04-24T10:47:00.000Z",
-        "resources": 0,
-        "location": "Caroline Springs Bvd, Caroline Springs",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7391164516593,
-          -37.73753480758215
         ]
       }
     },
@@ -5902,60 +5875,57 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "mfbId": "250418929",
+        "status": "Safe",
+        "cfaId": 217599,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566811,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250418929",
-        "eventId": 250418929,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-04-24T11:00:00.000Z",
-        "updated": "2025-04-24T11:17:00.000Z",
-        "resources": 3,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 217599,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Curtis St",
+        "eventId": 250418937,
+        "id": "ESTA:250418937",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T11:16:00.000Z",
+        "updated": "2025-04-24T11:19:00.000Z",
+        "resources": 0,
+        "location": "Curtis St, Ballarat Central",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Kennington",
-        "sesId": 566811
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.303093667529,
-          -36.78960307672547
+          143.86200022737367,
+          -37.56150854314903
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250418885",
+        "status": "On Scene",
+        "sesId": 566808,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418885",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sarton Rd",
-        "id": "ESTA:250418885",
-        "eventId": "250418885",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T10:03:25.000Z",
-        "updated": "2025-04-24T10:03:25.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Sarton Rd, Clayton"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566808,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250418870,
+        "id": "ESTA:250418870",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-04-24T09:07:00.000Z",
+        "updated": "2025-04-24T09:35:00.000Z",
+        "resources": 6,
+        "location": "Eastern View"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14405422233665,
-          -37.920406920891935
+          144.02339670733014,
+          -38.48357562943956
         ]
       }
     },
@@ -5983,6 +5953,33 @@
         "coordinates": [
           145.12702387514918,
           -37.9890130273249
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 566811,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566811,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250418929,
+        "id": "ESTA:250418929",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-04-24T11:00:00.000Z",
+        "updated": "2025-04-24T11:44:00.000Z",
+        "resources": 2,
+        "location": "Kennington"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.303093667529,
+          -36.78960307672547
         ]
       }
     }
@@ -6214,7 +6211,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-24T11:32:40.447Z",
+    "lastUpdated": "2025-04-24T11:50:20.206Z",
     "featureCount": 392
   }
 }
