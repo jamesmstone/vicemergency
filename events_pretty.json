@@ -1871,31 +1871,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119309713,
+        "status": "Responding",
+        "estaId": 119309827,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566826,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250451221,
-        "id": "ESTA:250451221",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250419080",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cranwell St",
+        "eventId": "250419080",
+        "id": "ESTA:250419080",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-24T21:26:00.000Z",
-        "updated": "2025-04-24T21:28:00.000Z",
-        "resources": 0,
-        "location": "Kinglake",
-        "sesId": 566826
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-24T21:49:00.000Z",
+        "updated": "2025-04-24T21:49:00.000Z",
+        "resources": 2,
+        "location": "Cranwell St, Braybrook",
+        "mfbId": "250419080",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35570920576316,
-          -37.52072780166739
+          144.85822608625517,
+          -37.77825117609962
         ]
       }
     },
@@ -3044,6 +3046,33 @@
           -37.660781405895094
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 566826,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 566826,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250451221,
+        "id": "ESTA:250451221",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-24T21:26:00.000Z",
+        "updated": "2025-04-24T21:28:00.000Z",
+        "resources": 0,
+        "location": "Kinglake"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35570920576316,
+          -37.52072780166739
+        ]
+      }
     }
   ],
   "properties": {
@@ -3273,7 +3302,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-24T21:38:06.126Z",
-    "featureCount": 383
+    "lastUpdated": "2025-04-24T21:50:20.081Z",
+    "featureCount": 384
   }
 }
