@@ -837,6 +837,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1637751",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Langkoop Rd/Laurie Park Rd , Koppamurra",
+        "id": "1637751",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Langkoop Rd/Laurie Park Rd , Koppamurra",
+        "created": "2025-04-24T21:03:00.000Z",
+        "updated": "2025-04-24T21:03:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Langkoop Rd/Laurie Park Rd , Koppamurra"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.945215818072,
+          -37.0679968071667
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1845,53 +1871,57 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119309515,
+        "status": "Safe",
+        "estaId": 119309624,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119309515,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Seddon",
-        "eventId": "F250419043",
-        "id": "ESTA:250419043",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250419057",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Carrum Downs",
+        "eventId": "250419057",
+        "id": "ESTA:250419057",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T20:39:24.000Z",
-        "updated": "2025-04-24T20:40:09.794Z",
-        "resources": 0,
-        "location": "Station Rd, Seddon"
+        "category2": "Non Structure Fire",
+        "created": "2025-04-24T21:20:09.000Z",
+        "updated": "2025-04-24T21:20:09.000Z",
+        "resources": 3,
+        "location": "Carrum Downs, Carrum Downs",
+        "cfaId": 217634,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250419057"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88989654582264,
-          -37.80691200795092
+          145.17281818588165,
+          -38.09944613085132
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119309538,
+        "estaId": 119309688,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217632,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Junee Ct",
-        "eventId": 250419048,
-        "id": "ESTA:250419048",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250419064",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Kilda Rd",
+        "eventId": "250419064",
+        "id": "ESTA:250419064",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-24T20:46:00.000Z",
-        "updated": "2025-04-24T20:46:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-04-24T21:20:48.000Z",
+        "updated": "2025-04-24T21:20:48.000Z",
         "resources": 0,
-        "location": "Junee Ct, Hastings",
-        "cfaId": 217632,
+        "location": "St Kilda Rd, Melbourne",
+        "mfbId": "250419064",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1899,8 +1929,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17811751653835,
-          -38.29583139261406
+          144.9760509811557,
+          -37.83888020027402
         ]
       }
     },
@@ -1931,6 +1961,36 @@
         "coordinates": [
           142.224319458,
           -34.1707572939999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "600027",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Ebert St, Hamilton Valley",
+        "id": "2025-04-25T07:16:00.0000000:600027",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Ebert St, Hamilton Valley",
+        "location": "808 Ebert St, Hamilton Valley 2641",
+        "created": "2025-04-25T07:16:00+10:00",
+        "updated": "2025-04-25T07:16:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.912017822,
+          -36.0282402039999
         ]
       }
     },
@@ -2889,7 +2949,7 @@
         "category2": "Bushfire",
         "created": "2025-04-24T02:05:00.000Z",
         "updated": "2025-04-24T07:00:00.000Z",
-        "resources": 29,
+        "resources": 33,
         "location": "Burke And Wills Trk, Benloch",
         "size": "Large",
         "sizeFmt": "Large"
@@ -2935,20 +2995,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 217629,
+        "cfaId": 217632,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 217629,
+        "sourceId": 217632,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250419025,
-        "id": "ESTA:250419025",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-24T19:46:00.000Z",
-        "updated": "2025-04-24T19:59:00.000Z",
+        "sourceTitle": "Junee Ct",
+        "eventId": 250419048,
+        "id": "ESTA:250419048",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-24T20:46:00.000Z",
+        "updated": "2025-04-24T20:58:00.000Z",
         "resources": 0,
-        "location": "Cardigan Village",
+        "location": "Junee Ct, Hastings",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2956,124 +3016,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.7053914211605,
-          -37.51502173907169
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 217630,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217630,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Silverwoods Bvd",
-        "eventId": 250419032,
-        "id": "ESTA:250419032",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-24T20:02:00.000Z",
-        "updated": "2025-04-24T20:20:00.000Z",
-        "resources": 0,
-        "location": "Silverwoods Bvd, Yarrawonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0383096842009,
-          -36.00194699379295
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250419041",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250419041",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hoffmans Rd",
-        "id": "ESTA:250419041",
-        "eventId": "250419041",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-24T20:47:29.000Z",
-        "updated": "2025-04-24T20:47:29.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Hoffmans Rd, Essendon West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88944738061775,
-          -37.752550803277735
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250419035",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250419035",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Station St",
-        "id": "ESTA:250419035",
-        "eventId": "250419035",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-24T20:22:23.000Z",
-        "updated": "2025-04-24T20:22:23.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Station St, Highett"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04337174070616,
-          -37.949505252355195
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250419042",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250419042",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Station Rd",
-        "id": "ESTA:250419042",
-        "eventId": "250419042",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-24T20:38:42.000Z",
-        "updated": "2025-04-24T20:38:42.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Station Rd, Seddon"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88989019193997,
-          -37.80691861417326
+          145.17829701976163,
+          -38.29596935173321
         ]
       }
     },
@@ -3092,7 +3036,7 @@
         "category2": "Structure Fire",
         "created": "2025-04-24T19:56:49.000Z",
         "updated": "2025-04-24T19:56:49.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Balook Ct, Meadow Heights"
@@ -3103,35 +3047,6 @@
         "coordinates": [
           144.91367812316258,
           -37.660781405895094
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250419009",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250419009",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rosamond Rd",
-        "id": "ESTA:250419009",
-        "eventId": "250419009",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T19:12:13.000Z",
-        "updated": "2025-04-24T19:12:13.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Rosamond Rd, Maribyrnong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88636413368775,
-          -37.77292007092468
         ]
       }
     }
@@ -3363,7 +3278,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-24T20:50:28.506Z",
-    "featureCount": 386
+    "lastUpdated": "2025-04-24T21:25:40.271Z",
+    "featureCount": 383
   }
 }
