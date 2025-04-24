@@ -3381,7 +3381,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 838970,
@@ -3390,8 +3390,8 @@
         "id": 838970,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-04-24T02:03:17.000Z",
-        "updated": "2025-04-24T02:03:17.000Z",
+        "created": "2025-04-24T05:45:02.000Z",
+        "updated": "2025-04-24T05:45:02.000Z",
         "resources": 0,
         "size": "414.65",
         "sizeFmt": "414.65 Ha.",
@@ -4969,56 +4969,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119298967,
+        "status": "Responding",
+        "estaId": 119301753,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 217485,
+        "sourceId": 217536,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Western Port Hwy",
-        "eventId": 250418345,
-        "id": "ESTA:250418345",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-24T02:02:00.000Z",
-        "updated": "2025-04-24T04:49:00.000Z",
-        "resources": 0,
-        "location": "Western Port Hwy, Skye",
-        "cfaId": 217485,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2371438769622,
-          -38.08696169935551
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119300933,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217526,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Old Sale Rd",
-        "eventId": 250418554,
-        "id": "ESTA:250418554",
+        "sourceTitle": "",
+        "eventId": 250418631,
+        "id": "ESTA:250418631",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-04-24T04:32:00.000Z",
-        "updated": "2025-04-24T05:13:00.000Z",
-        "resources": 1,
-        "location": "Old Sale Rd, Shady Creek",
-        "cfaId": 217526,
+        "created": "2025-04-24T05:33:00.000Z",
+        "updated": "2025-04-24T05:33:00.000Z",
+        "resources": 2,
+        "location": "Pimpinio",
+        "cfaId": 217536,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5026,30 +4994,123 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.04617266367768,
-          -38.09261092670884
+          142.1248427626146,
+          -36.59367695214207
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119301774,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119301774,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bright",
+        "eventId": "S250451202",
+        "id": "ESTA:250451202",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T05:35:00.000Z",
+        "updated": "2025-04-24T05:35:30.201Z",
+        "resources": 0,
+        "location": "Coronation Av, Bright"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9759145119485,
+          -36.74187171344912
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119300446,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 217521,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "High St",
+        "eventId": 250418508,
+        "id": "ESTA:250418508",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-24T03:54:00.000Z",
+        "updated": "2025-04-24T04:53:00.000Z",
+        "resources": 0,
+        "location": "High St, Fryerstown",
+        "cfaId": 217521,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.25352330764636,
+          -37.13703651084823
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119301801,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418635",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Thomas Holmes St",
+        "eventId": "250418635",
+        "id": "ESTA:250418635",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-24T05:39:51.000Z",
+        "updated": "2025-04-24T05:39:51.000Z",
+        "resources": 2,
+        "location": "Thomas Holmes St, Maribyrnong",
+        "mfbId": "250418635",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89298903180438,
+          -37.783864524888365
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119301448,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250418603",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Maddingley",
+        "sourceTitle": "Parwan Rd",
         "eventId": "250418603",
         "id": "ESTA:250418603",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T05:15:05.000Z",
-        "updated": "2025-04-24T05:15:05.000Z",
-        "resources": 6,
-        "location": "Maddingley, Maddingley",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-24T05:43:21.000Z",
+        "updated": "2025-04-24T05:43:21.000Z",
+        "resources": 5,
+        "location": "Parwan Rd, Maddingley",
         "cfaId": 217533,
         "size": "Small",
         "sizeFmt": "Small",
@@ -5059,191 +5120,96 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.43482764663926,
-          -37.68916005995891
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119301401,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418598",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brunswick East",
-        "eventId": "250418598",
-        "id": "ESTA:250418598",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-24T05:15:06.000Z",
-        "updated": "2025-04-24T05:15:06.000Z",
-        "resources": 1,
-        "location": "Brunswick East, Brunswick East",
-        "mfbId": "250418598",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9751786540218,
-          -37.762249180831155
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119301532,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418615",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "High St",
-        "eventId": "250418615",
-        "id": "ESTA:250418615",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-24T05:17:48.000Z",
-        "updated": "2025-04-24T05:17:48.000Z",
-        "resources": 1,
-        "location": "High St, Kew East",
-        "mfbId": "250418615",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04963316069816,
-          -37.799579611447854
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119301542,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418616",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Malvern East",
-        "eventId": "250418616",
-        "id": "ESTA:250418616",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-04-24T05:21:00.000Z",
-        "updated": "2025-04-24T05:21:00.000Z",
-        "resources": 1,
-        "location": "Malvern East, Malvern East",
-        "mfbId": "250418616",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09023632467768,
-          -37.8828708865324
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119301552,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418617",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wright St",
-        "eventId": "250418617",
-        "id": "ESTA:250418617",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T05:21:56.000Z",
-        "updated": "2025-04-24T05:21:56.000Z",
-        "resources": 2,
-        "location": "Wright St, Sunshine",
-        "mfbId": "250418617",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.83188434639686,
-          -37.795940126968475
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119301579,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418619",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chisholm St",
-        "eventId": "250418619",
-        "id": "ESTA:250418619",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-04-24T05:21:56.000Z",
-        "updated": "2025-04-24T05:21:56.000Z",
-        "resources": 1,
-        "location": "Chisholm St, Warrnambool",
-        "mfbId": "250418619",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.47309498330796,
-          -38.36632087630699
+          144.433760823637,
+          -37.687776392188
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 119301460,
+        "estaId": 119299011,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 217488,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burke And Wills Trk",
+        "eventId": 250418353,
+        "id": "ESTA:250418353",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-24T02:05:00.000Z",
+        "updated": "2025-04-24T05:41:00.000Z",
+        "resources": 52,
+        "location": "Burke And Wills Trk, Benloch",
+        "cfaId": 217488,
+        "size": "Large",
+        "sizeFmt": "Large"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6675011981953,
+          -37.194604040279195
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119300357,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250418607",
+        "sourceId": "250418504",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ballarat Rd",
-        "eventId": "250418607",
-        "id": "ESTA:250418607",
+        "sourceTitle": "Willis Rd",
+        "eventId": "250418504",
+        "id": "ESTA:250418504",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-24T05:48:07.000Z",
+        "updated": "2025-04-24T05:48:07.000Z",
+        "resources": 5,
+        "location": "Willis Rd, Huntly",
+        "cfaId": 217519,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250418504"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35516038148202,
+          -36.65154233345111
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119301936,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418645",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heidelberg West",
+        "eventId": "250418645",
+        "id": "ESTA:250418645",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-04-24T05:26:09.000Z",
-        "updated": "2025-04-24T05:26:09.000Z",
+        "created": "2025-04-24T05:48:09.000Z",
+        "updated": "2025-04-24T05:48:09.000Z",
         "resources": 2,
-        "location": "Ballarat Rd, Footscray",
-        "mfbId": "250418607",
+        "location": "Heidelberg West, Heidelberg West",
+        "mfbId": "250418645",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5251,38 +5217,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9112307148959,
-          -37.79538535781259
+          145.04282132279528,
+          -37.74164662158607
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119301114,
+        "status": "Responding",
+        "estaId": 119301983,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566794,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250451198,
-        "id": "ESTA:250451198",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119301983,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Shepparton",
+        "eventId": "F250418646",
+        "id": "ESTA:250418646",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-04-24T04:45:00.000Z",
-        "updated": "2025-04-24T05:26:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T05:49:04.000Z",
+        "updated": "2025-04-24T05:49:51.928Z",
         "resources": 0,
-        "location": "Kerrie",
-        "sesId": 566794
+        "location": "Bowe St, Shepparton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.655602167198,
-          -37.365866949828394
+          145.39872944913907,
+          -36.37266735189796
         ]
       }
     },
@@ -6289,94 +6254,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 217519,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250418504",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Willis Rd",
-        "eventId": "250418504",
-        "id": "ESTA:250418504",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-24T04:39:12.000Z",
-        "updated": "2025-04-24T04:39:12.000Z",
-        "resources": 7,
-        "location": "Willis Rd, Huntly",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250418504"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.35516038148202,
-          -36.65154233345111
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 217527,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217527,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Healesville-Kinglake Rd",
-        "eventId": 250418558,
-        "id": "ESTA:250418558",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-24T04:34:00.000Z",
-        "updated": "2025-04-24T04:49:00.000Z",
-        "resources": 0,
-        "location": "Healesville-Kinglake Rd, Toolangi",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.47068985262098,
-          -37.53549472433272
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 217521,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 217521,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "High St",
-        "eventId": 250418508,
-        "id": "ESTA:250418508",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-24T03:54:00.000Z",
-        "updated": "2025-04-24T04:53:00.000Z",
-        "resources": 0,
-        "location": "High St, Fryerstown",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.25352330764636,
-          -37.13703651084823
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 217523,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -6389,7 +6266,7 @@
         "category2": "Bushfire",
         "created": "2025-04-24T04:04:00.000Z",
         "updated": "2025-04-24T05:07:00.000Z",
-        "resources": 10,
+        "resources": 11,
         "location": "Warrenbayne",
         "size": "Small",
         "sizeFmt": "Small"
@@ -6434,30 +6311,30 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 217488,
+        "status": "Safe",
+        "cfaId": 217526,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 217488,
+        "sourceId": 217526,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Burke And Wills Trk",
-        "eventId": 250418353,
-        "id": "ESTA:250418353",
+        "sourceTitle": "Old Sale Rd",
+        "eventId": 250418554,
+        "id": "ESTA:250418554",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-04-24T02:05:00.000Z",
-        "updated": "2025-04-24T05:19:00.000Z",
-        "resources": 53,
-        "location": "Burke And Wills Trk, Benloch",
-        "size": "Large",
-        "sizeFmt": "Large"
+        "created": "2025-04-24T04:32:00.000Z",
+        "updated": "2025-04-24T05:13:00.000Z",
+        "resources": 0,
+        "location": "Old Sale Rd, Shady Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6675011981953,
-          -37.194604040279195
+          146.04617266367768,
+          -38.09261092670884
         ]
       }
     },
@@ -6494,6 +6371,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "mfbId": "250418629",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418629",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mickleham Rd",
+        "id": "ESTA:250418629",
+        "eventId": "250418629",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T05:44:56.000Z",
+        "updated": "2025-04-24T05:44:56.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mickleham Rd, Mickleham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87853091379074,
+          -37.554595067656415
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "mfbId": "250418608",
         "feedType": "incident",
@@ -6524,6 +6430,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250418616",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418616",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Malvern East",
+        "id": "ESTA:250418616",
+        "eventId": "250418616",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T05:29:00.000Z",
+        "updated": "2025-04-24T05:29:00.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Malvern East, Malvern East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09023632467768,
+          -37.8828708865324
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250418489",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -6547,6 +6482,64 @@
         "coordinates": [
           145.09588844506158,
           -37.69690635729415
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250418598",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418598",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brunswick East",
+        "id": "ESTA:250418598",
+        "eventId": "250418598",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-24T05:15:06.000Z",
+        "updated": "2025-04-24T05:15:06.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Brunswick East, Brunswick East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9751786540218,
+          -37.762249180831155
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250418615",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250418615",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "High St",
+        "id": "ESTA:250418615",
+        "eventId": "250418615",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-24T05:27:43.000Z",
+        "updated": "2025-04-24T05:27:43.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "High St, Kew East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04963316069816,
+          -37.799579611447854
         ]
       }
     },
@@ -6709,33 +6702,6 @@
         "coordinates": [
           144.88702851119004,
           -37.682893264948035
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 566796,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 566796,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250418599,
-        "id": "ESTA:250418599",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-04-24T05:09:00.000Z",
-        "updated": "2025-04-24T05:24:00.000Z",
-        "resources": 2,
-        "location": "Mildura"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1589135129161,
-          -34.18602253201503
         ]
       }
     }
@@ -6967,7 +6933,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-24T05:27:06.687Z",
-    "featureCount": 408
+    "lastUpdated": "2025-04-24T05:50:06.303Z",
+    "featureCount": 407
   }
 }
