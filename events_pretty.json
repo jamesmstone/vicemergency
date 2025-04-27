@@ -1768,56 +1768,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119347275,
+        "status": "Request For Assistance",
+        "estaId": 119347763,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218136,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Burr Hill Ct",
-        "eventId": 250421887,
-        "id": "ESTA:250421887",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567071,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250451423,
+        "id": "ESTA:250451423",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-27T21:16:00.000Z",
-        "updated": "2025-04-27T22:12:00.000Z",
-        "resources": 5,
-        "location": "Burr Hill Ct, Berwick",
-        "cfaId": 218136,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-04-27T22:28:00.000Z",
+        "updated": "2025-04-27T22:34:00.000Z",
+        "resources": 0,
+        "location": "Lalor",
+        "sesId": 567071
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35458405374158,
-          -38.02800602965196
+          145.0311624215906,
+          -37.67091529463651
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119347696,
+        "estaId": 119347774,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218140,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Broadway St",
-        "eventId": 250421949,
-        "id": "ESTA:250421949",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250421961",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dalton Rd",
+        "eventId": "250421961",
+        "id": "ESTA:250421961",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-04-27T22:20:00.000Z",
-        "updated": "2025-04-27T22:20:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-27T22:30:20.000Z",
+        "updated": "2025-04-27T22:30:20.000Z",
         "resources": 1,
-        "location": "Broadway St, Cobram",
-        "cfaId": 218140,
+        "location": "Dalton Rd, Lalor",
+        "mfbId": "250421961",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1825,8 +1823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.64281513489178,
-          -35.916671423834956
+          145.0311734380733,
+          -37.67090931074226
         ]
       }
     },
@@ -2802,20 +2800,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 218137,
+        "cfaId": 218136,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 218137,
+        "sourceId": 218136,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Anstruther St",
-        "eventId": 250421901,
-        "id": "ESTA:250421901",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-04-27T21:27:00.000Z",
-        "updated": "2025-04-27T21:29:00.000Z",
-        "resources": 0,
-        "location": "Anstruther St, Echuca",
+        "sourceTitle": "Burr Hill Ct",
+        "eventId": 250421887,
+        "id": "ESTA:250421887",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-04-27T21:16:00.000Z",
+        "updated": "2025-04-27T22:12:00.000Z",
+        "resources": 4,
+        "location": "Burr Hill Ct, Berwick",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2823,8 +2821,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.75008267438625,
-          -36.12624978284321
+          145.35458405374158,
+          -38.02800602965196
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 218140,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218140,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Broadway St",
+        "eventId": 250421949,
+        "id": "ESTA:250421949",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-27T22:20:00.000Z",
+        "updated": "2025-04-27T22:20:00.000Z",
+        "resources": 4,
+        "location": "Broadway St, Cobram",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64281513489178,
+          -35.916671423834956
         ]
       }
     },
@@ -2843,7 +2870,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-04-27T21:52:19.000Z",
         "updated": "2025-04-27T21:52:19.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Darebin Dr, Thomastown"
@@ -2859,7 +2886,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250421945",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2870,8 +2897,8 @@
         "eventId": "250421945",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-04-27T22:16:19.000Z",
-        "updated": "2025-04-27T22:16:19.000Z",
+        "created": "2025-04-27T22:27:01.000Z",
+        "updated": "2025-04-27T22:27:01.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -3141,7 +3168,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-27T22:24:41.008Z",
-    "featureCount": 365
+    "lastUpdated": "2025-04-27T22:38:26.129Z",
+    "featureCount": 366
   }
 }
