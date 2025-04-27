@@ -1620,24 +1620,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119346545,
+        "status": "Under Control",
+        "estaId": 119346686,
         "feedType": "incident",
-        "source": "STATION",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 218122,
+        "sourceId": 218123,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Canopus Dr",
-        "eventId": 250421853,
-        "id": "ESTA:250421853",
+        "sourceTitle": "Jennings St",
+        "eventId": 250421856,
+        "id": "ESTA:250421856",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-27T17:37:00.000Z",
-        "updated": "2025-04-27T17:37:00.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-27T18:18:00.000Z",
+        "updated": "2025-04-27T18:31:00.000Z",
         "resources": 1,
-        "location": "Canopus Dr, Doncaster East",
-        "cfaId": 218122,
+        "location": "Jennings St, Stawell",
+        "cfaId": 218123,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1645,8 +1645,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1717314584114,
-          -37.779224861844824
+          142.77695719934204,
+          -37.05486144212307
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119346710,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250421857",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Walsh Rtt",
+        "eventId": "250421857",
+        "id": "ESTA:250421857",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-04-27T18:30:28.000Z",
+        "updated": "2025-04-27T18:30:28.000Z",
+        "resources": 1,
+        "location": "Walsh Rtt, Berwick",
+        "cfaId": 218124,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250421857"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32752736101662,
+          -38.03267403581599
         ]
       }
     },
@@ -2618,6 +2651,64 @@
           -38.28477038290695
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 218122,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218122,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Canopus Dr",
+        "eventId": 250421853,
+        "id": "ESTA:250421853",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-27T17:37:00.000Z",
+        "updated": "2025-04-27T18:12:00.000Z",
+        "resources": 1,
+        "location": "Canopus Dr, Doncaster East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1717314584114,
+          -37.779224861844824
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250421854",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250421854",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Oregon Cl",
+        "id": "ESTA:250421854",
+        "eventId": "250421854",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-27T18:17:56.000Z",
+        "updated": "2025-04-27T18:17:56.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Oregon Cl, Cheltenham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05840590522297,
+          -37.95497666339899
+        ]
+      }
     }
   ],
   "properties": {
@@ -2847,7 +2938,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-27T17:50:21.145Z",
-    "featureCount": 357
+    "lastUpdated": "2025-04-27T18:31:59.988Z",
+    "featureCount": 360
   }
 }
