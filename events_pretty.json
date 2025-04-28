@@ -558,6 +558,59 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1007229,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Otway 67 - Rivernook - Old Coach Road - 3.2Km South Of Princetown",
+        "id": 1007229,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-06T02:00:00.000Z",
+        "updated": "2025-04-28T23:02:00.000Z",
+        "resources": 1,
+        "size": null,
+        "sizeFmt": "Unknown",
+        "location": "3.2Km South Of Princetown "
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.172781,
+          -38.71778
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1638191",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Smelt Rd/The Springs Rd , Glencoe",
+        "id": "1638191",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Smelt Rd/The Springs Rd , Glencoe",
+        "created": "2025-04-28T23:13:00.000Z",
+        "updated": "2025-04-28T23:13:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Smelt Rd/The Springs Rd , Glencoe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.610599906214,
+          -37.6889771617405
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1230,34 +1283,65 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119359351,
+        "status": "Safe",
+        "estaId": 119359055,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422778",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Heatherton Rd",
-        "eventId": "250422778",
-        "id": "ESTA:250422778",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218271,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250422742,
+        "id": "ESTA:250422742",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-04-28T22:45:23.000Z",
-        "updated": "2025-04-28T22:45:23.000Z",
-        "resources": 1,
-        "location": "Heatherton Rd, Narre Warren North",
-        "cfaId": 218275,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-04-28T22:01:00.000Z",
+        "updated": "2025-04-28T23:11:00.000Z",
+        "resources": 2,
+        "location": "Kinglake West",
+        "cfaId": 218271,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250422778"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.282591112837,
-          -37.977650939380005
+          145.26981144254466,
+          -37.48116080741358
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119359677,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218281,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cameron St",
+        "eventId": 250422814,
+        "id": "ESTA:250422814",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-04-28T23:20:00.000Z",
+        "updated": "2025-04-28T23:20:00.000Z",
+        "resources": 0,
+        "location": "Cameron St, Terang",
+        "cfaId": 218281,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9008470116323,
+          -38.238743919989766
         ]
       }
     },
@@ -1951,6 +2035,36 @@
             ],
             "name": "East Gippsland Coast"
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "599858",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Pine Rd, Gol Gol",
+        "id": "2025-04-29T06:38:00.0000000:599858",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Pine Rd, Gol Gol",
+        "location": "Pine Rd, Gol Gol 2738",
+        "created": "2025-04-29T06:38:00+10:00",
+        "updated": "2025-04-29T06:38:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.224319458,
+          -34.1707572939999
         ]
       }
     },
@@ -2765,36 +2879,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "599858",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Pine Rd, Gol Gol",
-        "id": "2025-04-29T06:38:00.0000000:599858",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Pine Rd, Gol Gol",
-        "location": "Pine Rd, Gol Gol 2738",
-        "created": "2025-04-29T06:38:00+10:00",
-        "updated": "2025-04-29T06:38:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.224319458,
-          -34.1707572939999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 217863,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2824,93 +2908,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 218272,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218272,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250422745,
-        "id": "ESTA:250422745",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-04-28T22:03:00.000Z",
-        "updated": "2025-04-28T22:17:00.000Z",
-        "resources": 0,
-        "location": "Romsey",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.73613175105797,
-          -37.3413467587052
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 218271,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218271,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250422742,
-        "id": "ESTA:250422742",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-04-28T22:01:00.000Z",
-        "updated": "2025-04-28T22:19:00.000Z",
-        "resources": 2,
-        "location": "Kinglake West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26981144254466,
-          -37.48116080741358
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218269,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218269,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Macclesfield Rd",
-        "eventId": 250422718,
-        "id": "ESTA:250422718",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T20:58:00.000Z",
-        "updated": "2025-04-28T22:23:00.000Z",
-        "resources": 0,
-        "location": "Macclesfield Rd, Yellingbo",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4850446450814,
-          -37.84687484744003
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 218273,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2921,9 +2918,9 @@
         "id": "ESTA:250422747",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-04-28T22:28:13.000Z",
-        "updated": "2025-04-28T22:28:13.000Z",
-        "resources": 3,
+        "created": "2025-04-28T22:57:37.000Z",
+        "updated": "2025-04-28T22:57:37.000Z",
+        "resources": 2,
         "location": "Midland Hwy, Epsom",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2940,175 +2937,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250422681",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422681",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Nelson Pl",
-        "id": "ESTA:250422681",
-        "eventId": "250422681",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-28T17:09:18.000Z",
-        "updated": "2025-04-28T17:09:18.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Nelson Pl, Williamstown"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.90351413497876,
-          -37.863008383238544
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250422766",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422766",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Balwyn North",
-        "id": "ESTA:250422766",
-        "eventId": "250422766",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T22:42:33.000Z",
-        "updated": "2025-04-28T22:42:33.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Balwyn North, Balwyn North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0625108596273,
-          -37.80079896615907
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250422740",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422740",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ringwood",
-        "id": "ESTA:250422740",
-        "eventId": "250422740",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T22:02:20.000Z",
-        "updated": "2025-04-28T22:02:20.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ringwood, Ringwood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2273328409675,
-          -37.81581792170456
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250422754",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422754",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Croydon",
-        "id": "ESTA:250422754",
-        "eventId": "250422754",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T22:26:44.000Z",
-        "updated": "2025-04-28T22:26:44.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Croydon, Croydon"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27699744251328,
-          -37.7904671983929
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
-        "mfbId": "250422765",
+        "cfaId": 218275,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422765",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Adams St",
-        "id": "ESTA:250422765",
-        "eventId": "250422765",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T22:38:27.000Z",
-        "updated": "2025-04-28T22:38:27.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218275,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fairmont Ct",
+        "eventId": 250422778,
+        "id": "ESTA:250422778",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-04-28T22:43:00.000Z",
+        "updated": "2025-04-28T23:00:00.000Z",
+        "resources": 0,
+        "location": "Fairmont Ct, Narre Warren North",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Adams St, South Yarra"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97760823908726,
-          -37.83618652458211
+          145.28206684999674,
+          -37.978259202582954
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250422772",
+        "status": "Under Control",
+        "cfaId": 218276,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250422772",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Collodetti Cr",
-        "id": "ESTA:250422772",
-        "eventId": "250422772",
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-04-28T22:40:55.000Z",
-        "updated": "2025-04-28T22:40:55.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218276,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250422781,
+        "id": "ESTA:250422781",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-28T22:51:00.000Z",
+        "updated": "2025-04-28T23:21:00.000Z",
+        "resources": 3,
+        "location": "Narre Warren North",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Collodetti Cr, Shepparton"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.39752489031585,
-          -36.39542063539297
+          145.31205360206192,
+          -37.993752446750484
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250422801",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250422801",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hartington St",
+        "id": "ESTA:250422801",
+        "eventId": "250422801",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-28T23:20:26.000Z",
+        "updated": "2025-04-28T23:20:26.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Hartington St, Glenroy"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91738208164546,
+          -37.704467004841035
         ]
       }
     },
@@ -3367,7 +3277,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-28T22:50:05.935Z",
-    "featureCount": 352
+    "lastUpdated": "2025-04-28T23:24:20.058Z",
+    "featureCount": 349
   }
 }
