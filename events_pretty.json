@@ -558,6 +558,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1638165",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Dukes Hwy/Meatworks Rd , Bordertown",
+        "id": "1638165",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Dukes Hwy/Meatworks Rd , Bordertown",
+        "created": "2025-04-28T19:22:00.000Z",
+        "updated": "2025-04-28T19:22:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Dukes Hwy/Meatworks Rd , Bordertown"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.733563467395,
+          -36.2841458493604
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1231,29 +1257,97 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119358505,
+        "estaId": 119358508,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119358505,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Somers",
-        "eventId": "F250422702",
-        "id": "ESTA:250422702",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250422703",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bickley St",
+        "eventId": "250422703",
+        "id": "ESTA:250422703",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-28T19:19:41.000Z",
-        "updated": "2025-04-28T19:20:34.040Z",
-        "resources": 0,
-        "location": "Goldsmith St, Somers"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-28T19:23:53.000Z",
+        "updated": "2025-04-28T19:23:53.000Z",
+        "resources": 2,
+        "location": "Bickley St, Harkness",
+        "cfaId": 218264,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250422703"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16848655026337,
-          -38.39166792199141
+          144.5712939447662,
+          -37.65622459907638
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119358516,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250422704",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Papworth Pl",
+        "eventId": "250422704",
+        "id": "ESTA:250422704",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-28T19:25:04.000Z",
+        "updated": "2025-04-28T19:25:04.000Z",
+        "resources": 3,
+        "location": "Papworth Pl, Meadow Heights",
+        "mfbId": "250422704",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91759980817423,
+          -37.65034988439227
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119358526,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218265,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mccormick Rd",
+        "eventId": 250422705,
+        "id": "ESTA:250422705",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-28T19:28:00.000Z",
+        "updated": "2025-04-28T19:28:00.000Z",
+        "resources": 0,
+        "location": "Mccormick Rd, Kyabram",
+        "cfaId": 218265,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03873566329037,
+          -36.30736047999558
         ]
       }
     },
@@ -2877,6 +2971,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 218263,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218263,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Goldsmith St",
+        "eventId": 250422702,
+        "id": "ESTA:250422702",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-04-28T19:21:00.000Z",
+        "updated": "2025-04-28T19:21:00.000Z",
+        "resources": 0,
+        "location": "Goldsmith St, Somers",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16847835018598,
+          -38.391669622251925
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250422681",
         "feedType": "incident",
@@ -3159,7 +3282,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-28T19:20:45.949Z",
-    "featureCount": 345
+    "lastUpdated": "2025-04-28T19:30:20.043Z",
+    "featureCount": 349
   }
 }
