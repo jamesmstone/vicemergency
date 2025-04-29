@@ -1174,31 +1174,65 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119368196,
+        "status": "Responding",
+        "estaId": 119368258,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567149,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250451523,
-        "id": "ESTA:250451523",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218378,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Healesville Kinglake Rd",
+        "eventId": 250423363,
+        "id": "ESTA:250423363",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-04-29T13:31:00.000Z",
-        "updated": "2025-04-29T13:35:00.000Z",
-        "resources": 0,
-        "location": "Bell Park",
-        "sesId": 567149
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-29T13:41:00.000Z",
+        "updated": "2025-04-29T13:41:00.000Z",
+        "resources": 3,
+        "location": "Healesville Kinglake Rd, Healesville",
+        "cfaId": 218378,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34200323541924,
-          -38.113178326951854
+          145.5009573865563,
+          -37.65160631188768
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119368281,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250423364",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kambrook Rd",
+        "eventId": "250423364",
+        "id": "ESTA:250423364",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-04-29T13:48:16.000Z",
+        "updated": "2025-04-29T13:48:16.000Z",
+        "resources": 2,
+        "location": "Kambrook Rd, Caulfield North",
+        "mfbId": "250423364",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0361900929211,
+          -37.8735561710226
         ]
       }
     },
@@ -2042,20 +2076,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 218373,
+        "cfaId": 218376,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 218373,
+        "sourceId": 218376,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kangan Dr",
-        "eventId": 250423350,
-        "id": "ESTA:250423350",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-04-29T12:09:00.000Z",
-        "updated": "2025-04-29T12:46:00.000Z",
+        "sourceTitle": "Strachans Rd",
+        "eventId": 250423356,
+        "id": "ESTA:250423356",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-04-29T12:45:00.000Z",
+        "updated": "2025-04-29T13:01:00.000Z",
         "resources": 0,
-        "location": "Kangan Dr, Berwick",
+        "location": "Strachans Rd, Mornington",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2063,38 +2097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3457990752879,
-          -38.0452667437336
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218376,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250423356",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Strachans Rd",
-        "eventId": "250423356",
-        "id": "ESTA:250423356",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-04-29T13:00:45.000Z",
-        "updated": "2025-04-29T13:00:45.000Z",
-        "resources": 1,
-        "location": "Strachans Rd, Mornington",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250423356"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03074427671044,
-          -38.2328025204074
+          145.03073757016818,
+          -38.23280352617408
         ]
       }
     },
@@ -2149,6 +2153,33 @@
         "coordinates": [
           144.59903873766012,
           -37.86017261405182
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 567149,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567149,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250451523,
+        "id": "ESTA:250451523",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-04-29T13:31:00.000Z",
+        "updated": "2025-04-29T13:35:00.000Z",
+        "resources": 0,
+        "location": "Bell Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.34200323541924,
+          -38.113178326951854
         ]
       }
     }
@@ -2380,7 +2411,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-04-29T13:38:20.168Z",
-    "featureCount": 333
+    "lastUpdated": "2025-04-29T13:53:40.447Z",
+    "featureCount": 334
   }
 }
