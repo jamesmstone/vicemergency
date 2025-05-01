@@ -1370,6 +1370,39 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119393448,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501919",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glenelg Hwy",
+        "eventId": "250501919",
+        "id": "ESTA:250501919",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-01T14:34:59.000Z",
+        "updated": "2025-05-01T14:34:59.000Z",
+        "resources": 2,
+        "location": "Glenelg Hwy, Smythes Creek",
+        "cfaId": 218638,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250501919"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.80514854304658,
+          -37.59078891736908
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119393336,
         "feedType": "incident",
         "source": "000",
@@ -1382,9 +1415,9 @@
         "suppress": false,
         "category1": "Other",
         "category2": "Grass and Scrub",
-        "created": "2025-05-01T14:16:07.000Z",
-        "updated": "2025-05-01T14:16:07.000Z",
-        "resources": 2,
+        "created": "2025-05-01T14:32:41.000Z",
+        "updated": "2025-05-01T14:32:41.000Z",
+        "resources": 1,
         "location": "Seaford, Seaford",
         "cfaId": 218637,
         "size": "Small",
@@ -1402,34 +1435,33 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "estaId": 119393281,
+        "status": "Safe",
+        "estaId": 119393128,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567215,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250501913,
-        "id": "ESTA:250501913",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501907",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Casey Cr",
+        "eventId": "250501907",
+        "id": "ESTA:250501907",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-05-01T14:06:00.000Z",
-        "updated": "2025-05-01T14:20:00.000Z",
-        "resources": 5,
-        "location": "Neerim South",
-        "cfaId": 218635,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-01T14:35:24.000Z",
+        "updated": "2025-05-01T14:35:24.000Z",
+        "resources": 2,
+        "location": "Casey Cr, Viewbank",
+        "mfbId": "250501907",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 567215
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.95522648594536,
-          -38.01008546974017
+          145.0933167403536,
+          -37.73562608532487
         ]
       }
     },
@@ -2534,86 +2566,57 @@
         "status": "Safe",
         "cfaId": 218634,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250501904",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218634,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Westlakes Bvd",
-        "eventId": "250501904",
+        "eventId": 250501904,
         "id": "ESTA:250501904",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-01T14:03:25.000Z",
-        "updated": "2025-05-01T14:03:25.000Z",
-        "resources": 2,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-01T13:43:00.000Z",
+        "updated": "2025-05-01T14:03:00.000Z",
+        "resources": 0,
         "location": "Westlakes Bvd, Lara",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250501904"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.38440049760794,
-          -38.028202908109876
+          144.38438984375682,
+          -38.02820591747779
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250501912",
+        "status": "On Scene",
+        "cfaId": 218635,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250501912",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mt Alexander Rd",
-        "id": "ESTA:250501912",
-        "eventId": "250501912",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-01T14:08:30.000Z",
-        "updated": "2025-05-01T14:08:30.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567215,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250501913,
+        "id": "ESTA:250501913",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-01T14:06:00.000Z",
+        "updated": "2025-05-01T14:35:00.000Z",
+        "resources": 3,
+        "location": "Neerim South",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Mt Alexander Rd, Ascot Vale"
+        "sesId": 567215
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.928530570933,
-          -37.775998055746975
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250501907",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250501907",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Casey Cr",
-        "id": "ESTA:250501907",
-        "eventId": "250501907",
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-05-01T14:09:12.000Z",
-        "updated": "2025-05-01T14:09:12.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Casey Cr, Viewbank"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0933167403536,
-          -37.73562608532487
+          145.95522648594536,
+          -38.01008546974017
         ]
       }
     }
@@ -2845,7 +2848,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-01T14:25:20.465Z",
+    "lastUpdated": "2025-05-01T14:40:00.341Z",
     "featureCount": 339
   }
 }
