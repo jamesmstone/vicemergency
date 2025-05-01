@@ -1145,7 +1145,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3021882,
@@ -1154,8 +1154,8 @@
         "id": 3021882,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-05-01T02:52:24.000Z",
-        "updated": "2025-05-01T02:52:24.000Z",
+        "created": "2025-05-01T04:07:58.000Z",
+        "updated": "2025-05-01T04:07:58.000Z",
         "resources": 0,
         "size": "6.18",
         "sizeFmt": "6.18 Ha.",
@@ -1313,30 +1313,285 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119378292,
+        "status": "In Progress",
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119378292,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Edgecombe",
-        "eventId": "F250424107",
-        "id": "ESTA:250424107",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-04-30T09:56:40.000Z",
-        "updated": "2025-05-01T03:57:06.991Z",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 3023764,
+        "sourceFeed": "delwp-burns",
+        "sourceTitle": "Apsley Br - Apsley Common",
+        "id": 3023764,
+        "category1": "Planned Burn",
+        "category2": "Planned Burn",
+        "created": "2025-05-01T04:04:33.000Z",
+        "updated": "2025-05-01T04:04:33.000Z",
         "resources": 0,
-        "location": "Edgecombe"
+        "size": "10.15",
+        "sizeFmt": "10.15 Ha.",
+        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
+        "location": "0.3Km Nw Of Apsley"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.4650454578185,
-          -37.185703105259726
+          141.0786366,
+          -36.9648058
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119387153,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501235",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Western Fwy",
+        "eventId": "250501235",
+        "id": "ESTA:250501235",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-01T04:22:09.000Z",
+        "updated": "2025-05-01T04:22:09.000Z",
+        "resources": 2,
+        "location": "Western Fwy, Wendouree",
+        "cfaId": 218575,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250501235"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8353783245558,
+          -37.51832737055821
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119387056,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501219",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Darebin Dr",
+        "eventId": "250501219",
+        "id": "ESTA:250501219",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-01T04:22:15.000Z",
+        "updated": "2025-05-01T04:22:15.000Z",
+        "resources": 0,
+        "location": "Darebin Dr, Lalor",
+        "mfbId": "250501219",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03655930308727,
+          -37.67372808973691
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119386912,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218573,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Arundell Sq",
+        "eventId": 250501197,
+        "id": "ESTA:250501197",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-01T04:02:00.000Z",
+        "updated": "2025-05-01T04:24:00.000Z",
+        "resources": 2,
+        "location": "Arundell Sq, Charlton",
+        "cfaId": 218573,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3536211598858,
+          -36.266234028845304
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119387105,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567202,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550009,
+        "id": "ESTA:250550009",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-05-01T04:15:00.000Z",
+        "updated": "2025-05-01T04:26:00.000Z",
+        "resources": 0,
+        "location": "Gladstone Park",
+        "sesId": 567202
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88755387456916,
+          -37.68475911623179
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119387269,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218576,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Conroy Pl",
+        "eventId": 250501255,
+        "id": "ESTA:250501255",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-05-01T04:27:00.000Z",
+        "updated": "2025-05-01T04:27:00.000Z",
+        "resources": 0,
+        "location": "Conroy Pl, Horsham",
+        "cfaId": 218576,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.19394763409306,
+          -36.71511356212023
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119387268,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501254",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gladstone Park",
+        "eventId": "250501254",
+        "id": "ESTA:250501254",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-01T04:28:25.000Z",
+        "updated": "2025-05-01T04:28:25.000Z",
+        "resources": 3,
+        "location": "Gladstone Park, Gladstone Park",
+        "mfbId": "250501254",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8923791557693,
+          -37.701933241218086
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119387023,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218574,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Conroy Pl",
+        "eventId": 250501213,
+        "id": "ESTA:250501213",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-01T04:09:00.000Z",
+        "updated": "2025-05-01T04:09:00.000Z",
+        "resources": 0,
+        "location": "Conroy Pl, Horsham",
+        "cfaId": 218574,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.19394763409306,
+          -36.71511356212023
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119387286,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250501257",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cross Rd",
+        "eventId": "250501257",
+        "id": "ESTA:250501257",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-05-01T04:30:50.000Z",
+        "updated": "2025-05-01T04:30:50.000Z",
+        "resources": 1,
+        "location": "Cross Rd, Devon Meadows",
+        "cfaId": 218577,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250501257"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30306007001826,
+          -38.15979984855452
         ]
       }
     },
@@ -1349,13 +1604,13 @@
         "sourceId": "597193",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Stockyard Hr",
-        "id": "2025-04-30T08:28:00.0000000:597193",
+        "id": "2025-05-01T14:10:00.0000000:597193",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Stockyard Hr",
         "location": "Merambego",
-        "created": "2025-04-30T08:28:00+10:00",
-        "updated": "2025-04-30T08:28:00+10:00",
+        "created": "2025-05-01T14:10:00+10:00",
+        "updated": "2025-05-01T14:10:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1691,13 +1946,13 @@
         "sourceId": "598020",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Sheep Station Hr",
-        "id": "2025-04-30T08:29:00.0000000:598020",
+        "id": "2025-05-01T14:11:00.0000000:598020",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Sheep Station Hr",
         "location": "Byadbo Wilderness Area",
-        "created": "2025-04-30T08:29:00+10:00",
-        "updated": "2025-04-30T08:29:00+10:00",
+        "created": "2025-05-01T14:11:00+10:00",
+        "updated": "2025-05-01T14:11:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1997,13 +2252,13 @@
         "sourceId": "599235",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Quidong Hr",
-        "id": "2025-04-30T08:25:00.0000000:599235",
+        "id": "2025-05-01T14:09:00.0000000:599235",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Quidong Hr",
         "location": "Quidong Nature Reserve",
-        "created": "2025-04-30T08:25:00+10:00",
-        "updated": "2025-04-30T08:25:00+10:00",
+        "created": "2025-05-01T14:09:00+10:00",
+        "updated": "2025-05-01T14:09:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2439,117 +2694,29 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 218567,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218567,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wornes Dr",
-        "eventId": 250501097,
-        "id": "ESTA:250501097",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-01T03:13:00.000Z",
-        "updated": "2025-05-01T03:23:00.000Z",
-        "resources": 0,
-        "location": "Wornes Dr, Wodonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.86999012055415,
-          -36.11802405649634
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218563,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218563,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bawden Rd",
-        "eventId": 250501060,
-        "id": "ESTA:250501060",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-01T03:00:00.000Z",
-        "updated": "2025-05-01T03:25:00.000Z",
-        "resources": 0,
-        "location": "Bawden Rd, Mount Macedon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5562008385393,
-          -37.38458970582514
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218571,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218571,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250501124,
-        "id": "ESTA:250501124",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-01T03:24:00.000Z",
-        "updated": "2025-05-01T03:29:00.000Z",
-        "resources": 0,
-        "location": "Rockbank",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65145449715422,
-          -37.72368159928564
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 218570,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250501116",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 218570,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Bartons Lane",
-        "eventId": "250501116",
+        "eventId": 250501116,
         "id": "ESTA:250501116",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-01T03:43:38.000Z",
-        "updated": "2025-05-01T03:43:38.000Z",
-        "resources": 1,
+        "category2": "Other",
+        "created": "2025-05-01T03:21:00.000Z",
+        "updated": "2025-05-01T03:44:00.000Z",
+        "resources": 0,
         "location": "Bartons Lane, Loy Yang",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250501116"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.56583463740878,
-          -38.249171801659536
+          146.5658267125797,
+          -38.24917317041413
         ]
       }
     },
@@ -2585,117 +2752,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 218565,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218565,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250501089,
-        "id": "ESTA:250501089",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-01T03:10:00.000Z",
-        "updated": "2025-05-01T03:11:00.000Z",
-        "resources": 0,
-        "location": "Grangefields",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65161298461337,
-          -37.72333331340911
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218566,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218566,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250501092,
-        "id": "ESTA:250501092",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-01T03:12:00.000Z",
-        "updated": "2025-05-01T03:13:00.000Z",
-        "resources": 0,
-        "location": "Rockbank",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65145449715422,
-          -37.72368159928564
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 218564,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 218564,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "West Rd",
-        "eventId": 250501082,
-        "id": "ESTA:250501082",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-01T03:05:00.000Z",
-        "updated": "2025-05-01T03:22:00.000Z",
-        "resources": 0,
-        "location": "West Rd, Langwarrin South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20523325540867,
-          -38.19763690518543
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250501149",
+        "status": "Under Control",
+        "mfbId": "250501236",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250501149",
+        "sourceId": "250501236",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Middle Park",
-        "id": "ESTA:250501149",
-        "eventId": "250501149",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-01T03:44:29.000Z",
-        "updated": "2025-05-01T03:44:29.000Z",
-        "resources": 3,
+        "sourceTitle": "Toorak Rd",
+        "id": "ESTA:250501236",
+        "eventId": "250501236",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-01T04:29:59.000Z",
+        "updated": "2025-05-01T04:29:59.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Middle Park, Middle Park"
+        "location": "Toorak Rd, Glen Iris"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96457983072722,
-          -37.85568986867242
+          145.0459253345193,
+          -37.84564026675078
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 567201,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567201,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550008,
+        "id": "ESTA:250550008",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-01T04:09:00.000Z",
+        "updated": "2025-05-01T04:11:00.000Z",
+        "resources": 0,
+        "location": "Frankston North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1567239049186,
+          -38.119250667326284
         ]
       }
     }
@@ -2714,6 +2821,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2721,8 +2829,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2738,6 +2845,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2745,8 +2853,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-04-30T14:00:00.000Z",
           "heat": {
@@ -2927,7 +3034,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-01T04:02:00.114Z",
-    "featureCount": 342
+    "lastUpdated": "2025-05-01T04:33:20.641Z",
+    "featureCount": 345
   }
 }
