@@ -839,6 +839,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1639044",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Graneys Lane, Kalangadoo",
+        "id": "1639044",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Graneys Lane, Kalangadoo",
+        "created": "2025-05-04T18:03:00.000Z",
+        "updated": "2025-05-04T18:03:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Graneys Lane, Kalangadoo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.661978318,
+          -37.5036772973069
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1791,24 +1817,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119435682,
+        "status": "Under Control",
+        "estaId": 119435972,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219204,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mary St",
-        "eventId": 250508926,
-        "id": "ESTA:250508926",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250508930",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Spring St",
+        "eventId": "250508930",
+        "id": "ESTA:250508930",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-04T16:44:00.000Z",
-        "updated": "2025-05-04T17:37:00.000Z",
-        "resources": 3,
-        "location": "Mary St, Heyfield",
-        "cfaId": 219204,
+        "category2": "Non Structure Fire",
+        "created": "2025-05-04T18:20:42.000Z",
+        "updated": "2025-05-04T18:20:42.000Z",
+        "resources": 2,
+        "location": "Spring St, Tullamarine",
+        "mfbId": "250508930",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1816,8 +1842,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.79536861485326,
-          -37.97990328287781
+          144.87427925242247,
+          -37.70225801396663
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119436036,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219207,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Silcocks Hill Rd",
+        "eventId": 250508933,
+        "id": "ESTA:250508933",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-04T18:31:00.000Z",
+        "updated": "2025-05-04T18:31:00.000Z",
+        "resources": 0,
+        "location": "Silcocks Hill Rd, Toora North",
+        "cfaId": 219207,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3553844126008,
+          -38.63410363945383
         ]
       }
     },
@@ -3509,31 +3567,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 219206,
+        "status": "Safe",
+        "cfaId": 219204,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250508928",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Nepean Hwy",
-        "eventId": "250508928",
-        "id": "ESTA:250508928",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-04T17:40:10.000Z",
-        "updated": "2025-05-04T17:40:10.000Z",
-        "resources": 3,
-        "location": "Nepean Hwy, Frankston",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219204,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mary St",
+        "eventId": 250508926,
+        "id": "ESTA:250508926",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-04T16:44:00.000Z",
+        "updated": "2025-05-04T17:37:00.000Z",
+        "resources": 0,
+        "location": "Mary St, Heyfield",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250508928"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12366356321934,
-          -38.13643359667764
+          146.79536861485326,
+          -37.97990328287781
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 219206,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219206,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nepean Hwy",
+        "eventId": 250508928,
+        "id": "ESTA:250508928",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-04T17:29:00.000Z",
+        "updated": "2025-05-04T18:13:00.000Z",
+        "resources": 0,
+        "location": "Nepean Hwy, Frankston",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12366013706958,
+          -38.136434776495
         ]
       }
     },
@@ -3792,7 +3878,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-04T17:50:00.102Z",
-    "featureCount": 320
+    "lastUpdated": "2025-05-04T18:32:46.224Z",
+    "featureCount": 323
   }
 }
