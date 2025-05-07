@@ -1351,99 +1351,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119471942,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219642,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Britannia Creek Rd",
-        "eventId": 250511646,
-        "id": "ESTA:250511646",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-07T15:30:00.000Z",
-        "updated": "2025-05-07T15:32:00.000Z",
-        "resources": 0,
-        "location": "Britannia Creek Rd, Wesburn",
-        "cfaId": 219642,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.64809783690853,
-          -37.784294044995946
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119472020,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250511648",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sinclair St",
-        "eventId": "250511648",
-        "id": "ESTA:250511648",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-07T15:45:40.000Z",
-        "updated": "2025-05-07T15:45:40.000Z",
-        "resources": 2,
-        "location": "Sinclair St, Elsternwick",
-        "mfbId": "250511648",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9999886323636,
-          -37.88285973293946
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119472037,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119472037,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Fawkner",
-        "eventId": "F250511649",
-        "id": "ESTA:250511649",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-07T15:48:09.000Z",
-        "updated": "2025-05-07T15:51:06.335Z",
-        "resources": 0,
-        "location": "Mcbryde St, Fawkner"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97749434230943,
-          -37.701335345956906
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -3412,36 +3319,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Responding",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "601106",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Princes Hwy, Eden",
-        "id": "2025-05-08T01:35:00.0000000:601106",
-        "category1": "Transport",
-        "category2": "Motor Vehicle Accident",
-        "name": "Princes Hwy, Eden",
-        "location": "Princes Hwy, Eden 2551",
-        "created": "2025-05-08T01:35:00+10:00",
-        "updated": "2025-05-08T01:35:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.884460449,
-          -37.074302674
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -4285,6 +4162,35 @@
           -37.662688253355036
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250511649",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250511649",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mcbryde St",
+        "id": "ESTA:250511649",
+        "eventId": "250511649",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-07T16:04:11.000Z",
+        "updated": "2025-05-07T16:04:11.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mcbryde St, Fawkner"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97748939346252,
+          -37.70133971756316
+        ]
+      }
     }
   ],
   "properties": {
@@ -4301,6 +4207,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4308,8 +4215,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4325,6 +4231,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4332,8 +4239,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-07T14:00:00.000Z",
           "heat": {
@@ -4514,7 +4420,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-07T15:52:06.223Z",
-    "featureCount": 304
+    "lastUpdated": "2025-05-07T16:34:26.405Z",
+    "featureCount": 301
   }
 }
