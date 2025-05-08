@@ -1349,6 +1349,71 @@
       }
     },
     {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119485316,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219776,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burrum North Rd",
+        "eventId": 250513011,
+        "id": "ESTA:250513011",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-08T17:13:00.000Z",
+        "updated": "2025-05-08T17:13:00.000Z",
+        "resources": 0,
+        "location": "Burrum North Rd, Rupanyup",
+        "cfaId": 219776,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.73193464502992,
+          -36.59853284434505
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119485308,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250513010",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Peter St",
+        "eventId": "250513010",
+        "id": "ESTA:250513010",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-08T17:21:15.000Z",
+        "updated": "2025-05-08T17:21:15.000Z",
+        "resources": 2,
+        "location": "Peter St, Morwell",
+        "cfaId": 219775,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250513010"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.42695799434375,
+          -38.23292903110167
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -1876,60 +1941,59 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 219774,
+        "status": "Safe",
+        "mfbId": "250513009",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219774,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Green St",
-        "eventId": 250513007,
-        "id": "ESTA:250513007",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-08T16:42:00.000Z",
-        "updated": "2025-05-08T16:42:00.000Z",
-        "resources": 3,
-        "location": "Green St, Wangaratta",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250513009",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Doncaster",
+        "id": "ESTA:250513009",
+        "eventId": "250513009",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-08T17:19:06.000Z",
+        "updated": "2025-05-08T17:19:06.000Z",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Doncaster, Doncaster"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.3142809652575,
-          -36.354354866961465
+          145.1287192485028,
+          -37.78493342374271
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "mfbId": "250513005",
+        "status": "Safe",
+        "mfbId": "250513012",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567565,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250513005",
-        "eventId": 250513005,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-05-08T16:19:00.000Z",
-        "updated": "2025-05-08T16:31:00.000Z",
-        "resources": 3,
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250513012",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "East Melbourne",
+        "id": "ESTA:250513012",
+        "eventId": "250513012",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-08T17:22:40.000Z",
+        "updated": "2025-05-08T17:22:40.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Wantirna South",
-        "sesId": 567565
+        "location": "East Melbourne, East Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24794133704583,
-          -37.872973480582594
+          144.97735314471316,
+          -37.81551753994966
         ]
       }
     },
@@ -1959,6 +2023,33 @@
         "coordinates": [
           144.9966146405794,
           -37.83390904459642
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 567565,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567565,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250513005,
+        "id": "ESTA:250513005",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-08T16:19:00.000Z",
+        "updated": "2025-05-08T16:31:00.000Z",
+        "resources": 3,
+        "location": "Wantirna South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24794133704583,
+          -37.872973480582594
         ]
       }
     }
@@ -2190,7 +2281,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-08T16:55:20.128Z",
-    "featureCount": 295
+    "lastUpdated": "2025-05-08T17:24:20.241Z",
+    "featureCount": 298
   }
 }
