@@ -1351,23 +1351,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119485574,
+        "estaId": 119485629,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250513025",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wantirna South",
-        "eventId": "250513025",
-        "id": "ESTA:250513025",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219782,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Old Kerang Rd",
+        "eventId": 250513029,
+        "id": "ESTA:250513029",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-05-08T18:28:56.000Z",
-        "updated": "2025-05-08T18:28:56.000Z",
-        "resources": 1,
-        "location": "Wantirna South, Wantirna South",
-        "mfbId": "250513025",
+        "created": "2025-05-08T18:41:00.000Z",
+        "updated": "2025-05-08T18:41:00.000Z",
+        "resources": 3,
+        "location": "Old Kerang Rd, Kerang",
+        "cfaId": 219782,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1375,14 +1375,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24794141100483,
-          -37.87297232340484
+          143.92120157455608,
+          -35.76965166011431
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119485594,
         "feedType": "incident",
         "source": "000",
@@ -1396,7 +1396,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-05-08T18:33:00.000Z",
-        "updated": "2025-05-08T18:33:00.000Z",
+        "updated": "2025-05-08T18:44:00.000Z",
         "resources": 0,
         "location": "Short St, Kangaroo Flat",
         "cfaId": 219780,
@@ -1409,39 +1409,6 @@
         "coordinates": [
           144.24898532925553,
           -36.79496869995081
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119485511,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250513021",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rockbank",
-        "eventId": "250513021",
-        "id": "ESTA:250513021",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-08T18:29:03.000Z",
-        "updated": "2025-05-08T18:29:03.000Z",
-        "resources": 2,
-        "location": "Rockbank, Rockbank",
-        "cfaId": 219778,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250513021"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65146386570478,
-          -37.72367644594214
         ]
       }
     },
@@ -2003,6 +1970,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 219778,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219778,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250513021,
+        "id": "ESTA:250513021",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-08T18:08:00.000Z",
+        "updated": "2025-05-08T18:28:00.000Z",
+        "resources": 0,
+        "location": "Rockbank",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65145449715422,
+          -37.72368159928564
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "cfaId": 219781,
         "feedType": "incident",
@@ -2016,7 +2012,7 @@
         "category2": "Building Fire",
         "created": "2025-05-08T18:34:00.000Z",
         "updated": "2025-05-08T18:34:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "James Miriams Dr, Roxburgh Park",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2027,35 +2023,6 @@
         "coordinates": [
           144.9147558785735,
           -37.616338401951445
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250513026",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250513026",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Grantley Dr",
-        "id": "ESTA:250513026",
-        "eventId": "250513026",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-08T18:33:29.000Z",
-        "updated": "2025-05-08T18:33:29.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Grantley Dr, Glen Waverley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17108613048921,
-          -37.864177640459125
         ]
       }
     },
@@ -2255,6 +2222,7 @@
         },
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -2262,8 +2230,7 @@
             "North Central": "MODERATE",
             "Northern Country": "NO FORECAST",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2314,7 +2281,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-08T18:36:20.103Z",
-    "featureCount": 299
+    "lastUpdated": "2025-05-08T18:54:06.252Z",
+    "featureCount": 298
   }
 }
