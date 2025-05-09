@@ -505,58 +505,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1639773",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Jones Lane, Pleasant Park",
-        "id": "1639773",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Jones Lane, Pleasant Park",
-        "created": "2025-05-09T05:05:00.000Z",
-        "updated": "2025-05-09T05:05:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Jones Lane, Pleasant Park"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.868987168738,
-          -37.6256124830622
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1639778",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Carson Street, Mundulla",
-        "id": "1639778",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Carson Street, Mundulla",
-        "created": "2025-05-09T05:42:00.000Z",
-        "updated": "2025-05-09T05:42:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Carson Street, Mundulla"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.691176632531,
-          -36.3605124875875
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1033,7 +981,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3014185,
@@ -1042,8 +990,8 @@
         "id": 3014185,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-05-09T05:20:19.000Z",
-        "updated": "2025-05-09T05:20:19.000Z",
+        "created": "2025-05-09T05:48:52.000Z",
+        "updated": "2025-05-09T05:48:52.000Z",
         "resources": 0,
         "size": "49.06",
         "sizeFmt": "49.06 Ha.",
@@ -1369,36 +1317,72 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 119486438,
+        "status": "On Scene",
+        "estaId": 119492937,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119486438,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Tallarook",
-        "eventId": "F250513144",
-        "id": "ESTA:250513144",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567598,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250514490,
+        "id": "ESTA:250514490",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-08T21:57:40.000Z",
-        "updated": "2025-05-09T05:21:35.145Z",
-        "resources": 0,
-        "location": "Hume Fwy, Tallarook"
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-05-09T06:15:00.000Z",
+        "updated": "2025-05-09T06:30:00.000Z",
+        "resources": 3,
+        "location": "Kilmore",
+        "cfaId": 219879,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 567598
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0923039414497,
-          -37.107628656365364
+          144.93764438472715,
+          -37.28820089140317
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 119492694,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219874,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250514450,
+        "id": "ESTA:250514450",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-09T05:57:00.000Z",
+        "updated": "2025-05-09T06:29:00.000Z",
+        "resources": 1,
+        "location": "Salisbury West",
+        "cfaId": 219874,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.91585222522409,
+          -36.557711709941955
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119492422,
         "feedType": "incident",
         "source": "000",
@@ -1412,8 +1396,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-05-09T05:35:00.000Z",
-        "updated": "2025-05-09T05:35:00.000Z",
-        "resources": 5,
+        "updated": "2025-05-09T06:03:00.000Z",
+        "resources": 0,
         "location": "Epping-Kilmore Rd, Wallan",
         "cfaId": 219865,
         "size": "Small",
@@ -1430,24 +1414,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119492439,
+        "status": "Safe",
+        "estaId": 119493124,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 219866,
+        "sourceId": 219883,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 250514402,
-        "id": "ESTA:250514402",
+        "eventId": 250514517,
+        "id": "ESTA:250514517",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-09T05:36:00.000Z",
-        "updated": "2025-05-09T05:36:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-09T06:29:00.000Z",
+        "updated": "2025-05-09T06:31:00.000Z",
         "resources": 0,
-        "location": "Wallan",
-        "cfaId": 219866,
+        "location": "Tyabb",
+        "cfaId": 219883,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1455,63 +1439,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02261207779955,
-          -37.42126036849513
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119492480,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219867,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Northern Hwy",
-        "eventId": 250514406,
-        "id": "ESTA:250514406",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-09T05:40:00.000Z",
-        "updated": "2025-05-09T05:40:00.000Z",
-        "resources": 1,
-        "location": "Northern Hwy, Elmore",
-        "cfaId": 219867,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.641282166228,
-          -36.44633282611554
+          145.172190969817,
+          -38.261324657026705
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119491900,
+        "estaId": 119493118,
         "feedType": "incident",
-        "source": "000",
+        "source": "STATION",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 219862,
+        "sourceId": 219882,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Withers Lane",
-        "eventId": 250514321,
-        "id": "ESTA:250514321",
+        "sourceTitle": "Doyle St",
+        "eventId": 250514515,
+        "id": "ESTA:250514515",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-09T04:56:00.000Z",
-        "updated": "2025-05-09T05:08:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-09T06:29:00.000Z",
+        "updated": "2025-05-09T06:32:00.000Z",
         "resources": 0,
-        "location": "Withers Lane, Mansfield",
-        "cfaId": 219862,
+        "location": "Doyle St, Stawell",
+        "cfaId": 219882,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1519,31 +1471,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.07248374568908,
-          -37.04600422744462
+          142.7719784356671,
+          -37.06321000624405
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119492517,
+        "status": "Safe",
+        "estaId": 119492817,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 219869,
+        "sourceId": 219876,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Donald St",
-        "eventId": 250514413,
-        "id": "ESTA:250514413",
+        "sourceTitle": "Lynott St",
+        "eventId": 250514475,
+        "id": "ESTA:250514475",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-05-09T05:43:00.000Z",
-        "updated": "2025-05-09T05:43:00.000Z",
+        "created": "2025-05-09T06:05:00.000Z",
+        "updated": "2025-05-09T06:26:00.000Z",
         "resources": 0,
-        "location": "Donald St, Nyah West",
-        "cfaId": 219869,
+        "location": "Lynott St, Horsham",
+        "cfaId": 219876,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1551,96 +1503,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.34287687189737,
-          -35.188531541996554
+          142.2009055822546,
+          -36.70535318974792
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119492500,
+        "status": "Safe",
+        "estaId": 119492850,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250514409",
+        "sourceId": "250514481",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rossdell Ct",
-        "eventId": "250514409",
-        "id": "ESTA:250514409",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-09T05:44:07.000Z",
-        "updated": "2025-05-09T05:44:07.000Z",
-        "resources": 2,
-        "location": "Rossdell Ct, Portland",
-        "cfaId": 219868,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250514409"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.61977565191415,
-          -38.3601053795897
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119492542,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219870,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250514419,
-        "id": "ESTA:250514419",
+        "sourceTitle": "Golden Square",
+        "eventId": "250514481",
+        "id": "ESTA:250514481",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-09T05:45:00.000Z",
-        "updated": "2025-05-09T05:45:00.000Z",
-        "resources": 0,
-        "location": "Snake Valley",
-        "cfaId": 219870,
+        "category2": "Non Structure Fire",
+        "created": "2025-05-09T06:33:04.000Z",
+        "updated": "2025-05-09T06:33:04.000Z",
+        "resources": 2,
+        "location": "Golden Square, Golden Square",
+        "cfaId": 219877,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250514481"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.64036418729856,
-          -37.581635647358155
+          144.25758982648097,
+          -36.762484757587394
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119492559,
+        "estaId": 119493174,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 219871,
+        "sourceId": 219885,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 250514422,
-        "id": "ESTA:250514422",
+        "eventId": 250514528,
+        "id": "ESTA:250514528",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-05-09T05:46:00.000Z",
-        "updated": "2025-05-09T05:46:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-09T06:33:00.000Z",
+        "updated": "2025-05-09T06:33:00.000Z",
         "resources": 0,
-        "location": "Cranbourne North",
-        "cfaId": 219871,
+        "location": "Bungaree",
+        "cfaId": 219885,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1648,8 +1568,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33264082822868,
-          -38.08928404439854
+          143.9972457326063,
+          -37.55885254583811
         ]
       }
     },
@@ -1667,8 +1587,8 @@
         "category1": "Rescue",
         "category2": "Rescue Industrial Trap",
         "created": "2025-05-09T04:46:00.000Z",
-        "updated": "2025-05-09T05:19:00.000Z",
-        "resources": 7,
+        "updated": "2025-05-09T06:16:00.000Z",
+        "resources": 6,
         "location": "Springfield (Romsey)",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1680,181 +1600,6 @@
         "coordinates": [
           144.83416351350226,
           -37.304376355485275
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 219856,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250514287",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Heland Pl",
-        "eventId": "250514287",
-        "id": "ESTA:250514287",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-09T04:51:54.000Z",
-        "updated": "2025-05-09T04:51:54.000Z",
-        "resources": 1,
-        "location": "Heland Pl, Braeside",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250514287"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.10646905381228,
-          -38.01157661830293
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219851,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219851,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250514237,
-        "id": "ESTA:250514237",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T04:17:00.000Z",
-        "updated": "2025-05-09T05:03:00.000Z",
-        "resources": 0,
-        "location": "Deer Park",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.77375279330988,
-          -37.777899287429264
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219849,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219849,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lemnos North Rd",
-        "eventId": 250514198,
-        "id": "ESTA:250514198",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-09T03:57:00.000Z",
-        "updated": "2025-05-09T05:09:00.000Z",
-        "resources": 1,
-        "location": "Lemnos North Rd, Lemnos",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.46175507317557,
-          -36.35347890952704
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219863,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219863,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parker St",
-        "eventId": 250514339,
-        "id": "ESTA:250514339",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T05:03:00.000Z",
-        "updated": "2025-05-09T05:20:00.000Z",
-        "resources": 0,
-        "location": "Parker St, Officer",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4130820557954,
-          -38.069959047721234
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219858,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219858,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Baillie St",
-        "eventId": 250514304,
-        "id": "ESTA:250514304",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T04:48:00.000Z",
-        "updated": "2025-05-09T05:23:00.000Z",
-        "resources": 0,
-        "location": "Baillie St, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.20721579325482,
-          -36.711545282653915
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 219861,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219861,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 250514319,
-        "id": "ESTA:250514319",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-09T04:55:00.000Z",
-        "updated": "2025-05-09T05:28:00.000Z",
-        "resources": 1,
-        "location": "Hume Fwy, Tallarook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09357876397573,
-          -37.09598690112863
         ]
       }
     },
@@ -1873,7 +1618,7 @@
         "category2": "Other",
         "created": "2025-05-09T04:55:00.000Z",
         "updated": "2025-05-09T05:45:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Bunyip",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1889,30 +1634,204 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250514372",
+        "status": "Safe",
+        "cfaId": 219861,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250514372",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Renown St",
-        "id": "ESTA:250514372",
-        "eventId": "250514372",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-09T05:34:30.000Z",
-        "updated": "2025-05-09T05:34:30.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219861,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 250514319,
+        "id": "ESTA:250514319",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-09T04:55:00.000Z",
+        "updated": "2025-05-09T05:56:00.000Z",
+        "resources": 0,
+        "location": "Hume Fwy, Tallarook",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Renown St, Coburg North"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.962653624884,
-          -37.72953856800579
+          145.09357876397573,
+          -37.09598690112863
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 219856,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219856,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Canterbury Rd",
+        "eventId": 250514287,
+        "id": "ESTA:250514287",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-09T04:38:00.000Z",
+        "updated": "2025-05-09T05:56:00.000Z",
+        "resources": 0,
+        "location": "Canterbury Rd, Braeside",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1064598291216,
+          -38.011582369041555
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 219871,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219871,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250514422,
+        "id": "ESTA:250514422",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-09T05:46:00.000Z",
+        "updated": "2025-05-09T06:03:00.000Z",
+        "resources": 0,
+        "location": "Cranbourne North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33264082822868,
+          -38.08928404439854
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 219868,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219868,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rossdell Ct",
+        "eventId": 250514409,
+        "id": "ESTA:250514409",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-09T05:42:00.000Z",
+        "updated": "2025-05-09T06:03:00.000Z",
+        "resources": 0,
+        "location": "Rossdell Ct, Portland",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.61976733206788,
+          -38.3601104503023
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 219873,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219873,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250514446,
+        "id": "ESTA:250514446",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-09T05:55:00.000Z",
+        "updated": "2025-05-09T06:13:00.000Z",
+        "resources": 2,
+        "location": "Bangholme",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18212852093805,
+          -38.07041593011653
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 219881,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219881,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Donald St",
+        "eventId": 250514495,
+        "id": "ESTA:250514495",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-09T06:22:00.000Z",
+        "updated": "2025-05-09T06:22:00.000Z",
+        "resources": 3,
+        "location": "Donald St, Nyah West",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.34287687189737,
+          -35.188531541996554
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 219870,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219870,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250514419,
+        "id": "ESTA:250514419",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-09T05:45:00.000Z",
+        "updated": "2025-05-09T06:22:00.000Z",
+        "resources": 3,
+        "location": "Snake Valley",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.64036418729856,
+          -37.581635647358155
         ]
       }
     },
@@ -1948,6 +1867,64 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250514496",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250514496",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cheltenham",
+        "id": "ESTA:250514496",
+        "eventId": "250514496",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-09T06:29:25.000Z",
+        "updated": "2025-05-09T06:29:25.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Cheltenham, Cheltenham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05225187988194,
+          -37.95750215005381
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250514456",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250514456",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glenroy",
+        "id": "ESTA:250514456",
+        "eventId": "250514456",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-09T06:20:36.000Z",
+        "updated": "2025-05-09T06:20:36.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Glenroy, Glenroy"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9157375322148,
+          -37.70458299537611
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250514308",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1977,87 +1954,29 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250514269",
+        "mfbId": "250514483",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250514269",
+        "sourceId": "250514483",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chadstone",
-        "id": "ESTA:250514269",
-        "eventId": "250514269",
+        "sourceTitle": "Buckley St",
+        "id": "ESTA:250514483",
+        "eventId": "250514483",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-09T04:44:22.000Z",
-        "updated": "2025-05-09T04:44:22.000Z",
+        "created": "2025-05-09T06:21:22.000Z",
+        "updated": "2025-05-09T06:21:22.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Chadstone, Chadstone"
+        "location": "Buckley St, Footscray"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0959518835099,
-          -37.88101044085741
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250514188",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250514188",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Jolimont Rd",
-        "id": "ESTA:250514188",
-        "eventId": "250514188",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-09T05:29:04.000Z",
-        "updated": "2025-05-09T05:29:04.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Jolimont Rd, Vermont"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18459612189162,
-          -37.84444395775321
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250514139",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250514139",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ohea St",
-        "id": "ESTA:250514139",
-        "eventId": "250514139",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T04:16:45.000Z",
-        "updated": "2025-05-09T04:16:45.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ohea St, Pascoe Vale South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93840581802218,
-          -37.73497080783911
+          144.89604953050144,
+          -37.803815630363076
         ]
       }
     },
@@ -2090,55 +2009,28 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 567594,
+        "status": "On Scene",
+        "sesId": 567597,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 567594,
+        "sourceId": 567597,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250550398,
-        "id": "ESTA:250550398",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-09T05:12:00.000Z",
-        "updated": "2025-05-09T05:20:00.000Z",
-        "resources": 0,
-        "location": "Broadford"
+        "eventId": 250550403,
+        "id": "ESTA:250550403",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-05-09T06:15:00.000Z",
+        "updated": "2025-05-09T06:30:00.000Z",
+        "resources": 1,
+        "location": "Kilmore"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0466826537811,
-          -37.210640925102766
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 567590,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567590,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250550393,
-        "id": "ESTA:250550393",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-09T04:24:00.000Z",
-        "updated": "2025-05-09T05:47:00.000Z",
-        "resources": 0,
-        "location": "Belgrave Heights"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3488300931833,
-          -37.93201048116097
+          144.93764438472715,
+          -37.28820089140317
         ]
       }
     }
@@ -2157,6 +2049,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2164,8 +2057,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2181,6 +2073,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2188,8 +2081,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-08T14:00:00.000Z",
           "heat": {
@@ -2264,7 +2156,7 @@
         },
         {
           "fdr": {
-            "East Gippsland": "MODERATE",
+            "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
             "Central": "MODERATE",
@@ -2370,7 +2262,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-09T05:50:00.524Z",
-    "featureCount": 309
+    "lastUpdated": "2025-05-09T06:37:06.452Z",
+    "featureCount": 305
   }
 }
