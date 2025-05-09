@@ -1289,39 +1289,40 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119496111,
+        "status": "Complete",
+        "estaId": 119496743,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219919,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cobden-Port Campbell Rd",
-        "eventId": 250514865,
-        "id": "ESTA:250514865",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567605,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250514906,
+        "id": "ESTA:250514906",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-09T10:36:00.000Z",
-        "updated": "2025-05-09T11:21:00.000Z",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-05-09T11:35:00.000Z",
+        "updated": "2025-05-09T11:41:00.000Z",
         "resources": 0,
-        "location": "Cobden-Port Campbell Rd, Scotts Creek",
-        "cfaId": 219919,
+        "location": "Drouin",
+        "cfaId": 219923,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 567605
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.07044511745806,
-          -38.41437303250237
+          145.86836375861478,
+          -38.130398780596764
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119496658,
         "feedType": "incident",
         "source": "000",
@@ -1334,8 +1335,8 @@
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-05-09T11:27:12.000Z",
-        "updated": "2025-05-09T11:27:12.000Z",
+        "created": "2025-05-09T11:45:09.000Z",
+        "updated": "2025-05-09T11:45:09.000Z",
         "resources": 2,
         "location": "Bateman Ct, Coburg",
         "mfbId": "250514900",
@@ -1348,64 +1349,6 @@
         "coordinates": [
           144.98232348591435,
           -37.73659817808588
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219913,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219913,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250514834,
-        "id": "ESTA:250514834",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T09:36:00.000Z",
-        "updated": "2025-05-09T10:35:00.000Z",
-        "resources": 0,
-        "location": "Skye",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23350885141446,
-          -38.10675991535904
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 219917,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 219917,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Crombie Rd",
-        "eventId": 250514848,
-        "id": "ESTA:250514848",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-09T10:14:00.000Z",
-        "updated": "2025-05-09T10:41:00.000Z",
-        "resources": 0,
-        "location": "Crombie Rd, Lilydale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4098478615165,
-          -37.756507929521945
         ]
       }
     },
@@ -1470,6 +1413,93 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 219919,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219919,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cobden-Port Campbell Rd",
+        "eventId": 250514865,
+        "id": "ESTA:250514865",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-09T10:36:00.000Z",
+        "updated": "2025-05-09T11:21:00.000Z",
+        "resources": 0,
+        "location": "Cobden-Port Campbell Rd, Scotts Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.07044511745806,
+          -38.41437303250237
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 219922,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219922,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckoy St",
+        "eventId": 250514902,
+        "id": "ESTA:250514902",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-09T11:32:00.000Z",
+        "updated": "2025-05-09T11:32:00.000Z",
+        "resources": 2,
+        "location": "Mckoy St, West Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.84941748981558,
+          -36.10869569625249
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 219921,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 219921,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Unknown -",
+        "eventId": 250514901,
+        "id": "ESTA:250514901",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-09T11:32:00.000Z",
+        "updated": "2025-05-09T11:32:00.000Z",
+        "resources": 4,
+        "location": "Unknown -, Powelltown",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7655467383963,
+          -37.857621390282425
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250514868",
         "feedType": "incident",
@@ -1499,30 +1529,57 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250514890",
+        "status": "Responding",
+        "mfbId": "250514917",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250514890",
+        "sourceId": "250514917",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clifton Hill",
-        "id": "ESTA:250514890",
-        "eventId": "250514890",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-09T11:21:40.000Z",
-        "updated": "2025-05-09T11:21:40.000Z",
-        "resources": 1,
+        "sourceTitle": "Nigra St",
+        "id": "ESTA:250514917",
+        "eventId": "250514917",
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-05-09T11:47:49.000Z",
+        "updated": "2025-05-09T11:47:49.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Clifton Hill, Clifton Hill"
+        "location": "Nigra St, Doveton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99482271360662,
-          -37.79022825703953
+          145.24002510683928,
+          -37.98918535209426
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 567604,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567604,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550410,
+        "id": "ESTA:250550410",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-05-09T11:35:00.000Z",
+        "updated": "2025-05-09T11:41:00.000Z",
+        "resources": 0,
+        "location": "Drouin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.86836375861478,
+          -38.130398780596764
         ]
       }
     }
@@ -1754,7 +1811,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-09T11:31:45.724Z",
-    "featureCount": 288
+    "lastUpdated": "2025-05-09T11:50:20.477Z",
+    "featureCount": 290
   }
 }
