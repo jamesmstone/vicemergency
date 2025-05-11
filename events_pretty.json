@@ -1809,24 +1809,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119524855,
+        "status": "Responding",
+        "estaId": 119525227,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220282,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Navarre St",
-        "eventId": 250519254,
-        "id": "ESTA:250519254",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519263",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ibbottson St",
+        "eventId": "250519263",
+        "id": "ESTA:250519263",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-11T14:19:00.000Z",
-        "updated": "2025-05-11T15:00:00.000Z",
-        "resources": 0,
-        "location": "Navarre St, Redbank",
-        "cfaId": 220282,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-11T15:24:22.000Z",
+        "updated": "2025-05-11T15:24:22.000Z",
+        "resources": 2,
+        "location": "Ibbottson St, Watsonia",
+        "mfbId": "250519263",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1834,8 +1834,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.32514336747153,
-          -36.936483727054615
+          145.08318016836242,
+          -37.71042251139231
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119525250,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119525250,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Broadmeadows",
+        "eventId": "F250519266",
+        "id": "ESTA:250519266",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-11T15:26:42.000Z",
+        "updated": "2025-05-11T15:30:27.032Z",
+        "resources": 0,
+        "location": "Graham St, Broadmeadows"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93035121266362,
+          -37.69196003314585
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119525197,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519261",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sumar Dr",
+        "eventId": "250519261",
+        "id": "ESTA:250519261",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-11T15:31:42.000Z",
+        "updated": "2025-05-11T15:31:42.000Z",
+        "resources": 2,
+        "location": "Sumar Dr, Craigieburn",
+        "cfaId": 220287,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250519261"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89389749874863,
+          -37.57348753169727
         ]
       }
     },
@@ -1856,7 +1918,7 @@
         "category2": "Washaway",
         "created": "2025-05-11T15:02:00.000Z",
         "updated": "2025-05-11T15:18:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Victoria St, Warragul",
         "cfaId": 220285,
         "size": "Small",
@@ -1873,96 +1935,33 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119525194,
+        "status": "Not Yet Under Control",
+        "estaId": 119525234,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250519260",
+        "sourceId": "250519265",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Racecourse Rd",
-        "eventId": "250519260",
-        "id": "ESTA:250519260",
+        "sourceTitle": "Graham St",
+        "eventId": "250519265",
+        "id": "ESTA:250519265",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-05-11T15:19:41.000Z",
-        "updated": "2025-05-11T15:19:41.000Z",
-        "resources": 2,
-        "location": "Racecourse Rd, Pakenham",
-        "cfaId": 220286,
+        "created": "2025-05-11T15:34:31.000Z",
+        "updated": "2025-05-11T15:34:31.000Z",
+        "resources": 6,
+        "location": "Graham St, Broadmeadows",
+        "mfbId": "250519265",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519260"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4936319705104,
-          -38.07769384274708
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119525197,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250519261",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sumar Dr",
-        "eventId": "250519261",
-        "id": "ESTA:250519261",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-11T15:20:07.000Z",
-        "updated": "2025-05-11T15:20:07.000Z",
-        "resources": 3,
-        "location": "Sumar Dr, Craigieburn",
-        "cfaId": 220287,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519261"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89389749874863,
-          -37.57348753169727
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119525227,
-        "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119525227,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Watsonia",
-        "eventId": "F250519263",
-        "id": "ESTA:250519263",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-11T15:23:17.000Z",
-        "updated": "2025-05-11T15:24:14.282Z",
-        "resources": 0,
-        "location": "Ibbottson St, Watsonia"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08318235370902,
-          -37.7104191123993
+          144.93034481732377,
+          -37.6919687191603
         ]
       }
     },
@@ -2093,20 +2092,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 220281,
+        "cfaId": 220282,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220281,
+        "sourceId": 220282,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wellness Walk",
-        "eventId": 250519251,
-        "id": "ESTA:250519251",
+        "sourceTitle": "Navarre St",
+        "eventId": 250519254,
+        "id": "ESTA:250519254",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-11T14:05:00.000Z",
-        "updated": "2025-05-11T14:36:00.000Z",
+        "created": "2025-05-11T14:19:00.000Z",
+        "updated": "2025-05-11T15:00:00.000Z",
         "resources": 0,
-        "location": "Wellness Walk, Tarneit",
+        "location": "Navarre St, Redbank",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2114,8 +2113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.68795546272452,
-          -37.81611254446735
+          143.32514336747153,
+          -36.936483727054615
         ]
       }
     },
@@ -2190,6 +2189,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2197,8 +2197,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2214,6 +2213,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2221,8 +2221,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-11T14:00:00.000Z",
           "heat": {
@@ -2403,7 +2402,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-11T15:24:20.099Z",
+    "lastUpdated": "2025-05-11T15:37:20.481Z",
     "featureCount": 276
   }
 }
