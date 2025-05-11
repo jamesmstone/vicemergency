@@ -1809,64 +1809,98 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119526030,
+        "status": "Responding",
+        "estaId": 119526211,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567688,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250550495,
-        "id": "ESTA:250550495",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519293",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elswyk Rd",
+        "eventId": "250519293",
+        "id": "ESTA:250519293",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-11T18:50:00.000Z",
-        "updated": "2025-05-11T19:42:00.000Z",
-        "resources": 0,
-        "location": "Avenel",
-        "sesId": 567688
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-05-11T20:12:05.000Z",
+        "updated": "2025-05-11T20:12:05.000Z",
+        "resources": 2,
+        "location": "Elswyk Rd, Moe",
+        "cfaId": 220296,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250519293"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1930056269528,
-          -36.87195270592351
+          146.24510840200722,
+          -38.19825718136202
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119526191,
+        "estaId": 119526259,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250519291",
+        "sourceId": "250519303",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Moorabool",
-        "eventId": "250519291",
-        "id": "ESTA:250519291",
+        "sourceTitle": "Rose Lane",
+        "eventId": "250519303",
+        "id": "ESTA:250519303",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-11T19:47:35.000Z",
-        "updated": "2025-05-11T19:47:35.000Z",
-        "resources": 1,
-        "location": "Moorabool, Moorabool",
-        "cfaId": 220295,
+        "category2": "Structure Fire",
+        "created": "2025-05-11T20:20:33.000Z",
+        "updated": "2025-05-11T20:20:33.000Z",
+        "resources": 4,
+        "location": "Rose Lane, Melbourne",
+        "mfbId": "250519303",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519291"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.30855918239516,
-          -38.07618006533843
+          144.95407030499229,
+          -37.81545682716537
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 119526264,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220298,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Fwy",
+        "eventId": 250519305,
+        "id": "ESTA:250519305",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-11T20:06:00.000Z",
+        "updated": "2025-05-11T20:06:00.000Z",
+        "resources": 6,
+        "location": "Calder Fwy, Gisborne",
+        "cfaId": 220298,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6275741289941,
+          -37.52520269747064
         ]
       }
     },
@@ -1997,6 +2031,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 220295,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519291",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Moorabool",
+        "eventId": "250519291",
+        "id": "ESTA:250519291",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-11T20:04:01.000Z",
+        "updated": "2025-05-11T20:04:01.000Z",
+        "resources": 2,
+        "location": "Moorabool, Moorabool",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250519291"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.30855918239516,
+          -38.07618006533843
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250519287",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2020,6 +2084,64 @@
         "coordinates": [
           145.05984923524048,
           -37.895458478293634
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250519294",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519294",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clayton South",
+        "id": "ESTA:250519294",
+        "eventId": "250519294",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-11T20:11:55.000Z",
+        "updated": "2025-05-11T20:11:55.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Clayton South, Clayton South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13992988251948,
+          -37.94104376550102
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250519304",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519304",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lonsdale St",
+        "id": "ESTA:250519304",
+        "eventId": "250519304",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-11T20:07:19.000Z",
+        "updated": "2025-05-11T20:07:19.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Lonsdale St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95329822413845,
+          -37.81508711755839
         ]
       }
     },
@@ -2067,7 +2189,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2075,7 +2196,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2091,7 +2213,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2099,7 +2220,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-11T14:00:00.000Z",
           "heat": {
@@ -2280,7 +2402,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-11T19:50:20.360Z",
-    "featureCount": 272
+    "lastUpdated": "2025-05-11T20:25:40.510Z",
+    "featureCount": 276
   }
 }
