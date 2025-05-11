@@ -774,7 +774,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007376,
@@ -784,10 +784,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-05-11T04:00:00.000Z",
-        "updated": "2025-05-11T05:44:00.000Z",
-        "resources": 4,
-        "size": "10.00",
-        "sizeFmt": "10.00 Ha.",
+        "updated": "2025-05-11T07:29:00.000Z",
+        "resources": 0,
+        "size": "3.00",
+        "sizeFmt": "3.00 Ha.",
         "location": "4Km E Thowgla Valley"
       },
       "type": "Feature",
@@ -1809,24 +1809,53 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119521121,
+        "status": "Unknown",
+        "estaId": 119520651,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220235,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pyramid Cemetery Rd",
-        "eventId": 250519026,
-        "id": "ESTA:250519026",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119520651,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mitiamo",
+        "eventId": "F250518966",
+        "id": "ESTA:250518966",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-05-11T07:05:00.000Z",
-        "updated": "2025-05-11T07:08:00.000Z",
+        "created": "2025-05-11T06:21:29.000Z",
+        "updated": "2025-05-11T07:25:16.048Z",
         "resources": 0,
-        "location": "Pyramid Cemetery Rd, Pyramid Hill",
-        "cfaId": 220235,
+        "location": "Sylvaterre-Timms Lake Rd, Mitiamo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2250150056028,
+          -36.17610572606917
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119521492,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519058",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Strathnaver Av",
+        "eventId": "250519058",
+        "id": "ESTA:250519058",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-05-11T07:41:58.000Z",
+        "updated": "2025-05-11T07:41:58.000Z",
+        "resources": 2,
+        "location": "Strathnaver Av, Strathmore",
+        "mfbId": "250519058",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1834,8 +1863,137 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.13504494380868,
-          -36.059127361301584
+          144.90292737615368,
+          -37.718359243559846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119520716,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220227,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250518976,
+        "id": "ESTA:250518976",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-11T06:31:00.000Z",
+        "updated": "2025-05-11T07:07:00.000Z",
+        "resources": 0,
+        "location": "Kilmany",
+        "cfaId": 220227,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86060069134683,
+          -38.11951708662029
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119521501,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519059",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wagner Cl",
+        "eventId": "250519059",
+        "id": "ESTA:250519059",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-11T07:44:24.000Z",
+        "updated": "2025-05-11T07:44:24.000Z",
+        "resources": 3,
+        "location": "Wagner Cl, Cranbourne East",
+        "cfaId": 220242,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250519059"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30803532650788,
+          -38.11541926275707
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119520871,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220232,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ronald Ct",
+        "eventId": 250518993,
+        "id": "ESTA:250518993",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-11T06:44:00.000Z",
+        "updated": "2025-05-11T07:44:00.000Z",
+        "resources": 0,
+        "location": "Ronald Ct, Ross Creek",
+        "cfaId": 220232,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.80360885046287,
+          -37.625265039033465
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119521373,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220241,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Paton Rd",
+        "eventId": 250519047,
+        "id": "ESTA:250519047",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-11T07:30:00.000Z",
+        "updated": "2025-05-11T07:45:00.000Z",
+        "resources": 2,
+        "location": "Paton Rd, Macclesfield",
+        "cfaId": 220241,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4544798877989,
+          -37.884049831437345
         ]
       }
     },
@@ -1856,7 +2014,7 @@
         "category2": "Other",
         "created": "2025-05-11T07:10:00.000Z",
         "updated": "2025-05-11T07:22:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Wareek",
         "cfaId": 220237,
         "size": "Small",
@@ -1874,120 +2032,81 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119520802,
+        "estaId": 119517341,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220230,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Whiteway Lane",
-        "eventId": 250518990,
-        "id": "ESTA:250518990",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119517341,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Meredith",
+        "eventId": "F250518414",
+        "id": "ESTA:250518414",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-05-11T06:38:00.000Z",
-        "updated": "2025-05-11T06:56:00.000Z",
+        "created": "2025-05-11T01:33:56.000Z",
+        "updated": "2025-05-11T07:45:20.592Z",
         "resources": 0,
-        "location": "Whiteway Lane, Havelock",
-        "cfaId": 220230,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Davies Rd, Meredith"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.77787940099793,
-          -36.97274689562372
+          144.11030479861307,
+          -37.85523964234242
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119520651,
+        "estaId": 119517457,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220225,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sylvaterre-Timms Lake Rd",
-        "eventId": 250518966,
-        "id": "ESTA:250518966",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119517457,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Scarsdale",
+        "eventId": "F250518444",
+        "id": "ESTA:250518444",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-11T06:25:00.000Z",
-        "updated": "2025-05-11T06:47:00.000Z",
+        "category2": "Bushfire",
+        "created": "2025-05-11T01:42:40.000Z",
+        "updated": "2025-05-11T07:48:11.501Z",
         "resources": 0,
-        "location": "Sylvaterre-Timms Lake Rd, Mitiamo",
-        "cfaId": 220225,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Locharths Rd, Scarsdale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.22500812608524,
-          -36.176109831427176
+          143.6580766842593,
+          -37.67751036622583
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119521345,
+        "estaId": 119521539,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250519046",
+        "sourceId": "250519066",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Well St",
-        "eventId": "250519046",
-        "id": "ESTA:250519046",
+        "sourceTitle": "Bent St",
+        "eventId": "250519066",
+        "id": "ESTA:250519066",
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-05-11T07:28:38.000Z",
-        "updated": "2025-05-11T07:28:38.000Z",
+        "created": "2025-05-11T07:48:27.000Z",
+        "updated": "2025-05-11T07:48:27.000Z",
         "resources": 2,
-        "location": "Well St, Morwell",
-        "cfaId": 220240,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519046"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.42295373912225,
-          -38.22173275850616
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119520871,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220232,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ronald Ct",
-        "eventId": 250518993,
-        "id": "ESTA:250518993",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-11T06:44:00.000Z",
-        "updated": "2025-05-11T07:29:00.000Z",
-        "resources": 2,
-        "location": "Ronald Ct, Ross Creek",
-        "cfaId": 220232,
+        "location": "Bent St, Altona",
+        "mfbId": "250519066",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1995,97 +2114,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.80360885046287,
-          -37.625265039033465
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119521223,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250519038",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kernan Ct",
-        "eventId": "250519038",
-        "id": "ESTA:250519038",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-11T07:30:57.000Z",
-        "updated": "2025-05-11T07:30:57.000Z",
-        "resources": 4,
-        "location": "Kernan Ct, Craigieburn",
-        "cfaId": 220238,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519038"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.94128229966594,
-          -37.59564178073139
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119521263,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250519040",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Canis Cr",
-        "eventId": "250519040",
-        "id": "ESTA:250519040",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-11T07:31:22.000Z",
-        "updated": "2025-05-11T07:31:22.000Z",
-        "resources": 2,
-        "location": "Canis Cr, Ocean Grove",
-        "cfaId": 220239,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250519040"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.54203394221366,
-          -38.264295206616595
+          144.83186414239842,
+          -37.86623605583595
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119521373,
+        "estaId": 119521567,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220241,
+        "sourceId": 220243,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Paton Rd",
-        "eventId": 250519047,
-        "id": "ESTA:250519047",
+        "sourceTitle": "Showers Av",
+        "eventId": 250519067,
+        "id": "ESTA:250519067",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-05-11T07:30:00.000Z",
-        "updated": "2025-05-11T07:30:00.000Z",
+        "created": "2025-05-11T07:48:00.000Z",
+        "updated": "2025-05-11T07:48:00.000Z",
         "resources": 0,
-        "location": "Paton Rd, Macclesfield",
-        "cfaId": 220241,
+        "location": "Showers Av, Bright",
+        "cfaId": 220243,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2093,8 +2146,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4544798877989,
-          -37.884049831437345
+          146.95571890223897,
+          -36.7269801308238
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119521592,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119521592,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Trafalgar",
+        "eventId": "F250519069",
+        "id": "ESTA:250519069",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-11T07:48:23.000Z",
+        "updated": "2025-05-11T07:49:50.080Z",
+        "resources": 0,
+        "location": "Trafalgar"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1480343391912,
+          -38.185379990870985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "601457",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Drumwood Rd, Jindera",
+        "id": "2025-05-11T17:32:00.0000000:601457",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Drumwood Rd, Jindera",
+        "location": "51 Drumwood Rd, Jindera 2642",
+        "created": "2025-05-11T17:32:00+10:00",
+        "updated": "2025-05-11T17:32:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.888977051,
+          -35.9449768059999
         ]
       }
     },
@@ -2342,6 +2454,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 220230,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220230,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whiteway Lane",
+        "eventId": 250518990,
+        "id": "ESTA:250518990",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-11T06:38:00.000Z",
+        "updated": "2025-05-11T06:56:00.000Z",
+        "resources": 0,
+        "location": "Whiteway Lane, Havelock",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.77787940099793,
+          -36.97274689562372
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 220231,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2400,20 +2541,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 220227,
+        "cfaId": 220235,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220227,
+        "sourceId": 220235,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250518976,
-        "id": "ESTA:250518976",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-11T06:31:00.000Z",
-        "updated": "2025-05-11T07:07:00.000Z",
+        "sourceTitle": "Pyramid Cemetery Rd",
+        "eventId": 250519026,
+        "id": "ESTA:250519026",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-11T07:05:00.000Z",
+        "updated": "2025-05-11T07:08:00.000Z",
         "resources": 0,
-        "location": "Kilmany",
+        "location": "Pyramid Cemetery Rd, Pyramid Hill",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2421,8 +2562,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.86060069134683,
-          -38.11951708662029
+          144.13504494380868,
+          -36.059127361301584
         ]
       }
     },
@@ -2441,7 +2582,7 @@
         "category2": "Bushfire",
         "created": "2025-05-11T04:19:00.000Z",
         "updated": "2025-05-11T07:15:00.000Z",
-        "resources": 6,
+        "resources": 5,
         "location": "East And West Rd, Timboon West",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2452,6 +2593,65 @@
         "coordinates": [
           142.90252943469707,
           -38.527641521945775
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 220238,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250519038",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kernan Ct",
+        "eventId": "250519038",
+        "id": "ESTA:250519038",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-11T07:30:57.000Z",
+        "updated": "2025-05-11T07:30:57.000Z",
+        "resources": 3,
+        "location": "Kernan Ct, Craigieburn",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250519038"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94128229966594,
+          -37.59564178073139
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 220239,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220239,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Halibut Av",
+        "eventId": 250519040,
+        "id": "ESTA:250519040",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-11T07:19:00.000Z",
+        "updated": "2025-05-11T07:27:00.000Z",
+        "resources": 0,
+        "location": "Halibut Av, Ocean Grove",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.54202886535586,
+          -38.264301356303115
         ]
       }
     },
@@ -2741,7 +2941,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-11T07:34:25.925Z",
-    "featureCount": 287
+    "lastUpdated": "2025-05-11T07:50:20.703Z",
+    "featureCount": 294
   }
 }
