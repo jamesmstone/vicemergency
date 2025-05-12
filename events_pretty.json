@@ -815,8 +815,8 @@
         "sourceFeed": "cfs-incident",
         "sourceTitle": "Sunnybrae Road, Suttontown",
         "id": "1640284",
-        "category1": "Other",
-        "category2": "Other",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
         "name": "Sunnybrae Road, Suttontown",
         "created": "2025-05-12T14:31:00.000Z",
         "updated": "2025-05-12T14:31:00.000Z",
@@ -1842,33 +1842,64 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119538794,
+        "status": "On Scene",
+        "estaId": 119538476,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520942",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Citylink -",
-        "eventId": "250520942",
-        "id": "ESTA:250520942",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567730,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250520935,
+        "id": "ESTA:250520935",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-12T15:45:55.000Z",
-        "updated": "2025-05-12T15:45:55.000Z",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-12T14:39:00.000Z",
+        "updated": "2025-05-12T16:23:00.000Z",
         "resources": 2,
-        "location": "Citylink -, Richmond",
-        "mfbId": "250520942",
+        "location": "Wangaratta South",
+        "cfaId": 220453,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250520935",
+        "sesId": 567730
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00188576643663,
-          -37.832395402462645
+          146.25273105525844,
+          -36.37598278747687
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119539010,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119539010,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hurstbridge",
+        "eventId": "F250520947",
+        "id": "ESTA:250520947",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-12T16:29:55.000Z",
+        "updated": "2025-05-12T16:33:59.123Z",
+        "resources": 0,
+        "location": "Heidelberg-Kinglake Rd, Hurstbridge"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1913029162999,
+          -37.64169430872167
         ]
       }
     },
@@ -3130,61 +3161,88 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 220453,
+        "status": "Safe",
+        "cfaId": 220455,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567730,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250520935,
-        "id": "ESTA:250520935",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-05-12T14:39:00.000Z",
-        "updated": "2025-05-12T14:56:00.000Z",
-        "resources": 3,
-        "location": "Wangaratta South",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220455,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Airey Av",
+        "eventId": 250520945,
+        "id": "ESTA:250520945",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-12T16:07:00.000Z",
+        "updated": "2025-05-12T16:25:00.000Z",
+        "resources": 0,
+        "location": "Airey Av, Manifold Heights",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520935",
-        "sesId": 567730
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.25273105525844,
-          -36.37598278747687
+          144.3353437685268,
+          -38.14075227939019
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250520938",
+        "status": "Under Control",
+        "mfbId": "250520946",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250520938",
+        "sourceId": "250520946",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Warrandyte Rd",
-        "id": "ESTA:250520938",
-        "eventId": "250520938",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-12T15:32:13.000Z",
-        "updated": "2025-05-12T15:32:13.000Z",
-        "resources": 2,
+        "sourceTitle": "Glen Waverley",
+        "id": "ESTA:250520946",
+        "eventId": "250520946",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-12T16:24:02.000Z",
+        "updated": "2025-05-12T16:24:02.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Warrandyte Rd, Ringwood North"
+        "location": "Glen Waverley, Glen Waverley"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23560168273272,
-          -37.79414168098437
+          145.1555914268568,
+          -37.873055394655466
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250520942",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520942",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Citylink -",
+        "id": "ESTA:250520942",
+        "eventId": "250520942",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-12T15:57:55.000Z",
+        "updated": "2025-05-12T15:57:55.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Citylink -, Richmond"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00188576643663,
+          -37.832395402462645
         ]
       }
     },
@@ -3212,33 +3270,6 @@
         "coordinates": [
           145.0017385804624,
           -37.874683272508285
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 567729,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567729,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250550542,
-        "id": "ESTA:250550542",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-05-12T14:27:00.000Z",
-        "updated": "2025-05-12T14:39:00.000Z",
-        "resources": 1,
-        "location": "Dromana"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96030762881972,
-          -38.344221239941376
         ]
       }
     }
@@ -3470,7 +3501,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-12T15:51:26.370Z",
-    "featureCount": 277
+    "lastUpdated": "2025-05-12T16:34:20.571Z",
+    "featureCount": 278
   }
 }
