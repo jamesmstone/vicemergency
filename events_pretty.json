@@ -729,33 +729,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1007367,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Ovens 77 - Mudgegonga - Switchback Road",
-        "id": 1007367,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-10T06:00:00.000Z",
-        "updated": "2025-05-12T04:00:00.000Z",
-        "resources": 5,
-        "size": "4.00",
-        "sizeFmt": "4.00 Ha.",
-        "location": "5Km S Mudgegonga"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.833526,
-          -36.544887
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -810,7 +783,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007387,
@@ -820,10 +793,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-05-12T02:32:00.000Z",
-        "updated": "2025-05-12T02:32:00.000Z",
+        "updated": "2025-05-12T04:41:00.000Z",
         "resources": 2,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "size": "0.01",
+        "sizeFmt": "0.01 Ha.",
         "location": "Causeway"
       },
       "type": "Feature",
@@ -1898,24 +1871,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119531645,
+        "status": "Under Control",
+        "estaId": 119532752,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220362,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bindea Rd",
-        "eventId": 250520314,
-        "id": "ESTA:250520314",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520473",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Reservoir",
+        "eventId": "250520473",
+        "id": "ESTA:250520473",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-12T03:48:00.000Z",
-        "updated": "2025-05-12T04:43:00.000Z",
-        "resources": 1,
-        "location": "Bindea Rd, Yellingbo",
-        "cfaId": 220362,
+        "category2": "Non Structure Fire",
+        "created": "2025-05-12T05:18:01.000Z",
+        "updated": "2025-05-12T05:18:01.000Z",
+        "resources": 2,
+        "location": "Reservoir, Reservoir",
+        "mfbId": "250520473",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1923,162 +1896,93 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.53033406902694,
-          -37.822890066538044
+          145.02114317360034,
+          -37.718333619612956
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119532255,
+        "status": "Request For Assistance",
+        "estaId": 119532864,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220370,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckinnon Rd",
-        "eventId": 250520397,
-        "id": "ESTA:250520397",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567711,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550522,
+        "id": "ESTA:250550522",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-12T04:34:00.000Z",
-        "updated": "2025-05-12T04:43:00.000Z",
-        "resources": 1,
-        "location": "Mckinnon Rd, Dunolly",
-        "cfaId": 220370,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-12T05:19:00.000Z",
+        "updated": "2025-05-12T05:22:00.000Z",
+        "resources": 0,
+        "location": "Lower Plenty",
+        "sesId": 567711
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.72574187987357,
-          -36.862094095144265
+          145.11351583474112,
+          -37.72700133832915
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119532901,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520488",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "City Rd",
+        "eventId": "250520488",
+        "id": "ESTA:250520488",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-12T05:21:35.000Z",
+        "updated": "2025-05-12T05:21:35.000Z",
+        "resources": 3,
+        "location": "City Rd, Southbank",
+        "mfbId": "250520488",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96345910868487,
+          -37.82339788392504
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119532392,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520418",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Somerton Rd",
-        "eventId": "250520418",
-        "id": "ESTA:250520418",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-12T04:44:17.000Z",
-        "updated": "2025-05-12T04:44:17.000Z",
-        "resources": 3,
-        "location": "Somerton Rd, Oaklands Junction",
-        "cfaId": 220371,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520418"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.82365798085914,
-          -37.62810915428123
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119532100,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520375",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Humffray St",
-        "eventId": "250520375",
-        "id": "ESTA:250520375",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-12T04:44:37.000Z",
-        "updated": "2025-05-12T04:44:37.000Z",
-        "resources": 2,
-        "location": "Humffray St, Mount Pleasant",
-        "cfaId": 220368,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520375"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.85334333372333,
-          -37.5737782701805
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119530372,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520139",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Crinigan Rd",
-        "eventId": "250520139",
-        "id": "ESTA:250520139",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-12T04:44:48.000Z",
-        "updated": "2025-05-12T04:44:48.000Z",
-        "resources": 3,
-        "location": "Crinigan Rd, Morwell",
-        "cfaId": 220349,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520139"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.42732278552975,
-          -38.21787022416258
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119532485,
-        "feedType": "incident",
-        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220372,
+        "sourceId": 220371,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250520430,
-        "id": "ESTA:250520430",
+        "sourceTitle": "Somerton Rd",
+        "eventId": 250520418,
+        "id": "ESTA:250520418",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-05-12T04:50:00.000Z",
-        "updated": "2025-05-12T04:50:00.000Z",
+        "created": "2025-05-12T04:44:00.000Z",
+        "updated": "2025-05-12T05:01:00.000Z",
         "resources": 0,
-        "location": "Mount Evelyn",
-        "cfaId": 220372,
+        "location": "Somerton Rd, Bulla",
+        "cfaId": 220371,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2086,8 +1990,138 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.40055622820643,
-          -37.802633568637496
+          144.82271116090436,
+          -37.62823803615147
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119532953,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220376,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Alex Thomson Dr",
+        "eventId": 250520492,
+        "id": "ESTA:250520492",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-12T05:25:00.000Z",
+        "updated": "2025-05-12T05:25:00.000Z",
+        "resources": 0,
+        "location": "Alex Thomson Dr, Wandin East",
+        "cfaId": 220376,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46964703829275,
+          -37.815961607798656
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119532921,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520490",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Old Gembrook Rd",
+        "eventId": "250520490",
+        "id": "ESTA:250520490",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-05-12T05:24:53.000Z",
+        "updated": "2025-05-12T05:24:53.000Z",
+        "resources": 1,
+        "location": "Old Gembrook Rd, Pakenham Upper",
+        "cfaId": 220374,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250520490"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.50300755223859,
+          -38.01566262398198
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119531850,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520345",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hennessey St",
+        "eventId": "250520345",
+        "id": "ESTA:250520345",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-12T05:24:53.000Z",
+        "updated": "2025-05-12T05:24:53.000Z",
+        "resources": 1,
+        "location": "Hennessey St, Moe",
+        "cfaId": 220365,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250520345"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.26615441392,
+          -38.1701454558712
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119532948,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220375,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Andersons Rd",
+        "eventId": 250520491,
+        "id": "ESTA:250520491",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-12T05:24:00.000Z",
+        "updated": "2025-05-12T05:24:00.000Z",
+        "resources": 0,
+        "location": "Andersons Rd, Trafalgar",
+        "cfaId": 220375,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1392327687148,
+          -38.125278748011496
         ]
       }
     },
@@ -3409,123 +3443,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 220363,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220363,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250520319,
-        "id": "ESTA:250520319",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-12T03:51:00.000Z",
-        "updated": "2025-05-12T04:10:00.000Z",
-        "resources": 0,
-        "location": "Pakenham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5014848444359,
-          -38.090162076277004
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 220365,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520345",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hennessey St",
-        "eventId": "250520345",
-        "id": "ESTA:250520345",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-12T04:11:29.000Z",
-        "updated": "2025-05-12T04:11:29.000Z",
-        "resources": 1,
-        "location": "Hennessey St, Moe",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520345"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.26615441392,
-          -38.1701454558712
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 220364,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220364,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Olivine Bvd",
-        "eventId": 250520321,
-        "id": "ESTA:250520321",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-05-12T03:52:00.000Z",
-        "updated": "2025-05-12T04:13:00.000Z",
-        "resources": 0,
-        "location": "Olivine Bvd, Donnybrook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99780612975135,
-          -37.537028703525294
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 220360,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220360,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Harmon Cl",
-        "eventId": 250520298,
-        "id": "ESTA:250520298",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-12T03:42:00.000Z",
-        "updated": "2025-05-12T04:22:00.000Z",
-        "resources": 2,
-        "location": "Harmon Cl, Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3305364568353,
-          -38.05044906046429
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 220367,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3538,7 +3455,7 @@
         "category2": "Other",
         "created": "2025-05-12T04:21:00.000Z",
         "updated": "2025-05-12T04:31:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Hamilton St, Broadford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3583,25 +3500,23 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Safe",
         "cfaId": 220366,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567706,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220366,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kenilworth Av",
         "eventId": 250520350,
         "id": "ESTA:250520350",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
         "created": "2025-05-12T04:09:00.000Z",
-        "updated": "2025-05-12T04:30:00.000Z",
-        "resources": 2,
-        "location": "Frankston",
+        "updated": "2025-05-12T04:36:00.000Z",
+        "resources": 0,
+        "location": "Kenilworth Av, Frankston",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250520350",
-        "sesId": 567706
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -3614,59 +3529,232 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250520389",
+        "status": "Safe",
+        "cfaId": 220362,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250520389",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pollina St",
-        "id": "ESTA:250520389",
-        "eventId": "250520389",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-12T04:37:43.000Z",
-        "updated": "2025-05-12T04:37:43.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220362,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bindea Rd",
+        "eventId": 250520314,
+        "id": "ESTA:250520314",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-12T03:48:00.000Z",
+        "updated": "2025-05-12T04:43:00.000Z",
+        "resources": 0,
+        "location": "Bindea Rd, Yellingbo",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Pollina St, Bentleigh East"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05231011756504,
-          -37.92664445173087
+          145.53033406902694,
+          -37.822890066538044
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250520364",
+        "cfaId": 220349,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250520364",
+        "sourceId": "250520139",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wattlebird Ct",
-        "id": "ESTA:250520364",
-        "eventId": "250520364",
+        "sourceTitle": "Crinigan Rd",
+        "eventId": "250520139",
+        "id": "ESTA:250520139",
         "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-12T04:48:06.000Z",
-        "updated": "2025-05-12T04:48:06.000Z",
-        "resources": 1,
+        "category2": "Grass and Scrub",
+        "created": "2025-05-12T04:44:48.000Z",
+        "updated": "2025-05-12T04:44:48.000Z",
+        "resources": 2,
+        "location": "Crinigan Rd, Morwell",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Wattlebird Ct, Sunshine North"
+        "mfbId": "250520139"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8499337926768,
-          -37.76953723157315
+          146.42732278552975,
+          -38.21787022416258
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 220368,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220368,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Humffray St",
+        "eventId": 250520375,
+        "id": "ESTA:250520375",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-12T04:21:00.000Z",
+        "updated": "2025-05-12T04:45:00.000Z",
+        "resources": 0,
+        "location": "Humffray St, Mount Pleasant",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85333427349818,
+          -37.57378375912035
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 220360,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220360,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harmon Cl",
+        "eventId": 250520298,
+        "id": "ESTA:250520298",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-12T03:42:00.000Z",
+        "updated": "2025-05-12T04:53:00.000Z",
+        "resources": 0,
+        "location": "Harmon Cl, Berwick",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3305364568353,
+          -38.05044906046429
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 220370,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220370,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckinnon Rd",
+        "eventId": 250520397,
+        "id": "ESTA:250520397",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-12T04:34:00.000Z",
+        "updated": "2025-05-12T05:04:00.000Z",
+        "resources": 0,
+        "location": "Mckinnon Rd, Dunolly",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.72574187987357,
+          -36.862094095144265
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 220372,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220372,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250520430,
+        "id": "ESTA:250520430",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-12T04:50:00.000Z",
+        "updated": "2025-05-12T05:12:00.000Z",
+        "resources": 2,
+        "location": "Mount Evelyn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.40055622820643,
+          -37.802633568637496
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250520472",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250520472",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clarke St",
+        "id": "ESTA:250520472",
+        "eventId": "250520472",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-12T05:19:21.000Z",
+        "updated": "2025-05-12T05:19:21.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Clarke St, Sunshine"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.83307550518998,
+          -37.78614776509278
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 567709,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567709,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550519,
+        "id": "ESTA:250550519",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-12T05:03:00.000Z",
+        "updated": "2025-05-12T05:21:00.000Z",
+        "resources": 1,
+        "location": "Rye"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8075220916942,
+          -38.38340837164425
         ]
       }
     }
@@ -3898,7 +3986,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-12T04:52:46.295Z",
-    "featureCount": 290
+    "lastUpdated": "2025-05-12T05:27:46.169Z",
+    "featureCount": 293
   }
 }
