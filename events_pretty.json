@@ -1874,23 +1874,52 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119551961,
+        "estaId": 119552039,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119552039,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Footscray",
+        "eventId": "F250522444",
+        "id": "ESTA:250522444",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-13T15:42:43.000Z",
+        "updated": "2025-05-13T15:45:33.775Z",
+        "resources": 0,
+        "location": "Napier St, Footscray"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9026378664279,
+          -37.804451610090396
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119552000,
+        "feedType": "incident",
+        "source": "FIP",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250522442",
+        "sourceId": "250522443",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melbourne",
-        "eventId": "250522442",
-        "id": "ESTA:250522442",
+        "sourceTitle": "Napier St",
+        "eventId": "250522443",
+        "id": "ESTA:250522443",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-05-13T15:24:16.000Z",
-        "updated": "2025-05-13T15:24:16.000Z",
-        "resources": 5,
-        "location": "Melbourne, Melbourne",
-        "mfbId": "250522442",
+        "category2": "Structure Fire",
+        "created": "2025-05-13T15:45:38.000Z",
+        "updated": "2025-05-13T15:45:38.000Z",
+        "resources": 3,
+        "location": "Napier St, Footscray",
+        "mfbId": "250522443",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1898,8 +1927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96607559710876,
-          -37.81451476731803
+          144.9026350435931,
+          -37.80445186105982
         ]
       }
     },
@@ -3161,35 +3190,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 220620,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220620,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250522434,
-        "id": "ESTA:250522434",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-13T14:14:00.000Z",
-        "updated": "2025-05-13T14:39:00.000Z",
-        "resources": 0,
-        "location": "Moe",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.26899247555002,
-          -38.17397816298522
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "mfbId": "250522441",
         "feedType": "incident",
@@ -3445,7 +3445,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-13T15:28:46.164Z",
+    "lastUpdated": "2025-05-13T15:51:20.429Z",
     "featureCount": 275
   }
 }
