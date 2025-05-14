@@ -1764,57 +1764,88 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "estaId": 119559036,
+        "status": "Complete",
+        "estaId": 119560689,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 567796,
+        "sourceId": 567798,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250523400,
-        "id": "ESTA:250523400",
+        "eventId": 250550612,
+        "id": "ESTA:250550612",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-05-14T05:48:00.000Z",
-        "updated": "2025-05-14T06:43:00.000Z",
-        "resources": 2,
-        "location": "Shelbourne",
-        "cfaId": 220700,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 567796
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-05-14T07:57:00.000Z",
+        "updated": "2025-05-14T09:16:00.000Z",
+        "resources": 0,
+        "location": "Melton",
+        "sesId": 567798
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.03761492667846,
-          -36.848127973606125
+          144.59858746869097,
+          -37.6920495119413
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119561039,
+        "status": "Request For Assistance",
+        "estaId": 119561629,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567807,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250523605,
+        "id": "ESTA:250523605",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-05-14T09:23:00.000Z",
+        "updated": "2025-05-14T09:25:00.000Z",
+        "resources": 3,
+        "location": "Armstrong Creek",
+        "cfaId": 220741,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250523605",
+        "sesId": 567807
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36524120823228,
+          -38.22989077211832
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119561568,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220737,
+        "sourceId": 220740,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bloomfield Rd",
-        "eventId": 250523579,
-        "id": "ESTA:250523579",
+        "sourceTitle": "Swales Rd",
+        "eventId": 250523600,
+        "id": "ESTA:250523600",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-14T08:29:00.000Z",
-        "updated": "2025-05-14T08:44:00.000Z",
-        "resources": 1,
-        "location": "Bloomfield Rd, Keysborough",
-        "cfaId": 220737,
+        "category2": "Other",
+        "created": "2025-05-14T09:18:00.000Z",
+        "updated": "2025-05-14T09:26:00.000Z",
+        "resources": 4,
+        "location": "Swales Rd, Macclesfield",
+        "cfaId": 220740,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1822,8 +1853,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17595384703617,
-          -37.986664206861555
+          145.45798503373203,
+          -37.858825357689675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119561674,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119561674,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "West Footscray",
+        "eventId": "F250523606",
+        "id": "ESTA:250523606",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-14T09:25:11.000Z",
+        "updated": "2025-05-14T09:27:44.843Z",
+        "resources": 0,
+        "location": "Alma St, West Footscray"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8672214607113,
+          -37.79392559402936
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119561682,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119561682,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Creswick",
+        "eventId": "F250523607",
+        "id": "ESTA:250523607",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-14T09:26:01.000Z",
+        "updated": "2025-05-14T09:28:15.651Z",
+        "resources": 0,
+        "location": "Cushing Av, Creswick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.88909939180792,
+          -37.41790769520769
         ]
       }
     },
@@ -2251,6 +2340,340 @@
             "coordinates": [
               [
                 [
+                  148.5352,
+                  -36.3917
+                ],
+                [
+                  148.539,
+                  -36.3948
+                ],
+                [
+                  148.5264,
+                  -36.3964
+                ],
+                [
+                  148.5242,
+                  -36.4111
+                ],
+                [
+                  148.5204,
+                  -36.413
+                ],
+                [
+                  148.5134,
+                  -36.4249
+                ],
+                [
+                  148.5061,
+                  -36.429
+                ],
+                [
+                  148.5022,
+                  -36.428
+                ],
+                [
+                  148.5065,
+                  -36.4241
+                ],
+                [
+                  148.5045,
+                  -36.4202
+                ],
+                [
+                  148.4997,
+                  -36.4178
+                ],
+                [
+                  148.4952,
+                  -36.413
+                ],
+                [
+                  148.4975,
+                  -36.409
+                ],
+                [
+                  148.5072,
+                  -36.4056
+                ],
+                [
+                  148.5164,
+                  -36.3998
+                ],
+                [
+                  148.5188,
+                  -36.3999
+                ],
+                [
+                  148.5204,
+                  -36.3973
+                ],
+                [
+                  148.5259,
+                  -36.3952
+                ],
+                [
+                  148.5269,
+                  -36.3932
+                ],
+                [
+                  148.534,
+                  -36.3902
+                ],
+                [
+                  148.5352,
+                  -36.3917
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.5572,
+                  -36.4079
+                ],
+                [
+                  148.5569,
+                  -36.4091
+                ],
+                [
+                  148.557,
+                  -36.4116
+                ],
+                [
+                  148.5574,
+                  -36.4131
+                ],
+                [
+                  148.5582,
+                  -36.4136
+                ],
+                [
+                  148.5582,
+                  -36.4147
+                ],
+                [
+                  148.5574,
+                  -36.4152
+                ],
+                [
+                  148.5573,
+                  -36.4158
+                ],
+                [
+                  148.5559,
+                  -36.4157
+                ],
+                [
+                  148.5532,
+                  -36.4169
+                ],
+                [
+                  148.5518,
+                  -36.4169
+                ],
+                [
+                  148.5499,
+                  -36.4166
+                ],
+                [
+                  148.5492,
+                  -36.4169
+                ],
+                [
+                  148.5491,
+                  -36.4178
+                ],
+                [
+                  148.5495,
+                  -36.4187
+                ],
+                [
+                  148.5489,
+                  -36.4196
+                ],
+                [
+                  148.5489,
+                  -36.42
+                ],
+                [
+                  148.5483,
+                  -36.4204
+                ],
+                [
+                  148.5475,
+                  -36.4197
+                ],
+                [
+                  148.5474,
+                  -36.4192
+                ],
+                [
+                  148.5469,
+                  -36.4185
+                ],
+                [
+                  148.5463,
+                  -36.4184
+                ],
+                [
+                  148.5455,
+                  -36.4162
+                ],
+                [
+                  148.5452,
+                  -36.4162
+                ],
+                [
+                  148.5446,
+                  -36.4156
+                ],
+                [
+                  148.5443,
+                  -36.4156
+                ],
+                [
+                  148.5439,
+                  -36.4148
+                ],
+                [
+                  148.5426,
+                  -36.4142
+                ],
+                [
+                  148.5426,
+                  -36.4135
+                ],
+                [
+                  148.5423,
+                  -36.4131
+                ],
+                [
+                  148.5424,
+                  -36.4127
+                ],
+                [
+                  148.5422,
+                  -36.4123
+                ],
+                [
+                  148.5425,
+                  -36.4114
+                ],
+                [
+                  148.545,
+                  -36.4099
+                ],
+                [
+                  148.5459,
+                  -36.4091
+                ],
+                [
+                  148.5474,
+                  -36.4094
+                ],
+                [
+                  148.5479,
+                  -36.4082
+                ],
+                [
+                  148.5483,
+                  -36.4081
+                ],
+                [
+                  148.551,
+                  -36.4084
+                ],
+                [
+                  148.5517,
+                  -36.408
+                ],
+                [
+                  148.5528,
+                  -36.4068
+                ],
+                [
+                  148.5522,
+                  -36.4058
+                ],
+                [
+                  148.5523,
+                  -36.4052
+                ],
+                [
+                  148.5533,
+                  -36.4034
+                ],
+                [
+                  148.5553,
+                  -36.403
+                ],
+                [
+                  148.5553,
+                  -36.4025
+                ],
+                [
+                  148.5565,
+                  -36.4014
+                ],
+                [
+                  148.5565,
+                  -36.4004
+                ],
+                [
+                  148.5573,
+                  -36.4002
+                ],
+                [
+                  148.5572,
+                  -36.3995
+                ],
+                [
+                  148.5575,
+                  -36.3984
+                ],
+                [
+                  148.5579,
+                  -36.3981
+                ],
+                [
+                  148.5587,
+                  -36.3979
+                ],
+                [
+                  148.5595,
+                  -36.3982
+                ],
+                [
+                  148.5599,
+                  -36.399
+                ],
+                [
+                  148.5592,
+                  -36.4018
+                ],
+                [
+                  148.5581,
+                  -36.403
+                ],
+                [
+                  148.5581,
+                  -36.4043
+                ],
+                [
+                  148.5572,
+                  -36.4079
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   148.555,
                   -36.3892
                 ],
@@ -2586,340 +3009,6 @@
             ]
           },
           {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.5352,
-                  -36.3917
-                ],
-                [
-                  148.539,
-                  -36.3948
-                ],
-                [
-                  148.5264,
-                  -36.3964
-                ],
-                [
-                  148.5242,
-                  -36.4111
-                ],
-                [
-                  148.5204,
-                  -36.413
-                ],
-                [
-                  148.5134,
-                  -36.4249
-                ],
-                [
-                  148.5061,
-                  -36.429
-                ],
-                [
-                  148.5022,
-                  -36.428
-                ],
-                [
-                  148.5065,
-                  -36.4241
-                ],
-                [
-                  148.5045,
-                  -36.4202
-                ],
-                [
-                  148.4997,
-                  -36.4178
-                ],
-                [
-                  148.4952,
-                  -36.413
-                ],
-                [
-                  148.4975,
-                  -36.409
-                ],
-                [
-                  148.5072,
-                  -36.4056
-                ],
-                [
-                  148.5164,
-                  -36.3998
-                ],
-                [
-                  148.5188,
-                  -36.3999
-                ],
-                [
-                  148.5204,
-                  -36.3973
-                ],
-                [
-                  148.5259,
-                  -36.3952
-                ],
-                [
-                  148.5269,
-                  -36.3932
-                ],
-                [
-                  148.534,
-                  -36.3902
-                ],
-                [
-                  148.5352,
-                  -36.3917
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.5572,
-                  -36.4079
-                ],
-                [
-                  148.5569,
-                  -36.4091
-                ],
-                [
-                  148.557,
-                  -36.4116
-                ],
-                [
-                  148.5574,
-                  -36.4131
-                ],
-                [
-                  148.5582,
-                  -36.4136
-                ],
-                [
-                  148.5582,
-                  -36.4147
-                ],
-                [
-                  148.5574,
-                  -36.4152
-                ],
-                [
-                  148.5573,
-                  -36.4158
-                ],
-                [
-                  148.5559,
-                  -36.4157
-                ],
-                [
-                  148.5532,
-                  -36.4169
-                ],
-                [
-                  148.5518,
-                  -36.4169
-                ],
-                [
-                  148.5499,
-                  -36.4166
-                ],
-                [
-                  148.5492,
-                  -36.4169
-                ],
-                [
-                  148.5491,
-                  -36.4178
-                ],
-                [
-                  148.5495,
-                  -36.4187
-                ],
-                [
-                  148.5489,
-                  -36.4196
-                ],
-                [
-                  148.5489,
-                  -36.42
-                ],
-                [
-                  148.5483,
-                  -36.4204
-                ],
-                [
-                  148.5475,
-                  -36.4197
-                ],
-                [
-                  148.5474,
-                  -36.4192
-                ],
-                [
-                  148.5469,
-                  -36.4185
-                ],
-                [
-                  148.5463,
-                  -36.4184
-                ],
-                [
-                  148.5455,
-                  -36.4162
-                ],
-                [
-                  148.5452,
-                  -36.4162
-                ],
-                [
-                  148.5446,
-                  -36.4156
-                ],
-                [
-                  148.5443,
-                  -36.4156
-                ],
-                [
-                  148.5439,
-                  -36.4148
-                ],
-                [
-                  148.5426,
-                  -36.4142
-                ],
-                [
-                  148.5426,
-                  -36.4135
-                ],
-                [
-                  148.5423,
-                  -36.4131
-                ],
-                [
-                  148.5424,
-                  -36.4127
-                ],
-                [
-                  148.5422,
-                  -36.4123
-                ],
-                [
-                  148.5425,
-                  -36.4114
-                ],
-                [
-                  148.545,
-                  -36.4099
-                ],
-                [
-                  148.5459,
-                  -36.4091
-                ],
-                [
-                  148.5474,
-                  -36.4094
-                ],
-                [
-                  148.5479,
-                  -36.4082
-                ],
-                [
-                  148.5483,
-                  -36.4081
-                ],
-                [
-                  148.551,
-                  -36.4084
-                ],
-                [
-                  148.5517,
-                  -36.408
-                ],
-                [
-                  148.5528,
-                  -36.4068
-                ],
-                [
-                  148.5522,
-                  -36.4058
-                ],
-                [
-                  148.5523,
-                  -36.4052
-                ],
-                [
-                  148.5533,
-                  -36.4034
-                ],
-                [
-                  148.5553,
-                  -36.403
-                ],
-                [
-                  148.5553,
-                  -36.4025
-                ],
-                [
-                  148.5565,
-                  -36.4014
-                ],
-                [
-                  148.5565,
-                  -36.4004
-                ],
-                [
-                  148.5573,
-                  -36.4002
-                ],
-                [
-                  148.5572,
-                  -36.3995
-                ],
-                [
-                  148.5575,
-                  -36.3984
-                ],
-                [
-                  148.5579,
-                  -36.3981
-                ],
-                [
-                  148.5587,
-                  -36.3979
-                ],
-                [
-                  148.5595,
-                  -36.3982
-                ],
-                [
-                  148.5599,
-                  -36.399
-                ],
-                [
-                  148.5592,
-                  -36.4018
-                ],
-                [
-                  148.5581,
-                  -36.403
-                ],
-                [
-                  148.5581,
-                  -36.4043
-                ],
-                [
-                  148.5572,
-                  -36.4079
-                ]
-              ]
-            ]
-          },
-          {
             "type": "Point",
             "coordinates": [
               148.553604126,
@@ -3025,138 +3114,51 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 220732,
+        "status": "On Scene",
+        "cfaId": 220700,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220732,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Whitfield Bvd",
-        "eventId": 250523544,
-        "id": "ESTA:250523544",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-05-14T08:02:00.000Z",
-        "updated": "2025-05-14T08:20:00.000Z",
-        "resources": 0,
-        "location": "Whitfield Bvd, Cranbourne West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24198947977524,
-          -38.087448848878225
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 220733,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220733,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bass Hwy",
-        "eventId": 250523557,
-        "id": "ESTA:250523557",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-14T08:07:00.000Z",
-        "updated": "2025-05-14T08:21:00.000Z",
-        "resources": 0,
-        "location": "Bass Hwy, Leongatha South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9190009050358,
-          -38.50007194162347
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 220734,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220734,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Dry Creek Cr",
-        "eventId": 250523562,
-        "id": "ESTA:250523562",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-14T08:12:00.000Z",
-        "updated": "2025-05-14T08:26:00.000Z",
-        "resources": 0,
-        "location": "Dry Creek Cr, Wandong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02855157347912,
-          -37.35847093039721
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 220724,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250523532",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Epping",
-        "eventId": "250523532",
-        "id": "ESTA:250523532",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-14T07:58:17.000Z",
-        "updated": "2025-05-14T07:58:17.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567796,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250523400,
+        "id": "ESTA:250523400",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-14T05:48:00.000Z",
+        "updated": "2025-05-14T06:43:00.000Z",
         "resources": 1,
-        "location": "Epping, Epping",
+        "location": "Shelbourne",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250523532"
+        "sesId": 567796
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99359838907034,
-          -37.63410483519953
+          144.03761492667846,
+          -36.848127973606125
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 220704,
+        "cfaId": 220737,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220704,
+        "sourceId": 220737,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cottons Rd",
-        "eventId": 250523412,
-        "id": "ESTA:250523412",
+        "sourceTitle": "Bloomfield Rd",
+        "eventId": 250523579,
+        "id": "ESTA:250523579",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-05-14T05:55:00.000Z",
-        "updated": "2025-05-14T08:03:00.000Z",
+        "created": "2025-05-14T08:29:00.000Z",
+        "updated": "2025-05-14T08:44:00.000Z",
         "resources": 0,
-        "location": "Cottons Rd, Cobram",
+        "location": "Bloomfield Rd, Keysborough",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3164,28 +3166,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.67808888769665,
-          -35.96276347979173
+          145.17595384703617,
+          -37.986664206861555
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 220714,
+        "cfaId": 220724,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 220714,
+        "sourceId": 220724,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "River Av",
-        "eventId": 250523491,
-        "id": "ESTA:250523491",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-14T07:02:00.000Z",
-        "updated": "2025-05-14T08:05:00.000Z",
+        "sourceTitle": "",
+        "eventId": 250523532,
+        "id": "ESTA:250523532",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-14T07:44:00.000Z",
+        "updated": "2025-05-14T08:59:00.000Z",
         "resources": 0,
-        "location": "River Av, Echuca Village",
+        "location": "Epping",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3193,58 +3195,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.78986878152702,
-          -36.12270931609218
+          144.9935940795855,
+          -37.634107711641455
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "cfaId": 220738,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220738,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Hwy",
+        "eventId": 250523596,
+        "id": "ESTA:250523596",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-14T09:10:00.000Z",
+        "updated": "2025-05-14T09:10:00.000Z",
+        "resources": 4,
+        "location": "Calder Hwy, Ravenswood",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.21494781426387,
+          -36.8742716276726
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 220728,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250523539",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220728,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Norton Dr",
-        "eventId": "250523539",
+        "eventId": 250523539,
         "id": "ESTA:250523539",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-14T08:09:23.000Z",
-        "updated": "2025-05-14T08:09:23.000Z",
-        "resources": 1,
-        "location": "Norton Dr, Melton",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250523539"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.59858819171592,
-          -37.692046325655106
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 220735,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220735,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thoona-Goorambat Rd",
-        "eventId": 250523565,
-        "id": "ESTA:250523565",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-14T08:13:00.000Z",
-        "updated": "2025-05-14T08:18:00.000Z",
+        "created": "2025-05-14T07:57:00.000Z",
+        "updated": "2025-05-14T09:13:00.000Z",
         "resources": 0,
-        "location": "Thoona-Goorambat Rd, Goorambat",
+        "location": "Norton Dr, Melton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3252,66 +3253,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.95291338972729,
-          -36.406743595774934
+          144.59858746869097,
+          -37.6920495119413
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250523357",
+        "cfaId": 220739,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250523357",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Broadway St",
-        "id": "ESTA:250523357",
-        "eventId": "250523357",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220739,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250523597,
+        "id": "ESTA:250523597",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-14T07:06:16.000Z",
-        "updated": "2025-05-14T07:06:16.000Z",
-        "resources": 1,
+        "created": "2025-05-14T09:12:00.000Z",
+        "updated": "2025-05-14T09:26:00.000Z",
+        "resources": 3,
+        "location": "Mandurang",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Broadway St, Roxburgh Park"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91553618436123,
-          -37.61068338657414
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250523588",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250523588",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Maddox Rd",
-        "id": "ESTA:250523588",
-        "eventId": "250523588",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-14T08:54:17.000Z",
-        "updated": "2025-05-14T08:54:17.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Maddox Rd, Newport"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8696490132657,
-          -37.84237074682958
+          144.30698046066348,
+          -36.81778127907911
         ]
       }
     },
@@ -3346,36 +3318,36 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250523585",
+        "status": "Under Control",
+        "mfbId": "250523601",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250523585",
+        "sourceId": "250523601",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Stewart St",
-        "id": "ESTA:250523585",
-        "eventId": "250523585",
+        "sourceTitle": "Burwood",
+        "id": "ESTA:250523601",
+        "eventId": "250523601",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-14T08:50:33.000Z",
-        "updated": "2025-05-14T08:50:33.000Z",
-        "resources": 1,
+        "created": "2025-05-14T09:25:58.000Z",
+        "updated": "2025-05-14T09:25:58.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Stewart St, Shepparton"
+        "location": "Burwood, Burwood"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4049057341563,
-          -36.38074987174277
+          145.0951099367588,
+          -37.85335089099011
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250523576",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3386,8 +3358,8 @@
         "eventId": "250523576",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-05-14T08:27:33.000Z",
-        "updated": "2025-05-14T08:27:33.000Z",
+        "created": "2025-05-14T09:02:07.000Z",
+        "updated": "2025-05-14T09:02:07.000Z",
         "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
@@ -3399,33 +3371,6 @@
         "coordinates": [
           144.99045124827794,
           -37.79253458141327
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 567798,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567798,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250550612,
-        "id": "ESTA:250550612",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-05-14T07:57:00.000Z",
-        "updated": "2025-05-14T08:26:00.000Z",
-        "resources": 1,
-        "location": "Melton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.59858746869097,
-          -37.6920495119413
         ]
       }
     },
@@ -3443,8 +3388,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-05-14T08:27:00.000Z",
-        "updated": "2025-05-14T08:41:00.000Z",
-        "resources": 0,
+        "updated": "2025-05-14T09:03:00.000Z",
+        "resources": 1,
         "location": "Mount Evelyn"
       },
       "type": "Feature",
@@ -3453,6 +3398,33 @@
         "coordinates": [
           145.3906116952685,
           -37.78039987765208
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 567806,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567806,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550619,
+        "id": "ESTA:250550619",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-05-14T09:23:00.000Z",
+        "updated": "2025-05-14T09:25:00.000Z",
+        "resources": 0,
+        "location": "Armstrong Creek"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36524120823228,
+          -38.22989077211832
         ]
       }
     }
@@ -3684,7 +3656,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-14T08:55:20.712Z",
-    "featureCount": 273
+    "lastUpdated": "2025-05-14T09:28:26.180Z",
+    "featureCount": 272
   }
 }
