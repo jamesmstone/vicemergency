@@ -1708,7 +1708,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119578699,
         "feedType": "incident",
         "source": "000",
@@ -1722,7 +1722,7 @@
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
         "created": "2025-05-15T21:30:00.000Z",
-        "updated": "2025-05-15T21:30:00.000Z",
+        "updated": "2025-05-15T21:38:00.000Z",
         "resources": 0,
         "location": "Langley Way, North Wonthaggi",
         "cfaId": 220912,
@@ -1740,24 +1740,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119578400,
+        "status": "Request For Assistance",
+        "estaId": 119578779,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 220907,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mcivor Hwy",
-        "eventId": 250525213,
-        "id": "ESTA:250525213",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 567848,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550657,
+        "id": "ESTA:250550657",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-15T20:21:00.000Z",
-        "updated": "2025-05-15T21:28:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-15T21:41:00.000Z",
+        "updated": "2025-05-15T21:44:00.000Z",
         "resources": 0,
-        "location": "Mcivor Hwy, Axedale",
-        "cfaId": 220907,
+        "location": "Tallarook",
+        "sesId": 567848
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12822019784682,
+          -37.09240199362481
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119578833,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220913,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Donnybrook Rd",
+        "eventId": 250525274,
+        "id": "ESTA:250525274",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-15T21:48:00.000Z",
+        "updated": "2025-05-15T21:48:00.000Z",
+        "resources": 0,
+        "location": "Donnybrook Rd, Mickleham",
+        "cfaId": 220913,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1765,8 +1795,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.52548546945516,
-          -36.78761846302687
+          144.9226697217004,
+          -37.53748771229632
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119578834,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250525275",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lang St",
+        "eventId": "250525275",
+        "id": "ESTA:250525275",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-05-15T21:47:54.000Z",
+        "updated": "2025-05-15T21:47:54.000Z",
+        "resources": 0,
+        "location": "Lang St, Princes Hill",
+        "mfbId": "250525275",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9632989622989,
+          -37.77896907309641
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119578845,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119578845,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Clarinda",
+        "eventId": "F250525278",
+        "id": "ESTA:250525278",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-15T21:45:35.000Z",
+        "updated": "2025-05-15T21:50:11.739Z",
+        "resources": 0,
+        "location": "Clarinda Rd, Clarinda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09832120075788,
+          -37.939878333470304
         ]
       }
     },
@@ -3056,6 +3147,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 220907,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 220907,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mcivor Hwy",
+        "eventId": 250525213,
+        "id": "ESTA:250525213",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-15T20:21:00.000Z",
+        "updated": "2025-05-15T21:28:00.000Z",
+        "resources": 0,
+        "location": "Mcivor Hwy, Axedale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.52548546945516,
+          -36.78761846302687
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250525223",
         "feedType": "incident",
@@ -3109,33 +3229,6 @@
         "coordinates": [
           144.93987835080884,
           -37.78075264432492
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 567847,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567847,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250525218,
-        "id": "ESTA:250525218",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-05-15T20:31:00.000Z",
-        "updated": "2025-05-15T21:29:00.000Z",
-        "resources": 2,
-        "location": "Mildura"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.17700896075615,
-          -34.20597827643317
         ]
       }
     }
@@ -3367,7 +3460,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-15T21:37:26.151Z",
-    "featureCount": 253
+    "lastUpdated": "2025-05-15T21:50:20.691Z",
+    "featureCount": 256
   }
 }
