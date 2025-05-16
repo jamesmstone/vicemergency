@@ -1708,24 +1708,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119594109,
+        "status": "Safe",
+        "estaId": 119594306,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221054,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Fwy",
-        "eventId": 250527160,
-        "id": "ESTA:250527160",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250527210",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mildura",
+        "eventId": "250527210",
+        "id": "ESTA:250527210",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-16T22:46:00.000Z",
-        "updated": "2025-05-16T22:46:00.000Z",
-        "resources": 0,
-        "location": "Princes Fwy, Nilma",
-        "cfaId": 221054,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-16T23:19:29.000Z",
+        "updated": "2025-05-16T23:19:29.000Z",
+        "resources": 1,
+        "location": "Mildura, Mildura",
+        "mfbId": "250527210",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1733,8 +1733,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.9680581258742,
-          -38.171097302006494
+          142.16725660089173,
+          -34.1977907210493
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119593741,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221052,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250527054,
+        "id": "ESTA:250527054",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-16T21:59:00.000Z",
+        "updated": "2025-05-16T22:57:00.000Z",
+        "resources": 0,
+        "location": "Sarsfield",
+        "cfaId": 221052,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7389403575441,
+          -37.7512204300138
         ]
       }
     },
@@ -2994,64 +3026,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 221052,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221052,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250527054,
-        "id": "ESTA:250527054",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-16T21:59:00.000Z",
-        "updated": "2025-05-16T22:16:00.000Z",
-        "resources": 1,
-        "location": "Sarsfield",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.7389403575441,
-          -37.7512204300138
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221053,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221053,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rees Rd",
-        "eventId": 250527055,
-        "id": "ESTA:250527055",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-16T22:02:00.000Z",
-        "updated": "2025-05-16T22:20:00.000Z",
-        "resources": 0,
-        "location": "Rees Rd, Melton South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.56332476238595,
-          -37.711294739174186
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 221051,
         "feedType": "incident",
@@ -3081,24 +3055,50 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "mfbId": "250527107",
+        "status": "Safe",
+        "cfaId": 221054,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221054,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Fwy",
+        "eventId": 250527160,
+        "id": "ESTA:250527160",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-16T22:46:00.000Z",
+        "updated": "2025-05-16T23:03:00.000Z",
+        "resources": 0,
+        "location": "Princes Fwy, Nilma",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96617955708317,
+          -38.17073831090552
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 567880,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
         "sourceId": 567880,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "id": "ESTA:250527107",
         "eventId": 250527107,
+        "id": "ESTA:250527107",
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-05-16T22:26:00.000Z",
-        "updated": "2025-05-16T22:36:00.000Z",
+        "updated": "2025-05-16T23:12:00.000Z",
         "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Craigieburn",
-        "sesId": 567880
+        "location": "Craigieburn"
       },
       "type": "Feature",
       "geometry": {
@@ -3106,62 +3106,6 @@
         "coordinates": [
           144.94079476731648,
           -37.58413631984522
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250527105",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250527105",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pennington St",
-        "id": "ESTA:250527105",
-        "eventId": "250527105",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-16T22:31:58.000Z",
-        "updated": "2025-05-16T22:31:58.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Pennington St, Keilor East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.86519807218716,
-          -37.745362810779675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 567879,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 567879,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250550687,
-        "id": "ESTA:250550687",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-05-16T21:34:00.000Z",
-        "updated": "2025-05-16T21:56:00.000Z",
-        "resources": 1,
-        "location": "Epping"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03666279069,
-          -37.64546680908667
         ]
       }
     }
@@ -3180,7 +3124,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3188,7 +3131,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3204,7 +3148,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3212,7 +3155,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-16T14:00:00.000Z",
           "heat": {
@@ -3334,7 +3278,6 @@
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -3342,7 +3285,8 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE"
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -3393,7 +3337,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-16T22:50:00.670Z",
-    "featureCount": 253
+    "lastUpdated": "2025-05-16T23:24:20.645Z",
+    "featureCount": 251
   }
 }
