@@ -1708,61 +1708,66 @@
     },
     {
       "properties": {
-        "status": "Being Controlled",
+        "status": "Safe",
+        "estaId": 119615624,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "602075",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Rubbish Depot Mudge St, Hamilton Valley",
-        "id": "2025-05-19T00:38:00.0000000:602075",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Rubbish Depot Mudge St, Hamilton Valley",
-        "location": "Rubbish Depot Mudge St, Hamilton Valley 2641",
-        "created": "2025-05-19T00:38:00+10:00",
-        "updated": "2025-05-19T00:38:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221327,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jubilee Rd",
+        "eventId": 250529580,
+        "id": "ESTA:250529580",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-18T16:08:00.000Z",
+        "updated": "2025-05-18T16:27:00.000Z",
+        "resources": 1,
+        "location": "Jubilee Rd, Stawell",
+        "cfaId": 221327,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.894836426,
-          -36.0295028689999
+          142.79246260026,
+          -37.0676700904896
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "estaId": 119615675,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "602060",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Arumpo Rd, Wentworth",
-        "id": "2025-05-18T21:08:00.0000000:602060",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Arumpo Rd, Wentworth",
-        "location": "258 Arumpo Rd, Wentworth 2648",
-        "created": "2025-05-18T21:08:00+10:00",
-        "updated": "2025-05-18T21:08:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250529581",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kingswood Dr",
+        "eventId": "250529581",
+        "id": "ESTA:250529581",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-18T16:19:05.000Z",
+        "updated": "2025-05-18T16:19:05.000Z",
+        "resources": 2,
+        "location": "Kingswood Dr, Craigieburn",
+        "cfaId": 221328,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250529581"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.199005127,
-          -34.129104614
+          144.94052615968897,
+          -37.592325430630886
         ]
       }
     },
@@ -1920,30 +1925,61 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 221325,
+        "status": "Being Controlled",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221325,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Patterson St",
-        "eventId": 250529573,
-        "id": "ESTA:250529573",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-18T14:03:00.000Z",
-        "updated": "2025-05-18T14:54:00.000Z",
-        "resources": 0,
-        "location": "Patterson St, Heathcote",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "602075",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Rubbish Depot Mudge St, Hamilton Valley",
+        "id": "2025-05-19T00:38:00.0000000:602075",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Rubbish Depot Mudge St, Hamilton Valley",
+        "location": "Rubbish Depot Mudge St, Hamilton Valley 2641",
+        "created": "2025-05-19T00:38:00+10:00",
+        "updated": "2025-05-19T00:38:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.70560522037533,
-          -36.9054841170954
+          146.894836426,
+          -36.0295028689999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "602060",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Arumpo Rd, Wentworth",
+        "id": "2025-05-18T21:08:00.0000000:602060",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Arumpo Rd, Wentworth",
+        "location": "258 Arumpo Rd, Wentworth 2648",
+        "created": "2025-05-18T21:08:00+10:00",
+        "updated": "2025-05-18T21:08:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.199005127,
+          -34.129104614
         ]
       }
     },
@@ -2000,6 +2036,33 @@
         "coordinates": [
           146.17595048280424,
           -37.58479569805166
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 568002,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568002,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250550794,
+        "id": "ESTA:250550794",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-05-18T16:18:00.000Z",
+        "updated": "2025-05-18T16:19:00.000Z",
+        "resources": 0,
+        "location": "Brunswick East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97088814550315,
+          -37.77871193085021
         ]
       }
     }
@@ -2231,7 +2294,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-18T15:50:06.031Z",
-    "featureCount": 249
+    "lastUpdated": "2025-05-18T16:30:00.490Z",
+    "featureCount": 251
   }
 }
