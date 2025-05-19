@@ -700,7 +700,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007492,
@@ -710,18 +710,18 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-05-19T21:34:00.000Z",
-        "updated": "2025-05-19T21:34:00.000Z",
+        "updated": "2025-05-19T21:42:00.000Z",
         "resources": 4,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "size": "0.01",
+        "sizeFmt": "0.01 Ha.",
         "location": "3Km Nw Of Echuca"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7699,
-          -36.1203
+          144.772158,
+          -36.120389
         ]
       }
     },
@@ -1538,23 +1538,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119628936,
+        "estaId": 119629240,
         "feedType": "incident",
-        "source": "000",
+        "source": "OTHER",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 221493,
+        "sourceId": 221499,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sunningdale St",
-        "eventId": 250531096,
-        "id": "ESTA:250531096",
+        "sourceTitle": "Buffalo River Rd",
+        "eventId": 250531150,
+        "id": "ESTA:250531150",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-19T21:13:00.000Z",
-        "updated": "2025-05-19T21:27:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-05-19T22:04:00.000Z",
+        "updated": "2025-05-19T22:06:00.000Z",
         "resources": 0,
-        "location": "Sunningdale St, West Wodonga",
-        "cfaId": 221493,
+        "location": "Buffalo River Rd, Buffalo River",
+        "cfaId": 221499,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1562,41 +1562,74 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.8363730678617,
-          -36.119668804300495
+          146.68639015526634,
+          -36.625671633172956
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119629141,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568050,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250531132,
+        "id": "ESTA:250531132",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-19T21:51:00.000Z",
+        "updated": "2025-05-19T22:19:00.000Z",
+        "resources": 0,
+        "location": "Burramine",
+        "cfaId": 221496,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 568050
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.93134160917788,
+          -35.99537994307152
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119629094,
+        "estaId": 119629383,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250531127",
+        "sourceId": "250531168",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Blucher St",
-        "eventId": "250531127",
-        "id": "ESTA:250531127",
+        "sourceTitle": "Jeffrey St",
+        "eventId": "250531168",
+        "id": "ESTA:250531168",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-05-19T21:45:14.000Z",
-        "updated": "2025-05-19T21:45:14.000Z",
+        "created": "2025-05-19T22:20:26.000Z",
+        "updated": "2025-05-19T22:20:26.000Z",
         "resources": 1,
-        "location": "Blucher St, Strathfieldsaye",
-        "cfaId": 221495,
+        "location": "Jeffrey St, Hampton Park",
+        "cfaId": 221501,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250531127"
+        "mfbId": "250531168"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.35878681964346,
-          -36.805138528911705
+          145.2547937400613,
+          -38.03748069882658
         ]
       }
     },
@@ -1814,35 +1847,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 221487,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221487,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Trish Walk",
-        "eventId": 250531067,
-        "id": "ESTA:250531067",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-19T20:47:00.000Z",
-        "updated": "2025-05-19T21:01:00.000Z",
-        "resources": 0,
-        "location": "Trish Walk, Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68402278569732,
-          -37.90912175844029
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 221486,
         "feedType": "incident",
@@ -1867,36 +1871,6 @@
         "coordinates": [
           144.77023665634485,
           -36.11998374819925
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221489,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250531082",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wollert",
-        "eventId": "250531082",
-        "id": "ESTA:250531082",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-19T21:21:54.000Z",
-        "updated": "2025-05-19T21:21:54.000Z",
-        "resources": 1,
-        "location": "Wollert, Wollert",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250531082"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04489893545835,
-          -37.60996588966192
         ]
       }
     },
@@ -1931,6 +1905,96 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 221495,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250531127",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Blucher St",
+        "eventId": "250531127",
+        "id": "ESTA:250531127",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-19T21:59:09.000Z",
+        "updated": "2025-05-19T21:59:09.000Z",
+        "resources": 1,
+        "location": "Blucher St, Strathfieldsaye",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250531127"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35878681964346,
+          -36.805138528911705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 221498,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221498,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Quayle Rd",
+        "eventId": 250531141,
+        "id": "ESTA:250531141",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-19T22:02:00.000Z",
+        "updated": "2025-05-19T22:15:00.000Z",
+        "resources": 0,
+        "location": "Quayle Rd, Wandin North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.43909295667635,
+          -37.789253513526546
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 221500,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568052,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250531156,
+        "id": "ESTA:250531156",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-19T22:11:00.000Z",
+        "updated": "2025-05-19T22:26:00.000Z",
+        "resources": 2,
+        "location": "Seaford",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250531156",
+        "sesId": 568052
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14906941423448,
+          -38.11836429941975
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250531057",
         "feedType": "incident",
@@ -1957,6 +2021,35 @@
           -37.832371339197124
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250531133",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250531133",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Middle Rd",
+        "id": "ESTA:250531133",
+        "eventId": "250531133",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-19T22:14:17.000Z",
+        "updated": "2025-05-19T22:14:17.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Middle Rd, Maribyrnong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89105969381313,
+          -37.76768048523863
+        ]
+      }
     }
   ],
   "properties": {
@@ -1973,7 +2066,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1981,7 +2073,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1997,7 +2090,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2005,7 +2097,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-19T14:00:00.000Z",
           "heat": {
@@ -2186,7 +2279,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-19T21:50:20.778Z",
-    "featureCount": 245
+    "lastUpdated": "2025-05-19T22:27:06.692Z",
+    "featureCount": 248
   }
 }
