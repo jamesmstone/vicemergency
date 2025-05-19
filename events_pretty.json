@@ -1509,66 +1509,60 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119626881,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221464,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250530977,
-        "id": "ESTA:250530977",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-19T12:30:00.000Z",
-        "updated": "2025-05-19T12:50:00.000Z",
-        "resources": 1,
-        "location": "Sale",
-        "cfaId": 221464,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.0739971667699,
-          -38.09911758495012
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "601736",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Gulpa Creek Rd Fire",
+        "id": "2025-05-18T13:42:00.0000000:601736",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Gulpa Creek Rd Fire",
+        "location": "Gulpa Creek Rd, Mathoura 2710",
+        "created": "2025-05-18T13:42:00+10:00",
+        "updated": "2025-05-18T13:42:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "5 ha"
         ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119627006,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250530980",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cromwell Rd",
-        "eventId": "250530980",
-        "id": "ESTA:250530980",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-19T12:53:08.000Z",
-        "updated": "2025-05-19T12:53:08.000Z",
-        "resources": 2,
-        "location": "Cromwell Rd, South Yarra",
-        "mfbId": "250530980",
-        "size": "Small",
-        "sizeFmt": "Small"
       },
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99968186576697,
-          -37.84500934593858
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.9141,
+                  -35.7184
+                ],
+                [
+                  144.914,
+                  -35.7146
+                ],
+                [
+                  144.9153,
+                  -35.7159
+                ],
+                [
+                  144.9141,
+                  -35.7184
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              144.914253818,
+              -35.716498761
+            ]
+          }
         ]
       }
     },
@@ -1697,182 +1691,37 @@
       }
     },
     {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 221464,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221464,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250530977,
+        "id": "ESTA:250530977",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-19T12:30:00.000Z",
+        "updated": "2025-05-19T12:50:00.000Z",
+        "resources": 0,
+        "location": "Sale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0739971667699,
+          -38.09911758495012
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "601736",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Gulpa Creek Rd Fire",
-        "id": "2025-05-18T13:42:00.0000000:601736",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Gulpa Creek Rd Fire",
-        "location": "Gulpa Creek Rd, Mathoura 2710",
-        "created": "2025-05-18T13:42:00+10:00",
-        "updated": "2025-05-18T13:42:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "5 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.9141,
-                  -35.7184
-                ],
-                [
-                  144.914,
-                  -35.7146
-                ],
-                [
-                  144.9153,
-                  -35.7159
-                ],
-                [
-                  144.9141,
-                  -35.7184
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.914253818,
-              -35.716498761
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221461,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221461,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Roulston Way",
-        "eventId": 250530968,
-        "id": "ESTA:250530968",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-19T12:03:00.000Z",
-        "updated": "2025-05-19T12:05:00.000Z",
-        "resources": 0,
-        "location": "Roulston Way, Wallan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96304635808073,
-          -37.399736634421416
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221460,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221460,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Robinsons Rd",
-        "eventId": 250530960,
-        "id": "ESTA:250530960",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-19T11:36:00.000Z",
-        "updated": "2025-05-19T12:15:00.000Z",
-        "resources": 0,
-        "location": "Robinsons Rd, Pearcedale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25088697892468,
-          -38.18859359204337
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221462,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221462,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Loch St",
-        "eventId": 250530972,
-        "id": "ESTA:250530972",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-19T12:14:00.000Z",
-        "updated": "2025-05-19T12:16:00.000Z",
-        "resources": 0,
-        "location": "Loch St, Yarragon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0618527419906,
-          -38.20667167991812
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221463,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221463,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Loch St",
-        "eventId": 250530976,
-        "id": "ESTA:250530976",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-19T12:23:00.000Z",
-        "updated": "2025-05-19T12:25:00.000Z",
-        "resources": 0,
-        "location": "Loch St, Yarragon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0618527419906,
-          -38.20667167991812
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
         "cfaId": 221465,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1883,8 +1732,8 @@
         "id": "ESTA:250530978",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-05-19T12:38:04.000Z",
-        "updated": "2025-05-19T12:38:04.000Z",
+        "created": "2025-05-19T12:58:55.000Z",
+        "updated": "2025-05-19T12:58:55.000Z",
         "resources": 4,
         "location": "Hastings St, Wendouree",
         "size": "Small",
@@ -1902,30 +1751,61 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250530974",
+        "status": "Safe",
+        "cfaId": 221466,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250530974",
+        "sourceId": "250530981",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sydney Rd",
-        "id": "ESTA:250530974",
-        "eventId": "250530974",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-19T12:28:42.000Z",
-        "updated": "2025-05-19T12:28:42.000Z",
+        "sourceTitle": "Swiss Way",
+        "eventId": "250530981",
+        "id": "ESTA:250530981",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-19T13:25:53.000Z",
+        "updated": "2025-05-19T13:25:53.000Z",
         "resources": 1,
+        "location": "Swiss Way, Manor Lakes",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Sydney Rd, Campbellfield"
+        "mfbId": "250530981"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9557344469214,
-          -37.669661730708704
+          144.59272561662246,
+          -37.86690648973976
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 221467,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250530984",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Langdon Cr",
+        "eventId": "250530984",
+        "id": "ESTA:250530984",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-19T13:32:01.000Z",
+        "updated": "2025-05-19T13:32:01.000Z",
+        "resources": 1,
+        "location": "Langdon Cr, Craigieburn",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250530984"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93509194931752,
+          -37.60399158298057
         ]
       }
     },
@@ -2186,7 +2066,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-19T12:56:00.428Z",
-    "featureCount": 245
+    "lastUpdated": "2025-05-19T13:37:26.257Z",
+    "featureCount": 241
   }
 }
