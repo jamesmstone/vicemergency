@@ -1569,24 +1569,58 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119641465,
+        "status": "Request For Assistance",
+        "estaId": 119641548,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221643,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mercer St",
-        "eventId": 250532324,
-        "id": "ESTA:250532324",
+        "source": "OTHER",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568076,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250532336,
+        "id": "ESTA:250532336",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-20T21:05:00.000Z",
+        "updated": "2025-05-20T21:20:00.000Z",
+        "resources": 4,
+        "location": "Bunyip",
+        "cfaId": 221644,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250532336",
+        "sesId": 568076
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.71466084811365,
+          -38.075393108280174
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119641610,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250532346",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Burwood Rd",
+        "eventId": "250532346",
+        "id": "ESTA:250532346",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-20T20:45:00.000Z",
-        "updated": "2025-05-20T20:45:00.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-05-20T21:23:35.000Z",
+        "updated": "2025-05-20T21:23:35.000Z",
         "resources": 2,
-        "location": "Mercer St, Portarlington",
-        "cfaId": 221643,
+        "location": "Burwood Rd, Hawthorn",
+        "mfbId": "250532346",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1594,66 +1628,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.66996748006457,
-          -38.116540217660244
+          145.04396970675626,
+          -37.82380084254143
         ]
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "estaId": 119641627,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "601736",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Gulpa Creek Rd Fire",
-        "id": "2025-05-18T13:42:00.0000000:601736",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250532354",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Louis Ct",
+        "eventId": "250532354",
+        "id": "ESTA:250532354",
+        "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Gulpa Creek Rd Fire",
-        "location": "Gulpa Creek Rd, Mathoura 2710",
-        "created": "2025-05-18T13:42:00+10:00",
-        "updated": "2025-05-18T13:42:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "5 ha"
-        ]
+        "category2": "Non Structure Fire",
+        "created": "2025-05-20T21:23:56.000Z",
+        "updated": "2025-05-20T21:23:56.000Z",
+        "resources": 1,
+        "location": "Louis Ct, Newtown (Geelong)",
+        "mfbId": "250532354",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
+      "type": "Feature",
       "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.9141,
-                  -35.7184
-                ],
-                [
-                  144.914,
-                  -35.7146
-                ],
-                [
-                  144.9153,
-                  -35.7159
-                ],
-                [
-                  144.9141,
-                  -35.7184
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.914253818,
-              -35.716498761
-            ]
-          }
+        "type": "Point",
+        "coordinates": [
+          144.32606862108562,
+          -38.148333476597614
         ]
       }
     },
@@ -2178,6 +2186,64 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "601736",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Gulpa Creek Rd Fire",
+        "id": "2025-05-18T13:42:00.0000000:601736",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Gulpa Creek Rd Fire",
+        "location": "Gulpa Creek Rd, Mathoura 2710",
+        "created": "2025-05-18T13:42:00+10:00",
+        "updated": "2025-05-18T13:42:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "5 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.9141,
+                  -35.7184
+                ],
+                [
+                  144.914,
+                  -35.7146
+                ],
+                [
+                  144.9153,
+                  -35.7159
+                ],
+                [
+                  144.9141,
+                  -35.7184
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              144.914253818,
+              -35.716498761
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 221593,
@@ -2192,7 +2258,7 @@
         "category2": "Structure Fire",
         "created": "2025-05-20T12:10:59.000Z",
         "updated": "2025-05-20T12:10:59.000Z",
-        "resources": 6,
+        "resources": 4,
         "location": "Ballan Rd, Anakie",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2209,64 +2275,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 221640,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221640,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pearson St",
-        "eventId": 250532309,
-        "id": "ESTA:250532309",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-20T19:35:00.000Z",
-        "updated": "2025-05-20T19:53:00.000Z",
-        "resources": 0,
-        "location": "Pearson St, Bairnsdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.62120060573903,
-          -37.824148766658325
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 221641,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221641,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Marine Pde",
-        "eventId": 250532311,
-        "id": "ESTA:250532311",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-20T19:48:00.000Z",
-        "updated": "2025-05-20T20:02:00.000Z",
-        "resources": 0,
-        "location": "Marine Pde, Hastings",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.19382190303378,
-          -38.30624816662092
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 221642,
         "feedType": "incident",
@@ -2278,9 +2286,9 @@
         "id": "ESTA:250532318",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-05-20T20:26:13.000Z",
-        "updated": "2025-05-20T20:26:13.000Z",
-        "resources": 2,
+        "created": "2025-05-20T20:54:32.000Z",
+        "updated": "2025-05-20T20:54:32.000Z",
+        "resources": 1,
         "location": "Themeda Cl, South Morang",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2297,30 +2305,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250532320",
+        "status": "Responding",
+        "cfaId": 221645,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250532320",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Glen Iris",
-        "id": "ESTA:250532320",
-        "eventId": "250532320",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-20T20:36:28.000Z",
-        "updated": "2025-05-20T20:36:28.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221645,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Chandler Rd",
+        "eventId": 250532344,
+        "id": "ESTA:250532344",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-20T21:18:00.000Z",
+        "updated": "2025-05-20T21:18:00.000Z",
+        "resources": 2,
+        "location": "Chandler Rd, Boronia",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Glen Iris, Glen Iris"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05224887160367,
-          -37.854665607645316
+          145.2869967183922,
+          -37.86008428788022
         ]
       }
     },
@@ -2579,7 +2587,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-20T20:51:00.287Z",
+    "lastUpdated": "2025-05-20T21:24:40.583Z",
     "featureCount": 238
   }
 }
