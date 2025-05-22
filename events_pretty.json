@@ -1447,38 +1447,6 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119667032,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250535132",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dover St",
-        "eventId": "250535132",
-        "id": "ESTA:250535132",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-22T19:18:39.000Z",
-        "updated": "2025-05-22T19:18:39.000Z",
-        "resources": 2,
-        "location": "Dover St, Flemington",
-        "mfbId": "250535132",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9231658108949,
-          -37.78270731928859
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 119667041,
         "feedType": "incident",
         "source": "FIP",
@@ -1493,7 +1461,7 @@
         "category2": "Building Fire",
         "created": "2025-05-22T19:19:00.000Z",
         "updated": "2025-05-22T19:19:00.000Z",
-        "resources": 0,
+        "resources": 1,
         "location": "Darnum Park Rd, Darnum",
         "cfaId": 221944,
         "size": "Small",
@@ -1510,7 +1478,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119666995,
         "feedType": "incident",
         "source": "000",
@@ -1524,7 +1492,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-05-22T19:08:00.000Z",
-        "updated": "2025-05-22T19:08:00.000Z",
+        "updated": "2025-05-22T19:21:00.000Z",
         "resources": 3,
         "location": "Nerrena Rd, Leongatha",
         "cfaId": 221943,
@@ -1537,6 +1505,38 @@
         "coordinates": [
           145.965131371191,
           -38.47872514945859
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119667032,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250535132",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dover St",
+        "eventId": "250535132",
+        "id": "ESTA:250535132",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-22T19:28:52.000Z",
+        "updated": "2025-05-22T19:28:52.000Z",
+        "resources": 2,
+        "location": "Dover St, Flemington",
+        "mfbId": "250535132",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9231658108949,
+          -37.78270731928859
         ]
       }
     },
@@ -2013,35 +2013,6 @@
           -37.83760267970794
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250535130",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250535130",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Spring St",
-        "id": "ESTA:250535130",
-        "eventId": "250535130",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-22T19:12:09.000Z",
-        "updated": "2025-05-22T19:12:09.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Spring St, Prahran"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00540869895983,
-          -37.85082962891897
-        ]
-      }
     }
   ],
   "properties": {
@@ -2058,6 +2029,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2065,8 +2037,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2082,6 +2053,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2089,8 +2061,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-22T14:00:00.000Z",
           "heat": {
@@ -2271,7 +2242,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-22T19:21:40.472Z",
-    "featureCount": 231
+    "lastUpdated": "2025-05-22T19:31:06.128Z",
+    "featureCount": 230
   }
 }
