@@ -1352,7 +1352,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119666590,
         "feedType": "incident",
         "source": "000",
@@ -1364,9 +1364,9 @@
         "id": "ESTA:250535116",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-05-22T17:17:26.000Z",
-        "updated": "2025-05-22T17:17:26.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-22T17:26:11.000Z",
+        "updated": "2025-05-22T17:26:11.000Z",
         "resources": 2,
         "location": "Proximity Dr, Sunshine West",
         "mfbId": "250535116",
@@ -1384,65 +1384,34 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119666216,
+        "status": "Responding",
+        "estaId": 119666676,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221935,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lyppards Rd",
-        "eventId": 250535105,
-        "id": "ESTA:250535105",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250535120",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sycamore St",
+        "eventId": "250535120",
+        "id": "ESTA:250535120",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-22T15:52:00.000Z",
-        "updated": "2025-05-22T17:19:00.000Z",
-        "resources": 10,
-        "location": "Lyppards Rd, Langwarrin",
-        "cfaId": 221935,
+        "category2": "Fire",
+        "created": "2025-05-22T17:37:57.000Z",
+        "updated": "2025-05-22T17:37:57.000Z",
+        "resources": 2,
+        "location": "Sycamore St, Hoppers Crossing",
+        "cfaId": 221939,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250535120"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22284490493436,
-          -38.12982214985961
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119666441,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 221937,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Meeniyan-Nerrena Rd",
-        "eventId": 250535113,
-        "id": "ESTA:250535113",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-22T16:38:00.000Z",
-        "updated": "2025-05-22T17:23:00.000Z",
-        "resources": 6,
-        "location": "Meeniyan-Nerrena Rd, Nerrena",
-        "cfaId": 221937,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.03154909973148,
-          -38.53233675813745
+          144.69716180427884,
+          -37.86116062062491
         ]
       }
     },
@@ -1848,7 +1817,7 @@
         "category2": "Other",
         "created": "2025-05-22T16:36:00.000Z",
         "updated": "2025-05-22T16:54:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Tuerong",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1859,6 +1828,93 @@
         "coordinates": [
           145.12718103241463,
           -38.30010239640701
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 221935,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221935,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lyppards Rd",
+        "eventId": 250535105,
+        "id": "ESTA:250535105",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-22T15:52:00.000Z",
+        "updated": "2025-05-22T17:19:00.000Z",
+        "resources": 8,
+        "location": "Lyppards Rd, Langwarrin",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22284490493436,
+          -38.12982214985961
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 221937,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221937,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Meeniyan-Nerrena Rd",
+        "eventId": 250535113,
+        "id": "ESTA:250535113",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-22T16:38:00.000Z",
+        "updated": "2025-05-22T17:23:00.000Z",
+        "resources": 6,
+        "location": "Meeniyan-Nerrena Rd, Nerrena",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.03154909973148,
+          -38.53233675813745
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 221938,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 221938,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Alan Bird Dr",
+        "eventId": 250535118,
+        "id": "ESTA:250535118",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-22T17:29:00.000Z",
+        "updated": "2025-05-22T17:29:00.000Z",
+        "resources": 3,
+        "location": "Alan Bird Dr, Bangholme",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15680138542265,
+          -38.06714662514556
         ]
       }
     },
@@ -1888,35 +1944,6 @@
         "coordinates": [
           144.98908224976884,
           -37.83760267970794
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250535115",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250535115",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mountain Hwy",
-        "id": "ESTA:250535115",
-        "eventId": "250535115",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-22T17:11:40.000Z",
-        "updated": "2025-05-22T17:11:40.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Mountain Hwy, Wantirna"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21707631672675,
-          -37.85511143765953
         ]
       }
     }
@@ -2148,7 +2175,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-22T17:25:06.722Z",
-    "featureCount": 229
+    "lastUpdated": "2025-05-22T17:39:40.835Z",
+    "featureCount": 230
   }
 }
