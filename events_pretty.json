@@ -1090,24 +1090,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119679596,
+        "status": "Responding",
+        "estaId": 119680153,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222086,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lake Rd",
-        "eventId": 250536412,
-        "id": "ESTA:250536412",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250536425",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Harper St",
+        "eventId": "250536425",
+        "id": "ESTA:250536425",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-23T15:26:00.000Z",
-        "updated": "2025-05-23T16:46:00.000Z",
-        "resources": 5,
-        "location": "Lake Rd, Kyabram",
-        "cfaId": 222086,
+        "category2": "Structure Fire",
+        "created": "2025-05-23T17:17:54.000Z",
+        "updated": "2025-05-23T17:17:54.000Z",
+        "resources": 2,
+        "location": "Harper St, Northcote",
+        "mfbId": "250536425",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1115,8 +1115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0457446670384,
-          -36.315677945229716
+          145.00205474369832,
+          -37.78009193174069
         ]
       }
     },
@@ -3184,29 +3184,59 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250536418",
+        "cfaId": 222086,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250536418",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cecil St",
-        "id": "ESTA:250536418",
-        "eventId": "250536418",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-23T16:33:40.000Z",
-        "updated": "2025-05-23T16:33:40.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222086,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lake Rd",
+        "eventId": 250536412,
+        "id": "ESTA:250536412",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-23T15:26:00.000Z",
+        "updated": "2025-05-23T16:46:00.000Z",
+        "resources": 5,
+        "location": "Lake Rd, Kyabram",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Cecil St, South Melbourne"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95957888147163,
-          -37.8363169567896
+          145.0457446670384,
+          -36.315677945229716
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 222088,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250536424",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sherwood Rd",
+        "eventId": "250536424",
+        "id": "ESTA:250536424",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-23T17:21:27.000Z",
+        "updated": "2025-05-23T17:21:27.000Z",
+        "resources": 3,
+        "location": "Sherwood Rd, Narre Warren South",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250536424"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28502355819205,
+          -38.06404385558721
         ]
       }
     }
@@ -3438,7 +3468,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-23T16:53:26.230Z",
-    "featureCount": 212
+    "lastUpdated": "2025-05-23T17:24:26.102Z",
+    "featureCount": 213
   }
 }
