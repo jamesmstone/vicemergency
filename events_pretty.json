@@ -1041,30 +1041,62 @@
         "estaId": 119692538,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537845",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222246,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Mcbride St",
-        "eventId": "250537845",
+        "eventId": 250537845,
         "id": "ESTA:250537845",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-24T15:29:55.000Z",
-        "updated": "2025-05-24T15:29:55.000Z",
-        "resources": 1,
+        "category2": "Building Fire",
+        "created": "2025-05-24T15:15:00.000Z",
+        "updated": "2025-05-24T15:24:00.000Z",
+        "resources": 0,
         "location": "Mcbride St, Cockatoo",
         "cfaId": 222246,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250537845"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.49035949857566,
-          -37.93579140716945
+          145.49035564272378,
+          -37.935795241933405
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119692742,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250537849",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Frankston",
+        "eventId": "250537849",
+        "id": "ESTA:250537849",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-24T15:43:07.000Z",
+        "updated": "2025-05-24T15:43:07.000Z",
+        "resources": 2,
+        "location": "Frankston, Frankston",
+        "cfaId": 222247,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250537849"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.124806880733,
+          -38.13807199962665
         ]
       }
     },
@@ -8994,35 +9026,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 222244,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222244,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250537838,
-        "id": "ESTA:250537838",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-24T14:30:00.000Z",
-        "updated": "2025-05-24T14:47:00.000Z",
-        "resources": 0,
-        "location": "Shepparton East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4981801515495,
-          -36.41518645864872
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 222245,
         "feedType": "incident",
@@ -9054,35 +9057,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250537842",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537842",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mountain Hwy",
-        "id": "ESTA:250537842",
-        "eventId": "250537842",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-24T15:16:27.000Z",
-        "updated": "2025-05-24T15:16:27.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Mountain Hwy, Wantirna"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21707631672675,
-          -37.85511143765953
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "250537832",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -9095,7 +9069,7 @@
         "category2": "Structure Fire",
         "created": "2025-05-24T14:45:04.000Z",
         "updated": "2025-05-24T14:45:04.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Lt Boundary Rd, Laverton North"
@@ -9106,6 +9080,35 @@
         "coordinates": [
           144.82285026323075,
           -37.823218645590025
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250537842",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250537842",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mountain Hwy",
+        "id": "ESTA:250537842",
+        "eventId": "250537842",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-24T15:42:44.000Z",
+        "updated": "2025-05-24T15:42:44.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mountain Hwy, Wantirna"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21707631672675,
+          -37.85511143765953
         ]
       }
     }
@@ -9337,7 +9340,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-24T15:36:40.595Z",
+    "lastUpdated": "2025-05-24T15:50:20.556Z",
     "featureCount": 208
   }
 }
