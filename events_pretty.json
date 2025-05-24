@@ -433,33 +433,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 1007492,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Murray Goldfields 183 - Echuca - Murray Bank Rd",
-        "id": 1007492,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-19T21:34:00.000Z",
-        "updated": "2025-05-24T06:44:00.000Z",
-        "resources": 0,
-        "size": "0.40",
-        "sizeFmt": "0.40 Ha.",
-        "location": "3Km Nw Of Echuca"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.772158,
-          -36.120389
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1241,68 +1214,38 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119677299,
+        "estaId": 119687253,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119677299,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Clarkefield",
-        "eventId": "F250536336",
-        "id": "ESTA:250536336",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222174,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Psaltis Pde",
+        "eventId": 250537571,
+        "id": "ESTA:250537571",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-23T11:02:38.000Z",
-        "updated": "2025-05-24T07:22:35.500Z",
+        "category2": "Bushfire",
+        "created": "2025-05-24T06:53:00.000Z",
+        "updated": "2025-05-24T07:09:00.000Z",
         "resources": 0,
-        "location": "Boggy Gate Rd, Clarkefield"
+        "location": "Psaltis Pde, Benalla",
+        "cfaId": 222174,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.79263762642026,
-          -37.495579663349545
+          145.98883997692732,
+          -36.554138745631754
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119687486,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537594",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Aspinall St",
-        "eventId": "250537594",
-        "id": "ESTA:250537594",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-24T07:24:29.000Z",
-        "updated": "2025-05-24T07:24:29.000Z",
-        "resources": 1,
-        "location": "Aspinall St, Golden Square",
-        "cfaId": 222176,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250537594"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.24792519544516,
-          -36.77136436936624
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 119687634,
         "feedType": "incident",
         "source": "000",
@@ -1315,9 +1258,9 @@
         "suppress": false,
         "category1": "Other",
         "category2": "Grass and Scrub",
-        "created": "2025-05-24T07:33:10.000Z",
-        "updated": "2025-05-24T07:33:10.000Z",
-        "resources": 2,
+        "created": "2025-05-24T07:44:45.000Z",
+        "updated": "2025-05-24T07:44:45.000Z",
+        "resources": 1,
         "location": "Old Melbourne Rd, Dunnstown",
         "cfaId": 222178,
         "size": "Small",
@@ -1335,24 +1278,87 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119687492,
+        "status": "Responding",
+        "estaId": 119687840,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222177,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Frith St",
-        "eventId": 250537597,
-        "id": "ESTA:250537597",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250537639",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Old Princes Hwy",
+        "eventId": "250537639",
+        "id": "ESTA:250537639",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-24T07:45:39.000Z",
+        "updated": "2025-05-24T07:45:39.000Z",
+        "resources": 3,
+        "location": "Old Princes Hwy, Beaconsfield",
+        "cfaId": 222182,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250537639"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.367703628543,
+          -38.04486456151361
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119687859,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568260,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551109,
+        "id": "ESTA:250551109",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-05-24T07:45:00.000Z",
+        "updated": "2025-05-24T07:47:00.000Z",
+        "resources": 0,
+        "location": "Fairfield",
+        "sesId": 568260
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01599565864217,
+          -37.77879546292846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119687849,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250537641",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Keilor East",
+        "eventId": "250537641",
+        "id": "ESTA:250537641",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-24T07:13:00.000Z",
-        "updated": "2025-05-24T07:28:00.000Z",
-        "resources": 5,
-        "location": "Frith St, Wurruk",
-        "cfaId": 222177,
+        "category2": "Non Structure Fire",
+        "created": "2025-05-24T07:45:23.000Z",
+        "updated": "2025-05-24T07:45:23.000Z",
+        "resources": 2,
+        "location": "Keilor East, Keilor East",
+        "mfbId": "250537641",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1360,41 +1366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.0315825496184,
-          -38.10248938056793
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119687660,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537618",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Poplar Av",
-        "eventId": "250537618",
-        "id": "ESTA:250537618",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-24T07:33:59.000Z",
-        "updated": "2025-05-24T07:33:59.000Z",
-        "resources": 1,
-        "location": "Poplar Av, Shepparton",
-        "cfaId": 222179,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250537618"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.41392182604633,
-          -36.39923058443805
+          144.8716554118706,
+          -37.73145795109476
         ]
       }
     },
@@ -9269,94 +9242,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 222124,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222124,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250536975,
-        "id": "ESTA:250536975",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-24T01:16:00.000Z",
-        "updated": "2025-05-24T06:35:00.000Z",
-        "resources": 0,
-        "location": "Narre Warren South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32206480918,
-          -38.061106617346184
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 222170,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222170,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Simson St",
-        "eventId": 250537513,
-        "id": "ESTA:250537513",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-05-24T06:23:00.000Z",
-        "updated": "2025-05-24T06:36:00.000Z",
-        "resources": 0,
-        "location": "Simson St, Carisbrook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8148740762336,
-          -37.04913859539507
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 222161,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568257,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250537461,
-        "id": "ESTA:250537461",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-05-24T05:44:00.000Z",
-        "updated": "2025-05-24T06:12:00.000Z",
-        "resources": 4,
-        "location": "Everton Upper",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 568257
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.59988221353944,
-          -36.3820764573612
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 222172,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -9444,35 +9329,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 222174,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222174,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Psaltis Pde",
-        "eventId": 250537571,
-        "id": "ESTA:250537571",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-05-24T06:53:00.000Z",
-        "updated": "2025-05-24T07:09:00.000Z",
-        "resources": 0,
-        "location": "Psaltis Pde, Benalla",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.98883997692732,
-          -36.554138745631754
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 222171,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -9526,6 +9382,180 @@
         "coordinates": [
           144.72312085837706,
           -37.894496604863384
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 222176,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222176,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Aspinall St",
+        "eventId": 250537594,
+        "id": "ESTA:250537594",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-24T07:13:00.000Z",
+        "updated": "2025-05-24T07:23:00.000Z",
+        "resources": 0,
+        "location": "Aspinall St, Golden Square",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.24791385789607,
+          -36.77136904205728
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 222179,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222179,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250537618,
+        "id": "ESTA:250537618",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-24T07:28:00.000Z",
+        "updated": "2025-05-24T07:33:00.000Z",
+        "resources": 0,
+        "location": "Shepparton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41392072903176,
+          -36.39923220723093
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 222177,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222177,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frith St",
+        "eventId": 250537597,
+        "id": "ESTA:250537597",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-24T07:13:00.000Z",
+        "updated": "2025-05-24T07:35:00.000Z",
+        "resources": 4,
+        "location": "Frith St, Wurruk",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0315825496184,
+          -38.10248938056793
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 222181,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222181,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ballan Rd",
+        "eventId": 250537638,
+        "id": "ESTA:250537638",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-24T07:43:00.000Z",
+        "updated": "2025-05-24T07:43:00.000Z",
+        "resources": 0,
+        "location": "Ballan Rd, Werribee",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.64086318543193,
+          -37.89906372683616
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 222183,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222183,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Overland Dr",
+        "eventId": 250537640,
+        "id": "ESTA:250537640",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-05-24T07:43:00.000Z",
+        "updated": "2025-05-24T07:43:00.000Z",
+        "resources": 3,
+        "location": "Overland Dr, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30344293582985,
+          -38.02346699463136
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 222180,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222180,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckenzie St",
+        "eventId": 250537631,
+        "id": "ESTA:250537631",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-24T07:37:00.000Z",
+        "updated": "2025-05-24T07:49:00.000Z",
+        "resources": 3,
+        "location": "Mckenzie St, Wonthaggi",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59225331087623,
+          -38.59551851133874
         ]
       }
     },
@@ -9590,35 +9620,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250537582",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537582",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Valda Av",
-        "id": "ESTA:250537582",
-        "eventId": "250537582",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-05-24T07:18:35.000Z",
-        "updated": "2025-05-24T07:18:35.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Valda Av, Ringwood East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25689139017575,
-          -37.80426141000016
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "250537599",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -9676,30 +9677,28 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250537583",
+        "status": "On Scene",
+        "sesId": 568257,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250537583",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pakington St",
-        "id": "ESTA:250537583",
-        "eventId": "250537583",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-24T07:03:41.000Z",
-        "updated": "2025-05-24T07:03:41.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Pakington St, Geelong West"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568257,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250537461,
+        "id": "ESTA:250537461",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-05-24T05:44:00.000Z",
+        "updated": "2025-05-24T06:12:00.000Z",
+        "resources": 4,
+        "location": "Everton Upper"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3486464035627,
-          -38.137655952168544
+          146.59988221353944,
+          -36.3820764573612
         ]
       }
     }
@@ -9931,7 +9930,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-24T07:34:40.968Z",
+    "lastUpdated": "2025-05-24T07:50:21.748Z",
     "featureCount": 224
   }
 }
