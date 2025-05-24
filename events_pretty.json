@@ -1037,61 +1037,65 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119694657,
+        "status": "Safe",
+        "estaId": 119694771,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568296,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250551145,
-        "id": "ESTA:250551145",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222266,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Unknown -",
+        "eventId": 250537987,
+        "id": "ESTA:250537987",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-24T22:32:00.000Z",
-        "updated": "2025-05-24T22:33:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-24T22:47:00.000Z",
+        "updated": "2025-05-24T22:48:00.000Z",
         "resources": 0,
-        "location": "Rhyll",
-        "sesId": 568296
+        "location": "Unknown -, Agnes",
+        "cfaId": 222266,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3082715629864,
-          -38.465185942242144
+          146.38593440209232,
+          -38.70948004238871
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119694305,
+        "status": "Responding",
+        "estaId": 119694740,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568292,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250551141,
-        "id": "ESTA:250551141",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250537974",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Grace St",
+        "eventId": "250537974",
+        "id": "ESTA:250537974",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-24T21:25:00.000Z",
-        "updated": "2025-05-24T22:32:00.000Z",
-        "resources": 0,
-        "location": "Woorinen",
-        "sesId": 568292
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-05-24T22:44:42.000Z",
+        "updated": "2025-05-24T22:44:42.000Z",
+        "resources": 2,
+        "location": "Grace St, Laverton",
+        "mfbId": "250537974",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.45409038088127,
-          -35.25748685968535
+          144.77230957390137,
+          -37.86661542751223
         ]
       }
     },
@@ -8689,6 +8693,33 @@
           -37.72177931382556
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 568296,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568296,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551145,
+        "id": "ESTA:250551145",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-24T22:32:00.000Z",
+        "updated": "2025-05-24T22:33:00.000Z",
+        "resources": 0,
+        "location": "Rhyll"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3082715629864,
+          -38.465185942242144
+        ]
+      }
     }
   ],
   "properties": {
@@ -8918,7 +8949,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-24T22:39:20.632Z",
-    "featureCount": 205
+    "lastUpdated": "2025-05-24T22:50:06.602Z",
+    "featureCount": 206
   }
 }
