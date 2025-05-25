@@ -1428,7 +1428,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007545,
@@ -1438,10 +1438,10 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-05-25T17:00:00.000Z",
-        "updated": "2025-05-25T17:18:00.000Z",
-        "resources": 1,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "updated": "2025-05-25T19:13:00.000Z",
+        "resources": 2,
+        "size": "4.00",
+        "sizeFmt": "4.00 Ha.",
         "location": "12Km South Of Buninyong "
       },
       "type": "Feature",
@@ -1618,34 +1618,6 @@
         "coordinates": [
           146.4206398,
           -38.2142766
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 3009689,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Wimmera River Wf - Walpa Barengi ",
-        "id": 3009689,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-05-22T02:23:31.000Z",
-        "updated": "2025-05-22T02:23:31.000Z",
-        "resources": 0,
-        "size": "0.04",
-        "sizeFmt": "0.04 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": ".5Km Sw Of Horsham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.168005,
-          -36.7328511
         ]
       }
     },
@@ -1962,34 +1934,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
-        "sourceId": 3017378,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Mackenzie River - Wimmera River Wf - Walpa",
-        "id": 3017378,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-05-22T03:55:45.000Z",
-        "updated": "2025-05-22T03:55:45.000Z",
-        "resources": 0,
-        "size": "0.24",
-        "sizeFmt": "0.24 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "2Km Sw Of Horsham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1501453,
-          -36.7412333
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
         "sourceId": 3019067,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Anglesea - Anglesea Heath",
@@ -2150,6 +2094,101 @@
         "coordinates": [
           146.1637888,
           -38.3943231
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119705483,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568346,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551202,
+        "id": "ESTA:250551202",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-25T19:38:00.000Z",
+        "updated": "2025-05-25T19:44:00.000Z",
+        "resources": 0,
+        "location": "Barwon Heads",
+        "sesId": 568346
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.49455970000867,
+          -38.2674866873005
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119705498,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222421,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Coach Rd",
+        "eventId": 250539015,
+        "id": "ESTA:250539015",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-25T19:44:00.000Z",
+        "updated": "2025-05-25T19:44:00.000Z",
+        "resources": 0,
+        "location": "Coach Rd, Woodend",
+        "cfaId": 222421,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58474821981937,
+          -37.34136142181967
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119705477,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250539014",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Landscape Dr",
+        "eventId": "250539014",
+        "id": "ESTA:250539014",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-25T19:37:23.000Z",
+        "updated": "2025-05-25T19:37:23.000Z",
+        "resources": 2,
+        "location": "Landscape Dr, Truganina",
+        "cfaId": 222420,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250539014"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72754743411016,
+          -37.83990687984636
         ]
       }
     },
@@ -12442,7 +12481,7 @@
         "category2": "Bushfire",
         "created": "2025-05-25T15:02:00.000Z",
         "updated": "2025-05-25T18:20:00.000Z",
-        "resources": 5,
+        "resources": 0,
         "location": "Buninyong-Mt Mercer Rd, Grenville",
         "size": "Small",
         "sizeFmt": "Small"
@@ -12488,36 +12527,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 222416,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250539001",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Beaconsfield-Emerald Rd",
-        "eventId": "250539001",
-        "id": "ESTA:250539001",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-05-25T18:50:05.000Z",
-        "updated": "2025-05-25T18:50:05.000Z",
-        "resources": 2,
-        "location": "Beaconsfield-Emerald Rd, Emerald",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250539001"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.44686918521074,
-          -37.98172055423314
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 222415,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -12541,64 +12550,6 @@
         "coordinates": [
           143.73825750959102,
           -37.56149913729737
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250539010",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250539010",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "St Albans",
-        "id": "ESTA:250539010",
-        "eventId": "250539010",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-25T19:16:48.000Z",
-        "updated": "2025-05-25T19:16:48.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "St Albans, St Albans"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.82065723834182,
-          -37.761378799173315
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250539008",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250539008",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fabio Ct",
-        "id": "ESTA:250539008",
-        "eventId": "250539008",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-25T19:01:19.000Z",
-        "updated": "2025-05-25T19:01:19.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Fabio Ct, Campbellfield"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9532474620273,
-          -37.676923286156125
         ]
       }
     },
@@ -12631,7 +12582,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 568345,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -12643,7 +12594,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-05-25T19:14:00.000Z",
-        "updated": "2025-05-25T19:27:00.000Z",
+        "updated": "2025-05-25T19:38:00.000Z",
         "resources": 1,
         "location": "Norval"
       },
@@ -12884,7 +12835,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-25T19:30:20.295Z",
-    "featureCount": 214
+    "lastUpdated": "2025-05-25T19:50:20.296Z",
+    "featureCount": 212
   }
 }
