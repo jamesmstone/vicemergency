@@ -2154,98 +2154,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119704931,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222415,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250538998,
-        "id": "ESTA:250538998",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-05-25T17:00:00.000Z",
-        "updated": "2025-05-25T19:00:00.000Z",
-        "resources": 0,
-        "location": "Bunkers Hill",
-        "cfaId": 222415,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.73825750959102,
-          -37.56149913729737
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119705395,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568344,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250551200,
-        "id": "ESTA:250551200",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-05-25T19:10:00.000Z",
-        "updated": "2025-05-25T19:13:00.000Z",
-        "resources": 0,
-        "location": "Cremorne",
-        "sesId": 568344
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9964146835921,
-          -37.82568595485428
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119705415,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568345,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250551201,
-        "id": "ESTA:250551201",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-25T19:14:00.000Z",
-        "updated": "2025-05-25T19:16:00.000Z",
-        "resources": 0,
-        "location": "Norval",
-        "sesId": 568345
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.85045175816032,
-          -37.25645585732261
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -12505,7 +12413,7 @@
         "category2": "Other",
         "created": "2025-05-25T17:31:00.000Z",
         "updated": "2025-05-25T17:31:00.000Z",
-        "resources": 5,
+        "resources": 7,
         "location": "Kilnoorat Rd, Bookaar",
         "size": "Small",
         "sizeFmt": "Small"
@@ -12592,7 +12500,7 @@
         "category2": "Grass and Scrub",
         "created": "2025-05-25T18:50:05.000Z",
         "updated": "2025-05-25T18:50:05.000Z",
-        "resources": 5,
+        "resources": 2,
         "location": "Beaconsfield-Emerald Rd, Emerald",
         "size": "Small",
         "sizeFmt": "Small",
@@ -12604,6 +12512,35 @@
         "coordinates": [
           145.44686918521074,
           -37.98172055423314
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 222415,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222415,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250538998,
+        "id": "ESTA:250538998",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-05-25T17:00:00.000Z",
+        "updated": "2025-05-25T19:00:00.000Z",
+        "resources": 0,
+        "location": "Bunkers Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.73825750959102,
+          -37.56149913729737
         ]
       }
     },
@@ -12664,6 +12601,60 @@
           -37.676923286156125
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 568344,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568344,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551200,
+        "id": "ESTA:250551200",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-05-25T19:10:00.000Z",
+        "updated": "2025-05-25T19:13:00.000Z",
+        "resources": 0,
+        "location": "Cremorne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9964146835921,
+          -37.82568595485428
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 568345,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568345,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551201,
+        "id": "ESTA:250551201",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-25T19:14:00.000Z",
+        "updated": "2025-05-25T19:27:00.000Z",
+        "resources": 1,
+        "location": "Norval"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.85045175816032,
+          -37.25645585732261
+        ]
+      }
     }
   ],
   "properties": {
@@ -12680,7 +12671,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -12688,7 +12678,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -12704,7 +12695,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -12712,7 +12702,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-05-25T14:00:00.000Z",
           "heat": {
@@ -12893,7 +12884,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-25T19:19:26.053Z",
+    "lastUpdated": "2025-05-25T19:30:20.295Z",
     "featureCount": 214
   }
 }
