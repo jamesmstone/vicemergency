@@ -626,6 +626,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1643392",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Atkin Street, Donovans",
+        "id": "1643392",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Atkin Street, Donovans",
+        "created": "2025-05-28T00:09:00.000Z",
+        "updated": "2025-05-28T00:09:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Atkin Street, Donovans"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.960495106482,
+          -38.0125249953589
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -962,31 +988,131 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119729768,
+        "status": "Safe",
+        "estaId": 119731856,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568621,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250551485,
-        "id": "ESTA:250551485",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222726,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Greaves St",
+        "eventId": 250540638,
+        "id": "ESTA:250540638",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-05-27T22:52:00.000Z",
-        "updated": "2025-05-27T23:49:00.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-05-28T01:53:00.000Z",
+        "updated": "2025-05-28T01:55:00.000Z",
         "resources": 0,
-        "location": "Kyabram",
-        "sesId": 568621
+        "location": "Greaves St, Werribee",
+        "cfaId": 222726,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03207816915233,
-          -36.298850096738875
+          144.65095592973012,
+          -37.90245564345444
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119730623,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 222716,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Batten Rd",
+        "eventId": 250540542,
+        "id": "ESTA:250540542",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-05-28T00:09:00.000Z",
+        "updated": "2025-05-28T01:56:00.000Z",
+        "resources": 0,
+        "location": "Batten Rd, Charlemont",
+        "cfaId": 222716,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36630056218274,
+          -38.22174221900447
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 119731555,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568635,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250540612,
+        "id": "ESTA:250540612",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-05-28T01:29:00.000Z",
+        "updated": "2025-05-28T02:00:00.000Z",
+        "resources": 0,
+        "location": "Horsham",
+        "cfaId": 222722,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 568635
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20493251979505,
+          -36.723061632819544
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119731843,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250540634",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Werribee",
+        "eventId": "250540634",
+        "id": "ESTA:250540634",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-05-28T02:02:42.000Z",
+        "updated": "2025-05-28T02:02:42.000Z",
+        "resources": 3,
+        "location": "Werribee, Werribee",
+        "cfaId": 222725,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250540634"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.643225135601,
+          -37.90706174821403
         ]
       }
     },
@@ -996,14 +1122,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/8fd118503b9255b575c412818d7d2d6a",
+        "sourceId": "IDV20600/946c70f17932b70dffe2bf0dd407ea3c",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/8fd118503b9255b575c412818d7d2d6a",
+        "id": "IDV20600/946c70f17932b70dffe2bf0dd407ea3c",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-05-27T19:00:00.000Z",
+        "created": "2025-05-28T00:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1296,18 +1422,18 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/10a351210cdbf568f9b5bb5c371f59d8",
+        "sourceId": "IDV20600/a945e09bfb0cfec62066325811f0aff5",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/10a351210cdbf568f9b5bb5c371f59d8",
+        "id": "IDV20600/a945e09bfb0cfec62066325811f0aff5",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-05-27T19:00:00.000Z",
+        "created": "2025-05-28T00:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
-        "location": "Port Phillip, Western Port, Central Coast and Central Gippsland Coast"
+        "location": "Central Coast and Central Gippsland Coast"
       },
       "geometry": {
         "type": "GeometryCollection",
@@ -2053,638 +2179,6 @@
             ]
           },
           {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.6508,
-                  -38.3034
-                ],
-                [
-                  144.6139,
-                  -38.2918
-                ],
-                [
-                  144.6162,
-                  -38.2803
-                ],
-                [
-                  144.6526,
-                  -38.2728
-                ],
-                [
-                  144.662,
-                  -38.2724
-                ],
-                [
-                  144.6663,
-                  -38.2627
-                ],
-                [
-                  144.6322,
-                  -38.2629
-                ],
-                [
-                  144.6249,
-                  -38.2553
-                ],
-                [
-                  144.6672,
-                  -38.2094
-                ],
-                [
-                  144.6956,
-                  -38.1943
-                ],
-                [
-                  144.7014,
-                  -38.219
-                ],
-                [
-                  144.7016,
-                  -38.219
-                ],
-                [
-                  144.7196,
-                  -38.1726
-                ],
-                [
-                  144.7075,
-                  -38.1305
-                ],
-                [
-                  144.692,
-                  -38.1197
-                ],
-                [
-                  144.6318,
-                  -38.1077
-                ],
-                [
-                  144.5551,
-                  -38.1559
-                ],
-                [
-                  144.4751,
-                  -38.1644
-                ],
-                [
-                  144.4401,
-                  -38.147
-                ],
-                [
-                  144.4248,
-                  -38.1245
-                ],
-                [
-                  144.4165,
-                  -38.155
-                ],
-                [
-                  144.3832,
-                  -38.1431
-                ],
-                [
-                  144.3692,
-                  -38.1465
-                ],
-                [
-                  144.3561,
-                  -38.1381
-                ],
-                [
-                  144.3636,
-                  -38.1076
-                ],
-                [
-                  144.3614,
-                  -38.105
-                ],
-                [
-                  144.4151,
-                  -38.0601
-                ],
-                [
-                  144.4054,
-                  -38.0771
-                ],
-                [
-                  144.4143,
-                  -38.0839
-                ],
-                [
-                  144.4415,
-                  -38.0899
-                ],
-                [
-                  144.4448,
-                  -38.0913
-                ],
-                [
-                  144.4753,
-                  -38.0784
-                ],
-                [
-                  144.477,
-                  -38.0765
-                ],
-                [
-                  144.5065,
-                  -38.0904
-                ],
-                [
-                  144.5077,
-                  -38.0912
-                ],
-                [
-                  144.5196,
-                  -38.0489
-                ],
-                [
-                  144.5545,
-                  -38.0362
-                ],
-                [
-                  144.5573,
-                  -38.0367
-                ],
-                [
-                  144.5828,
-                  -38.0084
-                ],
-                [
-                  144.5835,
-                  -38.0075
-                ],
-                [
-                  144.6485,
-                  -37.9994
-                ],
-                [
-                  144.6543,
-                  -37.9993
-                ],
-                [
-                  144.7339,
-                  -37.9444
-                ],
-                [
-                  144.7351,
-                  -37.9434
-                ],
-                [
-                  144.7937,
-                  -37.9266
-                ],
-                [
-                  144.7948,
-                  -37.9265
-                ],
-                [
-                  144.8145,
-                  -37.8752
-                ],
-                [
-                  144.815,
-                  -37.8748
-                ],
-                [
-                  144.8578,
-                  -37.8628
-                ],
-                [
-                  144.8706,
-                  -37.8596
-                ],
-                [
-                  144.9059,
-                  -37.8716
-                ],
-                [
-                  144.9079,
-                  -37.8719
-                ],
-                [
-                  144.8987,
-                  -37.8413
-                ],
-                [
-                  144.9706,
-                  -37.8619
-                ],
-                [
-                  145.0108,
-                  -37.9623
-                ],
-                [
-                  145.0092,
-                  -37.9705
-                ],
-                [
-                  145.0951,
-                  -38.0209
-                ],
-                [
-                  145.0984,
-                  -38.0245
-                ],
-                [
-                  145.124,
-                  -38.1102
-                ],
-                [
-                  145.1243,
-                  -38.1145
-                ],
-                [
-                  145.1184,
-                  -38.1427
-                ],
-                [
-                  145.04,
-                  -38.2127
-                ],
-                [
-                  145.0328,
-                  -38.2128
-                ],
-                [
-                  145.0245,
-                  -38.2547
-                ],
-                [
-                  145.0241,
-                  -38.2557
-                ],
-                [
-                  144.9845,
-                  -38.2951
-                ],
-                [
-                  144.9836,
-                  -38.2963
-                ],
-                [
-                  144.9891,
-                  -38.3157
-                ],
-                [
-                  144.9886,
-                  -38.3166
-                ],
-                [
-                  144.934,
-                  -38.3446
-                ],
-                [
-                  144.9229,
-                  -38.3494
-                ],
-                [
-                  144.8197,
-                  -38.3695
-                ],
-                [
-                  144.7669,
-                  -38.3559
-                ],
-                [
-                  144.7361,
-                  -38.3242
-                ],
-                [
-                  144.7353,
-                  -38.323
-                ],
-                [
-                  144.6508,
-                  -38.3034
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.364,
-                  -38.5211
-                ],
-                [
-                  145.3574,
-                  -38.5089
-                ],
-                [
-                  145.299,
-                  -38.507
-                ],
-                [
-                  145.2976,
-                  -38.5068
-                ],
-                [
-                  145.3073,
-                  -38.4937
-                ],
-                [
-                  145.3054,
-                  -38.4859
-                ],
-                [
-                  145.291,
-                  -38.4802
-                ],
-                [
-                  145.291,
-                  -38.4799
-                ],
-                [
-                  145.3106,
-                  -38.462
-                ],
-                [
-                  145.2959,
-                  -38.4515
-                ],
-                [
-                  145.2027,
-                  -38.4513
-                ],
-                [
-                  145.2004,
-                  -38.4516
-                ],
-                [
-                  145.1193,
-                  -38.5153
-                ],
-                [
-                  145.1171,
-                  -38.518
-                ],
-                [
-                  145.0287,
-                  -38.4813
-                ],
-                [
-                  145.0255,
-                  -38.4774
-                ],
-                [
-                  145.0493,
-                  -38.4331
-                ],
-                [
-                  145.0511,
-                  -38.4301
-                ],
-                [
-                  145.1287,
-                  -38.3907
-                ],
-                [
-                  145.1298,
-                  -38.3903
-                ],
-                [
-                  145.2343,
-                  -38.4087
-                ],
-                [
-                  145.2178,
-                  -38.3969
-                ],
-                [
-                  145.2165,
-                  -38.3957
-                ],
-                [
-                  145.2174,
-                  -38.3471
-                ],
-                [
-                  145.2176,
-                  -38.3466
-                ],
-                [
-                  145.1901,
-                  -38.326
-                ],
-                [
-                  145.193,
-                  -38.2964
-                ],
-                [
-                  145.1928,
-                  -38.2957
-                ],
-                [
-                  145.2068,
-                  -38.3034
-                ],
-                [
-                  145.2225,
-                  -38.3054
-                ],
-                [
-                  145.2221,
-                  -38.2891
-                ],
-                [
-                  145.2199,
-                  -38.2813
-                ],
-                [
-                  145.2581,
-                  -38.2426
-                ],
-                [
-                  145.2553,
-                  -38.2202
-                ],
-                [
-                  145.2557,
-                  -38.2197
-                ],
-                [
-                  145.2813,
-                  -38.2225
-                ],
-                [
-                  145.2871,
-                  -38.2078
-                ],
-                [
-                  145.3198,
-                  -38.231
-                ],
-                [
-                  145.3218,
-                  -38.2344
-                ],
-                [
-                  145.3444,
-                  -38.2145
-                ],
-                [
-                  145.3447,
-                  -38.2139
-                ],
-                [
-                  145.3989,
-                  -38.2262
-                ],
-                [
-                  145.4117,
-                  -38.228
-                ],
-                [
-                  145.4316,
-                  -38.2154
-                ],
-                [
-                  145.4759,
-                  -38.2304
-                ],
-                [
-                  145.4901,
-                  -38.2332
-                ],
-                [
-                  145.5118,
-                  -38.2883
-                ],
-                [
-                  145.521,
-                  -38.2971
-                ],
-                [
-                  145.5141,
-                  -38.3383
-                ],
-                [
-                  145.5493,
-                  -38.3451
-                ],
-                [
-                  145.5519,
-                  -38.3518
-                ],
-                [
-                  145.5181,
-                  -38.4132
-                ],
-                [
-                  145.5175,
-                  -38.414
-                ],
-                [
-                  145.4252,
-                  -38.4085
-                ],
-                [
-                  145.4218,
-                  -38.4086
-                ],
-                [
-                  145.4336,
-                  -38.4358
-                ],
-                [
-                  145.4339,
-                  -38.4385
-                ],
-                [
-                  145.4179,
-                  -38.4707
-                ],
-                [
-                  145.4176,
-                  -38.471
-                ],
-                [
-                  145.4326,
-                  -38.4817
-                ],
-                [
-                  145.4339,
-                  -38.4918
-                ],
-                [
-                  145.4208,
-                  -38.5122
-                ],
-                [
-                  145.364,
-                  -38.5211
-                ]
-              ],
-              [
-                [
-                  145.3556,
-                  -38.4137
-                ],
-                [
-                  145.3864,
-                  -38.4063
-                ],
-                [
-                  145.3912,
-                  -38.3842
-                ],
-                [
-                  145.4063,
-                  -38.3727
-                ],
-                [
-                  145.5006,
-                  -38.3511
-                ],
-                [
-                  145.5009,
-                  -38.3509
-                ],
-                [
-                  145.4541,
-                  -38.3062
-                ],
-                [
-                  145.3672,
-                  -38.3119
-                ],
-                [
-                  145.3006,
-                  -38.2815
-                ],
-                [
-                  145.2906,
-                  -38.2844
-                ],
-                [
-                  145.2699,
-                  -38.4082
-                ],
-                [
-                  145.2701,
-                  -38.4089
-                ],
-                [
-                  145.2779,
-                  -38.3954
-                ],
-                [
-                  145.2897,
-                  -38.3959
-                ],
-                [
-                  145.3556,
-                  -38.4137
-                ]
-              ]
-            ]
-          },
-          {
             "type": "Point",
             "coordinates": [
               144.94338504700005,
@@ -2699,53 +2193,109 @@
               -38.802163810499934
             ],
             "name": "Central Gippsland Coast"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.74015000000009,
-              -38.105399999999946
-            ],
-            "name": "Port Phillip"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              145.28870000000006,
-              -38.36444999999995
-            ],
-            "name": "Western Port"
           }
         ]
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "603170",
+        "sourceId": "603183",
         "sourceFeed": "rfs-cap",
-        "sourceTitle": "Olympic Hwy, Culcairn",
-        "id": "2025-05-28T07:44:00.0000000:603170",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Olympic Hwy, Culcairn",
-        "location": "1912 Olympic Hwy, Culcairn 2660",
-        "created": "2025-05-28T07:44:00+10:00",
-        "updated": "2025-05-28T07:44:00+10:00",
+        "sourceTitle": "Fcnsw Willigobung Plantation",
+        "id": "2025-05-28T11:02:00.0000000:603183",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Fcnsw Willigobung Plantation",
+        "location": "Fcnsw Willigobung Plantation",
+        "created": "2025-05-28T11:02:00+10:00",
+        "updated": "2025-05-28T11:02:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
-          "0 ha"
+          "5 ha"
         ]
       },
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.011886597,
-          -35.7647857659999
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.0683,
+                  -35.6733
+                ],
+                [
+                  148.0689,
+                  -35.6737
+                ],
+                [
+                  148.0688,
+                  -35.675
+                ],
+                [
+                  148.0685,
+                  -35.6753
+                ],
+                [
+                  148.0679,
+                  -35.6753
+                ],
+                [
+                  148.067,
+                  -35.6748
+                ],
+                [
+                  148.067,
+                  -35.6744
+                ],
+                [
+                  148.0653,
+                  -35.6743
+                ],
+                [
+                  148.0659,
+                  -35.6734
+                ],
+                [
+                  148.0661,
+                  -35.6729
+                ],
+                [
+                  148.0664,
+                  -35.6729
+                ],
+                [
+                  148.0671,
+                  -35.6733
+                ],
+                [
+                  148.0674,
+                  -35.6729
+                ],
+                [
+                  148.0676,
+                  -35.6728
+                ],
+                [
+                  148.0683,
+                  -35.6733
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.078794479,
+              -35.6615502139999
+            ]
+          }
         ]
       }
     },
@@ -2779,6 +2329,44 @@
             "coordinates": [
               [
                 [
+                  147.7329,
+                  -35.6633
+                ],
+                [
+                  147.7305,
+                  -35.6616
+                ],
+                [
+                  147.7329,
+                  -35.6633
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.7301,
+                  -35.6601
+                ],
+                [
+                  147.7306,
+                  -35.6622
+                ],
+                [
+                  147.7301,
+                  -35.6601
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   147.7294,
                   -35.666
                 ],
@@ -2801,6 +2389,119 @@
                 [
                   147.7294,
                   -35.666
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.7338,
+                  -35.657
+                ],
+                [
+                  147.7363,
+                  -35.6567
+                ],
+                [
+                  147.7341,
+                  -35.6589
+                ],
+                [
+                  147.7385,
+                  -35.6594
+                ],
+                [
+                  147.7373,
+                  -35.661
+                ],
+                [
+                  147.7383,
+                  -35.6621
+                ],
+                [
+                  147.7358,
+                  -35.6624
+                ],
+                [
+                  147.7352,
+                  -35.6603
+                ],
+                [
+                  147.7301,
+                  -35.6582
+                ],
+                [
+                  147.7292,
+                  -35.6563
+                ],
+                [
+                  147.7338,
+                  -35.657
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.7273,
+                  -35.6594
+                ],
+                [
+                  147.7261,
+                  -35.6665
+                ],
+                [
+                  147.7227,
+                  -35.666
+                ],
+                [
+                  147.7211,
+                  -35.6605
+                ],
+                [
+                  147.7255,
+                  -35.6595
+                ],
+                [
+                  147.7269,
+                  -35.6561
+                ],
+                [
+                  147.7283,
+                  -35.6588
+                ],
+                [
+                  147.7273,
+                  -35.6594
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.729,
+                  -35.6558
+                ],
+                [
+                  147.7297,
+                  -35.659
+                ],
+                [
+                  147.7275,
+                  -35.6567
+                ],
+                [
+                  147.729,
+                  -35.6558
                 ]
               ]
             ]
@@ -2899,119 +2600,6 @@
                 [
                   147.7358,
                   -35.6617
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.7273,
-                  -35.6594
-                ],
-                [
-                  147.7261,
-                  -35.6665
-                ],
-                [
-                  147.7227,
-                  -35.666
-                ],
-                [
-                  147.7211,
-                  -35.6605
-                ],
-                [
-                  147.7255,
-                  -35.6595
-                ],
-                [
-                  147.7269,
-                  -35.6561
-                ],
-                [
-                  147.7283,
-                  -35.6588
-                ],
-                [
-                  147.7273,
-                  -35.6594
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.729,
-                  -35.6558
-                ],
-                [
-                  147.7297,
-                  -35.659
-                ],
-                [
-                  147.7275,
-                  -35.6567
-                ],
-                [
-                  147.729,
-                  -35.6558
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.7338,
-                  -35.657
-                ],
-                [
-                  147.7363,
-                  -35.6567
-                ],
-                [
-                  147.7341,
-                  -35.6589
-                ],
-                [
-                  147.7385,
-                  -35.6594
-                ],
-                [
-                  147.7373,
-                  -35.661
-                ],
-                [
-                  147.7383,
-                  -35.6621
-                ],
-                [
-                  147.7358,
-                  -35.6624
-                ],
-                [
-                  147.7352,
-                  -35.6603
-                ],
-                [
-                  147.7301,
-                  -35.6582
-                ],
-                [
-                  147.7292,
-                  -35.6563
-                ],
-                [
-                  147.7338,
-                  -35.657
                 ]
               ]
             ]
@@ -3186,44 +2774,6 @@
             "coordinates": [
               [
                 [
-                  147.7329,
-                  -35.6633
-                ],
-                [
-                  147.7305,
-                  -35.6616
-                ],
-                [
-                  147.7329,
-                  -35.6633
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.7301,
-                  -35.6601
-                ],
-                [
-                  147.7306,
-                  -35.6622
-                ],
-                [
-                  147.7301,
-                  -35.6601
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
                   147.7213,
                   -35.6594
                 ],
@@ -3325,36 +2875,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 222656,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540109",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kilnoorat Rd",
-        "eventId": "250540109",
-        "id": "ESTA:250540109",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-05-27T07:34:29.000Z",
-        "updated": "2025-05-27T07:34:29.000Z",
-        "resources": 0,
-        "location": "Kilnoorat Rd, Bookaar",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250540109"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.08322134635455,
-          -38.10158347863256
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 222696,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3365,8 +2885,8 @@
         "id": "ESTA:250540292",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-05-27T15:53:03.000Z",
-        "updated": "2025-05-27T15:53:03.000Z",
+        "created": "2025-05-28T01:45:35.000Z",
+        "updated": "2025-05-28T01:45:35.000Z",
         "resources": 1,
         "location": "Main St, Mordialloc",
         "size": "Small",
@@ -3384,21 +2904,21 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 222713,
+        "status": "Safe",
+        "cfaId": 222721,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 222713,
+        "sourceId": 222721,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Clyde Rd",
-        "eventId": 250540505,
-        "id": "ESTA:250540505",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-27T23:38:00.000Z",
-        "updated": "2025-05-27T23:38:00.000Z",
-        "resources": 4,
-        "location": "Clyde Rd, Berwick",
+        "sourceTitle": "Gembrook Rd",
+        "eventId": 250540604,
+        "id": "ESTA:250540604",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-28T01:21:00.000Z",
+        "updated": "2025-05-28T01:42:00.000Z",
+        "resources": 0,
+        "location": "Gembrook Rd, Pakenham Upper",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3406,240 +2926,179 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3412601064345,
-          -38.042895720505896
+          145.52331548252374,
+          -38.001398909402546
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 222724,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250540618",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cookhouse St",
+        "eventId": "250540618",
+        "id": "ESTA:250540618",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-28T01:48:58.000Z",
+        "updated": "2025-05-28T01:48:58.000Z",
+        "resources": 3,
+        "location": "Cookhouse St, Deanside",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250540618"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6884208192503,
+          -37.73769928085863
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250540553",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250540553",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Berkshire Rd",
+        "id": "ESTA:250540553",
+        "eventId": "250540553",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-05-28T00:36:28.000Z",
+        "updated": "2025-05-28T00:36:28.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Berkshire Rd, Sunshine North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8378553110586,
+          -37.76491728230623
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 222712,
+        "mfbId": "250540615",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222712,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Djerring Trl",
-        "eventId": 250540501,
-        "id": "ESTA:250540501",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-27T23:33:00.000Z",
-        "updated": "2025-05-27T23:42:00.000Z",
-        "resources": 0,
-        "location": "Djerring Trl, Noble Park",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250540615",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "High St",
+        "id": "ESTA:250540615",
+        "eventId": "250540615",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-05-28T01:45:09.000Z",
+        "updated": "2025-05-28T01:45:09.000Z",
+        "resources": 2,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "High St, Windsor"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17616618646812,
-          -37.966589172752094
+          144.98819395567241,
+          -37.85135174458453
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 222714,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 222714,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Woodlyn Cl",
-        "eventId": 250540514,
-        "id": "ESTA:250540514",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-27T23:44:00.000Z",
-        "updated": "2025-05-27T23:44:00.000Z",
-        "resources": 1,
-        "location": "Woodlyn Cl, Mount Eliza",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.093316901563,
-          -38.18526574214327
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250540416",
+        "mfbId": "250540630",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250540416",
+        "sourceId": "250540630",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chute St",
-        "id": "ESTA:250540416",
-        "eventId": "250540416",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-27T23:17:40.000Z",
-        "updated": "2025-05-27T23:17:40.000Z",
+        "sourceTitle": "Scanlon St",
+        "id": "ESTA:250540630",
+        "eventId": "250540630",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-05-28T01:56:01.000Z",
+        "updated": "2025-05-28T01:56:01.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Chute St, Mordialloc"
+        "location": "Scanlon St, Lucas"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09420176387985,
-          -37.99973965078443
+          143.76226484519754,
+          -37.54901651413095
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250540499",
+        "status": "Request For Assistance",
+        "sesId": 568630,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540499",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Highett",
-        "id": "ESTA:250540499",
-        "eventId": "250540499",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-27T23:39:10.000Z",
-        "updated": "2025-05-27T23:39:10.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568630,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551496,
+        "id": "ESTA:250551496",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-05-28T01:15:00.000Z",
+        "updated": "2025-05-28T01:46:00.000Z",
         "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Highett, Highett"
+        "location": "Ringwood East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05901459610465,
-          -37.94763362213732
+          145.24771544110848,
+          -37.81385081844115
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250540199",
+        "status": "Request For Assistance",
+        "sesId": 568637,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540199",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pearl St",
-        "id": "ESTA:250540199",
-        "eventId": "250540199",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-27T09:34:55.000Z",
-        "updated": "2025-05-27T09:34:55.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568637,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250551500,
+        "id": "ESTA:250551500",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-05-28T01:52:00.000Z",
+        "updated": "2025-05-28T01:54:00.000Z",
         "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Pearl St, Brooklyn"
+        "location": "Wallan"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.83269900322102,
-          -37.82287237783086
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250540302",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540302",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dickson St",
-        "id": "ESTA:250540302",
-        "eventId": "250540302",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-05-27T18:46:10.000Z",
-        "updated": "2025-05-27T18:46:10.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Dickson St, Sunshine"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.83582095060817,
-          -37.78707059030437
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250540496",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540496",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Neerim Rd",
-        "id": "ESTA:250540496",
-        "eventId": "250540496",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-27T23:35:07.000Z",
-        "updated": "2025-05-27T23:35:07.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Neerim Rd, Carnegie"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05851419202077,
-          -37.889260433890364
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250540507",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250540507",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burwood Av",
-        "id": "ESTA:250540507",
-        "eventId": "250540507",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-05-27T23:41:48.000Z",
-        "updated": "2025-05-27T23:41:48.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Burwood Av, Sunshine North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.83755635925976,
-          -37.76142991326996
+          144.98295919677665,
+          -37.41332626601595
         ]
       }
     }
@@ -3871,7 +3330,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-05-27T23:50:06.098Z",
-    "featureCount": 200
+    "lastUpdated": "2025-05-28T02:07:46.082Z",
+    "featureCount": 201
   }
 }
