@@ -431,32 +431,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1644211",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Mclachlan Crescent, Naracoorte",
-        "id": "1644211",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Mclachlan Crescent, Naracoorte",
-        "created": "2025-06-02T10:15:00.000Z",
-        "updated": "2025-06-02T10:15:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Mclachlan Crescent, Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.743266573493,
-          -36.9712212019465
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -821,7 +795,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119803032,
         "feedType": "incident",
         "source": "000",
@@ -835,8 +809,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-06-02T10:16:00.000Z",
-        "updated": "2025-06-02T10:16:00.000Z",
-        "resources": 6,
+        "updated": "2025-06-02T10:39:00.000Z",
+        "resources": 5,
         "location": "Howards Lane, Kyabram",
         "cfaId": 223527,
         "size": "Small",
@@ -853,54 +827,53 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119802422,
+        "status": "Responding",
+        "estaId": 119803277,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568863,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650066,
-        "id": "ESTA:250650066",
+        "source": "OTHER",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119803277,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mont Albert North",
+        "eventId": "F250602738",
+        "id": "ESTA:250602738",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-02T09:10:00.000Z",
-        "updated": "2025-06-02T10:23:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-02T10:41:31.000Z",
+        "updated": "2025-06-02T10:44:06.967Z",
         "resources": 0,
-        "location": "Donvale",
-        "sesId": 568863
+        "location": "Manniche Av, Mont Albert North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1746665254897,
-          -37.78407382083598
+          145.10768630499217,
+          -37.79933986835384
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 119803020,
+        "estaId": 119803222,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250602731",
+        "sourceId": "250602736",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Murphy St",
-        "eventId": "250602731",
-        "id": "ESTA:250602731",
+        "sourceTitle": "Manniche Av",
+        "eventId": "250602736",
+        "id": "ESTA:250602736",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-02T10:26:09.000Z",
-        "updated": "2025-06-02T10:26:09.000Z",
-        "resources": 2,
-        "location": "Murphy St, South Yarra",
-        "mfbId": "250602731",
+        "created": "2025-06-02T10:48:36.000Z",
+        "updated": "2025-06-02T10:48:36.000Z",
+        "resources": 6,
+        "location": "Manniche Av, Mont Albert North",
+        "mfbId": "250602736",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -908,8 +881,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9909797299048,
-          -37.835737776151554
+          145.10768013492336,
+          -37.7993433337588
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119803316,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223528,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wooralla Dr",
+        "eventId": 250602739,
+        "id": "ESTA:250602739",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-02T10:49:00.000Z",
+        "updated": "2025-06-02T10:49:00.000Z",
+        "resources": 2,
+        "location": "Wooralla Dr, Mount Eliza",
+        "cfaId": 223528,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09262293313753,
+          -38.19698733466967
         ]
       }
     },
@@ -2749,152 +2754,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 223513,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223513,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250602675,
-        "id": "ESTA:250602675",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-02T08:36:00.000Z",
-        "updated": "2025-06-02T09:33:00.000Z",
-        "resources": 0,
-        "location": "Weir Views",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.57633163596722,
-          -37.73227992515675
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 223519,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568865,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250602703,
-        "id": "ESTA:250602703",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-06-02T09:24:00.000Z",
-        "updated": "2025-06-02T09:47:00.000Z",
-        "resources": 2,
-        "location": "Euroa",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 568865
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.57035715855758,
-          -36.76148903455112
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223522,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223522,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fawkner Cr",
-        "eventId": 250602710,
-        "id": "ESTA:250602710",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-02T09:32:00.000Z",
-        "updated": "2025-06-02T09:42:00.000Z",
-        "resources": 0,
-        "location": "Fawkner Cr, Armstrong Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.38132182665467,
-          -38.24428894797714
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223523,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223523,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250602717,
-        "id": "ESTA:250602717",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-02T09:43:00.000Z",
-        "updated": "2025-06-02T09:45:00.000Z",
-        "resources": 0,
-        "location": "Warrandyte",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2085740222012,
-          -37.752520167898936
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223520,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223520,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Farmingdale St",
-        "eventId": 250602707,
-        "id": "ESTA:250602707",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-02T09:28:00.000Z",
-        "updated": "2025-06-02T09:46:00.000Z",
-        "resources": 0,
-        "location": "Farmingdale St, Manor Lakes",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5836892097767,
-          -37.8746096350516
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 223518,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2923,36 +2782,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 223525,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250602725",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Farfalla Way",
-        "eventId": "250602725",
-        "id": "ESTA:250602725",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-02T10:06:15.000Z",
-        "updated": "2025-06-02T10:06:15.000Z",
-        "resources": 1,
-        "location": "Farfalla Way, Tarneit",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250602725"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.66610259511222,
-          -37.84836524227919
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 223526,
         "feedType": "incident",
@@ -2966,7 +2795,7 @@
         "category2": "Other",
         "created": "2025-06-02T10:13:45.000Z",
         "updated": "2025-06-02T10:13:45.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Yarra St, Warrandyte",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2996,7 +2825,7 @@
         "category2": "Structure Fire",
         "created": "2025-06-02T10:07:12.000Z",
         "updated": "2025-06-02T10:07:12.000Z",
-        "resources": 5,
+        "resources": 3,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Bishop St, Box Hill"
@@ -3012,30 +2841,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250602732",
+        "status": "Under Control",
+        "mfbId": "250602731",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250602732",
+        "sourceId": "250602731",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bik Lane",
-        "id": "ESTA:250602732",
-        "eventId": "250602732",
+        "sourceTitle": "Murphy St",
+        "id": "ESTA:250602731",
+        "eventId": "250602731",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-02T10:23:56.000Z",
-        "updated": "2025-06-02T10:23:56.000Z",
+        "created": "2025-06-02T10:26:09.000Z",
+        "updated": "2025-06-02T10:26:09.000Z",
         "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Bik Lane, Fitzroy North"
+        "location": "Murphy St, South Yarra"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97854309981295,
-          -37.784631151351284
+          144.9909797299048,
+          -37.835737776151554
         ]
       }
     }
@@ -3267,7 +3096,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-02T10:31:07.210Z",
-    "featureCount": 196
+    "lastUpdated": "2025-06-02T10:52:26.489Z",
+    "featureCount": 190
   }
 }
