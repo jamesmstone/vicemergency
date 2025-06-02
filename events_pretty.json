@@ -769,36 +769,40 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119805703,
+        "status": "Safe",
+        "estaId": 119805858,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119805703,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Prahran",
-        "eventId": "S250650073",
-        "id": "ESTA:250650073",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250602812",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Duffy St",
+        "eventId": "250602812",
+        "id": "ESTA:250602812",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-06-02T17:27:37.000Z",
-        "updated": "2025-06-02T17:36:33.317Z",
-        "resources": 0,
-        "location": "Commercial Rd, Prahran"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-02T18:29:06.000Z",
+        "updated": "2025-06-02T18:29:06.000Z",
+        "resources": 2,
+        "location": "Duffy St, Epping",
+        "cfaId": 223548,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250602812"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99364485544376,
-          -37.84696474958238
+          145.02270779842743,
+          -37.64046438233896
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119805742,
         "feedType": "incident",
         "source": "000",
@@ -810,10 +814,10 @@
         "id": "ESTA:250602810",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
+        "category2": "Other",
         "created": "2025-06-02T17:42:00.000Z",
-        "updated": "2025-06-02T17:42:00.000Z",
-        "resources": 1,
+        "updated": "2025-06-02T18:28:00.000Z",
+        "resources": 0,
         "location": "Wavell St, Horsham",
         "cfaId": 223546,
         "size": "Small",
@@ -830,33 +834,34 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119805689,
+        "status": "Safe",
+        "estaId": 119805872,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250602804",
+        "sourceId": "250602813",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "South Yarra",
-        "eventId": "250602804",
-        "id": "ESTA:250602804",
+        "sourceTitle": "Mooroopna",
+        "eventId": "250602813",
+        "id": "ESTA:250602813",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-02T17:35:26.000Z",
-        "updated": "2025-06-02T17:35:26.000Z",
-        "resources": 3,
-        "location": "South Yarra, South Yarra",
-        "mfbId": "250602804",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-02T18:36:14.000Z",
+        "updated": "2025-06-02T18:36:14.000Z",
+        "resources": 2,
+        "location": "Mooroopna, Mooroopna",
+        "cfaId": 223549,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250602813"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9941257342106,
-          -37.84686524648796
+          145.34188086670113,
+          -36.39695624749015
         ]
       }
     },
@@ -3751,28 +3756,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 568870,
+        "status": "Under Control",
+        "mfbId": "250602804",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 568870,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650070,
-        "id": "ESTA:250650070",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-06-02T17:29:00.000Z",
-        "updated": "2025-06-02T17:33:00.000Z",
-        "resources": 0,
-        "location": "South Yarra"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250602804",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Commercial Rd",
+        "id": "ESTA:250602804",
+        "eventId": "250602804",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-02T18:05:04.000Z",
+        "updated": "2025-06-02T18:05:04.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Commercial Rd, South Yarra"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99412537156923,
-          -37.8468696967715
+          144.99359172917028,
+          -37.84663997121057
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250602815",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250602815",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Park Lane",
+        "id": "ESTA:250602815",
+        "eventId": "250602815",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-02T18:28:05.000Z",
+        "updated": "2025-06-02T18:28:05.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Park Lane, Traralgon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.55281353362702,
+          -38.18856199373769
         ]
       }
     }
@@ -3791,7 +3827,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3799,7 +3834,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3815,7 +3851,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3823,7 +3858,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-02T14:00:00.000Z",
           "heat": {
@@ -4004,7 +4040,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-02T17:50:46.815Z",
-    "featureCount": 186
+    "lastUpdated": "2025-06-02T18:37:20.975Z",
+    "featureCount": 187
   }
 }
