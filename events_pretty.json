@@ -475,6 +475,33 @@
     },
     {
       "properties": {
+        "status": "Contained",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1007631,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Midlands 132 - Eganstown - Champagne Track",
+        "id": 1007631,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-03T01:55:00.000Z",
+        "updated": "2025-06-03T02:53:00.000Z",
+        "resources": 1,
+        "size": "0.01",
+        "sizeFmt": "0.01 Ha.",
+        "location": "2Km Sw Of Daylesford"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1015,
+          -37.3622
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -868,35 +895,70 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119808920,
+        "estaId": 119810467,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119808920,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mooroopna",
-        "eventId": "F250603119",
-        "id": "ESTA:250603119",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603261",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cooper St",
+        "eventId": "250603261",
+        "id": "ESTA:250603261",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-03T01:14:54.000Z",
-        "updated": "2025-06-03T01:55:25.120Z",
-        "resources": 0,
-        "location": "Midland Hwy, Mooroopna"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T03:17:25.000Z",
+        "updated": "2025-06-03T03:17:25.000Z",
+        "resources": 1,
+        "location": "Cooper St, Epping",
+        "mfbId": "250603261",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3213828402915,
-          -36.39974294742591
+          145.0149370574542,
+          -37.65307148106725
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119810570,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603265",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Parfitt Rd",
+        "eventId": "250603265",
+        "id": "ESTA:250603265",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-03T03:26:29.000Z",
+        "updated": "2025-06-03T03:26:29.000Z",
+        "resources": 1,
+        "location": "Parfitt Rd, Wangaratta",
+        "mfbId": "250603265",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.33257173907776,
+          -36.3519833855667
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119809456,
         "feedType": "incident",
         "source": "000",
@@ -910,8 +972,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-06-03T01:55:00.000Z",
-        "updated": "2025-06-03T01:55:00.000Z",
-        "resources": 1,
+        "updated": "2025-06-03T03:26:00.000Z",
+        "resources": 0,
         "location": "Champagne Trk, Eganstown",
         "cfaId": 223589,
         "size": "Small",
@@ -923,198 +985,6 @@
         "coordinates": [
           144.10138008407142,
           -37.3623249453603
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119809488,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603180",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yallourn Dr",
-        "eventId": "250603180",
-        "id": "ESTA:250603180",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-03T02:01:21.000Z",
-        "updated": "2025-06-03T02:01:21.000Z",
-        "resources": 3,
-        "location": "Yallourn Dr, Yallourn",
-        "cfaId": 223590,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603180"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.34687281694593,
-          -38.176523441781676
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119808917,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603118",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Goulburn Valley Hwy",
-        "eventId": "250603118",
-        "id": "ESTA:250603118",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-03T02:07:48.000Z",
-        "updated": "2025-06-03T02:07:48.000Z",
-        "resources": 10,
-        "location": "Goulburn Valley Hwy, Mooroopna",
-        "cfaId": 223582,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603118"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3234084607077,
-          -36.39699941630073
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119809411,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603169",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fordholm Rd",
-        "eventId": "250603169",
-        "id": "ESTA:250603169",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-03T02:08:09.000Z",
-        "updated": "2025-06-03T02:08:09.000Z",
-        "resources": 3,
-        "location": "Fordholm Rd, Hampton Park",
-        "cfaId": 223588,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603169"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26605144847878,
-          -38.03521305832662
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119809603,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603183",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Millis Av",
-        "eventId": "250603183",
-        "id": "ESTA:250603183",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-03T02:08:58.000Z",
-        "updated": "2025-06-03T02:08:58.000Z",
-        "resources": 2,
-        "location": "Millis Av, Bentleigh East",
-        "mfbId": "250603183",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.06433406668583,
-          -37.92826034498291
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119808967,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223584,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250603122,
-        "id": "ESTA:250603122",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-03T01:19:00.000Z",
-        "updated": "2025-06-03T01:54:00.000Z",
-        "resources": 0,
-        "location": "Arcadia",
-        "cfaId": 223584,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.43172515426272,
-          -36.553349225637746
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119809614,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119809614,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Vermont",
-        "eventId": "F250603185",
-        "id": "ESTA:250603185",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-03T02:08:08.000Z",
-        "updated": "2025-06-03T02:09:42.721Z",
-        "resources": 0,
-        "location": "Blanche Dr, Vermont"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20697265324955,
-          -37.837155002360795
         ]
       }
     },
@@ -3618,64 +3488,36 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 223578,
+        "cfaId": 223582,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223578,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250603089,
-        "id": "ESTA:250603089",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-03T00:57:00.000Z",
-        "updated": "2025-06-03T01:24:00.000Z",
-        "resources": 3,
-        "location": "Nowa Nowa",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.05919590175674,
-          -37.670878370080324
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 223586,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223586,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Warrak Rd",
-        "eventId": 250603133,
-        "id": "ESTA:250603133",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603118",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Goulburn Valley Hwy",
+        "eventId": "250603118",
+        "id": "ESTA:250603118",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-03T01:25:00.000Z",
-        "updated": "2025-06-03T01:25:00.000Z",
-        "resources": 3,
-        "location": "Warrak Rd, Ararat",
+        "category2": "Structure Fire",
+        "created": "2025-06-03T02:07:48.000Z",
+        "updated": "2025-06-03T02:07:48.000Z",
+        "resources": 4,
+        "location": "Goulburn Valley Hwy, Mooroopna",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250603118"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.98254718150977,
-          -37.275163038051126
+          145.3234084607077,
+          -36.39699941630073
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 223585,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3687,8 +3529,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-06-03T01:24:00.000Z",
-        "updated": "2025-06-03T01:52:00.000Z",
-        "resources": 1,
+        "updated": "2025-06-03T02:38:00.000Z",
+        "resources": 0,
         "location": "Everard Rd, Kyabram",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3705,20 +3547,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 223587,
+        "cfaId": 223586,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 223587,
+        "sourceId": 223586,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mcbride St",
-        "eventId": 250603147,
-        "id": "ESTA:250603147",
+        "sourceTitle": "Warrak Rd",
+        "eventId": 250603133,
+        "id": "ESTA:250603133",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-03T01:40:00.000Z",
-        "updated": "2025-06-03T01:55:00.000Z",
+        "created": "2025-06-03T01:25:00.000Z",
+        "updated": "2025-06-03T02:51:00.000Z",
         "resources": 0,
-        "location": "Mcbride St, Cockatoo",
+        "location": "Warrak Rd, Ararat",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3726,151 +3568,240 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.49068006737633,
-          -37.93551101326792
+          142.98254718150977,
+          -37.275163038051126
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "mfbId": "250603160",
+        "cfaId": 223592,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250603160",
+        "sourceId": "250603235",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gladstone Park",
-        "id": "ESTA:250603160",
-        "eventId": "250603160",
+        "sourceTitle": "Willung South",
+        "eventId": "250603235",
+        "id": "ESTA:250603235",
         "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-03T02:08:22.000Z",
-        "updated": "2025-06-03T02:08:22.000Z",
-        "resources": 1,
+        "category2": "Grass and Scrub",
+        "created": "2025-06-03T03:09:16.000Z",
+        "updated": "2025-06-03T03:09:16.000Z",
+        "resources": 5,
+        "location": "Willung South, Willung South",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Gladstone Park, Gladstone Park"
+        "mfbId": "250603235"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88941548147704,
-          -37.70454357284552
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250603179",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603179",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Exploration Lane",
-        "id": "ESTA:250603179",
-        "eventId": "250603179",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-03T02:08:44.000Z",
-        "updated": "2025-06-03T02:08:44.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Exploration Lane, Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96846286011944,
-          -37.80919948791841
+          146.83651851627528,
+          -38.340417152197176
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250603138",
+        "cfaId": 223593,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250603138",
+        "sourceId": "250603252",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "St Kilda East",
-        "id": "ESTA:250603138",
-        "eventId": "250603138",
+        "sourceTitle": "Caroline Springs",
+        "eventId": "250603252",
+        "id": "ESTA:250603252",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T03:11:17.000Z",
+        "updated": "2025-06-03T03:11:17.000Z",
+        "resources": 1,
+        "location": "Caroline Springs, Caroline Springs",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250603252"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7354871816767,
+          -37.74311946981555
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 223594,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223594,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hazeldean Rd",
+        "eventId": 250603259,
+        "id": "ESTA:250603259",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-03T03:15:00.000Z",
+        "updated": "2025-06-03T03:15:00.000Z",
+        "resources": 1,
+        "location": "Hazeldean Rd, Cloverlea",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00621614845744,
+          -38.244596966113505
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 223595,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223595,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nurture Av",
+        "eventId": 250603266,
+        "id": "ESTA:250603266",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-03T03:25:00.000Z",
+        "updated": "2025-06-03T03:25:00.000Z",
+        "resources": 3,
+        "location": "Nurture Av, Cranbourne North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3105147598184,
+          -38.073656846357075
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250603217",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603217",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elizabeth St",
+        "id": "ESTA:250603217",
+        "eventId": "250603217",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T02:48:51.000Z",
+        "updated": "2025-06-03T02:48:51.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Elizabeth St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96482500468844,
+          -37.81727147848466
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250603258",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603258",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Keilor East",
+        "id": "ESTA:250603258",
+        "eventId": "250603258",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T03:29:51.000Z",
+        "updated": "2025-06-03T03:29:51.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Keilor East, Keilor East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8511750619762,
+          -37.738660567287795
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250603218",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603218",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Robin Av",
+        "id": "ESTA:250603218",
+        "eventId": "250603218",
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-06-03T01:34:47.000Z",
-        "updated": "2025-06-03T01:34:47.000Z",
+        "created": "2025-06-03T03:14:00.000Z",
+        "updated": "2025-06-03T03:14:00.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "St Kilda East, St Kilda East"
+        "location": "Robin Av, Norlane"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99909083530451,
-          -37.86242546312027
+          144.35036120749515,
+          -38.08440392834173
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250603161",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603161",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Delahey",
-        "id": "ESTA:250603161",
-        "eventId": "250603161",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-03T02:01:26.000Z",
-        "updated": "2025-06-03T02:01:26.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Delahey, Delahey"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7819516548229,
-          -37.727417833186614
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 568884,
+        "status": "Request For Assistance",
+        "sesId": 568888,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 568884,
+        "sourceId": 568888,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250650083,
-        "id": "ESTA:250650083",
+        "eventId": 250650090,
+        "id": "ESTA:250650090",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-06-03T00:28:00.000Z",
-        "updated": "2025-06-03T02:08:00.000Z",
+        "created": "2025-06-03T02:39:00.000Z",
+        "updated": "2025-06-03T02:53:00.000Z",
         "resources": 1,
-        "location": "St Kilda"
+        "location": "Drumborg"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9792541065945,
-          -37.861673946316536
+          141.57386373998838,
+          -38.01448024305435
         ]
       }
     }
@@ -4102,7 +4033,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-03T02:09:46.455Z",
-    "featureCount": 197
+    "lastUpdated": "2025-06-03T03:31:01.269Z",
+    "featureCount": 195
   }
 }
