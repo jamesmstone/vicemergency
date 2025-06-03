@@ -462,34 +462,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
-        "sourceId": 3006408,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Bucheen Creek - Mt Cravensville",
-        "id": 3006408,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-05-22T22:55:11.000Z",
-        "updated": "2025-05-22T22:55:11.000Z",
-        "resources": 0,
-        "size": "5852.63",
-        "sizeFmt": "5852.63 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "44Km Se Of Tallangatta"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.6079007,
-          -36.4289147
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
         "sourceId": 3006561,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Eildon - Oeg",
@@ -795,24 +767,54 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119811950,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568898,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650096,
+        "id": "ESTA:250650096",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-03T05:17:00.000Z",
+        "updated": "2025-06-03T05:20:00.000Z",
+        "resources": 0,
+        "location": "Horsham",
+        "sesId": 568898
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.19525457888855,
+          -36.70479709338186
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
-        "estaId": 119810449,
+        "estaId": 119811739,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 223594,
+        "sourceId": 223609,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hazeldean Rd",
-        "eventId": 250603259,
-        "id": "ESTA:250603259",
+        "sourceTitle": "Western Fwy",
+        "eventId": 250603336,
+        "id": "ESTA:250603336",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-03T03:15:00.000Z",
-        "updated": "2025-06-03T04:09:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-03T04:59:00.000Z",
+        "updated": "2025-06-03T05:13:00.000Z",
         "resources": 0,
-        "location": "Hazeldean Rd, Cloverlea",
-        "cfaId": 223594,
+        "location": "Western Fwy, Ballan",
+        "cfaId": 223609,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -820,8 +822,230 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.00621614845744,
-          -38.244596966113505
+          144.27542357612623,
+          -37.601662130479546
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119810838,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119810838,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Woodside Beach",
+        "eventId": "F250603287",
+        "id": "ESTA:250603287",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-03T03:46:43.000Z",
+        "updated": "2025-06-03T05:19:28.242Z",
+        "resources": 0,
+        "location": "Byrnes Rd, Woodside Beach"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.98270850699254,
+          -38.53884914940111
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119811979,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603358",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wodonga",
+        "eventId": "250603358",
+        "id": "ESTA:250603358",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-03T05:22:14.000Z",
+        "updated": "2025-06-03T05:22:14.000Z",
+        "resources": 1,
+        "location": "Wodonga, Wodonga",
+        "mfbId": "250603358",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88808414773655,
+          -36.126550289914185
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119811912,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119811912,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Beveridge",
+        "eventId": "F250603350",
+        "id": "ESTA:250603350",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-03T05:10:18.000Z",
+        "updated": "2025-06-03T05:20:28.678Z",
+        "resources": 0,
+        "location": "Northern-Hume In Ramp, Beveridge"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98077608136967,
+          -37.44972762876879
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119811784,
+        "feedType": "incident",
+        "source": "",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603339",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Percy St",
+        "eventId": "250603339",
+        "id": "ESTA:250603339",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-03T05:21:50.000Z",
+        "updated": "2025-06-03T05:21:50.000Z",
+        "resources": 1,
+        "location": "Percy St, Portland",
+        "cfaId": 223610,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250603339"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.60397110340443,
+          -38.3466290161699
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119811849,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568897,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250603344,
+        "id": "ESTA:250603344",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-06-03T05:08:00.000Z",
+        "updated": "2025-06-03T05:19:00.000Z",
+        "resources": 3,
+        "location": "Beveridge",
+        "cfaId": 223611,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250603344",
+        "sesId": 568897
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9808836740475,
+          -37.44600546833396
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119811851,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603345",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kendale Ct",
+        "eventId": "250603345",
+        "id": "ESTA:250603345",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-03T05:22:11.000Z",
+        "updated": "2025-06-03T05:22:11.000Z",
+        "resources": 3,
+        "location": "Kendale Ct, Bayswater North",
+        "cfaId": 223612,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250603345"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30087623138695,
+          -37.833676162446295
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119811262,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223605,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fielding Lane",
+        "eventId": 250603316,
+        "id": "ESTA:250603316",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-03T04:20:00.000Z",
+        "updated": "2025-06-03T04:37:00.000Z",
+        "resources": 0,
+        "location": "Fielding Lane, Piries",
+        "cfaId": 223605,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.15469382380158,
+          -37.15785129182804
         ]
       }
     },
@@ -841,8 +1065,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-06-03T03:38:00.000Z",
-        "updated": "2025-06-03T04:04:00.000Z",
-        "resources": 4,
+        "updated": "2025-06-03T04:54:00.000Z",
+        "resources": 3,
         "location": "Separation Creek",
         "cfaId": 223597,
         "size": "Small",
@@ -861,23 +1085,56 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119811622,
+        "estaId": 119812052,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603365",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Western Fwy",
+        "eventId": "250603365",
+        "id": "ESTA:250603365",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T05:27:16.000Z",
+        "updated": "2025-06-03T05:27:16.000Z",
+        "resources": 1,
+        "location": "Western Fwy, Melton",
+        "cfaId": 223614,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250603365"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58396324106337,
+          -37.693663384243806
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119811721,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 223606,
+        "sourceId": 223608,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250603326,
-        "id": "ESTA:250603326",
+        "sourceTitle": "Carngham-Streatham Rd",
+        "eventId": 250603334,
+        "id": "ESTA:250603334",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-03T04:51:00.000Z",
-        "updated": "2025-06-03T04:51:00.000Z",
-        "resources": 0,
-        "location": "Clyde North",
-        "cfaId": 223606,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-03T04:58:00.000Z",
+        "updated": "2025-06-03T04:58:00.000Z",
+        "resources": 1,
+        "location": "Carngham-Streatham Rd, Stockyard Hill",
+        "cfaId": 223608,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -885,8 +1142,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.36111319313878,
-          -38.100507927447914
+          143.31102190118037,
+          -37.614248526330826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119812058,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119812058,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bentleigh",
+        "eventId": "F250603366",
+        "id": "ESTA:250603366",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T05:26:29.000Z",
+        "updated": "2025-06-03T05:27:45.434Z",
+        "resources": 0,
+        "location": "Patterson Rd, Bentleigh"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03372545879986,
+          -37.925620985107315
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119812045,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603363",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Albert Cr",
+        "eventId": "250603363",
+        "id": "ESTA:250603363",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-03T05:26:30.000Z",
+        "updated": "2025-06-03T05:26:30.000Z",
+        "resources": 2,
+        "location": "Albert Cr, Mulgrave",
+        "mfbId": "250603363",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15329595597905,
+          -37.92925194458336
         ]
       }
     },
@@ -3390,226 +3708,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 223593,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223593,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250603252,
-        "id": "ESTA:250603252",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-03T03:07:00.000Z",
-        "updated": "2025-06-03T03:54:00.000Z",
-        "resources": 0,
-        "location": "Caroline Springs",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7354851695894,
-          -37.74312430077702
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223599,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223599,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Premier St",
-        "eventId": 250603278,
-        "id": "ESTA:250603278",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-03T03:41:00.000Z",
-        "updated": "2025-06-03T04:03:00.000Z",
-        "resources": 0,
-        "location": "Premier St, Echuca",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.74819756832497,
-          -36.14244784316211
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223598,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223598,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Anchorage Dr",
-        "eventId": 250603276,
-        "id": "ESTA:250603276",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-03T03:39:00.000Z",
-        "updated": "2025-06-03T04:04:00.000Z",
-        "resources": 0,
-        "location": "Anchorage Dr, Blind Bight",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.340773456743,
-          -38.215572860765405
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223582,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603118",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Goulburn Valley Hwy",
-        "eventId": "250603118",
-        "id": "ESTA:250603118",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-03T04:09:13.000Z",
-        "updated": "2025-06-03T04:09:13.000Z",
-        "resources": 3,
-        "location": "Goulburn Valley Hwy, Mooroopna",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603118"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3234084607077,
-          -36.39699941630073
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223601,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223601,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Byrnes Rd",
-        "eventId": 250603287,
-        "id": "ESTA:250603287",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-03T03:48:00.000Z",
-        "updated": "2025-06-03T04:21:00.000Z",
-        "resources": 1,
-        "location": "Byrnes Rd, Woodside Beach",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.98269669866278,
-          -38.53886406244602
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223592,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603235",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Willung South",
-        "eventId": "250603235",
-        "id": "ESTA:250603235",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-06-03T04:22:05.000Z",
-        "updated": "2025-06-03T04:22:05.000Z",
-        "resources": 5,
-        "location": "Willung South, Willung South",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603235"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.83651851627528,
-          -38.340417152197176
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 223600,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250603286",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223600,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Kendale Ct",
-        "eventId": "250603286",
+        "eventId": 250603286,
         "id": "ESTA:250603286",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-03T04:33:34.000Z",
-        "updated": "2025-06-03T04:33:34.000Z",
-        "resources": 2,
-        "location": "Kendale Ct, Bayswater North",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250603286"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.30087623138695,
-          -37.833676162446295
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 223605,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 223605,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fielding Lane",
-        "eventId": 250603316,
-        "id": "ESTA:250603316",
-        "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-06-03T04:20:00.000Z",
-        "updated": "2025-06-03T04:37:00.000Z",
-        "resources": 2,
-        "location": "Fielding Lane, Piries",
+        "created": "2025-06-03T03:47:00.000Z",
+        "updated": "2025-06-03T04:33:00.000Z",
+        "resources": 0,
+        "location": "Kendale Ct, Bayswater North",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3617,8 +3729,122 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.15469382380158,
-          -37.15785129182804
+          145.30086817791474,
+          -37.833681474098036
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 223607,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 223607,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kilfeera Rd",
+        "eventId": 250603333,
+        "id": "ESTA:250603333",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-03T04:57:00.000Z",
+        "updated": "2025-06-03T04:57:00.000Z",
+        "resources": 2,
+        "location": "Kilfeera Rd, Upper Ryans Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1925434667544,
+          -36.63815952299606
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250603337",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603337",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Albion",
+        "id": "ESTA:250603337",
+        "eventId": "250603337",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T05:07:58.000Z",
+        "updated": "2025-06-03T05:07:58.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Albion, Albion"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82036071735482,
+          -37.77630830042598
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250603338",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250603338",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mustang Av",
+        "id": "ESTA:250603338",
+        "eventId": "250603338",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-03T05:22:55.000Z",
+        "updated": "2025-06-03T05:22:55.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mustang Av, Narre Warren"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2983182507876,
+          -38.011452123279135
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 568896,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568896,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650095,
+        "id": "ESTA:250650095",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-03T05:07:00.000Z",
+        "updated": "2025-06-03T05:25:00.000Z",
+        "resources": 1,
+        "location": "Rye"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.83291195490924,
+          -38.38153788205758
         ]
       }
     }
@@ -3850,7 +4076,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-03T04:54:21.175Z",
-    "featureCount": 191
+    "lastUpdated": "2025-06-03T05:28:41.090Z",
+    "featureCount": 198
   }
 }
