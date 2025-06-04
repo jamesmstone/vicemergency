@@ -431,6 +431,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1644539",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Sturt Highway, Wonuarra",
+        "id": "1644539",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Sturt Highway, Wonuarra",
+        "created": "2025-06-04T18:14:00.000Z",
+        "updated": "2025-06-04T18:14:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Sturt Highway, Wonuarra"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.826375200449,
+          -34.2312412818968
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -734,6 +760,69 @@
         "coordinates": [
           146.1637888,
           -38.3943231
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119829587,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 568947,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650151,
+        "id": "ESTA:250650151",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-04T18:24:00.000Z",
+        "updated": "2025-06-04T18:27:00.000Z",
+        "resources": 0,
+        "location": "Corio",
+        "sesId": 568947
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3489079868792,
+          -38.08276206010367
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119827957,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250604497",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Palmerston Av",
+        "eventId": "250604497",
+        "id": "ESTA:250604497",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-04T18:29:14.000Z",
+        "updated": "2025-06-04T18:29:14.000Z",
+        "resources": 3,
+        "location": "Palmerston Av, Dromana",
+        "cfaId": 223773,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250604497"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96615812155474,
+          -38.33996931924119
         ]
       }
     },
@@ -1540,31 +1629,60 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 223773,
+        "status": "Under Control",
+        "cfaId": 223784,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250604497",
+        "sourceId": "250604528",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Palmerston Av",
-        "eventId": "250604497",
-        "id": "ESTA:250604497",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-04T14:36:52.000Z",
-        "updated": "2025-06-04T14:36:52.000Z",
+        "sourceTitle": "Cox Rd",
+        "eventId": "250604528",
+        "id": "ESTA:250604528",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-04T18:36:48.000Z",
+        "updated": "2025-06-04T18:36:48.000Z",
         "resources": 3,
-        "location": "Palmerston Av, Dromana",
+        "location": "Cox Rd, Corio",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250604497"
+        "mfbId": "250604528"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96615812155474,
-          -38.33996931924119
+          144.34891647425545,
+          -38.082756464151025
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250604527",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250604527",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Coburg North",
+        "id": "ESTA:250604527",
+        "eventId": "250604527",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-04T18:23:27.000Z",
+        "updated": "2025-06-04T18:23:27.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Coburg North, Coburg North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95803428382703,
+          -37.733312374461164
         ]
       }
     },
@@ -1879,7 +1997,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-04T17:50:06.247Z",
-    "featureCount": 178
+    "lastUpdated": "2025-06-04T18:37:40.786Z",
+    "featureCount": 182
   }
 }
