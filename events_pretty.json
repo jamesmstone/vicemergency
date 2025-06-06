@@ -508,63 +508,29 @@
         "estaId": 119855795,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250606646",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224050,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Seaview Rd",
-        "eventId": "250606646",
+        "eventId": 250606646,
         "id": "ESTA:250606646",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-06-06T16:28:14.000Z",
-        "updated": "2025-06-06T16:28:14.000Z",
-        "resources": 3,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-06T16:14:00.000Z",
+        "updated": "2025-06-06T16:28:00.000Z",
+        "resources": 0,
         "location": "Seaview Rd, Cockatoo",
         "cfaId": 224050,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250606646"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4886928513367,
-          -37.94542952451784
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119855903,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569070,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250606648,
-        "id": "ESTA:250606648",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-06-06T16:31:00.000Z",
-        "updated": "2025-06-06T16:33:00.000Z",
-        "resources": 0,
-        "location": "Wandong",
-        "cfaId": 224051,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 569070
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02268328959323,
-          -37.37600128198644
+          145.4886903152325,
+          -37.945434958947125
         ]
       }
     },
@@ -7164,6 +7130,33 @@
             "coordinates": [
               [
                 [
+                  147.971,
+                  -35.6783
+                ],
+                [
+                  147.9701,
+                  -35.679
+                ],
+                [
+                  147.9672,
+                  -35.6765
+                ],
+                [
+                  147.9683,
+                  -35.6755
+                ],
+                [
+                  147.971,
+                  -35.6783
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   147.9781,
                   -35.6765
                 ],
@@ -7202,33 +7195,6 @@
                 [
                   147.9781,
                   -35.6765
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.971,
-                  -35.6783
-                ],
-                [
-                  147.9701,
-                  -35.679
-                ],
-                [
-                  147.9672,
-                  -35.6765
-                ],
-                [
-                  147.9683,
-                  -35.6755
-                ],
-                [
-                  147.971,
-                  -35.6783
                 ]
               ]
             ]
@@ -7398,6 +7364,66 @@
     },
     {
       "properties": {
+        "status": "On Scene",
+        "cfaId": 224051,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569070,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250606648,
+        "id": "ESTA:250606648",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-06-06T16:31:00.000Z",
+        "updated": "2025-06-06T16:51:00.000Z",
+        "resources": 3,
+        "location": "Wandong",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 569070
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02268328959323,
+          -37.37600128198644
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 224052,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250606649",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Truganina",
+        "eventId": "250606649",
+        "id": "ESTA:250606649",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-06T16:53:26.000Z",
+        "updated": "2025-06-06T16:53:26.000Z",
+        "resources": 3,
+        "location": "Truganina, Truganina",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250606649"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.66898831849855,
+          -37.744792415924934
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250606583",
         "feedType": "incident",
@@ -7422,35 +7448,6 @@
         "coordinates": [
           144.9455554822926,
           -37.732108980704886
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250606647",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250606647",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chestnut St",
-        "id": "ESTA:250606647",
-        "eventId": "250606647",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-06T16:25:19.000Z",
-        "updated": "2025-06-06T16:25:19.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Chestnut St, Surrey Hills"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1108436443335,
-          -37.83493010028334
         ]
       }
     }
@@ -7682,7 +7679,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-06T16:34:26.201Z",
+    "lastUpdated": "2025-06-06T16:55:20.351Z",
     "featureCount": 167
   }
 }
