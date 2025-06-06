@@ -478,7 +478,39 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
+        "estaId": 119856548,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250606663",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Watts St",
+        "eventId": "250606663",
+        "id": "ESTA:250606663",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-06T19:23:14.000Z",
+        "updated": "2025-06-06T19:23:14.000Z",
+        "resources": 1,
+        "location": "Watts St, Box Hill",
+        "mfbId": "250606663",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12559110616846,
+          -37.81541791713137
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 119856706,
         "feedType": "incident",
         "source": "000",
@@ -493,7 +525,7 @@
         "category2": "Road Accident",
         "created": "2025-06-06T19:11:00.000Z",
         "updated": "2025-06-06T19:11:00.000Z",
-        "resources": 3,
+        "resources": 5,
         "location": "Korumburra",
         "cfaId": 224054,
         "size": "Small",
@@ -510,33 +542,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119856720,
+        "status": "Complete",
+        "estaId": 119856683,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224055,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250606668,
-        "id": "ESTA:250606668",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569073,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650263,
+        "id": "ESTA:250650263",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-06T19:15:00.000Z",
-        "updated": "2025-06-06T19:15:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-06T19:03:00.000Z",
+        "updated": "2025-06-06T19:26:00.000Z",
         "resources": 0,
-        "location": "Korumburra",
-        "cfaId": 224055,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Carapooee",
+        "sesId": 569073
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.82467495007785,
-          -38.43396324586221
+          143.28982593295663,
+          -36.676622814501115
         ]
       }
     },
@@ -2776,6 +2806,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 224055,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224055,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250606668,
+        "id": "ESTA:250606668",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-06T19:15:00.000Z",
+        "updated": "2025-06-06T19:15:00.000Z",
+        "resources": 0,
+        "location": "Korumburra",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.82467495007785,
+          -38.43396324586221
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250606583",
         "feedType": "incident",
@@ -2800,62 +2859,6 @@
         "coordinates": [
           144.9455554822926,
           -37.732108980704886
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250606663",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250606663",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Watts St",
-        "id": "ESTA:250606663",
-        "eventId": "250606663",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-06-06T18:42:13.000Z",
-        "updated": "2025-06-06T18:42:13.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Watts St, Box Hill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12595451531905,
-          -37.81539951615809
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 569073,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569073,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650263,
-        "id": "ESTA:250650263",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-06T19:03:00.000Z",
-        "updated": "2025-06-06T19:15:00.000Z",
-        "resources": 1,
-        "location": "Carapooee"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.28982593295663,
-          -36.676622814501115
         ]
       }
     }
@@ -3087,7 +3090,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-06T19:22:06.143Z",
+    "lastUpdated": "2025-06-06T19:32:26.505Z",
     "featureCount": 167
   }
 }
