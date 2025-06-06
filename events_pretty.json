@@ -478,24 +478,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119856548,
+        "status": "Responding",
+        "estaId": 119856706,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250606663",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Watts St",
-        "eventId": "250606663",
-        "id": "ESTA:250606663",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224054,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250606667,
+        "id": "ESTA:250606667",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-06-06T18:42:13.000Z",
-        "updated": "2025-06-06T18:42:13.000Z",
-        "resources": 2,
-        "location": "Watts St, Box Hill",
-        "mfbId": "250606663",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-06T19:11:00.000Z",
+        "updated": "2025-06-06T19:11:00.000Z",
+        "resources": 3,
+        "location": "Korumburra",
+        "cfaId": 224054,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -503,8 +503,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12595451531905,
-          -37.81539951615809
+          145.82467495007785,
+          -38.43396324586221
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119856720,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224055,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250606668,
+        "id": "ESTA:250606668",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-06T19:15:00.000Z",
+        "updated": "2025-06-06T19:15:00.000Z",
+        "resources": 0,
+        "location": "Korumburra",
+        "cfaId": 224055,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.82467495007785,
+          -38.43396324586221
         ]
       }
     },
@@ -514,14 +546,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/3c70af9708ac3d9adbf5c5100d1812a2",
+        "sourceId": "IDV20600/a34e7543f6a5bde1a263c88b3a620d50",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/3c70af9708ac3d9adbf5c5100d1812a2",
+        "id": "IDV20600/a34e7543f6a5bde1a263c88b3a620d50",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-06-06T14:00:00.000Z",
+        "created": "2025-06-06T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2728,7 +2760,7 @@
         "category2": "Other",
         "created": "2025-06-06T18:15:00.000Z",
         "updated": "2025-06-06T18:50:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Tom St, Yarrawonga",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2768,6 +2800,62 @@
         "coordinates": [
           144.9455554822926,
           -37.732108980704886
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250606663",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250606663",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Watts St",
+        "id": "ESTA:250606663",
+        "eventId": "250606663",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-06T18:42:13.000Z",
+        "updated": "2025-06-06T18:42:13.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Watts St, Box Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12595451531905,
+          -37.81539951615809
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 569073,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569073,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650263,
+        "id": "ESTA:250650263",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-06T19:03:00.000Z",
+        "updated": "2025-06-06T19:15:00.000Z",
+        "resources": 1,
+        "location": "Carapooee"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.28982593295663,
+          -36.676622814501115
         ]
       }
     }
@@ -2999,7 +3087,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-06T18:54:40.681Z",
-    "featureCount": 164
+    "lastUpdated": "2025-06-06T19:22:06.143Z",
+    "featureCount": 167
   }
 }
