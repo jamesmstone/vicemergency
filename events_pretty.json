@@ -226,6 +226,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1645508",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Fairview Road, Lochaber",
+        "id": "1645508",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Fairview Road, Lochaber",
+        "created": "2025-06-07T07:42:00.000Z",
+        "updated": "2025-06-07T07:42:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Fairview Road, Lochaber"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.487758240743,
+          -36.858069453245
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -450,7 +476,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119863673,
         "feedType": "incident",
         "source": "000",
@@ -463,8 +489,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-07T07:25:55.000Z",
-        "updated": "2025-06-07T07:25:55.000Z",
+        "created": "2025-06-07T07:35:45.000Z",
+        "updated": "2025-06-07T07:35:45.000Z",
         "resources": 3,
         "location": "Arthur Phillip Dr, Endeavour Hills",
         "cfaId": 224126,
@@ -484,55 +510,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119863395,
+        "estaId": 119862929,
         "feedType": "incident",
-        "source": "000",
+        "source": "PAL",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 224118,
+        "sourceId": 224112,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Woodside Av",
-        "eventId": 250607320,
-        "id": "ESTA:250607320",
+        "sourceTitle": "Mt Sugarloaf Rd",
+        "eventId": 250607277,
+        "id": "ESTA:250607277",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-07T06:58:00.000Z",
-        "updated": "2025-06-07T07:25:00.000Z",
-        "resources": 0,
-        "location": "Woodside Av, Frankston South",
-        "cfaId": 224118,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14562327858053,
-          -38.178795411933216
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119863530,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224122,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Goulburn Valley Hwy",
-        "eventId": 250607331,
-        "id": "ESTA:250607331",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-07T07:10:00.000Z",
-        "updated": "2025-06-07T07:34:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-07T06:19:00.000Z",
+        "updated": "2025-06-07T07:36:00.000Z",
         "resources": 1,
-        "location": "Goulburn Valley Hwy, Toolamba",
-        "cfaId": 224122,
+        "location": "Mt Sugarloaf Rd, Kinglake West",
+        "cfaId": 224112,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -540,31 +534,91 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33101502847714,
-          -36.50448690411112
+          145.24210774488975,
+          -37.53211427019008
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119863447,
+        "status": "Request For Assistance",
+        "estaId": 119863810,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569133,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650321,
+        "id": "ESTA:250650321",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-06-07T07:35:00.000Z",
+        "updated": "2025-06-07T07:40:00.000Z",
+        "resources": 0,
+        "location": "Pakenham",
+        "sesId": 569133
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.48345113971075,
+          -38.05842465174832
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 119863856,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569134,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650322,
+        "id": "ESTA:250650322",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-07T07:40:00.000Z",
+        "updated": "2025-06-07T07:47:00.000Z",
+        "resources": 0,
+        "location": "Elphinstone",
+        "sesId": 569134
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3341304425408,
+          -37.10548122055501
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119863883,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 224119,
+        "sourceId": 224127,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Putter Pl",
-        "eventId": 250607322,
-        "id": "ESTA:250607322",
+        "sourceTitle": "",
+        "eventId": 250607357,
+        "id": "ESTA:250607357",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-07T07:02:00.000Z",
-        "updated": "2025-06-07T07:16:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-07T07:42:00.000Z",
+        "updated": "2025-06-07T07:42:00.000Z",
         "resources": 0,
-        "location": "Putter Pl, West Wodonga",
-        "cfaId": 224119,
+        "location": "Lakes Entrance",
+        "cfaId": 224127,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -572,8 +626,73 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.84619467214492,
-          -36.131862087463496
+          147.9954168938068,
+          -37.84218388448988
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119863923,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250607362",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Coburg",
+        "eventId": "250607362",
+        "id": "ESTA:250607362",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-07T07:46:36.000Z",
+        "updated": "2025-06-07T07:46:36.000Z",
+        "resources": 2,
+        "location": "Coburg, Coburg",
+        "mfbId": "250607362",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95395500426162,
+          -37.743771858878944
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119863920,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250607361",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Howitt Ct",
+        "eventId": "250607361",
+        "id": "ESTA:250607361",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-07T07:48:11.000Z",
+        "updated": "2025-06-07T07:48:11.000Z",
+        "resources": 2,
+        "location": "Howitt Ct, Newborough",
+        "cfaId": 224128,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250607361"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.28085026711065,
+          -38.17399039295953
         ]
       }
     },
@@ -1773,35 +1892,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 224112,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224112,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Sugarloaf Rd",
-        "eventId": 250607277,
-        "id": "ESTA:250607277",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-07T06:19:00.000Z",
-        "updated": "2025-06-07T06:52:00.000Z",
-        "resources": 1,
-        "location": "Mt Sugarloaf Rd, Kinglake West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24210774488975,
-          -37.53211427019008
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 224106,
         "feedType": "incident",
@@ -1815,7 +1905,7 @@
         "category2": "Rescue High Angle",
         "created": "2025-06-07T05:55:00.000Z",
         "updated": "2025-06-07T06:30:00.000Z",
-        "resources": 10,
+        "resources": 7,
         "location": "Hotham Heights",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1891,35 +1981,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 224123,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224123,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250607332,
-        "id": "ESTA:250607332",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-07T07:11:00.000Z",
-        "updated": "2025-06-07T07:11:00.000Z",
-        "resources": 2,
-        "location": "East Wangaratta",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.3750350962598,
-          -36.36811176821144
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 224116,
         "feedType": "incident",
@@ -1949,21 +2010,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 224125,
+        "status": "Safe",
+        "cfaId": 224119,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 224125,
+        "sourceId": 224119,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bastow Rd",
-        "eventId": 250607334,
-        "id": "ESTA:250607334",
+        "sourceTitle": "Putter Pl",
+        "eventId": 250607322,
+        "id": "ESTA:250607322",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-07T07:15:00.000Z",
-        "updated": "2025-06-07T07:15:00.000Z",
-        "resources": 1,
-        "location": "Bastow Rd, Lilydale",
+        "category2": "Building Fire",
+        "created": "2025-06-07T07:02:00.000Z",
+        "updated": "2025-06-07T07:16:00.000Z",
+        "resources": 0,
+        "location": "Putter Pl, West Wodonga",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1971,8 +2032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.36659940573082,
-          -37.75908867332952
+          146.84619467214492,
+          -36.131862087463496
         ]
       }
     },
@@ -1991,7 +2052,7 @@
         "category2": "Other",
         "created": "2025-06-07T07:22:19.000Z",
         "updated": "2025-06-07T07:22:19.000Z",
-        "resources": 3,
+        "resources": 1,
         "location": "Gregory St, Wendouree",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2008,7 +2069,65 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 224118,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224118,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Woodside Av",
+        "eventId": 250607320,
+        "id": "ESTA:250607320",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-07T06:58:00.000Z",
+        "updated": "2025-06-07T07:25:00.000Z",
+        "resources": 0,
+        "location": "Woodside Av, Frankston South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14562327858053,
+          -38.178795411933216
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
+        "cfaId": 224122,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224122,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Goulburn Valley Hwy",
+        "eventId": 250607331,
+        "id": "ESTA:250607331",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-07T07:10:00.000Z",
+        "updated": "2025-06-07T07:34:00.000Z",
+        "resources": 1,
+        "location": "Goulburn Valley Hwy, Toolamba",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33101502847714,
+          -36.50448690411112
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 224121,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -2019,9 +2138,9 @@
         "id": "ESTA:250607328",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-07T07:22:06.000Z",
-        "updated": "2025-06-07T07:22:06.000Z",
-        "resources": 3,
+        "created": "2025-06-07T07:34:43.000Z",
+        "updated": "2025-06-07T07:34:43.000Z",
+        "resources": 2,
         "location": "Miranda St, Sorrento",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2038,28 +2157,28 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 569132,
+        "status": "Request For Assistance",
+        "sesId": 569135,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 569132,
+        "sourceId": 569135,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250650320,
-        "id": "ESTA:250650320",
+        "eventId": 250650323,
+        "id": "ESTA:250650323",
         "category1": "Rescue",
         "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-06-07T07:14:00.000Z",
-        "updated": "2025-06-07T07:32:00.000Z",
+        "created": "2025-06-07T07:46:00.000Z",
+        "updated": "2025-06-07T07:50:00.000Z",
         "resources": 0,
-        "location": "Wendouree"
+        "location": "Coburg"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.82001349312196,
-          -37.53979457291152
+          144.9539457684745,
+          -37.743777419196206
         ]
       }
     }
@@ -2291,7 +2410,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-07T07:35:08.574Z",
-    "featureCount": 172
+    "lastUpdated": "2025-06-07T07:50:20.847Z",
+    "featureCount": 176
   }
 }
