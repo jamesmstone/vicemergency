@@ -450,64 +450,66 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119879927,
+        "status": "Responding",
+        "estaId": 119880700,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569298,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650482,
-        "id": "ESTA:250650482",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250608353",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Nicholson St",
+        "eventId": "250608353",
+        "id": "ESTA:250608353",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-06-08T12:50:00.000Z",
-        "updated": "2025-06-08T14:24:00.000Z",
-        "resources": 0,
-        "location": "Brown Hill",
-        "sesId": 569298
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-08T14:47:25.000Z",
+        "updated": "2025-06-08T14:47:25.000Z",
+        "resources": 2,
+        "location": "Nicholson St, Seddon",
+        "mfbId": "250608353",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.90172520648966,
-          -37.5537981608188
+          144.89842792231815,
+          -37.808511917853274
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119880521,
+        "status": "Responding",
+        "estaId": 119880720,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250608349",
+        "sourceId": "250608354",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ballarto Rd",
-        "eventId": "250608349",
-        "id": "ESTA:250608349",
+        "sourceTitle": "Roy St",
+        "eventId": "250608354",
+        "id": "ESTA:250608354",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-08T14:28:02.000Z",
-        "updated": "2025-06-08T14:28:02.000Z",
-        "resources": 3,
-        "location": "Ballarto Rd, Clyde",
-        "cfaId": 224305,
+        "category2": "Fire",
+        "created": "2025-06-08T14:48:24.000Z",
+        "updated": "2025-06-08T14:48:24.000Z",
+        "resources": 2,
+        "location": "Roy St, Wangaratta",
+        "cfaId": 224306,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250608349"
+        "mfbId": "250608354"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.32305147442239,
-          -38.13367679734091
+          146.31782654627185,
+          -36.35829661050695
         ]
       }
     },
@@ -1844,7 +1846,7 @@
         "category2": "Structure Fire",
         "created": "2025-06-08T12:32:24.000Z",
         "updated": "2025-06-08T12:32:24.000Z",
-        "resources": 1,
+        "resources": 2,
         "location": "David St, Lalor",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1856,35 +1858,6 @@
         "coordinates": [
           145.02111900768557,
           -37.67241626774918
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 224297,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224297,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250608324,
-        "id": "ESTA:250608324",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-08T12:24:00.000Z",
-        "updated": "2025-06-08T13:42:00.000Z",
-        "resources": 0,
-        "location": "Lynbrook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2544972726243,
-          -38.04621718597393
         ]
       }
     },
@@ -1974,6 +1947,36 @@
         "coordinates": [
           144.77143630937536,
           -37.763166676663126
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 224305,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250608349",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ballarto Rd",
+        "eventId": "250608349",
+        "id": "ESTA:250608349",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-08T14:28:02.000Z",
+        "updated": "2025-06-08T14:28:02.000Z",
+        "resources": 1,
+        "location": "Ballarto Rd, Clyde",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250608349"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32305147442239,
+          -38.13367679734091
         ]
       }
     },
@@ -2234,7 +2237,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-08T14:38:26.058Z",
+    "lastUpdated": "2025-06-08T14:50:06.580Z",
     "featureCount": 161
   }
 }
