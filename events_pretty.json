@@ -450,31 +450,66 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 119890311,
+        "status": "Under Control",
+        "estaId": 119892097,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569401,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650584,
-        "id": "ESTA:250650584",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224396,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Coldstream West Rd",
+        "eventId": 250608937,
+        "id": "ESTA:250608937",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-09T08:58:00.000Z",
-        "updated": "2025-06-09T11:48:00.000Z",
-        "resources": 0,
-        "location": "Blackburn",
-        "sesId": 569401
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-09T12:27:00.000Z",
+        "updated": "2025-06-09T12:38:00.000Z",
+        "resources": 3,
+        "location": "Coldstream West Rd, Coldstream",
+        "cfaId": 224396,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15691840645684,
-          -37.829758784612274
+          145.35666518895397,
+          -37.71912490761973
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119892199,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250608940",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Liardet Cr",
+        "eventId": "250608940",
+        "id": "ESTA:250608940",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-09T12:48:27.000Z",
+        "updated": "2025-06-09T12:48:27.000Z",
+        "resources": 3,
+        "location": "Liardet Cr, Frankston",
+        "cfaId": 224397,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250608940"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16268316442387,
+          -38.1521253797067
         ]
       }
     },
@@ -484,14 +519,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/b12e205576c0c2308591a93a57f45906",
+        "sourceId": "IDV20600/156d5b08432fe61c8c53fe3d8af23ab0",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/b12e205576c0c2308591a93a57f45906",
+        "id": "IDV20600/156d5b08432fe61c8c53fe3d8af23ab0",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-06-09T07:00:00.000Z",
+        "created": "2025-06-09T12:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1535,6 +1570,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "605224",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Walla Walbundrie Rd, Walbundrie",
+        "id": "2025-06-09T19:28:00.0000000:605224",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Walla Walbundrie Rd, Walbundrie",
+        "location": "Walla Walbundrie Rd, Walbundrie 2642",
+        "created": "2025-06-09T19:28:00+10:00",
+        "updated": "2025-06-09T19:28:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.732589721,
+          -35.702987671
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -1559,6 +1624,53 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.9781,
+                  -35.6765
+                ],
+                [
+                  147.9752,
+                  -35.6668
+                ],
+                [
+                  147.9769,
+                  -35.6652
+                ],
+                [
+                  147.9769,
+                  -35.6618
+                ],
+                [
+                  147.9789,
+                  -35.6612
+                ],
+                [
+                  147.9822,
+                  -35.6659
+                ],
+                [
+                  147.9794,
+                  -35.6704
+                ],
+                [
+                  147.9785,
+                  -35.6752
+                ],
+                [
+                  147.9796,
+                  -35.6759
+                ],
+                [
+                  147.9781,
+                  -35.6765
+                ]
+              ]
+            ]
+          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -1605,6 +1717,45 @@
                 [
                   147.977,
                   -35.6793
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.9776,
+                  -35.6782
+                ],
+                [
+                  147.9726,
+                  -35.6749
+                ],
+                [
+                  147.9736,
+                  -35.6731
+                ],
+                [
+                  147.971,
+                  -35.6768
+                ],
+                [
+                  147.9691,
+                  -35.6769
+                ],
+                [
+                  147.9688,
+                  -35.6746
+                ],
+                [
+                  147.9739,
+                  -35.6688
+                ],
+                [
+                  147.9776,
+                  -35.6782
                 ]
               ]
             ]
@@ -1701,128 +1852,12 @@
             ]
           },
           {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.9781,
-                  -35.6765
-                ],
-                [
-                  147.9752,
-                  -35.6668
-                ],
-                [
-                  147.9769,
-                  -35.6652
-                ],
-                [
-                  147.9769,
-                  -35.6618
-                ],
-                [
-                  147.9789,
-                  -35.6612
-                ],
-                [
-                  147.9822,
-                  -35.6659
-                ],
-                [
-                  147.9794,
-                  -35.6704
-                ],
-                [
-                  147.9785,
-                  -35.6752
-                ],
-                [
-                  147.9796,
-                  -35.6759
-                ],
-                [
-                  147.9781,
-                  -35.6765
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.9776,
-                  -35.6782
-                ],
-                [
-                  147.9726,
-                  -35.6749
-                ],
-                [
-                  147.9736,
-                  -35.6731
-                ],
-                [
-                  147.971,
-                  -35.6768
-                ],
-                [
-                  147.9691,
-                  -35.6769
-                ],
-                [
-                  147.9688,
-                  -35.6746
-                ],
-                [
-                  147.9739,
-                  -35.6688
-                ],
-                [
-                  147.9776,
-                  -35.6782
-                ]
-              ]
-            ]
-          },
-          {
             "type": "Point",
             "coordinates": [
               147.974424362,
               -35.6721957569999
             ]
           }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "605224",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Walla Walbundrie Rd, Walbundrie",
-        "id": "2025-06-09T19:28:00.0000000:605224",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Walla Walbundrie Rd, Walbundrie",
-        "location": "Walla Walbundrie Rd, Walbundrie 2642",
-        "created": "2025-06-09T19:28:00+10:00",
-        "updated": "2025-06-09T19:28:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.732589721,
-          -35.702987671
         ]
       }
     },
@@ -1858,29 +1893,30 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 224386,
+        "cfaId": 224395,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224386,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Elvie Lane",
-        "eventId": 250608898,
-        "id": "ESTA:250608898",
-        "category1": "Fire",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250608932",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rejoice St",
+        "eventId": "250608932",
+        "id": "ESTA:250608932",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-09T10:24:00.000Z",
-        "updated": "2025-06-09T10:49:00.000Z",
+        "created": "2025-06-09T12:28:43.000Z",
+        "updated": "2025-06-09T12:28:43.000Z",
         "resources": 1,
-        "location": "Elvie Lane, Numurkah",
+        "location": "Rejoice St, Tarneit",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250608932"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.48624590210994,
-          -36.10376162814887
+          144.68842493206802,
+          -37.81653878374838
         ]
       }
     },
@@ -1897,9 +1933,9 @@
         "eventId": "250608913",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-09T11:31:16.000Z",
-        "updated": "2025-06-09T11:31:16.000Z",
-        "resources": 3,
+        "created": "2025-06-09T12:31:45.000Z",
+        "updated": "2025-06-09T12:31:45.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Western Ring Rd, St Albans"
@@ -1910,6 +1946,35 @@
         "coordinates": [
           144.80652212012743,
           -37.76781717100823
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250608925",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250608925",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Barkly St",
+        "id": "ESTA:250608925",
+        "eventId": "250608925",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-09T12:09:54.000Z",
+        "updated": "2025-06-09T12:09:54.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Barkly St, Footscray"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89656633732153,
+          -37.79958133252823
         ]
       }
     },
@@ -1969,28 +2034,82 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 569407,
+        "status": "On Scene",
+        "sesId": 569411,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 569407,
+        "sourceId": 569411,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250650590,
-        "id": "ESTA:250650590",
+        "eventId": 250650594,
+        "id": "ESTA:250650594",
         "category1": "Building Damage",
         "category2": "Building Damage",
-        "created": "2025-06-09T11:22:00.000Z",
-        "updated": "2025-06-09T11:38:00.000Z",
+        "created": "2025-06-09T12:29:00.000Z",
+        "updated": "2025-06-09T12:46:00.000Z",
         "resources": 1,
-        "location": "Herne Hill"
+        "location": "Tarneit"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.31879274737864,
-          -38.13069829637423
+          144.68841905309804,
+          -37.816545180900526
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 569410,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569410,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650593,
+        "id": "ESTA:250650593",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-09T12:19:00.000Z",
+        "updated": "2025-06-09T12:46:00.000Z",
+        "resources": 1,
+        "location": "Tarneit"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68841905309804,
+          -37.816545180900526
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 569409,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569409,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650592,
+        "id": "ESTA:250650592",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-06-09T12:17:00.000Z",
+        "updated": "2025-06-09T12:46:00.000Z",
+        "resources": 1,
+        "location": "Tarneit"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68841905309804,
+          -37.816545180900526
         ]
       }
     }
@@ -2222,7 +2341,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-09T11:50:06.421Z",
-    "featureCount": 156
+    "lastUpdated": "2025-06-09T12:55:46.367Z",
+    "featureCount": 160
   }
 }
