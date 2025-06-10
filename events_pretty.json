@@ -172,7 +172,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 1007545,
@@ -182,8 +182,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-05-25T17:00:00.000Z",
-        "updated": "2025-05-27T03:13:00.000Z",
-        "resources": 3,
+        "updated": "2025-06-10T22:30:00.000Z",
+        "resources": 0,
         "size": "4.00",
         "sizeFmt": "4.00 Ha.",
         "location": "12Km South Of Buninyong "
@@ -194,6 +194,33 @@
         "coordinates": [
           143.8999,
           -37.747
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 1007555,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Midlands 131 - Clunes - Clunes Common Ncr",
+        "id": 1007555,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-05-26T01:45:00.000Z",
+        "updated": "2025-06-10T22:29:00.000Z",
+        "resources": 0,
+        "size": "24.00",
+        "sizeFmt": "24.00 Ha.",
+        "location": "1.5Km N Clunes"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8015,
+          -37.2727
         ]
       }
     },
@@ -394,23 +421,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119906676,
+        "estaId": 119906850,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224555,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Spencer St",
-        "eventId": 250609805,
-        "id": "ESTA:250609805",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609827",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Leila Rd",
+        "eventId": "250609827",
+        "id": "ESTA:250609827",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-10T22:23:00.000Z",
-        "updated": "2025-06-10T22:23:00.000Z",
-        "resources": 2,
-        "location": "Spencer St, Canadian",
-        "cfaId": 224555,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-10T22:44:05.000Z",
+        "updated": "2025-06-10T22:44:05.000Z",
+        "resources": 1,
+        "location": "Leila Rd, Carnegie",
+        "mfbId": "250609827",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -418,31 +445,92 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.88208819703746,
-          -37.57697727006844
+          145.05259956889213,
+          -37.90133620668987
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119906837,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224558,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Station St",
+        "eventId": 250609824,
+        "id": "ESTA:250609824",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-10T22:43:00.000Z",
+        "updated": "2025-06-10T22:45:00.000Z",
+        "resources": 0,
+        "location": "Station St, Kangaroo Flat",
+        "cfaId": 224558,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.24037685219832,
+          -36.7941112717122
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119906671,
+        "estaId": 119906885,
         "feedType": "incident",
-        "source": "STATION",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119906885,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Thornhill Park",
+        "eventId": "F250609831",
+        "id": "ESTA:250609831",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-10T22:47:14.000Z",
+        "updated": "2025-06-10T22:47:21.926Z",
+        "resources": 0,
+        "location": "Mt Cottrell Rd, Thornhill Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.61981614627237,
+          -37.713220838527576
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119906806,
+        "feedType": "incident",
+        "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250609803",
+        "sourceId": "250609821",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kingsway -",
-        "eventId": "250609803",
-        "id": "ESTA:250609803",
+        "sourceTitle": "Pascoe Vale Rd",
+        "eventId": "250609821",
+        "id": "ESTA:250609821",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-10T22:23:41.000Z",
-        "updated": "2025-06-10T22:23:41.000Z",
+        "created": "2025-06-10T22:41:48.000Z",
+        "updated": "2025-06-10T22:41:48.000Z",
         "resources": 2,
-        "location": "Kingsway -, Moorabbin",
-        "mfbId": "250609803",
+        "location": "Pascoe Vale Rd, Essendon",
+        "mfbId": "250609821",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -450,95 +538,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.07416114799975,
-          -37.93934546988788
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119906681,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119906681,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moorabbin",
-        "eventId": "F250609807",
-        "id": "ESTA:250609807",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-10T22:22:49.000Z",
-        "updated": "2025-06-10T22:23:19.486Z",
-        "resources": 0,
-        "location": "Kingsway -, Moorabbin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.07416812509774,
-          -37.93934211258265
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 224549,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224549,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250609748,
-        "id": "ESTA:250609748",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-10T21:19:00.000Z",
-        "updated": "2025-06-10T21:32:00.000Z",
-        "resources": 0,
-        "location": "Sandhurst",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20316070259028,
-          -38.07319964830353
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 224550,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224550,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250609754,
-        "id": "ESTA:250609754",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-10T21:27:00.000Z",
-        "updated": "2025-06-10T21:39:00.000Z",
-        "resources": 0,
-        "location": "Seaford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14604923101484,
-          -38.09705830107587
+          144.92667578170264,
+          -37.74552429690944
         ]
       }
     },
@@ -569,6 +570,66 @@
         "coordinates": [
           146.38992356590518,
           -36.375440267627
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 224556,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224556,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grandmas Rd",
+        "eventId": 250609813,
+        "id": "ESTA:250609813",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-10T22:32:00.000Z",
+        "updated": "2025-06-10T22:32:00.000Z",
+        "resources": 5,
+        "location": "Grandmas Rd, Staffordshire Reef",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7080380634053,
+          -37.74652272474179
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 224557,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569487,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250609819,
+        "id": "ESTA:250609819",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-06-10T22:37:00.000Z",
+        "updated": "2025-06-10T22:48:00.000Z",
+        "resources": 5,
+        "location": "Thornhill Park",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250609819",
+        "sesId": 569487
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.61984700545025,
+          -37.71306276081548
         ]
       }
     },
@@ -618,7 +679,7 @@
         "category2": "Other",
         "created": "2025-06-10T22:13:16.000Z",
         "updated": "2025-06-10T22:13:16.000Z",
-        "resources": 1,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Melton, Melton"
@@ -629,6 +690,35 @@
         "coordinates": [
           144.5671560896557,
           -37.69009872588232
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250609812",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609812",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glenroy",
+        "id": "ESTA:250609812",
+        "eventId": "250609812",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-10T22:46:12.000Z",
+        "updated": "2025-06-10T22:46:12.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Glenroy, Glenroy"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91528391128725,
+          -37.694445908544495
         ]
       }
     },
@@ -647,7 +737,7 @@
         "category2": "Other",
         "created": "2025-06-10T22:24:54.000Z",
         "updated": "2025-06-10T22:24:54.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Geelong Rd, Kingsville"
@@ -663,59 +753,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250609743",
+        "status": "Safe",
+        "mfbId": "250609803",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250609743",
+        "sourceId": "250609803",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bell St",
-        "id": "ESTA:250609743",
-        "eventId": "250609743",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-10T21:12:57.000Z",
-        "updated": "2025-06-10T21:12:57.000Z",
-        "resources": 0,
+        "sourceTitle": "Kingsway -",
+        "id": "ESTA:250609803",
+        "eventId": "250609803",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-10T22:35:22.000Z",
+        "updated": "2025-06-10T22:35:22.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Bell St, Heidelberg Heights"
+        "location": "Kingsway -, Moorabbin"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0474795434918,
-          -37.75151113671445
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250609778",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250609778",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lusher Rd",
-        "id": "ESTA:250609778",
-        "eventId": "250609778",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-10T22:17:30.000Z",
-        "updated": "2025-06-10T22:17:30.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Lusher Rd, Croydon"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27923609040306,
-          -37.80021099252772
+          145.07416114799975,
+          -37.93934546988788
         ]
       }
     }
@@ -947,7 +1008,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-10T22:27:20.268Z",
-    "featureCount": 147
+    "lastUpdated": "2025-06-10T22:51:00.364Z",
+    "featureCount": 149
   }
 }
