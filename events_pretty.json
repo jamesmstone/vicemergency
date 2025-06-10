@@ -367,6 +367,35 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 119905551,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119905551,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Werribee",
+        "eventId": "F250609698",
+        "id": "ESTA:250609698",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-10T18:02:53.000Z",
+        "updated": "2025-06-10T18:41:16.047Z",
+        "resources": 0,
+        "location": "Princes Fwy, Werribee"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67302053691893,
+          -37.914560202836796
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 119905623,
         "feedType": "incident",
         "source": "000",
@@ -379,8 +408,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-06-10T18:26:48.000Z",
-        "updated": "2025-06-10T18:26:48.000Z",
+        "created": "2025-06-10T18:47:06.000Z",
+        "updated": "2025-06-10T18:47:06.000Z",
         "resources": 3,
         "location": "Mornington Peninsula Fwy, Dromana",
         "cfaId": 224530,
@@ -399,21 +428,57 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 224529,
+        "status": "Request For Assistance",
+        "estaId": 119905721,
         "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569480,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250609707,
+        "id": "ESTA:250609707",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-06-10T18:47:00.000Z",
+        "updated": "2025-06-10T18:52:00.000Z",
+        "resources": 2,
+        "location": "Berwick",
+        "cfaId": 224533,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 569480
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35827089985142,
+          -38.050659527142
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119905722,
+        "feedType": "incident",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 224529,
+        "sourceId": 224534,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Fwy",
-        "eventId": 250609698,
-        "id": "ESTA:250609698",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-10T18:05:00.000Z",
-        "updated": "2025-06-10T18:05:00.000Z",
+        "sourceTitle": "Young St",
+        "eventId": 250609708,
+        "id": "ESTA:250609708",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-10T18:47:00.000Z",
+        "updated": "2025-06-10T18:47:00.000Z",
         "resources": 0,
-        "location": "Princes Fwy, Werribee",
+        "location": "Young St, Drouin",
+        "cfaId": 224534,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -421,8 +486,73 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.67301231256377,
-          -37.91456350368532
+          145.8579479288894,
+          -38.13545298801492
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119905708,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609703",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lyall St",
+        "eventId": "250609703",
+        "id": "ESTA:250609703",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-10T18:52:49.000Z",
+        "updated": "2025-06-10T18:52:49.000Z",
+        "resources": 2,
+        "location": "Lyall St, St Albans",
+        "mfbId": "250609703",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.80540605196347,
+          -37.74722689794192
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119905713,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609705",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lonsdale St",
+        "eventId": "250609705",
+        "id": "ESTA:250609705",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-10T18:52:55.000Z",
+        "updated": "2025-06-10T18:52:55.000Z",
+        "resources": 2,
+        "location": "Lonsdale St, Dandenong",
+        "cfaId": 224532,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250609705"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21387172354997,
+          -37.987423812615376
         ]
       }
     },
@@ -441,7 +571,7 @@
         "category2": "Other",
         "created": "2025-06-10T18:18:48.000Z",
         "updated": "2025-06-10T18:18:48.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Princes Fwy, Werribee",
         "size": "Small",
         "sizeFmt": "Small",
@@ -453,6 +583,64 @@
         "coordinates": [
           144.65918080217267,
           -37.91928018990032
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250609701",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609701",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hoddle St",
+        "id": "ESTA:250609701",
+        "eventId": "250609701",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-10T18:46:20.000Z",
+        "updated": "2025-06-10T18:46:20.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Hoddle St, Abbotsford"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99166444600198,
+          -37.80780678286689
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250609702",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250609702",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Todd Rd",
+        "id": "ESTA:250609702",
+        "eventId": "250609702",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-10T18:50:58.000Z",
+        "updated": "2025-06-10T18:50:58.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Todd Rd, Port Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91890222212027,
+          -37.8309534540185
         ]
       }
     },
@@ -711,7 +899,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-10T18:37:20.020Z",
-    "featureCount": 139
+    "lastUpdated": "2025-06-10T18:55:45.611Z",
+    "featureCount": 145
   }
 }
