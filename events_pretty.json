@@ -342,24 +342,51 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 119917061,
+        "status": "Request For Assistance",
+        "estaId": 119917286,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569544,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650712,
+        "id": "ESTA:250650712",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-11T17:17:00.000Z",
+        "updated": "2025-06-11T17:20:00.000Z",
+        "resources": 0,
+        "location": "Arthurs Seat",
+        "sesId": 569544
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9714903757187,
+          -38.36170748900331
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 224666,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 224666,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Duke Av",
         "eventId": 250610539,
         "id": "ESTA:250610539",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-06-11T16:22:00.000Z",
         "updated": "2025-06-11T16:46:00.000Z",
         "resources": 3,
         "location": "Duke Av, Hamilton",
-        "cfaId": 224666,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -369,36 +396,6 @@
         "coordinates": [
           142.04275355074094,
           -37.73882047903214
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119917162,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569543,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650711,
-        "id": "ESTA:250650711",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-11T16:47:00.000Z",
-        "updated": "2025-06-11T16:50:00.000Z",
-        "resources": 0,
-        "location": "Pheasant Creek",
-        "sesId": 569543
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27822412243208,
-          -37.4861505552165
         ]
       }
     },
@@ -428,6 +425,33 @@
         "coordinates": [
           144.7715832424292,
           -37.72732643935941
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 569543,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569543,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650711,
+        "id": "ESTA:250650711",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-11T16:47:00.000Z",
+        "updated": "2025-06-11T16:50:00.000Z",
+        "resources": 0,
+        "location": "Pheasant Creek"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27822412243208,
+          -37.4861505552165
         ]
       }
     }
@@ -659,7 +683,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-11T16:56:21.549Z",
-    "featureCount": 131
+    "lastUpdated": "2025-06-11T17:25:40.362Z",
+    "featureCount": 132
   }
 }
