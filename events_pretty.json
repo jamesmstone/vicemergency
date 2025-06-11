@@ -343,23 +343,84 @@
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 119916381,
+        "estaId": 119916496,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250610526",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brunswick St",
+        "eventId": "250610526",
+        "id": "ESTA:250610526",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-11T14:40:32.000Z",
+        "updated": "2025-06-11T14:40:32.000Z",
+        "resources": 2,
+        "location": "Brunswick St, Fitzroy",
+        "mfbId": "250610526",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97789044479208,
+          -37.80357030035773
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 119916589,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224664,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250610527,
+        "id": "ESTA:250610527",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-11T14:44:00.000Z",
+        "updated": "2025-06-11T14:44:00.000Z",
+        "resources": 1,
+        "location": "Aspendale",
+        "cfaId": 224664,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10181409484497,
+          -38.01859061721782
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 224662,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 224662,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Jobs Gully Rd",
         "eventId": 250610522,
         "id": "ESTA:250610522",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-06-11T14:09:00.000Z",
-        "updated": "2025-06-11T14:19:00.000Z",
-        "resources": 2,
+        "updated": "2025-06-11T14:30:00.000Z",
+        "resources": 0,
         "location": "Jobs Gully Rd, Eaglehawk",
-        "cfaId": 224662,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -369,38 +430,6 @@
         "coordinates": [
           144.2697442766837,
           -36.71930609027165
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119916475,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 224663,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Long St",
-        "eventId": 250610525,
-        "id": "ESTA:250610525",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-11T14:24:00.000Z",
-        "updated": "2025-06-11T14:24:00.000Z",
-        "resources": 0,
-        "location": "Long St, St Arnaud",
-        "cfaId": 224663,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.24835111703104,
-          -36.60789653538038
         ]
       }
     },
@@ -419,7 +448,7 @@
         "category2": "Structure Fire",
         "created": "2025-06-11T08:18:37.000Z",
         "updated": "2025-06-11T08:18:37.000Z",
-        "resources": 1,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Cobar Pl, Kings Park"
@@ -430,35 +459,6 @@
         "coordinates": [
           144.7715832424292,
           -37.72732643935941
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250610520",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250610520",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Thomson (Geelong)",
-        "id": "ESTA:250610520",
-        "eventId": "250610520",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-11T14:01:46.000Z",
-        "updated": "2025-06-11T14:01:46.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Thomson (Geelong), Thomson (Geelong)"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.38122369806186,
-          -38.16530444743371
         ]
       }
     }
@@ -690,7 +690,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-11T14:27:45.773Z",
+    "lastUpdated": "2025-06-11T14:52:20.674Z",
     "featureCount": 132
   }
 }
