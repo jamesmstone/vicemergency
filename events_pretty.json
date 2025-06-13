@@ -168,40 +168,40 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 119939897,
+        "status": "Safe",
+        "estaId": 119939659,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250612775",
+        "sourceId": "250612765",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fugosia St",
-        "eventId": "250612775",
-        "id": "ESTA:250612775",
+        "sourceTitle": "Burn St",
+        "eventId": "250612765",
+        "id": "ESTA:250612765",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-13T11:20:51.000Z",
-        "updated": "2025-06-13T11:20:51.000Z",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-13T11:24:58.000Z",
+        "updated": "2025-06-13T11:24:58.000Z",
         "resources": 2,
-        "location": "Fugosia St, Doveton",
-        "cfaId": 224907,
+        "location": "Burn St, Golden Square",
+        "cfaId": 224905,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250612775"
+        "mfbId": "250612765"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2410024276344,
-          -37.99577824653601
+          144.25657169554486,
+          -36.76812935632903
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 119939917,
         "feedType": "incident",
         "source": "000",
@@ -214,9 +214,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-06-13T11:22:47.000Z",
-        "updated": "2025-06-13T11:22:47.000Z",
-        "resources": 1,
+        "created": "2025-06-13T11:29:00.000Z",
+        "updated": "2025-06-13T11:29:00.000Z",
+        "resources": 2,
         "location": "Gundaroo Pl, Churchill",
         "cfaId": 224908,
         "size": "Small",
@@ -234,67 +234,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119939457,
+        "status": "Responding",
+        "estaId": 119940112,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250612759",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Baringa Park Dr",
-        "eventId": "250612759",
-        "id": "ESTA:250612759",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119940112,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bulla",
+        "eventId": "F250612788",
+        "id": "ESTA:250612788",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-13T10:45:01.000Z",
-        "updated": "2025-06-13T10:45:01.000Z",
-        "resources": 2,
-        "location": "Baringa Park Dr, Narre Warren South",
-        "cfaId": 224904,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250612759"
+        "category2": "Other",
+        "created": "2025-06-13T11:34:47.000Z",
+        "updated": "2025-06-13T11:35:58.870Z",
+        "resources": 0,
+        "location": "Bulla"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29550041117938,
-          -38.056559086263825
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119939659,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250612765",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burn St",
-        "eventId": "250612765",
-        "id": "ESTA:250612765",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-13T11:00:29.000Z",
-        "updated": "2025-06-13T11:00:29.000Z",
-        "resources": 2,
-        "location": "Burn St, Golden Square",
-        "cfaId": 224905,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250612765"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.25657169554486,
-          -36.76812935632903
+          144.8171228880695,
+          -37.63479635061382
         ]
       }
     },
@@ -360,6 +323,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 224904,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224904,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baringa Park Dr",
+        "eventId": 250612759,
+        "id": "ESTA:250612759",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-13T10:27:00.000Z",
+        "updated": "2025-06-13T10:45:00.000Z",
+        "resources": 0,
+        "location": "Baringa Park Dr, Narre Warren South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29549865797384,
+          -38.05656080818404
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 224887,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -372,7 +364,7 @@
         "category2": "Structure Fire",
         "created": "2025-06-13T10:55:16.000Z",
         "updated": "2025-06-13T10:55:16.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Jones Rd, Drysdale",
         "size": "Small",
         "sizeFmt": "Small",
@@ -384,6 +376,65 @@
         "coordinates": [
           144.56854634908728,
           -38.18388516368873
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 224901,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 224901,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fortress Rd",
+        "eventId": 250612734,
+        "id": "ESTA:250612734",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-13T09:51:00.000Z",
+        "updated": "2025-06-13T10:59:00.000Z",
+        "resources": 0,
+        "location": "Fortress Rd, Doreen",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11853806845792,
+          -37.60909433108262
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 224907,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250612775",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Fugosia St",
+        "eventId": "250612775",
+        "id": "ESTA:250612775",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-13T11:25:31.000Z",
+        "updated": "2025-06-13T11:25:31.000Z",
+        "resources": 2,
+        "location": "Fugosia St, Doveton",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250612775"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2410024276344,
+          -37.99577824653601
         ]
       }
     },
@@ -402,7 +453,7 @@
         "category2": "Rescue Confined Space",
         "created": "2025-06-13T10:57:00.000Z",
         "updated": "2025-06-13T11:13:00.000Z",
-        "resources": 9,
+        "resources": 10,
         "location": "Warburton",
         "size": "Small",
         "sizeFmt": "Small",
@@ -415,36 +466,6 @@
         "coordinates": [
           145.7218068096046,
           -37.804205628701254
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 224901,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250612734",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fortress Rd",
-        "eventId": "250612734",
-        "id": "ESTA:250612734",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-13T10:59:33.000Z",
-        "updated": "2025-06-13T10:59:33.000Z",
-        "resources": 1,
-        "location": "Fortress Rd, Doreen",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250612734"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.11854361929946,
-          -37.609086607620746
         ]
       }
     }
@@ -463,6 +484,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -470,8 +492,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -487,6 +508,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -494,8 +516,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-12T14:00:00.000Z",
           "heat": {
@@ -676,7 +697,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-13T11:23:27.873Z",
-    "featureCount": 125
+    "lastUpdated": "2025-06-13T11:36:25.917Z",
+    "featureCount": 126
   }
 }
