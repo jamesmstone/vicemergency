@@ -172,31 +172,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 119957046,
+        "status": "Safe",
+        "estaId": 119957103,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569736,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650838,
-        "id": "ESTA:250650838",
+        "source": "PAL",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225086,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250614626,
+        "id": "ESTA:250614626",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-14T23:25:00.000Z",
-        "updated": "2025-06-14T23:25:00.000Z",
-        "resources": 0,
-        "location": "Somerville",
-        "sesId": 569736
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-14T23:31:00.000Z",
+        "updated": "2025-06-14T23:48:00.000Z",
+        "resources": 1,
+        "location": "Stockdale",
+        "cfaId": 225086,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16601396642727,
-          -38.23425703917096
+          147.21011997211434,
+          -37.81993019346452
         ]
       }
     },
@@ -289,6 +291,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "mfbId": "250614643",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250614643",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Howell St",
+        "id": "ESTA:250614643",
+        "eventId": "250614643",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-14T23:41:48.000Z",
+        "updated": "2025-06-14T23:41:48.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Howell St, Lalor"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0109163169724,
+          -37.67053442694802
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250614525",
         "feedType": "incident",
@@ -313,6 +344,33 @@
         "coordinates": [
           145.07774234163833,
           -37.81575578594827
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 569736,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 569736,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250650838,
+        "id": "ESTA:250650838",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-14T23:25:00.000Z",
+        "updated": "2025-06-14T23:26:00.000Z",
+        "resources": 0,
+        "location": "Somerville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16601396642727,
+          -38.23425703917096
         ]
       }
     }
@@ -544,7 +602,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-14T23:26:45.899Z",
-    "featureCount": 120
+    "lastUpdated": "2025-06-14T23:50:05.587Z",
+    "featureCount": 122
   }
 }
