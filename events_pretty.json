@@ -61,34 +61,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
-        "sourceId": 3010551,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Corryong - Mt Elliot Ridge Track",
-        "id": 3010551,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-05-06T04:52:51.000Z",
-        "updated": "2025-05-06T04:52:51.000Z",
-        "resources": 0,
-        "size": "506.51",
-        "sizeFmt": "506.51 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "5.9Km Ne Of Corryong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.9706271,
-          -36.1887951
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
         "sourceId": 3010942,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Woods Point - Clarke Spur Track",
@@ -142,24 +114,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119967024,
+        "status": "Responding",
+        "estaId": 119967737,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225200,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nicholson St",
-        "eventId": 250615515,
-        "id": "ESTA:250615515",
+        "source": "RADIO",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250615584",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Collins St",
+        "eventId": "250615584",
+        "id": "ESTA:250615584",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-15T22:31:00.000Z",
-        "updated": "2025-06-15T23:20:00.000Z",
-        "resources": 0,
-        "location": "Nicholson St, Woolsthorpe",
-        "cfaId": 225200,
+        "created": "2025-06-15T23:39:37.000Z",
+        "updated": "2025-06-15T23:39:37.000Z",
+        "resources": 1,
+        "location": "Collins St, Melbourne",
+        "mfbId": "250615584",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -167,8 +139,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.43217288062817,
-          -38.18472344703056
+          144.9729358361421,
+          -37.813399265189304
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 119966135,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 119966135,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Lancaster",
+        "eventId": "F250615457",
+        "id": "ESTA:250615457",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-15T18:49:38.000Z",
+        "updated": "2025-06-15T23:42:32.303Z",
+        "resources": 0,
+        "location": "Davies Rd, Lancaster"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1681077308101,
+          -36.31003692878687
         ]
       }
     },
@@ -189,7 +190,7 @@
         "category2": "Building Fire",
         "created": "2025-06-15T22:45:00.000Z",
         "updated": "2025-06-15T23:28:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Kennedy St, Robinvale",
         "cfaId": 225204,
         "size": "Small",
@@ -207,23 +208,56 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 119967644,
+        "estaId": 119967799,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250615574",
+        "sourceId": "250615591",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Breese St",
-        "eventId": "250615574",
-        "id": "ESTA:250615574",
+        "sourceTitle": "Albion Ct",
+        "eventId": "250615591",
+        "id": "ESTA:250615591",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-15T23:33:49.000Z",
-        "updated": "2025-06-15T23:33:49.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-15T23:47:26.000Z",
+        "updated": "2025-06-15T23:47:26.000Z",
         "resources": 2,
-        "location": "Breese St, Brunswick",
-        "mfbId": "250615574",
+        "location": "Albion Ct, Springvale South",
+        "cfaId": 225211,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250615591"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15745783348214,
+          -37.97768165376133
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 119967745,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225210,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250615586,
+        "id": "ESTA:250615586",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-15T23:40:00.000Z",
+        "updated": "2025-06-15T23:49:00.000Z",
+        "resources": 1,
+        "location": "Sale",
+        "cfaId": 225210,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -231,41 +265,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96174086659434,
-          -37.76221861573041
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 119967576,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250615570",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yarra St",
-        "eventId": "250615570",
-        "id": "ESTA:250615570",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-15T23:35:52.000Z",
-        "updated": "2025-06-15T23:35:52.000Z",
-        "resources": 3,
-        "location": "Yarra St, Werribee",
-        "cfaId": 225209,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250615570"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6528756624804,
-          -37.883169027840026
+          147.0766948292885,
+          -38.1048840097068
         ]
       }
     },
@@ -1995,64 +1996,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 225203,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225203,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Goldsborough Rd",
-        "eventId": 250615524,
-        "id": "ESTA:250615524",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-15T22:39:00.000Z",
-        "updated": "2025-06-15T22:39:00.000Z",
-        "resources": 0,
-        "location": "Goldsborough Rd, Goldsborough",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.66578402039175,
-          -36.82138736092694
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225198,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225198,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Werribee River Trl",
-        "eventId": 250615504,
-        "id": "ESTA:250615504",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-15T22:11:00.000Z",
-        "updated": "2025-06-15T22:40:00.000Z",
-        "resources": 0,
-        "location": "Werribee River Trl, Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65299370352346,
-          -37.9038209592323
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 225201,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2105,6 +2048,64 @@
         "coordinates": [
           145.03715096135076,
           -37.616149535318165
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 225200,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225200,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nicholson St",
+        "eventId": 250615515,
+        "id": "ESTA:250615515",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-15T22:31:00.000Z",
+        "updated": "2025-06-15T23:20:00.000Z",
+        "resources": 0,
+        "location": "Nicholson St, Woolsthorpe",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.43217288062817,
+          -38.18472344703056
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250615574",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250615574",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Breese St",
+        "id": "ESTA:250615574",
+        "eventId": "250615574",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-15T23:46:19.000Z",
+        "updated": "2025-06-15T23:46:19.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Breese St, Brunswick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96174086659434,
+          -37.76221861573041
         ]
       }
     },
@@ -2363,7 +2364,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-15T23:37:05.862Z",
+    "lastUpdated": "2025-06-15T23:50:20.033Z",
     "featureCount": 125
   }
 }
