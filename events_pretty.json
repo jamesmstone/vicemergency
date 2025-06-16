@@ -114,24 +114,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 119976336,
+        "status": "Under Control",
+        "estaId": 119976200,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225285,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "York St",
-        "eventId": 250616025,
-        "id": "ESTA:250616025",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250616020",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Jells Rd",
+        "eventId": "250616020",
+        "id": "ESTA:250616020",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-16T14:15:00.000Z",
-        "updated": "2025-06-16T14:17:00.000Z",
-        "resources": 0,
-        "location": "York St, Sale",
-        "cfaId": 225285,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-16T14:38:48.000Z",
+        "updated": "2025-06-16T14:38:48.000Z",
+        "resources": 1,
+        "location": "Jells Rd, Wheelers Hill",
+        "mfbId": "250616020",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -139,41 +139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.06877072615265,
-          -38.096083463657116
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 119976262,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250616023",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mckoy St",
-        "eventId": "250616023",
-        "id": "ESTA:250616023",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-16T14:20:06.000Z",
-        "updated": "2025-06-16T14:20:06.000Z",
-        "resources": 4,
-        "location": "Mckoy St, Wodonga",
-        "cfaId": 225284,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250616023"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.83082590119784,
-          -36.10677928957417
+          145.18618252204638,
+          -37.92103377046693
         ]
       }
     },
@@ -4781,29 +4748,88 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250616018",
+        "cfaId": 225285,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250616018",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dilkara Ct",
-        "id": "ESTA:250616018",
-        "eventId": "250616018",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-06-16T14:07:46.000Z",
-        "updated": "2025-06-16T14:07:46.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225285,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "York St",
+        "eventId": 250616025,
+        "id": "ESTA:250616025",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-16T14:15:00.000Z",
+        "updated": "2025-06-16T14:17:00.000Z",
+        "resources": 0,
+        "location": "York St, Sale",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Dilkara Ct, Frankston"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1717710290399,
-          -38.1351314385574
+          147.06877072615265,
+          -38.096083463657116
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 225284,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250616023",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mckoy St",
+        "eventId": "250616023",
+        "id": "ESTA:250616023",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-16T14:34:54.000Z",
+        "updated": "2025-06-16T14:34:54.000Z",
+        "resources": 3,
+        "location": "Mckoy St, Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250616023"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.83082590119784,
+          -36.10677928957417
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 225286,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225286,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Development Bvd",
+        "eventId": 250616026,
+        "id": "ESTA:250616026",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-16T14:45:00.000Z",
+        "updated": "2025-06-16T14:45:00.000Z",
+        "resources": 2,
+        "location": "Development Bvd, Mill Park",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0803725416544,
+          -37.6575416986326
         ]
       }
     }
@@ -5035,7 +5061,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-16T14:29:45.877Z",
-    "featureCount": 118
+    "lastUpdated": "2025-06-16T14:52:00.225Z",
+    "featureCount": 119
   }
 }
