@@ -115,68 +115,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 119977023,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225290,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Prince St",
-        "eventId": 250616036,
-        "id": "ESTA:250616036",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-16T17:03:00.000Z",
-        "updated": "2025-06-16T17:14:00.000Z",
-        "resources": 1,
-        "location": "Prince St, Belgrave",
-        "cfaId": 225290,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35035483556484,
-          -37.919279761258366
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 119977006,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 569845,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250650947,
-        "id": "ESTA:250650947",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-16T16:56:00.000Z",
-        "updated": "2025-06-16T17:19:00.000Z",
-        "resources": 0,
-        "location": "Carnegie",
-        "sesId": 569845
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0575671094021,
-          -37.90425741181446
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 119977087,
         "feedType": "incident",
         "source": "000",
@@ -190,8 +128,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-06-16T17:21:00.000Z",
-        "updated": "2025-06-16T17:21:00.000Z",
-        "resources": 1,
+        "updated": "2025-06-16T17:33:00.000Z",
+        "resources": 2,
         "location": "Myrtle Grove Rd, Ballan",
         "cfaId": 225292,
         "size": "Small",
@@ -208,30 +146,33 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 119977104,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119977104,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Elsternwick",
-        "eventId": "F250616041",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250616041",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brentani Av",
+        "eventId": "250616041",
         "id": "ESTA:250616041",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-16T17:24:55.000Z",
-        "updated": "2025-06-16T17:25:32.315Z",
-        "resources": 0,
-        "location": "Brentani Av, Elsternwick"
+        "created": "2025-06-16T17:38:08.000Z",
+        "updated": "2025-06-16T17:38:08.000Z",
+        "resources": 3,
+        "location": "Brentani Av, Elsternwick",
+        "mfbId": "250616041",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0050823509779,
-          -37.89197844145946
+          145.00508194818408,
+          -37.891986511633945
         ]
       }
     },
@@ -4835,6 +4776,35 @@
           -36.792472474
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 225290,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225290,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Prince St",
+        "eventId": 250616036,
+        "id": "ESTA:250616036",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-16T17:03:00.000Z",
+        "updated": "2025-06-16T17:14:00.000Z",
+        "resources": 0,
+        "location": "Prince St, Belgrave",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35035483556484,
+          -37.919279761258366
+        ]
+      }
     }
   ],
   "properties": {
@@ -4851,7 +4821,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4859,7 +4828,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4875,7 +4845,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4883,7 +4852,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-16T14:00:00.000Z",
           "heat": {
@@ -5064,7 +5034,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-16T17:25:45.797Z",
-    "featureCount": 119
+    "lastUpdated": "2025-06-16T17:41:40.175Z",
+    "featureCount": 118
   }
 }
