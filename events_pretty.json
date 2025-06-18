@@ -3,36 +3,6 @@
   "features": [
     {
       "properties": {
-        "status": "Minor",
-        "feedType": "earthquake",
-        "sourceOrg": "AU/GA",
-        "sourceId": "696426",
-        "sourceFeed": "ga-earthquake",
-        "sourceTitle": "Magnitude 2.6 earthquake - NE of Rawson, VIC - 17/06/2025 09:35:11 (UTC)",
-        "id": "696426",
-        "category1": "Earthquake",
-        "category2": "Earthquake",
-        "name": "Magnitude 2.6 - NE of Rawson, VIC",
-        "sizeFmt": "Magnitude 2.6",
-        "created": "2025-06-17T21:35:11-00:00",
-        "updated": "2025-06-17T21:35:11-00:00",
-        "webBody": "A magnitude 2.6 earthquake has occurred in \"NE of Rawson, VIC\" at a depth of 10.00 km at 17/06/2025 09:35:11 (UTC)",
-        "url": "https://earthquakes.ga.gov.au/event/ga2025lwffbu",
-        "cssClass": "earthquake",
-        "magnitude": "2.584159991",
-        "location": "NE of Rawson, VIC"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.492,
-          -37.904
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -150,26 +120,30 @@
         "estaId": 120000460,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120000460,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yallourn",
-        "eventId": "F250617431",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617431",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Yallourn Dr",
+        "eventId": "250617431",
         "id": "ESTA:250617431",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-18T21:23:34.000Z",
-        "updated": "2025-06-18T21:24:49.927Z",
-        "resources": 0,
-        "location": "Yallourn Dr, Yallourn"
+        "created": "2025-06-18T21:27:13.000Z",
+        "updated": "2025-06-18T21:27:13.000Z",
+        "resources": 4,
+        "location": "Yallourn Dr, Yallourn",
+        "cfaId": 225541,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250617431"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.3468773644264,
-          -38.17651907691916
+          146.34687281694593,
+          -38.176523441781676
         ]
       }
     },
@@ -218,7 +192,7 @@
         "category2": "Building Fire",
         "created": "2025-06-18T18:20:00.000Z",
         "updated": "2025-06-18T19:46:00.000Z",
-        "resources": 13,
+        "resources": 14,
         "location": "Pretty Hill Lane, Wattle Glen",
         "size": "Small",
         "sizeFmt": "Small"
@@ -348,64 +322,6 @@
           -36.61600109115309
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250617420",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250617420",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Blackburn",
-        "id": "ESTA:250617420",
-        "eventId": "250617420",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-18T21:11:34.000Z",
-        "updated": "2025-06-18T21:11:34.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Blackburn, Blackburn"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1364742011016,
-          -37.82943463589872
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "250617422",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250617422",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wells Rd",
-        "id": "ESTA:250617422",
-        "eventId": "250617422",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-18T21:08:07.000Z",
-        "updated": "2025-06-18T21:08:07.000Z",
-        "resources": 0,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Wells Rd, Seaford"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1375643304438,
-          -38.109788650093215
-        ]
-      }
     }
   ],
   "properties": {
@@ -422,7 +338,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -430,7 +345,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -446,7 +362,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -454,7 +369,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-18T14:00:00.000Z",
           "heat": {
@@ -635,7 +551,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-18T21:25:20.136Z",
-    "featureCount": 119
+    "lastUpdated": "2025-06-18T21:39:01.104Z",
+    "featureCount": 116
   }
 }
