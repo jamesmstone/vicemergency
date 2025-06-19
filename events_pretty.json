@@ -56,6 +56,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1647344",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Attiwill Street, Naracoorte",
+        "id": "1647344",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Attiwill Street, Naracoorte",
+        "created": "2025-06-19T03:44:00.000Z",
+        "updated": "2025-06-19T03:44:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Attiwill Street, Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.748070236309,
+          -36.9706484376781
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -112,7 +138,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3023165,
@@ -121,8 +147,8 @@
         "id": 3023165,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-06-19T01:28:26.000Z",
-        "updated": "2025-06-19T01:28:26.000Z",
+        "created": "2025-06-19T03:48:10.000Z",
+        "updated": "2025-06-19T03:48:10.000Z",
         "resources": 0,
         "size": "2.74",
         "sizeFmt": "2.74 Ha.",
@@ -140,24 +166,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120003973,
+        "status": "Responding",
+        "estaId": 120004763,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 225569,
+        "sourceId": 225573,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "North Boundary Rd",
-        "eventId": 250617817,
-        "id": "ESTA:250617817",
+        "sourceTitle": "Koonwarra Rd",
+        "eventId": 250617883,
+        "id": "ESTA:250617883",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-19T02:51:00.000Z",
-        "updated": "2025-06-19T03:08:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-06-19T03:58:00.000Z",
+        "updated": "2025-06-19T03:58:00.000Z",
         "resources": 0,
-        "location": "North Boundary Rd, Hamilton",
-        "cfaId": 225569,
+        "location": "Koonwarra Rd, Leongatha",
+        "cfaId": 225573,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -165,40 +191,74 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.0306965496086,
-          -37.7270655026343
+          145.95140582329785,
+          -38.487614888499344
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120004367,
+        "status": "Under Control",
+        "estaId": 119999882,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225570,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Myer St",
-        "eventId": 250617850,
-        "id": "ESTA:250617850",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617395",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pretty Hill Lane",
+        "eventId": "250617395",
+        "id": "ESTA:250617395",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-19T03:22:00.000Z",
-        "updated": "2025-06-19T03:22:00.000Z",
-        "resources": 3,
-        "location": "Myer St, Lakes Entrance",
-        "cfaId": 225570,
+        "category2": "Structure Fire",
+        "created": "2025-06-19T04:02:52.000Z",
+        "updated": "2025-06-19T04:02:52.000Z",
+        "resources": 9,
+        "location": "Pretty Hill Lane, Wattle Glen",
+        "cfaId": 225532,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250617395"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.99600893531988,
-          -37.87098372590886
+          145.198102597287,
+          -37.67884101290414
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 120004624,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617867",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Scotts Lane",
+        "eventId": "250617867",
+        "id": "ESTA:250617867",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-19T04:03:22.000Z",
+        "updated": "2025-06-19T04:03:22.000Z",
+        "resources": 18,
+        "location": "Scotts Lane, Scotsburn",
+        "cfaId": 225572,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250617867"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.93160676998485,
+          -37.68498998729356
         ]
       }
     },
@@ -235,36 +295,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 225532,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250617395",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pretty Hill Lane",
-        "eventId": "250617395",
-        "id": "ESTA:250617395",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-18T23:45:43.000Z",
-        "updated": "2025-06-18T23:45:43.000Z",
-        "resources": 9,
-        "location": "Pretty Hill Lane, Wattle Glen",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250617395"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.198102597287,
-          -37.67884101290414
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 225556,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -295,20 +325,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 225565,
+        "cfaId": 225569,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 225565,
+        "sourceId": 225569,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lyons St",
-        "eventId": 250617730,
-        "id": "ESTA:250617730",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-19T01:29:00.000Z",
-        "updated": "2025-06-19T02:34:00.000Z",
+        "sourceTitle": "North Boundary Rd",
+        "eventId": 250617817,
+        "id": "ESTA:250617817",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-19T02:51:00.000Z",
+        "updated": "2025-06-19T03:08:00.000Z",
         "resources": 0,
-        "location": "Lyons St, Rye",
+        "location": "North Boundary Rd, Hamilton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -316,15 +346,189 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.82383554738004,
-          -38.37346718533012
+          142.0306965496086,
+          -37.7270655026343
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 225570,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225570,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Myer St",
+        "eventId": 250617850,
+        "id": "ESTA:250617850",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-19T03:22:00.000Z",
+        "updated": "2025-06-19T03:22:00.000Z",
+        "resources": 5,
+        "location": "Myer St, Lakes Entrance",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.99600893531988,
+          -37.87098372590886
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250617870",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617870",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bundora Pde",
+        "id": "ESTA:250617870",
+        "eventId": "250617870",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-19T04:00:04.000Z",
+        "updated": "2025-06-19T04:00:04.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bundora Pde, Mentone"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0930091595732,
+          -37.98360486006097
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250617859",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617859",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Smith Rd",
+        "id": "ESTA:250617859",
+        "eventId": "250617859",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-19T03:51:07.000Z",
+        "updated": "2025-06-19T03:51:07.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Smith Rd, Springvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17139940536794,
+          -37.93706583415482
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250617871",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617871",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gillies St",
+        "id": "ESTA:250617871",
+        "eventId": "250617871",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-19T03:51:44.000Z",
+        "updated": "2025-06-19T03:51:44.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Gillies St, Fairfield"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01637005305497,
+          -37.78109096085112
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250617882",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617882",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Punt Rd",
+        "id": "ESTA:250617882",
+        "eventId": "250617882",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-19T04:00:39.000Z",
+        "updated": "2025-06-19T04:00:39.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Punt Rd, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98329557053748,
+          -37.85577502007576
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250617877",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250617877",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Turner St",
+        "id": "ESTA:250617877",
+        "eventId": "250617877",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-19T03:57:17.000Z",
+        "updated": "2025-06-19T03:57:17.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Turner St, Moonee Ponds"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93627306362475,
+          -37.76167618180975
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "cfaId": 225562,
+        "sesId": 569960,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
         "sourceId": 569960,
@@ -337,11 +541,7 @@
         "created": "2025-06-19T01:24:00.000Z",
         "updated": "2025-06-19T01:38:00.000Z",
         "resources": 6,
-        "location": "Avalon",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250617724",
-        "sesId": 569960
+        "location": "Avalon"
       },
       "type": "Feature",
       "geometry": {
@@ -580,7 +780,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-19T03:32:20.375Z",
-    "featureCount": 115
+    "lastUpdated": "2025-06-19T04:04:25.776Z",
+    "featureCount": 122
   }
 }
