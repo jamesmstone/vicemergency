@@ -114,30 +114,95 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120009772,
+        "status": "Safe",
+        "estaId": 120009017,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 120009772,
+        "sourceId": 120009017,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Reservoir",
-        "eventId": "F250618210",
-        "id": "ESTA:250618210",
+        "sourceTitle": "Delacombe",
+        "eventId": "F250618175",
+        "id": "ESTA:250618175",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-19T11:21:55.000Z",
-        "updated": "2025-06-19T11:22:21.306Z",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-06-19T09:57:01.000Z",
+        "updated": "2025-06-19T11:28:54.136Z",
         "resources": 0,
-        "location": "Albert St, Reservoir"
+        "location": "Rance Rd, Delacombe"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02551816303918,
-          -37.72842457714424
+          143.8111391982807,
+          -37.59350297027254
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120008949,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250618171",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Balmoral Cct",
+        "eventId": "250618171",
+        "id": "ESTA:250618171",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-19T11:34:10.000Z",
+        "updated": "2025-06-19T11:34:10.000Z",
+        "resources": 13,
+        "location": "Balmoral Cct, Sunbury",
+        "cfaId": 225628,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250618171"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71138808362127,
+          -37.56743741968075
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 120009772,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250618210",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Albert St",
+        "eventId": "250618210",
+        "id": "ESTA:250618210",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-19T11:34:32.000Z",
+        "updated": "2025-06-19T11:34:32.000Z",
+        "resources": 6,
+        "location": "Albert St, Reservoir",
+        "mfbId": "250618210",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02551359928566,
+          -37.72843339727416
         ]
       }
     },
@@ -168,36 +233,6 @@
         "coordinates": [
           144.7446695415913,
           -37.725461038472055
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 225628,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250618171",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Balmoral Cct",
-        "eventId": "250618171",
-        "id": "ESTA:250618171",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-19T10:26:31.000Z",
-        "updated": "2025-06-19T10:26:31.000Z",
-        "resources": 12,
-        "location": "Balmoral Cct, Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250618171"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.71138808362127,
-          -37.56743741968075
         ]
       }
     },
@@ -256,35 +291,6 @@
         "coordinates": [
           143.86200022737367,
           -37.56150854314903
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250618175",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250618175",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rance Rd",
-        "id": "ESTA:250618175",
-        "eventId": "250618175",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-19T10:29:35.000Z",
-        "updated": "2025-06-19T10:29:35.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Rance Rd, Delacombe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8111306224462,
-          -37.59350691199037
         ]
       }
     }
@@ -516,7 +522,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-19T11:23:20.337Z",
+    "lastUpdated": "2025-06-19T11:37:00.413Z",
     "featureCount": 113
   }
 }
