@@ -359,23 +359,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120022551,
+        "estaId": 120022751,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250619631",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Leonard St",
-        "eventId": "250619631",
-        "id": "ESTA:250619631",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225787,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Shelton Park Dr",
+        "eventId": 250619647,
+        "id": "ESTA:250619647",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-20T11:09:19.000Z",
-        "updated": "2025-06-20T11:09:19.000Z",
-        "resources": 1,
-        "location": "Leonard St, Frankston",
-        "mfbId": "250619631",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-20T11:25:00.000Z",
+        "updated": "2025-06-20T11:25:00.000Z",
+        "resources": 4,
+        "location": "Shelton Park Dr, Koo Wee Rup",
+        "cfaId": 225787,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -383,14 +383,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14132437740201,
-          -38.144819277504205
+          145.48742913575674,
+          -38.205442699285676
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120022673,
         "feedType": "incident",
         "source": "000",
@@ -402,10 +402,10 @@
         "id": "ESTA:250619639",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-06-20T11:19:42.000Z",
-        "updated": "2025-06-20T11:19:42.000Z",
-        "resources": 4,
+        "category2": "Non Structure Fire",
+        "created": "2025-06-20T11:28:03.000Z",
+        "updated": "2025-06-20T11:28:03.000Z",
+        "resources": 3,
         "location": "Marine Pde, Elwood",
         "mfbId": "250619639",
         "size": "Small",
@@ -423,23 +423,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120022692,
+        "estaId": 120022805,
         "feedType": "incident",
-        "source": "",
+        "source": "STATION",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250619640",
+        "sourceId": "250619648",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mornington-Tyabb Rd",
-        "eventId": "250619640",
-        "id": "ESTA:250619640",
+        "sourceTitle": "High St",
+        "eventId": "250619648",
+        "id": "ESTA:250619648",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-20T11:22:18.000Z",
-        "updated": "2025-06-20T11:22:18.000Z",
-        "resources": 0,
-        "location": "Mornington-Tyabb Rd, Mornington",
-        "mfbId": "250619640",
+        "created": "2025-06-20T11:32:14.000Z",
+        "updated": "2025-06-20T11:32:14.000Z",
+        "resources": 2,
+        "location": "High St, Northcote",
+        "mfbId": "250619648",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -447,8 +447,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05094841097522,
-          -38.23439013774862
+          144.998717345078,
+          -37.77179356261176
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120022842,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250619651",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Warrigal Rd",
+        "eventId": "250619651",
+        "id": "ESTA:250619651",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-20T11:34:10.000Z",
+        "updated": "2025-06-20T11:34:10.000Z",
+        "resources": 1,
+        "location": "Warrigal Rd, Malvern East",
+        "mfbId": "250619651",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08921731789388,
+          -37.886322391373
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120022724,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225786,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250619646,
+        "id": "ESTA:250619646",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-20T11:23:00.000Z",
+        "updated": "2025-06-20T11:35:00.000Z",
+        "resources": 3,
+        "location": "Kyneton",
+        "cfaId": 225786,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.47161220299563,
+          -37.25740496597687
         ]
       }
     },
@@ -458,26 +522,62 @@
         "estaId": 120022714,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120022714,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mont Albert North",
-        "eventId": "F250619642",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250619642",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Orchard Cr",
+        "eventId": "250619642",
         "id": "ESTA:250619642",
         "suppress": false,
         "category1": "Fire",
         "category2": "Fire",
-        "created": "2025-06-20T11:16:26.000Z",
-        "updated": "2025-06-20T11:22:11.248Z",
-        "resources": 0,
-        "location": "Orchard Cr, Mont Albert North"
+        "created": "2025-06-20T11:35:36.000Z",
+        "updated": "2025-06-20T11:35:36.000Z",
+        "resources": 2,
+        "location": "Orchard Cr, Mont Albert North",
+        "mfbId": "250619642",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1056567425131,
-          -37.79664215406214
+          145.1056551659937,
+          -37.79665111161638
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 120021365,
+        "feedType": "incident",
+        "source": "OFFICER",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570009,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250619553,
+        "id": "ESTA:250619553",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-06-20T09:05:00.000Z",
+        "updated": "2025-06-20T09:39:00.000Z",
+        "resources": 1,
+        "location": "Narbethong",
+        "cfaId": 225766,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 570009
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6752282694269,
+          -37.50281616815231
         ]
       }
     },
@@ -526,7 +626,7 @@
         "category2": "Building Fire",
         "created": "2025-06-20T05:18:00.000Z",
         "updated": "2025-06-20T08:02:00.000Z",
-        "resources": 7,
+        "resources": 5,
         "location": "Aldreds Lane, Colbrook",
         "size": "Small",
         "sizeFmt": "Small"
@@ -566,64 +666,6 @@
         "coordinates": [
           144.25277263576626,
           -36.78650410942866
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225780,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225780,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mcedward St",
-        "eventId": 250619603,
-        "id": "ESTA:250619603",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-20T10:17:00.000Z",
-        "updated": "2025-06-20T10:31:00.000Z",
-        "resources": 0,
-        "location": "Mcedward St, Birdwoodton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.0807544102595,
-          -34.18128902511599
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225779,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225779,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rangeview Dr",
-        "eventId": 250619601,
-        "id": "ESTA:250619601",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-20T10:08:00.000Z",
-        "updated": "2025-06-20T10:35:00.000Z",
-        "resources": 0,
-        "location": "Rangeview Dr, Skye",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20112416036898,
-          -38.09768931220023
         ]
       }
     },
@@ -716,65 +758,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 225766,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570009,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250619553,
-        "id": "ESTA:250619553",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-06-20T09:05:00.000Z",
-        "updated": "2025-06-20T09:39:00.000Z",
-        "resources": 3,
-        "location": "Narbethong",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 570009
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6752282694269,
-          -37.50281616815231
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250619622",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250619622",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Oakleigh",
-        "id": "ESTA:250619622",
-        "eventId": "250619622",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-20T11:05:31.000Z",
-        "updated": "2025-06-20T11:05:31.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Oakleigh, Oakleigh"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0917825477513,
-          -37.90174512877009
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "mfbId": "250619618",
         "feedType": "incident",
@@ -799,6 +782,35 @@
         "coordinates": [
           144.99046943943878,
           -37.64833244683213
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250619631",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250619631",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Leonard St",
+        "id": "ESTA:250619631",
+        "eventId": "250619631",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-20T11:30:08.000Z",
+        "updated": "2025-06-20T11:30:08.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Leonard St, Frankston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14132437740201,
+          -38.144819277504205
         ]
       }
     },
@@ -844,6 +856,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -851,8 +864,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -868,6 +880,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -875,8 +888,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-19T14:00:00.000Z",
           "heat": {
@@ -1057,7 +1069,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-20T11:23:00.571Z",
+    "lastUpdated": "2025-06-20T11:36:45.845Z",
     "featureCount": 127
   }
 }
