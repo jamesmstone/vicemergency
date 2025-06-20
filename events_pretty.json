@@ -265,20 +265,23 @@
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 225811,
+        "estaId": 120025348,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225811,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250619734,
-        "id": "ESTA:250619734",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-20T16:32:00.000Z",
-        "updated": "2025-06-20T16:32:00.000Z",
-        "resources": 3,
-        "location": "Tyrendarra East",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250619738",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ericksen St",
+        "eventId": "250619738",
+        "id": "ESTA:250619738",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-20T17:16:11.000Z",
+        "updated": "2025-06-20T17:16:11.000Z",
+        "resources": 1,
+        "location": "Ericksen St, Springvale",
+        "mfbId": "250619738",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -286,8 +289,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.88824426822856,
-          -38.24785853169301
+          145.1475503218869,
+          -37.94014270742728
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120025318,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570014,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651116,
+        "id": "ESTA:250651116",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-20T17:09:00.000Z",
+        "updated": "2025-06-20T17:21:00.000Z",
+        "resources": 0,
+        "location": "Preston",
+        "sesId": 570014
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00645959497135,
+          -37.74492097502991
         ]
       }
     },
@@ -351,7 +384,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 225812,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -363,8 +396,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-06-20T16:35:00.000Z",
-        "updated": "2025-06-20T16:48:00.000Z",
-        "resources": 2,
+        "updated": "2025-06-20T17:07:00.000Z",
+        "resources": 0,
         "location": "Goulburn Rd, Echuca",
         "size": "Small",
         "sizeFmt": "Small"
@@ -375,6 +408,35 @@
         "coordinates": [
           144.7607678746629,
           -36.12753173616354
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250619737",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250619737",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Plenty Rd",
+        "id": "ESTA:250619737",
+        "eventId": "250619737",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-20T17:17:49.000Z",
+        "updated": "2025-06-20T17:17:49.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Plenty Rd, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00646772886464,
+          -37.74491582437633
         ]
       }
     },
@@ -662,7 +724,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-20T16:55:40.252Z",
-    "featureCount": 116
+    "lastUpdated": "2025-06-20T17:25:00.257Z",
+    "featureCount": 118
   }
 }
