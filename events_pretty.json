@@ -264,24 +264,53 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120024325,
+        "status": "Responding",
+        "estaId": 120024921,
         "feedType": "incident",
-        "source": "STATION",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225807,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barwon Heads Rd",
+        "eventId": 250619726,
+        "id": "ESTA:250619726",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-20T15:45:00.000Z",
+        "updated": "2025-06-20T15:45:00.000Z",
+        "resources": 0,
+        "location": "Barwon Heads Rd, Armstrong Creek",
+        "cfaId": 225807,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.370006912341,
+          -38.228556076002974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 225806,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 225806,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Looker Rd",
         "eventId": 250619716,
         "id": "ESTA:250619716",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-06-20T14:23:00.000Z",
         "updated": "2025-06-20T15:02:00.000Z",
         "resources": 0,
         "location": "Looker Rd, Echuca Village",
-        "cfaId": 225806,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -296,39 +325,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120024711,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250619722",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Frank Ford Ct",
-        "eventId": "250619722",
-        "id": "ESTA:250619722",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-06-20T15:23:47.000Z",
-        "updated": "2025-06-20T15:23:47.000Z",
-        "resources": 2,
-        "location": "Frank Ford Ct, Northcote",
-        "mfbId": "250619722",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00041998245217,
-          -37.77145118112659
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 225804,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -339,9 +336,9 @@
         "id": "ESTA:250619714",
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-06-20T14:34:05.000Z",
-        "updated": "2025-06-20T14:34:05.000Z",
-        "resources": 3,
+        "created": "2025-06-20T15:35:06.000Z",
+        "updated": "2025-06-20T15:35:06.000Z",
+        "resources": 1,
         "location": "Fairhaven Rd, Carrum Downs",
         "size": "Small",
         "sizeFmt": "Small",
@@ -359,23 +356,22 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 225628,
+        "mfbId": "250618171",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250618171",
         "sourceFeed": "mfb-incident",
         "sourceTitle": "Balmoral Cct",
-        "eventId": "250618171",
         "id": "ESTA:250618171",
+        "eventId": "250618171",
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2025-06-19T11:34:10.000Z",
         "updated": "2025-06-19T11:34:10.000Z",
         "resources": 0,
-        "location": "Balmoral Cct, Sunbury",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250618171"
+        "location": "Balmoral Cct, Sunbury"
       },
       "type": "Feature",
       "geometry": {
@@ -641,7 +637,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-20T15:28:19.981Z",
+    "lastUpdated": "2025-06-20T15:50:45.774Z",
     "featureCount": 115
   }
 }
