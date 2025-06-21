@@ -292,53 +292,331 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120029063,
+        "status": "Responding",
+        "estaId": 120031056,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120029063,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Garfield",
-        "eventId": "F250620487",
-        "id": "ESTA:250620487",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250620945",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Broadmeadows",
+        "eventId": "250620945",
+        "id": "ESTA:250620945",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-21T01:48:51.000Z",
-        "updated": "2025-06-21T03:49:11.766Z",
-        "resources": 0,
-        "location": "Garfield"
+        "created": "2025-06-21T04:23:52.000Z",
+        "updated": "2025-06-21T04:23:52.000Z",
+        "resources": 1,
+        "location": "Broadmeadows, Broadmeadows",
+        "mfbId": "250620945",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.6765463161656,
-          -38.093181291214954
+          144.93063153808515,
+          -37.688427762813156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120031056,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570025,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651127,
+        "id": "ESTA:250651127",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-21T04:24:00.000Z",
+        "updated": "2025-06-21T04:27:00.000Z",
+        "resources": 0,
+        "location": "Broadmeadows",
+        "sesId": 570025
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.930621459886,
+          -37.68843386640092
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031095,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225869,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Primrose Cr",
+        "eventId": 250620954,
+        "id": "ESTA:250620954",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T04:26:00.000Z",
+        "updated": "2025-06-21T04:26:00.000Z",
+        "resources": 0,
+        "location": "Primrose Cr, Mickleham",
+        "cfaId": 225869,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9036011378362,
+          -37.53462721967776
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031104,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250620955",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Valencia St",
+        "eventId": "250620955",
+        "id": "ESTA:250620955",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-21T04:28:10.000Z",
+        "updated": "2025-06-21T04:28:10.000Z",
+        "resources": 2,
+        "location": "Valencia St, Glenroy",
+        "mfbId": "250620955",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93625363510586,
+          -37.703973946060245
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120030800,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225866,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250620876,
+        "id": "ESTA:250620876",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-21T04:03:00.000Z",
+        "updated": "2025-06-21T04:03:00.000Z",
+        "resources": 1,
+        "location": "Tarrawarra",
+        "cfaId": 225866,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.43412365036554,
+          -37.63757954290394
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031091,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120031091,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Airport West",
+        "eventId": "S250651128",
+        "id": "ESTA:250651128",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T04:24:09.000Z",
+        "updated": "2025-06-21T04:29:51.561Z",
+        "resources": 0,
+        "location": "Halsey Rd, Airport West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8820952256903,
+          -37.718432858184364
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031156,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250620964",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Murray Rd",
+        "eventId": "250620964",
+        "id": "ESTA:250620964",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-21T04:30:51.000Z",
+        "updated": "2025-06-21T04:30:51.000Z",
+        "resources": 2,
+        "location": "Murray Rd, Preston",
+        "mfbId": "250620964",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0303843884028,
+          -37.73846977788156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120030531,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570024,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651126,
+        "id": "ESTA:250651126",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-21T03:41:00.000Z",
+        "updated": "2025-06-21T04:32:00.000Z",
+        "resources": 0,
+        "location": "Sunbury",
+        "sesId": 570024
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69598051661677,
+          -37.55985601989811
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031168,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225870,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Richmond Av",
+        "eventId": 250620968,
+        "id": "ESTA:250620968",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-06-21T04:31:00.000Z",
+        "updated": "2025-06-21T04:31:00.000Z",
+        "resources": 0,
+        "location": "Richmond Av, Carrum Downs",
+        "cfaId": 225870,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16669921293558,
+          -38.110359140090694
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120031180,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120031180,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Nathalia",
+        "eventId": "F250620970",
+        "id": "ESTA:250620970",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-21T04:31:19.000Z",
+        "updated": "2025-06-21T04:32:06.070Z",
+        "resources": 0,
+        "location": "Martin St, Nathalia"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20789881840582,
+          -36.051856657645004
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120030523,
+        "cfaId": 225864,
         "feedType": "incident",
-        "source": "000",
         "sourceOrg": "VIC/CFA",
         "sourceId": 225864,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Eramosa Rd",
         "eventId": 250620816,
         "id": "ESTA:250620816",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-06-21T03:41:00.000Z",
         "updated": "2025-06-21T03:51:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Eramosa Rd, Somerville",
-        "cfaId": 225864,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -348,222 +626,6 @@
         "coordinates": [
           145.17183747760023,
           -38.22343503647108
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120029912,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225857,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompson Av",
-        "eventId": 250620676,
-        "id": "ESTA:250620676",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-21T02:55:00.000Z",
-        "updated": "2025-06-21T03:15:00.000Z",
-        "resources": 0,
-        "location": "Thompson Av, Cowes",
-        "cfaId": 225857,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23867900093276,
-          -38.450048465214365
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 120030564,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250620826",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Charles St",
-        "eventId": "250620826",
-        "id": "ESTA:250620826",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-21T03:52:40.000Z",
-        "updated": "2025-06-21T03:52:40.000Z",
-        "resources": 1,
-        "location": "Charles St, Sunshine North",
-        "mfbId": "250620826",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.83335081043944,
-          -37.7745700639424
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 119738058,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 119738058,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Great Western",
-        "eventId": "F250540999",
-        "id": "ESTA:250540999",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-05-28T11:32:29.000Z",
-        "updated": "2025-06-21T03:52:54.859Z",
-        "resources": 0,
-        "location": "Metcalfe Rd, Great Western"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.93552326894553,
-          -37.134496520737585
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120030678,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250620846",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cobblebank",
-        "eventId": "250620846",
-        "id": "ESTA:250620846",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-21T03:59:36.000Z",
-        "updated": "2025-06-21T03:59:36.000Z",
-        "resources": 2,
-        "location": "Cobblebank, Cobblebank",
-        "cfaId": 225865,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250620846"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.62109997323586,
-          -37.702616912750045
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120030689,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120030689,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Cobblebank",
-        "eventId": "F250620850",
-        "id": "ESTA:250620850",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-21T03:52:59.000Z",
-        "updated": "2025-06-21T03:55:04.254Z",
-        "resources": 0,
-        "location": "Cobblebank"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.62110293237498,
-          -37.702613757057556
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120030707,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250620854",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lovat Ct",
-        "eventId": "250620854",
-        "id": "ESTA:250620854",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-21T03:57:31.000Z",
-        "updated": "2025-06-21T03:57:31.000Z",
-        "resources": 2,
-        "location": "Lovat Ct, Coolaroo",
-        "mfbId": "250620854",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93075373360875,
-          -37.65402553599462
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120030731,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120030731,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Reservoir",
-        "eventId": "F250620859",
-        "id": "ESTA:250620859",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-21T03:57:54.000Z",
-        "updated": "2025-06-21T03:58:05.422Z",
-        "resources": 0,
-        "location": "Purinuan Rd, Reservoir"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03488947301892,
-          -37.70989818116875
         ]
       }
     },
@@ -600,125 +662,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 225858,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225858,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Winton-Lurg Rd",
-        "eventId": 250620705,
-        "id": "ESTA:250620705",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-06-21T03:05:00.000Z",
-        "updated": "2025-06-21T03:22:00.000Z",
-        "resources": 0,
-        "location": "Winton-Lurg Rd, Winton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.08005421385874,
-          -36.52267660675365
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225861,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225861,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hodgson St",
-        "eventId": 250620747,
-        "id": "ESTA:250620747",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-06-21T03:19:00.000Z",
-        "updated": "2025-06-21T03:26:00.000Z",
-        "resources": 0,
-        "location": "Hodgson St, Ocean Grove",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.52482290365,
-          -38.26649845434354
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 225859,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570021,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250620715,
-        "id": "ESTA:250620715",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-06-21T03:08:00.000Z",
-        "updated": "2025-06-21T03:19:00.000Z",
-        "resources": 1,
-        "location": "Wangaratta",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250620715",
-        "sesId": 570021
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.30193058913753,
-          -36.350776434627086
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225862,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225862,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Raymond St",
-        "eventId": 250620773,
-        "id": "ESTA:250620773",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-21T03:25:00.000Z",
-        "updated": "2025-06-21T03:31:00.000Z",
-        "resources": 0,
-        "location": "Raymond St, Sale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.0655299162533,
-          -38.106774428540106
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 225863,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -728,10 +672,10 @@
         "eventId": "250620812",
         "id": "ESTA:250620812",
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-06-21T03:41:07.000Z",
-        "updated": "2025-06-21T03:41:07.000Z",
-        "resources": 2,
+        "category2": "Non Structure Fire",
+        "created": "2025-06-21T04:08:04.000Z",
+        "updated": "2025-06-21T04:08:04.000Z",
+        "resources": 1,
         "location": "Farleigh Ct, Mickleham",
         "size": "Small",
         "sizeFmt": "Small",
@@ -743,6 +687,66 @@
         "coordinates": [
           144.86357215535892,
           -37.55856176761826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 225865,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250620846",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cobblebank",
+        "eventId": "250620846",
+        "id": "ESTA:250620846",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T04:12:52.000Z",
+        "updated": "2025-06-21T04:12:52.000Z",
+        "resources": 2,
+        "location": "Cobblebank, Cobblebank",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250620846"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.62109997323586,
+          -37.702616912750045
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 225867,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250620883",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Canterbury Rd",
+        "eventId": "250620883",
+        "id": "ESTA:250620883",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T04:21:48.000Z",
+        "updated": "2025-06-21T04:21:48.000Z",
+        "resources": 2,
+        "location": "Canterbury Rd, Bayswater North",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250620883"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29582555042688,
+          -37.823264109404334
         ]
       }
     },
@@ -801,87 +805,6 @@
         "coordinates": [
           144.71138808362127,
           -37.56743741968075
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570000,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570000,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651108,
-        "id": "ESTA:250651108",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-06-20T07:33:00.000Z",
-        "updated": "2025-06-20T07:36:00.000Z",
-        "resources": 0,
-        "location": "St Kilda"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98262999570522,
-          -37.860425157700725
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570023,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570023,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651125,
-        "id": "ESTA:250651125",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-21T03:38:00.000Z",
-        "updated": "2025-06-21T03:43:00.000Z",
-        "resources": 0,
-        "location": "Hmas Cerberus"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17333091400872,
-          -38.35351957499063
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570024,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570024,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651126,
-        "id": "ESTA:250651126",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-21T03:41:00.000Z",
-        "updated": "2025-06-21T03:59:00.000Z",
-        "resources": 1,
-        "location": "Sunbury"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.69598051661677,
-          -37.55985601989811
         ]
       }
     }
@@ -1113,7 +1036,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-21T04:00:40.712Z",
-    "featureCount": 130
+    "lastUpdated": "2025-06-21T04:32:40.417Z",
+    "featureCount": 127
   }
 }
