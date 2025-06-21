@@ -614,65 +614,164 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 120040483,
+        "status": "Complete",
+        "estaId": 120040165,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120040483,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Charlemont",
-        "eventId": "F250621865",
-        "id": "ESTA:250621865",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570051,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250621791,
+        "id": "ESTA:250621791",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-21T22:44:20.000Z",
-        "updated": "2025-06-21T22:57:00.467Z",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-06-21T21:53:00.000Z",
+        "updated": "2025-06-21T23:25:00.000Z",
         "resources": 0,
-        "location": "Charlemont"
+        "location": "Wandong",
+        "sesId": 570051
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.36861514473634,
-          -38.21456492387195
+          145.02226767114442,
+          -37.340647482457655
         ]
       }
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 120040475,
+        "status": "Safe",
+        "estaId": 120040773,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120040475,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Armstrong Creek",
-        "eventId": "F250621861",
-        "id": "ESTA:250621861",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250621914",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Chapel St",
+        "eventId": "250621914",
+        "id": "ESTA:250621914",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-21T22:43:02.000Z",
-        "updated": "2025-06-21T22:57:39.814Z",
-        "resources": 0,
-        "location": "Armstrong Creek"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-21T23:31:25.000Z",
+        "updated": "2025-06-21T23:31:25.000Z",
+        "resources": 2,
+        "location": "Chapel St, St Kilda",
+        "mfbId": "250621914",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.33676657861702,
-          -38.22583119273746
+          144.99072590348013,
+          -37.86744359371409
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120040453,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 225989,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250621854,
+        "id": "ESTA:250621854",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T22:44:00.000Z",
+        "updated": "2025-06-21T23:03:00.000Z",
+        "resources": 0,
+        "location": "Charlemont",
+        "cfaId": 225989,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3686032706515,
+          -38.214576633985246
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120040855,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570054,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651151,
+        "id": "ESTA:250651151",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-06-21T23:33:00.000Z",
+        "updated": "2025-06-21T23:33:00.000Z",
+        "resources": 0,
+        "location": "Melbourne",
+        "sesId": 570054
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96571142793894,
+          -37.812218578930455
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 120040881,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250621944",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cornus Dr",
+        "eventId": "250621944",
+        "id": "ESTA:250621944",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-21T23:35:44.000Z",
+        "updated": "2025-06-21T23:35:44.000Z",
+        "resources": 2,
+        "location": "Cornus Dr, Tarneit",
+        "cfaId": 225998,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250621944"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65295523172907,
+          -37.85103995747337
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 120040764,
         "feedType": "incident",
         "source": "000",
@@ -687,7 +786,7 @@
         "category2": "Building Fire",
         "created": "2025-06-21T23:22:00.000Z",
         "updated": "2025-06-21T23:22:00.000Z",
-        "resources": 0,
+        "resources": 7,
         "location": "East St, Daylesford",
         "cfaId": 225997,
         "size": "Small",
@@ -705,32 +804,58 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120040773,
+        "estaId": 120040895,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250621914",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Chapel St",
-        "eventId": "250621914",
-        "id": "ESTA:250621914",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120040895,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Tarneit",
+        "eventId": "F250621950",
+        "id": "ESTA:250621950",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-06-21T23:23:31.000Z",
-        "updated": "2025-06-21T23:23:31.000Z",
-        "resources": 2,
-        "location": "Chapel St, St Kilda",
-        "mfbId": "250621914",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-21T23:32:24.000Z",
+        "updated": "2025-06-21T23:36:47.497Z",
+        "resources": 0,
+        "location": "Tarneit"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9906803865926,
-          -37.867894082051166
+          144.65280860443752,
+          -37.85086653870614
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120040902,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120040902,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Maidstone",
+        "eventId": "F250621952",
+        "id": "ESTA:250621952",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-21T23:36:36.000Z",
+        "updated": "2025-06-21T23:37:38.388Z",
+        "resources": 0,
+        "location": "Deakin St, Maidstone"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.870681537687,
+          -37.78829668576219
         ]
       }
     },
@@ -1712,65 +1837,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 225986,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570051,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250621791,
-        "id": "ESTA:250621791",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-06-21T21:53:00.000Z",
-        "updated": "2025-06-21T22:08:00.000Z",
-        "resources": 1,
-        "location": "Wandong",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 570051
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02226767114442,
-          -37.340647482457655
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 225989,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 225989,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250621854,
-        "id": "ESTA:250621854",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-21T22:44:00.000Z",
-        "updated": "2025-06-21T23:03:00.000Z",
-        "resources": 0,
-        "location": "Charlemont",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3686032706515,
-          -38.214576633985246
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 225988,
         "feedType": "incident",
@@ -1860,7 +1926,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 225996,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1872,8 +1938,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-06-21T23:03:00.000Z",
-        "updated": "2025-06-21T23:19:00.000Z",
-        "resources": 1,
+        "updated": "2025-06-21T23:26:00.000Z",
+        "resources": 0,
         "location": "Sandy St, Bruthen",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1884,6 +1950,64 @@
         "coordinates": [
           147.83842532211614,
           -37.700036392399575
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250621947",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250621947",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dingley Village",
+        "id": "ESTA:250621947",
+        "eventId": "250621947",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T23:37:19.000Z",
+        "updated": "2025-06-21T23:37:19.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Dingley Village, Dingley Village"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1187205743875,
+          -37.960391981012116
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250621926",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250621926",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Devon Ct",
+        "id": "ESTA:250621926",
+        "eventId": "250621926",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-21T23:34:41.000Z",
+        "updated": "2025-06-21T23:34:41.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Devon Ct, Dandenong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2093533510143,
+          -37.975440255791135
         ]
       }
     },
@@ -2202,7 +2326,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-21T23:24:40.302Z",
-    "featureCount": 127
+    "lastUpdated": "2025-06-21T23:37:40.469Z",
+    "featureCount": 131
   }
 }
