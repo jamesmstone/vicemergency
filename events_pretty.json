@@ -226,30 +226,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120048626,
+        "status": "Responding",
+        "estaId": 120048681,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120048626,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Drouin",
-        "eventId": "F250622970",
-        "id": "ESTA:250622970",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250622971",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dandenong Rd",
+        "eventId": "250622971",
+        "id": "ESTA:250622971",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-06-22T11:29:46.000Z",
-        "updated": "2025-06-22T11:32:14.685Z",
-        "resources": 0,
-        "location": "Lindsay St, Drouin"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-22T11:43:51.000Z",
+        "updated": "2025-06-22T11:43:51.000Z",
+        "resources": 1,
+        "location": "Dandenong Rd, Frankston",
+        "mfbId": "250622971",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.84539439744074,
-          -38.12119862143781
+          145.1289462683108,
+          -38.13744604309468
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120048626,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226092,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lindsay St",
+        "eventId": 250622970,
+        "id": "ESTA:250622970",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-06-22T11:30:00.000Z",
+        "updated": "2025-06-22T11:44:00.000Z",
+        "resources": 3,
+        "location": "Lindsay St, Drouin",
+        "cfaId": 226092,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.84538151474143,
+          -38.1211989005651
         ]
       }
     },
@@ -1201,6 +1236,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "608332",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wonboyn Rd, Nadgee",
+        "id": "2025-06-22T21:29:00.0000000:608332",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Wonboyn Rd, Nadgee",
+        "location": "Wonboyn Rd, Nadgee 2551",
+        "created": "2025-06-22T21:29:00+10:00",
+        "updated": "2025-06-22T21:29:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.900466919,
+          -37.2480468749999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "cfaId": 226090,
         "feedType": "incident",
@@ -1272,7 +1337,7 @@
         "category2": "Other",
         "created": "2025-06-22T11:22:28.000Z",
         "updated": "2025-06-22T11:22:28.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Springvale South, Springvale South",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1544,7 +1609,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-22T11:32:20.490Z",
-    "featureCount": 116
+    "lastUpdated": "2025-06-22T11:50:25.943Z",
+    "featureCount": 118
   }
 }
