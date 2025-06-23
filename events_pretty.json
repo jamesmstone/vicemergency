@@ -431,34 +431,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
-        "sourceId": 3006178,
-        "sourceFeed": "delwp-burns",
-        "sourceTitle": "Canadian - Sparrow Reserve",
-        "id": 3006178,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2025-06-20T04:13:44.000Z",
-        "updated": "2025-06-20T04:13:44.000Z",
-        "resources": 0,
-        "size": "0.22",
-        "sizeFmt": "0.22 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "2Km Se Of Ballarat"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8845782,
-          -37.5779636
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
         "sourceId": 3007133,
         "sourceFeed": "delwp-burns",
         "sourceTitle": "Gellibrand - Boggy Creek Track",
@@ -681,7 +653,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
+        "status": "Under Control",
         "estaId": 120063631,
         "feedType": "incident",
         "source": "FIP",
@@ -694,8 +666,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-06-23T23:21:59.000Z",
-        "updated": "2025-06-23T23:21:59.000Z",
+        "created": "2025-06-23T23:40:48.000Z",
+        "updated": "2025-06-23T23:40:48.000Z",
         "resources": 1,
         "location": "Warrigal Rd, Chadstone",
         "mfbId": "250623739",
@@ -713,63 +685,64 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120063540,
+        "status": "Responding",
+        "estaId": 120064013,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 226276,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Western Fwy",
-        "eventId": 250623734,
-        "id": "ESTA:250623734",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250623755",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hoopers Rd",
+        "eventId": "250623755",
+        "id": "ESTA:250623755",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-23T22:52:00.000Z",
-        "updated": "2025-06-23T23:16:00.000Z",
-        "resources": 0,
-        "location": "Western Fwy, Ballan",
-        "cfaId": 226276,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-23T23:47:20.000Z",
+        "updated": "2025-06-23T23:47:20.000Z",
+        "resources": 1,
+        "location": "Hoopers Rd, Kialla",
+        "cfaId": 226280,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250623755"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.19577043472955,
-          -37.58963088491782
+          145.4202425314326,
+          -36.42771535493868
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 120063897,
+        "estaId": 120064130,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 570209,
+        "sourceId": 570210,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250651302,
-        "id": "ESTA:250651302",
+        "eventId": 250651303,
+        "id": "ESTA:250651303",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-06-23T23:28:00.000Z",
-        "updated": "2025-06-23T23:31:00.000Z",
+        "created": "2025-06-23T23:49:00.000Z",
+        "updated": "2025-06-23T23:48:49.000Z",
         "resources": 0,
-        "location": "Mount Martha",
-        "sesId": 570209
+        "location": "Laang",
+        "sesId": 570210
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0231490629343,
-          -38.273803244606256
+          142.8235122407708,
+          -38.38960479885677
         ]
       }
     },
@@ -8528,6 +8501,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 226276,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226276,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Western Fwy",
+        "eventId": 250623734,
+        "id": "ESTA:250623734",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-23T22:52:00.000Z",
+        "updated": "2025-06-23T23:16:00.000Z",
+        "resources": 0,
+        "location": "Western Fwy, Ballan",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.19577043472955,
+          -37.58963088491782
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 226277,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -8557,35 +8559,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250623741",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250623741",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Monash Fwy",
-        "id": "ESTA:250623741",
-        "eventId": "250623741",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-23T23:28:04.000Z",
-        "updated": "2025-06-23T23:28:04.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Monash Fwy, Malvern East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08283098050336,
-          -37.87830825814795
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "mfbId": "250623719",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -8598,7 +8571,7 @@
         "category2": "Other",
         "created": "2025-06-23T22:38:22.000Z",
         "updated": "2025-06-23T22:38:22.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Alma St, Fitzroy"
@@ -8615,108 +8588,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 570206,
+        "sesId": 570209,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 570206,
+        "sourceId": 570209,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250651299,
-        "id": "ESTA:250651299",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-06-23T23:17:00.000Z",
-        "updated": "2025-06-23T23:16:42.000Z",
-        "resources": 0,
-        "location": "Drouin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.85828843360878,
-          -38.137033444094875
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570203,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570203,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651297,
-        "id": "ESTA:250651297",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-06-23T23:14:00.000Z",
-        "updated": "2025-06-23T23:17:00.000Z",
-        "resources": 0,
-        "location": "Kangaroo Ground"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20414599264103,
-          -37.69432406070584
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570205,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570205,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651298,
-        "id": "ESTA:250651298",
+        "eventId": 250651302,
+        "id": "ESTA:250651302",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-06-23T23:16:00.000Z",
-        "updated": "2025-06-23T23:21:00.000Z",
+        "created": "2025-06-23T23:28:00.000Z",
+        "updated": "2025-06-23T23:31:00.000Z",
         "resources": 0,
-        "location": "Tolmie"
+        "location": "Mount Martha"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.2424211496557,
-          -36.92736693489253
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 570204,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570204,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250623745,
-        "id": "ESTA:250623745",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2025-06-23T23:12:00.000Z",
-        "updated": "2025-06-23T23:28:00.000Z",
-        "resources": 0,
-        "location": "Drouin"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.85828843360878,
-          -38.137033444094875
+          145.0231490629343,
+          -38.273803244606256
         ]
       }
     },
@@ -8744,6 +8636,87 @@
         "coordinates": [
           145.86868922416147,
           -38.70359185393464
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 570203,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570203,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651297,
+        "id": "ESTA:250651297",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-06-23T23:14:00.000Z",
+        "updated": "2025-06-23T23:37:00.000Z",
+        "resources": 1,
+        "location": "Kangaroo Ground"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20414599264103,
+          -37.69432406070584
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 570205,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570205,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651298,
+        "id": "ESTA:250651298",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-06-23T23:16:00.000Z",
+        "updated": "2025-06-23T23:40:00.000Z",
+        "resources": 1,
+        "location": "Tolmie"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2424211496557,
+          -36.92736693489253
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 570206,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 570206,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250651299,
+        "id": "ESTA:250651299",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-06-23T23:17:00.000Z",
+        "updated": "2025-06-23T23:42:00.000Z",
+        "resources": 0,
+        "location": "Drouin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.85828843360878,
+          -38.137033444094875
         ]
       }
     }
@@ -8975,7 +8948,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-23T23:36:00.303Z",
-    "featureCount": 127
+    "lastUpdated": "2025-06-23T23:50:00.976Z",
+    "featureCount": 126
   }
 }
