@@ -352,88 +352,24 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120084678,
+        "status": "Complete",
+        "estaId": 120084549,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 570728,
+        "sourceId": 570727,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250651819,
-        "id": "ESTA:250651819",
+        "eventId": 250651817,
+        "id": "ESTA:250651817",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-06-25T19:16:00.000Z",
-        "updated": "2025-06-25T19:20:00.000Z",
+        "created": "2025-06-25T18:37:00.000Z",
+        "updated": "2025-06-25T19:40:00.000Z",
         "resources": 0,
-        "location": "Yea",
-        "sesId": 570728
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.46390738918916,
-          -37.29557234090178
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 120084642,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250624558",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kinder St",
-        "eventId": "250624558",
-        "id": "ESTA:250624558",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-25T19:22:36.000Z",
-        "updated": "2025-06-25T19:22:36.000Z",
-        "resources": 3,
-        "location": "Kinder St, Campbellfield",
-        "mfbId": "250624558",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96344650778235,
-          -37.6616989874618
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120084543,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 226533,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Old Cobden-Port Campbell Rd",
-        "eventId": 250624556,
-        "id": "ESTA:250624556",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-06-25T18:36:00.000Z",
-        "updated": "2025-06-25T19:27:00.000Z",
-        "resources": 3,
-        "location": "Old Cobden-Port Campbell Rd, Jancourt East",
-        "cfaId": 226533,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Jancourt East",
+        "sesId": 570727
       },
       "type": "Feature",
       "geometry": {
@@ -447,23 +383,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120084732,
+        "estaId": 120084790,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250624560",
+        "sourceId": "250624561",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Greensborough Rd",
-        "eventId": "250624560",
-        "id": "ESTA:250624560",
+        "sourceTitle": "Spencer St",
+        "eventId": "250624561",
+        "id": "ESTA:250624561",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-25T19:29:15.000Z",
-        "updated": "2025-06-25T19:29:15.000Z",
-        "resources": 1,
-        "location": "Greensborough Rd, Rosanna",
-        "mfbId": "250624560",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-25T19:44:40.000Z",
+        "updated": "2025-06-25T19:44:40.000Z",
+        "resources": 3,
+        "location": "Spencer St, Docklands",
+        "mfbId": "250624561",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -471,8 +407,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.07832820296204,
-          -37.73453755549838
+          144.95155023130417,
+          -37.81344659666407
         ]
       }
     },
@@ -808,6 +744,93 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 226533,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226533,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Old Cobden-Port Campbell Rd",
+        "eventId": 250624556,
+        "id": "ESTA:250624556",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-06-25T18:36:00.000Z",
+        "updated": "2025-06-25T19:27:00.000Z",
+        "resources": 2,
+        "location": "Old Cobden-Port Campbell Rd, Jancourt East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.09359251723274,
+          -38.384649202894046
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250624560",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250624560",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Greensborough Rd",
+        "id": "ESTA:250624560",
+        "eventId": "250624560",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-25T19:38:16.000Z",
+        "updated": "2025-06-25T19:38:16.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Greensborough Rd, Rosanna"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07832820296204,
+          -37.73453755549838
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250624558",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250624558",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Kinder St",
+        "id": "ESTA:250624558",
+        "eventId": "250624558",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-06-25T19:22:36.000Z",
+        "updated": "2025-06-25T19:22:36.000Z",
+        "resources": 3,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Kinder St, Campbellfield"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96344650778235,
+          -37.6616989874618
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 570700,
         "feedType": "incident",
@@ -835,28 +858,28 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 570727,
+        "status": "Request For Assistance",
+        "sesId": 570728,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 570727,
+        "sourceId": 570728,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250651817,
-        "id": "ESTA:250651817",
+        "eventId": 250651819,
+        "id": "ESTA:250651819",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-06-25T18:37:00.000Z",
-        "updated": "2025-06-25T18:58:00.000Z",
+        "created": "2025-06-25T19:16:00.000Z",
+        "updated": "2025-06-25T19:41:00.000Z",
         "resources": 1,
-        "location": "Jancourt East"
+        "location": "Yea"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.09359251723274,
-          -38.384649202894046
+          145.46390738918916,
+          -37.29557234090178
         ]
       }
     }
@@ -1088,7 +1111,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-25T19:30:46.167Z",
-    "featureCount": 116
+    "lastUpdated": "2025-06-25T19:50:05.779Z",
+    "featureCount": 117
   }
 }
