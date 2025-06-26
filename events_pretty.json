@@ -87,54 +87,85 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120095738,
+        "status": "Responding",
+        "estaId": 120096149,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570795,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250651881,
-        "id": "ESTA:250651881",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226658,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Allingham St",
+        "eventId": 250625217,
+        "id": "ESTA:250625217",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-06-26T15:44:00.000Z",
-        "updated": "2025-06-26T16:49:00.000Z",
-        "resources": 0,
-        "location": "Warracknabeal",
-        "sesId": 570795
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-06-26T17:17:00.000Z",
+        "updated": "2025-06-26T17:17:00.000Z",
+        "resources": 3,
+        "location": "Allingham St, Kangaroo Flat",
+        "cfaId": 226658,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.39330435433467,
-          -36.24963218049106
+          144.24947279862303,
+          -36.79512417076227
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120096036,
+        "estaId": 120096143,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250625216",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Melbourne",
+        "eventId": "250625216",
+        "id": "ESTA:250625216",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-26T17:23:47.000Z",
+        "updated": "2025-06-26T17:23:47.000Z",
+        "resources": 5,
+        "location": "Melbourne, Melbourne",
+        "mfbId": "250625216",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96886892178495,
+          -37.815930100613336
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 226657,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 226657,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Frankston-Dandenong Rd",
         "eventId": 250625215,
         "id": "ESTA:250625215",
-        "suppress": false,
         "category1": "Other",
         "category2": "Other",
         "created": "2025-06-26T16:51:00.000Z",
         "updated": "2025-06-26T16:52:00.000Z",
         "resources": 0,
         "location": "Frankston-Dandenong Rd, Bangholme",
-        "cfaId": 226657,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -144,64 +175,6 @@
         "coordinates": [
           145.2082306166455,
           -38.04855787256144
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 226655,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 226655,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pertobe Rd",
-        "eventId": 250625210,
-        "id": "ESTA:250625210",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-26T15:33:00.000Z",
-        "updated": "2025-06-26T16:00:00.000Z",
-        "resources": 0,
-        "location": "Pertobe Rd, Warrnambool",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.47878200356007,
-          -38.391028423643824
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 226656,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 226656,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Boyd Lane",
-        "eventId": 250625213,
-        "id": "ESTA:250625213",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-26T16:09:00.000Z",
-        "updated": "2025-06-26T16:16:00.000Z",
-        "resources": 0,
-        "location": "Boyd Lane, Dandenong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2148226009536,
-          -37.985440361542004
         ]
       }
     },
@@ -460,7 +433,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-26T16:56:40.250Z",
-    "featureCount": 111
+    "lastUpdated": "2025-06-26T17:25:46.105Z",
+    "featureCount": 110
   }
 }
