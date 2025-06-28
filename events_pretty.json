@@ -144,6 +144,35 @@
     {
       "properties": {
         "status": "Safe",
+        "estaId": 120123913,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120123913,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Red Hill",
+        "eventId": "F250627985",
+        "id": "ESTA:250627985",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-28T21:57:45.000Z",
+        "updated": "2025-06-28T23:13:37.629Z",
+        "resources": 0,
+        "location": "William Rd, Red Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98568041533696,
+          -38.37938384182215
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 120124029,
         "feedType": "incident",
         "source": "000",
@@ -158,7 +187,7 @@
         "category2": "Other",
         "created": "2025-06-28T22:20:00.000Z",
         "updated": "2025-06-28T22:39:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Nicholas Rd, Leongatha South",
         "cfaId": 226957,
         "size": "Small",
@@ -206,59 +235,29 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 226956,
+        "cfaId": 226958,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250627985",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "William Rd",
-        "eventId": "250627985",
-        "id": "ESTA:250627985",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-28T22:18:03.000Z",
-        "updated": "2025-06-28T22:18:03.000Z",
-        "resources": 3,
-        "location": "William Rd, Red Hill",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250627985"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98567343037524,
-          -38.379390354971925
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250628009",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250628009",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hotham St",
-        "id": "ESTA:250628009",
-        "eventId": "250628009",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226958,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "York Rd",
+        "eventId": 250628053,
+        "id": "ESTA:250628053",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-06-28T22:45:26.000Z",
-        "updated": "2025-06-28T22:45:26.000Z",
-        "resources": 1,
+        "created": "2025-06-28T22:55:00.000Z",
+        "updated": "2025-06-28T23:05:00.000Z",
+        "resources": 2,
+        "location": "York Rd, Mount Evelyn",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Hotham St, Ripponlea"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99694216714838,
-          -37.8813460509094
+          145.36234921735002,
+          -37.796863368273456
         ]
       }
     },
@@ -290,35 +289,6 @@
           -36.75033981817219
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250627990",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250627990",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Murray Rd",
-        "id": "ESTA:250627990",
-        "eventId": "250627990",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-28T22:15:03.000Z",
-        "updated": "2025-06-28T22:15:03.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Murray Rd, Preston"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0303843884028,
-          -37.73846977788156
-        ]
-      }
     }
   ],
   "properties": {
@@ -335,6 +305,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -342,8 +313,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -359,6 +329,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -366,8 +337,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-06-28T14:00:00.000Z",
           "heat": {
@@ -548,7 +518,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-28T22:50:05.576Z",
-    "featureCount": 112
+    "lastUpdated": "2025-06-28T23:25:00.368Z",
+    "featureCount": 111
   }
 }
