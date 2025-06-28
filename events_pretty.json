@@ -144,6 +144,38 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 120122781,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250627937",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Spencer St",
+        "eventId": "250627937",
+        "id": "ESTA:250627937",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-28T17:10:14.000Z",
+        "updated": "2025-06-28T17:10:14.000Z",
+        "resources": 1,
+        "location": "Spencer St, Docklands",
+        "mfbId": "250627937",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9542833157239,
+          -37.820052023845626
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 120122595,
         "feedType": "incident",
         "source": "000",
@@ -158,7 +190,7 @@
         "category2": "Building Fire",
         "created": "2025-06-28T16:40:00.000Z",
         "updated": "2025-06-28T16:40:00.000Z",
-        "resources": 3,
+        "resources": 6,
         "location": "Skenes Creek Rd, Tanybryn",
         "cfaId": 226950,
         "size": "Small",
@@ -176,55 +208,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120122670,
+        "estaId": 120122832,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250627936",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Blackburn Rd",
-        "eventId": "250627936",
-        "id": "ESTA:250627936",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-28T16:51:53.000Z",
-        "updated": "2025-06-28T16:51:53.000Z",
-        "resources": 1,
-        "location": "Blackburn Rd, Mount Waverley",
-        "mfbId": "250627936",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14209947357435,
-          -37.891001599585856
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120122386,
-        "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 226947,
+        "sourceId": 226951,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Myers Flat Rd",
-        "eventId": 250627931,
-        "id": "ESTA:250627931",
+        "sourceTitle": "Main St",
+        "eventId": 250627939,
+        "id": "ESTA:250627939",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-06-28T16:12:00.000Z",
-        "updated": "2025-06-28T16:53:00.000Z",
-        "resources": 2,
-        "location": "Myers Flat Rd, Myers Flat",
-        "cfaId": 226947,
+        "category2": "Building Fire",
+        "created": "2025-06-28T17:19:00.000Z",
+        "updated": "2025-06-28T17:19:00.000Z",
+        "resources": 0,
+        "location": "Main St, Romsey",
+        "cfaId": 226951,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -232,8 +232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.20290509373697,
-          -36.690258105470164
+          144.74291373539728,
+          -37.35384092265073
         ]
       }
     },
@@ -340,7 +340,7 @@
         "category2": "Structure Fire",
         "created": "2025-06-28T16:34:13.000Z",
         "updated": "2025-06-28T16:34:13.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Seebeck Dr, Narre Warren South",
         "size": "Small",
         "sizeFmt": "Small",
@@ -357,30 +357,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250627900",
+        "status": "Safe",
+        "cfaId": 226947,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250627900",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dorcas St",
-        "id": "ESTA:250627900",
-        "eventId": "250627900",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 226947,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Myers Flat Rd",
+        "eventId": 250627931,
+        "id": "ESTA:250627931",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-06-28T13:51:23.000Z",
-        "updated": "2025-06-28T13:51:23.000Z",
-        "resources": 3,
+        "category2": "Other",
+        "created": "2025-06-28T16:12:00.000Z",
+        "updated": "2025-06-28T16:53:00.000Z",
+        "resources": 0,
+        "location": "Myers Flat Rd, Myers Flat",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Dorcas St, South Melbourne"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96186436096912,
-          -37.832371339197124
+          144.20290509373697,
+          -36.690258105470164
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250627936",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250627936",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Blackburn Rd",
+        "id": "ESTA:250627936",
+        "eventId": "250627936",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-28T17:08:25.000Z",
+        "updated": "2025-06-28T17:08:25.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Blackburn Rd, Mount Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14209947357435,
+          -37.891001599585856
         ]
       }
     },
@@ -641,7 +670,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-28T16:53:45.677Z",
-    "featureCount": 115
+    "lastUpdated": "2025-06-28T17:23:25.670Z",
+    "featureCount": 116
   }
 }
