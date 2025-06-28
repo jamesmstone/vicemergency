@@ -144,29 +144,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120123405,
+        "estaId": 120123451,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120123405,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Keilor Park",
-        "eventId": "F250627949",
-        "id": "ESTA:250627949",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250627951",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bluff St",
+        "eventId": "250627951",
+        "id": "ESTA:250627951",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-06-28T19:29:17.000Z",
-        "updated": "2025-06-28T19:29:57.818Z",
-        "resources": 0,
-        "location": "Western Ring In-Calder Out Ramp, Keilor Park"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-06-28T19:48:56.000Z",
+        "updated": "2025-06-28T19:48:56.000Z",
+        "resources": 2,
+        "location": "Bluff St, Hawthorn East",
+        "mfbId": "250627951",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8630207347506,
-          -37.725557005964134
+          145.04656086914665,
+          -37.844441701779125
         ]
       }
     },
@@ -215,7 +218,7 @@
         "category2": "Building Fire",
         "created": "2025-06-28T16:40:00.000Z",
         "updated": "2025-06-28T17:38:00.000Z",
-        "resources": 4,
+        "resources": 2,
         "location": "Skenes Creek Rd, Tanybryn",
         "size": "Small",
         "sizeFmt": "Small"
@@ -255,6 +258,35 @@
         "coordinates": [
           144.8902651891982,
           -37.728584108505224
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250627949",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250627949",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Western Ring In-Calder Out Ramp",
+        "id": "ESTA:250627949",
+        "eventId": "250627949",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-28T19:40:04.000Z",
+        "updated": "2025-06-28T19:40:04.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Western Ring In-Calder Out Ramp, Keilor Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86300994283408,
+          -37.725564614469334
         ]
       }
     },
@@ -515,7 +547,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-28T19:30:20.174Z",
-    "featureCount": 111
+    "lastUpdated": "2025-06-28T19:50:20.058Z",
+    "featureCount": 112
   }
 }
