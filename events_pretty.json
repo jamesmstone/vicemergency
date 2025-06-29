@@ -115,31 +115,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120131838,
+        "status": "Responding",
+        "estaId": 120132467,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570969,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250652008,
-        "id": "ESTA:250652008",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227047,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250628939,
+        "id": "ESTA:250628939",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-06-29T11:07:00.000Z",
-        "updated": "2025-06-29T11:45:00.000Z",
-        "resources": 0,
-        "location": "Bayswater",
-        "sesId": 570969
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-06-29T12:41:00.000Z",
+        "updated": "2025-06-29T12:41:00.000Z",
+        "resources": 5,
+        "location": "Lilydale",
+        "cfaId": 227047,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26969592073462,
-          -37.85134185678428
+          145.3567377375028,
+          -37.75587834020582
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120132424,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227046,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Indi Av",
+        "eventId": 250628937,
+        "id": "ESTA:250628937",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-29T12:35:00.000Z",
+        "updated": "2025-06-29T12:43:00.000Z",
+        "resources": 0,
+        "location": "Indi Av, Red Cliffs",
+        "cfaId": 227046,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.18900257983134,
+          -34.30708769014789
         ]
       }
     },
@@ -175,28 +209,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 570970,
+        "status": "Safe",
+        "cfaId": 227044,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 570970,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250652009,
-        "id": "ESTA:250652009",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-06-29T11:18:00.000Z",
-        "updated": "2025-06-29T11:34:00.000Z",
-        "resources": 1,
-        "location": "Taroon"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227044,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rowe Pde",
+        "eventId": 250628932,
+        "id": "ESTA:250628932",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-29T11:57:00.000Z",
+        "updated": "2025-06-29T12:28:00.000Z",
+        "resources": 0,
+        "location": "Rowe Pde, Red Cliffs",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.87138241736298,
-          -38.34919174594689
+          142.1916108555555,
+          -34.30633190487593
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250628936",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250628936",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dandenong North",
+        "id": "ESTA:250628936",
+        "eventId": "250628936",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-06-29T12:43:43.000Z",
+        "updated": "2025-06-29T12:43:43.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Dandenong North, Dandenong North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20844285786413,
+          -37.95076489189677
         ]
       }
     }
@@ -428,7 +493,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-06-29T11:50:20.258Z",
-    "featureCount": 108
+    "lastUpdated": "2025-06-29T12:51:59.985Z",
+    "featureCount": 110
   }
 }
