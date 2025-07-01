@@ -34093,61 +34093,92 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120153137,
+        "status": "Safe",
+        "estaId": 120149383,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571082,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250750040,
-        "id": "ESTA:250750040",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120149383,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Terang",
+        "eventId": "F250700316",
+        "id": "ESTA:250700316",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-01T07:17:00.000Z",
-        "updated": "2025-07-01T07:21:00.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-01T01:59:29.000Z",
+        "updated": "2025-07-01T07:36:54.211Z",
         "resources": 0,
-        "location": "Benalla",
-        "sesId": 571082
+        "location": "Ewing St, Terang"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.0665728203804,
-          -36.65358258207238
+          142.9206112418999,
+          -38.2425442357565
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120153159,
+        "status": "Complete",
+        "estaId": 120153285,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "",
         "sourceOrg": "VIC/SES",
-        "sourceId": 571083,
+        "sourceId": 571085,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250750041,
-        "id": "ESTA:250750041",
+        "eventId": 250750044,
+        "id": "ESTA:250750044",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-01T07:19:00.000Z",
-        "updated": "2025-07-01T07:21:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-07-01T07:30:00.000Z",
+        "updated": "2025-07-01T07:43:00.000Z",
         "resources": 0,
-        "location": "Benalla",
-        "sesId": 571083
+        "location": "Springvale",
+        "sesId": 571085
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.04327857632404,
-          -36.62651617531967
+          145.15277923452967,
+          -37.94501032969686
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120153434,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250700542",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Freeman St",
+        "eventId": "250700542",
+        "id": "ESTA:250700542",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-01T07:45:41.000Z",
+        "updated": "2025-07-01T07:45:41.000Z",
+        "resources": 2,
+        "location": "Freeman St, Ringwood East",
+        "mfbId": "250700542",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2507653883075,
+          -37.80953626864124
         ]
       }
     },
@@ -34168,7 +34199,7 @@
         "category2": "Road Accident",
         "created": "2025-07-01T07:27:00.000Z",
         "updated": "2025-07-01T07:27:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Tyntynder",
         "cfaId": 227240,
         "size": "Small",
@@ -36489,94 +36520,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 227230,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 227230,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Dartmoor-Hamilton Rd",
-        "eventId": 250700470,
-        "id": "ESTA:250700470",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-01T05:18:00.000Z",
-        "updated": "2025-07-01T06:35:00.000Z",
-        "resources": 0,
-        "location": "Dartmoor-Hamilton Rd, Winnap",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.33434081862748,
-          -37.90273464221225
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 227237,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250700506",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dandenong",
-        "eventId": "250700506",
-        "id": "ESTA:250700506",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-01T06:37:03.000Z",
-        "updated": "2025-07-01T06:37:03.000Z",
-        "resources": 1,
-        "location": "Dandenong, Dandenong",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250700506"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.222917118298,
-          -37.97437979579495
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 227239,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 227239,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mornington Peninsula In-Thomps Ramp",
-        "eventId": 250700509,
-        "id": "ESTA:250700509",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-01T06:35:00.000Z",
-        "updated": "2025-07-01T06:43:00.000Z",
-        "resources": 0,
-        "location": "Mornington Peninsula In-Thomps Ramp, Patterson Lakes",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14881249837825,
-          -38.06843586268747
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 227238,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -36634,30 +36577,84 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250700523",
+        "status": "Safe",
+        "mfbId": "250700533",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250700523",
+        "sourceId": "250700533",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Preston",
-        "id": "ESTA:250700523",
-        "eventId": "250700523",
+        "sourceTitle": "Boulton St",
+        "id": "ESTA:250700533",
+        "eventId": "250700533",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-01T07:12:30.000Z",
-        "updated": "2025-07-01T07:12:30.000Z",
+        "created": "2025-07-01T07:40:07.000Z",
+        "updated": "2025-07-01T07:40:07.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Preston, Preston"
+        "location": "Boulton St, Springvale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00329049810583,
-          -37.74260030638324
+          145.15278190169704,
+          -37.9450103374342
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 571083,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571083,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750041,
+        "id": "ESTA:250750041",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-01T07:19:00.000Z",
+        "updated": "2025-07-01T07:38:00.000Z",
+        "resources": 1,
+        "location": "Benalla"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.04327857632404,
+          -36.62651617531967
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 571082,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571082,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750040,
+        "id": "ESTA:250750040",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-01T07:17:00.000Z",
+        "updated": "2025-07-01T07:38:00.000Z",
+        "resources": 1,
+        "location": "Benalla"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0665728203804,
+          -36.65358258207238
         ]
       }
     }
@@ -36889,7 +36886,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-01T07:29:00.185Z",
+    "lastUpdated": "2025-07-01T07:51:07.175Z",
     "featureCount": 52
   }
 }
