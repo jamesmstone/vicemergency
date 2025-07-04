@@ -7135,6 +7135,68 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120196749,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571308,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750288,
+        "id": "ESTA:250750288",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-04T23:19:00.000Z",
+        "updated": "2025-07-04T23:21:00.000Z",
+        "resources": 0,
+        "location": "Sassafras",
+        "sesId": 571308
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35396249702285,
+          -37.86611358679721
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120196672,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227664,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hodgson St",
+        "eventId": 250703210,
+        "id": "ESTA:250703210",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-04T23:10:00.000Z",
+        "updated": "2025-07-04T23:22:00.000Z",
+        "resources": 1,
+        "location": "Hodgson St, Bairnsdale",
+        "cfaId": 227664,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.61469750813436,
+          -37.826445157853826
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 227658,
         "feedType": "incident",
@@ -7148,7 +7210,7 @@
         "category2": "Structure Fire",
         "created": "2025-07-04T21:46:44.000Z",
         "updated": "2025-07-04T21:46:44.000Z",
-        "resources": 5,
+        "resources": 1,
         "location": "Avondale St, Springvale",
         "size": "Small",
         "sizeFmt": "Small",
@@ -7160,36 +7222,6 @@
         "coordinates": [
           145.15167850814893,
           -37.9394438333172
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 227656,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250703047",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Alfred St",
-        "eventId": "250703047",
-        "id": "ESTA:250703047",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-04T22:31:12.000Z",
-        "updated": "2025-07-04T22:31:12.000Z",
-        "resources": 2,
-        "location": "Alfred St, Stawell",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250703047"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.78050553189482,
-          -37.05375842697922
         ]
       }
     },
@@ -7237,7 +7269,7 @@
         "category2": "Other",
         "created": "2025-07-04T22:29:00.000Z",
         "updated": "2025-07-04T22:42:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Lilydale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -7248,35 +7280,6 @@
         "coordinates": [
           145.35451461623302,
           -37.758875458626136
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 227663,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 227663,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Canterbury Rd",
-        "eventId": 250703168,
-        "id": "ESTA:250703168",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-04T22:47:00.000Z",
-        "updated": "2025-07-04T22:47:00.000Z",
-        "resources": 2,
-        "location": "Canterbury Rd, Braeside",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.10837825411713,
-          -38.010063245535456
         ]
       }
     },
@@ -7308,6 +7311,35 @@
           -36.762265022211544
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250703047",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250703047",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Alfred St",
+        "id": "ESTA:250703047",
+        "eventId": "250703047",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-04T22:31:12.000Z",
+        "updated": "2025-07-04T22:31:12.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Alfred St, Stawell"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.78050553189482,
+          -37.05375842697922
+        ]
+      }
     }
   ],
   "properties": {
@@ -7325,14 +7357,14 @@
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -7349,14 +7381,14 @@
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-07-04T14:00:00.000Z",
           "heat": {
@@ -7537,7 +7569,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-04T22:51:25.843Z",
-    "featureCount": 17
+    "lastUpdated": "2025-07-04T23:25:00.189Z",
+    "featureCount": 18
   }
 }
