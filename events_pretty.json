@@ -3907,7 +3907,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 120208764,
         "feedType": "incident",
         "source": "000",
@@ -3920,9 +3920,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-07-05T21:18:55.000Z",
-        "updated": "2025-07-05T21:18:55.000Z",
-        "resources": 2,
+        "created": "2025-07-05T21:29:16.000Z",
+        "updated": "2025-07-05T21:29:16.000Z",
+        "resources": 3,
         "location": "Yew St, Wendouree",
         "cfaId": 227781,
         "size": "Small",
@@ -3940,27 +3940,26 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120208807,
+        "status": "Responding",
+        "estaId": 120208866,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571347,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250704468,
-        "id": "ESTA:250704468",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227784,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bolinda-Darraweit Rd",
+        "eventId": 250704476,
+        "id": "ESTA:250704476",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-07-05T21:20:00.000Z",
-        "updated": "2025-07-05T21:23:00.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-05T21:35:00.000Z",
+        "updated": "2025-07-05T21:35:00.000Z",
         "resources": 0,
-        "location": "Bolinda",
-        "cfaId": 227782,
+        "location": "Bolinda-Darraweit Rd, Bolinda",
+        "cfaId": 227784,
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 571347
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -3974,32 +3973,29 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120208813,
+        "estaId": 120208871,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 227783,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bolinda-Darraweit Rd",
-        "eventId": 250704469,
-        "id": "ESTA:250704469",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120208871,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hoppers Crossing",
+        "eventId": "F250704477",
+        "id": "ESTA:250704477",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-05T21:22:00.000Z",
-        "updated": "2025-07-05T21:22:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-07-05T21:34:38.000Z",
+        "updated": "2025-07-05T21:36:50.163Z",
         "resources": 0,
-        "location": "Bolinda-Darraweit Rd, Bolinda",
-        "cfaId": 227783,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Morris Rd, Hoppers Crossing"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7870041312521,
-          -37.434665329360676
+          144.70225779882762,
+          -37.87594818713024
         ]
       }
     },
@@ -4059,6 +4055,65 @@
         "coordinates": [
           145.1796464878607,
           -38.209025958337534
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 227782,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571347,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250704468,
+        "id": "ESTA:250704468",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-07-05T21:20:00.000Z",
+        "updated": "2025-07-05T21:27:00.000Z",
+        "resources": 5,
+        "location": "Bolinda",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 571347
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.78738631096343,
+          -37.434735571382554
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 227783,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227783,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bolinda-Darraweit Rd",
+        "eventId": 250704469,
+        "id": "ESTA:250704469",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-05T21:22:00.000Z",
+        "updated": "2025-07-05T21:22:00.000Z",
+        "resources": 0,
+        "location": "Bolinda-Darraweit Rd, Bolinda",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7870041312521,
+          -37.434665329360676
         ]
       }
     }
@@ -4290,7 +4345,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-05T21:25:00.113Z",
-    "featureCount": 12
+    "lastUpdated": "2025-07-05T21:37:25.427Z",
+    "featureCount": 14
   }
 }
