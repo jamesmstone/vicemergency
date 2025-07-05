@@ -3907,24 +3907,54 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 120207425,
+        "status": "Complete",
+        "estaId": 120207554,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571343,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750318,
+        "id": "ESTA:250750318",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-07-05T16:32:00.000Z",
+        "updated": "2025-07-05T16:39:00.000Z",
+        "resources": 0,
+        "location": "Shepparton",
+        "sesId": 571343
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.40246027150405,
+          -36.35334072565284
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120207654,
+        "feedType": "incident",
+        "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250704419",
+        "sourceId": "250704425",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Drummond St",
-        "eventId": "250704419",
-        "id": "ESTA:250704419",
+        "sourceTitle": "Pascoe Vale Rd",
+        "eventId": "250704425",
+        "id": "ESTA:250704425",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-07-05T16:26:13.000Z",
-        "updated": "2025-07-05T16:26:13.000Z",
-        "resources": 3,
-        "location": "Drummond St, Carlton",
-        "mfbId": "250704419",
+        "created": "2025-07-05T16:50:36.000Z",
+        "updated": "2025-07-05T16:50:36.000Z",
+        "resources": 2,
+        "location": "Pascoe Vale Rd, Strathmore",
+        "mfbId": "250704425",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3932,41 +3962,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9699564242528,
-          -37.79447738542209
+          144.92418415698765,
+          -37.72951139816061
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 120206951,
+        "status": "Responding",
+        "estaId": 120207690,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250704411",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Campbells Cove Rd",
-        "eventId": "250704411",
-        "id": "ESTA:250704411",
+        "source": "",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120207690,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Strathmore",
+        "eventId": "F250704426",
+        "id": "ESTA:250704426",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-05T16:27:36.000Z",
-        "updated": "2025-07-05T16:27:36.000Z",
-        "resources": 6,
-        "location": "Campbells Cove Rd, Werribee South",
-        "cfaId": 227767,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250704411"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-05T16:52:34.000Z",
+        "updated": "2025-07-05T16:52:51.190Z",
+        "resources": 0,
+        "location": "Pascoe Vale Rd, Strathmore"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.73499062879498,
-          -37.943022419518286
+          144.92419044734496,
+          -37.72950568516702
         ]
       }
     },
@@ -4298,6 +4324,94 @@
           -37.05746352861809
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 227767,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250704411",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Campbells Cove Rd",
+        "eventId": "250704411",
+        "id": "ESTA:250704411",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-05T16:27:36.000Z",
+        "updated": "2025-07-05T16:27:36.000Z",
+        "resources": 4,
+        "location": "Campbells Cove Rd, Werribee South",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250704411"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73499062879498,
+          -37.943022419518286
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250704423",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250704423",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Watsonia North",
+        "id": "ESTA:250704423",
+        "eventId": "250704423",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-05T16:44:29.000Z",
+        "updated": "2025-07-05T16:44:29.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Watsonia North, Watsonia North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08526222429214,
+          -37.69608542742567
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250704419",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250704419",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Drummond St",
+        "id": "ESTA:250704419",
+        "eventId": "250704419",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-05T16:26:13.000Z",
+        "updated": "2025-07-05T16:26:13.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Drummond St, Carlton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9699564242528,
+          -37.79447738542209
+        ]
+      }
     }
   ],
   "properties": {
@@ -4527,7 +4641,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-05T16:31:40.052Z",
-    "featureCount": 11
+    "lastUpdated": "2025-07-05T16:53:06.157Z",
+    "featureCount": 15
   }
 }
