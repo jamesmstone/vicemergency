@@ -201,57 +201,53 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120220427,
+        "status": "Unknown",
+        "estaId": 120198521,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250705641",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Tyers",
-        "eventId": "250705641",
-        "id": "ESTA:250705641",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120198521,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bakery Hill",
+        "eventId": "F250703603",
+        "id": "ESTA:250703603",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-07-06T22:14:29.000Z",
-        "updated": "2025-07-06T22:14:29.000Z",
-        "resources": 2,
-        "location": "Tyers, Tyers",
-        "cfaId": 227918,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250705641"
+        "category2": "Building Fire",
+        "created": "2025-07-05T01:55:17.000Z",
+        "updated": "2025-07-06T22:34:51.849Z",
+        "resources": 0,
+        "location": "Victoria St, Bakery Hill"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.46915116375664,
-          -38.15064357592135
+          143.86998004820563,
+          -37.56159997418282
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120220483,
+        "status": "Responding",
+        "estaId": 120220663,
         "feedType": "incident",
-        "source": "PHONE",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 227919,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hillsmeade Dr",
-        "eventId": 250705651,
-        "id": "ESTA:250705651",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250705680",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Maddox Rd",
+        "eventId": "250705680",
+        "id": "ESTA:250705680",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-06T22:21:00.000Z",
-        "updated": "2025-07-06T22:21:00.000Z",
-        "resources": 1,
-        "location": "Hillsmeade Dr, Narre Warren South",
-        "cfaId": 227919,
+        "category2": "Structure Fire",
+        "created": "2025-07-06T22:48:11.000Z",
+        "updated": "2025-07-06T22:48:11.000Z",
+        "resources": 2,
+        "location": "Maddox Rd, Williamstown North",
+        "mfbId": "250705680",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -259,8 +255,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3023660540043,
-          -38.06073357211736
+          144.86742638095265,
+          -37.852900913705554
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120220699,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227920,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray St",
+        "eventId": 250705683,
+        "id": "ESTA:250705683",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-06T22:49:00.000Z",
+        "updated": "2025-07-06T22:49:00.000Z",
+        "resources": 0,
+        "location": "Murray St, Colac",
+        "cfaId": 227920,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58081168077265,
+          -38.339349117262046
         ]
       }
     },
@@ -588,6 +616,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 227919,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227919,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hillsmeade Dr",
+        "eventId": 250705651,
+        "id": "ESTA:250705651",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-06T22:21:00.000Z",
+        "updated": "2025-07-06T22:21:00.000Z",
+        "resources": 1,
+        "location": "Hillsmeade Dr, Narre Warren South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3023660540043,
+          -38.06073357211736
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 227917,
         "feedType": "incident",
@@ -601,7 +658,7 @@
         "category2": "Other",
         "created": "2025-07-06T22:25:00.000Z",
         "updated": "2025-07-06T22:25:00.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Amayla Cr, Carrum Downs",
         "size": "Small",
         "sizeFmt": "Small",
@@ -618,30 +675,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250705644",
+        "status": "Under Control",
+        "cfaId": 227918,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250705644",
+        "sourceId": "250705641",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dandenong South",
-        "id": "ESTA:250705644",
-        "eventId": "250705644",
+        "sourceTitle": "Tyers",
+        "eventId": "250705641",
+        "id": "ESTA:250705641",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-06T22:15:55.000Z",
-        "updated": "2025-07-06T22:15:55.000Z",
-        "resources": 1,
+        "created": "2025-07-06T22:32:30.000Z",
+        "updated": "2025-07-06T22:32:30.000Z",
+        "resources": 2,
+        "location": "Tyers, Tyers",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Dandenong South, Dandenong South"
+        "mfbId": "250705641"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2443579345458,
-          -38.02644806505163
+          146.46915116375664,
+          -38.15064357592135
         ]
       }
     },
@@ -902,7 +960,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-06T22:27:40.254Z",
-    "featureCount": 12
+    "lastUpdated": "2025-07-06T22:51:05.698Z",
+    "featureCount": 14
   }
 }
