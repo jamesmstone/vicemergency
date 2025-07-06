@@ -117,32 +117,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1649873",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "North Terrace, Bordertown",
-        "id": "1649873",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "North Terrace, Bordertown",
-        "created": "2025-07-06T17:01:00.000Z",
-        "updated": "2025-07-06T17:01:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "North Terrace, Bordertown"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.769148540799,
-          -36.3082063949985
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -227,58 +201,24 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120219579,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571390,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250705571,
-        "id": "ESTA:250705571",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-07-06T18:49:00.000Z",
-        "updated": "2025-07-06T18:51:00.000Z",
-        "resources": 2,
-        "location": "Frankston",
-        "cfaId": 227905,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250705571",
-        "sesId": 571390
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.13199849459014,
-          -38.15172511162257
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 120219553,
+        "estaId": 120219630,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250705570",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bulla Rd",
-        "eventId": "250705570",
-        "id": "ESTA:250705570",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 227906,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Anderson Rd",
+        "eventId": 250705573,
+        "id": "ESTA:250705573",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-06T18:49:34.000Z",
-        "updated": "2025-07-06T18:49:34.000Z",
-        "resources": 2,
-        "location": "Bulla Rd, Essendon Fields",
-        "mfbId": "250705570",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-06T19:05:00.000Z",
+        "updated": "2025-07-06T19:05:00.000Z",
+        "resources": 1,
+        "location": "Anderson Rd, Jindivick",
+        "cfaId": 227906,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -286,8 +226,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90618784800515,
-          -37.73257119355328
+          145.89367111184822,
+          -38.05166460438735
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120219673,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120219673,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Tooradin",
+        "eventId": "F250705574",
+        "id": "ESTA:250705574",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-06T19:18:50.000Z",
+        "updated": "2025-07-06T19:20:43.016Z",
+        "resources": 0,
+        "location": "South Gippsland Hwy, Tooradin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.40676142985868,
+          -38.215759246547094
         ]
       }
     },
@@ -297,14 +266,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/37e785ab0e55a394b9024bee6eed4f81",
+        "sourceId": "IDV20600/60b5a6db1ae6637a396802984ab467be",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/37e785ab0e55a394b9024bee6eed4f81",
+        "id": "IDV20600/60b5a6db1ae6637a396802984ab467be",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-07-06T14:00:00.000Z",
+        "created": "2025-07-06T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -557,30 +526,144 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 227905,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571390,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250705571,
+        "id": "ESTA:250705571",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-07-06T18:49:00.000Z",
+        "updated": "2025-07-06T19:07:00.000Z",
+        "resources": 2,
+        "location": "Frankston",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250705571",
+        "sesId": 571390
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13199849459014,
+          -38.15172511162257
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250705570",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250705570",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bulla Rd",
+        "id": "ESTA:250705570",
+        "eventId": "250705570",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-06T18:56:32.000Z",
+        "updated": "2025-07-06T18:56:32.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bulla Rd, Essendon Fields"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90618784800515,
+          -37.73257119355328
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250705565",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250705565",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "West Melbourne",
+        "sourceTitle": "Dudley St",
         "id": "ESTA:250705565",
         "eventId": "250705565",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-06T18:35:47.000Z",
-        "updated": "2025-07-06T18:35:47.000Z",
+        "created": "2025-07-06T18:55:54.000Z",
+        "updated": "2025-07-06T18:55:54.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "West Melbourne, West Melbourne"
+        "location": "Dudley St, West Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94781543505613,
-          -37.81095825646335
+          144.95167769109293,
+          -37.80949123440623
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 571391,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571391,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750366,
+        "id": "ESTA:250750366",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-06T18:55:00.000Z",
+        "updated": "2025-07-06T19:05:00.000Z",
+        "resources": 1,
+        "location": "Frankston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13199849459014,
+          -38.15172511162257
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 571392,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571392,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750367,
+        "id": "ESTA:250750367",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-07-06T19:03:00.000Z",
+        "updated": "2025-07-06T19:06:00.000Z",
+        "resources": 0,
+        "location": "Essendon Fields"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9061773680664,
+          -37.7325746492012
         ]
       }
     }
@@ -812,7 +895,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-06T18:53:40.422Z",
-    "featureCount": 9
+    "lastUpdated": "2025-07-06T19:21:25.239Z",
+    "featureCount": 12
   }
 }
