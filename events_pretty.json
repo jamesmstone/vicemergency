@@ -145,7 +145,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120231955,
         "feedType": "incident",
         "source": "000",
@@ -157,10 +157,10 @@
         "id": "ESTA:250706666",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-07-07T18:53:19.000Z",
-        "updated": "2025-07-07T18:53:19.000Z",
-        "resources": 2,
+        "category2": "Non Structure Fire",
+        "created": "2025-07-07T19:11:28.000Z",
+        "updated": "2025-07-07T19:11:28.000Z",
+        "resources": 1,
         "location": "Parsonage Cr, Truganina",
         "cfaId": 228042,
         "size": "Small",
@@ -171,37 +171,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71613088335764,
-          -37.82742859363336
+          144.7155526481629,
+          -37.82713890357626
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120231878,
+        "status": "Responding",
+        "estaId": 120232048,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120231878,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Longwood",
-        "eventId": "F250706663",
-        "id": "ESTA:250706663",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228043,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Emmett St",
+        "eventId": 250706669,
+        "id": "ESTA:250706669",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-07-07T18:29:06.000Z",
-        "updated": "2025-07-07T18:55:51.282Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-07T19:18:00.000Z",
+        "updated": "2025-07-07T19:18:00.000Z",
         "resources": 0,
-        "location": "Oxenburys Rd, Longwood"
+        "location": "Emmett St, Golden Square",
+        "cfaId": 228043,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.39974067830204,
-          -36.82716665377644
+          144.2493597045075,
+          -36.77103302053555
         ]
       }
     },
@@ -211,14 +214,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/23d16de6919aa1e9eb1de4223df12cd4",
+        "sourceId": "IDV20600/1d7994d31fc095a60e4326316bdf0380",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/23d16de6919aa1e9eb1de4223df12cd4",
+        "id": "IDV20600/1d7994d31fc095a60e4326316bdf0380",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-07-07T14:00:00.000Z",
+        "created": "2025-07-07T19:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1157,14 +1160,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/46f76d520c55368c4e6c812c9894f97a",
+        "sourceId": "IDV20600/039535ebc038b0bbb8bfa97ef34f680e",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/46f76d520c55368c4e6c812c9894f97a",
+        "id": "IDV20600/039535ebc038b0bbb8bfa97ef34f680e",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-07-07T14:00:00.000Z",
+        "created": "2025-07-07T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -8056,7 +8059,7 @@
         "category2": "Other",
         "created": "2025-07-07T17:36:00.000Z",
         "updated": "2025-07-07T18:32:00.000Z",
-        "resources": 10,
+        "resources": 9,
         "location": "Hume Fwy, Longwood",
         "size": "Small",
         "sizeFmt": "Small"
@@ -8083,9 +8086,9 @@
         "id": "ESTA:250706664",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-07T18:50:31.000Z",
-        "updated": "2025-07-07T18:50:31.000Z",
-        "resources": 2,
+        "created": "2025-07-07T19:02:12.000Z",
+        "updated": "2025-07-07T19:02:12.000Z",
+        "resources": 1,
         "location": "Mt Duneed Rd, Mount Duneed",
         "size": "Small",
         "sizeFmt": "Small",
@@ -8095,8 +8098,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3251643881572,
-          -38.247792565196306
+          144.3137825692039,
+          -38.24701673949148
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250706667",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250706667",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brewer Rd",
+        "id": "ESTA:250706667",
+        "eventId": "250706667",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-07T19:11:50.000Z",
+        "updated": "2025-07-07T19:11:50.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Brewer Rd, Bentleigh"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03536038501872,
+          -37.922127808879424
         ]
       }
     },
@@ -8357,7 +8389,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-07T18:57:05.501Z",
-    "featureCount": 12
+    "lastUpdated": "2025-07-07T19:23:20.112Z",
+    "featureCount": 13
   }
 }
