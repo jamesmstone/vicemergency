@@ -144,62 +144,29 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120242086,
+        "estaId": 120242356,
         "feedType": "incident",
-        "source": "OFFICER",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250707188",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Creswick Rd",
-        "eventId": "250707188",
-        "id": "ESTA:250707188",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120242356,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Brunswick",
+        "eventId": "F250707196",
+        "id": "ESTA:250707196",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-07-08T12:49:11.000Z",
-        "updated": "2025-07-08T12:49:11.000Z",
-        "resources": 1,
-        "location": "Creswick Rd, Soldiers Hill",
-        "mfbId": "250707188",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.85011358403437,
-          -37.542639313719214
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 120241709,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571682,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250750662,
-        "id": "ESTA:250750662",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-08T11:51:00.000Z",
-        "updated": "2025-07-08T12:54:00.000Z",
+        "created": "2025-07-08T13:40:11.000Z",
+        "updated": "2025-07-08T13:40:46.920Z",
         "resources": 0,
-        "location": "St Leonards",
-        "sesId": 571682
+        "location": "Brunswick"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6799222215342,
-          -38.186103241520364
+          144.9581150169854,
+          -37.77581309010282
         ]
       }
     },
@@ -1880,87 +1847,29 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 228181,
+        "mfbId": "250707188",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228181,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250707179,
-        "id": "ESTA:250707179",
-        "category1": "Fire",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250707188",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Creswick Rd",
+        "id": "ESTA:250707188",
+        "eventId": "250707188",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-08T11:46:00.000Z",
-        "updated": "2025-07-08T12:06:00.000Z",
-        "resources": 0,
-        "location": "Markwood",
+        "created": "2025-07-08T13:18:33.000Z",
+        "updated": "2025-07-08T13:18:33.000Z",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Creswick Rd, Soldiers Hill"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.49597083458048,
-          -36.45800594704664
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 228179,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228179,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Yooringa Av",
-        "eventId": 250707175,
-        "id": "ESTA:250707175",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-08T11:26:00.000Z",
-        "updated": "2025-07-08T12:25:00.000Z",
-        "resources": 0,
-        "location": "Yooringa Av, Norlane",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.35263273065178,
-          -38.094532630346784
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 228182,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228182,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Young St",
-        "eventId": 250707186,
-        "id": "ESTA:250707186",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-08T12:45:00.000Z",
-        "updated": "2025-07-08T12:45:00.000Z",
-        "resources": 3,
-        "location": "Young St, Drouin",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8579479288894,
-          -38.13545298801492
+          143.85011358403437,
+          -37.542639313719214
         ]
       }
     }
@@ -2192,7 +2101,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-08T12:57:20.151Z",
-    "featureCount": 10
+    "lastUpdated": "2025-07-08T13:42:15.558Z",
+    "featureCount": 7
   }
 }
