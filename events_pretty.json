@@ -143,60 +143,65 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120253113,
+        "status": "Responding",
+        "estaId": 120253120,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571737,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250750716,
-        "id": "ESTA:250750716",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250707810",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Major Rd",
+        "eventId": "250707810",
+        "id": "ESTA:250707810",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-09T11:23:00.000Z",
-        "updated": "2025-07-09T11:23:00.000Z",
-        "resources": 0,
-        "location": "Woodend",
-        "sesId": 571737
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-07-09T11:35:38.000Z",
+        "updated": "2025-07-09T11:35:38.000Z",
+        "resources": 2,
+        "location": "Major Rd, Fawkner",
+        "mfbId": "250707810",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.5667413221849,
-          -37.363512532184764
+          144.96884546721762,
+          -37.70759102669784
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120253120,
+        "estaId": 120253230,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120253120,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Fawkner",
-        "eventId": "F250707810",
-        "id": "ESTA:250707810",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228293,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Claymore St",
+        "eventId": 250707812,
+        "id": "ESTA:250707812",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-07-09T11:22:40.000Z",
-        "updated": "2025-07-09T11:24:01.704Z",
+        "category2": "Building Fire",
+        "created": "2025-07-09T11:38:00.000Z",
+        "updated": "2025-07-09T11:38:00.000Z",
         "resources": 0,
-        "location": "Major Rd, Fawkner"
+        "location": "Claymore St, Beveridge",
+        "cfaId": 228293,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9688481831613,
-          -37.70758232891455
+          144.96672025005972,
+          -37.48190161112113
         ]
       }
     },
@@ -1238,64 +1243,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 228278,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228278,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nepean Hwy",
-        "eventId": 250707751,
-        "id": "ESTA:250707751",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-09T08:01:00.000Z",
-        "updated": "2025-07-09T10:30:00.000Z",
-        "resources": 0,
-        "location": "Nepean Hwy, Bonbeach",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1192889093168,
-          -38.06310072685403
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 228289,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228289,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250707800,
-        "id": "ESTA:250707800",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-09T10:24:00.000Z",
-        "updated": "2025-07-09T10:36:00.000Z",
-        "resources": 0,
-        "location": "Mooroopna",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36453301608745,
-          -36.392941071405794
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 228291,
         "feedType": "incident",
@@ -1376,6 +1323,33 @@
         "coordinates": [
           146.86499832960192,
           -36.13247979470055
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 571737,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571737,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750716,
+        "id": "ESTA:250750716",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-09T11:23:00.000Z",
+        "updated": "2025-07-09T11:26:00.000Z",
+        "resources": 0,
+        "location": "Woodend"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5667413221849,
+          -37.363512532184764
         ]
       }
     }
@@ -1607,7 +1581,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-09T11:25:20.212Z",
-    "featureCount": 13
+    "lastUpdated": "2025-07-09T11:39:20.350Z",
+    "featureCount": 12
   }
 }
