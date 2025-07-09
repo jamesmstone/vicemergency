@@ -211,33 +211,60 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120255020,
+        "status": "Request For Assistance",
+        "estaId": 120255232,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250707851",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cooper St",
-        "eventId": "250707851",
-        "id": "ESTA:250707851",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571745,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750726,
+        "id": "ESTA:250750726",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-09T17:23:39.000Z",
-        "updated": "2025-07-09T17:23:39.000Z",
-        "resources": 2,
-        "location": "Cooper St, Broadmeadows",
-        "mfbId": "250707851",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-07-09T17:43:00.000Z",
+        "updated": "2025-07-09T17:45:00.000Z",
+        "resources": 0,
+        "location": "Coburg North",
+        "sesId": 571745
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92846547441556,
-          -37.68887701374685
+          144.96409781370136,
+          -37.73070584158239
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120255250,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120255250,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Carlton",
+        "eventId": "F250707856",
+        "id": "ESTA:250707856",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-09T17:46:00.000Z",
+        "updated": "2025-07-09T17:51:06.541Z",
+        "resources": 4,
+        "location": "Drummond St, Carlton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96995934061482,
+          -37.794470640350596
         ]
       }
     },
@@ -2690,30 +2717,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250707848",
+        "status": "Not Yet Under Control",
+        "cfaId": 228308,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250707848",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Somerset Rd",
-        "id": "ESTA:250707848",
-        "eventId": "250707848",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-09T16:24:48.000Z",
-        "updated": "2025-07-09T16:24:48.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228308,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "South Gippsland Hwy",
+        "eventId": 250707853,
+        "id": "ESTA:250707853",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-09T17:35:00.000Z",
+        "updated": "2025-07-09T17:35:00.000Z",
+        "resources": 2,
+        "location": "South Gippsland Hwy, Dandenong South",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Somerset Rd, Campbellfield"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96030938671262,
-          -37.67852069847963
+          145.23536034220172,
+          -38.01930150061801
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250707854",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250707854",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Flinders St",
+        "id": "ESTA:250707854",
+        "eventId": "250707854",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-09T17:44:41.000Z",
+        "updated": "2025-07-09T17:44:41.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Flinders St, Portland"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6039052689636,
+          -38.33090776264163
         ]
       }
     }
@@ -2945,7 +3001,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-09T17:27:45.828Z",
-    "featureCount": 9
+    "lastUpdated": "2025-07-09T17:52:00.609Z",
+    "featureCount": 11
   }
 }
