@@ -117,7 +117,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 120279777,
         "feedType": "incident",
         "source": "000",
@@ -131,8 +131,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-07-11T18:31:00.000Z",
-        "updated": "2025-07-11T18:31:00.000Z",
-        "resources": 1,
+        "updated": "2025-07-11T18:43:00.000Z",
+        "resources": 2,
         "location": "Ballarat Rd, Hamilton",
         "cfaId": 228506,
         "size": "Small",
@@ -144,6 +144,36 @@
         "coordinates": [
           142.0418083694577,
           -37.74264130283193
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120279304,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 571869,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250750858,
+        "id": "ESTA:250750858",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-07-11T16:50:00.000Z",
+        "updated": "2025-07-11T18:47:00.000Z",
+        "resources": 0,
+        "location": "South Morang",
+        "sesId": 571869
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0910191630955,
+          -37.65523619686307
         ]
       }
     },
@@ -1106,35 +1136,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 228500,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228500,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Meadowvale Dr",
-        "eventId": 250708948,
-        "id": "ESTA:250708948",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-11T16:22:00.000Z",
-        "updated": "2025-07-11T17:45:00.000Z",
-        "resources": 0,
-        "location": "Meadowvale Dr, Grovedale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3126900170146,
-          -38.204938607865266
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 571828,
         "feedType": "incident",
@@ -1157,33 +1158,6 @@
         "coordinates": [
           145.39620198486696,
           -37.89986157375126
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 571869,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 571869,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250750858,
-        "id": "ESTA:250750858",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-07-11T16:50:00.000Z",
-        "updated": "2025-07-11T16:57:00.000Z",
-        "resources": 1,
-        "location": "South Morang"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0910191630955,
-          -37.65523619686307
         ]
       }
     }
@@ -1415,7 +1389,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-11T18:38:25.560Z",
-    "featureCount": 7
+    "lastUpdated": "2025-07-11T18:56:05.457Z",
+    "featureCount": 6
   }
 }
