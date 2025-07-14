@@ -118,23 +118,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120313746,
+        "estaId": 120313857,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228825,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 250711471,
-        "id": "ESTA:250711471",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250711472",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ernest St",
+        "eventId": "250711472",
+        "id": "ESTA:250711472",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-14T16:45:00.000Z",
-        "updated": "2025-07-14T16:51:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Werribee",
-        "cfaId": 228825,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-07-14T17:23:14.000Z",
+        "updated": "2025-07-14T17:23:14.000Z",
+        "resources": 2,
+        "location": "Ernest St, Broadmeadows",
+        "mfbId": "250711472",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -142,8 +142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.68191682029405,
-          -37.893598991917024
+          144.92828149612552,
+          -37.691580050871224
         ]
       }
     },
@@ -1444,35 +1444,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 228823,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228823,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Armstrong Rd",
-        "eventId": 250711466,
-        "id": "ESTA:250711466",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-14T15:55:00.000Z",
-        "updated": "2025-07-14T16:08:00.000Z",
-        "resources": 0,
-        "location": "Armstrong Rd, Manor Lakes",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.60914585154856,
-          -37.87414742963119
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 228824,
         "feedType": "incident",
@@ -1486,7 +1457,7 @@
         "category2": "Structure Fire",
         "created": "2025-07-14T16:41:12.000Z",
         "updated": "2025-07-14T16:41:12.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Peg Leg Rd, Eaglehawk",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1498,6 +1469,35 @@
         "coordinates": [
           144.251499459098,
           -36.7174366103545
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 228825,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228825,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 250711471,
+        "id": "ESTA:250711471",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-14T16:45:00.000Z",
+        "updated": "2025-07-14T16:51:00.000Z",
+        "resources": 0,
+        "location": "Princes Hwy, Werribee",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68191682029405,
+          -37.893598991917024
         ]
       }
     },
@@ -1543,6 +1543,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1550,8 +1551,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1567,6 +1567,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1574,8 +1575,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-07-14T14:00:00.000Z",
           "heat": {
@@ -1756,7 +1756,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-14T16:57:40.296Z",
+    "lastUpdated": "2025-07-14T17:28:20.198Z",
     "featureCount": 6
   }
 }
