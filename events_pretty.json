@@ -117,30 +117,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 228820,
+        "status": "Complete",
+        "estaId": 120311979,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228820,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gisborne Rd",
-        "eventId": 250711443,
-        "id": "ESTA:250711443",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-07-14T12:16:00.000Z",
-        "updated": "2025-07-14T12:49:00.000Z",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572091,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250751072,
+        "id": "ESTA:250751072",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-07-14T11:36:00.000Z",
+        "updated": "2025-07-14T13:45:00.000Z",
         "resources": 0,
-        "location": "Gisborne Rd, Bacchus Marsh",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Port Melbourne",
+        "sesId": 572091
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.43546289765385,
-          -37.67428512353376
+          144.92152530521096,
+          -37.83162408338983
         ]
       }
     },
@@ -175,7 +176,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "cfaId": 228822,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -187,7 +188,7 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-07-14T13:36:00.000Z",
-        "updated": "2025-07-14T13:36:00.000Z",
+        "updated": "2025-07-14T13:45:00.000Z",
         "resources": 0,
         "location": "William Dr, Kangaroo Flat",
         "size": "Small",
@@ -199,6 +200,36 @@
         "coordinates": [
           144.2360164605748,
           -36.79727220248826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "mfbId": "250711449",
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572093,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "id": "ESTA:250711449",
+        "eventId": 250711449,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-07-14T12:58:00.000Z",
+        "updated": "2025-07-14T13:55:00.000Z",
+        "resources": 5,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Roxburgh Park",
+        "sesId": 572093
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92659926389496,
+          -37.62392797848065
         ]
       }
     },
@@ -262,36 +293,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "mfbId": "250711449",
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572093,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250711449",
-        "eventId": 250711449,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-07-14T12:58:00.000Z",
-        "updated": "2025-07-14T13:07:00.000Z",
-        "resources": 7,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Roxburgh Park",
-        "sesId": 572093
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92659926389496,
-          -37.62392797848065
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 572069,
         "feedType": "incident",
@@ -316,33 +317,6 @@
           -37.973758774006484
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 572091,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572091,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751072,
-        "id": "ESTA:250751072",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-07-14T11:36:00.000Z",
-        "updated": "2025-07-14T12:15:00.000Z",
-        "resources": 1,
-        "location": "Port Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92152530521096,
-          -37.83162408338983
-        ]
-      }
     }
   ],
   "properties": {
@@ -359,7 +333,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -367,7 +340,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -383,7 +357,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -391,7 +364,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-07-13T14:00:00.000Z",
           "heat": {
@@ -572,7 +546,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-14T13:42:25.880Z",
-    "featureCount": 9
+    "lastUpdated": "2025-07-14T13:57:19.917Z",
+    "featureCount": 8
   }
 }
