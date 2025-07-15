@@ -147,7 +147,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 120323890,
         "feedType": "incident",
         "source": "000",
@@ -174,6 +174,104 @@
         "coordinates": [
           145.32301586421252,
           -37.789947265133364
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120323542,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572128,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250712141,
+        "id": "ESTA:250712141",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-07-15T10:37:00.000Z",
+        "updated": "2025-07-15T11:31:00.000Z",
+        "resources": 0,
+        "location": "Buangor",
+        "cfaId": 228911,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 572128
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.13225652851744,
+          -37.34652393996897
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120324013,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712157",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bentinck St",
+        "eventId": "250712157",
+        "id": "ESTA:250712157",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-15T11:33:42.000Z",
+        "updated": "2025-07-15T11:33:42.000Z",
+        "resources": 2,
+        "location": "Bentinck St, Portland",
+        "cfaId": 228917,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250712157"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.60578896153152,
+          -38.3532418150251
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120323987,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712156",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cuthbert Rd",
+        "eventId": "250712156",
+        "id": "ESTA:250712156",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-15T11:34:55.000Z",
+        "updated": "2025-07-15T11:34:55.000Z",
+        "resources": 7,
+        "location": "Cuthbert Rd, Reservoir",
+        "mfbId": "250712156",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0189877548874,
+          -37.7172707541596
         ]
       }
     },
@@ -1475,30 +1573,58 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 228891,
+        "cfaId": 228910,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712067",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pepperbush Cct",
-        "eventId": "250712067",
-        "id": "ESTA:250712067",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-15T10:37:40.000Z",
-        "updated": "2025-07-15T10:37:40.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228910,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bacchus Marsh Rd",
+        "eventId": 250712138,
+        "id": "ESTA:250712138",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-15T10:31:00.000Z",
+        "updated": "2025-07-15T10:51:00.000Z",
         "resources": 0,
-        "location": "Pepperbush Cct, Cranbourne",
+        "location": "Bacchus Marsh Rd, Bacchus Marsh",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250712067"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28243661630802,
-          -38.08826614441065
+          144.4683054264208,
+          -37.687980197359785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 228914,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 228914,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250712148,
+        "id": "ESTA:250712148",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-15T10:56:00.000Z",
+        "updated": "2025-07-15T11:29:00.000Z",
+        "resources": 0,
+        "location": "Connewarre",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.40606733260785,
+          -38.25717400239449
         ]
       }
     },
@@ -1528,124 +1654,6 @@
         "coordinates": [
           146.07054151430233,
           -37.1801794309032
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 228910,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 228910,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bacchus Marsh Rd",
-        "eventId": 250712138,
-        "id": "ESTA:250712138",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-15T10:31:00.000Z",
-        "updated": "2025-07-15T10:51:00.000Z",
-        "resources": 0,
-        "location": "Bacchus Marsh Rd, Bacchus Marsh",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4683054264208,
-          -37.687980197359785
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 228911,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572128,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250712141,
-        "id": "ESTA:250712141",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-07-15T10:37:00.000Z",
-        "updated": "2025-07-15T11:16:00.000Z",
-        "resources": 1,
-        "location": "Buangor",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 572128
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.13225652851744,
-          -37.34652393996897
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 228914,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712148",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Connewarre",
-        "eventId": "250712148",
-        "id": "ESTA:250712148",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-15T11:15:06.000Z",
-        "updated": "2025-07-15T11:15:06.000Z",
-        "resources": 2,
-        "location": "Connewarre, Connewarre",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250712148"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.40606883902623,
-          -38.25717197436646
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250712153",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712153",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clayton",
-        "id": "ESTA:250712153",
-        "eventId": "250712153",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-15T11:13:25.000Z",
-        "updated": "2025-07-15T11:13:25.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Clayton, Clayton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14013389405406,
-          -37.91614999400303
         ]
       }
     }
@@ -1877,7 +1885,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-15T11:25:19.989Z",
+    "lastUpdated": "2025-07-15T11:39:20.410Z",
     "featureCount": 10
   }
 }
