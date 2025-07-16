@@ -115,64 +115,59 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120338488,
+        "status": "Responding",
+        "estaId": 120338647,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572179,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751172,
-        "id": "ESTA:250751172",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120338647,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Laverton",
+        "eventId": "F250712888",
+        "id": "ESTA:250712888",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-16T20:31:00.000Z",
-        "updated": "2025-07-16T20:43:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T21:14:59.000Z",
+        "updated": "2025-07-16T21:15:26.439Z",
         "resources": 0,
-        "location": "Johanna",
-        "sesId": 572179
+        "location": "Princes Fwy, Laverton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.38612607880927,
-          -38.755551285587394
+          144.77932184092495,
+          -37.85207779206061
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120338532,
+        "estaId": 120338656,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712882",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Werribee",
-        "eventId": "250712882",
-        "id": "ESTA:250712882",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120338656,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Laverton",
+        "eventId": "F250712889",
+        "id": "ESTA:250712889",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-07-16T20:44:10.000Z",
-        "updated": "2025-07-16T20:44:10.000Z",
-        "resources": 2,
-        "location": "Werribee, Werribee",
-        "cfaId": 229035,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250712882"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T21:16:42.000Z",
+        "updated": "2025-07-16T21:17:44.664Z",
+        "resources": 0,
+        "location": "Laverton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.64464012393995,
-          -37.88670382876317
+          144.78503683710383,
+          -37.84449706685046
         ]
       }
     },
@@ -1486,7 +1481,7 @@
         "category2": "Other",
         "created": "2025-07-16T20:47:09.000Z",
         "updated": "2025-07-16T20:47:09.000Z",
-        "resources": 3,
+        "resources": 1,
         "location": "Bellarine Hwy, Wallington",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1498,6 +1493,64 @@
         "coordinates": [
           144.5015476868613,
           -38.20491405247575
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 229036,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229036,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Heaths Rd",
+        "eventId": 250712890,
+        "id": "ESTA:250712890",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-16T21:19:00.000Z",
+        "updated": "2025-07-16T21:19:00.000Z",
+        "resources": 2,
+        "location": "Heaths Rd, Hoppers Crossing",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68001591239218,
+          -37.87699885753065
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250712887",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712887",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Altona",
+        "id": "ESTA:250712887",
+        "eventId": "250712887",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T21:25:54.000Z",
+        "updated": "2025-07-16T21:25:54.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Altona, Altona"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7856240790221,
+          -37.8445566522603
         ]
       }
     }
@@ -1516,7 +1569,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1524,7 +1576,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1540,7 +1593,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1548,7 +1600,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-07-16T14:00:00.000Z",
           "heat": {
@@ -1729,7 +1782,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-16T20:54:00.322Z",
-    "featureCount": 8
+    "lastUpdated": "2025-07-16T21:27:40.589Z",
+    "featureCount": 10
   }
 }
