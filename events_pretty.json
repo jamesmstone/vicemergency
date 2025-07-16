@@ -116,23 +116,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120337110,
+        "estaId": 120337537,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 229029,
+        "sourceId": 229030,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Church St",
-        "eventId": 250712862,
-        "id": "ESTA:250712862",
+        "sourceTitle": "Hall St",
+        "eventId": 250712864,
+        "id": "ESTA:250712864",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-07-16T14:53:00.000Z",
-        "updated": "2025-07-16T16:44:00.000Z",
-        "resources": 3,
-        "location": "Church St, Carisbrook",
-        "cfaId": 229029,
+        "created": "2025-07-16T16:14:00.000Z",
+        "updated": "2025-07-16T17:05:00.000Z",
+        "resources": 0,
+        "location": "Hall St, Epping",
+        "cfaId": 229030,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -140,41 +140,73 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.80506272737068,
-          -37.04739766993791
+          145.02503494787732,
+          -37.642875438571835
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120337864,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712868",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pearcedale Pde",
+        "eventId": "250712868",
+        "id": "ESTA:250712868",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-16T17:25:34.000Z",
+        "updated": "2025-07-16T17:25:34.000Z",
+        "resources": 2,
+        "location": "Pearcedale Pde, Broadmeadows",
+        "mfbId": "250712868",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91930689379888,
+          -37.67550859583323
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120337698,
+        "estaId": 120337795,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250712866",
+        "sourceId": "250712867",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Humffray St",
-        "eventId": "250712866",
-        "id": "ESTA:250712866",
+        "sourceTitle": "Corrigan Rd",
+        "eventId": "250712867",
+        "id": "ESTA:250712867",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-07-16T16:56:47.000Z",
-        "updated": "2025-07-16T16:56:47.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-07-16T17:26:22.000Z",
+        "updated": "2025-07-16T17:26:22.000Z",
         "resources": 2,
-        "location": "Humffray St, Brown Hill",
-        "cfaId": 229031,
+        "location": "Corrigan Rd, Noble Park",
+        "cfaId": 229032,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250712866"
+        "mfbId": "250712867"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.89933506193577,
-          -37.55262780796657
+          145.16672234012054,
+          -37.97235361302947
         ]
       }
     },
@@ -1500,31 +1532,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 229030,
+        "status": "Safe",
+        "cfaId": 229029,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712864",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hall St",
-        "eventId": "250712864",
-        "id": "ESTA:250712864",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229029,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Church St",
+        "eventId": 250712862,
+        "id": "ESTA:250712862",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-16T16:28:59.000Z",
-        "updated": "2025-07-16T16:28:59.000Z",
+        "category2": "Building Fire",
+        "created": "2025-07-16T14:53:00.000Z",
+        "updated": "2025-07-16T16:44:00.000Z",
         "resources": 2,
-        "location": "Hall St, Epping",
+        "location": "Church St, Carisbrook",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250712864"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0250428289498,
-          -37.642869760489575
+          143.80506272737068,
+          -37.04739766993791
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 229031,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229031,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Humffray St",
+        "eventId": 250712866,
+        "id": "ESTA:250712866",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-07-16T16:46:00.000Z",
+        "updated": "2025-07-16T16:57:00.000Z",
+        "resources": 0,
+        "location": "Humffray St, Brown Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.89862713881794,
+          -37.553000294274796
         ]
       }
     }
@@ -1756,7 +1816,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-16T16:59:00.168Z",
-    "featureCount": 9
+    "lastUpdated": "2025-07-16T17:29:45.546Z",
+    "featureCount": 11
   }
 }
