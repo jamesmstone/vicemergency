@@ -115,31 +115,66 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120335347,
+        "status": "Responding",
+        "estaId": 120336323,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572169,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751162,
-        "id": "ESTA:250751162",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229023,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harding St",
+        "eventId": 250712834,
+        "id": "ESTA:250712834",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-07-16T10:43:00.000Z",
-        "updated": "2025-07-16T10:46:00.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-16T12:54:00.000Z",
+        "updated": "2025-07-16T12:54:00.000Z",
         "resources": 0,
-        "location": "Windsor",
-        "sesId": 572169
+        "location": "Harding St, Timboon",
+        "cfaId": 229023,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98697081232368,
-          -37.85378573668428
+          142.9709703714117,
+          -38.48280617158836
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120336215,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712831",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mckean St",
+        "eventId": "250712831",
+        "id": "ESTA:250712831",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-16T12:56:15.000Z",
+        "updated": "2025-07-16T12:56:15.000Z",
+        "resources": 2,
+        "location": "Mckean St, Mooroopna",
+        "cfaId": 229021,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250712831"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3585262763227,
+          -36.38762369528932
         ]
       }
     },
@@ -149,14 +184,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/8ddbb9331e2186fa30f1692cd049efeb",
+        "sourceId": "IDV20600/b01b9bb2d9aa8b66685f7f9abed5590f",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/8ddbb9331e2186fa30f1692cd049efeb",
+        "id": "IDV20600/b01b9bb2d9aa8b66685f7f9abed5590f",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-07-16T07:00:00.000Z",
+        "created": "2025-07-16T12:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -772,260 +807,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 229007,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229007,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250712790,
-        "id": "ESTA:250712790",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-07-16T10:14:00.000Z",
-        "updated": "2025-07-16T10:56:00.000Z",
-        "resources": 0,
-        "location": "Nichols Point",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.20716145398768,
-          -34.22196246346197
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 229012,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229012,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sugargum Trk",
-        "eventId": 250712800,
-        "id": "ESTA:250712800",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-16T10:36:00.000Z",
-        "updated": "2025-07-16T11:03:00.000Z",
-        "resources": 0,
-        "location": "Sugargum Trk, Cape Clear",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.6013341203445,
-          -37.78472808851409
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 229015,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229015,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Potter St",
-        "eventId": 250712806,
-        "id": "ESTA:250712806",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-16T10:57:00.000Z",
-        "updated": "2025-07-16T11:07:00.000Z",
-        "resources": 1,
-        "location": "Potter St, Dandenong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20663675121153,
-          -37.98026015225818
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "cfaId": 229014,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229014,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Baxter-Tooradin Rd",
-        "eventId": 250712804,
-        "id": "ESTA:250712804",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-16T10:49:00.000Z",
-        "updated": "2025-07-16T11:21:00.000Z",
-        "resources": 4,
-        "location": "Baxter-Tooradin Rd, Pearcedale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25745797055293,
-          -38.20464186656301
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 229017,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229017,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Oldershaw Rd",
-        "eventId": 250712811,
-        "id": "ESTA:250712811",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-16T11:05:00.000Z",
-        "updated": "2025-07-16T11:32:00.000Z",
-        "resources": 0,
-        "location": "Oldershaw Rd, Melton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.573479583018,
-          -37.68129838272366
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 229020,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229020,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lake St",
-        "eventId": 250712821,
-        "id": "ESTA:250712821",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-16T11:48:00.000Z",
-        "updated": "2025-07-16T11:48:00.000Z",
-        "resources": 0,
-        "location": "Lake St, Caroline Springs",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.74340143823403,
-          -37.73319229362802
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250712812",
+        "cfaId": 229022,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250712812",
+        "sourceId": "250712832",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melton Hwy",
-        "id": "ESTA:250712812",
-        "eventId": "250712812",
+        "sourceTitle": "Clyde North",
+        "eventId": "250712832",
+        "id": "ESTA:250712832",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-16T11:17:07.000Z",
-        "updated": "2025-07-16T11:17:07.000Z",
+        "created": "2025-07-16T12:48:12.000Z",
+        "updated": "2025-07-16T12:48:12.000Z",
         "resources": 1,
+        "location": "Clyde North, Clyde North",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Melton Hwy, Taylors Lakes"
+        "mfbId": "250712832"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.77607141615303,
-          -37.69808703624681
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250712820",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712820",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ballarat Rd",
-        "id": "ESTA:250712820",
-        "eventId": "250712820",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-16T11:43:58.000Z",
-        "updated": "2025-07-16T11:43:58.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ballarat Rd, Maidstone"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.87812417708696,
-          -37.78640922751125
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 572171,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572171,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751164,
-        "id": "ESTA:250751164",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-07-16T11:05:00.000Z",
-        "updated": "2025-07-16T11:50:00.000Z",
-        "resources": 1,
-        "location": "Melton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.573479583018,
-          -37.68129838272366
+          145.34297399731298,
+          -38.09048734997724
         ]
       }
     }
@@ -1257,7 +1063,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-16T11:50:20.488Z",
-    "featureCount": 15
+    "lastUpdated": "2025-07-16T13:00:00.232Z",
+    "featureCount": 8
   }
 }
