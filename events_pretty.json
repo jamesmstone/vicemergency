@@ -3,7 +3,7 @@
   "features": [
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3024390,
@@ -12,8 +12,8 @@
         "id": 3024390,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-07-16T00:26:43.000Z",
-        "updated": "2025-07-16T00:26:43.000Z",
+        "created": "2025-07-16T22:56:18.000Z",
+        "updated": "2025-07-16T22:56:18.000Z",
         "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
@@ -59,7 +59,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3024438,
@@ -68,8 +68,8 @@
         "id": 3024438,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-07-15T23:45:22.000Z",
-        "updated": "2025-07-15T23:45:22.000Z",
+        "created": "2025-07-16T22:55:28.000Z",
+        "updated": "2025-07-16T22:55:28.000Z",
         "resources": 0,
         "size": "0.10",
         "sizeFmt": "0.10 Ha.",
@@ -115,24 +115,53 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120339234,
+        "status": "Unknown",
+        "estaId": 120334131,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229042,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kilmore Lancefield Rd",
-        "eventId": 250712940,
-        "id": "ESTA:250712940",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120334131,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ballan",
+        "eventId": "F250712756",
+        "id": "ESTA:250712756",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-16T22:48:00.000Z",
-        "updated": "2025-07-16T22:48:00.000Z",
+        "category2": "Other",
+        "created": "2025-07-16T08:40:01.000Z",
+        "updated": "2025-07-16T23:17:35.440Z",
         "resources": 0,
-        "location": "Kilmore Lancefield Rd, Kilmore",
-        "cfaId": 229042,
+        "location": "Mill Park St, Ballan"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.23009006805378,
+          -37.598542642780394
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120339408,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250712946",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Swan St",
+        "eventId": "250712946",
+        "id": "ESTA:250712946",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T23:21:38.000Z",
+        "updated": "2025-07-16T23:21:38.000Z",
+        "resources": 2,
+        "location": "Swan St, Keilor Park",
+        "mfbId": "250712946",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -140,8 +169,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9433152532364,
-          -37.29493275015945
+          144.85637638667856,
+          -37.72415123008041
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120339438,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229043,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Church St",
+        "eventId": 250712950,
+        "id": "ESTA:250712950",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-16T23:12:00.000Z",
+        "updated": "2025-07-16T23:23:00.000Z",
+        "resources": 1,
+        "location": "Church St, Carisbrook",
+        "cfaId": 229043,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.80490658968938,
+          -37.04834755846226
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120339596,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120339596,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "F250712961",
+        "id": "ESTA:250712961",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T23:25:31.000Z",
+        "updated": "2025-07-16T23:27:27.801Z",
+        "resources": 0,
+        "location": "Albert St, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.025360110142,
+          -37.72918426394322
         ]
       }
     },
@@ -1472,65 +1562,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 229038,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229038,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Out-Lithgow Ramp",
-        "eventId": 250712898,
-        "id": "ESTA:250712898",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-16T21:44:00.000Z",
-        "updated": "2025-07-16T22:07:00.000Z",
-        "resources": 0,
-        "location": "Hume Out-Lithgow Ramp, Beveridge",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9726406177295,
-          -37.474991880677074
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "mfbId": "250712887",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712887",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Altona",
-        "id": "ESTA:250712887",
-        "eventId": "250712887",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-16T21:25:54.000Z",
-        "updated": "2025-07-16T21:25:54.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Altona, Altona"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7856240790221,
-          -37.8445566522603
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "mfbId": "250712938",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1541,8 +1573,8 @@
         "eventId": "250712938",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-16T22:47:10.000Z",
-        "updated": "2025-07-16T22:47:10.000Z",
+        "created": "2025-07-16T23:07:26.000Z",
+        "updated": "2025-07-16T23:07:26.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1554,35 +1586,6 @@
         "coordinates": [
           143.85870867035084,
           -37.566350021094635
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250712897",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250712897",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dellfield Dr",
-        "id": "ESTA:250712897",
-        "eventId": "250712897",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-16T21:55:38.000Z",
-        "updated": "2025-07-16T21:55:38.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Dellfield Dr, Templestowe Lower"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12121747372538,
-          -37.765262973758354
         ]
       }
     },
@@ -1601,7 +1604,7 @@
         "category2": "Structure Fire",
         "created": "2025-07-16T22:20:34.000Z",
         "updated": "2025-07-16T22:20:34.000Z",
-        "resources": 3,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "May St, Deepdene"
@@ -1630,7 +1633,7 @@
         "category2": "Other",
         "created": "2025-07-16T22:50:50.000Z",
         "updated": "2025-07-16T22:50:50.000Z",
-        "resources": 1,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Albert Park, Albert Park"
@@ -1647,27 +1650,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 572181,
+        "sesId": 572182,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 572181,
+        "sourceId": 572182,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250751174,
-        "id": "ESTA:250751174",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-07-16T22:24:00.000Z",
-        "updated": "2025-07-16T22:51:00.000Z",
+        "eventId": 250751175,
+        "id": "ESTA:250751175",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-07-16T23:08:00.000Z",
+        "updated": "2025-07-16T23:14:00.000Z",
         "resources": 1,
-        "location": "Warragul"
+        "location": "Keilor Park"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.90389869746176,
-          -38.14833675432352
+          144.85636941085687,
+          -37.72415425390363
         ]
       }
     }
@@ -1899,7 +1902,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-16T22:55:00.163Z",
+    "lastUpdated": "2025-07-16T23:28:00.088Z",
     "featureCount": 14
   }
 }
