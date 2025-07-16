@@ -115,31 +115,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120338172,
+        "status": "Unknown",
+        "estaId": 120338190,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572172,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751165,
-        "id": "ESTA:250751165",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120338190,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Macarthur",
+        "eventId": "S250751166",
+        "id": "ESTA:250751166",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-16T18:54:00.000Z",
-        "updated": "2025-07-16T18:54:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-07-16T18:58:16.000Z",
+        "updated": "2025-07-16T19:03:59.242Z",
         "resources": 0,
-        "location": "Stony Creek (Foster)",
-        "sesId": 572172
+        "location": "Macarthur"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.07144767741588,
-          -38.59154287561194
+          141.87078829397987,
+          -38.000510436474706
         ]
       }
     },
@@ -149,18 +148,18 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/467fe753073ce281ceffa492c3bb8589",
+        "sourceId": "IDV20600/d16f93c45e971ef266c8565ff574bc98",
         "sourceFeed": "bom-idv20600",
-        "sourceTitle": "Gale Warning",
-        "id": "IDV20600/467fe753073ce281ceffa492c3bb8589",
+        "sourceTitle": "Strong Wind Warning",
+        "id": "IDV20600/d16f93c45e971ef266c8565ff574bc98",
         "category1": "Met",
-        "category2": "Gale Wind",
-        "name": "Gale Warning",
-        "created": "2025-07-16T14:00:00.000Z",
-        "webHeadline": "Gale Warning",
+        "category2": "Strong Wind",
+        "name": "Strong Wind Warning",
+        "created": "2025-07-16T19:00:00.000Z",
+        "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
-        "location": "West Coast"
+        "location": "West Coast, Central Coast, Central Gippsland Coast and East Gippsland Coast"
       },
       "geometry": {
         "type": "GeometryCollection",
@@ -396,39 +395,6 @@
               ]
             ]
           },
-          {
-            "type": "Point",
-            "coordinates": [
-              142.23862991200008,
-              -38.79615925999997
-            ],
-            "name": "West Coast"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Warning",
-        "feedType": "incident",
-        "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/3dc7c0bccecd16335462131694700cdf",
-        "sourceFeed": "bom-idv20600",
-        "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/3dc7c0bccecd16335462131694700cdf",
-        "category1": "Met",
-        "category2": "Strong Wind",
-        "name": "Strong Wind Warning",
-        "created": "2025-07-16T14:00:00.000Z",
-        "webHeadline": "Strong Wind Warning",
-        "webBody": null,
-        "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
-        "location": "Central Coast, Central Gippsland Coast and East Gippsland Coast"
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
           {
             "type": "Polygon",
             "coordinates": [
@@ -1439,6 +1405,14 @@
           {
             "type": "Point",
             "coordinates": [
+              142.23862991200008,
+              -38.79615925999997
+            ],
+            "name": "West Coast"
+          },
+          {
+            "type": "Point",
+            "coordinates": [
               144.94338504700005,
               -38.96782901249995
             ],
@@ -1460,6 +1434,89 @@
             ],
             "name": "East Gippsland Coast"
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 229033,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229033,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250712871,
+        "id": "ESTA:250712871",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-16T19:01:00.000Z",
+        "updated": "2025-07-16T19:05:00.000Z",
+        "resources": 0,
+        "location": "Macarthur",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.87077622494212,
+          -38.00052534788276
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 572172,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572172,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250751165,
+        "id": "ESTA:250751165",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-16T18:54:00.000Z",
+        "updated": "2025-07-16T18:54:00.000Z",
+        "resources": 0,
+        "location": "Stony Creek (Foster)"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.07144767741588,
+          -38.59154287561194
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 572174,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572174,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250751167,
+        "id": "ESTA:250751167",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-16T19:07:00.000Z",
+        "updated": "2025-07-16T19:10:00.000Z",
+        "resources": 0,
+        "location": "Pakenham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4641578025693,
+          -38.032084228108886
         ]
       }
     }
@@ -1691,7 +1748,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-16T18:58:20.205Z",
-    "featureCount": 7
+    "lastUpdated": "2025-07-16T19:24:05.284Z",
+    "featureCount": 9
   }
 }
