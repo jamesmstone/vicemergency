@@ -31,23 +31,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120350863,
+        "estaId": 120351025,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250713632",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mccrae",
-        "eventId": "250713632",
-        "id": "ESTA:250713632",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229152,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250713651,
+        "id": "ESTA:250713651",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-07-17T22:25:06.000Z",
-        "updated": "2025-07-17T22:25:06.000Z",
-        "resources": 1,
-        "location": "Mccrae, Mccrae",
-        "mfbId": "250713632",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-07-17T22:45:00.000Z",
+        "updated": "2025-07-17T22:45:00.000Z",
+        "resources": 2,
+        "location": "Benalla",
+        "cfaId": 229152,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -55,8 +55,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92724517068658,
-          -38.35640010808367
+          145.96041607009923,
+          -36.55902364205655
         ]
       }
     },
@@ -77,7 +77,7 @@
         "category2": "Washaway",
         "created": "2025-07-17T22:09:00.000Z",
         "updated": "2025-07-17T22:25:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Bridge St, Korumburra",
         "cfaId": 229151,
         "size": "Small",
@@ -89,38 +89,6 @@
         "coordinates": [
           145.8241412831164,
           -38.43437243396953
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120350684,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229149,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Aberdeen St",
-        "eventId": 250713606,
-        "id": "ESTA:250713606",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-17T21:56:00.000Z",
-        "updated": "2025-07-17T22:17:00.000Z",
-        "resources": 0,
-        "location": "Aberdeen St, Manifold Heights",
-        "cfaId": 229149,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.33096791361342,
-          -38.14468048498125
         ]
       }
     },
@@ -420,6 +388,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 229149,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229149,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Aberdeen St",
+        "eventId": 250713606,
+        "id": "ESTA:250713606",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-07-17T21:56:00.000Z",
+        "updated": "2025-07-17T22:17:00.000Z",
+        "resources": 0,
+        "location": "Aberdeen St, Manifold Heights",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.33096791361342,
+          -38.14468048498125
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250713568",
         "feedType": "incident",
@@ -450,6 +447,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "mfbId": "250713632",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250713632",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mccrae",
+        "id": "ESTA:250713632",
+        "eventId": "250713632",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-17T22:39:55.000Z",
+        "updated": "2025-07-17T22:39:55.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mccrae, Mccrae"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92724517068658,
+          -38.35640010808367
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250713579",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -462,7 +488,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-07-17T21:25:31.000Z",
         "updated": "2025-07-17T21:25:31.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Chesterville Rd, Cheltenham"
@@ -704,7 +730,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-17T22:29:20.038Z",
-    "featureCount": 8
+    "lastUpdated": "2025-07-17T22:53:00.790Z",
+    "featureCount": 9
   }
 }
