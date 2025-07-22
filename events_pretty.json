@@ -31,32 +31,63 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120409432,
+        "estaId": 120409497,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229774,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Purdey St",
-        "eventId": 250718026,
-        "id": "ESTA:250718026",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250718027",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Salisbury Av",
+        "eventId": "250718027",
+        "id": "ESTA:250718027",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-22T20:25:00.000Z",
-        "updated": "2025-07-22T20:25:00.000Z",
-        "resources": 1,
-        "location": "Purdey St, Tongala",
-        "cfaId": 229774,
+        "category2": "Structure Fire",
+        "created": "2025-07-22T20:42:09.000Z",
+        "updated": "2025-07-22T20:42:09.000Z",
+        "resources": 3,
+        "location": "Salisbury Av, Cockatoo",
+        "cfaId": 229775,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250718027"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95860450505407,
-          -36.25189972841516
+          145.4980425663208,
+          -37.95023833833693
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120409467,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572766,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250751760,
+        "id": "ESTA:250751760",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-22T20:37:00.000Z",
+        "updated": "2025-07-22T20:47:00.000Z",
+        "resources": 0,
+        "location": "Johanna",
+        "sesId": 572766
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.38405765760314,
+          -38.702019662013214
         ]
       }
     },
@@ -1382,30 +1413,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250718019",
+        "status": "Safe",
+        "cfaId": 229774,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250718019",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sunshine West",
-        "id": "ESTA:250718019",
-        "eventId": "250718019",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229774,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Purdey St",
+        "eventId": 250718026,
+        "id": "ESTA:250718026",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-22T18:40:35.000Z",
-        "updated": "2025-07-22T18:40:35.000Z",
-        "resources": 1,
+        "created": "2025-07-22T20:25:00.000Z",
+        "updated": "2025-07-22T20:38:00.000Z",
+        "resources": 0,
+        "location": "Purdey St, Tongala",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Sunshine West, Sunshine West"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.81867886950224,
-          -37.795983966230686
+          144.95860450505407,
+          -36.25189972841516
         ]
       }
     },
@@ -1664,7 +1695,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-22T20:32:00.156Z",
-    "featureCount": 6
+    "lastUpdated": "2025-07-22T20:54:00.533Z",
+    "featureCount": 7
   }
 }
