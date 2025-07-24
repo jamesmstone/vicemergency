@@ -30,7 +30,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "estaId": 120429892,
         "feedType": "incident",
         "source": "SES STRM",
@@ -44,7 +44,7 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-07-24T09:58:00.000Z",
-        "updated": "2025-07-24T09:58:00.000Z",
+        "updated": "2025-07-24T10:46:00.000Z",
         "resources": 1,
         "location": "Carters Rd, Arcadia",
         "cfaId": 229964,
@@ -62,34 +62,66 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120430194,
+        "status": "Responding",
+        "estaId": 120430370,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572859,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250719249,
-        "id": "ESTA:250719249",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719253",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rankin Rd",
+        "eventId": "250719253",
+        "id": "ESTA:250719253",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-07-24T10:30:00.000Z",
-        "updated": "2025-07-24T10:33:00.000Z",
-        "resources": 2,
-        "location": "Kennington",
-        "mfbId": "250719249",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-24T10:49:07.000Z",
+        "updated": "2025-07-24T10:49:07.000Z",
+        "resources": 3,
+        "location": "Rankin Rd, Beaconsfield",
+        "cfaId": 229968,
         "size": "Small",
         "sizeFmt": "Small",
-        "sesId": 572859
+        "mfbId": "250719253"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.29396003008992,
-          -36.76800124434221
+          145.38631627293648,
+          -38.064419148716034
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120430234,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229967,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250719250,
+        "id": "ESTA:250719250",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-24T10:35:00.000Z",
+        "updated": "2025-07-24T10:53:00.000Z",
+        "resources": 2,
+        "location": "Sale",
+        "cfaId": 229967,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.07379483820776,
+          -38.06803266890453
         ]
       }
     },
@@ -6204,36 +6236,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "612841",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Punt Rd, Barham",
-        "id": "2025-07-24T20:19:00.0000000:612841",
-        "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Punt Rd, Barham",
-        "location": "18 Punt Rd, Barham 2732",
-        "created": "2025-07-24T20:19:00+10:00",
-        "updated": "2025-07-24T20:19:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.13256836,
-          -35.6302032469999
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 229940,
         "feedType": "incident",
@@ -6265,36 +6267,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 229961,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229961,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Jordan St",
-        "eventId": 250719220,
-        "id": "ESTA:250719220",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-24T09:24:00.000Z",
-        "updated": "2025-07-24T09:36:00.000Z",
-        "resources": 0,
-        "location": "Jordan St, Cobram",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.64655582445113,
-          -35.918282312965175
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "cfaId": 229962,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -6306,12 +6279,11 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-07-24T09:39:00.000Z",
-        "updated": "2025-07-24T09:59:00.000Z",
-        "resources": 5,
+        "updated": "2025-07-24T10:53:00.000Z",
+        "resources": 3,
         "location": "Craigieburn",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250719225",
         "sesId": 572857
       },
       "type": "Feature",
@@ -6320,6 +6292,35 @@
         "coordinates": [
           144.94401164424784,
           -37.583696755811175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250719251",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719251",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Oneills Rd",
+        "id": "ESTA:250719251",
+        "eventId": "250719251",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-24T10:44:25.000Z",
+        "updated": "2025-07-24T10:44:25.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Oneills Rd, Melton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.57758593004053,
+          -37.682305753268096
         ]
       }
     },
@@ -6347,6 +6348,33 @@
         "coordinates": [
           147.2997337733512,
           -36.905885793711285
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 572859,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572859,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250719249,
+        "id": "ESTA:250719249",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-07-24T10:30:00.000Z",
+        "updated": "2025-07-24T10:51:00.000Z",
+        "resources": 1,
+        "location": "Kennington"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.29396003008992,
+          -36.76800124434221
         ]
       }
     }
@@ -6578,7 +6606,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-24T10:33:40.123Z",
-    "featureCount": 10
+    "lastUpdated": "2025-07-24T10:55:20.262Z",
+    "featureCount": 11
   }
 }
