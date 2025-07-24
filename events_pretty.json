@@ -31,6 +31,38 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 120433149,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719344",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Holland Ct",
+        "eventId": "250719344",
+        "id": "ESTA:250719344",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-24T19:42:09.000Z",
+        "updated": "2025-07-24T19:42:09.000Z",
+        "resources": 2,
+        "location": "Holland Ct, Flemington",
+        "mfbId": "250719344",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93493481334042,
+          -37.786904002216374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 120433107,
         "feedType": "incident",
         "source": "000",
@@ -44,8 +76,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-07-24T19:23:00.000Z",
-        "updated": "2025-07-24T19:23:00.000Z",
-        "resources": 2,
+        "updated": "2025-07-24T19:49:00.000Z",
+        "resources": 1,
         "location": "Loch",
         "cfaId": 230000,
         "size": "Small",
@@ -55,40 +87,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.76658354859586,
-          -38.38904615506934
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120432982,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 229999,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 250719338,
-        "id": "ESTA:250719338",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-24T18:47:00.000Z",
-        "updated": "2025-07-24T19:04:00.000Z",
-        "resources": 0,
-        "location": "Hume Fwy, Beveridge",
-        "cfaId": 229999,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95066645864785,
-          -37.50655179195252
+          145.76619227998984,
+          -38.387140543022504
         ]
       }
     },
@@ -6834,30 +6834,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250719328",
+        "status": "Safe",
+        "cfaId": 229999,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250719328",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Keilor Rd",
-        "id": "ESTA:250719328",
-        "eventId": "250719328",
-        "category1": "Other",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 229999,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 250719338,
+        "id": "ESTA:250719338",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-07-24T18:04:53.000Z",
-        "updated": "2025-07-24T18:04:53.000Z",
-        "resources": 1,
+        "created": "2025-07-24T18:47:00.000Z",
+        "updated": "2025-07-24T19:04:00.000Z",
+        "resources": 0,
+        "location": "Hume Fwy, Beveridge",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Keilor Rd, Essendon North"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.89956378292584,
-          -37.740026381494324
+          144.95066645864785,
+          -37.50655179195252
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 230001,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230001,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kangan Dr",
+        "eventId": 250719345,
+        "id": "ESTA:250719345",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-24T19:42:00.000Z",
+        "updated": "2025-07-24T19:42:00.000Z",
+        "resources": 1,
+        "location": "Kangan Dr, Berwick",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3457990752879,
+          -38.0452667437336
         ]
       }
     },
@@ -7145,7 +7174,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-24T19:38:25.437Z",
-    "featureCount": 9
+    "lastUpdated": "2025-07-24T19:50:20.202Z",
+    "featureCount": 10
   }
 }
