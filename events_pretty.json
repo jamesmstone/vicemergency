@@ -128,94 +128,234 @@
       }
     },
     {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120445457,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250720137",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Port Melbourne",
-        "eventId": "250720137",
-        "id": "ESTA:250720137",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-07-25T16:52:40.000Z",
-        "updated": "2025-07-25T16:52:40.000Z",
-        "resources": 1,
-        "location": "Port Melbourne, Port Melbourne",
-        "mfbId": "250720137",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.93062973538895,
-          -37.82641075987756
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              145.06531687418897,
+              -37.915996248661344
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.06208327253327,
+                  -37.917491109864784
+                ],
+                [
+                  145.06282536384074,
+                  -37.91820807905534
+                ],
+                [
+                  145.06381197847455,
+                  -37.91870904518651
+                ],
+                [
+                  145.0649465397203,
+                  -37.91894497495716
+                ],
+                [
+                  145.06668154373008,
+                  -37.91875911877345
+                ],
+                [
+                  145.0681204859913,
+                  -37.91797213166109
+                ],
+                [
+                  145.06875551569098,
+                  -37.91719379578124
+                ],
+                [
+                  145.06905458413613,
+                  -37.91629873529831
+                ],
+                [
+                  145.06898841642365,
+                  -37.91537456239399
+                ],
+                [
+                  145.0682282070856,
+                  -37.91413020205595
+                ],
+                [
+                  145.0668347835689,
+                  -37.913293737317744
+                ],
+                [
+                  145.0651118940183,
+                  -37.91304752236554
+                ],
+                [
+                  145.0639652183134,
+                  -37.913243660010146
+                ],
+                [
+                  145.06295148903723,
+                  -37.913709751803275
+                ],
+                [
+                  145.06189124635247,
+                  -37.9148090670639
+                ],
+                [
+                  145.06157916424183,
+                  -37.91616828563763
+                ],
+                [
+                  145.06208327253327,
+                  -37.917491109864784
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "feedType": "warning",
+        "cap": {
+          "category": "Fire",
+          "event": "Structure Fire",
+          "eventCode": "structurFire",
+          "urgency": "Unknown",
+          "severity": "Unknown",
+          "certainty": "Observed",
+          "contact": "goakley@frv.vic.gov.au",
+          "senderName": "Fire Rescue Victoria",
+          "responseType": "None"
+        },
+        "sourceOrg": "EMV",
+        "sourceId": "37910",
+        "sourceFeed": "cop-cap",
+        "sourceTitle": "Community Information",
+        "id": "37910",
+        "category1": "Community Update",
+        "category2": "Fire",
+        "status": "Unknown",
+        "name": "Community Information",
+        "action": "Stay Informed",
+        "statewide": "N",
+        "location": "Bentleigh East",
+        "created": "2025-07-26T02:58:18+10:00",
+        "updated": "2025-07-26T02:58:19+10:00",
+        "webHeadline": null,
+        "webBody": "<div style=\"margin-bottom:20px\">This&nbsp;<b>message&nbsp;</b>is\nbeing issued for <span title=\"warning_locality\" class=\"param\" contenteditable=\"false\">Bentleigh East</span>.<div><ul><li>There is a&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[factory/house/building/vehicle]\" data-value=\"1\" contenteditable=\"false\" style=\"display: inline;\" data-source=\"{&quot;0&quot;:&quot;factory&quot;,&quot;1&quot;:&quot;house&quot;,&quot;2&quot;:&quot;building&quot;,&quot;3&quot;:&quot;vehicle&quot;}\" data-original-title=\"\" title=\"\">house</span> fire&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[in/at/on]\" data-value=\"2\" contenteditable=\"false\" style=\"display: inline;\" data-source=\"{&quot;0&quot;:&quot;in&quot;,&quot;1&quot;:&quot;at&quot;,&quot;2&quot;:&quot;on&quot;}\" data-original-title=\"\" title=\"\">on</span>&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[road/landmark/business/building]\" data-value=\"Castlewood Street Bentleigh East\" contenteditable=\"false\" style=\"display: inline;\" data-original-title=\"\" title=\"\">Castlewood Street Bentleigh East</span>.</li><li>Castlewood Street may be impacted by Fire Appliances</li><li>You may see or smell smoke.&nbsp;</li><li>Smoke may be visible from nearby roads and communities.&nbsp;</li><li>Emergency services will remain in the area.</li></ul></div></div><div style=\"font-size: 120%; font-weight: bold; margin-bottom:20px\">\n \n  \n  There is no immediate threat to the community and no action is required.\n  \n \n </div><div style=\"margin-bottom:20px\">This message was issued by <span title=\"warning_issuing_agency\" class=\"param\" contenteditable=\"false\">Fire Rescue Victoria</span>.<div><br></div><div><b>Unless the situation changes, this will be\nthe last message issued for this fire.\n\n&nbsp;&nbsp;</b></div><div><b><br></b></div><div><b>Health information:</b>&nbsp;</div><div><ul><li>If you need medical advice for exposure to smoke, seek medical\n     advice or call Nurse on Call on 1300 606 024.&nbsp;</li><li>Anyone experiencing wheezing, chest tightness and difficulty\n     breathing should call Triple Zero (000).&nbsp; &nbsp; &nbsp;</li></ul></div><div><b>Use multiple sources to\nstay informed:&nbsp;</b></div><div><ul><li><a href=\"https://emergency.vic.gov.au/respond/\" title=\"\" target=\"_blank\">www.emergency.vic.gov.au</a>&nbsp;</li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/115001055007-What-is-the-VicEmergency-Hotline-\" title=\"\" target=\"_blank\">VicEmergency Hotline</a>&nbsp;- freecall 1800 226 226&nbsp;</li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/230492607-What-is-the-VicEmergency-app-a\" title=\"\" target=\"_blank\">VicEmergency app</a>&nbsp;</li><li><a href=\"https://www.facebook.com/vicemergency\" title=\"\" target=\"_blank\">Facebook</a>\nor&nbsp;<a href=\"https://twitter.com/vicemergency\" title=\"\" target=\"_blank\">Twitter</a>&nbsp;</li><li>Tune in to ABC Local Radio,\ncommercial and designated community radio stations, or Sky News TV.&nbsp;</li></ul></div><div><b>Accessibility:&nbsp;</b></div><div>The following services can\nhelp you, or someone you know, access information during an emergency.&nbsp;</div><div><ul><li>To access this information in other languages, call the <a href=\"https://www.tisnational.gov.au/\" title=\"\" target=\"_blank\">Translating\nand Interpreting Service</a>&nbsp;on&nbsp;131\n450&nbsp;(freecall) and ask them to call VicEmergency Hotline.</li><li>If you are deaf, hard of\nhearing, or have a speech/communication impairment contact the&nbsp;<a href=\"https://www.infrastructure.gov.au/media-communications-arts/phone/services-people-disability/accesshub/national-relay-service\" title=\"\" target=\"_blank\">National Relay Service</a>&nbsp;and ask them to call the\nVicEmergency Hotline. </li></ul></div></div>",
+        "text": "COMMUNITY INFORMATION - STRUCTURE FIRE - Stay Informed\nIncident Location: Castlewood St, Bentleigh East\nIssue Date: Saturday 26 July 2025, 02:58 am\nNext Update: Saturday 26 July 2025, 04:00 am\n\nMore details at http://emergency.vic.gov.au/respond/#!/warning/37910/moreinfo\n\nThis message is being issued for Bentleigh East.\n- There is a house fire on Castlewood Street Bentleigh East.\n- Castlewood Street may be impacted by Fire Appliances\n- You may see or smell smoke. \n- Smoke may be visible from nearby roads and communities. \n- Emergency services will remain in the area.\n\n\n        There is no immediate threat to the community and no action is required.       \n\n",
+        "sizeFmt": null,
+        "incidentFeatures": [
+          {
+            "properties": {
+              "feedType": "incident",
+              "sourceOrg": "EMV",
+              "sourceId": "37910",
+              "sourceFeed": "cop-cap",
+              "sourceTitle": "Community Information",
+              "id": "37910",
+              "category1": "Fire",
+              "category2": "Structure Fire",
+              "name": "Community Information",
+              "location": "Castlewood St, Bentleigh East",
+              "created": "2025-07-26T02:58:18+10:00",
+              "updated": "2025-07-26T02:58:19+10:00",
+              "webHeadline": null,
+              "sizeFmt": null
+            }
+          }
         ]
       }
     },
     {
       "properties": {
         "status": "Complete",
-        "estaId": 120445274,
+        "estaId": 120445294,
         "feedType": "incident",
-        "source": "000",
+        "source": "RADIO",
         "sourceOrg": "VIC/SES",
-        "sourceId": 573256,
+        "sourceId": 573259,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250752268,
-        "id": "ESTA:250752268",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-25T16:14:00.000Z",
-        "updated": "2025-07-25T16:57:00.000Z",
-        "resources": 0,
-        "location": "Woori Yallock",
-        "sesId": 573256
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.53575443897327,
-          -37.74919037417146
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 120445292,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573258,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250752270,
-        "id": "ESTA:250752270",
+        "eventId": 250752271,
+        "id": "ESTA:250752271",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-25T16:17:00.000Z",
-        "updated": "2025-07-25T16:57:00.000Z",
+        "updated": "2025-07-25T17:17:00.000Z",
         "resources": 0,
-        "location": "Chiltern",
-        "sesId": 573258
+        "location": "Muckleford",
+        "sesId": 573259
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.6248180276938,
-          -36.21572343550713
+          144.13920643660796,
+          -37.04898551213354
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120445599,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573267,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752279,
+        "id": "ESTA:250752279",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-07-25T17:25:00.000Z",
+        "updated": "2025-07-25T17:26:00.000Z",
+        "resources": 0,
+        "location": "Strathdale",
+        "sesId": 573267
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31830487959843,
+          -36.76788598770521
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120445597,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573266,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752278,
+        "id": "ESTA:250752278",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-25T17:24:00.000Z",
+        "updated": "2025-07-25T17:28:00.000Z",
+        "resources": 0,
+        "location": "Indigo Valley",
+        "sesId": 573266
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.75340081416022,
+          -36.186396101930875
         ]
       }
     },
@@ -7239,122 +7379,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 230131,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230131,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Zeerust Rd",
-        "eventId": 250720124,
-        "id": "ESTA:250720124",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-25T16:03:00.000Z",
-        "updated": "2025-07-25T16:04:00.000Z",
-        "resources": 0,
-        "location": "Zeerust Rd, Zeerust",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39466840414343,
-          -36.27632538486312
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 230132,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230132,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Whittlesea-Kinglake Rd",
-        "eventId": 250720133,
-        "id": "ESTA:250720133",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-25T16:09:00.000Z",
-        "updated": "2025-07-25T16:10:00.000Z",
-        "resources": 0,
-        "location": "Whittlesea-Kinglake Rd, Kinglake",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3333656509392,
-          -37.525110125926865
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 230130,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230130,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Modena Rd",
-        "eventId": 250720131,
-        "id": "ESTA:250720131",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-07-25T16:02:00.000Z",
-        "updated": "2025-07-25T16:21:00.000Z",
-        "resources": 0,
-        "location": "Modena Rd, Fraser Rise",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.71395569294776,
-          -37.69264053440696
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 230133,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230133,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Castlemaine-Maldon Rd",
-        "eventId": 250720134,
-        "id": "ESTA:250720134",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-25T16:17:00.000Z",
-        "updated": "2025-07-25T16:21:00.000Z",
-        "resources": 0,
-        "location": "Castlemaine-Maldon Rd, Muckleford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.16346918825263,
-          -37.05557909793516
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 230124,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -7384,35 +7408,35 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250720136",
+        "mfbId": "250720137",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250720136",
+        "sourceId": "250720137",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Truganina",
-        "id": "ESTA:250720136",
-        "eventId": "250720136",
+        "sourceTitle": "Port Melbourne",
+        "id": "ESTA:250720137",
+        "eventId": "250720137",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-25T16:43:13.000Z",
-        "updated": "2025-07-25T16:43:13.000Z",
+        "created": "2025-07-25T17:03:55.000Z",
+        "updated": "2025-07-25T17:03:55.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Truganina, Truganina"
+        "location": "Port Melbourne, Port Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.73987801269422,
-          -37.83884402471125
+          144.93062973538895,
+          -37.82641075987756
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "mfbId": "250720132",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -7423,8 +7447,8 @@
         "eventId": "250720132",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-07-25T16:14:40.000Z",
-        "updated": "2025-07-25T16:14:40.000Z",
+        "created": "2025-07-25T17:01:10.000Z",
+        "updated": "2025-07-25T17:01:10.000Z",
         "resources": 5,
         "size": "Small",
         "sizeFmt": "Small",
@@ -8035,33 +8059,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 573244,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573244,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250752257,
-        "id": "ESTA:250752257",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-25T15:01:00.000Z",
-        "updated": "2025-07-25T15:41:00.000Z",
-        "resources": 1,
-        "location": "Selby"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38154748680148,
-          -37.91465716213489
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 573201,
         "feedType": "incident",
@@ -8089,34 +8086,34 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 573255,
+        "status": "On Scene",
+        "sesId": 573264,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 573255,
+        "sourceId": 573264,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250752267,
-        "id": "ESTA:250752267",
+        "eventId": 250752276,
+        "id": "ESTA:250752276",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-07-25T16:09:00.000Z",
-        "updated": "2025-07-25T16:17:00.000Z",
+        "created": "2025-07-25T16:29:00.000Z",
+        "updated": "2025-07-25T17:05:00.000Z",
         "resources": 1,
-        "location": "Everton Upper"
+        "location": "Stanhope"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.52778714116323,
-          -36.39374041675672
+          144.99602193272528,
+          -36.46992621579554
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 573262,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -8128,8 +8125,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-25T16:23:00.000Z",
-        "updated": "2025-07-25T16:27:00.000Z",
-        "resources": 0,
+        "updated": "2025-07-25T17:05:00.000Z",
+        "resources": 1,
         "location": "Stanhope"
       },
       "type": "Feature",
@@ -8143,55 +8140,28 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 573259,
+        "status": "On Scene",
+        "sesId": 573255,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 573259,
+        "sourceId": 573255,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250752271,
-        "id": "ESTA:250752271",
+        "eventId": 250752267,
+        "id": "ESTA:250752267",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-07-25T16:17:00.000Z",
-        "updated": "2025-07-25T16:43:00.000Z",
+        "created": "2025-07-25T16:09:00.000Z",
+        "updated": "2025-07-25T17:27:00.000Z",
         "resources": 1,
-        "location": "Muckleford"
+        "location": "Everton Upper"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.13920643660796,
-          -37.04898551213354
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 573264,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573264,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250752276,
-        "id": "ESTA:250752276",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-25T16:29:00.000Z",
-        "updated": "2025-07-25T16:50:00.000Z",
-        "resources": 1,
-        "location": "Stanhope"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99602193272528,
-          -36.46992621579554
+          146.52778714116323,
+          -36.39374041675672
         ]
       }
     }
@@ -8423,7 +8393,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-25T16:58:06.775Z",
-    "featureCount": 44
+    "lastUpdated": "2025-07-25T17:29:20.312Z",
+    "featureCount": 39
   }
 }
