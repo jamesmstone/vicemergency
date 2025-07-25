@@ -30,23 +30,56 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 120438557,
+        "estaId": 120438444,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230055,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 250719865,
-        "id": "ESTA:250719865",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719861",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clyde North",
+        "eventId": "250719861",
+        "id": "ESTA:250719861",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-07-25T05:45:52.000Z",
+        "updated": "2025-07-25T05:45:52.000Z",
+        "resources": 1,
+        "location": "Clyde North, Clyde North",
+        "cfaId": 230054,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250719861"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34292934600134,
+          -38.09069468304976
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120438829,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719882",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Preston",
+        "eventId": "250719882",
+        "id": "ESTA:250719882",
         "suppress": false,
         "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-25T05:16:00.000Z",
-        "updated": "2025-07-25T05:18:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Codrington",
-        "cfaId": 230055,
+        "category2": "Grass and Scrub",
+        "created": "2025-07-25T05:49:01.000Z",
+        "updated": "2025-07-25T05:49:01.000Z",
+        "resources": 2,
+        "location": "Preston, Preston",
+        "mfbId": "250719882",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -54,38 +87,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.9937711067332,
-          -38.27722116361639
+          145.03238442826444,
+          -37.7458396853889
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120438670,
+        "status": "Responding",
+        "estaId": 120438961,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572894,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751902,
-        "id": "ESTA:250751902",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120438961,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Coburg",
+        "eventId": "F250719891",
+        "id": "ESTA:250719891",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-25T05:26:00.000Z",
-        "updated": "2025-07-25T05:26:09.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-25T05:48:45.000Z",
+        "updated": "2025-07-25T05:51:03.073Z",
         "resources": 0,
-        "location": "Dimboola",
-        "sesId": 572894
+        "location": "Nicholson St, Coburg"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.95342036693543,
-          -36.39694461297685
+          144.9753405412092,
+          -37.75595211078815
         ]
       }
     },
@@ -7150,31 +7182,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 230054,
+        "status": "Safe",
+        "cfaId": 230055,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250719861",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Clyde North",
-        "eventId": "250719861",
-        "id": "ESTA:250719861",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-07-25T05:17:40.000Z",
-        "updated": "2025-07-25T05:17:40.000Z",
-        "resources": 1,
-        "location": "Clyde North, Clyde North",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230055,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 250719865,
+        "id": "ESTA:250719865",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-25T05:16:00.000Z",
+        "updated": "2025-07-25T05:18:00.000Z",
+        "resources": 0,
+        "location": "Princes Hwy, Codrington",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250719861"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34292934600134,
-          -38.09069468304976
+          141.9937711067332,
+          -38.27722116361639
         ]
       }
     },
@@ -7210,7 +7241,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
+        "mfbId": "250719845",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250719845",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Preston",
+        "id": "ESTA:250719845",
+        "eventId": "250719845",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-25T05:09:30.000Z",
+        "updated": "2025-07-25T05:09:30.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Preston, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98614458364153,
+          -37.749609558424716
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "mfbId": "250719876",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -7221,8 +7281,8 @@
         "eventId": "250719876",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-25T05:34:54.000Z",
-        "updated": "2025-07-25T05:34:54.000Z",
+        "created": "2025-07-25T05:49:26.000Z",
+        "updated": "2025-07-25T05:49:26.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -7234,35 +7294,6 @@
         "coordinates": [
           145.24381317454726,
           -38.02704377768612
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250719852",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250719852",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Manningham Rd",
-        "id": "ESTA:250719852",
-        "eventId": "250719852",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-07-25T05:07:28.000Z",
-        "updated": "2025-07-25T05:07:28.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Manningham Rd, Bulleen"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09181193986544,
-          -37.76707311635583
         ]
       }
     },
@@ -7326,62 +7357,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250719845",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250719845",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Preston",
-        "id": "ESTA:250719845",
-        "eventId": "250719845",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-25T05:09:30.000Z",
-        "updated": "2025-07-25T05:09:30.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Preston, Preston"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98614458364153,
-          -37.749609558424716
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 572883,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 572883,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250751892,
-        "id": "ESTA:250751892",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-07-25T03:53:00.000Z",
-        "updated": "2025-07-25T04:16:00.000Z",
-        "resources": 1,
-        "location": "Underbool"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.81152207042825,
-          -35.17230699574703
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 572890,
         "feedType": "incident",
@@ -7437,6 +7412,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 572894,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 572894,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250751902,
+        "id": "ESTA:250751902",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-25T05:26:00.000Z",
+        "updated": "2025-07-25T05:40:00.000Z",
+        "resources": 1,
+        "location": "Dimboola"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.95342036693543,
+          -36.39694461297685
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 572893,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -7448,8 +7450,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-25T05:20:00.000Z",
-        "updated": "2025-07-25T05:23:00.000Z",
-        "resources": 0,
+        "updated": "2025-07-25T05:40:00.000Z",
+        "resources": 1,
         "location": "Dimboola"
       },
       "type": "Feature",
@@ -7475,8 +7477,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-25T05:18:00.000Z",
-        "updated": "2025-07-25T05:23:00.000Z",
-        "resources": 0,
+        "updated": "2025-07-25T05:40:00.000Z",
+        "resources": 1,
         "location": "Dimboola"
       },
       "type": "Feature",
@@ -7716,7 +7718,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-25T05:35:45.625Z",
+    "lastUpdated": "2025-07-25T05:56:20.578Z",
     "featureCount": 18
   }
 }
