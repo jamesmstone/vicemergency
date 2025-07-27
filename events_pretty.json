@@ -1603,54 +1603,24 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120466463,
+        "status": "Responding",
+        "estaId": 120467145,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573669,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250752677,
-        "id": "ESTA:250752677",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250721251",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Buckland St",
+        "eventId": "250721251",
+        "id": "ESTA:250721251",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-27T12:02:00.000Z",
-        "updated": "2025-07-27T13:29:00.000Z",
-        "resources": 0,
-        "location": "Monbulk",
-        "sesId": 573669
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4396289034948,
-          -37.89484881429088
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120466643,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230348,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250721234,
-        "id": "ESTA:250721234",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-27T12:27:00.000Z",
-        "updated": "2025-07-27T13:16:00.000Z",
-        "resources": 0,
-        "location": "Sulky",
-        "cfaId": 230348,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-27T13:48:55.000Z",
+        "updated": "2025-07-27T13:48:55.000Z",
+        "resources": 2,
+        "location": "Buckland St, Clayton",
+        "mfbId": "250721251",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1658,14 +1628,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.85520974036913,
-          -37.46154583025629
+          145.1331206605298,
+          -37.92469009275826
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 120467060,
         "feedType": "incident",
         "source": "PAL",
@@ -1676,10 +1646,10 @@
         "eventId": "250721246",
         "id": "ESTA:250721246",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-27T13:34:32.000Z",
-        "updated": "2025-07-27T13:34:32.000Z",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-07-27T13:50:15.000Z",
+        "updated": "2025-07-27T13:50:15.000Z",
         "resources": 2,
         "location": "Gympie St, Bulleen",
         "mfbId": "250721246",
@@ -1697,30 +1667,88 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120467069,
+        "status": "Safe",
+        "cfaId": 230348,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120467069,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Braybrook",
-        "eventId": "F250721248",
-        "id": "ESTA:250721248",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-07-27T13:33:15.000Z",
-        "updated": "2025-07-27T13:35:08.164Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230348,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250721234,
+        "id": "ESTA:250721234",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-27T12:27:00.000Z",
+        "updated": "2025-07-27T13:16:00.000Z",
         "resources": 0,
+        "location": "Sulky",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85520974036913,
+          -37.46154583025629
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250721248",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250721248",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Arthur St",
+        "id": "ESTA:250721248",
+        "eventId": "250721248",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-07-27T13:45:14.000Z",
+        "updated": "2025-07-27T13:45:14.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
         "location": "Arthur St, Braybrook"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.85138429509877,
-          -37.79040470833078
+          144.8513796790043,
+          -37.7904066103922
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250721250",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250721250",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Auburn Rd",
+        "id": "ESTA:250721250",
+        "eventId": "250721250",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-07-27T13:47:59.000Z",
+        "updated": "2025-07-27T13:47:59.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Auburn Rd, Hawthorn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04503588119815,
+          -37.8212055637151
         ]
       }
     },
@@ -1767,8 +1795,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-27T12:59:00.000Z",
-        "updated": "2025-07-27T13:04:00.000Z",
-        "resources": 0,
+        "updated": "2025-07-27T13:36:00.000Z",
+        "resources": 1,
         "location": "Kew"
       },
       "type": "Feature",
@@ -2008,7 +2036,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-27T13:36:45.566Z",
-    "featureCount": 8
+    "lastUpdated": "2025-07-27T13:53:19.717Z",
+    "featureCount": 9
   }
 }
