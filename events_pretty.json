@@ -5025,26 +5025,92 @@
         "estaId": 120480099,
         "feedType": "incident",
         "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120480099,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Doncaster",
-        "eventId": "F250721718",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250721718",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Doncaster Rd",
+        "eventId": "250721718",
         "id": "ESTA:250721718",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-07-28T18:55:45.000Z",
-        "updated": "2025-07-28T19:38:40.447Z",
-        "resources": 4,
-        "location": "Doncaster Rd, Doncaster"
+        "created": "2025-07-28T19:38:53.000Z",
+        "updated": "2025-07-28T19:38:53.000Z",
+        "resources": 2,
+        "location": "Doncaster Rd, Doncaster",
+        "mfbId": "250721718",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12599034904633,
-          -37.787085469489405
+          145.125986792191,
+          -37.78708975189211
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120480215,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250721722",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Heatherton Rd",
+        "eventId": "250721722",
+        "id": "ESTA:250721722",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-07-28T19:40:27.000Z",
+        "updated": "2025-07-28T19:40:27.000Z",
+        "resources": 2,
+        "location": "Heatherton Rd, Narre Warren North",
+        "cfaId": 230480,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250721722"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30450269637385,
+          -37.98077778758737
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120480254,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573750,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752752,
+        "id": "ESTA:250752752",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-28T19:50:00.000Z",
+        "updated": "2025-07-28T19:49:30.000Z",
+        "resources": 0,
+        "location": "Wensleydale",
+        "sesId": 573750
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0396111019521,
+          -38.34742096428568
         ]
       }
     },
@@ -5774,35 +5840,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 230475,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230475,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sylvia Cl",
-        "eventId": 250721712,
-        "id": "ESTA:250721712",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-07-28T17:28:00.000Z",
-        "updated": "2025-07-28T18:44:00.000Z",
-        "resources": 0,
-        "location": "Sylvia Cl, Hillside (Greater Melbourne)",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7509539704369,
-          -37.702580211915695
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 230477,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5861,7 +5898,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "cfaId": 230478,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5872,9 +5909,9 @@
         "id": "ESTA:250721719",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-28T19:38:10.000Z",
-        "updated": "2025-07-28T19:38:10.000Z",
-        "resources": 2,
+        "created": "2025-07-28T19:39:41.000Z",
+        "updated": "2025-07-28T19:39:41.000Z",
+        "resources": 1,
         "location": "Norman St, Wendouree",
         "size": "Small",
         "sizeFmt": "Small",
@@ -5903,7 +5940,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-07-28T19:24:00.000Z",
-        "updated": "2025-07-28T19:32:00.000Z",
+        "updated": "2025-07-28T19:42:00.000Z",
         "resources": 0,
         "location": "Tanybryn"
       },
@@ -6144,7 +6181,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-28T19:39:19.931Z",
-    "featureCount": 11
+    "lastUpdated": "2025-07-28T19:50:40.023Z",
+    "featureCount": 12
   }
 }
