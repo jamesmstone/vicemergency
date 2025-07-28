@@ -5535,33 +5535,123 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120477733,
+        "status": "Complete",
+        "estaId": 120477971,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230461,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250721657,
-        "id": "ESTA:250721657",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573744,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752745,
+        "id": "ESTA:250752745",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-28T11:04:00.000Z",
-        "updated": "2025-07-28T11:13:00.000Z",
-        "resources": 1,
-        "location": "Seaspray",
-        "cfaId": 230461,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-07-28T11:34:00.000Z",
+        "updated": "2025-07-28T11:43:00.000Z",
+        "resources": 0,
+        "location": "Rowville",
+        "sesId": 573744
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.1798201808134,
-          -38.361141910207394
+          145.242465272217,
+          -37.918240269246375
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120478051,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120478051,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wandin North",
+        "eventId": "S250752749",
+        "id": "ESTA:250752749",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-28T11:39:56.000Z",
+        "updated": "2025-07-28T11:44:56.714Z",
+        "resources": 0,
+        "location": "Warburton Hwy, Wandin North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.40715170466163,
+          -37.76853530692009
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120477921,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573743,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250721664,
+        "id": "ESTA:250721664",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-07-28T11:29:00.000Z",
+        "updated": "2025-07-28T11:47:00.000Z",
+        "resources": 1,
+        "location": "Wonthaggi",
+        "cfaId": 230464,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 573743
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59135974118107,
+          -38.59717486112202
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120478001,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573745,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752746,
+        "id": "ESTA:250752746",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-28T11:38:00.000Z",
+        "updated": "2025-07-28T11:48:00.000Z",
+        "resources": 0,
+        "location": "Lilydale",
+        "sesId": 573745
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4038946159987,
+          -37.766782664882214
         ]
       }
     },
@@ -6260,6 +6350,36 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "613169",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Tooma Rd, Maragle",
+        "id": "2025-07-28T21:30:00.0000000:613169",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Tooma Rd, Maragle",
+        "location": "2110 Tooma Rd, Maragle 2653",
+        "created": "2025-07-28T21:30:00+10:00",
+        "updated": "2025-07-28T21:30:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.106110096,
+          -35.870881703
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 230457,
         "feedType": "incident",
@@ -6321,86 +6441,56 @@
         "status": "Safe",
         "cfaId": 230460,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250721654",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230460,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Holroyd St",
-        "eventId": "250721654",
+        "eventId": 250721654,
         "id": "ESTA:250721654",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-07-28T11:04:51.000Z",
-        "updated": "2025-07-28T11:04:51.000Z",
-        "resources": 1,
+        "created": "2025-07-28T10:49:00.000Z",
+        "updated": "2025-07-28T11:05:00.000Z",
+        "resources": 0,
         "location": "Holroyd St, Seaford",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250721654"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14577812752694,
-          -38.11205822213197
+          145.14577265839398,
+          -38.11205825509773
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250721655",
+        "status": "Safe",
+        "cfaId": 230461,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250721655",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Seaholme",
-        "id": "ESTA:250721655",
-        "eventId": "250721655",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-28T11:08:30.000Z",
-        "updated": "2025-07-28T11:08:30.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230461,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250721657,
+        "id": "ESTA:250721657",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-28T11:04:00.000Z",
+        "updated": "2025-07-28T11:13:00.000Z",
         "resources": 1,
+        "location": "Seaspray",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Seaholme, Seaholme"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.842618945632,
-          -37.85916887537407
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250721653",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250721653",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brunswick St",
-        "id": "ESTA:250721653",
-        "eventId": "250721653",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-07-28T11:11:16.000Z",
-        "updated": "2025-07-28T11:11:16.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Brunswick St, Fitzroy"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97791339594247,
-          -37.802750386933276
+          147.1798201808134,
+          -38.361141910207394
         ]
       }
     },
@@ -6419,7 +6509,7 @@
         "category2": "Other",
         "created": "2025-07-28T11:22:19.000Z",
         "updated": "2025-07-28T11:22:19.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Sunshine North, Sunshine North"
@@ -6661,7 +6751,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-28T11:26:05.708Z",
-    "featureCount": 12
+    "lastUpdated": "2025-07-28T11:50:41.735Z",
+    "featureCount": 15
   }
 }
