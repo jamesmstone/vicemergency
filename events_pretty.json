@@ -881,33 +881,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120504850,
+        "status": "Complete",
+        "estaId": 120504922,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 230723,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250723055,
-        "id": "ESTA:250723055",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573858,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250752841,
+        "id": "ESTA:250752841",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-07-30T18:12:00.000Z",
-        "updated": "2025-07-30T19:02:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-07-30T18:33:26.000Z",
+        "updated": "2025-07-30T19:42:36.000Z",
         "resources": 0,
-        "location": "Eynesbury",
-        "cfaId": 230723,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Bentleigh",
+        "sesId": 573858
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.54893309183223,
-          -37.74459011502446
+          145.0328286371525,
+          -37.93077340704048
         ]
       }
     },
@@ -926,8 +924,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-07-30T19:32:17.000Z",
-        "updated": "2025-07-30T19:32:17.000Z",
+        "created": "2025-07-30T19:44:01.000Z",
+        "updated": "2025-07-30T19:44:01.000Z",
         "resources": 4,
         "location": "Station St, Frankston",
         "cfaId": 230726,
@@ -946,7 +944,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120505157,
         "feedType": "incident",
         "source": "000",
@@ -959,13 +957,14 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-07-30T19:38:47.000Z",
-        "updated": "2025-07-30T19:38:47.000Z",
+        "created": "2025-07-30T19:48:29.000Z",
+        "updated": "2025-07-30T19:48:29.000Z",
         "resources": 2,
         "location": "Borrmans St, Moe South",
-        "mfbId": "250723063",
+        "cfaId": 230727,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250723063"
       },
       "type": "Feature",
       "geometry": {
@@ -1002,6 +1001,35 @@
         "coordinates": [
           145.22583341764985,
           -36.915973023386606
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 230723,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230723,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250723055,
+        "id": "ESTA:250723055",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-07-30T18:12:00.000Z",
+        "updated": "2025-07-30T19:02:00.000Z",
+        "resources": 0,
+        "location": "Eynesbury",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.54893309183223,
+          -37.74459011502446
         ]
       }
     },
@@ -1059,33 +1087,6 @@
         "coordinates": [
           145.60829280684607,
           -37.78262285005511
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 573858,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573858,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250752841,
-        "id": "ESTA:250752841",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-07-30T18:33:26.000Z",
-        "updated": "2025-07-30T18:52:22.000Z",
-        "resources": 1,
-        "location": "Bentleigh"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0328286371525,
-          -37.93077340704048
         ]
       }
     }
@@ -1317,7 +1318,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-07-30T19:39:40.161Z",
+    "lastUpdated": "2025-07-30T19:50:20.128Z",
     "featureCount": 9
   }
 }
