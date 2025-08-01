@@ -3,7 +3,7 @@
   "features": [
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120531552,
         "feedType": "incident",
         "source": "000",
@@ -16,8 +16,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-08-01T19:30:18.000Z",
-        "updated": "2025-08-01T19:30:18.000Z",
+        "created": "2025-08-01T19:42:39.000Z",
+        "updated": "2025-08-01T19:42:39.000Z",
         "resources": 4,
         "location": "Tanjil East Rd, Yallourn North",
         "cfaId": 230967,
@@ -36,24 +36,53 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "estaId": 120531455,
+        "status": "Under Control",
+        "estaId": 120531465,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250801298",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Boldrewood Pde",
+        "eventId": "250801298",
+        "id": "ESTA:250801298",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-01T19:48:57.000Z",
+        "updated": "2025-08-01T19:48:57.000Z",
+        "resources": 2,
+        "location": "Boldrewood Pde, Reservoir",
+        "mfbId": "250801298",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02138104340617,
+          -37.717162226335034
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 230965,
+        "feedType": "incident",
         "sourceOrg": "VIC/SES",
         "sourceId": 573943,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
         "eventId": 250801296,
         "id": "ESTA:250801296",
-        "suppress": false,
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-08-01T18:52:17.000Z",
         "updated": "2025-08-01T19:28:16.000Z",
         "resources": 9,
         "location": "Research",
-        "cfaId": 230965,
         "size": "Small",
         "sizeFmt": "Small",
         "mfbId": "250801296",
@@ -65,35 +94,6 @@
         "coordinates": [
           145.18641709722007,
           -37.70837304681415
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250801298",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250801298",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Boldrewood Pde",
-        "id": "ESTA:250801298",
-        "eventId": "250801298",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-01T19:12:06.000Z",
-        "updated": "2025-08-01T19:12:06.000Z",
-        "resources": 3,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Boldrewood Pde, Reservoir"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02138104340617,
-          -37.717162226335034
         ]
       }
     }
@@ -325,7 +325,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-01T19:37:00.098Z",
+    "lastUpdated": "2025-08-01T19:50:05.487Z",
     "featureCount": 4
   }
 }
