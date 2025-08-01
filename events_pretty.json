@@ -3,57 +3,53 @@
   "features": [
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120531797,
+        "status": "Safe",
+        "estaId": 120531552,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250801314",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bluff Rd",
-        "eventId": "250801314",
-        "id": "ESTA:250801314",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120531552,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Yallourn North",
+        "eventId": "F250801301",
+        "id": "ESTA:250801301",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-08-01T20:41:45.000Z",
-        "updated": "2025-08-01T20:41:45.000Z",
-        "resources": 3,
-        "location": "Bluff Rd, Barwon Heads",
-        "cfaId": 230971,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250801314"
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-01T19:26:51.000Z",
+        "updated": "2025-08-01T21:18:12.783Z",
+        "resources": 0,
+        "location": "Tanjil East Rd, Yallourn North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.4981516056376,
-          -38.2894516525137
+          146.40691178860072,
+          -38.16294623135951
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 120531679,
+        "status": "Safe",
+        "estaId": 120531797,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 230968,
+        "sourceId": 230971,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Veysey Rd",
-        "eventId": 250801303,
-        "id": "ESTA:250801303",
+        "sourceTitle": "Bluff Rd",
+        "eventId": 250801314,
+        "id": "ESTA:250801314",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-01T20:02:00.000Z",
-        "updated": "2025-08-01T20:49:00.000Z",
-        "resources": 8,
-        "location": "Veysey Rd, Neerim East",
-        "cfaId": 230968,
+        "category2": "Bushfire",
+        "created": "2025-08-01T20:40:00.000Z",
+        "updated": "2025-08-01T21:10:00.000Z",
+        "resources": 0,
+        "location": "Bluff Rd, Barwon Heads",
+        "cfaId": 230971,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -61,38 +57,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.99884194475902,
-          -37.99589160915643
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 120531455,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 573943,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250801296,
-        "id": "ESTA:250801296",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-08-01T18:52:17.000Z",
-        "updated": "2025-08-01T20:50:08.000Z",
-        "resources": 4,
-        "location": "Research",
-        "sesId": 573943
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18641709722007,
-          -37.70837304681415
+          144.49814834398944,
+          -38.2894587118247
         ]
       }
     },
@@ -124,6 +90,35 @@
           -37.88861945286258
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 230968,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 230968,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Veysey Rd",
+        "eventId": 250801303,
+        "id": "ESTA:250801303",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-01T20:02:00.000Z",
+        "updated": "2025-08-01T20:49:00.000Z",
+        "resources": 10,
+        "location": "Veysey Rd, Neerim East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99884194475902,
+          -37.99589160915643
+        ]
+      }
     }
   ],
   "properties": {
@@ -140,7 +135,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -148,7 +142,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -164,7 +159,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -172,7 +166,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-01T14:00:00.000Z",
           "heat": {
@@ -353,7 +348,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-01T20:54:19.921Z",
+    "lastUpdated": "2025-08-01T21:27:45.233Z",
     "featureCount": 5
   }
 }
