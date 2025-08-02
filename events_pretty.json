@@ -3,6 +3,36 @@
   "features": [
     {
       "properties": {
+        "status": "Minor",
+        "feedType": "earthquake",
+        "sourceOrg": "AU/GA",
+        "sourceId": "697605",
+        "sourceFeed": "ga-earthquake",
+        "sourceTitle": "Magnitude 2.5 earthquake - Apollo Bay, VIC - 02/08/2025 01:59:44 (UTC)",
+        "id": "697605",
+        "category1": "Earthquake",
+        "category2": "Earthquake",
+        "name": "Magnitude 2.5 - Apollo Bay, VIC",
+        "sizeFmt": "Magnitude 2.5",
+        "created": "2025-08-02T13:59:44-00:00",
+        "updated": "2025-08-02T13:59:44-00:00",
+        "webBody": "A magnitude 2.5 earthquake has occurred in \"Apollo Bay, VIC\" at a depth of 10.00 km at 02/08/2025 01:59:44 (UTC)",
+        "url": "https://earthquakes.ga.gov.au/event/ga2025pcbnbq",
+        "cssClass": "earthquake",
+        "magnitude": "2.4532735182146",
+        "location": "Apollo Bay, VIC"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.649,
+          -38.917
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -31,53 +61,87 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120543356,
+        "estaId": 120543579,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231126,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250803218,
+        "id": "ESTA:250803218",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-08-02T14:42:00.000Z",
+        "updated": "2025-08-02T14:42:00.000Z",
+        "resources": 1,
+        "location": "Drouin",
+        "cfaId": 231126,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8431493954997,
+          -38.120230651100165
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120543598,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250803214",
+        "sourceId": "250803219",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bickley St",
-        "eventId": "250803214",
-        "id": "ESTA:250803214",
+        "sourceTitle": "City Rd",
+        "eventId": "250803219",
+        "id": "ESTA:250803219",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-02T14:43:04.000Z",
+        "updated": "2025-08-02T14:43:04.000Z",
+        "resources": 1,
+        "location": "City Rd, Southbank",
+        "mfbId": "250803219",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96183409278424,
+          -37.824829969069135
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120543536,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250803217",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lytton St",
+        "eventId": "250803217",
+        "id": "ESTA:250803217",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-08-02T14:20:53.000Z",
-        "updated": "2025-08-02T14:20:53.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-08-02T14:50:53.000Z",
+        "updated": "2025-08-02T14:50:53.000Z",
         "resources": 2,
-        "location": "Bickley St, Harkness",
-        "cfaId": 231125,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250803214"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.57104394430962,
-          -37.65634084277537
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 231116,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231116,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Goulburn Valley Hwy",
-        "eventId": 250803183,
-        "id": "ESTA:250803183",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-08-02T12:57:00.000Z",
-        "updated": "2025-08-02T13:37:00.000Z",
-        "resources": 0,
-        "location": "Goulburn Valley Hwy, Whiteheads Creek",
+        "location": "Lytton St, Carlton",
+        "mfbId": "250803217",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -85,37 +149,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19092200086925,
-          -37.071581814090365
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 231119,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231119,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cottrell St",
-        "eventId": 250803192,
-        "id": "ESTA:250803192",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-08-02T13:16:00.000Z",
-        "updated": "2025-08-02T13:39:00.000Z",
-        "resources": 0,
-        "location": "Cottrell St, Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65295065233286,
-          -37.90195478647791
+          144.96781061212067,
+          -37.79410741404812
         ]
       }
     },
@@ -153,28 +188,27 @@
         "status": "Safe",
         "cfaId": 231121,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250803195",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Oaklands Junction",
-        "eventId": "250803195",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231121,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250803195,
         "id": "ESTA:250803195",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-02T14:05:09.000Z",
-        "updated": "2025-08-02T14:05:09.000Z",
-        "resources": 2,
-        "location": "Oaklands Junction, Oaklands Junction",
+        "category2": "Other",
+        "created": "2025-08-02T13:25:00.000Z",
+        "updated": "2025-08-02T14:05:00.000Z",
+        "resources": 0,
+        "location": "Oaklands Junction",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250803195"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.81972336172984,
-          -37.61998463036117
+          144.81972288224733,
+          -37.61999110425344
         ]
       }
     },
@@ -209,6 +243,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 231125,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231125,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bickley St",
+        "eventId": 250803214,
+        "id": "ESTA:250803214",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-02T14:18:00.000Z",
+        "updated": "2025-08-02T14:34:00.000Z",
+        "resources": 0,
+        "location": "Bickley St, Harkness",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.57101184506706,
+          -37.65649340342471
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250803207",
         "feedType": "incident",
@@ -222,7 +285,7 @@
         "category2": "Structure Fire",
         "created": "2025-08-02T14:00:02.000Z",
         "updated": "2025-08-02T14:00:02.000Z",
-        "resources": 3,
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Ramsay Ct, Cheltenham"
@@ -238,36 +301,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250803203",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250803203",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Sycamore St",
-        "id": "ESTA:250803203",
-        "eventId": "250803203",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-02T14:00:21.000Z",
-        "updated": "2025-08-02T14:00:21.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Sycamore St, Caulfield South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02461330113235,
-          -37.89011908035053
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250803210",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -278,8 +312,8 @@
         "eventId": "250803210",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-02T14:19:51.000Z",
-        "updated": "2025-08-02T14:19:51.000Z",
+        "created": "2025-08-02T14:29:46.000Z",
+        "updated": "2025-08-02T14:29:46.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -522,7 +556,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-02T14:27:25.504Z",
-    "featureCount": 11
+    "lastUpdated": "2025-08-02T14:52:00.284Z",
+    "featureCount": 12
   }
 }
