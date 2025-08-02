@@ -60,30 +60,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120545677,
+        "status": "Request For Assistance",
+        "estaId": 120545911,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120545677,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Norlane",
-        "eventId": "S250850091",
-        "id": "ESTA:250850091",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 573990,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850095,
+        "id": "ESTA:250850095",
         "suppress": false,
-        "category1": "Landslide",
-        "category2": "Landslide",
-        "created": "2025-08-02T21:38:51.000Z",
-        "updated": "2025-08-02T21:41:57.420Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-02T22:19:52.000Z",
+        "updated": "2025-08-02T22:21:30.000Z",
         "resources": 0,
-        "location": "Tallis St, Norlane"
+        "location": "West Footscray",
+        "sesId": 573990
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.36540387111944,
-          -38.08927959981872
+          144.8619811939473,
+          -37.8015584062391
         ]
       }
     },
@@ -113,6 +114,93 @@
         "coordinates": [
           144.3558145033591,
           -37.838577186850266
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 231141,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231141,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "High St",
+        "eventId": 250803347,
+        "id": "ESTA:250803347",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-02T22:24:00.000Z",
+        "updated": "2025-08-02T22:24:00.000Z",
+        "resources": 2,
+        "location": "High St, Melton West",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.56716396089723,
+          -37.684772719718936
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250803311",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250803311",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Salford Ct",
+        "id": "ESTA:250803311",
+        "eventId": "250803311",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-02T22:12:42.000Z",
+        "updated": "2025-08-02T22:12:42.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Salford Ct, Mulgrave"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17423518671063,
+          -37.92368249903892
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250803322",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250803322",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bell St",
+        "id": "ESTA:250803322",
+        "eventId": "250803322",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-02T22:19:47.000Z",
+        "updated": "2025-08-02T22:19:47.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Bell St, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0309783158394,
+          -37.74808361911962
         ]
       }
     }
@@ -344,7 +432,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-02T21:50:45.676Z",
-    "featureCount": 5
+    "lastUpdated": "2025-08-02T22:28:45.450Z",
+    "featureCount": 8
   }
 }
