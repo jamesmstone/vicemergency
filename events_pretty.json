@@ -330,24 +330,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 120555936,
+        "status": "Responding",
+        "estaId": 120556619,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231252,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Surf Coast Hwy",
-        "eventId": 250804704,
-        "id": "ESTA:250804704",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250804715",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Greville St",
+        "eventId": "250804715",
+        "id": "ESTA:250804715",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-03T15:37:00.000Z",
-        "updated": "2025-08-03T17:45:00.000Z",
-        "resources": 9,
-        "location": "Surf Coast Hwy, Torquay",
-        "cfaId": 231252,
+        "category2": "Structure Fire",
+        "created": "2025-08-03T18:37:09.000Z",
+        "updated": "2025-08-03T18:37:09.000Z",
+        "resources": 2,
+        "location": "Greville St, Prahran",
+        "mfbId": "250804715",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -355,40 +355,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.32571702426304,
-          -38.28631915048236
+          144.98953511286405,
+          -37.84892820442175
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120556433,
+        "estaId": 120556629,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231256,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cornish St",
-        "eventId": 250804714,
-        "id": "ESTA:250804714",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120556629,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Truganina",
+        "eventId": "F250804716",
+        "id": "ESTA:250804716",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-03T17:45:00.000Z",
-        "updated": "2025-08-03T17:45:00.000Z",
+        "category2": "Fire",
+        "created": "2025-08-03T18:37:05.000Z",
+        "updated": "2025-08-03T18:38:39.426Z",
         "resources": 0,
-        "location": "Cornish St, Castlemaine",
-        "cfaId": 231256,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Truganina"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.21132824353023,
-          -37.052317111852744
+          144.6777181639003,
+          -37.80301823894336
         ]
       }
     },
@@ -1283,6 +1280,64 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 231252,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231252,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Surf Coast Hwy",
+        "eventId": 250804704,
+        "id": "ESTA:250804704",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-03T15:37:00.000Z",
+        "updated": "2025-08-03T17:45:00.000Z",
+        "resources": 8,
+        "location": "Surf Coast Hwy, Torquay",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3140282247051,
+          -38.28492567183343
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 231256,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231256,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cornish St",
+        "eventId": 250804714,
+        "id": "ESTA:250804714",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-03T17:45:00.000Z",
+        "updated": "2025-08-03T17:45:00.000Z",
+        "resources": 2,
+        "location": "Cornish St, Castlemaine",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.21132824353023,
+          -37.052317111852744
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250804702",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1306,6 +1361,33 @@
         "coordinates": [
           145.07701490027216,
           -37.89316923731983
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 574020,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574020,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850122,
+        "id": "ESTA:250850122",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-03T17:57:40.000Z",
+        "updated": "2025-08-03T18:22:59.000Z",
+        "resources": 1,
+        "location": "Mount Martha"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99864339538502,
+          -38.30452123606679
         ]
       }
     }
@@ -1537,7 +1619,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-03T17:52:20.083Z",
-    "featureCount": 9
+    "lastUpdated": "2025-08-03T18:39:25.560Z",
+    "featureCount": 12
   }
 }
