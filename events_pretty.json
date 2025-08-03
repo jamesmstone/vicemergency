@@ -330,24 +330,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120556619,
+        "status": "Safe",
+        "estaId": 120555936,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250804715",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Greville St",
-        "eventId": "250804715",
-        "id": "ESTA:250804715",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231252,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Surf Coast Hwy",
+        "eventId": 250804704,
+        "id": "ESTA:250804704",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-03T18:37:09.000Z",
-        "updated": "2025-08-03T18:37:09.000Z",
+        "category2": "Other",
+        "created": "2025-08-03T15:37:00.000Z",
+        "updated": "2025-08-03T18:50:00.000Z",
         "resources": 2,
-        "location": "Greville St, Prahran",
-        "mfbId": "250804715",
+        "location": "Surf Coast Hwy, Torquay",
+        "cfaId": 231252,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -355,37 +355,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98953511286405,
-          -37.84892820442175
+          144.3140282247051,
+          -38.28492567183343
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120556629,
+        "status": "Complete",
+        "estaId": 120556469,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120556629,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Truganina",
-        "eventId": "F250804716",
-        "id": "ESTA:250804716",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574020,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850122,
+        "id": "ESTA:250850122",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-08-03T18:37:05.000Z",
-        "updated": "2025-08-03T18:38:39.426Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-03T17:57:40.000Z",
+        "updated": "2025-08-03T18:53:25.000Z",
         "resources": 0,
-        "location": "Truganina"
+        "location": "Mount Martha",
+        "sesId": 574020
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6777181639003,
-          -37.80301823894336
+          144.99864339538502,
+          -38.30452123606679
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120556629,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250804716",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Truganina",
+        "eventId": "250804716",
+        "id": "ESTA:250804716",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-08-03T18:52:40.000Z",
+        "updated": "2025-08-03T18:52:40.000Z",
+        "resources": 3,
+        "location": "Truganina, Truganina",
+        "cfaId": 231257,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250804716"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67771549692776,
+          -37.80302236458096
         ]
       }
     },
@@ -1279,36 +1313,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 231252,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231252,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Surf Coast Hwy",
-        "eventId": 250804704,
-        "id": "ESTA:250804704",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-03T15:37:00.000Z",
-        "updated": "2025-08-03T17:45:00.000Z",
-        "resources": 8,
-        "location": "Surf Coast Hwy, Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3140282247051,
-          -38.28492567183343
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
         "cfaId": 231256,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1317,11 +1322,11 @@
         "sourceTitle": "Cornish St",
         "eventId": 250804714,
         "id": "ESTA:250804714",
-        "category1": "Fire",
-        "category2": "Building Fire",
+        "category1": "Other",
+        "category2": "Other",
         "created": "2025-08-03T17:45:00.000Z",
-        "updated": "2025-08-03T17:45:00.000Z",
-        "resources": 2,
+        "updated": "2025-08-03T18:43:00.000Z",
+        "resources": 0,
         "location": "Cornish St, Castlemaine",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1361,33 +1366,6 @@
         "coordinates": [
           145.07701490027216,
           -37.89316923731983
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 574020,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574020,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850122,
-        "id": "ESTA:250850122",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-03T17:57:40.000Z",
-        "updated": "2025-08-03T18:22:59.000Z",
-        "resources": 1,
-        "location": "Mount Martha"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99864339538502,
-          -38.30452123606679
         ]
       }
     }
@@ -1619,7 +1597,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-03T18:39:25.560Z",
-    "featureCount": 12
+    "lastUpdated": "2025-08-03T18:57:20.214Z",
+    "featureCount": 11
   }
 }
