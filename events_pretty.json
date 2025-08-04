@@ -399,30 +399,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120568832,
+        "status": "Safe",
+        "estaId": 120568866,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120568832,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ascot Vale",
-        "eventId": "F250805587",
-        "id": "ESTA:250805587",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231386,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fitzroy St",
+        "eventId": 250805589,
+        "id": "ESTA:250805589",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-04T19:48:28.000Z",
-        "updated": "2025-08-04T19:48:35.739Z",
-        "resources": 0,
-        "location": "Epsom Rd, Ascot Vale"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-04T20:00:00.000Z",
+        "updated": "2025-08-04T20:22:00.000Z",
+        "resources": 3,
+        "location": "Fitzroy St, Kilmore",
+        "cfaId": 231386,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91403007375402,
-          -37.77954987115473
+          144.95559902495938,
+          -37.292468958046015
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120568950,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574074,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850181,
+        "id": "ESTA:250850181",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-04T20:27:36.000Z",
+        "updated": "2025-08-04T20:30:13.000Z",
+        "resources": 0,
+        "location": "Mount Dandenong",
+        "sesId": 574074
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34869765752777,
+          -37.836119359153905
         ]
       }
     },
@@ -4082,27 +4115,54 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 574070,
+        "sesId": 574073,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 574070,
+        "sourceId": 574073,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250850177,
-        "id": "ESTA:250850177",
+        "eventId": 250850180,
+        "id": "ESTA:250850180",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-08-04T19:22:51.000Z",
-        "updated": "2025-08-04T19:39:07.000Z",
-        "resources": 1,
-        "location": "Heathcote"
+        "created": "2025-08-04T20:08:33.000Z",
+        "updated": "2025-08-04T20:11:53.000Z",
+        "resources": 0,
+        "location": "Marysville"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.69619925151716,
-          -36.89098108916507
+          145.75157057163383,
+          -37.492561662966565
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 574072,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574072,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850179,
+        "id": "ESTA:250850179",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-04T20:07:46.000Z",
+        "updated": "2025-08-04T20:26:45.000Z",
+        "resources": 1,
+        "location": "Grassdale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.54999359550797,
+          -37.84593582633351
         ]
       }
     }
@@ -4334,7 +4394,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-04T19:51:00.407Z",
-    "featureCount": 10
+    "lastUpdated": "2025-08-04T20:33:07.847Z",
+    "featureCount": 12
   }
 }
