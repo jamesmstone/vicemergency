@@ -399,33 +399,64 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120568414,
+        "status": "Complete",
+        "estaId": 120568188,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231383,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bannons Lane",
-        "eventId": 250805577,
-        "id": "ESTA:250805577",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574069,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850176,
+        "id": "ESTA:250850176",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-04T17:32:00.000Z",
-        "updated": "2025-08-04T17:32:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-08-04T16:25:08.000Z",
+        "updated": "2025-08-04T17:42:17.000Z",
         "resources": 0,
-        "location": "Bannons Lane, Yarrambat",
-        "cfaId": 231383,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Emerald",
+        "sesId": 574069
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14212640089048,
-          -37.62674468323114
+          145.4368240678263,
+          -37.92045133451721
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120568414,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250805577",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bannons Lane",
+        "eventId": "250805577",
+        "id": "ESTA:250805577",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-04T17:52:26.000Z",
+        "updated": "2025-08-04T17:52:26.000Z",
+        "resources": 4,
+        "location": "Bannons Lane, Yarrambat",
+        "cfaId": 231383,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250805577"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14213597964127,
+          -37.62673997909326
         ]
       }
     },
@@ -4429,35 +4460,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 231377,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 231377,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rhyolite Dr",
-        "eventId": 250805559,
-        "id": "ESTA:250805559",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-04T15:44:00.000Z",
-        "updated": "2025-08-04T16:46:00.000Z",
-        "resources": 0,
-        "location": "Rhyolite Dr, Craigieburn",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.90629351945267,
-          -37.601778388936545
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 231379,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4486,28 +4488,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 574069,
+        "status": "Under Control",
+        "mfbId": "250805578",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574069,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850176,
-        "id": "ESTA:250850176",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-08-04T16:25:08.000Z",
-        "updated": "2025-08-04T16:54:41.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250805578",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Price Av",
+        "id": "ESTA:250805578",
+        "eventId": "250805578",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-04T17:50:49.000Z",
+        "updated": "2025-08-04T17:50:49.000Z",
         "resources": 1,
-        "location": "Emerald"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Price Av, Mount Waverley"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4368240678263,
-          -37.92045133451721
+          145.14562736772928,
+          -37.87516717878107
         ]
       }
     }
@@ -4739,7 +4743,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-04T17:33:20.102Z",
+    "lastUpdated": "2025-08-04T17:55:20.583Z",
     "featureCount": 13
   }
 }
