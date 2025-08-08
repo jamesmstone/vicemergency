@@ -83,6 +83,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "estaId": 120619204,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120619204,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ivanhoe",
+        "eventId": "F250809046",
+        "id": "ESTA:250809046",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-08-08T18:56:41.000Z",
+        "updated": "2025-08-08T18:57:01.932Z",
+        "resources": 0,
+        "location": "Heidelberg Rd, Ivanhoe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0388776595654,
+          -37.776052751770465
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "cfaId": 231789,
         "feedType": "incident",
@@ -112,59 +141,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250809041",
+        "status": "Not Yet Under Control",
+        "cfaId": 231791,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250809041",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Katandra Rd",
-        "id": "ESTA:250809041",
-        "eventId": "250809041",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 231791,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Heaths Rd",
+        "eventId": 250809045,
+        "id": "ESTA:250809045",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-08T18:09:40.000Z",
-        "updated": "2025-08-08T18:09:40.000Z",
-        "resources": 1,
+        "category2": "Building Fire",
+        "created": "2025-08-08T18:43:00.000Z",
+        "updated": "2025-08-08T18:43:00.000Z",
+        "resources": 2,
+        "location": "Heaths Rd, Hoppers Crossing",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Katandra Rd, Ormond"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0395361229331,
-          -37.903566611642
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250809043",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250809043",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ontario Av",
-        "id": "ESTA:250809043",
-        "eventId": "250809043",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-08T18:34:41.000Z",
-        "updated": "2025-08-08T18:34:41.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ontario Av, Mildura"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.14806262909065,
-          -34.18039408738688
+          144.68001591239218,
+          -37.87699885753065
         ]
       }
     },
@@ -210,6 +210,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -217,8 +218,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -234,6 +234,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -241,8 +242,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-08T14:00:00.000Z",
           "heat": {
@@ -423,7 +423,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-08T18:39:06.617Z",
+    "lastUpdated": "2025-08-08T18:57:20.397Z",
     "featureCount": 8
   }
 }
