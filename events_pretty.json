@@ -144,23 +144,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120668199,
+        "estaId": 120668340,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250814837",
+        "sourceId": "250814840",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Murphy St",
-        "eventId": "250814837",
-        "id": "ESTA:250814837",
+        "sourceTitle": "Malcolm St",
+        "eventId": "250814840",
+        "id": "ESTA:250814840",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-08-12T15:50:13.000Z",
-        "updated": "2025-08-12T15:50:13.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-12T16:25:28.000Z",
+        "updated": "2025-08-12T16:25:28.000Z",
         "resources": 1,
-        "location": "Murphy St, Wangaratta",
-        "mfbId": "250814837",
+        "location": "Malcolm St, South Yarra",
+        "mfbId": "250814840",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -168,8 +168,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.32468065554298,
-          -36.35639894193611
+          144.99628502926979,
+          -37.83723371058842
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120668199,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120668199,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wangaratta",
+        "eventId": "F250814837",
+        "id": "ESTA:250814837",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-08-12T15:48:44.000Z",
+        "updated": "2025-08-12T16:25:51.895Z",
+        "resources": 1,
+        "location": "Murphy St, Wangaratta"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.32461311872166,
+          -36.35664202040357
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120668344,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574344,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850455,
+        "id": "ESTA:250850455",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-12T16:26:12.000Z",
+        "updated": "2025-08-12T16:28:14.000Z",
+        "resources": 0,
+        "location": "Carrajung Lower",
+        "sesId": 574344
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.74946522169466,
+          -38.390996064531045
         ]
       }
     },
@@ -202,93 +261,6 @@
           -36.5359649659999
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 232296,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 232296,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Treviso Way",
-        "eventId": 250814836,
-        "id": "ESTA:250814836",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-12T15:35:00.000Z",
-        "updated": "2025-08-12T15:35:00.000Z",
-        "resources": 2,
-        "location": "Treviso Way, Red Cliffs",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.230727110436,
-          -34.34993332489065
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250814833",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250814833",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lalor",
-        "id": "ESTA:250814833",
-        "eventId": "250814833",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-12T15:12:43.000Z",
-        "updated": "2025-08-12T15:12:43.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Lalor, Lalor"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0170597472403,
-          -37.668136900770115
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250814834",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250814834",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Willys Av",
-        "id": "ESTA:250814834",
-        "eventId": "250814834",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-12T15:20:06.000Z",
-        "updated": "2025-08-12T15:20:06.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Willys Av, Keilor Downs"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.80228155092775,
-          -37.718388636998526
-        ]
-      }
     }
   ],
   "properties": {
@@ -305,6 +277,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -312,8 +285,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -329,6 +301,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -336,8 +309,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-12T14:00:00.000Z",
           "heat": {
@@ -518,7 +490,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-12T15:53:00.768Z",
-    "featureCount": 12
+    "lastUpdated": "2025-08-12T16:36:26.055Z",
+    "featureCount": 11
   }
 }
