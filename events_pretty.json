@@ -3,6 +3,36 @@
   "features": [
     {
       "properties": {
+        "status": "Minor",
+        "feedType": "earthquake",
+        "sourceOrg": "AU/GA",
+        "sourceId": "697903",
+        "sourceFeed": "ga-earthquake",
+        "sourceTitle": "Magnitude 3.2 earthquake - Mornington, VIC - 13/08/2025 06:39:25 (UTC)",
+        "id": "697903",
+        "category1": "Earthquake",
+        "category2": "Earthquake",
+        "name": "Magnitude 3.2 - Mornington, VIC",
+        "sizeFmt": "Magnitude 3.2",
+        "created": "2025-08-13T18:39:25-00:00",
+        "updated": "2025-08-13T18:39:25-00:00",
+        "webBody": "A magnitude 3.2 earthquake has occurred in \"Mornington, VIC\" at a depth of 10.00 km at 13/08/2025 06:39:25 (UTC)",
+        "url": "https://earthquakes.ga.gov.au/event/ga2025pwptud",
+        "cssClass": "earthquake",
+        "magnitude": "3.16975782611022",
+        "location": "Mornington, VIC"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97,
+          -38.401
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -115,31 +145,96 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120680453,
+        "status": "Request For Assistance",
+        "estaId": 120680805,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 574391,
+        "sourceId": 574392,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250850504,
-        "id": "ESTA:250850504",
+        "eventId": 250850505,
+        "id": "ESTA:250850505",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-13T17:09:03.000Z",
-        "updated": "2025-08-13T18:24:38.000Z",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-08-13T18:41:50.000Z",
+        "updated": "2025-08-13T18:52:26.000Z",
         "resources": 0,
-        "location": "Raglan",
-        "sesId": 574391
+        "location": "Sale",
+        "sesId": 574392
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.31026212316624,
-          -37.32856263960413
+          147.065646287144,
+          -38.10935200510444
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120680810,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 232411,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kangerong Av",
+        "eventId": 250815582,
+        "id": "ESTA:250815582",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-13T18:44:00.000Z",
+        "updated": "2025-08-13T18:48:00.000Z",
+        "resources": 0,
+        "location": "Kangerong Av, Dromana",
+        "cfaId": 232411,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97152242797668,
+          -38.332674430635244
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120680837,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250815585",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Thirteenth St",
+        "eventId": "250815585",
+        "id": "ESTA:250815585",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-08-13T18:54:47.000Z",
+        "updated": "2025-08-13T18:54:47.000Z",
+        "resources": 2,
+        "location": "Thirteenth St, Mildura",
+        "cfaId": 232412,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250815585"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.16265938105053,
+          -34.199596013228735
         ]
       }
     },
@@ -422,6 +517,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -429,8 +525,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -446,6 +541,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -453,8 +549,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-13T14:00:00.000Z",
           "heat": {
@@ -635,7 +730,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-13T18:38:59.956Z",
-    "featureCount": 8
+    "lastUpdated": "2025-08-13T18:56:26.510Z",
+    "featureCount": 11
   }
 }
