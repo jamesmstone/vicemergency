@@ -59,24 +59,51 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120718655,
+        "status": "Complete",
+        "estaId": 120718511,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574545,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850656,
+        "id": "ESTA:250850656",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-16T18:34:17.000Z",
+        "updated": "2025-08-16T19:47:40.000Z",
+        "resources": 0,
+        "location": "Bittern",
+        "sesId": 574545
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18064373848878,
+          -38.353507145890696
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 232760,
+        "feedType": "incident",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250818270",
         "sourceFeed": "mfb-incident",
         "sourceTitle": "Werribee",
         "eventId": "250818270",
         "id": "ESTA:250818270",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-08-16T19:24:44.000Z",
-        "updated": "2025-08-16T19:24:44.000Z",
-        "resources": 2,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-16T19:33:14.000Z",
+        "updated": "2025-08-16T19:33:14.000Z",
+        "resources": 1,
         "location": "Werribee, Werribee",
-        "cfaId": 232760,
         "size": "Small",
         "sizeFmt": "Small",
         "mfbId": "250818270"
@@ -87,33 +114,6 @@
         "coordinates": [
           144.65644562167458,
           -37.90553258170656
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 574545,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574545,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850656,
-        "id": "ESTA:250850656",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-16T18:34:17.000Z",
-        "updated": "2025-08-16T18:53:51.000Z",
-        "resources": 1,
-        "location": "Bittern"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18064373848878,
-          -38.353507145890696
         ]
       }
     }
@@ -345,7 +345,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-16T19:30:20.229Z",
+    "lastUpdated": "2025-08-16T19:49:59.723Z",
     "featureCount": 6
   }
 }
