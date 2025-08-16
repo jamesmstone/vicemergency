@@ -74,7 +74,7 @@
         "category2": "Other",
         "created": "2025-08-16T20:07:00.000Z",
         "updated": "2025-08-16T20:25:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Flynn",
         "cfaId": 232762,
         "size": "Small",
@@ -91,26 +91,53 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120718825,
+        "status": "Under Control",
+        "cfaId": 232763,
         "feedType": "incident",
-        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250818279",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Altezze Dr",
+        "eventId": "250818279",
+        "id": "ESTA:250818279",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-16T20:43:09.000Z",
+        "updated": "2025-08-16T20:43:09.000Z",
+        "resources": 3,
+        "location": "Altezze Dr, Truganina",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250818279"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67912099746357,
+          -37.75819128542142
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250818278",
+        "feedType": "incident",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250818278",
         "sourceFeed": "mfb-incident",
         "sourceTitle": "Munro St",
-        "eventId": "250818278",
         "id": "ESTA:250818278",
-        "suppress": false,
+        "eventId": "250818278",
         "category1": "Other",
         "category2": "Other",
         "created": "2025-08-16T20:28:05.000Z",
         "updated": "2025-08-16T20:28:05.000Z",
-        "resources": 0,
-        "location": "Munro St, Coburg",
-        "mfbId": "250818278",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Munro St, Coburg"
       },
       "type": "Feature",
       "geometry": {
@@ -118,64 +145,6 @@
         "coordinates": [
           144.95249147561674,
           -37.743455927259284
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120718831,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120718831,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Truganina",
-        "eventId": "F250818279",
-        "id": "ESTA:250818279",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-16T20:29:10.000Z",
-        "updated": "2025-08-16T20:29:18.166Z",
-        "resources": 0,
-        "location": "Altezze Dr, Truganina"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.67912398079437,
-          -37.75818339511139
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 232760,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 232760,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250818270,
-        "id": "ESTA:250818270",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-16T19:22:00.000Z",
-        "updated": "2025-08-16T19:33:00.000Z",
-        "resources": 0,
-        "location": "Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65644197748207,
-          -37.905538751058714
         ]
       }
     },
@@ -194,7 +163,7 @@
         "category2": "Other",
         "created": "2025-08-16T20:25:33.000Z",
         "updated": "2025-08-16T20:25:33.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Elsternwick, Elsternwick"
@@ -205,6 +174,33 @@
         "coordinates": [
           144.99728309986133,
           -37.88383275796506
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 574546,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574546,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850657,
+        "id": "ESTA:250850657",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-08-16T20:29:53.000Z",
+        "updated": "2025-08-16T20:41:20.000Z",
+        "resources": 0,
+        "location": "Coburg"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95249043570377,
+          -37.74346375841119
         ]
       }
     }
@@ -436,7 +432,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-16T20:29:39.832Z",
+    "lastUpdated": "2025-08-16T20:50:05.426Z",
     "featureCount": 9
   }
 }
