@@ -115,24 +115,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120767127,
+        "status": "Complete",
+        "estaId": 120767273,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574697,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850809,
+        "id": "ESTA:250850809",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-20T18:17:57.000Z",
+        "updated": "2025-08-20T19:14:15.000Z",
+        "resources": 0,
+        "location": "Point Lonsdale",
+        "sesId": 574697
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6055897783328,
+          -38.282195871312055
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120767456,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233255,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parkview Bvd",
-        "eventId": 250822275,
-        "id": "ESTA:250822275",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250822282",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sydney Rd",
+        "eventId": "250822282",
+        "id": "ESTA:250822282",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-20T17:39:00.000Z",
-        "updated": "2025-08-20T18:22:00.000Z",
-        "resources": 0,
-        "location": "Parkview Bvd, Huntly",
-        "cfaId": 233255,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-08-20T19:19:47.000Z",
+        "updated": "2025-08-20T19:19:47.000Z",
+        "resources": 2,
+        "location": "Sydney Rd, Campbellfield",
+        "mfbId": "250822282",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -140,41 +170,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34658260398183,
-          -36.661700239582686
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120767369,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250822281",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hernes Oak",
-        "eventId": "250822281",
-        "id": "ESTA:250822281",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-20T18:47:08.000Z",
-        "updated": "2025-08-20T18:47:08.000Z",
-        "resources": 3,
-        "location": "Hernes Oak, Hernes Oak",
-        "cfaId": 233258,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250822281"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.35151612646874,
-          -38.23733803245435
+          144.95550885787117,
+          -37.66775140800986
         ]
       }
     },
@@ -211,30 +208,88 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 233257,
+        "cfaId": 233255,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250822278",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Morwell-Maryvale Rd",
-        "eventId": "250822278",
-        "id": "ESTA:250822278",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233255,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Parkview Bvd",
+        "eventId": 250822275,
+        "id": "ESTA:250822275",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-20T18:36:30.000Z",
-        "updated": "2025-08-20T18:36:30.000Z",
-        "resources": 1,
-        "location": "Morwell-Maryvale Rd, Morwell",
+        "category2": "Building Fire",
+        "created": "2025-08-20T17:39:00.000Z",
+        "updated": "2025-08-20T18:22:00.000Z",
+        "resources": 0,
+        "location": "Parkview Bvd, Huntly",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250822278"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.41874748441282,
-          -38.207637667215984
+          144.34658260398183,
+          -36.661700239582686
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 233257,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233257,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Morwell-Maryvale Rd",
+        "eventId": 250822278,
+        "id": "ESTA:250822278",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-20T18:08:00.000Z",
+        "updated": "2025-08-20T18:36:00.000Z",
+        "resources": 1,
+        "location": "Morwell-Maryvale Rd, Morwell",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.41874063341726,
+          -38.20763839253412
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 233258,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250822281",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Buckleys Trk",
+        "eventId": "250822281",
+        "id": "ESTA:250822281",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-20T18:58:56.000Z",
+        "updated": "2025-08-20T18:58:56.000Z",
+        "resources": 1,
+        "location": "Buckleys Trk, Hernes Oak",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250822281"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3484481805794,
+          -38.236327291574874
         ]
       }
     },
@@ -264,33 +319,6 @@
         "coordinates": [
           144.84874513116412,
           -37.819001341152514
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 574697,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574697,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850809,
-        "id": "ESTA:250850809",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-20T18:17:57.000Z",
-        "updated": "2025-08-20T18:37:58.000Z",
-        "resources": 1,
-        "location": "Point Lonsdale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6055897783328,
-          -38.282195871312055
         ]
       }
     }
@@ -522,7 +550,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-20T18:55:25.697Z",
-    "featureCount": 12
+    "lastUpdated": "2025-08-20T19:21:20.505Z",
+    "featureCount": 13
   }
 }
