@@ -59,7 +59,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3017228,
@@ -68,8 +68,8 @@
         "id": 3017228,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-08-21T01:09:48.000Z",
-        "updated": "2025-08-21T01:09:48.000Z",
+        "created": "2025-08-21T22:54:11.000Z",
+        "updated": "2025-08-21T22:54:11.000Z",
         "resources": 0,
         "size": "302.89",
         "sizeFmt": "302.89 Ha.",
@@ -87,7 +87,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3019067,
@@ -96,8 +96,8 @@
         "id": 3019067,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-08-20T01:54:24.000Z",
-        "updated": "2025-08-20T01:54:24.000Z",
+        "created": "2025-08-21T22:53:46.000Z",
+        "updated": "2025-08-21T22:53:46.000Z",
         "resources": 0,
         "size": "7223.24",
         "sizeFmt": "7223.24 Ha.",
@@ -143,36 +143,136 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120778751,
+        "status": "Safe",
+        "estaId": 120782219,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120778751,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Benalla",
-        "eventId": "F250823458",
-        "id": "ESTA:250823458",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233414,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Douglas St",
+        "eventId": 250823706,
+        "id": "ESTA:250823706",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-08-21T13:07:05.000Z",
-        "updated": "2025-08-21T22:37:29.234Z",
+        "category2": "Other",
+        "created": "2025-08-21T22:51:00.000Z",
+        "updated": "2025-08-21T23:01:00.000Z",
         "resources": 0,
-        "location": "Bridge St, Benalla"
+        "location": "Douglas St, Noble Park",
+        "cfaId": 233414,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.9793686229948,
-          -36.552977260564404
+          145.17521660662692,
+          -37.966781714312795
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 120782448,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250823750",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Catons Flat Rd",
+        "eventId": "250823750",
+        "id": "ESTA:250823750",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-21T23:18:08.000Z",
+        "updated": "2025-08-21T23:18:08.000Z",
+        "resources": 2,
+        "location": "Catons Flat Rd, Heywood",
+        "cfaId": 233418,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250823750"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.60172297516976,
+          -38.13824527912469
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120782460,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250823752",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Egan Rd",
+        "eventId": "250823752",
+        "id": "ESTA:250823752",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-21T23:11:30.000Z",
+        "updated": "2025-08-21T23:11:30.000Z",
+        "resources": 1,
+        "location": "Egan Rd, Dandenong",
+        "mfbId": "250823752",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19399378799974,
+          -37.99531366719902
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120782363,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233416,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murray St",
+        "eventId": 250823732,
+        "id": "ESTA:250823732",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-21T23:02:00.000Z",
+        "updated": "2025-08-21T23:13:00.000Z",
+        "resources": 2,
+        "location": "Murray St, Colac",
+        "cfaId": 233416,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58635854037357,
+          -38.33994765390252
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 120782082,
         "feedType": "incident",
         "source": "000",
@@ -184,10 +284,10 @@
         "id": "ESTA:250823679",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
+        "category2": "Other",
         "created": "2025-08-21T22:37:00.000Z",
-        "updated": "2025-08-21T22:37:00.000Z",
-        "resources": 3,
+        "updated": "2025-08-21T23:17:00.000Z",
+        "resources": 5,
         "location": "Bourkes Creek Rd, Dewhurst",
         "cfaId": 233412,
         "size": "Small",
@@ -204,217 +304,88 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120776012,
+        "status": "Responding",
+        "estaId": 120782636,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 120776012,
+        "sourceId": 120782636,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wallan",
-        "eventId": "F250823320",
-        "id": "ESTA:250823320",
+        "sourceTitle": "Riverslea",
+        "eventId": "F250823787",
+        "id": "ESTA:250823787",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-08-21T08:09:59.000Z",
-        "updated": "2025-08-21T22:40:26.679Z",
+        "created": "2025-08-21T23:22:31.000Z",
+        "updated": "2025-08-21T23:23:38.073Z",
         "resources": 0,
-        "location": "Eastern Rdge, Wallan"
+        "location": "Riverslea"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00774277859355,
-          -37.39246682015976
+          146.95163424394116,
+          -37.99166229452922
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120782170,
+        "estaId": 120782640,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 120782170,
+        "sourceId": 120782640,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wodonga",
-        "eventId": "F250823697",
-        "id": "ESTA:250823697",
+        "sourceTitle": "West Footscray",
+        "eventId": "F250823789",
+        "id": "ESTA:250823789",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-21T22:45:37.000Z",
-        "updated": "2025-08-21T22:45:50.663Z",
+        "created": "2025-08-21T23:22:36.000Z",
+        "updated": "2025-08-21T23:24:00.208Z",
         "resources": 0,
-        "location": "Wigg St, Wodonga"
+        "location": "Hampton Pde, West Footscray"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.89802658229988,
-          -36.12511193451694
+          144.86879789252114,
+          -37.80650620801768
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120782187,
+        "estaId": 120782650,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823699",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Trentwood Rd",
-        "eventId": "250823699",
-        "id": "ESTA:250823699",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120782650,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dandenong",
+        "eventId": "F250823792",
+        "id": "ESTA:250823792",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-21T22:47:39.000Z",
-        "updated": "2025-08-21T22:47:39.000Z",
-        "resources": 1,
-        "location": "Trentwood Rd, Narre Warren",
-        "mfbId": "250823699",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2993828985104,
-          -38.01287294642097
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120782187,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574735,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850850,
-        "id": "ESTA:250850850",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-08-21T22:47:28.000Z",
-        "updated": "2025-08-21T22:47:59.000Z",
+        "created": "2025-08-21T23:23:32.000Z",
+        "updated": "2025-08-21T23:24:20.584Z",
         "resources": 0,
-        "location": "Narre Warren",
-        "sesId": 574735
+        "location": "Egan Rd, Dandenong"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29938154252005,
-          -38.012873390797616
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 120782055,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823675",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Glenhuntly Rd",
-        "eventId": "250823675",
-        "id": "ESTA:250823675",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-21T22:48:11.000Z",
-        "updated": "2025-08-21T22:48:11.000Z",
-        "resources": 1,
-        "location": "Glenhuntly Rd, Elsternwick",
-        "mfbId": "250823675",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01448299990062,
-          -37.886147426196814
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120782151,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823693",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wigg St",
-        "eventId": "250823693",
-        "id": "ESTA:250823693",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-21T22:48:15.000Z",
-        "updated": "2025-08-21T22:48:15.000Z",
-        "resources": 1,
-        "location": "Wigg St, Wodonga",
-        "mfbId": "250823693",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.89801581428367,
-          -36.12511903979218
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120782201,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233413,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fullarton Dr",
-        "eventId": 250823703,
-        "id": "ESTA:250823703",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-21T22:49:00.000Z",
-        "updated": "2025-08-21T22:49:00.000Z",
-        "resources": 0,
-        "location": "Fullarton Dr, Epping",
-        "cfaId": 233413,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01388923008653,
-          -37.6498708651712
+          145.19400280365215,
+          -37.99530883524203
         ]
       }
     },
@@ -463,7 +434,7 @@
         "category2": "Structure Fire",
         "created": "2025-08-21T13:47:38.000Z",
         "updated": "2025-08-21T13:47:38.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Bedingham Dr, Hillside (Greater Melbourne)",
         "size": "Small",
         "sizeFmt": "Small",
@@ -480,35 +451,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 233410,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233410,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250823609,
-        "id": "ESTA:250823609",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-21T21:52:00.000Z",
-        "updated": "2025-08-21T21:59:00.000Z",
-        "resources": 0,
-        "location": "Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.69396499081398,
-          -37.863882286586836
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 233411,
         "feedType": "incident",
@@ -520,9 +462,9 @@
         "id": "ESTA:250823624",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-21T22:21:48.000Z",
-        "updated": "2025-08-21T22:21:48.000Z",
-        "resources": 2,
+        "created": "2025-08-21T22:59:42.000Z",
+        "updated": "2025-08-21T22:59:42.000Z",
+        "resources": 1,
         "location": "Newcombe St, Portarlington",
         "size": "Small",
         "sizeFmt": "Small",
@@ -539,59 +481,117 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250823627",
+        "status": "Responding",
+        "cfaId": 233417,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823627",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kierens Way",
-        "id": "ESTA:250823627",
-        "eventId": "250823627",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-21T22:28:51.000Z",
-        "updated": "2025-08-21T22:28:51.000Z",
-        "resources": 2,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233417,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bell St",
+        "eventId": 250823749,
+        "id": "ESTA:250823749",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-08-21T23:07:00.000Z",
+        "updated": "2025-08-21T23:07:00.000Z",
+        "resources": 1,
+        "location": "Bell St, Yarra Glen",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Kierens Way, Chadstone"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.10581340338433,
-          -37.885299823964544
+          145.3747700050655,
+          -37.658460772725874
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250823621",
+        "mfbId": "250823693",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250823621",
+        "sourceId": "250823693",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rohs Rd",
-        "id": "ESTA:250823621",
-        "eventId": "250823621",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-21T22:31:57.000Z",
-        "updated": "2025-08-21T22:31:57.000Z",
-        "resources": 1,
+        "sourceTitle": "Wigg St",
+        "id": "ESTA:250823693",
+        "eventId": "250823693",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-21T23:13:05.000Z",
+        "updated": "2025-08-21T23:13:05.000Z",
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Rohs Rd, East Bendigo"
+        "location": "Wigg St, Wodonga"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.31673438246816,
-          -36.73990372590242
+          146.89801581428367,
+          -36.12511903979218
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250823746",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250823746",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Yarraville",
+        "id": "ESTA:250823746",
+        "eventId": "250823746",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-21T23:13:26.000Z",
+        "updated": "2025-08-21T23:13:26.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Yarraville, Yarraville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.883464806656,
+          -37.81283215879374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250823699",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250823699",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Trentwood Rd",
+        "id": "ESTA:250823699",
+        "eventId": "250823699",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-21T23:17:07.000Z",
+        "updated": "2025-08-21T23:17:07.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Trentwood Rd, Narre Warren"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2993828985104,
+          -38.01287294642097
         ]
       }
     },
@@ -852,7 +852,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-21T22:50:05.856Z",
+    "lastUpdated": "2025-08-21T23:24:27.031Z",
     "featureCount": 23
   }
 }
