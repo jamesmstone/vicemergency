@@ -143,7 +143,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120780959,
         "feedType": "incident",
         "source": "000",
@@ -154,10 +154,10 @@
         "eventId": "250823514",
         "id": "ESTA:250823514",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-08-21T19:06:15.000Z",
-        "updated": "2025-08-21T19:06:15.000Z",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-08-21T19:23:08.000Z",
+        "updated": "2025-08-21T19:23:08.000Z",
         "resources": 2,
         "location": "Katamatite-Shepparton Main Rd, Congupna",
         "mfbId": "250823514",
@@ -170,103 +170,6 @@
         "coordinates": [
           145.4352636830387,
           -36.29931105746123
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 120780929,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823511",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": "250823511",
-        "id": "ESTA:250823511",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-21T19:11:21.000Z",
-        "updated": "2025-08-21T19:11:21.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Dandenong",
-        "cfaId": 233400,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250823511"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2064560599946,
-          -37.97727417591517
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 120780858,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233399,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Geelong-Bacchus Marsh Rd",
-        "eventId": 250823508,
-        "id": "ESTA:250823508",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-08-21T18:41:00.000Z",
-        "updated": "2025-08-21T19:13:00.000Z",
-        "resources": 1,
-        "location": "Geelong-Bacchus Marsh Rd, Balliang East",
-        "cfaId": 233399,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.40658231529918,
-          -37.80087904122607
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120781003,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250823518",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Phoenix Av",
-        "eventId": "250823518",
-        "id": "ESTA:250823518",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-08-21T19:19:45.000Z",
-        "updated": "2025-08-21T19:19:45.000Z",
-        "resources": 0,
-        "location": "Phoenix Av, Cranbourne",
-        "mfbId": "250823518",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.28772609998072,
-          -38.09435267363744
         ]
       }
     },
@@ -327,6 +230,65 @@
         "coordinates": [
           144.74851799536447,
           -37.690499587687
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 233400,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250823511",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "250823511",
+        "id": "ESTA:250823511",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-21T19:11:21.000Z",
+        "updated": "2025-08-21T19:11:21.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Dandenong",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250823511"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2064560599946,
+          -37.97727417591517
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 233399,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233399,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Geelong-Bacchus Marsh Rd",
+        "eventId": 250823508,
+        "id": "ESTA:250823508",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-08-21T18:41:00.000Z",
+        "updated": "2025-08-21T19:13:00.000Z",
+        "resources": 1,
+        "location": "Geelong-Bacchus Marsh Rd, Balliang East",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.40658231529918,
+          -37.80087904122607
         ]
       }
     }
@@ -558,7 +520,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-21T19:21:06.135Z",
-    "featureCount": 13
+    "lastUpdated": "2025-08-21T19:30:20.163Z",
+    "featureCount": 12
   }
 }
