@@ -143,7 +143,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 120795476,
         "feedType": "incident",
         "source": "000",
@@ -157,8 +157,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-08-22T21:03:00.000Z",
-        "updated": "2025-08-22T21:21:00.000Z",
-        "resources": 1,
+        "updated": "2025-08-22T21:44:00.000Z",
+        "resources": 2,
         "location": "Princetown Rd, Simpson",
         "cfaId": 233552,
         "size": "Small",
@@ -176,23 +176,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120795554,
+        "estaId": 120795643,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233554,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mollison St",
-        "eventId": 250824918,
-        "id": "ESTA:250824918",
+        "source": "",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250824944",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Melbourne",
+        "eventId": "250824944",
+        "id": "ESTA:250824944",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-22T21:23:00.000Z",
-        "updated": "2025-08-22T21:23:00.000Z",
-        "resources": 2,
-        "location": "Mollison St, Malmsbury",
-        "cfaId": 233554,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-22T21:44:34.000Z",
+        "updated": "2025-08-22T21:44:34.000Z",
+        "resources": 1,
+        "location": "Melbourne, Melbourne",
+        "mfbId": "250824944",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -200,41 +200,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3925196016178,
-          -37.189840934064605
+          144.97856616484964,
+          -37.823383512695855
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120795570,
+        "estaId": 120795647,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250824921",
+        "sourceId": "250824945",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Monarch Av",
-        "eventId": "250824921",
-        "id": "ESTA:250824921",
+        "sourceTitle": "Pine Rd",
+        "eventId": "250824945",
+        "id": "ESTA:250824945",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-22T21:30:55.000Z",
-        "updated": "2025-08-22T21:30:55.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-22T21:45:51.000Z",
+        "updated": "2025-08-22T21:45:51.000Z",
         "resources": 2,
-        "location": "Monarch Av, Mernda",
-        "cfaId": 233555,
+        "location": "Pine Rd, Bayswater",
+        "cfaId": 233556,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250824921"
+        "mfbId": "250824945"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06929013721629,
-          -37.60290783249914
+          145.2664605930544,
+          -37.845037992877344
         ]
       }
     },
@@ -626,6 +626,35 @@
           -37.48026318508661
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 233554,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233554,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mollison St",
+        "eventId": 250824918,
+        "id": "ESTA:250824918",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-22T21:23:00.000Z",
+        "updated": "2025-08-22T21:23:00.000Z",
+        "resources": 2,
+        "location": "Mollison St, Malmsbury",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3925196016178,
+          -37.189840934064605
+        ]
+      }
     }
   ],
   "properties": {
@@ -855,7 +884,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-22T21:35:26.005Z",
-    "featureCount": 14
+    "lastUpdated": "2025-08-22T21:50:05.969Z",
+    "featureCount": 15
   }
 }
