@@ -154,9 +154,9 @@
         "category2": "Bushfire",
         "created": "2025-08-23T08:00:00.000Z",
         "updated": "2025-08-23T08:00:00.000Z",
-        "resources": 0,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "resources": 2,
+        "size": "0.10",
+        "sizeFmt": "0.10 Ha.",
         "location": "20Km North Of Gelantipy"
       },
       "type": "Feature",
@@ -170,65 +170,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 120809586,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250826879",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Leopold St",
-        "eventId": "250826879",
-        "id": "ESTA:250826879",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-23T22:20:13.000Z",
-        "updated": "2025-08-23T22:20:13.000Z",
-        "resources": 2,
-        "location": "Leopold St, South Yarra",
-        "mfbId": "250826879",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98269751730592,
-          -37.837385690311564
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 120809672,
+        "estaId": 120809806,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233698,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mary St",
-        "eventId": 250826897,
-        "id": "ESTA:250826897",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120809806,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Sunbury",
+        "eventId": "F250826929",
+        "id": "ESTA:250826929",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-23T22:20:00.000Z",
-        "updated": "2025-08-23T22:20:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-08-23T22:35:58.000Z",
+        "updated": "2025-08-23T22:37:48.714Z",
         "resources": 0,
-        "location": "Mary St, Heyfield",
-        "cfaId": 233698,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Sunbury"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.78644477125715,
-          -37.97874277951735
+          144.74791615098655,
+          -37.57545562277016
         ]
       }
     },
@@ -652,7 +617,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 233696,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -664,8 +629,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-08-23T21:48:00.000Z",
-        "updated": "2025-08-23T22:16:00.000Z",
-        "resources": 2,
+        "updated": "2025-08-23T22:25:00.000Z",
+        "resources": 0,
         "location": "La Cote Rd, Greendale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -676,6 +641,64 @@
         "coordinates": [
           144.3175411301064,
           -37.567358632506476
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 233698,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233698,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mary St",
+        "eventId": 250826897,
+        "id": "ESTA:250826897",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-23T22:20:00.000Z",
+        "updated": "2025-08-23T22:36:00.000Z",
+        "resources": 2,
+        "location": "Mary St, Heyfield",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.78644477125715,
+          -37.97874277951735
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 233699,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233699,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ocean View Pde",
+        "eventId": 250826926,
+        "id": "ESTA:250826926",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-23T22:36:00.000Z",
+        "updated": "2025-08-23T22:36:00.000Z",
+        "resources": 0,
+        "location": "Ocean View Pde, Sandy Point",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.12644861719895,
+          -38.829673651901885
         ]
       }
     },
@@ -734,6 +757,35 @@
         "coordinates": [
           145.10589409430884,
           -37.76459270630492
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250826879",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250826879",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Leopold St",
+        "id": "ESTA:250826879",
+        "eventId": "250826879",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-23T22:20:13.000Z",
+        "updated": "2025-08-23T22:20:13.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Leopold St, South Yarra"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98269751730592,
+          -37.837385690311564
         ]
       }
     }
@@ -965,7 +1017,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-23T22:24:25.425Z",
-    "featureCount": 18
+    "lastUpdated": "2025-08-23T22:38:25.431Z",
+    "featureCount": 20
   }
 }
