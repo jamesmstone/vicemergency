@@ -142,6 +142,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120804891,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574797,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850908,
+        "id": "ESTA:250850908",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-08-23T10:46:26.000Z",
+        "updated": "2025-08-23T10:48:49.000Z",
+        "resources": 0,
+        "location": "Sydenham",
+        "sesId": 574797
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75930365706202,
+          -37.70439739058979
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -503,51 +533,21 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "616547",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Wagga Rd, Ettamogah",
-        "id": "2025-08-23T20:00:00.0000000:616547",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Wagga Rd, Ettamogah",
-        "location": "Wagga Rd, Ettamogah, Nsw 2640",
-        "created": "2025-08-23T20:00:00+10:00",
-        "updated": "2025-08-23T20:00:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.979751587,
-          -36.0142898559999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233639,
+        "status": "Not Yet Under Control",
+        "cfaId": 233642,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 233639,
+        "sourceId": 233642,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Francis St",
-        "eventId": 250826617,
-        "id": "ESTA:250826617",
+        "sourceTitle": "Overland Dr",
+        "eventId": 250826653,
+        "id": "ESTA:250826653",
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-08-23T09:28:00.000Z",
-        "updated": "2025-08-23T09:34:00.000Z",
-        "resources": 0,
-        "location": "Francis St, Belmont",
+        "created": "2025-08-23T10:36:00.000Z",
+        "updated": "2025-08-23T10:36:00.000Z",
+        "resources": 4,
+        "location": "Overland Dr, Narre Warren",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -555,95 +555,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34834443571054,
-          -38.17994436740236
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233638,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233638,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Andrea Ct",
-        "eventId": 250826614,
-        "id": "ESTA:250826614",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-23T09:23:00.000Z",
-        "updated": "2025-08-23T09:41:00.000Z",
-        "resources": 0,
-        "location": "Andrea Ct, Yarrawonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.01129532041494,
-          -36.02486114651337
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233629,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233629,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250826576,
-        "id": "ESTA:250826576",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-23T08:43:00.000Z",
-        "updated": "2025-08-23T09:43:00.000Z",
-        "resources": 0,
-        "location": "Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36821140806532,
-          -38.06182856777703
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "250826629",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250826629",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lygon St",
-        "id": "ESTA:250826629",
-        "eventId": "250826629",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-23T10:14:43.000Z",
-        "updated": "2025-08-23T10:14:43.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Lygon St, Carlton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96832133938787,
-          -37.79462112667065
+          145.30344293582985,
+          -38.02346699463136
         ]
       }
     }
@@ -875,7 +788,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-23T10:26:05.948Z",
-    "featureCount": 15
+    "lastUpdated": "2025-08-23T10:50:05.589Z",
+    "featureCount": 12
   }
 }
