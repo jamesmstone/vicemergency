@@ -142,6 +142,35 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120809362,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120809362,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "St Kilda",
+        "eventId": "F250826831",
+        "id": "ESTA:250826831",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-23T21:26:56.000Z",
+        "updated": "2025-08-23T21:29:14.588Z",
+        "resources": 0,
+        "location": "Pier Rd, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97108067493153,
+          -37.86379339286461
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -516,7 +545,7 @@
         "category2": "Bushfire",
         "created": "2025-08-23T20:50:00.000Z",
         "updated": "2025-08-23T21:02:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Glenfern Rd, Ferntree Gully",
         "size": "Small",
         "sizeFmt": "Small"
@@ -532,37 +561,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "mfbId": "250826791",
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574809,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "id": "ESTA:250826791",
-        "eventId": 250826791,
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-08-23T19:20:54.000Z",
-        "updated": "2025-08-23T21:16:05.000Z",
-        "resources": 7,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Wantirna",
-        "sesId": 574809
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21257707203821,
-          -37.85820275630434
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "mfbId": "250826825",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -573,8 +572,8 @@
         "eventId": "250826825",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-23T21:20:11.000Z",
-        "updated": "2025-08-23T21:20:11.000Z",
+        "created": "2025-08-23T21:26:58.000Z",
+        "updated": "2025-08-23T21:26:58.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -591,30 +590,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250826812",
+        "status": "Complete",
+        "sesId": 574809,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250826812",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Flinders St",
-        "id": "ESTA:250826812",
-        "eventId": "250826812",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-23T21:21:11.000Z",
-        "updated": "2025-08-23T21:21:11.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Flinders St, Melbourne"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574809,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250826791,
+        "id": "ESTA:250826791",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-08-23T19:20:54.000Z",
+        "updated": "2025-08-23T21:23:50.000Z",
+        "resources": 6,
+        "location": "Wantirna"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97266243216126,
-          -37.81569676379984
+          145.21257707203821,
+          -37.85820275630434
         ]
       }
     }
@@ -846,7 +843,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-23T21:22:20.404Z",
+    "lastUpdated": "2025-08-23T21:33:01.813Z",
     "featureCount": 14
   }
 }
