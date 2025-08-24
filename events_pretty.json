@@ -2,28 +2,96 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1657184",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Thomas Drive, Mount Burr",
-        "id": "1657184",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Thomas Drive, Mount Burr",
-        "created": "2025-08-24T03:29:00.000Z",
-        "updated": "2025-08-24T03:29:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Thomas Drive, Mount Burr"
-      },
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.457241646887,
-          -37.5422776653362
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              145.1319370115027,
+              -37.181954088814265
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.1205215299359,
+                  -37.189920887973656
+                ],
+                [
+                  145.12858961465963,
+                  -37.19142514144612
+                ],
+                [
+                  145.1433524930695,
+                  -37.17733868557461
+                ],
+                [
+                  145.12258146646093,
+                  -37.172483036182406
+                ],
+                [
+                  145.1205215299359,
+                  -37.189920887973656
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "feedType": "warning",
+        "cap": {
+          "category": "Fire",
+          "event": "Industrial Fire",
+          "eventCode": "industryFire",
+          "urgency": "Expected",
+          "severity": "Minor",
+          "certainty": "Unknown",
+          "contact": "lydia.walker@emv.vic.gov.au",
+          "senderName": "Country Fire Authority",
+          "responseType": "Monitor"
+        },
+        "sourceOrg": "EMV",
+        "sourceId": "37995",
+        "sourceFeed": "cop-cap",
+        "sourceTitle": "Advice",
+        "id": "37995",
+        "category1": "Advice",
+        "category2": "Fire",
+        "status": "Minor",
+        "name": "Advice",
+        "action": "Stay Informed",
+        "statewide": "N",
+        "location": "Broadford, Tallarook",
+        "created": "2025-08-24T14:36:55+10:00",
+        "updated": "2025-08-24T14:36:55+10:00",
+        "webHeadline": null,
+        "webBody": "<div style=\"margin-bottom:20px\">This&nbsp;<b>Advice </b>message is being issued for&nbsp;<span title=\"warning_locality\" class=\"param\" contenteditable=\"false\">Broadford, Tallarook</span>.<div><ul><li>There is a&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[factory/ building/waste management facility/recycling facility]\" data-value=\"1\" contenteditable=\"false\" style=\"display: inline;\" data-source=\"{&quot;0&quot;:&quot;factory&quot;,&quot;1&quot;:&quot;building&quot;,&quot;2&quot;:&quot;waste management facility&quot;,&quot;3&quot;:&quot;recycling facility&quot;}\" data-original-title=\"\" title=\"\">building</span>&nbsp;fire on&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[street/location]\" data-value=\"Davis Road, Broadford\" contenteditable=\"false\" style=\"display: inline;\" data-original-title=\"\" title=\"\">Davis Road, Broadford</span>.</li><li>Smoke may be visible from nearby roads and communities.&nbsp;</li></ul></div></div><div style=\"font-size: 120%; font-weight: bold; margin-bottom:20px\">There is currently no threat to the community, but you should continue to\nstay informed and monitor conditions. </div><div style=\"margin-bottom:20px\"><b>What you should do:</b><div><ul><li>\n If you are sensitive to\n     smoke or you live with someone who is sensitive to smoke, you should close\n     windows and doors. Turn off heating and cooling systems.&nbsp;</li><li>To prevent the smell of\n     smoke from entering your home or business, close windows and doors.&nbsp;&nbsp;\n </li></ul></div></div><div style=\"margin-bottom:20px\"><b>Impacts in your area:</b><div><ul><li>Emergency services will remain in the area.</li></ul></div></div><div style=\"margin-bottom:20px\"><p class=\"MsoNormal\">This message was\nissued by&nbsp;<span title=\"warning_issuing_agency\" class=\"param\" contenteditable=\"false\">Country Fire Authority</span>.</p>\n\n<p class=\"MsoNormal\"><b>The next update is expected by&nbsp;<span title=\"warning_next_update\" class=\"param\" contenteditable=\"false\">24/08/2025 07:00 pm</span>&nbsp;or as the situation\nchanges.</b>&nbsp;</p>\n\n<p class=\"MsoNormal\"><b>Use multiple sources to\nstay informed:<o:p></o:p></b></p>\n\n<ul style=\"margin-top:0cm\" type=\"disc\">\n <li class=\"MsoNormal\"><a href=\"http://emergency.vic.gov.au/respond/\" target=\"_blank\" title=\"www.emergency.vic.gov.au\">www.emergency.vic.gov.au</a><o:p></o:p></li>\n <li class=\"MsoNormal\"><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/115001055007-What-is-the-VicEmergency-Hotline-\">VicEmergency Hotline</a>&nbsp;- freecall 1800 226 226<o:p></o:p></li>\n <li class=\"MsoNormal\"><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/230492607-What-is-the-VicEmergency-app-a\" title=\"\" target=\"_blank\">VicEmergency app</a></li><li class=\"MsoNormal\"><a href=\"https://www.facebook.com/vicemergency\" target=\"_blank\" title=\"Facebook\" style=\"background-color: white;\">Facebook</a><span style=\"color: windowtext;\"> or&nbsp;</span><a href=\"https://twitter.com/vicemergency\" target=\"_blank\" title=\"Twitter\" style=\"background-color: white;\">Twitter</a><span style=\"color: windowtext;\">\n     (#vicfires)</span></li>\n <li class=\"MsoNormal\">Tune in to ABC Local Radio, commercial and designated community radio\n     stations, or Sky News TV.&nbsp;</li></ul>\n\n<p class=\"MsoNormal\"><b>Accessibility:<o:p></o:p></b></p>\n\n<p class=\"MsoNormal\">The following services can\nhelp you, or someone you know, access information during an emergency.<o:p></o:p></p>\n\n<ul style=\"margin-top:0cm\" type=\"disc\">\n <li class=\"MsoNormal\">To access this information\n     in other languages call the <a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/115001055007-What-is-the-VicEmergency-Hotline-\" title=\"\" target=\"_blank\">Translating and Interpreting Service</a>&nbsp;on&nbsp;131 450&nbsp;(freecall) and ask\n     them to call VicEmergency Hotline. &nbsp;<o:p></o:p></li>\n<li><span style=\"font-size: 11.5pt; line-height: 107%; font-family: Tahoma, sans-serif; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">If you are deaf, hard of\nhearing, or have a speech/communication impairment contact the&nbsp;</span><span style=\"color: rgb(51, 51, 51);\"><a href=\"https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links\" title=\"\" target=\"_blank\">National\nRelay Service</a></span>&nbsp;and ask them to call the\nVicEmergency Hotline.</li></ul>\n\n</div>",
+        "text": "ADVICE - INDUSTRIAL FIRE - Stay Informed\nIncident Location: Davis Road, Broadford\nIssue Date: Sunday 24 August 2025, 02:36 pm\nNext Update: Sunday 24 August 2025, 07:00 pm\n\nMore details at http://emergency.vic.gov.au/respond/#!/warning/37995/moreinfo\n\nThis Advice message is being issued for Broadford, Tallarook.\n- There is a building fire on Davis Road, Broadford.\n- Smoke may be visible from nearby roads and communities. \n\n\nThere is currently no threat to the community, but you should continue to stay informed and monitor conditions. \n\n",
+        "sizeFmt": null,
+        "incidentFeatures": [
+          {
+            "properties": {
+              "feedType": "incident",
+              "sourceOrg": "EMV",
+              "sourceId": "37995",
+              "sourceFeed": "cop-cap",
+              "sourceTitle": "Advice",
+              "id": "37995",
+              "category1": "Fire",
+              "category2": "Industrial Fire",
+              "name": "Advice",
+              "location": "Davis Road, Broadford",
+              "created": "2025-08-24T14:36:55+10:00",
+              "updated": "2025-08-24T14:36:55+10:00",
+              "webHeadline": null,
+              "sizeFmt": null
+            }
+          }
         ]
       }
     },
@@ -196,63 +264,188 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120813705,
+        "status": "Safe",
+        "estaId": 120812936,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250827778",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Anchorage Dr",
-        "eventId": "250827778",
-        "id": "ESTA:250827778",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120812936,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Kilsyth",
+        "eventId": "F250827650",
+        "id": "ESTA:250827650",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-08-24T04:23:48.000Z",
-        "updated": "2025-08-24T04:23:48.000Z",
-        "resources": 3,
-        "location": "Anchorage Dr, Blind Bight",
-        "cfaId": 233740,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250827778"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-24T03:15:12.000Z",
+        "updated": "2025-08-24T04:42:04.441Z",
+        "resources": 0,
+        "location": "Gladesville Dr, Kilsyth"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33936105152122,
-          -38.21697015067223
+          145.3282945467337,
+          -37.809547575071214
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120813909,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233741,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cemetery Rd",
+        "eventId": 250827815,
+        "id": "ESTA:250827815",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-24T04:42:00.000Z",
+        "updated": "2025-08-24T04:44:00.000Z",
+        "resources": 0,
+        "location": "Cemetery Rd, Mooroopna",
+        "cfaId": 233741,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34942236169596,
+          -36.362490331404096
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120813519,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 574825,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250850929,
+        "id": "ESTA:250850929",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-24T04:05:42.000Z",
+        "updated": "2025-08-24T04:44:36.000Z",
+        "resources": 0,
+        "location": "Kilmore East",
+        "sesId": 574825
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9743826648326,
+          -37.28861926601921
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120813832,
+        "estaId": 120813972,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120813832,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "South Yarra",
-        "eventId": "F250827804",
-        "id": "ESTA:250827804",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233742,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lake Nillahcootie Rd",
+        "eventId": 250827830,
+        "id": "ESTA:250827830",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-08-24T04:34:15.000Z",
-        "updated": "2025-08-24T04:34:37.414Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-08-24T04:46:00.000Z",
+        "updated": "2025-08-24T04:46:00.000Z",
         "resources": 0,
-        "location": "Toorak Rd, South Yarra"
+        "location": "Lake Nillahcootie Rd, Barjarg",
+        "cfaId": 233742,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99270327639925,
-          -37.8393005979272
+          146.00163581397638,
+          -36.92926487578954
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120814007,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250827835",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "West Gate In-Kings Ramp",
+        "eventId": "250827835",
+        "id": "ESTA:250827835",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-24T04:49:44.000Z",
+        "updated": "2025-08-24T04:49:44.000Z",
+        "resources": 0,
+        "location": "West Gate In-Kings Ramp, Southbank",
+        "mfbId": "250827835",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96252595280987,
+          -37.82691149685893
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120813929,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250827823",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Central Av",
+        "eventId": "250827823",
+        "id": "ESTA:250827823",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-24T04:44:20.000Z",
+        "updated": "2025-08-24T04:44:20.000Z",
+        "resources": 2,
+        "location": "Central Av, Altona Meadows",
+        "mfbId": "250827823",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.77605644301292,
+          -37.87167700267902
         ]
       }
     },
@@ -631,7 +824,7 @@
         "category2": "Other",
         "created": "2025-08-24T02:20:00.000Z",
         "updated": "2025-08-24T02:20:00.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Davis Rd, Broadford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -642,94 +835,6 @@
         "coordinates": [
           145.12592886330623,
           -37.1875960736638
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233729,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250827650",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gladesville Dr",
-        "eventId": "250827650",
-        "id": "ESTA:250827650",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-08-24T03:43:09.000Z",
-        "updated": "2025-08-24T03:43:09.000Z",
-        "resources": 1,
-        "location": "Gladesville Dr, Kilsyth",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250827650"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32828599252937,
-          -37.80955645530393
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233730,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233730,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Jordan Rd",
-        "eventId": 250827652,
-        "id": "ESTA:250827652",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-08-24T03:16:00.000Z",
-        "updated": "2025-08-24T03:45:00.000Z",
-        "resources": 0,
-        "location": "Jordan Rd, Point Lonsdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6149991133942,
-          -38.27726958690783
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 233731,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 233731,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hawthorn Cr",
-        "eventId": 250827660,
-        "id": "ESTA:250827660",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-24T03:23:00.000Z",
-        "updated": "2025-08-24T03:47:00.000Z",
-        "resources": 0,
-        "location": "Hawthorn Cr, Churchill",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4130835037742,
-          -38.30607965864193
         ]
       }
     },
@@ -748,7 +853,7 @@
         "category2": "Bushfire",
         "created": "2025-08-24T02:48:00.000Z",
         "updated": "2025-08-24T03:55:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "South Boundary Rd, Hamilton",
         "size": "Small",
         "sizeFmt": "Small"
@@ -851,24 +956,23 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Safe",
         "cfaId": 233738,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574827,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 233738,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gowrie Ct",
         "eventId": 250827768,
         "id": "ESTA:250827768",
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2025-08-24T04:17:17.000Z",
-        "updated": "2025-08-24T04:33:19.000Z",
-        "resources": 3,
-        "location": "Sunbury",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-08-24T04:17:00.000Z",
+        "updated": "2025-08-24T04:34:00.000Z",
+        "resources": 0,
+        "location": "Gowrie Ct, Sunbury",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 574827
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -876,6 +980,36 @@
         "coordinates": [
           144.7280962573532,
           -37.561334821358614
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 233740,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250827778",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Anchorage Dr",
+        "eventId": "250827778",
+        "id": "ESTA:250827778",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-08-24T04:37:05.000Z",
+        "updated": "2025-08-24T04:37:05.000Z",
+        "resources": 3,
+        "location": "Anchorage Dr, Blind Bight",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250827778"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33936105152122,
+          -38.21697015067223
         ]
       }
     },
@@ -903,60 +1037,6 @@
         "coordinates": [
           144.63610921518398,
           -37.62496077284416
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 574825,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574825,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850929,
-        "id": "ESTA:250850929",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-24T04:05:42.000Z",
-        "updated": "2025-08-24T04:07:28.000Z",
-        "resources": 0,
-        "location": "Kilmore East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9743826648326,
-          -37.28861926601921
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 574826,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 574826,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250850930,
-        "id": "ESTA:250850930",
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2025-08-24T04:17:17.000Z",
-        "updated": "2025-08-24T04:21:12.000Z",
-        "resources": 0,
-        "location": "Sunbury"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7280962573532,
-          -37.561334821358614
         ]
       }
     }
@@ -1188,7 +1268,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-24T04:34:41.200Z",
+    "lastUpdated": "2025-08-24T04:52:20.517Z",
     "featureCount": 26
   }
 }
