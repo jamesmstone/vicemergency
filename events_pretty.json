@@ -201,24 +201,54 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120857126,
+        "status": "Complete",
+        "estaId": 120857002,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234231,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Barwon Heads Rd",
-        "eventId": 250830643,
-        "id": "ESTA:250830643",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 575482,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250851573,
+        "id": "ESTA:250851573",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-27T19:42:06.000Z",
+        "updated": "2025-08-27T20:41:26.000Z",
+        "resources": 0,
+        "location": "Hotspur",
+        "sesId": 575482
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.56143740396803,
+          -37.96248222902658
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120857231,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830650",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Port Melbourne",
+        "eventId": "250830650",
+        "id": "ESTA:250830650",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-27T20:15:00.000Z",
-        "updated": "2025-08-27T20:15:00.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-27T20:48:30.000Z",
+        "updated": "2025-08-27T20:48:30.000Z",
         "resources": 4,
-        "location": "Barwon Heads Rd, Armstrong Creek",
-        "cfaId": 234231,
+        "location": "Port Melbourne, Port Melbourne",
+        "mfbId": "250830650",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -226,38 +256,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3734382100855,
-          -38.23192172345713
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 120856936,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575481,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851572,
-        "id": "ESTA:250851572",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-27T19:18:13.000Z",
-        "updated": "2025-08-27T20:17:48.000Z",
-        "resources": 0,
-        "location": "Koetong",
-        "sesId": 575481
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.5172290520198,
-          -36.15741313152938
+          144.91242448255548,
+          -37.833228427065116
         ]
       }
     },
@@ -2291,6 +2291,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "616913",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Alpine Way, Jacobs River",
+        "id": "2025-08-28T06:39:00.0000000:616913",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Alpine Way, Jacobs River",
+        "location": "Alpine Way, Jacobs River 2627",
+        "created": "2025-08-28T06:39:00+10:00",
+        "updated": "2025-08-28T06:39:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.387649536,
+          -36.4581642159999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 233837,
         "feedType": "incident",
@@ -2351,29 +2381,88 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 234228,
+        "cfaId": 234231,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234228,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Watton St",
-        "eventId": 250830634,
-        "id": "ESTA:250830634",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-27T18:50:00.000Z",
-        "updated": "2025-08-27T19:33:00.000Z",
-        "resources": 0,
-        "location": "Watton St, Werribee",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830643",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Barwon Heads Rd",
+        "eventId": "250830643",
+        "id": "ESTA:250830643",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-27T20:41:40.000Z",
+        "updated": "2025-08-27T20:41:40.000Z",
+        "resources": 3,
+        "location": "Barwon Heads Rd, Armstrong Creek",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250830643"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6587673014482,
-          -37.902503227358345
+          144.37344546575778,
+          -38.231918797579624
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250830647",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830647",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Metropolitan Ring Rd",
+        "id": "ESTA:250830647",
+        "eventId": "250830647",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-27T20:45:00.000Z",
+        "updated": "2025-08-27T20:45:00.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Metropolitan Ring Rd, Fawkner"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96480404314855,
+          -37.69165041077732
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250830649",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830649",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Maidstone Av",
+        "id": "ESTA:250830649",
+        "eventId": "250830649",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-27T20:44:50.000Z",
+        "updated": "2025-08-27T20:44:50.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Maidstone Av, Burwood East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15899986949958,
+          -37.85620248932191
         ]
       }
     },
@@ -2428,33 +2517,6 @@
         "coordinates": [
           144.74924574243522,
           -37.72042656862024
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 575482,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575482,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851573,
-        "id": "ESTA:250851573",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-27T19:42:06.000Z",
-        "updated": "2025-08-27T20:15:47.000Z",
-        "resources": 1,
-        "location": "Hotspur"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.56143740396803,
-          -37.96248222902658
         ]
       }
     }
@@ -2686,7 +2748,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-27T20:28:05.470Z",
-    "featureCount": 18
+    "lastUpdated": "2025-08-27T20:50:05.386Z",
+    "featureCount": 20
   }
 }
