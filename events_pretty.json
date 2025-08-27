@@ -2229,36 +2229,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 234221,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575479,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250830622,
-        "id": "ESTA:250830622",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-08-27T16:18:01.000Z",
-        "updated": "2025-08-27T17:00:38.000Z",
-        "resources": 4,
-        "location": "Noojee",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 575479
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00131229340812,
-          -37.888337603898535
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 233837,
         "feedType": "incident",
@@ -2318,21 +2288,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 234224,
+        "status": "Responding",
+        "cfaId": 234226,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 234224,
+        "sourceId": 234226,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Arcadia Av",
-        "eventId": 250830624,
-        "id": "ESTA:250830624",
-        "category1": "Fire",
+        "sourceTitle": "Old Fernshaw Rd",
+        "eventId": 250830631,
+        "id": "ESTA:250830631",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-27T16:54:00.000Z",
-        "updated": "2025-08-27T17:01:00.000Z",
+        "created": "2025-08-27T18:30:00.000Z",
+        "updated": "2025-08-27T18:30:00.000Z",
         "resources": 0,
-        "location": "Arcadia Av, Hallam",
+        "location": "Old Fernshaw Rd, Healesville",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2340,8 +2310,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.25968258583973,
-          -37.999017905840766
+          145.5271508155419,
+          -37.64888102442266
         ]
       }
     },
@@ -2398,6 +2368,60 @@
           -37.72042656862024
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 575479,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 575479,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250830622,
+        "id": "ESTA:250830622",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-08-27T16:18:01.000Z",
+        "updated": "2025-08-27T18:11:41.000Z",
+        "resources": 2,
+        "location": "Noojee"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00131229340812,
+          -37.888337603898535
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 575480,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 575480,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250851571,
+        "id": "ESTA:250851571",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-27T18:09:27.000Z",
+        "updated": "2025-08-27T18:28:43.000Z",
+        "resources": 1,
+        "location": "Cathkin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.60205805359467,
+          -37.149988683705175
+        ]
+      }
     }
   ],
   "properties": {
@@ -2414,7 +2438,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2422,7 +2445,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2438,7 +2462,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2446,7 +2469,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-27T14:00:00.000Z",
           "heat": {
@@ -2627,7 +2651,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-27T17:50:20.228Z",
-    "featureCount": 16
+    "lastUpdated": "2025-08-27T18:34:19.946Z",
+    "featureCount": 17
   }
 }
