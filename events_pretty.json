@@ -201,61 +201,94 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120853845,
+        "status": "Safe",
+        "estaId": 120854395,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575468,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851561,
-        "id": "ESTA:250851561",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 234208,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stokes Lane",
+        "eventId": 250830582,
+        "id": "ESTA:250830582",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-27T10:03:24.000Z",
-        "updated": "2025-08-27T11:25:04.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-08-27T11:08:00.000Z",
+        "updated": "2025-08-27T11:36:00.000Z",
         "resources": 0,
-        "location": "Marlo",
-        "sesId": 575468
+        "location": "Stokes Lane, Echuca",
+        "cfaId": 234208,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.53695703514543,
-          -37.78763978641831
+          144.68155506914192,
+          -36.08010917948477
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120854570,
+        "status": "Responding",
+        "estaId": 120854765,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575473,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851566,
-        "id": "ESTA:250851566",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120854765,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Newtown (Geelong)",
+        "eventId": "F250830589",
+        "id": "ESTA:250830589",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-27T11:25:36.000Z",
-        "updated": "2025-08-27T11:29:44.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-27T11:49:08.000Z",
+        "updated": "2025-08-27T11:49:40.033Z",
         "resources": 0,
-        "location": "Seabrook",
-        "sesId": 575473
+        "location": "Buckingham Rd, Newtown (Geelong)"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.76165918302806,
-          -37.88547392268556
+          144.32878501284796,
+          -38.15876416415295
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120854756,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830588",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brunton Av",
+        "eventId": "250830588",
+        "id": "ESTA:250830588",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-27T11:48:39.000Z",
+        "updated": "2025-08-27T11:48:39.000Z",
+        "resources": 2,
+        "location": "Brunton Av, Melbourne",
+        "mfbId": "250830588",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98232648353684,
+          -37.8208433017599
         ]
       }
     },
@@ -2331,7 +2364,7 @@
         "category2": "Grass and Scrub",
         "created": "2025-08-27T09:56:47.000Z",
         "updated": "2025-08-27T09:56:47.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Beasley Dr, Koorlong",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2343,64 +2376,6 @@
         "coordinates": [
           142.0280792183647,
           -34.34875959321139
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 234204,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234204,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckean St",
-        "eventId": 250830567,
-        "id": "ESTA:250830567",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-27T10:18:00.000Z",
-        "updated": "2025-08-27T10:31:00.000Z",
-        "resources": 0,
-        "location": "Mckean St, Bairnsdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.60704686424666,
-          -37.82742219416918
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 234208,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234208,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stokes Lane",
-        "eventId": 250830582,
-        "id": "ESTA:250830582",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-27T11:08:00.000Z",
-        "updated": "2025-08-27T11:08:00.000Z",
-        "resources": 3,
-        "location": "Stokes Lane, Echuca",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68155506914192,
-          -36.08010917948477
         ]
       }
     },
@@ -2546,33 +2521,6 @@
     {
       "properties": {
         "status": "On Scene",
-        "sesId": 575448,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575448,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851543,
-        "id": "ESTA:250851543",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-27T07:08:56.000Z",
-        "updated": "2025-08-27T07:55:46.000Z",
-        "resources": 1,
-        "location": "Lorne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.93099359051345,
-          -38.51772840525292
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
         "sesId": 575470,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2621,6 +2569,33 @@
         "coordinates": [
           144.09986904381523,
           -37.50595493082042
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 575473,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 575473,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250851566,
+        "id": "ESTA:250851566",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-27T11:25:36.000Z",
+        "updated": "2025-08-27T11:45:02.000Z",
+        "resources": 1,
+        "location": "Seabrook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.76165918302806,
+          -37.88547392268556
         ]
       }
     }
@@ -2852,7 +2827,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-27T11:30:46.086Z",
-    "featureCount": 24
+    "lastUpdated": "2025-08-27T11:50:20.107Z",
+    "featureCount": 23
   }
 }
