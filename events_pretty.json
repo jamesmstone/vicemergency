@@ -145,24 +145,54 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120861211,
+        "status": "Complete",
+        "estaId": 120859504,
         "feedType": "incident",
-        "source": "000",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 575499,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250851591,
+        "id": "ESTA:250851591",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-08-28T01:10:56.000Z",
+        "updated": "2025-08-28T03:51:12.000Z",
+        "resources": 0,
+        "location": "Newcomb",
+        "sesId": 575499
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.39035163104936,
+          -38.16266704505404
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120861344,
+        "feedType": "incident",
+        "source": "PAL",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250830849",
+        "sourceId": "250830852",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Battery Rd",
-        "eventId": "250830849",
-        "id": "ESTA:250830849",
+        "sourceTitle": "Lawrence St",
+        "eventId": "250830852",
+        "id": "ESTA:250830852",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-28T03:39:50.000Z",
-        "updated": "2025-08-28T03:39:50.000Z",
+        "created": "2025-08-28T03:52:12.000Z",
+        "updated": "2025-08-28T03:52:12.000Z",
         "resources": 1,
-        "location": "Battery Rd, Williamstown",
-        "mfbId": "250830849",
+        "location": "Lawrence St, Wodonga",
+        "mfbId": "250830852",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -170,8 +200,105 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9126120908363,
-          -37.86743918543945
+          146.88878599647347,
+          -36.12480825906406
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120861324,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 234268,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Henty St",
+        "eventId": 250830850,
+        "id": "ESTA:250830850",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-28T03:50:00.000Z",
+        "updated": "2025-08-28T03:53:00.000Z",
+        "resources": 0,
+        "location": "Henty St, Casterton",
+        "cfaId": 234268,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.40569364375702,
+          -37.58433406964442
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120861341,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830851",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Tropez Tce",
+        "eventId": "250830851",
+        "id": "ESTA:250830851",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-28T03:53:48.000Z",
+        "updated": "2025-08-28T03:53:48.000Z",
+        "resources": 2,
+        "location": "St Tropez Tce, Point Lonsdale",
+        "cfaId": 234269,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250830851"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.61458385567371,
+          -38.26470171568915
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120861367,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830854",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Chelsea Heights",
+        "eventId": "250830854",
+        "id": "ESTA:250830854",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-08-28T03:54:44.000Z",
+        "updated": "2025-08-28T03:54:44.000Z",
+        "resources": 1,
+        "location": "Chelsea Heights, Chelsea Heights",
+        "mfbId": "250830854",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13352673279437,
+          -38.02554996842904
         ]
       }
     },
@@ -9960,36 +10087,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "616470",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Urana Rd, Hamilton Valley",
-        "id": "2025-08-28T06:19:00.0000000:616470",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Urana Rd, Hamilton Valley",
-        "location": "Urana Rd, Hamilton Valley 2641",
-        "created": "2025-08-28T06:19:00+10:00",
-        "updated": "2025-08-28T06:19:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.905624389,
-          -36.016590118
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "616725",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Basalt Lane, Lake Hume Village",
@@ -10012,6 +10109,36 @@
         "coordinates": [
           147.046218873,
           -36.09210968
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "616470",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Urana Rd, Hamilton Valley",
+        "id": "2025-08-28T06:19:00.0000000:616470",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Urana Rd, Hamilton Valley",
+        "location": "Urana Rd, Hamilton Valley 2641",
+        "created": "2025-08-28T06:19:00+10:00",
+        "updated": "2025-08-28T06:19:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.905624389,
+          -36.016590118
         ]
       }
     },
@@ -10076,35 +10203,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 234261,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234261,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "James Melrose Dr",
-        "eventId": 250830821,
-        "id": "ESTA:250830821",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-28T02:41:00.000Z",
-        "updated": "2025-08-28T02:53:00.000Z",
-        "resources": 0,
-        "location": "James Melrose Dr, Brookfield",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.55315829157746,
-          -37.7124267463937
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "cfaId": 234264,
         "feedType": "incident",
@@ -10136,88 +10234,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 234266,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234266,
-        "sourceFeed": "cfa-incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250830845",
+        "sourceFeed": "mfb-incident",
         "sourceTitle": "Bilston Dr",
-        "eventId": 250830845,
+        "eventId": "250830845",
         "id": "ESTA:250830845",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-28T03:29:00.000Z",
-        "updated": "2025-08-28T03:29:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-28T03:54:03.000Z",
+        "updated": "2025-08-28T03:54:03.000Z",
         "resources": 3,
         "location": "Bilston Dr, Barnawartha North",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250830845"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.72112832033264,
-          -36.07579262047871
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 234267,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234267,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Burwood Hwy",
-        "eventId": 250830847,
-        "id": "ESTA:250830847",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-08-28T03:33:00.000Z",
-        "updated": "2025-08-28T03:33:00.000Z",
-        "resources": 4,
-        "location": "Burwood Hwy, Wantirna South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23829944147022,
-          -37.869675344855274
+          146.72113063799435,
+          -36.07579167065773
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250830810",
+        "mfbId": "250830849",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250830810",
+        "sourceId": "250830849",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hoppers Crossing",
-        "id": "ESTA:250830810",
-        "eventId": "250830810",
+        "sourceTitle": "Battery Rd",
+        "id": "ESTA:250830849",
+        "eventId": "250830849",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-28T02:22:22.000Z",
-        "updated": "2025-08-28T02:22:22.000Z",
-        "resources": 0,
+        "created": "2025-08-28T03:50:15.000Z",
+        "updated": "2025-08-28T03:50:15.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Hoppers Crossing, Hoppers Crossing"
+        "location": "Battery Rd, Williamstown"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7252950644229,
-          -37.871913993855344
+          144.9126120908363,
+          -37.86743918543945
         ]
       }
     },
@@ -10307,33 +10377,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 575499,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 575499,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250851591,
-        "id": "ESTA:250851591",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-08-28T01:10:56.000Z",
-        "updated": "2025-08-28T01:28:13.000Z",
-        "resources": 1,
-        "location": "Newcomb"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.39035163104936,
-          -38.16266704505404
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 575505,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -10387,7 +10430,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "sesId": 575510,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -10399,8 +10442,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-08-28T02:56:38.000Z",
-        "updated": "2025-08-28T03:39:27.000Z",
-        "resources": 1,
+        "updated": "2025-08-28T03:51:41.000Z",
+        "resources": 0,
         "location": "Sunshine"
       },
       "type": "Feature",
@@ -10640,7 +10683,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-28T03:45:40.569Z",
-    "featureCount": 24
+    "lastUpdated": "2025-08-28T03:55:41.879Z",
+    "featureCount": 25
   }
 }
