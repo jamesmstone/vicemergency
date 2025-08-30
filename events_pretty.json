@@ -2067,32 +2067,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1659140",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Rowney Road, Mundulla",
-        "id": "1659140",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Rowney Road, Mundulla",
-        "created": "2025-08-30T14:52:00.000Z",
-        "updated": "2025-08-30T14:52:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Rowney Road, Mundulla"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.655250427843,
-          -36.3622416048355
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 120893689,
         "feedType": "incident",
@@ -2126,29 +2100,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120893750,
+        "estaId": 120893799,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120893750,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Parkville",
-        "eventId": "F250832462",
-        "id": "ESTA:250832462",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250832466",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Climate Walk",
+        "eventId": "250832466",
+        "id": "ESTA:250832466",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-08-30T15:19:25.000Z",
-        "updated": "2025-08-30T15:21:14.119Z",
-        "resources": 0,
-        "location": "Parkville"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-30T15:29:11.000Z",
+        "updated": "2025-08-30T15:29:11.000Z",
+        "resources": 2,
+        "location": "Climate Walk, Roxburgh Park",
+        "mfbId": "250832466",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95864504458567,
-          -37.79258149749625
+          144.93540251946555,
+          -37.63823248563549
         ]
       }
     },
@@ -3593,29 +3570,58 @@
     {
       "properties": {
         "status": "Responding",
-        "mfbId": "250832460",
+        "mfbId": "250832463",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250832460",
+        "sourceId": "250832463",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Royal Pde",
-        "id": "ESTA:250832460",
-        "eventId": "250832460",
+        "sourceTitle": "Maroondah Hwy",
+        "id": "ESTA:250832463",
+        "eventId": "250832463",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-08-30T15:21:49.000Z",
-        "updated": "2025-08-30T15:21:49.000Z",
+        "created": "2025-08-30T15:30:48.000Z",
+        "updated": "2025-08-30T15:30:48.000Z",
         "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Royal Pde, Parkville"
+        "location": "Maroondah Hwy, Croydon"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95848976302753,
-          -37.79225747605424
+          145.2678753185197,
+          -37.78904628785789
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250832460",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250832460",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Parkville",
+        "id": "ESTA:250832460",
+        "eventId": "250832460",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-08-30T15:26:57.000Z",
+        "updated": "2025-08-30T15:26:57.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Parkville, Parkville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95828522681148,
+          -37.79255473922166
         ]
       }
     },
@@ -3715,7 +3721,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3723,7 +3728,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3739,7 +3745,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3747,7 +3752,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-08-30T14:00:00.000Z",
           "heat": {
@@ -3928,7 +3934,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-30T15:23:20.296Z",
+    "lastUpdated": "2025-08-30T15:34:20.413Z",
     "featureCount": 21
   }
 }
