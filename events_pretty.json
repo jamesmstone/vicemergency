@@ -449,33 +449,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 120905832,
+        "status": "Responding",
+        "estaId": 120906143,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234810,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Napier St",
-        "eventId": 250900017,
-        "id": "ESTA:250900017",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120906143,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bendigo",
+        "eventId": "F250900026",
+        "id": "ESTA:250900026",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-08-31T17:09:00.000Z",
-        "updated": "2025-08-31T17:41:00.000Z",
-        "resources": 2,
-        "location": "Napier St, Darley",
-        "cfaId": 234810,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-08-31T18:30:50.000Z",
+        "updated": "2025-08-31T18:32:14.452Z",
+        "resources": 0,
+        "location": "Bendigo"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.44223398847757,
-          -37.65175126117274
+          144.2833851969212,
+          -36.76142365332561
         ]
       }
     },
@@ -1234,6 +1231,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 234810,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 234810,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Napier St",
+        "eventId": 250900017,
+        "id": "ESTA:250900017",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-31T17:09:00.000Z",
+        "updated": "2025-08-31T17:41:00.000Z",
+        "resources": 0,
+        "location": "Napier St, Darley",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.44223398847757,
+          -37.65175126117274
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 234809,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1257,6 +1283,35 @@
         "coordinates": [
           145.2648205987107,
           -37.991208437187225
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250900021",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250900021",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Campbellfield",
+        "id": "ESTA:250900021",
+        "eventId": "250900021",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-08-31T18:02:28.000Z",
+        "updated": "2025-08-31T18:02:28.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Campbellfield, Campbellfield"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96509332803316,
+          -37.67905380928885
         ]
       }
     },
@@ -1515,7 +1570,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-31T17:50:00.085Z",
-    "featureCount": 11
+    "lastUpdated": "2025-08-31T18:33:20.247Z",
+    "featureCount": 13
   }
 }
