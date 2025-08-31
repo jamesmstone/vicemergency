@@ -449,27 +449,96 @@
     },
     {
       "properties": {
-        "status": "Going",
+        "status": "Complete",
+        "estaId": 120904356,
         "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1659260",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Dickerson Street, Barmera",
-        "id": "1659260",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "name": "Dickerson Street, Barmera",
-        "created": "2025-08-31T14:11:00.000Z",
-        "updated": "2025-08-31T14:11:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Dickerson Street, Barmera"
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577713,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250833207,
+        "id": "ESTA:250833207",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-08-31T12:43:57.000Z",
+        "updated": "2025-08-31T14:42:53.000Z",
+        "resources": 0,
+        "location": "Benalla",
+        "sesId": 577713
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.466608247224,
-          -34.2542391716843
+          145.93893849548593,
+          -36.47073365431638
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120905140,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250900004",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ingrid St",
+        "eventId": "250900004",
+        "id": "ESTA:250900004",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-08-31T14:46:47.000Z",
+        "updated": "2025-08-31T14:46:47.000Z",
+        "resources": 2,
+        "location": "Ingrid St, Dandenong",
+        "cfaId": 234801,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250900004"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22053958111437,
+          -37.97089752775312
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 120905064,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 234800,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "George St",
+        "eventId": 250900003,
+        "id": "ESTA:250900003",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-08-31T14:36:00.000Z",
+        "updated": "2025-08-31T14:47:00.000Z",
+        "resources": 1,
+        "location": "George St, Cohuna",
+        "cfaId": 234800,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2116270263656,
+          -35.804460288694806
         ]
       }
     },
@@ -1199,36 +1268,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "617521",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Booroobanilly Rd, Finley",
-        "id": "2025-08-31T23:25:00.0000000:617521",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Booroobanilly Rd, Finley",
-        "location": "Glencove 1097 Booroobanilly Rd, Finley 2713",
-        "created": "2025-08-31T23:25:00+10:00",
-        "updated": "2025-08-31T23:25:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.630142212,
-          -35.47000122
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 233837,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1252,35 +1291,6 @@
         "coordinates": [
           145.12592886330623,
           -37.1875960736638
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 234795,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 234795,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Midland Hwy",
-        "eventId": 250833209,
-        "id": "ESTA:250833209",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-08-31T12:47:00.000Z",
-        "updated": "2025-08-31T13:48:00.000Z",
-        "resources": 0,
-        "location": "Midland Hwy, Goorambat",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9335084697617,
-          -36.4686929836418
         ]
       }
     },
@@ -1337,33 +1347,6 @@
         "coordinates": [
           144.9235070759037,
           -37.834290464484575
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 577713,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 577713,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250833207,
-        "id": "ESTA:250833207",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-08-31T12:43:57.000Z",
-        "updated": "2025-08-31T13:32:50.000Z",
-        "resources": 1,
-        "location": "Benalla"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.93893849548593,
-          -36.47073365431638
         ]
       }
     }
@@ -1595,7 +1578,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-08-31T14:35:20.597Z",
-    "featureCount": 14
+    "lastUpdated": "2025-08-31T14:50:20.257Z",
+    "featureCount": 13
   }
 }
