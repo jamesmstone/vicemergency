@@ -689,69 +689,10 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120943329,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 577921,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950220,
-        "id": "ESTA:250950220",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-09-03T22:32:50.000Z",
-        "updated": "2025-09-03T22:33:13.000Z",
-        "resources": 0,
-        "location": "Mount Helen",
-        "sesId": 577921
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8889083192929,
-          -37.61748411714028
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 120943351,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120943351,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Barkers Creek",
-        "eventId": "S250950221",
-        "id": "ESTA:250950221",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-03T22:31:37.000Z",
-        "updated": "2025-09-03T22:35:08.665Z",
-        "resources": 0,
-        "location": "Gaaschs Rd, Barkers Creek"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2266086959771,
-          -36.986520834113236
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 120943276,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "VMA",
         "sourceOrg": "VIC/CFA",
         "sourceId": 235174,
         "sourceFeed": "cfa-incident",
@@ -762,7 +703,7 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-09-03T22:27:00.000Z",
-        "updated": "2025-09-03T22:27:00.000Z",
+        "updated": "2025-09-03T22:38:00.000Z",
         "resources": 0,
         "location": "Diggers Rd, Werribee South",
         "cfaId": 235174,
@@ -779,19 +720,114 @@
       }
     },
     {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120943351,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577922,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950221,
+        "id": "ESTA:250950221",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-03T22:35:06.000Z",
+        "updated": "2025-09-03T22:41:40.000Z",
+        "resources": 0,
+        "location": "Barkers Creek",
+        "sesId": 577922
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.22659577433066,
+          -36.98652207054521
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120943450,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250902430",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clayton",
+        "eventId": "250902430",
+        "id": "ESTA:250902430",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-03T22:45:27.000Z",
+        "updated": "2025-09-03T22:45:27.000Z",
+        "resources": 2,
+        "location": "Clayton, Clayton",
+        "mfbId": "250902430",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12731268464353,
+          -37.92038978426501
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120943374,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250902424",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Nockolds Cr",
+        "eventId": "250902424",
+        "id": "ESTA:250902424",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-03T22:47:42.000Z",
+        "updated": "2025-09-03T22:47:42.000Z",
+        "resources": 3,
+        "location": "Nockolds Cr, Noble Park",
+        "cfaId": 235175,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250902424"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17334631080328,
+          -37.952622520951564
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/82edf50dd43de37af7283bce51a89500",
+        "sourceId": "IDV20600/3b872035fd95c274273ad4b84fb28acb",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/82edf50dd43de37af7283bce51a89500",
+        "id": "IDV20600/3b872035fd95c274273ad4b84fb28acb",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-09-03T19:00:00.000Z",
+        "created": "2025-09-03T22:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1477,14 +1513,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/6815672828459910af639ee2cbb5cdaf",
+        "sourceId": "IDV20600/f412fd9b8659c973c0e8029b384bfcd3",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/6815672828459910af639ee2cbb5cdaf",
+        "id": "IDV20600/f412fd9b8659c973c0e8029b384bfcd3",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-09-03T19:00:00.000Z",
+        "created": "2025-09-03T22:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2820,7 +2856,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-03T22:06:35.000Z",
         "updated": "2025-09-03T22:06:35.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Cranbourne West, Cranbourne West",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2832,35 +2868,6 @@
         "coordinates": [
           145.25115661235458,
           -38.0911011695771
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 235172,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235172,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lloyd St",
-        "eventId": 250902402,
-        "id": "ESTA:250902402",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-03T22:05:00.000Z",
-        "updated": "2025-09-03T22:05:00.000Z",
-        "resources": 2,
-        "location": "Lloyd St, Moe",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.26013259518533,
-          -38.17741950535793
         ]
       }
     },
@@ -2924,35 +2931,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250902396",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250902396",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ravenhall",
-        "id": "ESTA:250902396",
-        "eventId": "250902396",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-03T22:11:40.000Z",
-        "updated": "2025-09-03T22:11:40.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ravenhall, Ravenhall"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.75264330732531,
-          -37.79514517640825
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "sesId": 577412,
         "feedType": "incident",
@@ -2975,6 +2953,33 @@
         "coordinates": [
           144.9235070759037,
           -37.834290464484575
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 577921,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577921,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950220,
+        "id": "ESTA:250950220",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-09-03T22:32:50.000Z",
+        "updated": "2025-09-03T22:35:25.000Z",
+        "resources": 0,
+        "location": "Mount Helen"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8889083192929,
+          -37.61748411714028
         ]
       }
     }
@@ -3206,7 +3211,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-03T22:35:40.456Z",
+    "lastUpdated": "2025-09-03T22:50:06.060Z",
     "featureCount": 21
   }
 }
