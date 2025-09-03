@@ -543,62 +543,128 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 120942461,
+        "status": "Request For Assistance",
+        "estaId": 120942509,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120942461,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Lara",
-        "eventId": "S250950215",
-        "id": "ESTA:250950215",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577916,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950216,
+        "id": "ESTA:250950216",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-03T19:14:42.000Z",
-        "updated": "2025-09-03T19:15:26.557Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-09-03T19:35:31.000Z",
+        "updated": "2025-09-03T19:41:56.000Z",
         "resources": 0,
-        "location": "Lara"
+        "location": "South Yarra",
+        "sesId": 577916
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.4212946447812,
-          -38.015501283313526
+          144.98905217617462,
+          -37.838672559672894
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 120942484,
+        "estaId": 120942512,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250902358",
+        "sourceId": "250902361",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Driftwood Dr",
-        "eventId": "250902358",
-        "id": "ESTA:250902358",
+        "sourceTitle": "Old Sydney Rd",
+        "eventId": "250902361",
+        "id": "ESTA:250902361",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-03T19:22:51.000Z",
-        "updated": "2025-09-03T19:22:51.000Z",
-        "resources": 1,
-        "location": "Driftwood Dr, Glen Waverley",
-        "mfbId": "250902358",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-03T19:38:42.000Z",
+        "updated": "2025-09-03T19:38:42.000Z",
+        "resources": 2,
+        "location": "Old Sydney Rd, Beveridge",
+        "cfaId": 235166,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250902361"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1756117264636,
-          -37.87985723092784
+          144.90216478331388,
+          -37.501181443708546
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120942455,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577914,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950214,
+        "id": "ESTA:250950214",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-03T19:13:15.000Z",
+        "updated": "2025-09-03T19:47:12.000Z",
+        "resources": 0,
+        "location": "Lara",
+        "sesId": 577914
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4212763213211,
+          -38.015505290333934
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 120942334,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577913,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250902354,
+        "id": "ESTA:250902354",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-09-03T18:42:26.000Z",
+        "updated": "2025-09-03T19:11:53.000Z",
+        "resources": 3,
+        "location": "Wangaratta South",
+        "cfaId": 235165,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250902354",
+        "sesId": 577913
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.24995750513432,
+          -36.439548893364105
         ]
       }
     },
@@ -2632,35 +2698,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 235164,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235164,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rooney Dr",
-        "eventId": 250902352,
-        "id": "ESTA:250902352",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-03T18:26:00.000Z",
-        "updated": "2025-09-03T18:36:00.000Z",
-        "resources": 0,
-        "location": "Rooney Dr, Moe",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.25841363275208,
-          -38.16565641900922
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 235160,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2689,37 +2726,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 235165,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 577913,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250902354,
-        "id": "ESTA:250902354",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-09-03T18:42:26.000Z",
-        "updated": "2025-09-03T19:11:53.000Z",
-        "resources": 3,
-        "location": "Wangaratta South",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250902354",
-        "sesId": 577913
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.24995750513432,
-          -36.439548893364105
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 235159,
         "feedType": "incident",
@@ -2733,7 +2739,7 @@
         "category2": "Building Fire",
         "created": "2025-09-03T17:06:00.000Z",
         "updated": "2025-09-03T19:14:00.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Anstruther St, Echuca",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2749,30 +2755,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "mfbId": "250902355",
+        "status": "Under Control",
+        "mfbId": "250902360",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250902355",
+        "sourceId": "250902360",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cromwell Rd",
-        "id": "ESTA:250902355",
-        "eventId": "250902355",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-03T19:22:10.000Z",
-        "updated": "2025-09-03T19:22:10.000Z",
+        "sourceTitle": "Toorak Rd",
+        "id": "ESTA:250902360",
+        "eventId": "250902360",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-03T19:42:35.000Z",
+        "updated": "2025-09-03T19:42:35.000Z",
         "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Cromwell Rd, South Yarra"
+        "location": "Toorak Rd, South Yarra"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00011361920622,
-          -37.844901227202236
+          144.98184537360603,
+          -37.837736952660826
         ]
       }
     },
@@ -2800,33 +2806,6 @@
         "coordinates": [
           144.9235070759037,
           -37.834290464484575
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 577914,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 577914,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950214,
-        "id": "ESTA:250950214",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-03T19:13:15.000Z",
-        "updated": "2025-09-03T19:24:16.000Z",
-        "resources": 1,
-        "location": "Lara"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4212763213211,
-          -38.015505290333934
         ]
       }
     }
@@ -3058,7 +3037,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-03T19:30:00.372Z",
-    "featureCount": 21
+    "lastUpdated": "2025-09-03T19:50:05.900Z",
+    "featureCount": 20
   }
 }
