@@ -457,6 +457,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1659846",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Macdonnell Street, Naracoorte",
+        "id": "1659846",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "name": "Macdonnell Street, Naracoorte",
+        "created": "2025-09-04T20:18:00.000Z",
+        "updated": "2025-09-04T20:18:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Macdonnell Street, Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.734915692775,
+          -36.9546229162469
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -512,30 +538,66 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120954357,
+        "status": "Safe",
+        "estaId": 120954448,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120954357,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Winchelsea",
-        "eventId": "F250903030",
-        "id": "ESTA:250903030",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250903040",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glen Huntly",
+        "eventId": "250903040",
+        "id": "ESTA:250903040",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-09-04T19:28:20.000Z",
-        "updated": "2025-09-04T19:40:26.685Z",
-        "resources": 0,
-        "location": "Winchelsea"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-04T20:18:17.000Z",
+        "updated": "2025-09-04T20:18:17.000Z",
+        "resources": 2,
+        "location": "Glen Huntly, Glen Huntly",
+        "mfbId": "250903040",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.01350854636232,
-          -38.23441223845937
+          145.0415663100374,
+          -37.894168794125626
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 120954443,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250903039",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Fritelli Cct",
+        "eventId": "250903039",
+        "id": "ESTA:250903039",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-04T20:18:22.000Z",
+        "updated": "2025-09-04T20:18:22.000Z",
+        "resources": 1,
+        "location": "Fritelli Cct, Wyndham Vale",
+        "cfaId": 235296,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250903039"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60285031989358,
+          -37.86293098361671
         ]
       }
     },
@@ -871,36 +933,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 235288,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250903018",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Fritelli Cct",
-        "eventId": "250903018",
-        "id": "ESTA:250903018",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-04T19:05:49.000Z",
-        "updated": "2025-09-04T19:05:49.000Z",
-        "resources": 2,
-        "location": "Fritelli Cct, Wyndham Vale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250903018"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.60285031989358,
-          -37.86293098361671
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
         "cfaId": 235291,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -911,9 +943,9 @@
         "id": "ESTA:250903029",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-04T19:43:26.000Z",
-        "updated": "2025-09-04T19:43:26.000Z",
-        "resources": 3,
+        "created": "2025-09-04T20:21:33.000Z",
+        "updated": "2025-09-04T20:21:33.000Z",
+        "resources": 2,
         "location": "Princes Hwy, Winchelsea",
         "size": "Small",
         "sizeFmt": "Small",
@@ -972,7 +1004,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-04T19:23:02.000Z",
         "updated": "2025-09-04T19:23:02.000Z",
-        "resources": 6,
+        "resources": 5,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Exchange Cl, Keilor East"
@@ -1241,7 +1273,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-04T19:50:20.437Z",
-    "featureCount": 15
+    "lastUpdated": "2025-09-04T20:26:20.325Z",
+    "featureCount": 16
   }
 }
