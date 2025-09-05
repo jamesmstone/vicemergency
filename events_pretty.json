@@ -457,7 +457,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 120967272,
         "feedType": "incident",
         "source": "000",
@@ -470,9 +470,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-09-05T17:31:31.000Z",
-        "updated": "2025-09-05T17:31:31.000Z",
-        "resources": 2,
+        "created": "2025-09-05T17:41:52.000Z",
+        "updated": "2025-09-05T17:41:52.000Z",
+        "resources": 4,
         "location": "Nash Dr, Mulgrave",
         "mfbId": "250904378",
         "size": "Small",
@@ -484,6 +484,35 @@
         "coordinates": [
           145.17719030192018,
           -37.9324805686934
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120967377,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120967377,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "F250904380",
+        "id": "ESTA:250904380",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-05T17:48:50.000Z",
+        "updated": "2025-09-05T17:49:49.775Z",
+        "resources": 0,
+        "location": "Howe Ct, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02787434058368,
+          -37.72782105724431
         ]
       }
     },
@@ -812,36 +841,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 235413,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250904291",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Dandenong Rd",
-        "eventId": "250904291",
-        "id": "ESTA:250904291",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-05T14:44:58.000Z",
-        "updated": "2025-09-05T14:44:58.000Z",
-        "resources": 1,
-        "location": "Dandenong Rd, Frankston",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250904291"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12954467702633,
-          -38.133895974877696
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 235412,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -915,7 +914,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-05T17:03:24.000Z",
         "updated": "2025-09-05T17:03:24.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "East Rd, Seaford",
         "size": "Small",
         "sizeFmt": "Small",
@@ -962,29 +961,29 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "250904374",
+        "cfaId": 235413,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250904374",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Diamond Av",
-        "id": "ESTA:250904374",
-        "eventId": "250904374",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 235413,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dandenong Rd",
+        "eventId": 250904291,
+        "id": "ESTA:250904291",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-05T16:55:20.000Z",
-        "updated": "2025-09-05T16:55:20.000Z",
-        "resources": 2,
+        "category2": "Building Fire",
+        "created": "2025-09-05T12:36:00.000Z",
+        "updated": "2025-09-05T17:47:00.000Z",
+        "resources": 3,
+        "location": "Dandenong Rd, Frankston",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Diamond Av, Albanvale"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.77381348721948,
-          -37.744026856472296
+          145.1295438127936,
+          -38.13389727153222
         ]
       }
     },
@@ -1243,7 +1242,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-05T17:35:40.445Z",
+    "lastUpdated": "2025-09-05T17:50:05.695Z",
     "featureCount": 16
   }
 }
