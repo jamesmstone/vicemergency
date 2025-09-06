@@ -1177,7 +1177,63 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1660133",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Casterton Road, Penola",
+        "id": "1660133",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Casterton Road, Penola",
+        "created": "2025-09-06T15:22:00.000Z",
+        "updated": "2025-09-06T15:22:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Casterton Road, Penola"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.896419729639,
+          -37.413155481881
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 120980289,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578100,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950339,
+        "id": "ESTA:250950339",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-06T15:22:30.000Z",
+        "updated": "2025-09-06T15:24:33.000Z",
+        "resources": 0,
+        "location": "Cavendish",
+        "sesId": 578100
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0276677587187,
+          -37.53787110598916
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "estaId": 120980199,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -1191,8 +1247,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-09-06T15:11:13.000Z",
-        "updated": "2025-09-06T15:11:32.000Z",
-        "resources": 1,
+        "updated": "2025-09-06T15:26:11.000Z",
+        "resources": 0,
         "location": "Vasey",
         "sesId": 578099
       },
@@ -1208,23 +1264,23 @@
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 120980114,
+        "estaId": 120980102,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250906155",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Coburg North",
-        "eventId": "250906155",
-        "id": "ESTA:250906155",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 235579,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harrys Creek Rd",
+        "eventId": 250906153,
+        "id": "ESTA:250906153",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-06T15:14:06.000Z",
-        "updated": "2025-09-06T15:14:06.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-09-06T15:00:00.000Z",
+        "updated": "2025-09-06T15:27:00.000Z",
         "resources": 2,
-        "location": "Coburg North, Coburg North",
-        "mfbId": "250906155",
+        "location": "Harrys Creek Rd, Violet Town",
+        "cfaId": 235579,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1232,38 +1288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96690582487156,
-          -37.73415311340342
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 120980131,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578098,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950337,
-        "id": "ESTA:250950337",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-06T15:04:12.000Z",
-        "updated": "2025-09-06T15:14:42.000Z",
-        "resources": 0,
-        "location": "Dunrobin",
-        "sesId": 578098
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.38353570944497,
-          -37.53496897165506
+          145.73697662811915,
+          -36.70167249155861
         ]
       }
     },
@@ -1282,9 +1308,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Fire",
-        "created": "2025-09-06T15:18:37.000Z",
-        "updated": "2025-09-06T15:18:37.000Z",
-        "resources": 3,
+        "created": "2025-09-06T15:27:52.000Z",
+        "updated": "2025-09-06T15:27:52.000Z",
+        "resources": 4,
         "location": "Roberts St, Frankston",
         "cfaId": 235580,
         "size": "Small",
@@ -8529,30 +8555,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 235579,
+        "status": "Under Control",
+        "mfbId": "250906155",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235579,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Harrys Creek Rd",
-        "eventId": 250906153,
-        "id": "ESTA:250906153",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-09-06T15:00:00.000Z",
-        "updated": "2025-09-06T15:00:00.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250906155",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Coburg North",
+        "id": "ESTA:250906155",
+        "eventId": "250906155",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-06T15:14:06.000Z",
+        "updated": "2025-09-06T15:14:06.000Z",
         "resources": 2,
-        "location": "Harrys Creek Rd, Violet Town",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Coburg North, Coburg North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.73697662811915,
-          -36.70167249155861
+          144.96690582487156,
+          -37.73415311340342
         ]
       }
     },
@@ -8625,7 +8651,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -8633,7 +8658,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -8649,7 +8675,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -8657,7 +8682,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-06T14:00:00.000Z",
           "heat": {
@@ -8838,7 +8864,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-06T15:22:20.402Z",
-    "featureCount": 23
+    "lastUpdated": "2025-09-06T15:32:05.846Z",
+    "featureCount": 24
   }
 }
