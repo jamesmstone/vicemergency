@@ -597,36 +597,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 120993745,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578619,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950870,
-        "id": "ESTA:250950870",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-07T23:11:15.000Z",
-        "updated": "2025-09-07T23:13:54.000Z",
-        "resources": 0,
-        "location": "Powelltown",
-        "sesId": 578619
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.7393220248728,
-          -37.860317650546996
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Complete",
         "estaId": 120993184,
         "feedType": "incident",
@@ -701,8 +671,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-09-07T23:17:37.000Z",
-        "updated": "2025-09-07T23:19:16.000Z",
-        "resources": 0,
+        "updated": "2025-09-07T23:27:03.000Z",
+        "resources": 1,
         "location": "Greendale",
         "sesId": 578620
       },
@@ -763,7 +733,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-09-07T23:18:46.000Z",
-        "updated": "2025-09-07T23:19:42.000Z",
+        "updated": "2025-09-07T23:21:17.000Z",
         "resources": 0,
         "location": "Rye",
         "sesId": 578621
@@ -783,26 +753,62 @@
         "estaId": 120993841,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 120993841,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hampton Park",
-        "eventId": "F250906826",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250906826",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pound Rd",
+        "eventId": "250906826",
         "id": "ESTA:250906826",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-09-07T23:20:37.000Z",
-        "updated": "2025-09-07T23:21:19.347Z",
-        "resources": 0,
-        "location": "Pound Rd, Hampton Park"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-07T23:21:45.000Z",
+        "updated": "2025-09-07T23:21:45.000Z",
+        "resources": 2,
+        "location": "Pound Rd, Hampton Park",
+        "cfaId": 235739,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250906826"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28353279939566,
-          -38.03370020882527
+          145.2835304687686,
+          -38.0337046567857
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 120993881,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250906837",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glenelg Hwy",
+        "eventId": "250906837",
+        "id": "ESTA:250906837",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-09-07T23:28:18.000Z",
+        "updated": "2025-09-07T23:28:18.000Z",
+        "resources": 2,
+        "location": "Glenelg Hwy, Smythes Creek",
+        "mfbId": "250906837",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.80514854304658,
+          -37.59078891736908
         ]
       }
     },
@@ -1829,6 +1835,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "618442",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Willis Tree Alight",
+        "id": "2025-09-07T11:00:00.0000000:618442",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Willis Tree Alight",
+        "location": "Koziosco Np",
+        "created": "2025-09-07T11:00:00+10:00",
+        "updated": "2025-09-07T11:00:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.418960572,
+          -36.886184693
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 233837,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1995,6 +2031,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 578619,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578619,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950870,
+        "id": "ESTA:250950870",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-07T23:11:15.000Z",
+        "updated": "2025-09-07T23:13:54.000Z",
+        "resources": 0,
+        "location": "Powelltown"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7393220248728,
+          -37.860317650546996
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 578615,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2006,8 +2069,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-09-07T22:59:40.000Z",
-        "updated": "2025-09-07T22:59:56.000Z",
-        "resources": 0,
+        "updated": "2025-09-07T23:29:43.000Z",
+        "resources": 1,
         "location": "Pakenham"
       },
       "type": "Feature",
@@ -2247,7 +2310,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-07T23:21:45.739Z",
-    "featureCount": 22
+    "lastUpdated": "2025-09-07T23:31:06.948Z",
+    "featureCount": 24
   }
 }
