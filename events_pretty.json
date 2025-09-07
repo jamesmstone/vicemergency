@@ -727,33 +727,89 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 120992662,
+        "status": "Request For Assistance",
+        "estaId": 120992683,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250906699",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gilbert Rd",
-        "eventId": "250906699",
-        "id": "ESTA:250906699",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578603,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950852,
+        "id": "ESTA:250950852",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-07T20:19:41.000Z",
-        "updated": "2025-09-07T20:19:41.000Z",
-        "resources": 1,
-        "location": "Gilbert Rd, Reservoir",
-        "mfbId": "250906699",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-07T20:24:59.000Z",
+        "updated": "2025-09-07T20:29:16.000Z",
+        "resources": 0,
+        "location": "Balwyn North",
+        "sesId": 578603
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99292186822606,
-          -37.72003823891835
+          145.07831655493598,
+          -37.782388094439185
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120992694,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120992694,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Balwyn North",
+        "eventId": "S250950853",
+        "id": "ESTA:250950853",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-07T20:25:34.000Z",
+        "updated": "2025-09-07T20:28:47.474Z",
+        "resources": 0,
+        "location": "Balwyn North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0736758974155,
+          -37.7891526934027
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 120992713,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 120992713,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Balwyn North",
+        "eventId": "S250950854",
+        "id": "ESTA:250950854",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-07T20:30:25.000Z",
+        "updated": "2025-09-07T20:34:34.860Z",
+        "resources": 0,
+        "location": "Balwyn North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07489588011796,
+          -37.7877775790968
         ]
       }
     },
@@ -4411,6 +4467,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "mfbId": "250906699",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250906699",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Gilbert Rd",
+        "id": "ESTA:250906699",
+        "eventId": "250906699",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-07T20:26:29.000Z",
+        "updated": "2025-09-07T20:26:29.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Gilbert Rd, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99292186822606,
+          -37.72003823891835
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "mfbId": "250906696",
         "feedType": "incident",
@@ -4534,15 +4619,15 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-        "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-        "North East": "NO - RESTRICTIONS MAY APPLY",
-        "Central": "NO - RESTRICTIONS MAY APPLY",
-        "North Central": "NO - RESTRICTIONS MAY APPLY",
-        "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-        "South West": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "South West": "NO - RESTRICTIONS MAY APPLY",
+        "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+        "North Central": "NO - RESTRICTIONS MAY APPLY",
+        "Central": "NO - RESTRICTIONS MAY APPLY",
+        "North East": "NO - RESTRICTIONS MAY APPLY",
+        "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4558,15 +4643,15 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-07T14:00:00.000Z",
           "heat": {
@@ -4605,15 +4690,15 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-08T14:00:00.000Z",
           "heat": {
@@ -4652,15 +4737,15 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-09T14:00:00.000Z",
           "heat": {
@@ -4699,15 +4784,15 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-10T14:00:00.000Z",
           "heat": {
@@ -4747,7 +4832,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-07T20:24:25.937Z",
-    "featureCount": 16
+    "lastUpdated": "2025-09-07T20:35:47.835Z",
+    "featureCount": 19
   }
 }
