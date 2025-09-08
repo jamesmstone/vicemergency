@@ -598,30 +598,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
         "estaId": 121004198,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121004198,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Horsham",
-        "eventId": "S250950946",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578690,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950946,
         "id": "ESTA:250950946",
         "suppress": false,
         "category1": "Flooding",
         "category2": "Flooding",
-        "created": "2025-09-08T17:35:50.000Z",
-        "updated": "2025-09-08T17:36:47.653Z",
+        "created": "2025-09-08T17:36:45.000Z",
+        "updated": "2025-09-08T17:43:09.000Z",
         "resources": 0,
-        "location": "Rennison St, Horsham"
+        "location": "Horsham",
+        "sesId": 578690
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.21123840372516,
-          -36.71275419445675
+          142.21123197388818,
+          -36.712766481659926
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121004182,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 235831,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rennison St",
+        "eventId": 250907371,
+        "id": "ESTA:250907371",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-08T17:33:00.000Z",
+        "updated": "2025-09-08T17:40:00.000Z",
+        "resources": 0,
+        "location": "Rennison St, Horsham",
+        "cfaId": 235831,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.21123197388818,
+          -36.712766481659926
         ]
       }
     },
@@ -1755,7 +1788,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-08T17:22:29.000Z",
         "updated": "2025-09-08T17:22:29.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Fitzpatrick Ct, California Gully",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1767,35 +1800,6 @@
         "coordinates": [
           144.2700815868827,
           -36.72232052929391
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 235831,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235831,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rennison St",
-        "eventId": 250907371,
-        "id": "ESTA:250907371",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-08T17:33:00.000Z",
-        "updated": "2025-09-08T17:33:00.000Z",
-        "resources": 0,
-        "location": "Rennison St, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.21123197388818,
-          -36.712766481659926
         ]
       }
     },
@@ -2112,7 +2116,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-08T17:37:25.920Z",
+    "lastUpdated": "2025-09-08T17:50:20.442Z",
     "featureCount": 16
   }
 }
