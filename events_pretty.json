@@ -598,24 +598,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121001043,
+        "status": "Under Control",
+        "estaId": 121001393,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235816,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ronald St",
-        "eventId": 250907286,
-        "id": "ESTA:250907286",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250907296",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Redan",
+        "eventId": "250907296",
+        "id": "ESTA:250907296",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-08T09:35:00.000Z",
-        "updated": "2025-09-08T09:37:00.000Z",
-        "resources": 0,
-        "location": "Ronald St, Robinvale",
-        "cfaId": 235816,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-08T10:15:43.000Z",
+        "updated": "2025-09-08T10:15:43.000Z",
+        "resources": 1,
+        "location": "Redan, Redan",
+        "mfbId": "250907296",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -623,37 +623,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.7778715851626,
-          -34.58701079671784
+          143.8406322741421,
+          -37.57279963585421
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121001184,
+        "estaId": 121001576,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121001184,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Frankston",
-        "eventId": "F250907290",
-        "id": "ESTA:250907290",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250907302",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elizabeth St",
+        "eventId": "250907302",
+        "id": "ESTA:250907302",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-08T09:45:09.000Z",
-        "updated": "2025-09-08T09:47:15.472Z",
-        "resources": 0,
-        "location": "James St, Frankston"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-08T10:27:38.000Z",
+        "updated": "2025-09-08T10:27:38.000Z",
+        "resources": 3,
+        "location": "Elizabeth St, Richmond",
+        "mfbId": "250907302",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.13335101482852,
-          -38.144393356542125
+          144.99617268858512,
+          -37.81223995996622
         ]
       }
     },
@@ -1738,35 +1741,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 235806,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235806,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Black Gully Rd",
-        "eventId": 250907243,
-        "id": "ESTA:250907243",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-08T08:21:00.000Z",
-        "updated": "2025-09-08T09:23:00.000Z",
-        "resources": 2,
-        "location": "Black Gully Rd, Diamond Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15905157150573,
-          -37.656272851058354
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 235813,
         "feedType": "incident",
@@ -1791,6 +1765,64 @@
         "coordinates": [
           145.03091870475663,
           -38.2857746831943
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 235816,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 235816,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ronald St",
+        "eventId": 250907286,
+        "id": "ESTA:250907286",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-09-08T09:35:00.000Z",
+        "updated": "2025-09-08T09:37:00.000Z",
+        "resources": 0,
+        "location": "Ronald St, Robinvale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7778715851626,
+          -34.58701079671784
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 235806,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 235806,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Black Gully Rd",
+        "eventId": 250907243,
+        "id": "ESTA:250907243",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-08T08:21:00.000Z",
+        "updated": "2025-09-08T10:05:00.000Z",
+        "resources": 0,
+        "location": "Black Gully Rd, Diamond Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15905157150573,
+          -37.656272851058354
         ]
       }
     },
@@ -1825,59 +1857,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250907238",
+        "status": "Responding",
+        "mfbId": "250907300",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250907238",
+        "sourceId": "250907300",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Glenroy",
-        "id": "ESTA:250907238",
-        "eventId": "250907238",
+        "sourceTitle": "Power Rd",
+        "id": "ESTA:250907300",
+        "eventId": "250907300",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-08T08:30:51.000Z",
-        "updated": "2025-09-08T08:30:51.000Z",
+        "created": "2025-09-08T10:17:41.000Z",
+        "updated": "2025-09-08T10:17:41.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Glenroy, Glenroy"
+        "location": "Power Rd, Endeavour Hills"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9174257431677,
-          -37.70602584098222
+          145.24258189451652,
+          -37.97362999294783
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250907301",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250907301",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Whitehorse Rd",
+        "id": "ESTA:250907301",
+        "eventId": "250907301",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-08T10:27:02.000Z",
+        "updated": "2025-09-08T10:27:02.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Whitehorse Rd, Mont Albert"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10664772348298,
+          -37.81606695039865
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250907280",
+        "mfbId": "250907295",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250907280",
+        "sourceId": "250907295",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Service St",
-        "id": "ESTA:250907280",
-        "eventId": "250907280",
+        "sourceTitle": "Collins St",
+        "id": "ESTA:250907295",
+        "eventId": "250907295",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-08T09:44:59.000Z",
-        "updated": "2025-09-08T09:44:59.000Z",
+        "created": "2025-09-08T10:15:13.000Z",
+        "updated": "2025-09-08T10:15:13.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Service St, Sunshine"
+        "location": "Collins St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8341714313437,
-          -37.783401184594894
+          144.96507559213535,
+          -37.815721825756235
         ]
       }
     },
@@ -1905,33 +1966,6 @@
         "coordinates": [
           144.9235070759037,
           -37.834290464484575
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 578671,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578671,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250907224,
-        "id": "ESTA:250907224",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2025-09-08T07:33:08.000Z",
-        "updated": "2025-09-08T08:06:23.000Z",
-        "resources": 2,
-        "location": "Glengarry North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5422308181766,
-          -38.07874575430883
         ]
       }
     },
@@ -1991,55 +2025,28 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 578677,
+        "status": "Complete",
+        "sesId": 578671,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 578677,
+        "sourceId": 578671,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250950934,
-        "id": "ESTA:250950934",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-08T08:30:46.000Z",
-        "updated": "2025-09-08T08:58:03.000Z",
-        "resources": 1,
-        "location": "Hampton Park"
+        "eventId": 250907224,
+        "id": "ESTA:250907224",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-09-08T07:33:08.000Z",
+        "updated": "2025-09-08T10:24:47.000Z",
+        "resources": 2,
+        "location": "Glengarry North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26892635160328,
-          -38.04709747990262
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 578679,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578679,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950936,
-        "id": "ESTA:250950936",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-08T08:51:03.000Z",
-        "updated": "2025-09-08T09:29:08.000Z",
-        "resources": 1,
-        "location": "Wehla"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.67175411883204,
-          -36.606757565068044
+          146.5422308181766,
+          -38.07874575430883
         ]
       }
     }
@@ -2271,7 +2278,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-08T09:50:20.316Z",
+    "lastUpdated": "2025-09-08T10:29:02.015Z",
     "featureCount": 23
   }
 }
