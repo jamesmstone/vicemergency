@@ -598,24 +598,24 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 121003873,
+        "status": "Responding",
+        "estaId": 121003957,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235829,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Oherns Rd",
-        "eventId": 250907364,
-        "id": "ESTA:250907364",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250907366",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pelham St",
+        "eventId": "250907366",
+        "id": "ESTA:250907366",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-08T16:11:00.000Z",
-        "updated": "2025-09-08T16:11:00.000Z",
-        "resources": 1,
-        "location": "Oherns Rd, Epping",
-        "cfaId": 235829,
+        "category2": "Structure Fire",
+        "created": "2025-09-08T16:38:20.000Z",
+        "updated": "2025-09-08T16:38:20.000Z",
+        "resources": 2,
+        "location": "Pelham St, Carlton",
+        "mfbId": "250907366",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -623,37 +623,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01647002888762,
-          -37.636792740655764
+          144.96384385436593,
+          -37.80270192163221
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121003957,
+        "status": "Complete",
+        "estaId": 121003858,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121003957,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Carlton",
-        "eventId": "F250907366",
-        "id": "ESTA:250907366",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578688,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250950944,
+        "id": "ESTA:250950944",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-08T16:29:51.000Z",
-        "updated": "2025-09-08T16:30:44.936Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-09-08T16:07:22.000Z",
+        "updated": "2025-09-08T16:38:45.000Z",
         "resources": 0,
-        "location": "Pelham St, Carlton"
+        "location": "Bacchus Marsh",
+        "sesId": 578688
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96385116851476,
-          -37.80269978723232
+          144.42693070597517,
+          -37.66463752870374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 121003974,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250907367",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Fitzpatrick Ct",
+        "eventId": "250907367",
+        "id": "ESTA:250907367",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-08T16:47:39.000Z",
+        "updated": "2025-09-08T16:47:39.000Z",
+        "resources": 3,
+        "location": "Fitzpatrick Ct, California Gully",
+        "cfaId": 235830,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250907367"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2700815868827,
+          -36.72232052929391
         ]
       }
     },
@@ -1856,33 +1890,6 @@
           -37.834290464484575
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 578688,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578688,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250950944,
-        "id": "ESTA:250950944",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-09-08T16:07:22.000Z",
-        "updated": "2025-09-08T16:18:45.000Z",
-        "resources": 1,
-        "location": "Bacchus Marsh"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.42693070597517,
-          -37.66463752870374
-        ]
-      }
     }
   ],
   "properties": {
@@ -2112,7 +2119,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-08T16:32:25.407Z",
+    "lastUpdated": "2025-09-08T16:53:00.679Z",
     "featureCount": 16
   }
 }
