@@ -547,20 +547,20 @@
     {
       "properties": {
         "status": "Unknown",
-        "estaId": 121015251,
+        "estaId": 121015501,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121015251,
+        "sourceId": 121015501,
         "sourceFeed": "esta-cad-event",
         "sourceTitle": "Craigieburn",
-        "eventId": "S250951011",
-        "id": "ESTA:250951011",
+        "eventId": "S250951012",
+        "id": "ESTA:250951012",
         "suppress": false,
         "category1": "Building Damage",
         "category2": "Building Damage",
-        "created": "2025-09-09T13:33:24.000Z",
-        "updated": "2025-09-09T13:40:22.799Z",
+        "created": "2025-09-09T14:11:53.000Z",
+        "updated": "2025-09-09T14:19:47.528Z",
         "resources": 0,
         "location": "Debonair Pde, Craigieburn"
       },
@@ -575,24 +575,54 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121015318,
+        "status": "Responding",
+        "estaId": 121015601,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250908248",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hotham Rd",
+        "eventId": "250908248",
+        "id": "ESTA:250908248",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-09T14:35:38.000Z",
+        "updated": "2025-09-09T14:35:38.000Z",
+        "resources": 1,
+        "location": "Hotham Rd, Sorrento",
+        "cfaId": 235970,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250908248"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.74222269559388,
+          -38.33664556958638
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 235967,
+        "feedType": "incident",
         "sourceOrg": "VIC/FRV",
         "sourceId": "250908241",
         "sourceFeed": "mfb-incident",
         "sourceTitle": "Wilsons Rd",
         "eventId": "250908241",
         "id": "ESTA:250908241",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2025-09-09T14:17:13.000Z",
         "updated": "2025-09-09T14:17:13.000Z",
         "resources": 4,
         "location": "Wilsons Rd, St Albans Park",
-        "cfaId": 235967,
         "size": "Small",
         "sizeFmt": "Small",
         "mfbId": "250908241"
@@ -603,126 +633,6 @@
         "coordinates": [
           144.38846961771858,
           -38.18771897854523
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 121015501,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 578753,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250951012,
-        "id": "ESTA:250951012",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-09-09T14:17:25.000Z",
-        "updated": "2025-09-09T14:19:46.000Z",
-        "resources": 0,
-        "location": "Craigieburn",
-        "sesId": 578753
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88775218546604,
-          -37.601348731011704
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121015539,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250908247",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Epping",
-        "eventId": "250908247",
-        "id": "ESTA:250908247",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-09-09T14:23:12.000Z",
-        "updated": "2025-09-09T14:23:12.000Z",
-        "resources": 1,
-        "location": "Epping, Epping",
-        "mfbId": "250908247",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99053747109627,
-          -37.64803510146152
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 235965,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235965,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250908235,
-        "id": "ESTA:250908235",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-09T13:14:00.000Z",
-        "updated": "2025-09-09T13:26:00.000Z",
-        "resources": 0,
-        "location": "Armstrong Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3721041076773,
-          -38.238199052057205
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 235966,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 235966,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hermitage Pl",
-        "eventId": 250908238,
-        "id": "ESTA:250908238",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-09T13:23:00.000Z",
-        "updated": "2025-09-09T13:32:00.000Z",
-        "resources": 0,
-        "location": "Hermitage Pl, Rowville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2707983339948,
-          -37.90434000144301
         ]
       }
     },
@@ -741,7 +651,7 @@
         "category2": "Other",
         "created": "2025-09-09T14:04:00.000Z",
         "updated": "2025-09-09T14:21:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Armstrong Creek",
         "size": "Small",
         "sizeFmt": "Small"
@@ -752,6 +662,35 @@
         "coordinates": [
           144.3721041076773,
           -38.238199052057205
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250908247",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250908247",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Epping",
+        "id": "ESTA:250908247",
+        "eventId": "250908247",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-09T14:35:43.000Z",
+        "updated": "2025-09-09T14:35:43.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Epping, Epping"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99053747109627,
+          -37.64803510146152
         ]
       }
     },
@@ -797,6 +736,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -804,8 +744,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -821,6 +760,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -828,8 +768,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-09T14:00:00.000Z",
           "heat": {
@@ -1010,7 +949,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-09T14:25:40.478Z",
-    "featureCount": 17
+    "lastUpdated": "2025-09-09T14:41:05.741Z",
+    "featureCount": 15
   }
 }
