@@ -2108,32 +2108,67 @@
         "estaId": 121041172,
         "feedType": "incident",
         "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121041172,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ararat",
-        "eventId": "F250909867",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236236,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Warrak Rd",
+        "eventId": 250909867,
         "id": "ESTA:250909867",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-09-11T20:23:49.000Z",
-        "updated": "2025-09-11T20:23:53.076Z",
+        "created": "2025-09-11T20:24:00.000Z",
+        "updated": "2025-09-11T20:24:00.000Z",
         "resources": 0,
-        "location": "Warrak Rd, Ararat"
+        "location": "Warrak Rd, Ararat",
+        "cfaId": 236236,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.98031692915666,
-          -37.27498121429224
+          142.98029819005535,
+          -37.274984394126335
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 121041186,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236237,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Victoria St",
+        "eventId": 250909868,
+        "id": "ESTA:250909868",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-11T20:29:00.000Z",
+        "updated": "2025-09-11T20:29:00.000Z",
+        "resources": 1,
+        "location": "Victoria St, Hastings",
+        "cfaId": 236237,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19009587925999,
+          -38.30155886825652
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 121041166,
         "feedType": "incident",
         "source": "000",
@@ -2145,9 +2180,9 @@
         "id": "ESTA:250909865",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-11T20:22:19.000Z",
-        "updated": "2025-09-11T20:22:19.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-11T20:29:29.000Z",
+        "updated": "2025-09-11T20:29:29.000Z",
         "resources": 2,
         "location": "Langton Way, Greenvale",
         "cfaId": 236235,
@@ -2161,6 +2196,39 @@
         "coordinates": [
           144.88605233539585,
           -37.64094393696555
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121041187,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250909869",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Buninyong",
+        "eventId": "250909869",
+        "id": "ESTA:250909869",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-11T20:31:56.000Z",
+        "updated": "2025-09-11T20:31:56.000Z",
+        "resources": 1,
+        "location": "Buninyong, Buninyong",
+        "cfaId": 236238,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250909869"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8839637234566,
+          -37.650268013924226
         ]
       }
     },
@@ -2958,7 +3026,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2966,7 +3033,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2982,7 +3050,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2990,7 +3057,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-11T14:00:00.000Z",
           "heat": {
@@ -3171,7 +3239,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-11T20:24:00.173Z",
-    "featureCount": 16
+    "lastUpdated": "2025-09-11T20:35:00.058Z",
+    "featureCount": 18
   }
 }
