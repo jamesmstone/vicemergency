@@ -516,33 +516,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121055058,
+        "status": "Unknown",
+        "estaId": 121055275,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250911193",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Butler Rd",
-        "eventId": "250911193",
-        "id": "ESTA:250911193",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121055275,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Lorne",
+        "eventId": "S250951175",
+        "id": "ESTA:250951175",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-12T21:46:34.000Z",
-        "updated": "2025-09-12T21:46:34.000Z",
-        "resources": 2,
-        "location": "Butler Rd, Altona North",
-        "mfbId": "250911193",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-12T22:04:03.000Z",
+        "updated": "2025-09-12T22:09:30.556Z",
+        "resources": 0,
+        "location": "Shipwreck Trl, Lorne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.84109152922977,
-          -37.84517447342843
+          143.98635512334965,
+          -38.54874835533325
         ]
       }
     },
@@ -849,35 +846,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 236355,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 236355,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heatherton Rd",
-        "eventId": 250911138,
-        "id": "ESTA:250911138",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-12T20:49:00.000Z",
-        "updated": "2025-09-12T20:50:00.000Z",
-        "resources": 0,
-        "location": "Heatherton Rd, Noble Park",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18387595494798,
-          -37.966456156330416
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 236356,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -901,6 +869,65 @@
         "coordinates": [
           145.22109539703652,
           -37.98218301643531
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 236358,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 578904,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250911242,
+        "id": "ESTA:250911242",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-12T22:00:19.000Z",
+        "updated": "2025-09-12T22:08:36.000Z",
+        "resources": 3,
+        "location": "Devon North",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 578904
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5855520421467,
+          -38.4920982613826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 236359,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236359,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250911253,
+        "id": "ESTA:250911253",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-09-12T22:04:00.000Z",
+        "updated": "2025-09-12T22:04:00.000Z",
+        "resources": 0,
+        "location": "Devon North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5855520421467,
+          -38.4920982613826
         ]
       }
     },
@@ -930,6 +957,35 @@
         "coordinates": [
           145.05281537672226,
           -37.852286747818425
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "250911230",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250911230",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mangan St",
+        "id": "ESTA:250911230",
+        "eventId": "250911230",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-12T22:05:43.000Z",
+        "updated": "2025-09-12T22:05:43.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mangan St, Balwyn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0832118670129,
+          -37.811391254611614
         ]
       }
     },
@@ -1031,6 +1087,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1038,8 +1095,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1055,6 +1111,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1062,8 +1119,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-12T14:00:00.000Z",
           "heat": {
@@ -1244,7 +1300,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-12T21:50:05.580Z",
-    "featureCount": 16
+    "lastUpdated": "2025-09-12T22:23:05.980Z",
+    "featureCount": 18
   }
 }
