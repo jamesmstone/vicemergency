@@ -545,24 +545,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121055896,
+        "status": "Safe",
+        "estaId": 121055824,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250911450",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Flemington Rd",
-        "eventId": "250911450",
-        "id": "ESTA:250911450",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236368,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250911431,
+        "id": "ESTA:250911431",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-12T23:16:27.000Z",
-        "updated": "2025-09-12T23:16:27.000Z",
-        "resources": 1,
-        "location": "Flemington Rd, North Melbourne",
-        "mfbId": "250911450",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-12T23:06:00.000Z",
+        "updated": "2025-09-12T23:20:00.000Z",
+        "resources": 0,
+        "location": "Myrtlebank",
+        "cfaId": 236368,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -570,8 +570,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94879146690306,
-          -37.795173007218395
+          147.0663264857232,
+          -38.06682940597852
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121056041,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250911498",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mathews Ct",
+        "eventId": "250911498",
+        "id": "ESTA:250911498",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-09-12T23:28:55.000Z",
+        "updated": "2025-09-12T23:28:55.000Z",
+        "resources": 2,
+        "location": "Mathews Ct, Reservoir",
+        "mfbId": "250911498",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03295602487,
+          -37.72954886588134
         ]
       }
     },
@@ -604,38 +636,6 @@
         "coordinates": [
           144.6814509616176,
           -37.886626892546516
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121055824,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 236368,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250911431,
-        "id": "ESTA:250911431",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-12T23:06:00.000Z",
-        "updated": "2025-09-12T23:06:00.000Z",
-        "resources": 3,
-        "location": "Sale",
-        "cfaId": 236368,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.07379483820776,
-          -38.06803266890453
         ]
       }
     },
@@ -1000,57 +1000,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250911169",
+        "status": "Safe",
+        "mfbId": "250911450",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250911169",
+        "sourceId": "250911450",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Monash Fwy",
-        "id": "ESTA:250911169",
-        "eventId": "250911169",
+        "sourceTitle": "Flemington Rd",
+        "id": "ESTA:250911450",
+        "eventId": "250911450",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-12T23:05:56.000Z",
-        "updated": "2025-09-12T23:05:56.000Z",
-        "resources": 0,
+        "created": "2025-09-12T23:27:20.000Z",
+        "updated": "2025-09-12T23:27:20.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Monash Fwy, Glen Iris"
+        "location": "Flemington Rd, North Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0490072288501,
-          -37.849927768077926
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "sesId": 577412,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 577412,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 577412,
-        "id": "ESTA:577412",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-08-30T04:00:15.000Z",
-        "updated": "2025-08-30T04:48:15.000Z",
-        "resources": 1,
-        "location": "Port Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9235070759037,
-          -37.834290464484575
+          144.94879146690306,
+          -37.795173007218395
         ]
       }
     },
@@ -1105,6 +1078,33 @@
         "coordinates": [
           144.94878067653545,
           -37.79518102398654
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "sesId": 577412,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 577412,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 577412,
+        "id": "ESTA:577412",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-08-30T04:00:15.000Z",
+        "updated": "2025-08-30T04:48:15.000Z",
+        "resources": 1,
+        "location": "Port Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9235070759037,
+          -37.834290464484575
         ]
       }
     }
@@ -1336,7 +1336,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-12T23:21:25.779Z",
+    "lastUpdated": "2025-09-12T23:30:25.382Z",
     "featureCount": 19
   }
 }
