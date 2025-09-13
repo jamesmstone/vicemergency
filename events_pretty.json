@@ -695,33 +695,33 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121068505,
+        "estaId": 121068549,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250913187",
+        "sourceId": "250913190",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Kensington Rd",
-        "eventId": "250913187",
-        "id": "ESTA:250913187",
+        "sourceTitle": "Geelong",
+        "eventId": "250913190",
+        "id": "ESTA:250913190",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-13T19:14:45.000Z",
-        "updated": "2025-09-13T19:14:45.000Z",
-        "resources": 2,
-        "location": "Kensington Rd, Leopold",
-        "cfaId": 236511,
+        "category2": "Fire",
+        "created": "2025-09-13T19:25:58.000Z",
+        "updated": "2025-09-13T19:25:58.000Z",
+        "resources": 3,
+        "location": "Geelong, Geelong",
+        "cfaId": 236512,
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250913187"
+        "mfbId": "250913190"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.46584860133095,
-          -38.18077148516236
+          144.3599600137033,
+          -38.14587858926593
         ]
       }
     },
@@ -1078,6 +1078,35 @@
           -34.22115605280008
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250913189",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250913189",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Archibald St",
+        "id": "ESTA:250913189",
+        "eventId": "250913189",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-13T19:20:15.000Z",
+        "updated": "2025-09-13T19:20:15.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Archibald St, Box Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12178872010284,
+          -37.816890473255555
+        ]
+      }
     }
   ],
   "properties": {
@@ -1307,7 +1336,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-13T19:16:40.093Z",
-    "featureCount": 17
+    "lastUpdated": "2025-09-13T19:30:00.198Z",
+    "featureCount": 18
   }
 }
