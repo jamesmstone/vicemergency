@@ -601,32 +601,29 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121066143,
+        "estaId": 121066211,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250913127",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Side Entrance Rd",
-        "eventId": "250913127",
-        "id": "ESTA:250913127",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121066211,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Point Cook",
+        "eventId": "F250913130",
+        "id": "ESTA:250913130",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-13T13:30:45.000Z",
-        "updated": "2025-09-13T13:30:45.000Z",
+        "created": "2025-09-13T13:36:23.000Z",
+        "updated": "2025-09-13T13:36:40.036Z",
         "resources": 0,
-        "location": "Side Entrance Rd, Point Cook",
-        "mfbId": "250913127",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Side Entrance Rd, Point Cook"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7714661537651,
-          -37.92745664408344
+          144.77147347399986,
+          -37.927448725361565
         ]
       }
     },
@@ -647,7 +644,7 @@
         "category2": "Other",
         "created": "2025-09-13T13:06:00.000Z",
         "updated": "2025-09-13T13:32:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Miramar Rd, Somers",
         "cfaId": 236489,
         "size": "Small",
@@ -664,24 +661,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121066003,
+        "status": "Responding",
+        "estaId": 121066285,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250913123",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Centre Dandenong Rd",
-        "eventId": "250913123",
-        "id": "ESTA:250913123",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236492,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Long St",
+        "eventId": 250913133,
+        "id": "ESTA:250913133",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-09-13T13:33:35.000Z",
-        "updated": "2025-09-13T13:33:35.000Z",
-        "resources": 1,
-        "location": "Centre Dandenong Rd, Dingley Village",
-        "mfbId": "250913123",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-13T13:44:00.000Z",
+        "updated": "2025-09-13T13:44:00.000Z",
+        "resources": 0,
+        "location": "Long St, Leongatha",
+        "cfaId": 236492,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -689,8 +686,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12066478056911,
-          -37.973570859395466
+          145.9495486036973,
+          -38.47891086030066
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121066279,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250913132",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Memory Cr",
+        "eventId": "250913132",
+        "id": "ESTA:250913132",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-13T13:45:57.000Z",
+        "updated": "2025-09-13T13:45:57.000Z",
+        "resources": 5,
+        "location": "Memory Cr, Wyndham Vale",
+        "cfaId": 236491,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250913132"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.59206131569883,
+          -37.85523635532572
         ]
       }
     },
@@ -756,6 +786,36 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "619105",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Dight St, Albury",
+        "id": "2025-09-13T23:43:00.0000000:619105",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Dight St, Albury",
+        "location": "554 Dight St, Albury, Nsw 2640",
+        "created": "2025-09-13T23:43:00+10:00",
+        "updated": "2025-09-13T23:43:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.908193,
+          -36.077379
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 236486,
         "feedType": "incident",
@@ -780,35 +840,6 @@
         "coordinates": [
           143.4686587612229,
           -37.091757033798615
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 236484,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 236484,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Havelock St",
-        "eventId": 250913101,
-        "id": "ESTA:250913101",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-09-13T12:11:00.000Z",
-        "updated": "2025-09-13T12:47:00.000Z",
-        "resources": 0,
-        "location": "Havelock St, Ballarat North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.86721257501787,
-          -37.53833269173603
         ]
       }
     },
@@ -843,31 +874,118 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 236488,
+        "status": "Responding",
+        "cfaId": 236490,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250913118",
+        "sourceId": "250913127",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Doreen",
-        "eventId": "250913118",
-        "id": "ESTA:250913118",
+        "sourceTitle": "Side Entrance Rd",
+        "eventId": "250913127",
+        "id": "ESTA:250913127",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-13T13:24:55.000Z",
-        "updated": "2025-09-13T13:24:55.000Z",
-        "resources": 2,
-        "location": "Doreen, Doreen",
+        "created": "2025-09-13T13:40:14.000Z",
+        "updated": "2025-09-13T13:40:14.000Z",
+        "resources": 1,
+        "location": "Side Entrance Rd, Point Cook",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250913118"
+        "mfbId": "250913127"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1358215354592,
-          -37.59288486335017
+          144.7714661537651,
+          -37.92745664408344
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 236488,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236488,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250913118,
+        "id": "ESTA:250913118",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-13T13:05:00.000Z",
+        "updated": "2025-09-13T13:39:00.000Z",
+        "resources": 0,
+        "location": "Doreen",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1358107393145,
+          -37.592885073773814
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250913123",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250913123",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Centre Dandenong Rd",
+        "id": "ESTA:250913123",
+        "eventId": "250913123",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-13T13:33:35.000Z",
+        "updated": "2025-09-13T13:33:35.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Centre Dandenong Rd, Dingley Village"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12066478056911,
+          -37.973570859395466
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250913131",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250913131",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brooklyn",
+        "id": "ESTA:250913131",
+        "eventId": "250913131",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-13T13:39:37.000Z",
+        "updated": "2025-09-13T13:39:37.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Brooklyn, Brooklyn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84870103882795,
+          -37.82400185014541
         ]
       }
     },
@@ -902,7 +1020,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "mfbId": "250913126",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -913,8 +1031,8 @@
         "eventId": "250913126",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-13T13:29:12.000Z",
-        "updated": "2025-09-13T13:29:12.000Z",
+        "created": "2025-09-13T13:39:30.000Z",
+        "updated": "2025-09-13T13:39:30.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -1238,7 +1356,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-13T13:34:45.397Z",
-    "featureCount": 25
+    "lastUpdated": "2025-09-13T13:50:00.779Z",
+    "featureCount": 29
   }
 }
