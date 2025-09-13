@@ -599,72 +599,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 121067981,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250913175",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brentwick Dr",
-        "eventId": "250913175",
-        "id": "ESTA:250913175",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-13T17:36:18.000Z",
-        "updated": "2025-09-13T17:36:18.000Z",
-        "resources": 1,
-        "location": "Brentwick Dr, Craigieburn",
-        "cfaId": 236507,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250913175"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9068724725736,
-          -37.60043171037236
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121068046,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250913176",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Karadoc Av",
-        "eventId": "250913176",
-        "id": "ESTA:250913176",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-13T17:42:50.000Z",
-        "updated": "2025-09-13T17:42:50.000Z",
-        "resources": 3,
-        "location": "Karadoc Av, Irymple",
-        "cfaId": 236508,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250913176"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1779599040021,
-          -34.22115605280008
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1016,6 +950,65 @@
           -38.1900368238329
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 236507,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 236507,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Brentwick Dr",
+        "eventId": 250913175,
+        "id": "ESTA:250913175",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-09-13T17:29:00.000Z",
+        "updated": "2025-09-13T17:36:00.000Z",
+        "resources": 0,
+        "location": "Brentwick Dr, Craigieburn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9068634911784,
+          -37.600436709104976
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 236508,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250913176",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Karadoc Av",
+        "eventId": "250913176",
+        "id": "ESTA:250913176",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-13T17:49:40.000Z",
+        "updated": "2025-09-13T17:49:40.000Z",
+        "resources": 9,
+        "location": "Karadoc Av, Irymple",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250913176"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1779599040021,
+          -34.22115605280008
+        ]
+      }
     }
   ],
   "properties": {
@@ -1245,7 +1238,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-13T17:50:20.209Z",
+    "lastUpdated": "2025-09-13T18:30:20.187Z",
     "featureCount": 17
   }
 }
