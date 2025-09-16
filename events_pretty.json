@@ -368,61 +368,58 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121103785,
+        "estaId": 121103582,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121103785,
+        "sourceId": 121103582,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Moorabbin",
-        "eventId": "F250915672",
-        "id": "ESTA:250915672",
+        "sourceTitle": "Mulwala (Nsw)",
+        "eventId": "F250915668",
+        "id": "ESTA:250915668",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-16T14:44:17.000Z",
-        "updated": "2025-09-16T14:44:54.130Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-16T14:09:13.000Z",
+        "updated": "2025-09-16T15:25:08.556Z",
         "resources": 0,
-        "location": "Nepean Hwy, Moorabbin"
+        "location": "Havelock St, Mulwala (Nsw)"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03673399655062,
-          -37.93656796329902
+          146.00541322705755,
+          -35.984908098410145
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121103784,
+        "estaId": 121104005,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250915671",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Nepean Hwy",
-        "eventId": "250915671",
-        "id": "ESTA:250915671",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121104005,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Carlisle River",
+        "eventId": "S250952500",
+        "id": "ESTA:250952500",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-16T14:45:45.000Z",
-        "updated": "2025-09-16T14:45:45.000Z",
-        "resources": 2,
-        "location": "Nepean Hwy, Moorabbin",
-        "mfbId": "250915671",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-16T15:22:51.000Z",
+        "updated": "2025-09-16T15:26:35.855Z",
+        "resources": 0,
+        "location": "Gellibrand River Rd, Carlisle River"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.036732246194,
-          -37.93656977203497
+          143.39496731304942,
+          -38.5587023258905
         ]
       }
     },
@@ -2231,6 +2228,64 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "mfbId": "250915671",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250915671",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Nepean Hwy",
+        "id": "ESTA:250915671",
+        "eventId": "250915671",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-16T15:01:29.000Z",
+        "updated": "2025-09-16T15:01:29.000Z",
+        "resources": 3,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Nepean Hwy, Moorabbin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.036732246194,
+          -37.93656977203497
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250915674",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250915674",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cherry Gr",
+        "id": "ESTA:250915674",
+        "eventId": "250915674",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-16T15:24:18.000Z",
+        "updated": "2025-09-16T15:24:18.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Cherry Gr, Donvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1922408866858,
+          -37.80358952258868
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 580206,
         "feedType": "incident",
@@ -2280,6 +2335,33 @@
         "coordinates": [
           145.20821635449445,
           -37.043110566101305
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 580223,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580223,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250952499,
+        "id": "ESTA:250952499",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-09-16T15:12:34.000Z",
+        "updated": "2025-09-16T15:14:16.000Z",
+        "resources": 0,
+        "location": "Donvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1922342251648,
+          -37.80359457220055
         ]
       }
     }
@@ -2511,7 +2593,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-16T14:50:20.634Z",
-    "featureCount": 19
+    "lastUpdated": "2025-09-16T15:27:20.332Z",
+    "featureCount": 22
   }
 }
