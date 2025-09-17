@@ -125,32 +125,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1662146",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Louden Hill Rd/Riddoch Hwy , Ob Flat",
-        "id": "1662146",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Louden Hill Rd/Riddoch Hwy , Ob Flat",
-        "created": "2025-09-17T11:24:00.000Z",
-        "updated": "2025-09-17T11:24:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Louden Hill Rd/Riddoch Hwy , Ob Flat"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.755827787783,
-          -37.8854635293058
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -288,55 +262,56 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121115028,
+        "estaId": 121115232,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250916379",
+        "sourceId": "250916384",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Croydon Rd",
-        "eventId": "250916379",
-        "id": "ESTA:250916379",
+        "sourceTitle": "Dromana",
+        "eventId": "250916384",
+        "id": "ESTA:250916384",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-17T12:46:16.000Z",
-        "updated": "2025-09-17T12:46:16.000Z",
-        "resources": 1,
-        "location": "Croydon Rd, Croydon",
-        "mfbId": "250916379",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-17T13:18:52.000Z",
+        "updated": "2025-09-17T13:18:52.000Z",
+        "resources": 0,
+        "location": "Dromana, Dromana",
+        "cfaId": 237113,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250916384"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2820385119851,
-          -37.79046446259264
+          144.9542766131121,
+          -38.33756936432281
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121115046,
+        "estaId": 121115240,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 237111,
+        "sourceId": 237114,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lymington Av",
-        "eventId": 250916380,
-        "id": "ESTA:250916380",
+        "sourceTitle": "",
+        "eventId": 250916385,
+        "id": "ESTA:250916385",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-17T12:50:00.000Z",
-        "updated": "2025-09-17T12:50:00.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-17T13:19:00.000Z",
+        "updated": "2025-09-17T13:19:00.000Z",
         "resources": 0,
-        "location": "Lymington Av, Ventnor",
-        "cfaId": 237111,
+        "location": "Dromana",
+        "cfaId": 237114,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -344,8 +319,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1672412625972,
-          -38.47097567667633
+          144.95427027591282,
+          -38.33757401598558
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121115203,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250916383",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pt Nepean Rd",
+        "eventId": "250916383",
+        "id": "ESTA:250916383",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-17T13:26:01.000Z",
+        "updated": "2025-09-17T13:26:01.000Z",
+        "resources": 3,
+        "location": "Pt Nepean Rd, Dromana",
+        "cfaId": 237112,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250916383"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94026221697007,
+          -38.34334617953033
         ]
       }
     },
@@ -652,144 +660,58 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 237105,
+        "cfaId": 237111,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237111,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lymington Av",
+        "eventId": 250916380,
+        "id": "ESTA:250916380",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-17T12:50:00.000Z",
+        "updated": "2025-09-17T13:21:00.000Z",
+        "resources": 0,
+        "location": "Lymington Av, Ventnor",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1672412625972,
+          -38.47097567667633
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250916382",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250916327",
+        "sourceId": "250916382",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Drysdale St",
-        "eventId": "250916327",
-        "id": "ESTA:250916327",
+        "sourceTitle": "Fairfield",
+        "id": "ESTA:250916382",
+        "eventId": "250916382",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-09-17T12:07:56.000Z",
-        "updated": "2025-09-17T12:07:56.000Z",
-        "resources": 0,
-        "location": "Drysdale St, Portarlington",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250916327"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.66341425749306,
-          -38.11490146239684
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 237109,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237109,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Chile St",
-        "eventId": 250916362,
-        "id": "ESTA:250916362",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-17T11:43:00.000Z",
-        "updated": "2025-09-17T12:16:00.000Z",
-        "resources": 0,
-        "location": "Chile St, Frankston North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15202369114039,
-          -38.11791518290806
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 237110,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237110,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Quay Bvd",
-        "eventId": 250916372,
-        "id": "ESTA:250916372",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-17T12:16:00.000Z",
-        "updated": "2025-09-17T12:19:00.000Z",
-        "resources": 0,
-        "location": "Quay Bvd, Werribee South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7087103766558,
-          -37.96714184892074
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250916368",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250916368",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Oakleigh South",
-        "id": "ESTA:250916368",
-        "eventId": "250916368",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-17T12:06:18.000Z",
-        "updated": "2025-09-17T12:06:18.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Oakleigh South, Oakleigh South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.10069567474716,
-          -37.92629831623619
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 580303,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580303,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250916333,
-        "id": "ESTA:250916333",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-17T10:12:01.000Z",
-        "updated": "2025-09-17T10:34:09.000Z",
+        "created": "2025-09-17T13:24:46.000Z",
+        "updated": "2025-09-17T13:24:46.000Z",
         "resources": 2,
-        "location": "Flynn"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Fairfield, Fairfield"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.64953178611307,
-          -38.222541672899744
+          145.02418726218232,
+          -37.76689858709787
         ]
       }
     }
@@ -1021,7 +943,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-17T12:53:40.522Z",
-    "featureCount": 21
+    "lastUpdated": "2025-09-17T13:32:05.731Z",
+    "featureCount": 18
   }
 }
