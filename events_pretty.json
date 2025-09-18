@@ -262,67 +262,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121129960,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237244,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mitchell Port Rd",
-        "eventId": 250917407,
-        "id": "ESTA:250917407",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-18T21:45:00.000Z",
-        "updated": "2025-09-18T22:15:00.000Z",
-        "resources": 3,
-        "location": "Mitchell Port Rd, Wy Yung",
-        "cfaId": 237244,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.63293662611696,
-          -37.82263518641405
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121130197,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121130197,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "South Yarra",
-        "eventId": "F250917436",
-        "id": "ESTA:250917436",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-18T22:16:51.000Z",
-        "updated": "2025-09-18T22:17:19.676Z",
-        "resources": 0,
-        "location": "South Yarra"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98784519462785,
-          -37.83063299060268
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 121130036,
         "feedType": "incident",
         "source": "RADIO",
@@ -337,7 +276,7 @@
         "category2": "Building Fire",
         "created": "2025-09-18T21:54:00.000Z",
         "updated": "2025-09-18T22:20:00.000Z",
-        "resources": 1,
+        "resources": 2,
         "location": "Vite Vite",
         "cfaId": 237246,
         "size": "Small",
@@ -354,30 +293,93 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
         "estaId": 121130231,
         "feedType": "incident",
         "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121130231,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Narre Warren",
-        "eventId": "S250952659",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580376,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250952659,
         "id": "ESTA:250952659",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-09-18T22:18:10.000Z",
-        "updated": "2025-09-18T22:21:50.926Z",
+        "created": "2025-09-18T22:21:06.000Z",
+        "updated": "2025-09-18T22:27:47.000Z",
         "resources": 0,
-        "location": "Kendall Dr, Narre Warren"
+        "location": "Narre Warren",
+        "sesId": 580376
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.30266295534184,
-          -38.0008692598284
+          145.30265386619638,
+          -38.00088075200433
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121130288,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580378,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250952661,
+        "id": "ESTA:250952661",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-09-18T22:27:51.000Z",
+        "updated": "2025-09-18T22:30:32.000Z",
+        "resources": 0,
+        "location": "Moonee Ponds",
+        "sesId": 580378
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90418300980795,
+          -37.76908187504315
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121130338,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250917446",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Warrnambool",
+        "eventId": "250917446",
+        "id": "ESTA:250917446",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-18T22:33:13.000Z",
+        "updated": "2025-09-18T22:33:13.000Z",
+        "resources": 1,
+        "location": "Warrnambool, Warrnambool",
+        "mfbId": "250917446",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.48751276850805,
+          -38.378353242527986
         ]
       }
     },
@@ -8218,21 +8220,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 237248,
+        "status": "Safe",
+        "cfaId": 237244,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 237248,
+        "sourceId": 237244,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Diamond Creek Rd",
-        "eventId": 250917437,
-        "id": "ESTA:250917437",
+        "sourceTitle": "Mitchell Port Rd",
+        "eventId": 250917407,
+        "id": "ESTA:250917407",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-18T22:18:00.000Z",
-        "updated": "2025-09-18T22:18:00.000Z",
-        "resources": 2,
-        "location": "Diamond Creek Rd, Greensborough",
+        "category2": "Bushfire",
+        "created": "2025-09-18T21:45:00.000Z",
+        "updated": "2025-09-18T22:15:00.000Z",
+        "resources": 0,
+        "location": "Mitchell Port Rd, Wy Yung",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -8240,37 +8242,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12210641518757,
-          -37.68110461956076
+          147.63293662611696,
+          -37.82263518641405
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "mfbId": "250917425",
+        "cfaId": 237248,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250917425",
+        "sourceId": "250917437",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Riddell Rd",
-        "id": "ESTA:250917425",
-        "eventId": "250917425",
+        "sourceTitle": "Diamond Creek Rd",
+        "eventId": "250917437",
+        "id": "ESTA:250917437",
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-09-18T22:03:11.000Z",
-        "updated": "2025-09-18T22:03:11.000Z",
-        "resources": 2,
+        "category2": "Structure Fire",
+        "created": "2025-09-18T22:28:01.000Z",
+        "updated": "2025-09-18T22:28:01.000Z",
+        "resources": 4,
+        "location": "Diamond Creek Rd, Greensborough",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Riddell Rd, Sunbury"
+        "mfbId": "250917437"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71251040657043,
-          -37.5520944721
+          145.12211432511472,
+          -37.68109610216123
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250917436",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250917436",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "South Yarra",
+        "id": "ESTA:250917436",
+        "eventId": "250917436",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-18T22:17:23.000Z",
+        "updated": "2025-09-18T22:17:23.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "South Yarra, South Yarra"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98784504140886,
+          -37.830637856341866
         ]
       }
     },
@@ -8558,7 +8590,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-18T22:22:00.664Z",
-    "featureCount": 25
+    "lastUpdated": "2025-09-18T22:34:45.876Z",
+    "featureCount": 26
   }
 }
