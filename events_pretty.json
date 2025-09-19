@@ -234,24 +234,54 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 121142547,
+        "status": "Complete",
+        "estaId": 121142463,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250918113",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Burnley St",
-        "eventId": "250918113",
-        "id": "ESTA:250918113",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580540,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250952834,
+        "id": "ESTA:250952834",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-09-19T18:39:43.000Z",
+        "updated": "2025-09-19T19:35:51.000Z",
+        "resources": 0,
+        "location": "Ringwood",
+        "sesId": 580540
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22067205790128,
+          -37.81603177850956
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121142717,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237376,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Great Ocean Rd",
+        "eventId": 250918122,
+        "id": "ESTA:250918122",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-19T19:12:57.000Z",
-        "updated": "2025-09-19T19:12:57.000Z",
-        "resources": 6,
-        "location": "Burnley St, Richmond",
-        "mfbId": "250918113",
+        "category2": "Building Fire",
+        "created": "2025-09-19T19:46:00.000Z",
+        "updated": "2025-09-19T19:46:00.000Z",
+        "resources": 1,
+        "location": "Great Ocean Rd, Allansford",
+        "cfaId": 237376,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -259,8 +289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0075196089706,
-          -37.824997981916546
+          142.627706448638,
+          -38.39538973395991
         ]
       }
     },
@@ -2623,35 +2653,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 237372,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237372,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250918104,
-        "id": "ESTA:250918104",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-19T18:20:00.000Z",
-        "updated": "2025-09-19T18:41:00.000Z",
-        "resources": 0,
-        "location": "Mickleham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.87862476633953,
-          -37.547816155357054
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 237375,
         "feedType": "incident",
@@ -2665,7 +2666,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-19T19:09:02.000Z",
         "updated": "2025-09-19T19:09:02.000Z",
-        "resources": 5,
+        "resources": 4,
         "location": "Manatunga Cct, Greensborough",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2741,28 +2742,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 580540,
+        "status": "Not Yet Under Control",
+        "mfbId": "250918113",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580540,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250952834,
-        "id": "ESTA:250952834",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-09-19T18:39:43.000Z",
-        "updated": "2025-09-19T19:20:00.000Z",
-        "resources": 1,
-        "location": "Ringwood"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250918113",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Burnley St",
+        "id": "ESTA:250918113",
+        "eventId": "250918113",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-19T19:29:27.000Z",
+        "updated": "2025-09-19T19:29:27.000Z",
+        "resources": 6,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Burnley St, Richmond"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22067205790128,
-          -37.81603177850956
+          145.0073264984887,
+          -37.824907893841946
         ]
       }
     }
@@ -2994,7 +2997,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-19T19:30:20.324Z",
+    "lastUpdated": "2025-09-19T19:50:20.295Z",
     "featureCount": 20
   }
 }
