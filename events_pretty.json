@@ -208,38 +208,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121176765,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237718,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250920811,
-        "id": "ESTA:250920811",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-22T17:01:00.000Z",
-        "updated": "2025-09-22T17:13:00.000Z",
-        "resources": 0,
-        "location": "Wantirna",
-        "cfaId": 237718,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23142962109756,
-          -37.84175211794981
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 121176780,
         "feedType": "incident",
         "source": "000",
@@ -251,10 +219,10 @@
         "id": "ESTA:250920813",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
+        "category2": "Other",
         "created": "2025-09-22T17:04:00.000Z",
-        "updated": "2025-09-22T17:04:00.000Z",
-        "resources": 3,
+        "updated": "2025-09-22T17:33:00.000Z",
+        "resources": 2,
         "location": "Bridgewater-Maldon Rd, Neereman",
         "cfaId": 237720,
         "size": "Small",
@@ -264,8 +232,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.96854281491636,
-          -36.91998270943056
+          143.95543382805195,
+          -36.90572974777222
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121176975,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580744,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250953048,
+        "id": "ESTA:250953048",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-22T17:48:27.000Z",
+        "updated": "2025-09-22T17:48:27.000Z",
+        "resources": 0,
+        "location": "Cockatoo",
+        "sesId": 580744
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5162564331148,
+          -37.94474046169535
         ]
       }
     },
@@ -1596,7 +1594,36 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Safe",
+        "cfaId": 237718,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237718,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250920811,
+        "id": "ESTA:250920811",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-09-22T17:01:00.000Z",
+        "updated": "2025-09-22T17:13:00.000Z",
+        "resources": 0,
+        "location": "Wantirna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23142962109756,
+          -37.84175211794981
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "cfaId": 237716,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1608,12 +1635,11 @@
         "category1": "Rescue",
         "category2": "Rescue High Angle",
         "created": "2025-09-22T16:49:51.000Z",
-        "updated": "2025-09-22T17:22:35.000Z",
-        "resources": 1,
+        "updated": "2025-09-22T17:43:15.000Z",
+        "resources": 0,
         "location": "Clonbinane",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250920808",
         "sesId": 580742
       },
       "type": "Feature",
@@ -1909,7 +1935,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-22T17:32:45.983Z",
-    "featureCount": 20
+    "lastUpdated": "2025-09-22T17:50:00.365Z",
+    "featureCount": 21
   }
 }
