@@ -207,30 +207,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121176780,
+        "status": "Complete",
+        "estaId": 121176975,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121176780,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Neereman",
-        "eventId": "F250920813",
-        "id": "ESTA:250920813",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580744,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250953048,
+        "id": "ESTA:250953048",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-22T16:58:06.000Z",
-        "updated": "2025-09-22T18:22:03.992Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-22T17:48:27.000Z",
+        "updated": "2025-09-22T18:39:31.000Z",
         "resources": 0,
-        "location": "Bridgewater-Maldon Rd, Neereman"
+        "location": "Cockatoo",
+        "sesId": 580744
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.95544154439816,
-          -36.905725613666945
+          145.5162564331148,
+          -37.94474046169535
         ]
       }
     },
@@ -1531,6 +1532,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "621174",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Sturt Hwy, Balranald",
+        "id": "2025-09-23T04:30:00.0000000:621174",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Sturt Hwy, Balranald",
+        "location": "Sturt Hwy, Balranald 2715",
+        "created": "2025-09-23T04:30:00+10:00",
+        "updated": "2025-09-23T04:30:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.226165772,
+          -34.5930671689999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -1556,36 +1587,6 @@
         "coordinates": [
           145.248550415,
           -35.5875816349999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "621173",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Murray St",
-        "id": "2025-09-23T04:16:00.0000000:621173",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Murray St",
-        "location": "Murray House Hostel 31-37 Murray St, Wentworth 2648",
-        "created": "2025-09-23T04:16:00+10:00",
-        "updated": "2025-09-23T04:16:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.916229248,
-          -34.109340668
         ]
       }
     },
@@ -1642,33 +1643,6 @@
         "coordinates": [
           144.4799338568997,
           -38.18136635904102
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 580744,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580744,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250953048,
-        "id": "ESTA:250953048",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-22T17:48:27.000Z",
-        "updated": "2025-09-22T18:19:28.000Z",
-        "resources": 1,
-        "location": "Cockatoo"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5162564331148,
-          -37.94474046169535
         ]
       }
     }
@@ -1900,7 +1874,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-22T18:35:00.369Z",
-    "featureCount": 20
+    "lastUpdated": "2025-09-22T18:52:00.365Z",
+    "featureCount": 19
   }
 }
