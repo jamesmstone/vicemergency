@@ -262,68 +262,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121189162,
+        "status": "Responding",
+        "estaId": 121189347,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580816,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250921891,
-        "id": "ESTA:250921891",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250921896",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Coburg",
+        "eventId": "250921896",
+        "id": "ESTA:250921896",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-23T17:39:24.000Z",
-        "updated": "2025-09-23T17:41:56.000Z",
-        "resources": 1,
-        "location": "Berriwillock",
-        "cfaId": 237841,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-23T18:33:01.000Z",
+        "updated": "2025-09-23T18:33:01.000Z",
+        "resources": 2,
+        "location": "Coburg, Coburg",
+        "mfbId": "250921896",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 580816
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.03939686989972,
-          -35.669254917474085
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121189130,
-        "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580815,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250921890,
-        "id": "ESTA:250921890",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-23T17:27:28.000Z",
-        "updated": "2025-09-23T17:40:15.000Z",
-        "resources": 4,
-        "location": "Red Cliffs",
-        "cfaId": 237840,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250921890",
-        "sesId": 580815
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.20148573235284,
-          -34.2946656664399
+          144.96918457663665,
+          -37.738199358238795
         ]
       }
     },
@@ -1739,31 +1704,120 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 237839,
+        "status": "Request For Assistance",
+        "cfaId": 237841,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250921883",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wenlyan Dr",
-        "eventId": "250921883",
-        "id": "ESTA:250921883",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-23T17:20:32.000Z",
-        "updated": "2025-09-23T17:20:32.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580816,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250921891,
+        "id": "ESTA:250921891",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-23T17:39:24.000Z",
+        "updated": "2025-09-23T18:07:16.000Z",
         "resources": 1,
-        "location": "Wenlyan Dr, Greenvale",
+        "location": "Berriwillock",
         "size": "Small",
         "sizeFmt": "Small",
-        "mfbId": "250921883"
+        "sesId": 580816
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.87562019751982,
-          -37.645402837279455
+          143.03939686989972,
+          -35.669254917474085
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 237840,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580815,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250921890,
+        "id": "ESTA:250921890",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-23T17:27:28.000Z",
+        "updated": "2025-09-23T18:10:20.000Z",
+        "resources": 3,
+        "location": "Red Cliffs",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250921890",
+        "sesId": 580815
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20148573235284,
+          -34.2946656664399
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 237839,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237839,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wenlyan Dr",
+        "eventId": 250921883,
+        "id": "ESTA:250921883",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-23T17:11:00.000Z",
+        "updated": "2025-09-23T18:08:00.000Z",
+        "resources": 0,
+        "location": "Wenlyan Dr, Greenvale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87561314298637,
+          -37.645406149604305
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 237842,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237842,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Boobyalla St",
+        "eventId": 250921894,
+        "id": "ESTA:250921894",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-09-23T18:12:00.000Z",
+        "updated": "2025-09-23T18:25:00.000Z",
+        "resources": 0,
+        "location": "Boobyalla St, Doveton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23619902854907,
+          -37.98906130420769
         ]
       }
     },
@@ -1798,30 +1852,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "250921885",
+        "status": "Safe",
+        "mfbId": "250921893",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250921885",
+        "sourceId": "250921893",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Broadway -",
-        "id": "ESTA:250921885",
-        "eventId": "250921885",
+        "sourceTitle": "Ascot Vale Rd",
+        "id": "ESTA:250921893",
+        "eventId": "250921893",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-23T17:32:06.000Z",
-        "updated": "2025-09-23T17:32:06.000Z",
+        "created": "2025-09-23T18:33:49.000Z",
+        "updated": "2025-09-23T18:33:49.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Broadway -, Elwood"
+        "location": "Ascot Vale Rd, Flemington"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98297217140512,
-          -37.87891223998894
+          144.92305081706584,
+          -37.784148871162074
         ]
       }
     }
@@ -1840,7 +1894,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1848,7 +1901,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1864,7 +1918,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1872,7 +1925,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-23T14:00:00.000Z",
           "heat": {
@@ -2053,7 +2107,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-23T17:50:05.828Z",
-    "featureCount": 26
+    "lastUpdated": "2025-09-23T18:36:45.564Z",
+    "featureCount": 28
   }
 }
