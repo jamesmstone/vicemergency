@@ -125,6 +125,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1663099",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Cameron Road, Wye",
+        "id": "1663099",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "name": "Cameron Road, Wye",
+        "created": "2025-09-24T23:23:00.000Z",
+        "updated": "2025-09-24T23:23:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Cameron Road, Wye"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.86519005792,
+          -37.9766055301686
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -235,7 +261,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 121202704,
         "feedType": "incident",
         "source": "000",
@@ -249,8 +275,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-09-24T23:11:00.000Z",
-        "updated": "2025-09-24T23:11:00.000Z",
-        "resources": 1,
+        "updated": "2025-09-24T23:27:00.000Z",
+        "resources": 2,
         "location": "Phillip Hyland Dr, Yarrawonga",
         "cfaId": 237976,
         "size": "Small",
@@ -267,33 +293,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121201860,
+        "status": "Request For Assistance",
+        "estaId": 121202917,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 237970,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ferntree Gully Rd",
-        "eventId": 250922841,
-        "id": "ESTA:250922841",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580892,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250953152,
+        "id": "ESTA:250953152",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-24T21:26:00.000Z",
-        "updated": "2025-09-24T23:01:00.000Z",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-09-24T23:29:26.000Z",
+        "updated": "2025-09-24T23:31:24.000Z",
         "resources": 0,
-        "location": "Ferntree Gully Rd, Scoresby",
-        "cfaId": 237970,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Kilmore",
+        "sesId": 580892
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22078837126608,
-          -37.899593131599836
+          144.95486432643307,
+          -37.29169020264176
         ]
       }
     },
@@ -2064,6 +2088,35 @@
           -38.235683976408524
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 237970,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 237970,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ferntree Gully Rd",
+        "eventId": 250922841,
+        "id": "ESTA:250922841",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-24T21:26:00.000Z",
+        "updated": "2025-09-24T23:01:00.000Z",
+        "resources": 0,
+        "location": "Ferntree Gully Rd, Scoresby",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22078837126608,
+          -37.899593131599836
+        ]
+      }
     }
   ],
   "properties": {
@@ -2293,7 +2346,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-24T23:22:20.565Z",
-    "featureCount": 22
+    "lastUpdated": "2025-09-24T23:32:20.713Z",
+    "featureCount": 24
   }
 }
