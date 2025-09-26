@@ -302,33 +302,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121228718,
+        "status": "Responding",
+        "estaId": 121229202,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238201,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Henderson Rd",
-        "eventId": 250925270,
-        "id": "ESTA:250925270",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121229202,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F250925284",
+        "id": "ESTA:250925284",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-26T17:12:00.000Z",
-        "updated": "2025-09-26T17:53:00.000Z",
-        "resources": 2,
-        "location": "Henderson Rd, Knoxfield",
-        "cfaId": 238201,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-09-26T18:38:29.000Z",
+        "updated": "2025-09-26T18:45:03.603Z",
+        "resources": 0,
+        "location": "Flinders St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2483194600806,
-          -37.90307927863585
+          144.95829256550618,
+          -37.819886563781864
         ]
       }
     },
@@ -349,7 +346,7 @@
         "category2": "Other",
         "created": "2025-09-26T18:31:00.000Z",
         "updated": "2025-09-26T18:31:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Great Alpine Rd, Ovens",
         "cfaId": 238203,
         "size": "Small",
@@ -1816,20 +1813,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 238200,
+        "cfaId": 238201,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 238200,
+        "sourceId": 238201,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250925269,
-        "id": "ESTA:250925269",
+        "sourceTitle": "Henderson Rd",
+        "eventId": 250925270,
+        "id": "ESTA:250925270",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-09-26T17:07:00.000Z",
-        "updated": "2025-09-26T17:44:00.000Z",
-        "resources": 0,
-        "location": "Castlemaine",
+        "created": "2025-09-26T17:12:00.000Z",
+        "updated": "2025-09-26T17:53:00.000Z",
+        "resources": 2,
+        "location": "Henderson Rd, Knoxfield",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1837,8 +1834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.21913832032084,
-          -37.067198191037335
+          145.2483194600806,
+          -37.90307927863585
         ]
       }
     },
@@ -1873,6 +1870,37 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 238204,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 580978,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250925283,
+        "id": "ESTA:250925283",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-26T18:39:53.000Z",
+        "updated": "2025-09-26T18:46:38.000Z",
+        "resources": 3,
+        "location": "Allansford",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250925283",
+        "sesId": 580978
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.62099083837265,
+          -38.38437168037448
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "250925272",
         "feedType": "incident",
@@ -1886,7 +1914,7 @@
         "category2": "Structure Fire",
         "created": "2025-09-26T18:06:00.000Z",
         "updated": "2025-09-26T18:06:00.000Z",
-        "resources": 5,
+        "resources": 3,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Flinders St, Melbourne"
@@ -2128,7 +2156,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-26T18:33:40.395Z",
-    "featureCount": 25
+    "lastUpdated": "2025-09-26T18:51:25.577Z",
+    "featureCount": 26
   }
 }
