@@ -301,38 +301,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121228417,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250925267",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Valley St",
-        "eventId": "250925267",
-        "id": "ESTA:250925267",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-09-26T16:22:59.000Z",
-        "updated": "2025-09-26T16:22:59.000Z",
-        "resources": 1,
-        "location": "Valley St, Oakleigh South",
-        "mfbId": "250925267",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.10648458434315,
-          -37.91785130729579
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1658,6 +1626,100 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "621730",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Eden Fireshed",
+        "id": "2025-09-05T10:00:00.0000000:621730",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Eden Fireshed",
+        "location": "Storey Av, Eden 2551",
+        "created": "2025-09-05T10:00:00+10:00",
+        "updated": "2025-09-05T10:00:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "27 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.8952,
+                  -37.0641
+                ],
+                [
+                  149.8937,
+                  -37.0637
+                ],
+                [
+                  149.8921,
+                  -37.0635
+                ],
+                [
+                  149.8913,
+                  -37.0635
+                ],
+                [
+                  149.8899,
+                  -37.0639
+                ],
+                [
+                  149.891,
+                  -37.0621
+                ],
+                [
+                  149.8924,
+                  -37.0552
+                ],
+                [
+                  149.8933,
+                  -37.057
+                ],
+                [
+                  149.8944,
+                  -37.0585
+                ],
+                [
+                  149.8965,
+                  -37.0622
+                ],
+                [
+                  149.8954,
+                  -37.0626
+                ],
+                [
+                  149.8954,
+                  -37.0638
+                ],
+                [
+                  149.8952,
+                  -37.0641
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.896545411,
+              -37.043163299
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 237988,
@@ -1684,64 +1746,6 @@
         "coordinates": [
           142.03617339568737,
           -34.348464334903895
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 238192,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238192,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Clarke Rd",
-        "eventId": 250925250,
-        "id": "ESTA:250925250",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-26T14:35:00.000Z",
-        "updated": "2025-09-26T15:41:00.000Z",
-        "resources": 1,
-        "location": "Clarke Rd, Springvale South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14130109511902,
-          -37.96922445298276
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 238198,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238198,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cornish St",
-        "eventId": 250925260,
-        "id": "ESTA:250925260",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-26T15:30:00.000Z",
-        "updated": "2025-09-26T15:50:00.000Z",
-        "resources": 0,
-        "location": "Cornish St, Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7221678528878,
-          -37.57571137689153
         ]
       }
     },
@@ -1776,28 +1780,30 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 580975,
+        "status": "Under Control",
+        "mfbId": "250925267",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 580975,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250925259,
-        "id": "ESTA:250925259",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-26T15:18:34.000Z",
-        "updated": "2025-09-26T16:30:39.000Z",
-        "resources": 2,
-        "location": "Roxburgh Park"
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250925267",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Valley St",
+        "id": "ESTA:250925267",
+        "eventId": "250925267",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-26T16:38:23.000Z",
+        "updated": "2025-09-26T16:38:23.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Valley St, Oakleigh South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92396816154945,
-          -37.63989592430684
+          145.10648458434315,
+          -37.91785130729579
         ]
       }
     }
@@ -2029,7 +2035,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-26T16:32:40.403Z",
-    "featureCount": 24
+    "lastUpdated": "2025-09-26T16:52:05.656Z",
+    "featureCount": 22
   }
 }
