@@ -462,53 +462,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121255680,
+        "status": "Complete",
+        "estaId": 121255538,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121255680,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Devon Meadows",
-        "eventId": "F250928993",
-        "id": "ESTA:250928993",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581076,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250928987,
+        "id": "ESTA:250928987",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-28T17:07:42.000Z",
-        "updated": "2025-09-28T19:07:43.621Z",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-28T16:34:39.000Z",
+        "updated": "2025-09-28T19:18:28.000Z",
         "resources": 0,
-        "location": "Browns Rd, Devon Meadows"
+        "location": "Longwood",
+        "sesId": 581076
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.31403051616024,
-          -38.15645146564448
+          145.37958135946363,
+          -36.83493873746556
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121256161,
+        "estaId": 121256188,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250929014",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Skitch St",
-        "eventId": "250929014",
-        "id": "ESTA:250929014",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238536,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Edgecombe St",
+        "eventId": 250929016,
+        "id": "ESTA:250929016",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-28T19:15:56.000Z",
-        "updated": "2025-09-28T19:15:56.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-28T19:23:00.000Z",
+        "updated": "2025-09-28T19:23:00.000Z",
         "resources": 0,
-        "location": "Skitch St, West Wodonga",
-        "mfbId": "250929014",
+        "location": "Edgecombe St, Kyneton",
+        "cfaId": 238536,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -516,8 +517,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.8631703682109,
-          -36.1255333228227
+          144.46152705059387,
+          -37.25624281075091
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121256202,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250929017",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Bay St",
+        "eventId": "250929017",
+        "id": "ESTA:250929017",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-28T19:29:01.000Z",
+        "updated": "2025-09-28T19:29:01.000Z",
+        "resources": 2,
+        "location": "Bay St, Port Melbourne",
+        "mfbId": "250929017",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94621966332014,
+          -37.83507735001316
         ]
       }
     },
@@ -706,31 +739,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 238527,
+        "status": "Under Control",
+        "mfbId": "250929015",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581076,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250928987,
-        "id": "ESTA:250928987",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-28T16:34:39.000Z",
-        "updated": "2025-09-28T18:38:00.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250929015",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Laverton",
+        "id": "ESTA:250929015",
+        "eventId": "250929015",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-28T19:29:12.000Z",
+        "updated": "2025-09-28T19:29:12.000Z",
         "resources": 1,
-        "location": "Longwood",
         "size": "Small",
         "sizeFmt": "Small",
-        "sesId": 581076
+        "location": "Laverton, Laverton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.37958135946363,
-          -36.83493873746556
+          144.76010047771302,
+          -37.867510664411775
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "250929014",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250929014",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Skitch St",
+        "id": "ESTA:250929014",
+        "eventId": "250929014",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-28T19:17:30.000Z",
+        "updated": "2025-09-28T19:17:30.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Skitch St, West Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8631703682109,
+          -36.1255333228227
         ]
       }
     }
@@ -962,7 +1023,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-28T19:17:40.761Z",
-    "featureCount": 28
+    "lastUpdated": "2025-09-28T19:30:20.886Z",
+    "featureCount": 30
   }
 }
