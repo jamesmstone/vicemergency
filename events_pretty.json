@@ -489,72 +489,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121249224,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238439,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Common Trk",
-        "eventId": 250928398,
-        "id": "ESTA:250928398",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-28T05:01:00.000Z",
-        "updated": "2025-09-28T05:16:00.000Z",
-        "resources": 2,
-        "location": "Common Trk, Mooroopna",
-        "cfaId": 238439,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35573220766761,
-          -36.40793707748345
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121249331,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250928410",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Wilkinson St",
-        "eventId": "250928410",
-        "id": "ESTA:250928410",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-09-28T05:18:42.000Z",
-        "updated": "2025-09-28T05:18:42.000Z",
-        "resources": 2,
-        "location": "Wilkinson St, Hoppers Crossing",
-        "cfaId": 238440,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250928410"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68477512554236,
-          -37.87191358191402
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121249486,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -567,8 +502,8 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-09-28T05:23:09.000Z",
-        "updated": "2025-09-28T05:23:09.000Z",
+        "created": "2025-09-28T05:26:04.000Z",
+        "updated": "2025-09-28T05:26:04.000Z",
         "resources": 6,
         "location": "Nepean Hwy, Moorabbin",
         "mfbId": "250928432",
@@ -590,26 +525,29 @@
         "estaId": 121249526,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121249526,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Camberwell",
-        "eventId": "F250928439",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250928439",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brynmawr Rd",
+        "eventId": "250928439",
         "id": "ESTA:250928439",
         "suppress": false,
         "category1": "Fire",
         "category2": "Fire",
-        "created": "2025-09-28T05:22:46.000Z",
-        "updated": "2025-09-28T05:24:01.452Z",
-        "resources": 0,
-        "location": "Brynmawr Rd, Camberwell"
+        "created": "2025-09-28T05:26:10.000Z",
+        "updated": "2025-09-28T05:26:10.000Z",
+        "resources": 2,
+        "location": "Brynmawr Rd, Camberwell",
+        "mfbId": "250928439",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05866063451225,
-          -37.845016035568904
+          145.05865033182388,
+          -37.845022049556604
         ]
       }
     },
@@ -840,7 +778,7 @@
         "category2": "Hazardous Material",
         "created": "2025-09-28T05:00:59.000Z",
         "updated": "2025-09-28T05:00:59.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Discovery Dr, Diamond Creek",
         "size": "Small",
         "sizeFmt": "Small",
@@ -852,6 +790,94 @@
         "coordinates": [
           145.17024192707044,
           -37.66121412200123
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 238439,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238439,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Common Trk",
+        "eventId": 250928398,
+        "id": "ESTA:250928398",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-28T05:01:00.000Z",
+        "updated": "2025-09-28T05:16:00.000Z",
+        "resources": 1,
+        "location": "Common Trk, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35573220766761,
+          -36.40793707748345
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 238440,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250928410",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wilkinson St",
+        "eventId": "250928410",
+        "id": "ESTA:250928410",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-28T05:18:42.000Z",
+        "updated": "2025-09-28T05:18:42.000Z",
+        "resources": 1,
+        "location": "Wilkinson St, Hoppers Crossing",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250928410"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68477512554236,
+          -37.87191358191402
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 238441,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238441,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Legg Rd",
+        "eventId": 250928449,
+        "id": "ESTA:250928449",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-28T05:28:00.000Z",
+        "updated": "2025-09-28T05:28:00.000Z",
+        "resources": 1,
+        "location": "Legg Rd, Macclesfield",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46684501306623,
+          -37.890393971443316
         ]
       }
     },
@@ -1112,7 +1138,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-28T05:24:26.765Z",
-    "featureCount": 33
+    "lastUpdated": "2025-09-28T05:37:02.740Z",
+    "featureCount": 34
   }
 }
