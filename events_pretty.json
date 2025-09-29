@@ -517,67 +517,30 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "estaId": 121267044,
+        "status": "Responding",
+        "estaId": 121267406,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581122,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250930391,
-        "id": "ESTA:250930391",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-09-29T13:55:12.000Z",
-        "updated": "2025-09-29T14:21:00.000Z",
-        "resources": 7,
-        "location": "Wantirna",
-        "cfaId": 238689,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250930391",
-        "sesId": 581122
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23306841162767,
-          -37.84260583519017
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121267131,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250930393",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mcleans Rd",
-        "eventId": "250930393",
-        "id": "ESTA:250930393",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121267406,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Rushworth",
+        "eventId": "F250930399",
+        "id": "ESTA:250930399",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-29T14:19:30.000Z",
-        "updated": "2025-09-29T14:19:30.000Z",
-        "resources": 2,
-        "location": "Mcleans Rd, Bundoora",
-        "mfbId": "250930393",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Other",
+        "created": "2025-09-29T14:49:11.000Z",
+        "updated": "2025-09-29T14:50:12.152Z",
+        "resources": 0,
+        "location": "Rushworth-Tatura Rd, Rushworth"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0463894533173,
-          -37.694908392557814
+          145.02994117955444,
+          -36.54204976581101
         ]
       }
     },
@@ -5948,30 +5911,61 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 238688,
+        "status": "On Scene",
+        "cfaId": 238689,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238688,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Brandy Creek Rd",
-        "eventId": 250930383,
-        "id": "ESTA:250930383",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-29T13:20:00.000Z",
-        "updated": "2025-09-29T13:37:00.000Z",
-        "resources": 0,
-        "location": "Brandy Creek Rd, Warragul",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581122,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250930391,
+        "id": "ESTA:250930391",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-09-29T13:55:12.000Z",
+        "updated": "2025-09-29T14:21:00.000Z",
+        "resources": 4,
+        "location": "Wantirna",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "250930391",
+        "sesId": 581122
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.93726206834083,
-          -38.146426365289216
+          145.23306841162767,
+          -37.84260583519017
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "250930393",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930393",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mcleans Rd",
+        "id": "ESTA:250930393",
+        "eventId": "250930393",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-29T14:29:31.000Z",
+        "updated": "2025-09-29T14:29:31.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mcleans Rd, Bundoora"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0463894533173,
+          -37.694908392557814
         ]
       }
     },
@@ -6232,7 +6226,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-29T14:27:46.062Z",
+    "lastUpdated": "2025-09-29T14:50:20.798Z",
     "featureCount": 34
   }
 }
