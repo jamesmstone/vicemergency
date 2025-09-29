@@ -517,24 +517,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121268306,
+        "status": "Complete",
+        "estaId": 121268389,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581124,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250953387,
+        "id": "ESTA:250953387",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-29T18:22:30.000Z",
+        "updated": "2025-09-29T19:05:57.000Z",
+        "resources": 0,
+        "location": "Ecklin South",
+        "sesId": 581124
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.91001047388175,
+          -38.39347136168785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121268514,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238699,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Toolamba Rd",
-        "eventId": 250930420,
-        "id": "ESTA:250930420",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930426",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ringwood",
+        "eventId": "250930426",
+        "id": "ESTA:250930426",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-09-29T18:01:00.000Z",
-        "updated": "2025-09-29T18:50:00.000Z",
-        "resources": 0,
-        "location": "Toolamba Rd, Mooroopna",
-        "cfaId": 238699,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-29T19:09:32.000Z",
+        "updated": "2025-09-29T19:09:32.000Z",
+        "resources": 2,
+        "location": "Ringwood, Ringwood",
+        "mfbId": "250930426",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -542,8 +572,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34628331779635,
-          -36.41230466153506
+          145.21855600003278,
+          -37.812779815141674
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121268573,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238701,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Woori Yallock Rd",
+        "eventId": 250930428,
+        "id": "ESTA:250930428",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-29T19:19:00.000Z",
+        "updated": "2025-09-29T19:19:00.000Z",
+        "resources": 0,
+        "location": "Woori Yallock Rd, Cockatoo",
+        "cfaId": 238701,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.53187055004312,
+          -37.884644081706796
         ]
       }
     },
@@ -553,14 +615,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/69a7c5b8b6afada5d8b79039fabe02c6",
+        "sourceId": "IDV20600/14e5854b9a06655040994123728730cb",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/69a7c5b8b6afada5d8b79039fabe02c6",
+        "id": "IDV20600/14e5854b9a06655040994123728730cb",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-09-29T14:00:00.000Z",
+        "created": "2025-09-29T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -5914,7 +5976,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "cfaId": 238699,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238699,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Toolamba Rd",
+        "eventId": 250930420,
+        "id": "ESTA:250930420",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-09-29T18:01:00.000Z",
+        "updated": "2025-09-29T18:50:00.000Z",
+        "resources": 0,
+        "location": "Toolamba Rd, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34628331779635,
+          -36.41230466153506
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 238700,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5925,9 +6016,9 @@
         "id": "ESTA:250930421",
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-09-29T18:24:50.000Z",
-        "updated": "2025-09-29T18:24:50.000Z",
-        "resources": 3,
+        "created": "2025-09-29T18:59:50.000Z",
+        "updated": "2025-09-29T18:59:50.000Z",
+        "resources": 1,
         "location": "Cheltenham Rd, Keysborough",
         "size": "Small",
         "sizeFmt": "Small",
@@ -5939,33 +6030,6 @@
         "coordinates": [
           145.17325930876788,
           -37.993975898042024
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 581124,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581124,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250953387,
-        "id": "ESTA:250953387",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-29T18:22:30.000Z",
-        "updated": "2025-09-29T18:42:26.000Z",
-        "resources": 1,
-        "location": "Ecklin South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.91001047388175,
-          -38.39347136168785
         ]
       }
     }
@@ -6197,7 +6261,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-29T18:53:06.887Z",
-    "featureCount": 33
+    "lastUpdated": "2025-09-29T19:20:21.105Z",
+    "featureCount": 35
   }
 }
