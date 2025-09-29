@@ -518,29 +518,65 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121267406,
+        "estaId": 121267562,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121267406,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Rushworth",
-        "eventId": "F250930399",
-        "id": "ESTA:250930399",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930405",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Toyon Rd",
+        "eventId": "250930405",
+        "id": "ESTA:250930405",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-29T14:49:11.000Z",
-        "updated": "2025-09-29T14:50:12.152Z",
-        "resources": 0,
-        "location": "Rushworth-Tatura Rd, Rushworth"
+        "category2": "Structure Fire",
+        "created": "2025-09-29T15:14:18.000Z",
+        "updated": "2025-09-29T15:14:18.000Z",
+        "resources": 3,
+        "location": "Toyon Rd, Kalkallo",
+        "cfaId": 238691,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250930405"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02994117955444,
-          -36.54204976581101
+          144.95865378771265,
+          -37.534032541909646
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121267546,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930404",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Glenvale Rd",
+        "eventId": "250930404",
+        "id": "ESTA:250930404",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-09-29T15:21:41.000Z",
+        "updated": "2025-09-29T15:21:41.000Z",
+        "resources": 2,
+        "location": "Glenvale Rd, Donvale",
+        "mfbId": "250930404",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21524058313813,
+          -37.8011267478787
         ]
       }
     },
@@ -5911,90 +5947,59 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 238689,
+        "status": "Safe",
+        "cfaId": 238690,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581122,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250930391,
-        "id": "ESTA:250930391",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-09-29T13:55:12.000Z",
-        "updated": "2025-09-29T14:21:00.000Z",
-        "resources": 4,
-        "location": "Wantirna",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238690,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rushworth-Tatura Rd",
+        "eventId": 250930399,
+        "id": "ESTA:250930399",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-29T14:50:00.000Z",
+        "updated": "2025-09-29T15:11:00.000Z",
+        "resources": 1,
+        "location": "Rushworth-Tatura Rd, Rushworth",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250930391",
-        "sesId": 581122
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23306841162767,
-          -37.84260583519017
+          145.02992862429204,
+          -36.54205902235841
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "250930393",
+        "mfbId": "250930401",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250930393",
+        "sourceId": "250930401",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Mcleans Rd",
-        "id": "ESTA:250930393",
-        "eventId": "250930393",
+        "sourceTitle": "Bolwarra St",
+        "id": "ESTA:250930401",
+        "eventId": "250930401",
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-09-29T14:29:31.000Z",
-        "updated": "2025-09-29T14:29:31.000Z",
-        "resources": 1,
+        "created": "2025-09-29T15:04:26.000Z",
+        "updated": "2025-09-29T15:04:26.000Z",
+        "resources": 2,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Mcleans Rd, Bundoora"
+        "location": "Bolwarra St, Chadstone"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0463894533173,
-          -37.694908392557814
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "250930392",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250930392",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Archer St",
-        "id": "ESTA:250930392",
-        "eventId": "250930392",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-29T14:26:24.000Z",
-        "updated": "2025-09-29T14:26:24.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Archer St, Shepparton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.40829761316718,
-          -36.40663161201031
+          145.10216772637017,
+          -37.87945563002999
         ]
       }
     }
@@ -6013,7 +6018,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -6021,7 +6025,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -6037,7 +6042,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -6045,7 +6049,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-29T14:00:00.000Z",
           "heat": {
@@ -6226,7 +6231,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-29T14:50:20.798Z",
+    "lastUpdated": "2025-09-29T15:26:46.065Z",
     "featureCount": 34
   }
 }
