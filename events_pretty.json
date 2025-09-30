@@ -621,6 +621,67 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121280600,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238851,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "River Rd",
+        "eventId": 251000102,
+        "id": "ESTA:251000102",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-09-30T21:23:00.000Z",
+        "updated": "2025-09-30T21:23:00.000Z",
+        "resources": 1,
+        "location": "River Rd, Hattah",
+        "cfaId": 238851,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.433315846331,
+          -34.80675110856586
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121280647,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121280647,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Warburton",
+        "eventId": "F251000108",
+        "id": "ESTA:251000108",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-30T21:30:21.000Z",
+        "updated": "2025-09-30T21:32:44.639Z",
+        "resources": 0,
+        "location": "Station Rd, Warburton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.68403921675147,
+          -37.75586761453091
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -4700,35 +4761,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 238847,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238847,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Station Rd",
-        "eventId": 251000068,
-        "id": "ESTA:251000068",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-30T20:23:00.000Z",
-        "updated": "2025-09-30T20:25:00.000Z",
-        "resources": 0,
-        "location": "Station Rd, Warburton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.68324861483813,
-          -37.75588773745274
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 238849,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -4753,35 +4785,6 @@
         "coordinates": [
           145.27233922128175,
           -38.028946615772924
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 238850,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238850,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wallace Av",
-        "eventId": 251000088,
-        "id": "ESTA:251000088",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-09-30T21:04:00.000Z",
-        "updated": "2025-09-30T21:04:00.000Z",
-        "resources": 3,
-        "location": "Wallace Av, Point Cook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7476460629211,
-          -37.872212136567086
         ]
       }
     },
@@ -4829,7 +4832,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4837,7 +4839,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4853,7 +4856,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4861,7 +4863,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-30T14:00:00.000Z",
           "heat": {
@@ -5042,7 +5045,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-30T21:22:40.553Z",
+    "lastUpdated": "2025-09-30T21:33:25.980Z",
     "featureCount": 36
   }
 }
