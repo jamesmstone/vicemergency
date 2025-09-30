@@ -381,7 +381,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 102615006,
@@ -392,10 +392,10 @@
         "category2": "Bushfire",
         "created": "2025-09-30T02:55:00.000Z",
         "updated": "2025-09-30T02:55:00.000Z",
-        "resources": 0,
+        "resources": 1,
         "size": "0.01",
         "sizeFmt": "0.01 Ha.",
-        "location": "3Km Ne"
+        "location": "3Km Ne Ballarat"
       },
       "type": "Feature",
       "geometry": {
@@ -527,9 +527,9 @@
         "category2": "Bushfire",
         "created": "2025-09-27T02:58:00.000Z",
         "updated": "2025-09-27T03:54:00.000Z",
-        "resources": 4,
-        "size": "89.50",
-        "sizeFmt": "89.50 Ha.",
+        "resources": 1,
+        "size": "90.00",
+        "sizeFmt": "90.00 Ha.",
         "location": "28Km North Of Licola"
       },
       "type": "Feature",
@@ -544,23 +544,55 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121272004,
+        "estaId": 121272210,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 238744,
+        "sourceId": 238751,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Frankston-Flinders Rd",
-        "eventId": 250930853,
-        "id": "ESTA:250930853",
+        "sourceTitle": "",
+        "eventId": 250930882,
+        "id": "ESTA:250930882",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-09-30T02:44:00.000Z",
+        "updated": "2025-09-30T03:23:00.000Z",
+        "resources": 3,
+        "location": "Nerrina",
+        "cfaId": 238751,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.90330963913087,
+          -37.53892774029045
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121272674,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238755,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 250930932,
+        "id": "ESTA:250930932",
         "suppress": false,
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
-        "created": "2025-09-30T02:26:00.000Z",
-        "updated": "2025-09-30T02:53:00.000Z",
-        "resources": 4,
-        "location": "Frankston-Flinders Rd, Balnarring",
-        "cfaId": 238744,
+        "created": "2025-09-30T03:24:00.000Z",
+        "updated": "2025-09-30T03:24:00.000Z",
+        "resources": 0,
+        "location": "Ladys Pass",
+        "cfaId": 238755,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -568,69 +600,106 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.10942502205643,
-          -38.38184674791179
+          144.70997112647203,
+          -36.814928610855254
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121272138,
+        "estaId": 121272671,
         "feedType": "incident",
-        "source": "000",
+        "source": "PAL",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "250930871",
+        "sourceId": "250930931",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Swanston St",
-        "eventId": "250930871",
-        "id": "ESTA:250930871",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-09-30T02:57:56.000Z",
-        "updated": "2025-09-30T02:57:56.000Z",
-        "resources": 4,
-        "location": "Swanston St, Melbourne",
-        "mfbId": "250930871",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96365930426757,
-          -37.8086485154378
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121272385,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121272385,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Chelsea",
-        "eventId": "F250930900",
-        "id": "ESTA:250930900",
+        "sourceTitle": "Mornington",
+        "eventId": "250930931",
+        "id": "ESTA:250930931",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-30T02:56:02.000Z",
-        "updated": "2025-09-30T02:58:05.153Z",
+        "created": "2025-09-30T03:24:07.000Z",
+        "updated": "2025-09-30T03:24:07.000Z",
         "resources": 0,
-        "location": "Banyan St, Chelsea"
+        "location": "Mornington, Mornington",
+        "cfaId": 238756,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "250930931"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1252299412611,
-          -38.04239263190122
+          145.04889896385396,
+          -38.22653580406318
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121272659,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930929",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Beverley Rd",
+        "eventId": "250930929",
+        "id": "ESTA:250930929",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-30T03:24:56.000Z",
+        "updated": "2025-09-30T03:24:56.000Z",
+        "resources": 2,
+        "location": "Beverley Rd, Heidelberg",
+        "mfbId": "250930929",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07427417997818,
+          -37.7538311924487
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121272268,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581144,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250930885,
+        "id": "ESTA:250930885",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-30T02:49:16.000Z",
+        "updated": "2025-09-30T03:24:50.000Z",
+        "resources": 1,
+        "location": "Mount Duneed",
+        "cfaId": 238752,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 581144
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3507720568866,
+          -38.250558767924055
         ]
       }
     },
@@ -651,7 +720,7 @@
         "category2": "Bushfire",
         "created": "2025-09-30T02:44:00.000Z",
         "updated": "2025-09-30T02:58:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Snow Rd, Markwood",
         "cfaId": 238750,
         "size": "Small",
@@ -668,67 +737,122 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121272268,
+        "status": "Safe",
+        "estaId": 121272706,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581144,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 250930885,
-        "id": "ESTA:250930885",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121272706,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Broadmeadows",
+        "eventId": "F250930936",
+        "id": "ESTA:250930936",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-09-30T02:49:16.000Z",
-        "updated": "2025-09-30T02:58:21.000Z",
-        "resources": 6,
-        "location": "Mount Duneed",
-        "cfaId": 238752,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "250930885",
-        "sesId": 581144
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-09-30T03:27:04.000Z",
+        "updated": "2025-09-30T03:29:15.467Z",
+        "resources": 0,
+        "location": "Kraft Ct, Broadmeadows"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3507720568866,
-          -38.250558767924055
+          144.92813636931677,
+          -37.67763041758097
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121272200,
+        "status": "On Scene",
+        "estaId": 121272628,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238749,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 250930879,
-        "id": "ESTA:250930879",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581147,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250930925,
+        "id": "ESTA:250930925",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-09-30T02:43:00.000Z",
-        "updated": "2025-09-30T02:43:00.000Z",
-        "resources": 2,
-        "location": "Stawell",
-        "cfaId": 238749,
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-09-30T03:19:44.000Z",
+        "updated": "2025-09-30T03:34:29.000Z",
+        "resources": 7,
+        "location": "Wantirna South",
+        "mfbId": "250930925",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 581147
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.76503910758063,
-          -37.06417875596658
+          145.2398719526413,
+          -37.86092113546453
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121272063,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581143,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250953408,
+        "id": "ESTA:250953408",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-30T02:30:53.000Z",
+        "updated": "2025-09-30T03:33:54.000Z",
+        "resources": 0,
+        "location": "Tonimbuk",
+        "sesId": 581143
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7191073079279,
+          -38.047927230781724
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121272752,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121272752,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Port Melbourne",
+        "eventId": "F250930941",
+        "id": "ESTA:250930941",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-09-30T03:30:51.000Z",
+        "updated": "2025-09-30T03:34:30.091Z",
+        "resources": 0,
+        "location": "Port Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93447556376856,
+          -37.841404568405444
         ]
       }
     },
@@ -3761,35 +3885,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 238734,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238734,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Rokewood-Shelford Rd",
-        "eventId": 250930684,
-        "id": "ESTA:250930684",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-09-30T00:27:00.000Z",
-        "updated": "2025-09-30T02:21:00.000Z",
-        "resources": 0,
-        "location": "Rokewood-Shelford Rd, Shelford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.94062463340433,
-          -37.98850821865598
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 238743,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3818,21 +3913,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 238751,
+        "status": "Not Yet Under Control",
+        "cfaId": 238749,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 238751,
+        "sourceId": 238749,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 250930882,
-        "id": "ESTA:250930882",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-09-30T02:44:00.000Z",
-        "updated": "2025-09-30T02:44:00.000Z",
+        "eventId": 250930879,
+        "id": "ESTA:250930879",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-09-30T02:43:00.000Z",
+        "updated": "2025-09-30T02:43:00.000Z",
         "resources": 2,
-        "location": "Nerrina",
+        "location": "Stawell",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3840,8 +3935,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.90330963913087,
-          -37.53892774029045
+          142.76503910758063,
+          -37.06417875596658
         ]
       }
     },
@@ -3905,7 +4000,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "cfaId": 238744,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238744,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frankston-Flinders Rd",
+        "eventId": 250930853,
+        "id": "ESTA:250930853",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-09-30T02:26:00.000Z",
+        "updated": "2025-09-30T02:53:00.000Z",
+        "resources": 1,
+        "location": "Frankston-Flinders Rd, Balnarring",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10942502205643,
+          -38.38184674791179
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 238748,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3917,8 +4041,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-09-30T02:28:00.000Z",
-        "updated": "2025-09-30T02:48:00.000Z",
-        "resources": 3,
+        "updated": "2025-09-30T03:07:00.000Z",
+        "resources": 2,
         "location": "Peter Clay Rd, Nathalia",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3934,7 +4058,66 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "cfaId": 238754,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581145,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 250930923,
+        "id": "ESTA:250930923",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-09-30T03:18:12.000Z",
+        "updated": "2025-09-30T03:25:16.000Z",
+        "resources": 3,
+        "location": "Ladys Pass",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 581145
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70997112647203,
+          -36.814928610855254
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "mfbId": "250930871",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "250930871",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Swanston St",
+        "id": "ESTA:250930871",
+        "eventId": "250930871",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-09-30T03:09:58.000Z",
+        "updated": "2025-09-30T03:09:58.000Z",
+        "resources": 4,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Swanston St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96365930426757,
+          -37.8086485154378
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "250930901",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -3945,9 +4128,9 @@
         "eventId": "250930901",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-09-30T03:00:25.000Z",
-        "updated": "2025-09-30T03:00:25.000Z",
-        "resources": 0,
+        "created": "2025-09-30T03:15:31.000Z",
+        "updated": "2025-09-30T03:15:31.000Z",
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Murray St, Mornington"
@@ -3963,57 +4146,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "250930860",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "250930860",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Oconnell Ct",
-        "id": "ESTA:250930860",
-        "eventId": "250930860",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-30T02:41:58.000Z",
-        "updated": "2025-09-30T02:41:58.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Oconnell Ct, Shepparton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3853242915362,
-          -36.35886071070189
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "sesId": 581143,
+        "sesId": 581146,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581143,
+        "sourceId": 581146,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 250953408,
-        "id": "ESTA:250953408",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-09-30T02:30:53.000Z",
-        "updated": "2025-09-30T02:44:45.000Z",
+        "eventId": 250953410,
+        "id": "ESTA:250953410",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-09-30T03:19:44.000Z",
+        "updated": "2025-09-30T03:27:51.000Z",
         "resources": 1,
-        "location": "Tonimbuk"
+        "location": "Wantirna South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7191073079279,
-          -38.047927230781724
+          145.2398719526413,
+          -37.86092113546453
         ]
       }
     }
@@ -4032,6 +4186,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4039,8 +4194,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4056,6 +4210,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4063,8 +4218,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-09-29T14:00:00.000Z",
           "heat": {
@@ -4245,7 +4399,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-30T03:03:00.909Z",
-    "featureCount": 46
+    "lastUpdated": "2025-09-30T03:36:06.383Z",
+    "featureCount": 51
   }
 }
