@@ -593,38 +593,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121280342,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251000064",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Carlton",
-        "eventId": "251000064",
-        "id": "ESTA:251000064",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-09-30T20:21:01.000Z",
-        "updated": "2025-09-30T20:21:01.000Z",
-        "resources": 1,
-        "location": "Carlton, Carlton",
-        "mfbId": "251000064",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9669220706816,
-          -37.80074762027894
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 121280335,
         "feedType": "incident",
         "source": "000",
@@ -637,9 +605,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-09-30T20:24:45.000Z",
-        "updated": "2025-09-30T20:24:45.000Z",
-        "resources": 2,
+        "created": "2025-09-30T20:36:39.000Z",
+        "updated": "2025-09-30T20:36:39.000Z",
+        "resources": 1,
         "location": "Gilmour Rd, Sunshine North",
         "mfbId": "251000063",
         "size": "Small",
@@ -656,33 +624,64 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121280354,
+        "status": "Request For Assistance",
+        "estaId": 121280417,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238847,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Station Rd",
-        "eventId": 251000068,
-        "id": "ESTA:251000068",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581187,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050004,
+        "id": "ESTA:251050004",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-09-30T20:23:00.000Z",
-        "updated": "2025-09-30T20:25:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-09-30T20:42:46.000Z",
+        "updated": "2025-09-30T20:46:12.000Z",
         "resources": 0,
-        "location": "Station Rd, Warburton",
-        "cfaId": 238847,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Hilldene",
+        "sesId": 581187
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.68324861483813,
-          -37.75588773745274
+          145.0491769279441,
+          -37.050488528290906
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121280428,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251000075",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hampton Park",
+        "eventId": "251000075",
+        "id": "ESTA:251000075",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-30T20:46:51.000Z",
+        "updated": "2025-09-30T20:46:51.000Z",
+        "resources": 1,
+        "location": "Hampton Park, Hampton Park",
+        "cfaId": 238849,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251000075"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27233922128175,
+          -38.028946615772924
         ]
       }
     },
@@ -4747,7 +4746,7 @@
         "category2": "Rescue Road Trap Fire",
         "created": "2025-09-30T18:54:08.000Z",
         "updated": "2025-09-30T19:53:09.000Z",
-        "resources": 11,
+        "resources": 9,
         "location": "Wangaratta South",
         "size": "Small",
         "sizeFmt": "Small",
@@ -4760,6 +4759,64 @@
         "coordinates": [
           146.26320226637102,
           -36.42409840837038
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 238847,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238847,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Station Rd",
+        "eventId": 251000068,
+        "id": "ESTA:251000068",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-30T20:23:00.000Z",
+        "updated": "2025-09-30T20:25:00.000Z",
+        "resources": 0,
+        "location": "Station Rd, Warburton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.68324861483813,
+          -37.75588773745274
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251000069",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251000069",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rossmoyne St",
+        "id": "ESTA:251000069",
+        "eventId": "251000069",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-09-30T20:45:19.000Z",
+        "updated": "2025-09-30T20:45:19.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Rossmoyne St, Thornbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02608026930113,
+          -37.75972604666548
         ]
       }
     }
@@ -4991,7 +5048,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-09-30T20:27:06.454Z",
-    "featureCount": 34
+    "lastUpdated": "2025-09-30T20:50:21.054Z",
+    "featureCount": 36
   }
 }
