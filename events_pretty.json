@@ -489,6 +489,38 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "estaId": 121292083,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238973,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cowslip St",
+        "eventId": 251000906,
+        "id": "ESTA:251000906",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-01T22:25:00.000Z",
+        "updated": "2025-10-01T22:25:00.000Z",
+        "resources": 3,
+        "location": "Cowslip St, Violet Town",
+        "cfaId": 238973,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7130204904769,
+          -36.6358100046964
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "estaId": 121292032,
         "feedType": "incident",
@@ -503,8 +535,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-10-01T22:18:19.000Z",
-        "updated": "2025-10-01T22:20:54.000Z",
-        "resources": 2,
+        "updated": "2025-10-01T22:34:54.000Z",
+        "resources": 6,
         "location": "Lethbridge",
         "cfaId": 238971,
         "size": "Small",
@@ -518,133 +550,6 @@
         "coordinates": [
           144.11942439402333,
           -37.933889194688504
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121292024,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581266,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251000900,
-        "id": "ESTA:251000900",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-10-01T22:17:26.000Z",
-        "updated": "2025-10-01T22:22:29.000Z",
-        "resources": 1,
-        "location": "Meredith",
-        "cfaId": 238970,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 581266
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.07792086174075,
-          -37.88629159479372
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121292047,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251000902",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Frederic Dr",
-        "eventId": "251000902",
-        "id": "ESTA:251000902",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-01T22:22:14.000Z",
-        "updated": "2025-10-01T22:22:14.000Z",
-        "resources": 1,
-        "location": "Frederic Dr, Ringwood",
-        "mfbId": "251000902",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25070073827789,
-          -37.7934803677232
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121292060,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 238972,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Midland Hwy",
-        "eventId": 251000903,
-        "id": "ESTA:251000903",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-01T22:21:00.000Z",
-        "updated": "2025-10-01T22:21:00.000Z",
-        "resources": 0,
-        "location": "Midland Hwy, Meredith",
-        "cfaId": 238972,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.07777211047065,
-          -37.88660325515585
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 121291600,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581264,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050086,
-        "id": "ESTA:251050086",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-01T20:58:58.000Z",
-        "updated": "2025-10-01T22:21:42.000Z",
-        "resources": 0,
-        "location": "Berwick",
-        "sesId": 581264
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32885999813985,
-          -38.02694019880515
         ]
       }
     },
@@ -5734,30 +5639,60 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "mfbId": "251000890",
+        "status": "On Scene",
+        "cfaId": 238970,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251000890",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Moss St",
-        "id": "ESTA:251000890",
-        "eventId": "251000890",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-01T22:17:40.000Z",
-        "updated": "2025-10-01T22:17:40.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581266,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251000900,
+        "id": "ESTA:251000900",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-10-01T22:17:26.000Z",
+        "updated": "2025-10-01T22:35:23.000Z",
+        "resources": 2,
+        "location": "Meredith",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Moss St, Melton South"
+        "sesId": 581266
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.56753584832066,
-          -37.7109414889665
+          144.07792086174075,
+          -37.88629159479372
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 238972,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238972,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": 251000903,
+        "id": "ESTA:251000903",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-01T22:21:00.000Z",
+        "updated": "2025-10-01T22:21:00.000Z",
+        "resources": 0,
+        "location": "Midland Hwy, Meredith",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.07777211047065,
+          -37.88660325515585
         ]
       }
     },
@@ -6076,7 +6011,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-01T22:24:26.244Z",
-    "featureCount": 42
+    "lastUpdated": "2025-10-01T22:37:01.015Z",
+    "featureCount": 40
   }
 }
