@@ -489,33 +489,91 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121291125,
+        "status": "Complete",
+        "estaId": 121291230,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251000828",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Station Av",
-        "eventId": "251000828",
-        "id": "ESTA:251000828",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581260,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050082,
+        "id": "ESTA:251050082",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-01T18:40:18.000Z",
-        "updated": "2025-10-01T18:40:18.000Z",
-        "resources": 1,
-        "location": "Station Av, St Albans",
-        "mfbId": "251000828",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-01T18:57:03.000Z",
+        "updated": "2025-10-01T19:07:25.000Z",
+        "resources": 0,
+        "location": "Drouin South",
+        "sesId": 581260
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.80909645319687,
-          -37.741727527719114
+          145.83918327796528,
+          -38.221461573341884
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121291232,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581261,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050083,
+        "id": "ESTA:251050083",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-01T18:57:40.000Z",
+        "updated": "2025-10-01T19:07:28.000Z",
+        "resources": 0,
+        "location": "Lardner",
+        "sesId": 581261
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87779649939475,
+          -38.236274555977644
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121291299,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581262,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050084,
+        "id": "ESTA:251050084",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-01T19:18:01.000Z",
+        "updated": "2025-10-01T19:18:01.000Z",
+        "resources": 0,
+        "location": "Drouin West",
+        "sesId": 581262
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.83112327204597,
+          -38.08958698577207
         ]
       }
     },
@@ -525,14 +583,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/b8fbffe0cb8002f660011651236cef34",
+        "sourceId": "IDV20600/da25946ee08a8338d6f70334f505762d",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/b8fbffe0cb8002f660011651236cef34",
+        "id": "IDV20600/da25946ee08a8338d6f70334f505762d",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-10-01T14:00:00.000Z",
+        "created": "2025-10-01T19:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1820,14 +1878,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/31ea4803dd98beb434a3f2f361079141",
+        "sourceId": "IDV20600/b8a683a3db82a4f3912ea0279d61821d",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/31ea4803dd98beb434a3f2f361079141",
+        "id": "IDV20600/b8a683a3db82a4f3912ea0279d61821d",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-10-01T14:00:00.000Z",
+        "created": "2025-10-01T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -5588,6 +5646,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5595,8 +5654,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -5612,6 +5670,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5619,8 +5678,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-01T14:00:00.000Z",
           "heat": {
@@ -5801,7 +5859,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-01T18:52:42.067Z",
-    "featureCount": 33
+    "lastUpdated": "2025-10-01T19:19:46.197Z",
+    "featureCount": 35
   }
 }
