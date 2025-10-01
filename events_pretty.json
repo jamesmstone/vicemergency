@@ -489,64 +489,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121292406,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121292406,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Meadow Heights",
-        "eventId": "F251000948",
-        "id": "ESTA:251000948",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-01T23:05:18.000Z",
-        "updated": "2025-10-01T23:09:08.991Z",
-        "resources": 0,
-        "location": "Barry Rd, Meadow Heights"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91462650514788,
-          -37.66345747388423
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121292477,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121292477,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Meadow Heights",
-        "eventId": "F251000958",
-        "id": "ESTA:251000958",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-10-01T23:12:59.000Z",
-        "updated": "2025-10-01T23:14:27.125Z",
-        "resources": 0,
-        "location": "Kenley Ct, Meadow Heights"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9148524810117,
-          -37.66302868822492
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "estaId": 121292401,
         "feedType": "incident",
@@ -562,7 +504,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-01T23:17:57.000Z",
         "updated": "2025-10-01T23:17:57.000Z",
-        "resources": 6,
+        "resources": 5,
         "location": "Kenley Ct, Meadow Heights",
         "mfbId": "251000947",
         "size": "Small",
@@ -594,7 +536,7 @@
         "category2": "Bushfire",
         "created": "2025-10-01T23:17:00.000Z",
         "updated": "2025-10-01T23:17:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Floreat Ct, Gisborne",
         "cfaId": 238975,
         "size": "Small",
@@ -624,13 +566,14 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-10-01T23:20:27.000Z",
-        "updated": "2025-10-01T23:20:27.000Z",
-        "resources": 2,
+        "created": "2025-10-01T23:29:39.000Z",
+        "updated": "2025-10-01T23:29:39.000Z",
+        "resources": 1,
         "location": "Coogee Av, Frankston",
-        "mfbId": "251000962",
+        "cfaId": 238976,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251000962"
       },
       "type": "Feature",
       "geometry": {
@@ -638,6 +581,39 @@
         "coordinates": [
           145.13811168242776,
           -38.159498044357356
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121292600,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251000972",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Atherstone Bvd",
+        "eventId": "251000972",
+        "id": "ESTA:251000972",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-01T23:30:29.000Z",
+        "updated": "2025-10-01T23:30:29.000Z",
+        "resources": 2,
+        "location": "Atherstone Bvd, Strathtulloh",
+        "cfaId": 238978,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251000972"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58844475278158,
+          -37.728639602056234
         ]
       }
     },
@@ -3458,6 +3434,37 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 238977,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581275,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251000969,
+        "id": "ESTA:251000969",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-01T23:26:08.000Z",
+        "updated": "2025-10-01T23:27:28.000Z",
+        "resources": 3,
+        "location": "Chelsea",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251000969",
+        "sesId": 581275
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1163479044465,
+          -38.05022105187746
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "251000835",
         "feedType": "incident",
@@ -3565,6 +3572,33 @@
         "coordinates": [
           146.15156045017739,
           -38.20748949429172
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 581274,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581274,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050092,
+        "id": "ESTA:251050092",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-01T23:26:08.000Z",
+        "updated": "2025-10-01T23:29:11.000Z",
+        "resources": 0,
+        "location": "Chelsea"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1163479044465,
+          -38.05022105187746
         ]
       }
     }
@@ -3796,7 +3830,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-01T23:21:40.957Z",
-    "featureCount": 43
+    "lastUpdated": "2025-10-01T23:31:40.720Z",
+    "featureCount": 44
   }
 }
