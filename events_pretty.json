@@ -488,6 +488,102 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121291443,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238961,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "London Bridge Rd",
+        "eventId": 251000833,
+        "id": "ESTA:251000833",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-01T20:17:00.000Z",
+        "updated": "2025-10-01T20:17:00.000Z",
+        "resources": 3,
+        "location": "London Bridge Rd, Portsea",
+        "cfaId": 238961,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70491123732512,
+          -38.32668554935941
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121291468,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251000835",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Epping",
+        "eventId": "251000835",
+        "id": "ESTA:251000835",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-01T20:25:04.000Z",
+        "updated": "2025-10-01T20:25:04.000Z",
+        "resources": 1,
+        "location": "Epping, Epping",
+        "mfbId": "251000835",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98025920681562,
+          -37.64728596558887
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121291477,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 238963,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hunter St",
+        "eventId": 251000837,
+        "id": "ESTA:251000837",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-01T20:26:00.000Z",
+        "updated": "2025-10-01T20:26:00.000Z",
+        "resources": 0,
+        "location": "Hunter St, Tatura",
+        "cfaId": 238963,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22540658113607,
+          -36.43816999526459
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -5448,6 +5544,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "622617",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Batlow Rd, Tumbarumba",
+        "id": "2025-10-02T06:07:00.0000000:622617",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Batlow Rd, Tumbarumba",
+        "location": "470 Batlow Rd, Tumbarumba 2653",
+        "created": "2025-10-02T06:07:00+10:00",
+        "updated": "2025-10-02T06:07:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.03666687,
+          -35.7407989499999
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -5538,6 +5664,33 @@
               -37.062389373
             ]
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 581263,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581263,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050085,
+        "id": "ESTA:251050085",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-01T19:52:31.000Z",
+        "updated": "2025-10-01T19:58:00.000Z",
+        "resources": 0,
+        "location": "Carrum"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12510224703692,
+          -38.08005437701781
         ]
       }
     }
@@ -5710,7 +5863,6 @@
         },
         {
           "fdr": {
-            "East Gippsland": "HIGH",
             "West and South Gippsland": "HIGH",
             "North East": "MODERATE",
             "Central": "MODERATE",
@@ -5718,7 +5870,8 @@
             "Northern Country": "MODERATE",
             "South West": "NO FORECAST",
             "Wimmera": "HIGH",
-            "Mallee": "EXTREME"
+            "Mallee": "EXTREME",
+            "East Gippsland": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5769,7 +5922,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-01T19:50:21.009Z",
-    "featureCount": 32
+    "lastUpdated": "2025-10-01T20:27:40.903Z",
+    "featureCount": 37
   }
 }
