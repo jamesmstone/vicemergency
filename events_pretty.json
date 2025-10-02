@@ -325,6 +325,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1664146",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Riddoch Highway, Wandilo",
+        "id": "1664146",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Riddoch Highway, Wandilo",
+        "created": "2025-10-02T15:07:00.000Z",
+        "updated": "2025-10-02T15:07:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Riddoch Highway, Wandilo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.791331658866,
+          -37.7323854435278
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -436,31 +462,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121301193,
+        "status": "Responding",
+        "estaId": 121301408,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581368,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050178,
-        "id": "ESTA:251050178",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251001444",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Flinders Street Station Con",
+        "eventId": "251001444",
+        "id": "ESTA:251001444",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-10-02T14:40:13.000Z",
-        "updated": "2025-10-02T14:44:57.000Z",
-        "resources": 0,
-        "location": "Clayton",
-        "sesId": 581368
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-02T15:17:21.000Z",
+        "updated": "2025-10-02T15:17:21.000Z",
+        "resources": 1,
+        "location": "Flinders Street Station Con, Melbourne",
+        "mfbId": "251001444",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.13666254868036,
-          -37.91717991558438
+          144.96695980690316,
+          -37.818317248642686
         ]
       }
     },
@@ -1792,13 +1820,13 @@
         "sourceId": "622697",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Green Hills Rd, Berrigan",
-        "id": "2025-10-02T15:51:00.0000000:622697",
+        "id": "2025-10-03T01:10:00.0000000:622697",
         "category1": "Other",
         "category2": "Other Non-Urgent Alerts",
         "name": "Green Hills Rd, Berrigan",
         "location": "Green Hills Rd, Berrigan 2712",
-        "created": "2025-10-02T15:51:00+10:00",
-        "updated": "2025-10-02T15:51:00+10:00",
+        "created": "2025-10-03T01:10:00+10:00",
+        "updated": "2025-10-03T01:10:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1876,65 +1904,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239062,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239062,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251001417,
-        "id": "ESTA:251001417",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-02T12:58:00.000Z",
-        "updated": "2025-10-02T13:50:00.000Z",
-        "resources": 0,
-        "location": "Mitchell Park",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8043158508354,
-          -37.5282564078397
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239069,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239069,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251001427,
-        "id": "ESTA:251001427",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-02T13:32:00.000Z",
-        "updated": "2025-10-02T13:55:00.000Z",
-        "resources": 0,
-        "location": "Brookfield",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.56696925151246,
-          -37.69038274619097
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 239073,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1946,8 +1916,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-10-02T14:27:00.000Z",
-        "updated": "2025-10-02T14:27:00.000Z",
-        "resources": 4,
+        "updated": "2025-10-02T14:51:00.000Z",
+        "resources": 2,
         "location": "Cobden-Terang Rd, Dixie",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1958,6 +1928,65 @@
         "coordinates": [
           142.96296682266876,
           -38.285003095823036
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239074,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239074,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Walnut Grove Ct",
+        "eventId": 251001441,
+        "id": "ESTA:251001441",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-02T15:01:00.000Z",
+        "updated": "2025-10-02T15:15:00.000Z",
+        "resources": 1,
+        "location": "Walnut Grove Ct, Kilmore",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96593230964515,
+          -37.30920293127736
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "mfbId": "251001438",
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581369,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "id": "ESTA:251001438",
+        "eventId": 251001438,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-10-02T14:52:55.000Z",
+        "updated": "2025-10-02T15:05:38.000Z",
+        "resources": 3,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Wodonga",
+        "sesId": 581369
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8989359803687,
+          -36.10995581223578
         ]
       }
     }
@@ -2189,7 +2218,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-02T14:50:26.083Z",
-    "featureCount": 35
+    "lastUpdated": "2025-10-02T15:26:41.075Z",
+    "featureCount": 36
   }
 }
