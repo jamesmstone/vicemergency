@@ -436,7 +436,70 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Request For Assistance",
+        "estaId": 121302287,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581372,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050180,
+        "id": "ESTA:251050180",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-02T19:06:17.000Z",
+        "updated": "2025-10-02T19:12:28.000Z",
+        "resources": 0,
+        "location": "Windsor",
+        "sesId": 581372
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99617955955176,
+          -37.85452862698092
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121302301,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251001473",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": "251001473",
+        "id": "ESTA:251001473",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-02T19:10:53.000Z",
+        "updated": "2025-10-02T19:10:53.000Z",
+        "resources": 2,
+        "location": "Hume Fwy, Craigieburn",
+        "cfaId": 239081,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251001473"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9442611688252,
+          -37.54876864104476
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 121302149,
         "feedType": "incident",
         "source": "000",
@@ -450,8 +513,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-10-02T18:28:00.000Z",
-        "updated": "2025-10-02T18:44:00.000Z",
-        "resources": 2,
+        "updated": "2025-10-02T18:51:00.000Z",
+        "resources": 0,
         "location": "Forest St, Castlemaine",
         "cfaId": 239078,
         "size": "Small",
@@ -467,51 +530,19 @@
       }
     },
     {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121302201,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239080,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Robertson St",
-        "eventId": 251001467,
-        "id": "ESTA:251001467",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-02T18:46:00.000Z",
-        "updated": "2025-10-02T18:46:00.000Z",
-        "resources": 0,
-        "location": "Robertson St, Gisborne",
-        "cfaId": 239080,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.58808760443452,
-          -37.4854363993197
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/97869860510dafa7736f85cb67d10f7f",
+        "sourceId": "IDV20600/dd04d80898c4088eef024ad591d27adc",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/97869860510dafa7736f85cb67d10f7f",
+        "id": "IDV20600/dd04d80898c4088eef024ad591d27adc",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-10-02T14:00:00.000Z",
+        "created": "2025-10-02T19:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -804,14 +835,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/306faa870ff092eaf220352fd3ed39c8",
+        "sourceId": "IDV20600/c5a783051f18221ac0406ac9a43d1ab2",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/306faa870ff092eaf220352fd3ed39c8",
+        "id": "IDV20600/c5a783051f18221ac0406ac9a43d1ab2",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-10-02T14:00:00.000Z",
+        "created": "2025-10-02T19:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1823,36 +1854,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "622743",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Back Creek Rd, Nethercote",
-        "id": "2025-10-03T00:09:00.0000000:622743",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Back Creek Rd, Nethercote",
-        "location": "171 Back Creek Rd, Nethercote 2549",
-        "created": "2025-10-03T00:09:00+10:00",
-        "updated": "2025-10-03T00:09:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.815856933,
-          -37.0120506289999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "622697",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Green Hills Rd, Berrigan",
@@ -1911,29 +1912,59 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "251001459",
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251001459",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Como Pde",
-        "id": "ESTA:251001459",
-        "eventId": "251001459",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "622743",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Back Creek Rd, Nethercote",
+        "id": "2025-10-03T00:09:00.0000000:622743",
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-02T18:18:19.000Z",
-        "updated": "2025-10-02T18:18:19.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Como Pde, Mentone"
+        "category2": "Grass Fire",
+        "name": "Back Creek Rd, Nethercote",
+        "location": "171 Back Creek Rd, Nethercote 2549",
+        "created": "2025-10-03T00:09:00+10:00",
+        "updated": "2025-10-03T00:09:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06460777954575,
-          -37.9822089978283
+          149.815856933,
+          -37.0120506289999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251001469",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251001469",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Collins St",
+        "id": "ESTA:251001469",
+        "eventId": "251001469",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-02T19:15:52.000Z",
+        "updated": "2025-10-02T19:15:52.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Collins St, Docklands"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94995554447394,
+          -37.820509808257356
         ]
       }
     }
@@ -2165,7 +2196,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-02T18:50:20.602Z",
-    "featureCount": 34
+    "lastUpdated": "2025-10-02T19:18:46.086Z",
+    "featureCount": 35
   }
 }
