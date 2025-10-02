@@ -462,24 +462,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121301408,
+        "status": "Safe",
+        "estaId": 121301106,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251001444",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Flinders Street Station Con",
-        "eventId": "251001444",
-        "id": "ESTA:251001444",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239073,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cobden-Terang Rd",
+        "eventId": 251001437,
+        "id": "ESTA:251001437",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-10-02T15:17:21.000Z",
-        "updated": "2025-10-02T15:17:21.000Z",
+        "created": "2025-10-02T14:27:00.000Z",
+        "updated": "2025-10-02T15:49:00.000Z",
         "resources": 1,
-        "location": "Flinders Street Station Con, Melbourne",
-        "mfbId": "251001444",
+        "location": "Cobden-Terang Rd, Dixie",
+        "cfaId": 239073,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -487,8 +487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96695980690316,
-          -37.818317248642686
+          142.96296682266876,
+          -38.285003095823036
         ]
       }
     },
@@ -1817,6 +1817,36 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
+        "sourceId": "622743",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Back Creek Rd, Nethercote",
+        "id": "2025-10-03T00:09:00.0000000:622743",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Back Creek Rd, Nethercote",
+        "location": "171 Back Creek Rd, Nethercote 2549",
+        "created": "2025-10-03T00:09:00+10:00",
+        "updated": "2025-10-03T00:09:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.815856933,
+          -37.0120506289999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
         "sourceId": "622697",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Green Hills Rd, Berrigan",
@@ -1874,65 +1904,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "622743",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Back Creek Rd, Nethercote",
-        "id": "2025-10-03T00:09:00.0000000:622743",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Back Creek Rd, Nethercote",
-        "location": "171 Back Creek Rd, Nethercote 2549",
-        "created": "2025-10-03T00:09:00+10:00",
-        "updated": "2025-10-03T00:09:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.815856933,
-          -37.0120506289999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 239073,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239073,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cobden-Terang Rd",
-        "eventId": 251001437,
-        "id": "ESTA:251001437",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-02T14:27:00.000Z",
-        "updated": "2025-10-02T14:51:00.000Z",
-        "resources": 2,
-        "location": "Cobden-Terang Rd, Dixie",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.96296682266876,
-          -38.285003095823036
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 239074,
         "feedType": "incident",
@@ -1946,7 +1917,7 @@
         "category2": "Other",
         "created": "2025-10-02T15:01:00.000Z",
         "updated": "2025-10-02T15:15:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Walnut Grove Ct, Kilmore",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1987,6 +1958,35 @@
         "coordinates": [
           146.8989359803687,
           -36.10995581223578
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251001444",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251001444",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Flinders Street Station Con",
+        "id": "ESTA:251001444",
+        "eventId": "251001444",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-02T15:28:05.000Z",
+        "updated": "2025-10-02T15:28:05.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Flinders Street Station Con, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96695980690316,
+          -37.818317248642686
         ]
       }
     }
@@ -2218,7 +2218,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-02T15:26:41.075Z",
+    "lastUpdated": "2025-10-02T15:50:00.767Z",
     "featureCount": 36
   }
 }
