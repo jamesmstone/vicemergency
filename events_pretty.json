@@ -379,24 +379,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121315464,
+        "status": "Responding",
+        "estaId": 121315732,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239206,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Albert St",
-        "eventId": 251002666,
-        "id": "ESTA:251002666",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251002700",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Vermont South",
+        "eventId": "251002700",
+        "id": "ESTA:251002700",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-03T18:54:00.000Z",
-        "updated": "2025-10-03T19:05:00.000Z",
-        "resources": 0,
-        "location": "Albert St, Rosedale",
-        "cfaId": 239206,
+        "created": "2025-10-03T20:20:29.000Z",
+        "updated": "2025-10-03T20:20:29.000Z",
+        "resources": 1,
+        "location": "Vermont South, Vermont South",
+        "mfbId": "251002700",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -404,8 +404,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.7871030102123,
-          -38.15259156558336
+          145.1835915781021,
+          -37.85652780190266
         ]
       }
     },
@@ -813,6 +813,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -820,8 +821,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -837,6 +837,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -844,8 +845,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-03T14:00:00.000Z",
           "heat": {
@@ -1026,7 +1026,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-03T19:50:01.291Z",
+    "lastUpdated": "2025-10-03T20:27:02.024Z",
     "featureCount": 30
   }
 }
