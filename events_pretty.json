@@ -379,24 +379,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121316437,
+        "status": "Request For Assistance",
+        "estaId": 121316961,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239216,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Edenhope St",
-        "eventId": 251002946,
-        "id": "ESTA:251002946",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581478,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050252,
+        "id": "ESTA:251050252",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-03T22:16:00.000Z",
-        "updated": "2025-10-03T22:32:00.000Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-03T23:09:24.000Z",
+        "updated": "2025-10-03T23:11:35.000Z",
         "resources": 0,
-        "location": "Edenhope St, Kilsyth",
-        "cfaId": 239216,
+        "location": "Mildura",
+        "sesId": 581478
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.17502182372306,
+          -34.20044229208027
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121316961,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251003162",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ambleside Cr",
+        "eventId": "251003162",
+        "id": "ESTA:251003162",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-03T23:16:33.000Z",
+        "updated": "2025-10-03T23:16:33.000Z",
+        "resources": 1,
+        "location": "Ambleside Cr, Mildura",
+        "mfbId": "251003162",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -404,8 +434,134 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.32975442166318,
-          -37.805895554878454
+          142.17502316848982,
+          -34.20044219816418
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121316997,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239221,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Magpie St",
+        "eventId": 251003174,
+        "id": "ESTA:251003174",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-03T23:14:00.000Z",
+        "updated": "2025-10-03T23:14:00.000Z",
+        "resources": 2,
+        "location": "Magpie St, Golden Point (Ballarat)",
+        "cfaId": 239221,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.86403778976415,
+          -37.57628160962524
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121317023,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251003180",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hampton Park",
+        "eventId": "251003180",
+        "id": "ESTA:251003180",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-03T23:16:44.000Z",
+        "updated": "2025-10-03T23:16:44.000Z",
+        "resources": 1,
+        "location": "Hampton Park, Hampton Park",
+        "cfaId": 239222,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251003180"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28124317693303,
+          -38.03124150398184
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121316890,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251003136",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Pelican Trk",
+        "eventId": "251003136",
+        "id": "ESTA:251003136",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-03T23:17:10.000Z",
+        "updated": "2025-10-03T23:17:10.000Z",
+        "resources": 1,
+        "location": "Pelican Trk, Rosebud",
+        "mfbId": "251003136",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91610807216946,
+          -38.35200618842815
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121317065,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121317065,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bentleigh",
+        "eventId": "F251003192",
+        "id": "ESTA:251003192",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-10-03T23:19:19.000Z",
+        "updated": "2025-10-03T23:20:39.690Z",
+        "resources": 0,
+        "location": "Bentleigh"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03566784522963,
+          -37.92568301459107
         ]
       }
     },
@@ -772,36 +928,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 239214,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251002934",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Austin Av",
-        "eventId": "251002934",
-        "id": "ESTA:251002934",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-03T22:25:57.000Z",
-        "updated": "2025-10-03T22:25:57.000Z",
-        "resources": 1,
-        "location": "Austin Av, Terang",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251002934"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.90248006181167,
-          -38.23939125701373
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 239215,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -814,7 +940,7 @@
         "category2": "Other",
         "created": "2025-10-03T22:14:00.000Z",
         "updated": "2025-10-03T22:30:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Kyabram",
         "size": "Small",
         "sizeFmt": "Small"
@@ -830,7 +956,124 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 239216,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239216,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Edenhope St",
+        "eventId": 251002946,
+        "id": "ESTA:251002946",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-03T22:16:00.000Z",
+        "updated": "2025-10-03T22:32:00.000Z",
+        "resources": 0,
+        "location": "Edenhope St, Kilsyth",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32975442166318,
+          -37.805895554878454
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
+        "cfaId": 239219,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251003102",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Refinery Rd",
+        "eventId": "251003102",
+        "id": "ESTA:251003102",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-03T23:05:58.000Z",
+        "updated": "2025-10-03T23:05:58.000Z",
+        "resources": 3,
+        "location": "Refinery Rd, Corio",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251003102"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.37249375656236,
+          -38.07656620204528
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239220,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239220,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Red Gum Picnic Area Rd",
+        "eventId": 251003130,
+        "id": "ESTA:251003130",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-03T23:01:00.000Z",
+        "updated": "2025-10-03T23:08:00.000Z",
+        "resources": 0,
+        "location": "Red Gum Picnic Area Rd, South Morang",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0983466878199,
+          -37.63549176529265
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239218,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239218,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Martin St",
+        "eventId": 251003085,
+        "id": "ESTA:251003085",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-03T22:51:00.000Z",
+        "updated": "2025-10-03T23:13:00.000Z",
+        "resources": 0,
+        "location": "Martin St, East Geelong",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.37208526735404,
+          -38.1641246085763
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "mfbId": "251003011",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -841,8 +1084,8 @@
         "eventId": "251003011",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-03T22:47:08.000Z",
-        "updated": "2025-10-03T22:47:08.000Z",
+        "created": "2025-10-03T22:49:42.000Z",
+        "updated": "2025-10-03T22:49:42.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -854,62 +1097,6 @@
         "coordinates": [
           144.88031345014514,
           -37.79476382948329
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "251002940",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251002940",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Docklands Dr",
-        "id": "ESTA:251002940",
-        "eventId": "251002940",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-03T22:29:38.000Z",
-        "updated": "2025-10-03T22:29:38.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Docklands Dr, Docklands"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.94074920064912,
-          -37.813883241937546
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 581475,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581475,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050246,
-        "id": "ESTA:251050246",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-10-03T21:40:51.000Z",
-        "updated": "2025-10-03T22:36:34.000Z",
-        "resources": 1,
-        "location": "Ringwood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.22224746262935,
-          -37.80908020679899
         ]
       }
     }
@@ -1141,7 +1328,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-03T22:50:06.642Z",
-    "featureCount": 34
+    "lastUpdated": "2025-10-03T23:21:01.234Z",
+    "featureCount": 40
   }
 }
