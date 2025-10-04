@@ -336,9 +336,9 @@
         "category2": "Bushfire",
         "created": "2025-10-04T02:00:00.000Z",
         "updated": "2025-10-04T04:12:00.000Z",
-        "resources": 0,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "resources": 3,
+        "size": "0.50",
+        "sizeFmt": "0.50 Ha.",
         "location": "2.8Km W Fryerstown"
       },
       "type": "Feature",
@@ -379,33 +379,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DELWP",
-        "sourceId": 102637016,
-        "sourceFeed": "delwp-incident",
-        "sourceTitle": "Shepparton Causeway - Midland Hwy No.2",
-        "id": 102637016,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-04T01:01:00.000Z",
-        "updated": "2025-10-04T01:01:00.000Z",
-        "resources": 1,
-        "size": "0.20",
-        "sizeFmt": "0.20 Ha.",
-        "location": "Midland Hwy - Shepparton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38601711745454,
-          -36.39030374532989
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Not Yet Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -434,151 +407,176 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121320944,
+        "estaId": 121320303,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121320303,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Gruyere",
+        "eventId": "F251004177",
+        "id": "ESTA:251004177",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-04T03:33:40.000Z",
+        "updated": "2025-10-04T05:11:17.952Z",
+        "resources": 0,
+        "location": "Chandler Rd, Gruyere"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.47536675230904,
+          -37.74768890821562
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121321274,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581488,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050263,
+        "id": "ESTA:251050263",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-04T04:55:47.000Z",
+        "updated": "2025-10-04T05:11:38.000Z",
+        "resources": 0,
+        "location": "Belgrave",
+        "sesId": 581488
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35510285332586,
+          -37.90836948170834
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121321517,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251004339",
+        "sourceId": "251004471",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Miller Cr",
-        "eventId": "251004339",
-        "id": "ESTA:251004339",
+        "sourceTitle": "Grove Rd",
+        "eventId": "251004471",
+        "id": "ESTA:251004471",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-04T05:18:57.000Z",
+        "updated": "2025-10-04T05:18:57.000Z",
+        "resources": 3,
+        "location": "Grove Rd, Grovedale",
+        "cfaId": 239271,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251004471"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.33059244226652,
+          -38.192474517961934
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121321345,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251004435",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hoddle St",
+        "eventId": "251004435",
+        "id": "ESTA:251004435",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-04T05:19:49.000Z",
+        "updated": "2025-10-04T05:19:49.000Z",
+        "resources": 3,
+        "location": "Hoddle St, Collingwood",
+        "mfbId": "251004435",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9920512822097,
+          -37.80095914884977
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121321594,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121321594,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Truganina",
+        "eventId": "F251004480",
+        "id": "ESTA:251004480",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T05:19:28.000Z",
+        "updated": "2025-10-04T05:20:47.837Z",
+        "resources": 0,
+        "location": "Stony Brook Way, Truganina"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71616955429562,
+          -37.839911658900846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121321574,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251004477",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brisbane St",
+        "eventId": "251004477",
+        "id": "ESTA:251004477",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-10-04T04:37:29.000Z",
-        "updated": "2025-10-04T04:37:29.000Z",
-        "resources": 1,
-        "location": "Miller Cr, Mount Waverley",
-        "mfbId": "251004339",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12704238937206,
-          -37.87471075554889
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 121320743,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239262,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Baringhup Rd",
-        "eventId": 251004292,
-        "id": "ESTA:251004292",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-04T04:10:00.000Z",
-        "updated": "2025-10-04T04:38:00.000Z",
-        "resources": 0,
-        "location": "Baringhup Rd, Baringhup",
-        "cfaId": 239262,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.9892821097994,
-          -36.98110694641133
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 121321104,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239266,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mortoo St",
-        "eventId": 251004378,
-        "id": "ESTA:251004378",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-04T04:40:00.000Z",
-        "updated": "2025-10-04T04:42:00.000Z",
-        "resources": 0,
-        "location": "Mortoo St, Swan Hill",
-        "cfaId": 239266,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.54173026878482,
-          -35.34382477793281
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 121320980,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251004347",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melbourne",
-        "eventId": "251004347",
-        "id": "ESTA:251004347",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-04T04:42:57.000Z",
-        "updated": "2025-10-04T04:42:57.000Z",
-        "resources": 3,
-        "location": "Melbourne, Melbourne",
-        "mfbId": "251004347",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96683761556602,
-          -37.81206424769501
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121321116,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251004380",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Brock St",
-        "eventId": "251004380",
-        "id": "ESTA:251004380",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-10-04T04:43:12.000Z",
-        "updated": "2025-10-04T04:43:12.000Z",
+        "created": "2025-10-04T05:22:00.000Z",
+        "updated": "2025-10-04T05:22:00.000Z",
         "resources": 2,
-        "location": "Brock St, Thomastown",
-        "mfbId": "251004380",
+        "location": "Brisbane St, Strathmore",
+        "mfbId": "251004477",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -586,110 +584,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02571465541692,
-          -37.685832042424735
+          144.92259468936928,
+          -37.73070875909036
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121320512,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239259,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Break Neck Hill Rd",
-        "eventId": 251004227,
-        "id": "ESTA:251004227",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-04T03:53:00.000Z",
-        "updated": "2025-10-04T04:45:00.000Z",
-        "resources": 8,
-        "location": "Break Neck Hill Rd, Yapeen",
-        "cfaId": 239259,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.22019472807327,
-          -37.139205725495444
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121321159,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251004395",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Webster Av",
-        "eventId": "251004395",
-        "id": "ESTA:251004395",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-04T04:45:37.000Z",
-        "updated": "2025-10-04T04:45:37.000Z",
-        "resources": 2,
-        "location": "Webster Av, Croydon",
-        "mfbId": "251004395",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26910995007597,
-          -37.79779238606836
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 121320121,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239252,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251004132,
-        "id": "ESTA:251004132",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-04T03:21:00.000Z",
-        "updated": "2025-10-04T04:36:00.000Z",
-        "resources": 0,
-        "location": "Mckenzie Hill",
-        "cfaId": 239252,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.18739605399534,
-          -37.068945342725115
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121321134,
         "feedType": "incident",
         "source": "RADIO",
@@ -704,7 +606,7 @@
         "category2": "Other",
         "created": "2025-10-04T04:43:00.000Z",
         "updated": "2025-10-04T04:43:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Lyell Rd, Eppalock",
         "cfaId": 239267,
         "size": "Small",
@@ -714,8 +616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.49309186591572,
-          -36.87313282009668
+          144.4856516292815,
+          -36.8865658924634
         ]
       }
     },
@@ -5350,50 +5252,51 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239251,
+        "status": "Under Control",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239251,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "View Rd",
-        "eventId": 251004130,
-        "id": "ESTA:251004130",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-04T03:21:00.000Z",
-        "updated": "2025-10-04T03:52:00.000Z",
-        "resources": 0,
-        "location": "View Rd, Heathcote Junction",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "623036",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Echidna Pl, East Jindabyne",
+        "id": "2025-10-04T15:20:00.0000000:623036",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Echidna Pl, East Jindabyne",
+        "location": "Echidna Pl, East Jindabyne 2627",
+        "created": "2025-10-04T15:20:00+10:00",
+        "updated": "2025-10-04T15:20:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02972472042828,
-          -37.36844023868511
+          148.632797242,
+          -36.409915924
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239260,
+        "cfaId": 239252,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239260,
+        "sourceId": 239252,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 251004245,
-        "id": "ESTA:251004245",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-04T03:58:00.000Z",
-        "updated": "2025-10-04T04:14:00.000Z",
+        "eventId": 251004132,
+        "id": "ESTA:251004132",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-04T03:21:00.000Z",
+        "updated": "2025-10-04T04:36:00.000Z",
         "resources": 0,
-        "location": "Hampton Park",
+        "location": "Mckenzie Hill",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5401,28 +5304,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24705349825174,
-          -38.02624434374718
+          144.18739605399534,
+          -37.068945342725115
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239255,
+        "cfaId": 239262,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239255,
+        "sourceId": 239262,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Chandler Rd",
-        "eventId": 251004177,
-        "id": "ESTA:251004177",
+        "sourceTitle": "Baringhup Rd",
+        "eventId": 251004292,
+        "id": "ESTA:251004292",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-10-04T03:34:00.000Z",
-        "updated": "2025-10-04T04:18:00.000Z",
-        "resources": 1,
-        "location": "Chandler Rd, Gruyere",
+        "created": "2025-10-04T04:10:00.000Z",
+        "updated": "2025-10-04T04:38:00.000Z",
+        "resources": 0,
+        "location": "Baringhup Rd, Baringhup",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5430,8 +5333,154 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4753557398558,
-          -37.74770339619223
+          143.9892821097994,
+          -36.98110694641133
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239266,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239266,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mortoo St",
+        "eventId": 251004378,
+        "id": "ESTA:251004378",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-04T04:40:00.000Z",
+        "updated": "2025-10-04T04:42:00.000Z",
+        "resources": 0,
+        "location": "Mortoo St, Swan Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.54173026878482,
+          -35.34382477793281
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 239259,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239259,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Break Neck Hill Rd",
+        "eventId": 251004227,
+        "id": "ESTA:251004227",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-04T03:53:00.000Z",
+        "updated": "2025-10-04T04:45:00.000Z",
+        "resources": 8,
+        "location": "Break Neck Hill Rd, Yapeen",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.22019472807327,
+          -37.139205725495444
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239268,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239268,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251004421,
+        "id": "ESTA:251004421",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T04:56:00.000Z",
+        "updated": "2025-10-04T05:16:00.000Z",
+        "resources": 1,
+        "location": "Belgrave",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35510285332586,
+          -37.90836948170834
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 239270,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251004446",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Webb St",
+        "eventId": "251004446",
+        "id": "ESTA:251004446",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T05:20:20.000Z",
+        "updated": "2025-10-04T05:20:20.000Z",
+        "resources": 2,
+        "location": "Webb St, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251004446"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3037235212735,
+          -38.02750210590043
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251004380",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251004380",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Brock St",
+        "id": "ESTA:251004380",
+        "eventId": "251004380",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-04T04:57:19.000Z",
+        "updated": "2025-10-04T04:57:19.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Brock St, Thomastown"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02571465541692,
+          -37.685832042424735
         ]
       }
     }
@@ -5663,7 +5712,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-04T04:50:21.577Z",
-    "featureCount": 41
+    "lastUpdated": "2025-10-04T05:23:27.294Z",
+    "featureCount": 44
   }
 }
