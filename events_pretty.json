@@ -406,7 +406,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 121329083,
         "feedType": "incident",
         "source": "000",
@@ -418,10 +418,10 @@
         "id": "ESTA:251005265",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-04T16:44:29.000Z",
-        "updated": "2025-10-04T16:44:29.000Z",
-        "resources": 4,
+        "category2": "Non Structure Fire",
+        "created": "2025-10-04T17:06:36.000Z",
+        "updated": "2025-10-04T17:06:36.000Z",
+        "resources": 3,
         "location": "Carole Av, Chirnside Park",
         "cfaId": 239373,
         "size": "Small",
@@ -440,29 +440,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121329132,
+        "estaId": 121329271,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121329132,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F251005266",
-        "id": "ESTA:251005266",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251005271",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Esplanade -",
+        "eventId": "251005271",
+        "id": "ESTA:251005271",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-04T16:45:00.000Z",
-        "updated": "2025-10-04T16:49:06.456Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T17:16:00.000Z",
+        "updated": "2025-10-04T17:16:00.000Z",
         "resources": 0,
-        "location": "Melbourne"
+        "location": "Esplanade -, Mornington",
+        "mfbId": "251005271",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95978867423088,
-          -37.81300437757243
+          145.04774849870753,
+          -38.21316796598778
         ]
       }
     },
@@ -6821,65 +6824,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239369,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239369,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251005257,
-        "id": "ESTA:251005257",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-04T15:36:00.000Z",
-        "updated": "2025-10-04T16:05:00.000Z",
-        "resources": 0,
-        "location": "Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.34353967026482,
-          -38.288490335624935
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239367,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251005249",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Grant St",
-        "eventId": "251005249",
-        "id": "ESTA:251005249",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-10-04T16:11:33.000Z",
-        "updated": "2025-10-04T16:11:33.000Z",
-        "resources": 3,
-        "location": "Grant St, Cranbourne",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251005249"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27839025246806,
-          -38.12220295893276
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "cfaId": 239371,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -6891,8 +6835,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-10-04T16:32:00.000Z",
-        "updated": "2025-10-04T16:32:00.000Z",
-        "resources": 1,
+        "updated": "2025-10-04T16:54:00.000Z",
+        "resources": 0,
         "location": "Nixon St, Benalla",
         "size": "Small",
         "sizeFmt": "Small"
@@ -6903,6 +6847,91 @@
         "coordinates": [
           145.98568825359516,
           -36.54650356908202
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "251005267",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251005267",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Preston",
+        "id": "ESTA:251005267",
+        "eventId": "251005267",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T17:01:01.000Z",
+        "updated": "2025-10-04T17:01:01.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Preston, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01016707156904,
+          -37.746816739612015
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "251005268",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251005268",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Barkly St",
+        "id": "ESTA:251005268",
+        "eventId": "251005268",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-04T17:09:37.000Z",
+        "updated": "2025-10-04T17:09:37.000Z",
+        "resources": 0,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Barkly St, Footscray"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88674561120203,
+          -37.798617392862845
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 581515,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581515,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050285,
+        "id": "ESTA:251050285",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-04T16:51:02.000Z",
+        "updated": "2025-10-04T17:08:46.000Z",
+        "resources": 0,
+        "location": "Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01016517299112,
+          -37.74682204539839
         ]
       }
     }
@@ -7134,7 +7163,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-04T16:50:21.737Z",
-    "featureCount": 38
+    "lastUpdated": "2025-10-04T17:20:06.539Z",
+    "featureCount": 39
   }
 }
