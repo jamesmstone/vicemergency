@@ -583,31 +583,31 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121339499,
+        "status": "Complete",
+        "estaId": 121339538,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581591,
+        "sourceId": 581592,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050360,
-        "id": "ESTA:251050360",
+        "eventId": 251050361,
+        "id": "ESTA:251050361",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-05T15:13:26.000Z",
-        "updated": "2025-10-05T15:14:09.000Z",
+        "created": "2025-10-05T15:22:05.000Z",
+        "updated": "2025-10-05T15:24:51.000Z",
         "resources": 0,
-        "location": "Warrenheip",
-        "sesId": 581591
+        "location": "Bundoora",
+        "sesId": 581592
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.9149211405013,
-          -37.589767308265365
+          145.06605872192642,
+          -37.69759182859544
         ]
       }
     },
@@ -5360,7 +5360,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "cfaId": 239515,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -5373,7 +5373,7 @@
         "category2": "Building Fire",
         "created": "2025-10-05T15:14:00.000Z",
         "updated": "2025-10-05T15:14:00.000Z",
-        "resources": 2,
+        "resources": 3,
         "location": "Wadhurst Dr, Boronia",
         "size": "Small",
         "sizeFmt": "Small"
@@ -5400,8 +5400,8 @@
         "eventId": "251006119",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-05T15:05:07.000Z",
-        "updated": "2025-10-05T15:05:07.000Z",
+        "created": "2025-10-05T15:24:28.000Z",
+        "updated": "2025-10-05T15:24:28.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -5469,6 +5469,33 @@
           -38.56536472656609
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 581591,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581591,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050360,
+        "id": "ESTA:251050360",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-05T15:13:26.000Z",
+        "updated": "2025-10-05T15:22:16.000Z",
+        "resources": 0,
+        "location": "Warrenheip"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9149211405013,
+          -37.589767308265365
+        ]
+      }
     }
   ],
   "properties": {
@@ -5485,6 +5512,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5492,8 +5520,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -5509,6 +5536,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5516,8 +5544,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-05T13:00:00.000Z",
           "heat": {
@@ -5698,7 +5725,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-05T15:22:06.254Z",
-    "featureCount": 45
+    "lastUpdated": "2025-10-05T15:31:46.959Z",
+    "featureCount": 46
   }
 }
