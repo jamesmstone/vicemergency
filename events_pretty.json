@@ -609,31 +609,95 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121339352,
+        "status": "Request For Assistance",
+        "estaId": 121339924,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "STATION",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581590,
+        "sourceId": 581597,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050359,
-        "id": "ESTA:251050359",
+        "eventId": 251050366,
+        "id": "ESTA:251050366",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-05T14:43:58.000Z",
-        "updated": "2025-10-05T16:36:05.000Z",
+        "created": "2025-10-05T17:06:30.000Z",
+        "updated": "2025-10-05T17:09:12.000Z",
         "resources": 0,
-        "location": "Willung South",
-        "sesId": 581590
+        "location": "The Basin",
+        "sesId": 581597
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.72275225119455,
-          -38.36047436354179
+          145.31035900689082,
+          -37.859953308427244
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121339700,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239518,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251006125,
+        "id": "ESTA:251006125",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-05T15:59:00.000Z",
+        "updated": "2025-10-05T16:31:00.000Z",
+        "resources": 0,
+        "location": "Scoresby",
+        "cfaId": 239518,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2364054085699,
+          -37.89665600334999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121339873,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239521,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251006132,
+        "id": "ESTA:251006132",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-05T16:51:00.000Z",
+        "updated": "2025-10-05T17:17:00.000Z",
+        "resources": 1,
+        "location": "Darnum",
+        "cfaId": 239521,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00230383776488,
+          -38.188850084569985
         ]
       }
     },
@@ -5358,35 +5422,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239517,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239517,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Jacaranda Ct",
-        "eventId": 251006123,
-        "id": "ESTA:251006123",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-10-05T15:45:00.000Z",
-        "updated": "2025-10-05T15:51:00.000Z",
-        "resources": 0,
-        "location": "Jacaranda Ct, Hastings",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18822318953272,
-          -38.31247877058255
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 239519,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -5415,87 +5450,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239518,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251006125",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rosehill St",
-        "eventId": "251006125",
-        "id": "ESTA:251006125",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-05T16:31:08.000Z",
-        "updated": "2025-10-05T16:31:08.000Z",
-        "resources": 1,
-        "location": "Rosehill St, Scoresby",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251006125"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2364107310352,
-          -37.89665530280485
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "mfbId": "251006131",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251006131",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Helpman Ct",
-        "id": "ESTA:251006131",
-        "eventId": "251006131",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-05T16:39:47.000Z",
-        "updated": "2025-10-05T16:39:47.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Helpman Ct, Warrnambool"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.46294318236704,
-          -38.369027729125875
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 581595,
+        "status": "Request For Assistance",
+        "sesId": 581596,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581595,
+        "sourceId": 581596,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050364,
-        "id": "ESTA:251050364",
+        "eventId": 251050365,
+        "id": "ESTA:251050365",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-05T16:03:47.000Z",
-        "updated": "2025-10-05T16:40:34.000Z",
-        "resources": 1,
-        "location": "Simpson"
+        "created": "2025-10-05T16:56:39.000Z",
+        "updated": "2025-10-05T17:00:30.000Z",
+        "resources": 0,
+        "location": "Ferny Creek"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.144956285961,
-          -38.44839980708764
+          145.32187218196088,
+          -37.87506013046299
         ]
       }
     }
@@ -5727,7 +5703,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-05T16:50:21.131Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-05T17:20:01.250Z",
+    "featureCount": 45
   }
 }
