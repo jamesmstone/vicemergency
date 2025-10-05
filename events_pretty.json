@@ -583,31 +583,93 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121339538,
+        "status": "Request For Assistance",
+        "estaId": 121339610,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "STATION",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581592,
+        "sourceId": 581594,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050361,
-        "id": "ESTA:251050361",
+        "eventId": 251050363,
+        "id": "ESTA:251050363",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-05T15:22:05.000Z",
-        "updated": "2025-10-05T15:24:51.000Z",
+        "created": "2025-10-05T15:40:45.000Z",
+        "updated": "2025-10-05T15:45:00.000Z",
         "resources": 0,
-        "location": "Bundoora",
-        "sesId": 581592
+        "location": "Kilcunda",
+        "sesId": 581594
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.06605872192642,
-          -37.69759182859544
+          145.4564414614741,
+          -38.537440088210204
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121339636,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239517,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jacaranda Ct",
+        "eventId": 251006123,
+        "id": "ESTA:251006123",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-10-05T15:45:00.000Z",
+        "updated": "2025-10-05T15:45:00.000Z",
+        "resources": 0,
+        "location": "Jacaranda Ct, Hastings",
+        "cfaId": 239517,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18822318953272,
+          -38.31247877058255
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121339499,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581591,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050360,
+        "id": "ESTA:251050360",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-05T15:13:26.000Z",
+        "updated": "2025-10-05T15:47:41.000Z",
+        "resources": 0,
+        "location": "Warrenheip",
+        "sesId": 581591
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9149211405013,
+          -37.589767308265365
         ]
       }
     },
@@ -5373,7 +5435,7 @@
         "category2": "Building Fire",
         "created": "2025-10-05T15:14:00.000Z",
         "updated": "2025-10-05T15:14:00.000Z",
-        "resources": 3,
+        "resources": 1,
         "location": "Wadhurst Dr, Boronia",
         "size": "Small",
         "sizeFmt": "Small"
@@ -5390,6 +5452,35 @@
     {
       "properties": {
         "status": "Responding",
+        "cfaId": 239516,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239516,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Melrose Dr",
+        "eventId": 251006122,
+        "id": "ESTA:251006122",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-05T15:41:00.000Z",
+        "updated": "2025-10-05T15:41:00.000Z",
+        "resources": 1,
+        "location": "Melrose Dr, West Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86798061205062,
+          -36.11697603077393
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "mfbId": "251006119",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5400,8 +5491,8 @@
         "eventId": "251006119",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-05T15:24:28.000Z",
-        "updated": "2025-10-05T15:24:28.000Z",
+        "created": "2025-10-05T15:40:56.000Z",
+        "updated": "2025-10-05T15:40:56.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
@@ -5413,33 +5504,6 @@
         "coordinates": [
           145.03723644402592,
           -37.805783038751834
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 581590,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581590,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050359,
-        "id": "ESTA:251050359",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-05T14:43:58.000Z",
-        "updated": "2025-10-05T15:08:18.000Z",
-        "resources": 1,
-        "location": "Willung South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.71494136841994,
-          -38.34998330966229
         ]
       }
     },
@@ -5473,27 +5537,54 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 581591,
+        "sesId": 581593,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581591,
+        "sourceId": 581593,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050360,
-        "id": "ESTA:251050360",
+        "eventId": 251050362,
+        "id": "ESTA:251050362",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-05T15:13:26.000Z",
-        "updated": "2025-10-05T15:22:16.000Z",
+        "created": "2025-10-05T15:32:07.000Z",
+        "updated": "2025-10-05T15:36:35.000Z",
         "resources": 0,
-        "location": "Warrenheip"
+        "location": "Bundoora"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.9149211405013,
-          -37.589767308265365
+          145.06605872192642,
+          -37.69759182859544
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 581590,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581590,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050359,
+        "id": "ESTA:251050359",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-05T14:43:58.000Z",
+        "updated": "2025-10-05T15:37:33.000Z",
+        "resources": 1,
+        "location": "Willung South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.72275225119455,
+          -38.36047436354179
         ]
       }
     }
@@ -5725,7 +5816,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-05T15:31:46.959Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-05T15:50:06.713Z",
+    "featureCount": 49
   }
 }
