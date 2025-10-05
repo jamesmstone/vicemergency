@@ -529,32 +529,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1664632",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Premier Drive, Naracoorte",
-        "id": "1664632",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Premier Drive, Naracoorte",
-        "created": "2025-10-05T11:39:00.000Z",
-        "updated": "2025-10-05T11:39:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Premier Drive, Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.743651940615,
-          -36.946482837149
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -609,65 +583,96 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121338517,
+        "status": "Responding",
+        "estaId": 121338821,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251006098",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Produce Dr",
-        "eventId": "251006098",
-        "id": "ESTA:251006098",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121338821,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Harkness",
+        "eventId": "F251006105",
+        "id": "ESTA:251006105",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-05T12:44:12.000Z",
-        "updated": "2025-10-05T12:44:12.000Z",
-        "resources": 2,
-        "location": "Produce Dr, Epping",
-        "mfbId": "251006098",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-10-05T13:13:39.000Z",
+        "updated": "2025-10-05T13:16:51.285Z",
+        "resources": 0,
+        "location": "Roslyn Park Dr, Harkness"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99704198946287,
-          -37.65473933911675
+          144.56997360032503,
+          -37.663540029676945
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121338489,
+        "estaId": 121338816,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251006097",
+        "sourceId": "251006104",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Webb Dock Dr",
-        "eventId": "251006097",
-        "id": "ESTA:251006097",
+        "sourceTitle": "Roslyn Park Dr",
+        "eventId": "251006104",
+        "id": "ESTA:251006104",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-05T12:28:14.000Z",
-        "updated": "2025-10-05T12:28:14.000Z",
-        "resources": 3,
-        "location": "Webb Dock Dr, Port Melbourne",
-        "mfbId": "251006097",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-05T13:20:33.000Z",
+        "updated": "2025-10-05T13:20:33.000Z",
+        "resources": 2,
+        "location": "Roslyn Park Dr, Harkness",
+        "cfaId": 239510,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251006104"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91138554780773,
-          -37.837624527877125
+          144.5699716400686,
+          -37.66354554234052
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121338869,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006107",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": "251006107",
+        "id": "ESTA:251006107",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-05T13:24:55.000Z",
+        "updated": "2025-10-05T13:24:55.000Z",
+        "resources": 1,
+        "location": "Princes Hwy, Beaconsfield",
+        "cfaId": 239511,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251006107"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38525503948645,
+          -38.05522424984249
         ]
       }
     },
@@ -677,253 +682,22 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/295e695a734b413b48b1b549aabc7a67",
+        "sourceId": "IDV20600/2cd04b1cf107ef59c0e2200af285eef1",
         "sourceFeed": "bom-idv20600",
-        "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/295e695a734b413b48b1b549aabc7a67",
+        "sourceTitle": "Gale Warning",
+        "id": "IDV20600/2cd04b1cf107ef59c0e2200af285eef1",
         "category1": "Met",
-        "category2": "Strong Wind",
-        "name": "Strong Wind Warning",
-        "created": "2025-10-05T11:00:00.000Z",
-        "webHeadline": "Strong Wind Warning",
+        "category2": "Gale Wind",
+        "name": "Gale Warning",
+        "created": "2025-10-05T13:00:00.000Z",
+        "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
-        "location": "Port Phillip, Western Port, West Coast, Central Coast, Central Gippsland Coast and East Gippsland Coast"
+        "location": "Central Coast, Central Gippsland Coast and East Gippsland Coast"
       },
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  143.5115,
-                  -38.856
-                ],
-                [
-                  143.5115,
-                  -39.536
-                ],
-                [
-                  140.9658,
-                  -39.2861
-                ],
-                [
-                  140.9658,
-                  -38.0563
-                ],
-                [
-                  141.1452,
-                  -38.1239
-                ],
-                [
-                  141.1486,
-                  -38.1254
-                ],
-                [
-                  141.2642,
-                  -38.1959
-                ],
-                [
-                  141.2728,
-                  -38.2018
-                ],
-                [
-                  141.3802,
-                  -38.3016
-                ],
-                [
-                  141.3858,
-                  -38.3084
-                ],
-                [
-                  141.3984,
-                  -38.3378
-                ],
-                [
-                  141.3643,
-                  -38.3751
-                ],
-                [
-                  141.3641,
-                  -38.3755
-                ],
-                [
-                  141.4066,
-                  -38.397
-                ],
-                [
-                  141.4089,
-                  -38.3779
-                ],
-                [
-                  141.4066,
-                  -38.3703
-                ],
-                [
-                  141.4227,
-                  -38.3627
-                ],
-                [
-                  141.4483,
-                  -38.36
-                ],
-                [
-                  141.5185,
-                  -38.3894
-                ],
-                [
-                  141.5205,
-                  -38.3905
-                ],
-                [
-                  141.5216,
-                  -38.4142
-                ],
-                [
-                  141.5214,
-                  -38.4144
-                ],
-                [
-                  141.5433,
-                  -38.4327
-                ],
-                [
-                  141.566,
-                  -38.4042
-                ],
-                [
-                  141.5731,
-                  -38.3906
-                ],
-                [
-                  141.626,
-                  -38.4063
-                ],
-                [
-                  141.6263,
-                  -38.4065
-                ],
-                [
-                  141.6274,
-                  -38.3939
-                ],
-                [
-                  141.6502,
-                  -38.3928
-                ],
-                [
-                  141.6002,
-                  -38.3215
-                ],
-                [
-                  141.6021,
-                  -38.3128
-                ],
-                [
-                  141.7358,
-                  -38.2538
-                ],
-                [
-                  141.7388,
-                  -38.2534
-                ],
-                [
-                  141.9299,
-                  -38.2782
-                ],
-                [
-                  142.1428,
-                  -38.3882
-                ],
-                [
-                  142.1447,
-                  -38.3902
-                ],
-                [
-                  142.2406,
-                  -38.3945
-                ],
-                [
-                  142.2481,
-                  -38.375
-                ],
-                [
-                  142.2694,
-                  -38.3632
-                ],
-                [
-                  142.3777,
-                  -38.3512
-                ],
-                [
-                  142.3784,
-                  -38.3512
-                ],
-                [
-                  142.4706,
-                  -38.4015
-                ],
-                [
-                  142.475,
-                  -38.4042
-                ],
-                [
-                  142.4895,
-                  -38.3939
-                ],
-                [
-                  142.4905,
-                  -38.3937
-                ],
-                [
-                  142.5632,
-                  -38.4215
-                ],
-                [
-                  142.859,
-                  -38.603
-                ],
-                [
-                  142.8591,
-                  -38.6046
-                ],
-                [
-                  143.0351,
-                  -38.6313
-                ],
-                [
-                  143.1247,
-                  -38.6786
-                ],
-                [
-                  143.2228,
-                  -38.7598
-                ],
-                [
-                  143.2344,
-                  -38.7666
-                ],
-                [
-                  143.3579,
-                  -38.7547
-                ],
-                [
-                  143.4218,
-                  -38.7824
-                ],
-                [
-                  143.4274,
-                  -38.783
-                ],
-                [
-                  143.5115,
-                  -38.856
-                ]
-              ]
-            ]
-          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -1932,6 +1706,286 @@
             ]
           },
           {
+            "type": "Point",
+            "coordinates": [
+              144.94338504700005,
+              -38.96782901249995
+            ],
+            "name": "Central Coast"
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              147.09181622350008,
+              -38.802163810499934
+            ],
+            "name": "Central Gippsland Coast"
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.50811274100005,
+              -38.59273152499995
+            ],
+            "name": "East Gippsland Coast"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Warning",
+        "feedType": "incident",
+        "sourceOrg": "AU/BOM",
+        "sourceId": "IDV20600/4baf7a02471eb9820bbc4029ffdfa577",
+        "sourceFeed": "bom-idv20600",
+        "sourceTitle": "Strong Wind Warning",
+        "id": "IDV20600/4baf7a02471eb9820bbc4029ffdfa577",
+        "category1": "Met",
+        "category2": "Strong Wind",
+        "name": "Strong Wind Warning",
+        "created": "2025-10-05T13:00:00.000Z",
+        "webHeadline": "Strong Wind Warning",
+        "webBody": null,
+        "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
+        "location": "Port Phillip, Western Port and West Coast"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  143.5115,
+                  -38.856
+                ],
+                [
+                  143.5115,
+                  -39.536
+                ],
+                [
+                  140.9658,
+                  -39.2861
+                ],
+                [
+                  140.9658,
+                  -38.0563
+                ],
+                [
+                  141.1452,
+                  -38.1239
+                ],
+                [
+                  141.1486,
+                  -38.1254
+                ],
+                [
+                  141.2642,
+                  -38.1959
+                ],
+                [
+                  141.2728,
+                  -38.2018
+                ],
+                [
+                  141.3802,
+                  -38.3016
+                ],
+                [
+                  141.3858,
+                  -38.3084
+                ],
+                [
+                  141.3984,
+                  -38.3378
+                ],
+                [
+                  141.3643,
+                  -38.3751
+                ],
+                [
+                  141.3641,
+                  -38.3755
+                ],
+                [
+                  141.4066,
+                  -38.397
+                ],
+                [
+                  141.4089,
+                  -38.3779
+                ],
+                [
+                  141.4066,
+                  -38.3703
+                ],
+                [
+                  141.4227,
+                  -38.3627
+                ],
+                [
+                  141.4483,
+                  -38.36
+                ],
+                [
+                  141.5185,
+                  -38.3894
+                ],
+                [
+                  141.5205,
+                  -38.3905
+                ],
+                [
+                  141.5216,
+                  -38.4142
+                ],
+                [
+                  141.5214,
+                  -38.4144
+                ],
+                [
+                  141.5433,
+                  -38.4327
+                ],
+                [
+                  141.566,
+                  -38.4042
+                ],
+                [
+                  141.5731,
+                  -38.3906
+                ],
+                [
+                  141.626,
+                  -38.4063
+                ],
+                [
+                  141.6263,
+                  -38.4065
+                ],
+                [
+                  141.6274,
+                  -38.3939
+                ],
+                [
+                  141.6502,
+                  -38.3928
+                ],
+                [
+                  141.6002,
+                  -38.3215
+                ],
+                [
+                  141.6021,
+                  -38.3128
+                ],
+                [
+                  141.7358,
+                  -38.2538
+                ],
+                [
+                  141.7388,
+                  -38.2534
+                ],
+                [
+                  141.9299,
+                  -38.2782
+                ],
+                [
+                  142.1428,
+                  -38.3882
+                ],
+                [
+                  142.1447,
+                  -38.3902
+                ],
+                [
+                  142.2406,
+                  -38.3945
+                ],
+                [
+                  142.2481,
+                  -38.375
+                ],
+                [
+                  142.2694,
+                  -38.3632
+                ],
+                [
+                  142.3777,
+                  -38.3512
+                ],
+                [
+                  142.3784,
+                  -38.3512
+                ],
+                [
+                  142.4706,
+                  -38.4015
+                ],
+                [
+                  142.475,
+                  -38.4042
+                ],
+                [
+                  142.4895,
+                  -38.3939
+                ],
+                [
+                  142.4905,
+                  -38.3937
+                ],
+                [
+                  142.5632,
+                  -38.4215
+                ],
+                [
+                  142.859,
+                  -38.603
+                ],
+                [
+                  142.8591,
+                  -38.6046
+                ],
+                [
+                  143.0351,
+                  -38.6313
+                ],
+                [
+                  143.1247,
+                  -38.6786
+                ],
+                [
+                  143.2228,
+                  -38.7598
+                ],
+                [
+                  143.2344,
+                  -38.7666
+                ],
+                [
+                  143.3579,
+                  -38.7547
+                ],
+                [
+                  143.4218,
+                  -38.7824
+                ],
+                [
+                  143.4274,
+                  -38.783
+                ],
+                [
+                  143.5115,
+                  -38.856
+                ]
+              ]
+            ]
+          },
+          {
             "type": "Polygon",
             "coordinates": [
               [
@@ -2570,30 +2624,6 @@
               -38.79615925999997
             ],
             "name": "West Coast"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.94338504700005,
-              -38.96782901249995
-            ],
-            "name": "Central Coast"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              147.09181622350008,
-              -38.802163810499934
-            ],
-            "name": "Central Gippsland Coast"
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.50811274100005,
-              -38.59273152499995
-            ],
-            "name": "East Gippsland Coast"
           },
           {
             "type": "Point",
@@ -5363,6 +5393,33 @@
           -38.28592916659959
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 581588,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581588,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050356,
+        "id": "ESTA:251050356",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-05T13:02:55.000Z",
+        "updated": "2025-10-05T13:04:02.000Z",
+        "resources": 0,
+        "location": "Cape Otway"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.57571159167256,
+          -38.738992383694914
+        ]
+      }
     }
   ],
   "properties": {
@@ -5373,10 +5430,10 @@
         "North East": "MODERATE",
         "Central": "MODERATE",
         "North Central": "MODERATE",
-        "Northern Country": "MODERATE",
+        "Northern Country": "NO FORECAST",
         "South West": "NO FORECAST",
-        "Wimmera": "HIGH",
-        "Mallee": "HIGH"
+        "Wimmera": "NO FORECAST",
+        "Mallee": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -5390,53 +5447,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "East Gippsland": "MODERATE",
-            "West and South Gippsland": "MODERATE",
-            "North East": "MODERATE",
-            "Central": "MODERATE",
-            "North Central": "MODERATE",
-            "Northern Country": "MODERATE",
-            "South West": "NO FORECAST",
-            "Wimmera": "HIGH",
-            "Mallee": "HIGH"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2025-10-04T14:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Not Declared"
-          },
-          "asthma": {
-            "Mallee": "Minor",
-            "Wimmera": "Minor",
-            "Northern Country": "Minor",
-            "North East": "Minor",
-            "East Gippsland": "Minor",
-            "West and South Gippsland": "Minor",
-            "Central": "Minor",
-            "North Central": "Minor",
-            "South West": "Minor"
-          }
-        },
         {
           "fdr": {
             "East Gippsland": "MODERATE",
@@ -5520,15 +5530,15 @@
             "South West": "Not Declared"
           },
           "asthma": {
-            "Mallee": "None",
-            "Wimmera": "None",
-            "Northern Country": "None",
-            "North East": "None",
-            "East Gippsland": "None",
-            "West and South Gippsland": "None",
-            "Central": "None",
-            "North Central": "None",
-            "South West": "None"
+            "Mallee": "Minor",
+            "Wimmera": "Minor",
+            "Northern Country": "Minor",
+            "North East": "Minor",
+            "East Gippsland": "Minor",
+            "West and South Gippsland": "Minor",
+            "Central": "Minor",
+            "North Central": "Minor",
+            "South West": "Minor"
           }
         },
         {
@@ -5555,6 +5565,53 @@
             "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-07T13:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "East Gippsland": "MODERATE",
+            "West and South Gippsland": "MODERATE",
+            "North East": "MODERATE",
+            "Central": "MODERATE",
+            "North Central": "MODERATE",
+            "Northern Country": "MODERATE",
+            "South West": "NO FORECAST",
+            "Wimmera": "MODERATE",
+            "Mallee": "MODERATE"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2025-10-08T13:00:00.000Z",
           "heat": {
             "Mallee": "Not Declared",
             "Wimmera": "Not Declared",
@@ -5592,7 +5649,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-05T12:47:46.628Z",
-    "featureCount": 41
+    "lastUpdated": "2025-10-05T13:25:46.896Z",
+    "featureCount": 43
   }
 }
