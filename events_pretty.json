@@ -583,34 +583,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121339172,
+        "status": "Under Control",
+        "estaId": 121338340,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251006112",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Beach Rd",
-        "eventId": "251006112",
-        "id": "ESTA:251006112",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239506,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251006089,
+        "id": "ESTA:251006089",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-05T14:15:27.000Z",
-        "updated": "2025-10-05T14:15:27.000Z",
-        "resources": 4,
-        "location": "Beach Rd, Avalon",
-        "cfaId": 239513,
+        "category2": "Bushfire",
+        "created": "2025-10-05T11:59:00.000Z",
+        "updated": "2025-10-05T14:25:00.000Z",
+        "resources": 1,
+        "location": "Cobden",
+        "cfaId": 239506,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251006112"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.47354801761202,
-          -38.02661680077711
+          143.0898150409254,
+          -38.28592916659959
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121339265,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581589,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050358,
+        "id": "ESTA:251050358",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-05T14:26:43.000Z",
+        "updated": "2025-10-05T14:26:59.000Z",
+        "resources": 0,
+        "location": "Meeniyan",
+        "sesId": 581589
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.03262106391108,
+          -38.56536472656609
         ]
       }
     },
@@ -5305,35 +5334,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 239506,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239506,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251006089,
-        "id": "ESTA:251006089",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-05T11:59:00.000Z",
-        "updated": "2025-10-05T11:59:00.000Z",
-        "resources": 2,
-        "location": "Cobden",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.0898150409254,
-          -38.28592916659959
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 239511,
         "feedType": "incident",
@@ -5387,6 +5387,94 @@
         "coordinates": [
           144.5699657564239,
           -37.663545754814244
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 239513,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006112",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Beach Rd",
+        "eventId": "251006112",
+        "id": "ESTA:251006112",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-05T14:15:27.000Z",
+        "updated": "2025-10-05T14:15:27.000Z",
+        "resources": 4,
+        "location": "Beach Rd, Avalon",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251006112"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.47354801761202,
+          -38.02661680077711
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "251006115",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006115",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cooper St",
+        "id": "ESTA:251006115",
+        "eventId": "251006115",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-05T14:30:35.000Z",
+        "updated": "2025-10-05T14:30:35.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Cooper St, Somerton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95354016813206,
+          -37.643331918577644
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "251006114",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006114",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Olive York Way",
+        "id": "ESTA:251006114",
+        "eventId": "251006114",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-05T14:26:56.000Z",
+        "updated": "2025-10-05T14:26:56.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Olive York Way, Brunswick West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93998703835737,
+          -37.75825420517803
         ]
       }
     },
@@ -5645,7 +5733,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-05T14:21:26.684Z",
-    "featureCount": 43
+    "lastUpdated": "2025-10-05T14:32:01.372Z",
+    "featureCount": 46
   }
 }
