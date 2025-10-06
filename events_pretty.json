@@ -300,33 +300,62 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121350847,
+        "estaId": 121350985,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251007145",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Crane Ct",
-        "eventId": "251007145",
-        "id": "ESTA:251007145",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239645,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rickards Av",
+        "eventId": 251007149,
+        "id": "ESTA:251007149",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-06T13:28:44.000Z",
-        "updated": "2025-10-06T13:28:44.000Z",
-        "resources": 2,
-        "location": "Crane Ct, Mooroopna",
-        "cfaId": 239644,
+        "category2": "Other",
+        "created": "2025-10-06T13:44:00.000Z",
+        "updated": "2025-10-06T13:44:00.000Z",
+        "resources": 0,
+        "location": "Rickards Av, Knoxfield",
+        "cfaId": 239645,
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251007145"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34749390777705,
-          -36.37841879111823
+          145.247002886146,
+          -37.89241648608929
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121350580,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581672,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050415,
+        "id": "ESTA:251050415",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-10-06T12:45:39.000Z",
+        "updated": "2025-10-06T13:48:54.000Z",
+        "resources": 0,
+        "location": "Oakleigh South",
+        "sesId": 581672
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08307320724526,
+          -37.92590748642189
         ]
       }
     },
@@ -1839,7 +1868,7 @@
         "category2": "Other",
         "created": "2025-10-06T13:02:00.000Z",
         "updated": "2025-10-06T13:18:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Hume Fwy, Balmattum",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1856,29 +1885,29 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "251007144",
+        "cfaId": 239644,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251007144",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Adam Av",
-        "id": "ESTA:251007144",
-        "eventId": "251007144",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239644,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Crane Ct",
+        "eventId": 251007145,
+        "id": "ESTA:251007145",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-06T13:28:38.000Z",
-        "updated": "2025-10-06T13:28:38.000Z",
-        "resources": 1,
+        "created": "2025-10-06T13:25:00.000Z",
+        "updated": "2025-10-06T13:38:00.000Z",
+        "resources": 0,
+        "location": "Crane Ct, Mooroopna",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Adam Av, Hallam"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26203535670714,
-          -37.99731991611851
+          145.34749166833686,
+          -36.37841888182933
         ]
       }
     },
@@ -1896,8 +1925,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-10-06T13:16:44.000Z",
-        "updated": "2025-10-06T13:17:11.000Z",
-        "resources": 0,
+        "updated": "2025-10-06T13:33:47.000Z",
+        "resources": 1,
         "location": "Strathmore"
       },
       "type": "Feature",
@@ -1906,33 +1935,6 @@
         "coordinates": [
           144.92644208546963,
           -37.737483970344925
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 581672,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581672,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050415,
-        "id": "ESTA:251050415",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-10-06T12:45:39.000Z",
-        "updated": "2025-10-06T13:26:56.000Z",
-        "resources": 1,
-        "location": "Oakleigh South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08307320724526,
-          -37.92590748642189
         ]
       }
     }
@@ -2164,7 +2166,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-06T13:34:21.382Z",
+    "lastUpdated": "2025-10-06T13:51:21.790Z",
     "featureCount": 40
   }
 }
