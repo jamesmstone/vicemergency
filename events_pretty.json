@@ -273,65 +273,34 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121346516,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239597,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mornington Peninsula Fwy",
-        "eventId": 251006846,
-        "id": "ESTA:251006846",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-10-06T05:14:00.000Z",
-        "updated": "2025-10-06T05:16:00.000Z",
-        "resources": 0,
-        "location": "Mornington Peninsula Fwy, Safety Beach",
-        "cfaId": 239597,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98917219864407,
-          -38.32986066044803
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 121346571,
+        "estaId": 121346744,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239598,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "The Gateway -",
-        "eventId": 251006853,
-        "id": "ESTA:251006853",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006868",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Evergreen Dr",
+        "eventId": "251006868",
+        "id": "ESTA:251006868",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-10-06T05:20:00.000Z",
-        "updated": "2025-10-06T05:20:00.000Z",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-06T05:36:16.000Z",
+        "updated": "2025-10-06T05:36:16.000Z",
         "resources": 2,
-        "location": "The Gateway -, Lilydale",
-        "cfaId": 239598,
+        "location": "Evergreen Dr, South Morang",
+        "cfaId": 239599,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251006868"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34578333033232,
-          -37.74519864993961
+          145.09215232557946,
+          -37.63665560019306
         ]
       }
     },
@@ -1512,35 +1481,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239581,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239581,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251006689,
-        "id": "ESTA:251006689",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-06T03:10:00.000Z",
-        "updated": "2025-10-06T04:32:00.000Z",
-        "resources": 0,
-        "location": "Narre Warren",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.30919992538534,
-          -38.01388015796696
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 239588,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1582,7 +1522,7 @@
         "category2": "Rescue Road Trap",
         "created": "2025-10-06T04:22:37.000Z",
         "updated": "2025-10-06T04:41:07.000Z",
-        "resources": 7,
+        "resources": 6,
         "location": "Bullengarook",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1700,7 +1640,7 @@
         "category2": "Other",
         "created": "2025-10-06T05:16:02.000Z",
         "updated": "2025-10-06T05:16:02.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Fieldstone, Fieldstone",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1712,6 +1652,64 @@
         "coordinates": [
           144.65059507587762,
           -37.744758241400156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239597,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239597,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mornington Peninsula Fwy",
+        "eventId": 251006846,
+        "id": "ESTA:251006846",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-06T05:14:00.000Z",
+        "updated": "2025-10-06T05:16:00.000Z",
+        "resources": 0,
+        "location": "Mornington Peninsula Fwy, Safety Beach",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98917219864407,
+          -38.32986066044803
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 239598,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239598,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "The Gateway -",
+        "eventId": 251006853,
+        "id": "ESTA:251006853",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-06T05:20:00.000Z",
+        "updated": "2025-10-06T05:31:00.000Z",
+        "resources": 2,
+        "location": "The Gateway -, Lilydale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34578333033232,
+          -37.74519864993961
         ]
       }
     },
@@ -1770,6 +1768,35 @@
         "coordinates": [
           145.07395571449675,
           -37.93866987993005
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251006856",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251006856",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Olympus Dr",
+        "id": "ESTA:251006856",
+        "eventId": "251006856",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-06T05:36:23.000Z",
+        "updated": "2025-10-06T05:36:23.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Olympus Dr, Croydon South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28322307681648,
+          -37.81569902890379
         ]
       }
     },
@@ -2057,7 +2084,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-06T05:25:41.405Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-06T05:38:41.595Z",
+    "featureCount": 47
   }
 }
