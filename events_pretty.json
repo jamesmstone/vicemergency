@@ -513,66 +513,34 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121352149,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581677,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251007184,
-        "id": "ESTA:251007184",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-10-06T17:56:39.000Z",
-        "updated": "2025-10-06T18:48:39.000Z",
-        "resources": 2,
-        "location": "Berwick",
-        "cfaId": 239659,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 581677
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36821140806532,
-          -38.06182856777703
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121352319,
         "feedType": "incident",
         "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239661,
-        "sourceFeed": "cfa-incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251007187",
+        "sourceFeed": "mfb-incident",
         "sourceTitle": "Hickson Rd",
-        "eventId": 251007187,
+        "eventId": "251007187",
         "id": "ESTA:251007187",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-06T18:50:00.000Z",
-        "updated": "2025-10-06T18:50:00.000Z",
-        "resources": 0,
+        "category2": "Structure Fire",
+        "created": "2025-10-06T19:14:00.000Z",
+        "updated": "2025-10-06T19:14:00.000Z",
+        "resources": 2,
         "location": "Hickson Rd, Officer",
         "cfaId": 239661,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251007187"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4098591075276,
-          -38.06770754911571
+          145.4098651462294,
+          -38.06770168563028
         ]
       }
     },
@@ -1671,8 +1639,8 @@
           {
             "type": "Point",
             "coordinates": [
-              141.81950333,
-              -34.1093904959999
+              141.819503784,
+              -34.109390259
             ]
           }
         ]
@@ -1768,6 +1736,93 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 239659,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239659,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251007184,
+        "id": "ESTA:251007184",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-06T17:57:00.000Z",
+        "updated": "2025-10-06T18:29:00.000Z",
+        "resources": 0,
+        "location": "Berwick",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36821140806532,
+          -38.06182856777703
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251007189",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251007189",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Albans",
+        "id": "ESTA:251007189",
+        "eventId": "251007189",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-06T19:04:05.000Z",
+        "updated": "2025-10-06T19:04:05.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "St Albans, St Albans"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.79993324056505,
+          -37.744235476380936
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251007192",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251007192",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Chatham Rd",
+        "id": "ESTA:251007192",
+        "eventId": "251007192",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-06T19:14:22.000Z",
+        "updated": "2025-10-06T19:14:22.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Chatham Rd, Canterbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0863924727187,
+          -37.82191272996933
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "251007162",
         "feedType": "incident",
@@ -1781,7 +1836,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-06T18:22:54.000Z",
         "updated": "2025-10-06T18:22:54.000Z",
-        "resources": 10,
+        "resources": 9,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Vida St, Aberfeldie"
@@ -2023,7 +2078,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-06T18:52:21.425Z",
-    "featureCount": 38
+    "lastUpdated": "2025-10-06T19:20:01.268Z",
+    "featureCount": 40
   }
 }
