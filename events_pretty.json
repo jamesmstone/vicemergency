@@ -299,7 +299,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 121350781,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581673,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050416,
+        "id": "ESTA:251050416",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-06T13:16:44.000Z",
+        "updated": "2025-10-06T14:20:20.000Z",
+        "resources": 0,
+        "location": "Strathmore",
+        "sesId": 581673
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92644208546963,
+          -37.737483970344925
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 121350985,
         "feedType": "incident",
         "source": "000",
@@ -311,9 +341,9 @@
         "id": "ESTA:251007149",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-10-06T13:44:00.000Z",
-        "updated": "2025-10-06T13:44:00.000Z",
+        "updated": "2025-10-06T14:05:00.000Z",
         "resources": 0,
         "location": "Rickards Av, Knoxfield",
         "cfaId": 239645,
@@ -326,36 +356,6 @@
         "coordinates": [
           145.247002886146,
           -37.89241648608929
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 121350580,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581672,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050415,
-        "id": "ESTA:251050415",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-10-06T12:45:39.000Z",
-        "updated": "2025-10-06T13:48:54.000Z",
-        "resources": 0,
-        "location": "Oakleigh South",
-        "sesId": 581672
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08307320724526,
-          -37.92590748642189
         ]
       }
     },
@@ -1827,64 +1827,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 239642,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239642,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ronald St",
-        "eventId": 251007141,
-        "id": "ESTA:251007141",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-06T12:50:00.000Z",
-        "updated": "2025-10-06T12:58:00.000Z",
-        "resources": 0,
-        "location": "Ronald St, Tootgarook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.85399179315962,
-          -38.37323937149846
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239643,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239643,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 251007142,
-        "id": "ESTA:251007142",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-06T13:02:00.000Z",
-        "updated": "2025-10-06T13:18:00.000Z",
-        "resources": 0,
-        "location": "Hume Fwy, Balmattum",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.67760838401472,
-          -36.673768795559845
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 239644,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1913,28 +1855,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 581673,
+        "status": "Under Control",
+        "mfbId": "251007151",
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581673,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050416,
-        "id": "ESTA:251050416",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-06T13:16:44.000Z",
-        "updated": "2025-10-06T13:33:47.000Z",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251007151",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Elizabeth St",
+        "id": "ESTA:251007151",
+        "eventId": "251007151",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-06T14:21:42.000Z",
+        "updated": "2025-10-06T14:21:42.000Z",
         "resources": 1,
-        "location": "Strathmore"
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Elizabeth St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92644208546963,
-          -37.737483970344925
+          144.95838173486462,
+          -37.80286233286694
         ]
       }
     }
@@ -2166,7 +2110,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-06T13:51:21.790Z",
-    "featureCount": 40
+    "lastUpdated": "2025-10-06T14:27:07.398Z",
+    "featureCount": 38
   }
 }
