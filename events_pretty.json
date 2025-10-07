@@ -232,7 +232,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121362754,
         "feedType": "incident",
         "source": "STATION",
@@ -246,8 +246,8 @@
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
         "created": "2025-10-07T11:24:00.000Z",
-        "updated": "2025-10-07T11:24:00.000Z",
-        "resources": 0,
+        "updated": "2025-10-07T11:40:00.000Z",
+        "resources": 1,
         "location": "Crofton St, Benalla",
         "cfaId": 239787,
         "size": "Small",
@@ -264,52 +264,23 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121362116,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121362116,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Lake Hume Village (Nsw)",
-        "eventId": "F251008197",
-        "id": "ESTA:251008197",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-07T10:04:23.000Z",
-        "updated": "2025-10-07T11:24:22.941Z",
-        "resources": 0,
-        "location": "Riverina Hwy, Lake Hume Village (Nsw)"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.03302576461573,
-          -36.08172227955563
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121362765,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/FRV",
         "sourceId": "251008219",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hovell St",
+        "sourceTitle": "Wodonga",
         "eventId": "251008219",
         "id": "ESTA:251008219",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-10-07T11:25:12.000Z",
-        "updated": "2025-10-07T11:25:12.000Z",
-        "resources": 2,
-        "location": "Hovell St, Wodonga",
+        "created": "2025-10-07T11:42:55.000Z",
+        "updated": "2025-10-07T11:42:55.000Z",
+        "resources": 5,
+        "location": "Wodonga, Wodonga",
         "cfaId": 239788,
         "size": "Small",
         "sizeFmt": "Small",
@@ -319,8 +290,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.8932021322996,
-          -36.11730934420547
+          146.89408295746605,
+          -36.1160782035681
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121362834,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581735,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251008224,
+        "id": "ESTA:251008224",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-07T11:32:57.000Z",
+        "updated": "2025-10-07T11:39:27.000Z",
+        "resources": 3,
+        "location": "Churchill",
+        "cfaId": 239789,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251008224",
+        "sesId": 581735
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.42142340273227,
+          -38.323100280182715
         ]
       }
     },
@@ -1100,35 +1105,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 239784,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239784,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251008208,
-        "id": "ESTA:251008208",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T10:54:00.000Z",
-        "updated": "2025-10-07T11:17:00.000Z",
-        "resources": 2,
-        "location": "Yellingbo",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.52756495412603,
-          -37.8478829353519
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 239781,
         "feedType": "incident",
@@ -1153,6 +1129,35 @@
         "coordinates": [
           144.58466216857516,
           -37.67037201182914
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239784,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239784,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251008208,
+        "id": "ESTA:251008208",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-07T10:54:00.000Z",
+        "updated": "2025-10-07T11:47:00.000Z",
+        "resources": 0,
+        "location": "Yellingbo",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.52756495412603,
+          -37.8478829353519
         ]
       }
     },
@@ -1187,59 +1192,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "251008211",
+        "status": "Request For Assistance",
+        "sesId": 581734,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251008211",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Milton St",
-        "id": "ESTA:251008211",
-        "eventId": "251008211",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T11:19:31.000Z",
-        "updated": "2025-10-07T11:19:31.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581734,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050475,
+        "id": "ESTA:251050475",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-07T11:32:58.000Z",
+        "updated": "2025-10-07T11:39:27.000Z",
         "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Milton St, Nunawading"
+        "location": "Churchill"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16731075836464,
-          -37.82727826168005
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "251008214",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251008214",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "High St",
-        "id": "ESTA:251008214",
-        "eventId": "251008214",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T11:29:25.000Z",
-        "updated": "2025-10-07T11:29:25.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "High St, Mount Waverley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14708791648798,
-          -37.87222819621009
+          146.42142340273227,
+          -38.323100280182715
         ]
       }
     }
@@ -1471,7 +1445,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-07T11:30:21.239Z",
-    "featureCount": 43
+    "lastUpdated": "2025-10-07T11:50:26.111Z",
+    "featureCount": 42
   }
 }
