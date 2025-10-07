@@ -233,29 +233,94 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121362728,
+        "estaId": 121362754,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121362728,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mount Waverley",
-        "eventId": "F251008214",
-        "id": "ESTA:251008214",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239787,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Crofton St",
+        "eventId": 251008218,
+        "id": "ESTA:251008218",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T11:20:12.000Z",
-        "updated": "2025-10-07T11:20:19.123Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-07T11:24:00.000Z",
+        "updated": "2025-10-07T11:24:00.000Z",
         "resources": 0,
-        "location": "High St, Mount Waverley"
+        "location": "Crofton St, Benalla",
+        "cfaId": 239787,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.14708824911142,
-          -37.872225684820805
+          145.9698362195223,
+          -36.55732050661222
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121362116,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121362116,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Lake Hume Village (Nsw)",
+        "eventId": "F251008197",
+        "id": "ESTA:251008197",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-07T10:04:23.000Z",
+        "updated": "2025-10-07T11:24:22.941Z",
+        "resources": 0,
+        "location": "Riverina Hwy, Lake Hume Village (Nsw)"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.03302576461573,
+          -36.08172227955563
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121362765,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008219",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hovell St",
+        "eventId": "251008219",
+        "id": "ESTA:251008219",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-07T11:25:12.000Z",
+        "updated": "2025-10-07T11:25:12.000Z",
+        "resources": 2,
+        "location": "Hovell St, Wodonga",
+        "cfaId": 239788,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251008219"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8932021322996,
+          -36.11730934420547
         ]
       }
     },
@@ -1006,65 +1071,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 239781,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251008193",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Numering Ct",
-        "eventId": "251008193",
-        "id": "ESTA:251008193",
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-07T10:07:19.000Z",
-        "updated": "2025-10-07T10:07:19.000Z",
-        "resources": 1,
-        "location": "Numering Ct, Kurunjang",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251008193"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.58466946326337,
-          -37.67036441901402
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239780,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239780,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Davisson St",
-        "eventId": 251008191,
-        "id": "ESTA:251008191",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T09:58:00.000Z",
-        "updated": "2025-10-07T10:25:00.000Z",
-        "resources": 0,
-        "location": "Davisson St, Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03102300252246,
-          -37.64615683141061
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 239783,
         "feedType": "incident",
@@ -1123,6 +1129,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 239781,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239781,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Numering Ct",
+        "eventId": 251008193,
+        "id": "ESTA:251008193",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-07T09:59:00.000Z",
+        "updated": "2025-10-07T11:23:00.000Z",
+        "resources": 1,
+        "location": "Numering Ct, Kurunjang",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58466216857516,
+          -37.67037201182914
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "251007963",
         "feedType": "incident",
@@ -1176,6 +1211,35 @@
         "coordinates": [
           145.16731075836464,
           -37.82727826168005
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251008214",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008214",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "High St",
+        "id": "ESTA:251008214",
+        "eventId": "251008214",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-07T11:29:25.000Z",
+        "updated": "2025-10-07T11:29:25.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "High St, Mount Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14708791648798,
+          -37.87222819621009
         ]
       }
     }
@@ -1407,7 +1471,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-07T11:21:06.456Z",
-    "featureCount": 41
+    "lastUpdated": "2025-10-07T11:30:21.239Z",
+    "featureCount": 43
   }
 }
