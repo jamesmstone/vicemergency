@@ -258,7 +258,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121365182,
         "feedType": "incident",
         "source": "000",
@@ -269,11 +269,11 @@
         "eventId": "251008306",
         "id": "ESTA:251008306",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-10-07T20:16:57.000Z",
-        "updated": "2025-10-07T20:16:57.000Z",
-        "resources": 2,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-07T20:38:50.000Z",
+        "updated": "2025-10-07T20:38:50.000Z",
+        "resources": 4,
         "location": "College St, Wangaratta",
         "cfaId": 239805,
         "size": "Small",
@@ -291,53 +291,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121365200,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121365200,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wangaratta",
-        "eventId": "F251008311",
-        "id": "ESTA:251008311",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-07T20:17:49.000Z",
-        "updated": "2025-10-07T20:20:59.998Z",
-        "resources": 0,
-        "location": "College St, Wangaratta"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.3167897526079,
-          -36.3387916306783
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121365205,
+        "status": "Safe",
+        "estaId": 121365014,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239806,
+        "sourceId": 239802,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cherry Ct",
-        "eventId": 251008313,
-        "id": "ESTA:251008313",
+        "sourceTitle": "Howe St",
+        "eventId": 251008289,
+        "id": "ESTA:251008289",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T20:21:00.000Z",
-        "updated": "2025-10-07T20:21:00.000Z",
-        "resources": 0,
-        "location": "Cherry Ct, Darley",
-        "cfaId": 239806,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-07T19:26:00.000Z",
+        "updated": "2025-10-07T20:44:00.000Z",
+        "resources": 1,
+        "location": "Howe St, Miners Rest",
+        "cfaId": 239802,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -345,8 +316,102 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.43884352530762,
-          -37.6597155756882
+          143.79981415411095,
+          -37.47714560127209
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121365328,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008333",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Frank St",
+        "eventId": "251008333",
+        "id": "ESTA:251008333",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-07T20:46:53.000Z",
+        "updated": "2025-10-07T20:46:53.000Z",
+        "resources": 2,
+        "location": "Frank St, Frankston",
+        "cfaId": 239807,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251008333"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1444290672659,
+          -38.13987884781318
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121365318,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008331",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cheddar Rd",
+        "eventId": "251008331",
+        "id": "ESTA:251008331",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-07T20:48:47.000Z",
+        "updated": "2025-10-07T20:48:47.000Z",
+        "resources": 2,
+        "location": "Cheddar Rd, Reservoir",
+        "mfbId": "251008331",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.019414178365,
+          -37.69934894911587
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121365349,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121365349,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "S251050482",
+        "id": "ESTA:251050482",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-07T20:48:30.000Z",
+        "updated": "2025-10-07T20:49:59.810Z",
+        "resources": 0,
+        "location": "Cheddar Rd, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0194207485205,
+          -37.699345808984845
         ]
       }
     },
@@ -1490,35 +1555,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239801,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239801,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mceachern Ct",
-        "eventId": 251008282,
-        "id": "ESTA:251008282",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-07T19:11:00.000Z",
-        "updated": "2025-10-07T19:34:00.000Z",
-        "resources": 0,
-        "location": "Mceachern Ct, West Wodonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.86049591378517,
-          -36.13318687872464
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 239804,
         "feedType": "incident",
@@ -1549,21 +1585,21 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 239802,
+        "status": "Safe",
+        "cfaId": 239806,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239802,
+        "sourceId": 239806,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Howe St",
-        "eventId": 251008289,
-        "id": "ESTA:251008289",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-07T19:26:00.000Z",
-        "updated": "2025-10-07T19:39:00.000Z",
-        "resources": 2,
-        "location": "Howe St, Miners Rest",
+        "sourceTitle": "Cherry Ct",
+        "eventId": 251008313,
+        "id": "ESTA:251008313",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-07T20:21:00.000Z",
+        "updated": "2025-10-07T20:32:00.000Z",
+        "resources": 0,
+        "location": "Cherry Ct, Darley",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1571,8 +1607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.79981415411095,
-          -37.47714560127209
+          144.43884352530762,
+          -37.6597155756882
         ]
       }
     },
@@ -1591,7 +1627,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-07T19:35:13.000Z",
         "updated": "2025-10-07T19:35:13.000Z",
-        "resources": 5,
+        "resources": 0,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Galada Av, Parkville"
@@ -1629,6 +1665,33 @@
         "coordinates": [
           145.06419621397174,
           -37.90214976777766
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 581742,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581742,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050481,
+        "id": "ESTA:251050481",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-10-07T20:44:43.000Z",
+        "updated": "2025-10-07T20:44:43.000Z",
+        "resources": 0,
+        "location": "Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01940864591896,
+          -37.69934958972127
         ]
       }
     }
@@ -1860,7 +1923,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-07T20:27:41.327Z",
-    "featureCount": 43
+    "lastUpdated": "2025-10-07T20:50:06.343Z",
+    "featureCount": 45
   }
 }
