@@ -249,32 +249,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1664932",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "De Fontenay Road, Barmera",
-        "id": "1664932",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "De Fontenay Road, Barmera",
-        "created": "2025-10-07T19:36:00.000Z",
-        "updated": "2025-10-07T19:36:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "De Fontenay Road, Barmera"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.496388870324,
-          -34.2603310188978
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -356,24 +330,86 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121365595,
+        "status": "Safe",
+        "estaId": 121365014,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121365014,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Miners Rest",
+        "eventId": "F251008289",
+        "id": "ESTA:251008289",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-07T19:24:02.000Z",
+        "updated": "2025-10-07T21:36:21.469Z",
+        "resources": 0,
+        "location": "Howe St, Miners Rest"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.79981756353487,
+          -37.4771363204368
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121365785,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008404",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Minindee Rd",
+        "eventId": "251008404",
+        "id": "ESTA:251008404",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-07T21:47:37.000Z",
+        "updated": "2025-10-07T21:47:37.000Z",
+        "resources": 3,
+        "location": "Minindee Rd, Manor Lakes",
+        "cfaId": 239813,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251008404"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60281172668962,
+          -37.87674304351803
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121365811,
+        "feedType": "incident",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239812,
+        "sourceId": 239814,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251008371,
-        "id": "ESTA:251008371",
+        "sourceTitle": "Fraser Cr",
+        "eventId": 251008408,
+        "id": "ESTA:251008408",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-07T21:20:00.000Z",
-        "updated": "2025-10-07T21:20:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-10-07T21:42:00.000Z",
+        "updated": "2025-10-07T21:42:00.000Z",
         "resources": 2,
-        "location": "Woori Yallock",
-        "cfaId": 239812,
+        "location": "Fraser Cr, Wantirna South",
+        "cfaId": 239814,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -381,8 +417,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.53950432077292,
-          -37.775526446669375
+          145.23054342273906,
+          -37.87786808985504
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121365182,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251008306",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "College St",
+        "eventId": "251008306",
+        "id": "ESTA:251008306",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-07T21:47:27.000Z",
+        "updated": "2025-10-07T21:47:27.000Z",
+        "resources": 4,
+        "location": "College St, Wangaratta",
+        "cfaId": 239805,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251008306"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.31683270630705,
+          -36.33928032307055
         ]
       }
     },
@@ -1526,36 +1595,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 239805,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251008306",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "College St",
-        "eventId": "251008306",
-        "id": "ESTA:251008306",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-07T20:38:50.000Z",
-        "updated": "2025-10-07T20:38:50.000Z",
-        "resources": 4,
-        "location": "College St, Wangaratta",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251008306"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.31683270630705,
-          -36.33928032307055
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 239804,
         "feedType": "incident",
@@ -1581,64 +1620,6 @@
         "coordinates": [
           146.53104543968274,
           -36.123325438276844
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239806,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239806,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cherry Ct",
-        "eventId": 251008313,
-        "id": "ESTA:251008313",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T20:21:00.000Z",
-        "updated": "2025-10-07T20:32:00.000Z",
-        "resources": 0,
-        "location": "Cherry Ct, Darley",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.43884352530762,
-          -37.6597155756882
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239802,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239802,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Howe St",
-        "eventId": 251008289,
-        "id": "ESTA:251008289",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-07T19:26:00.000Z",
-        "updated": "2025-10-07T20:44:00.000Z",
-        "resources": 1,
-        "location": "Howe St, Miners Rest",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.79981415411095,
-          -37.47714560127209
         ]
       }
     },
@@ -1702,7 +1683,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 239811,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -1713,9 +1694,9 @@
         "id": "ESTA:251008367",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-10-07T21:16:37.000Z",
-        "updated": "2025-10-07T21:16:37.000Z",
-        "resources": 2,
+        "created": "2025-10-07T21:32:28.000Z",
+        "updated": "2025-10-07T21:32:28.000Z",
+        "resources": 1,
         "location": "The Waterways Bvd, Waterways",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1727,6 +1708,35 @@
         "coordinates": [
           145.13676655896106,
           -38.015924488745675
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 239812,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239812,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251008371,
+        "id": "ESTA:251008371",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-07T21:20:00.000Z",
+        "updated": "2025-10-07T21:43:00.000Z",
+        "resources": 0,
+        "location": "Woori Yallock",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.53950432077292,
+          -37.775526446669375
         ]
       }
     },
@@ -1756,35 +1766,6 @@
         "coordinates": [
           145.019414178365,
           -37.69934894911587
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "251008366",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251008366",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Springvale Rd",
-        "id": "ESTA:251008366",
-        "eventId": "251008366",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-07T21:22:14.000Z",
-        "updated": "2025-10-07T21:22:14.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Springvale Rd, Donvale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17946554526588,
-          -37.79396848717063
         ]
       }
     }
@@ -2016,7 +1997,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-07T21:31:41.006Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-07T21:50:01.505Z",
+    "featureCount": 45
   }
 }
