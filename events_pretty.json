@@ -206,29 +206,130 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121377421,
+        "estaId": 121377730,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121377421,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wildwood",
-        "eventId": "F251009315",
-        "id": "ESTA:251009315",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239940,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baranduda Bvd",
+        "eventId": 251009356,
+        "id": "ESTA:251009356",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-08T19:44:08.000Z",
-        "updated": "2025-10-08T20:13:18.473Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-08T20:44:00.000Z",
+        "updated": "2025-10-08T20:44:00.000Z",
         "resources": 0,
-        "location": "Wildwood"
+        "location": "Baranduda Bvd, Baranduda",
+        "cfaId": 239940,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.79565902181105,
-          -37.550049070388624
+          146.9337275661236,
+          -36.171737858771344
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121377744,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581797,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251009359,
+        "id": "ESTA:251009359",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-10-08T20:47:03.000Z",
+        "updated": "2025-10-08T20:48:00.000Z",
+        "resources": 0,
+        "location": "Wildwood",
+        "cfaId": 239941,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251009359",
+        "sesId": 581797
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.79024912271717,
+          -37.572716448904295
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121377733,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009357",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Peter St",
+        "eventId": "251009357",
+        "id": "ESTA:251009357",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-08T20:47:19.000Z",
+        "updated": "2025-10-08T20:47:19.000Z",
+        "resources": 2,
+        "location": "Peter St, Box Hill North",
+        "mfbId": "251009357",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12490687606348,
+          -37.800002393721876
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121377692,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009344",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hall Av",
+        "eventId": "251009344",
+        "id": "ESTA:251009344",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-08T20:49:08.000Z",
+        "updated": "2025-10-08T20:49:08.000Z",
+        "resources": 2,
+        "location": "Hall Av, Altona Meadows",
+        "mfbId": "251009344",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7828039468449,
+          -37.865130218881085
         ]
       }
     },
@@ -2261,35 +2362,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239936,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239936,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fuller St",
-        "eventId": 251009316,
-        "id": "ESTA:251009316",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-08T19:44:00.000Z",
-        "updated": "2025-10-08T19:48:00.000Z",
-        "resources": 0,
-        "location": "Fuller St, Belgrave",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35357338592158,
-          -37.918811153988656
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "cfaId": 239933,
         "feedType": "incident",
@@ -2302,8 +2374,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-10-08T19:38:00.000Z",
-        "updated": "2025-10-08T19:57:11.000Z",
-        "resources": 5,
+        "updated": "2025-10-08T20:47:50.000Z",
+        "resources": 4,
         "location": "Wildwood",
         "size": "Small",
         "sizeFmt": "Small",
@@ -2334,7 +2406,7 @@
         "category2": "Other",
         "created": "2025-10-08T19:39:00.000Z",
         "updated": "2025-10-08T20:02:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Inverloch",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2379,60 +2451,30 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 239939,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009325",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Melton West",
-        "eventId": "251009325",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 239939,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251009325,
         "id": "ESTA:251009325",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-08T20:16:00.000Z",
-        "updated": "2025-10-08T20:16:00.000Z",
-        "resources": 2,
-        "location": "Melton West, Melton West",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251009325"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.54957372532454,
-          -37.68560069454847
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "mfbId": "251009328",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009328",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Transport Dr",
-        "id": "ESTA:251009328",
-        "eventId": "251009328",
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-08T20:27:02.000Z",
-        "updated": "2025-10-08T20:27:02.000Z",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-08T20:09:00.000Z",
+        "updated": "2025-10-08T20:36:00.000Z",
         "resources": 0,
+        "location": "Melton West",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Transport Dr, Somerton"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.953645590557,
-          -37.63771832104138
+          144.54957259660756,
+          -37.68560679769428
         ]
       }
     }
@@ -2664,7 +2706,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-08T20:28:00.707Z",
-    "featureCount": 39
+    "lastUpdated": "2025-10-08T20:50:00.769Z",
+    "featureCount": 40
   }
 }
