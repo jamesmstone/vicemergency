@@ -152,33 +152,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121388780,
+        "status": "Request For Assistance",
+        "estaId": 121388983,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251010155",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Park St",
-        "eventId": "251010155",
-        "id": "ESTA:251010155",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581849,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050595,
+        "id": "ESTA:251050595",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-09T16:42:01.000Z",
-        "updated": "2025-10-09T16:42:01.000Z",
-        "resources": 1,
-        "location": "Park St, Parkville",
-        "mfbId": "251010155",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-09T17:16:49.000Z",
+        "updated": "2025-10-09T17:17:12.000Z",
+        "resources": 0,
+        "location": "Portland",
+        "sesId": 581849
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9455802610965,
-          -37.776493553517035
+          141.57416820811775,
+          -38.34724781481489
         ]
       }
     },
@@ -188,14 +186,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/cacbcf5a14eb781bc380c5640f58d117",
+        "sourceId": "IDV20600/af9fa8f48660d890c78ad789bdb03458",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/cacbcf5a14eb781bc380c5640f58d117",
+        "id": "IDV20600/af9fa8f48660d890c78ad789bdb03458",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2025-10-09T13:00:00.000Z",
+        "created": "2025-10-09T17:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1208,14 +1206,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/46da49774cca4961a8e67f1871e237f1",
+        "sourceId": "IDV20600/174c4dd8387130bf0153a60f6fd65348",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/46da49774cca4961a8e67f1871e237f1",
+        "id": "IDV20600/174c4dd8387130bf0153a60f6fd65348",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-10-09T13:00:00.000Z",
+        "created": "2025-10-09T17:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -8435,6 +8433,35 @@
           }
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 240076,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240076,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Gordon St",
+        "eventId": 251010158,
+        "id": "ESTA:251010158",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-09T17:07:00.000Z",
+        "updated": "2025-10-09T17:07:00.000Z",
+        "resources": 2,
+        "location": "Gordon St, Orbost",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4545755517958,
+          -37.7016515869919
+        ]
+      }
     }
   ],
   "properties": {
@@ -8664,7 +8691,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-09T16:55:00.821Z",
-    "featureCount": 33
+    "lastUpdated": "2025-10-09T17:24:46.072Z",
+    "featureCount": 34
   }
 }
