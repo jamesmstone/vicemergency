@@ -206,23 +206,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121382147,
+        "estaId": 121382585,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239997,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Queen St",
-        "eventId": 251009790,
-        "id": "ESTA:251009790",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009822",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "High St",
+        "eventId": "251009822",
+        "id": "ESTA:251009822",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-10-09T03:33:00.000Z",
-        "updated": "2025-10-09T03:37:00.000Z",
-        "resources": 0,
-        "location": "Queen St, Wallan",
-        "cfaId": 239997,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-09T04:19:03.000Z",
+        "updated": "2025-10-09T04:19:03.000Z",
+        "resources": 1,
+        "location": "High St, Laverton",
+        "mfbId": "251009822",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -230,40 +230,107 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98128059012046,
-          -37.41314439465973
+          144.77412280910818,
+          -37.86455559141586
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121382012,
+        "status": "Responding",
+        "estaId": 121382664,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239995,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Harkness Rd",
-        "eventId": 251009784,
-        "id": "ESTA:251009784",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009827",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Prentice Rd",
+        "eventId": "251009827",
+        "id": "ESTA:251009827",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-10-09T03:22:00.000Z",
-        "updated": "2025-10-09T03:43:00.000Z",
-        "resources": 0,
-        "location": "Harkness Rd, Maddingley",
-        "cfaId": 239995,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-09T04:21:42.000Z",
+        "updated": "2025-10-09T04:21:42.000Z",
+        "resources": 2,
+        "location": "Prentice Rd, Orrvale",
+        "cfaId": 240007,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251009827"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.40541261394173,
-          -37.686206856253854
+          145.45462682437196,
+          -36.414582334838464
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 121382412,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009812",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rifle Range Rd",
+        "eventId": "251009812",
+        "id": "ESTA:251009812",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-09T04:25:41.000Z",
+        "updated": "2025-10-09T04:25:41.000Z",
+        "resources": 6,
+        "location": "Rifle Range Rd, Glengarry North",
+        "cfaId": 240001,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251009812"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.52352156812208,
+          -38.09398112838926
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121382673,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009828",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Red Gum Trk",
+        "eventId": "251009828",
+        "id": "ESTA:251009828",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-09T04:26:12.000Z",
+        "updated": "2025-10-09T04:26:12.000Z",
+        "resources": 1,
+        "location": "Red Gum Trk, Merbein",
+        "cfaId": 240008,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251009828"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.03007392852209,
+          -34.126840353495915
         ]
       }
     },
@@ -8075,6 +8142,7 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "status": "Being Controlled",
         "feedType": "incident",
@@ -8095,12 +8163,39 @@
           "0 ha"
         ]
       },
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.040985107,
-          -35.761837006
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.0406,
+                  -35.7628
+                ],
+                [
+                  145.0404,
+                  -35.7628
+                ],
+                [
+                  145.0405,
+                  -35.7626
+                ],
+                [
+                  145.0406,
+                  -35.7628
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              145.040508696,
+              -35.7627646779999
+            ]
+          }
         ]
       }
     },
@@ -8166,65 +8261,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 239989,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009757",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Station St",
-        "eventId": "251009757",
-        "id": "ESTA:251009757",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T02:57:58.000Z",
-        "updated": "2025-10-09T02:57:58.000Z",
-        "resources": 1,
-        "location": "Station St, Aspendale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251009757"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09900111543323,
-          -38.02174540377353
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 239992,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 239992,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckillops Rd",
-        "eventId": 251009763,
-        "id": "ESTA:251009763",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T02:57:00.000Z",
-        "updated": "2025-10-09T03:18:00.000Z",
-        "resources": 0,
-        "location": "Mckillops Rd, Wulgulmerang",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.32676299974148,
-          -37.07436269063054
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 239988,
         "feedType": "incident",
@@ -8238,7 +8274,7 @@
         "category2": "Bushfire",
         "created": "2025-10-09T02:48:00.000Z",
         "updated": "2025-10-09T03:18:00.000Z",
-        "resources": 7,
+        "resources": 6,
         "location": "Mittons Rd, Hillside (Bairnsdale)",
         "size": "Small",
         "sizeFmt": "Small"
@@ -8312,21 +8348,21 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 239999,
+        "status": "Safe",
+        "cfaId": 239997,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 239999,
+        "sourceId": 239997,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Park Cr",
-        "eventId": 251009798,
-        "id": "ESTA:251009798",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-09T03:44:00.000Z",
-        "updated": "2025-10-09T03:44:00.000Z",
-        "resources": 3,
-        "location": "Park Cr, Boronia",
+        "sourceTitle": "Queen St",
+        "eventId": 251009790,
+        "id": "ESTA:251009790",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-09T03:33:00.000Z",
+        "updated": "2025-10-09T03:37:00.000Z",
+        "resources": 0,
+        "location": "Queen St, Wallan",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -8334,28 +8370,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.284968914842,
-          -37.86420033049714
+          144.98128059012046,
+          -37.41314439465973
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 240000,
+        "status": "Safe",
+        "cfaId": 239995,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 240000,
+        "sourceId": 239995,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pigdons Rd",
-        "eventId": 251009806,
-        "id": "ESTA:251009806",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-09T03:50:00.000Z",
-        "updated": "2025-10-09T03:50:00.000Z",
+        "sourceTitle": "Harkness Rd",
+        "eventId": 251009784,
+        "id": "ESTA:251009784",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2025-10-09T03:22:00.000Z",
+        "updated": "2025-10-09T03:43:00.000Z",
         "resources": 0,
-        "location": "Pigdons Rd, Waurn Ponds",
+        "location": "Harkness Rd, Maddingley",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -8363,91 +8399,178 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.30411211426173,
-          -38.19850673024868
+          144.40541261394173,
+          -37.686206856253854
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "251009750",
+        "cfaId": 240002,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009750",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ringwood",
-        "id": "ESTA:251009750",
-        "eventId": "251009750",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240002,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pincini St",
+        "eventId": 251009813,
+        "id": "ESTA:251009813",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-09T02:52:27.000Z",
-        "updated": "2025-10-09T02:52:27.000Z",
-        "resources": 1,
+        "created": "2025-10-09T03:56:00.000Z",
+        "updated": "2025-10-09T04:21:00.000Z",
+        "resources": 2,
+        "location": "Pincini St, Mirboo North",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Ringwood, Ringwood"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24010206083994,
-          -37.795421208964555
+          146.1547499117602,
+          -38.39942737796424
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 581796,
+        "status": "Under Control",
+        "cfaId": 240003,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581796,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251009311,
-        "id": "ESTA:251009311",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-10-08T19:38:00.000Z",
-        "updated": "2025-10-09T01:18:00.000Z",
-        "resources": 4,
-        "location": "Wildwood"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240003,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Evans St",
+        "eventId": 251009816,
+        "id": "ESTA:251009816",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-09T03:59:00.000Z",
+        "updated": "2025-10-09T04:23:00.000Z",
+        "resources": 1,
+        "location": "Evans St, Safety Beach",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.79564971448954,
-          -37.550062558017714
+          144.9976395442406,
+          -38.30775712056819
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251009809",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009809",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ormond",
+        "id": "ESTA:251009809",
+        "eventId": "251009809",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-09T04:09:19.000Z",
+        "updated": "2025-10-09T04:09:19.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Ormond, Ormond"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03669338570538,
+          -37.903468406795135
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251009818",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009818",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mawson Av",
+        "id": "ESTA:251009818",
+        "eventId": "251009818",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-09T04:12:40.000Z",
+        "updated": "2025-10-09T04:12:40.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Mawson Av, Deer Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.774061043186,
+          -37.756110140327095
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 581823,
+        "sesId": 581825,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581823,
+        "sourceId": 581825,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050559,
-        "id": "ESTA:251050559",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-09T02:36:20.000Z",
-        "updated": "2025-10-09T02:52:08.000Z",
+        "eventId": 251050563,
+        "id": "ESTA:251050563",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-09T03:55:07.000Z",
+        "updated": "2025-10-09T04:12:54.000Z",
         "resources": 1,
-        "location": "St Leonards"
+        "location": "Mirboo North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.71138411724024,
-          -38.18362124995908
+          146.1547499117602,
+          -38.39942737796424
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 581826,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581826,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050565,
+        "id": "ESTA:251050565",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-10-09T04:00:08.000Z",
+        "updated": "2025-10-09T04:15:49.000Z",
+        "resources": 0,
+        "location": "Deer Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.77405420246075,
+          -37.756115073696144
         ]
       }
     }
@@ -8607,20 +8730,19 @@
             "South West": "Not Declared"
           },
           "asthma": {
-            "Mallee": "Not available",
-            "Wimmera": "Not available",
-            "Northern Country": "Not available",
-            "North East": "Not available",
-            "East Gippsland": "Not available",
-            "West and South Gippsland": "Not available",
-            "Central": "Not available",
-            "North Central": "Not available",
-            "South West": "Not available"
+            "Mallee": "Minor",
+            "Wimmera": "Minor",
+            "Northern Country": "Minor",
+            "North East": "Minor",
+            "East Gippsland": "Minor",
+            "West and South Gippsland": "Minor",
+            "Central": "Minor",
+            "North Central": "Minor",
+            "South West": "Minor"
           }
         },
         {
           "fdr": {
-            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -8628,7 +8750,8 @@
             "North Central": "MODERATE",
             "Northern Country": "NO FORECAST",
             "South West": "NO FORECAST",
-            "Wimmera": "NO FORECAST"
+            "Wimmera": "NO FORECAST",
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -8679,7 +8802,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-09T03:52:41.088Z",
-    "featureCount": 48
+    "lastUpdated": "2025-10-09T04:30:21.792Z",
+    "featureCount": 51
   }
 }
