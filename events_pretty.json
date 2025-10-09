@@ -249,6 +249,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1665181",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Evans Rd/Bishop Rd , Worrolong",
+        "id": "1665181",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Evans Rd/Bishop Rd , Worrolong",
+        "created": "2025-10-09T05:55:00.000Z",
+        "updated": "2025-10-09T05:55:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Evans Rd/Bishop Rd , Worrolong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.853531619619,
+          -37.8232444559495
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -287,7 +313,7 @@
         "category2": "Bushfire",
         "created": "2025-09-27T02:58:00.000Z",
         "updated": "2025-09-27T03:54:00.000Z",
-        "resources": 0,
+        "resources": 3,
         "size": "77.90",
         "sizeFmt": "77.90 Ha.",
         "location": "28Km North Of Licola"
@@ -303,71 +329,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 121383363,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240014,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Woodcote Rd",
-        "eventId": 251009876,
-        "id": "ESTA:251009876",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-09T05:22:00.000Z",
-        "updated": "2025-10-09T05:22:00.000Z",
-        "resources": 8,
-        "location": "Woodcote Rd, Perry Bridge",
-        "cfaId": 240014,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.21634301669,
-          -37.9780887551687
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121383507,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240016,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251009892,
-        "id": "ESTA:251009892",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-09T05:34:00.000Z",
-        "updated": "2025-10-09T05:34:00.000Z",
-        "resources": 1,
-        "location": "Tambo Upper",
-        "cfaId": 240016,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.81273796255394,
-          -37.76803966521588
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "estaId": 121383664,
         "feedType": "incident",
         "source": "000",
@@ -381,8 +343,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-10-09T05:48:11.000Z",
-        "updated": "2025-10-09T05:48:43.000Z",
-        "resources": 0,
+        "updated": "2025-10-09T06:28:47.000Z",
+        "resources": 1,
         "location": "Keilor East",
         "sesId": 581833
       },
@@ -390,8 +352,231 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8721465353446,
-          -37.73620052641081
+          144.87119204466558,
+          -37.736246367072994
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121383821,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240019,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Anne St",
+        "eventId": 251009912,
+        "id": "ESTA:251009912",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-09T06:01:00.000Z",
+        "updated": "2025-10-09T06:29:00.000Z",
+        "resources": 2,
+        "location": "Anne St, Stawell",
+        "cfaId": 240019,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.76851694904525,
+          -37.052662207968474
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121383502,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 581831,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050571,
+        "id": "ESTA:251050571",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-09T05:33:31.000Z",
+        "updated": "2025-10-09T06:32:20.000Z",
+        "resources": 0,
+        "location": "Mont Albert",
+        "sesId": 581831
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1102612574065,
+          -37.813888119173036
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121384137,
+        "feedType": "incident",
+        "source": "PBY",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009928",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Southbank",
+        "eventId": "251009928",
+        "id": "ESTA:251009928",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-09T06:33:37.000Z",
+        "updated": "2025-10-09T06:33:37.000Z",
+        "resources": 1,
+        "location": "Southbank, Southbank",
+        "mfbId": "251009928",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9625502441415,
+          -37.823739984059614
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121383745,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240017,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "South Gippsland Hwy",
+        "eventId": 251009904,
+        "id": "ESTA:251009904",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-09T05:55:00.000Z",
+        "updated": "2025-10-09T06:33:00.000Z",
+        "resources": 3,
+        "location": "South Gippsland Hwy, Foster North",
+        "cfaId": 240017,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.17029437139493,
+          -38.62093378977038
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121384072,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240022,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251009925,
+        "id": "ESTA:251009925",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-09T06:24:00.000Z",
+        "updated": "2025-10-09T06:34:00.000Z",
+        "resources": 4,
+        "location": "Eden Park",
+        "cfaId": 240022,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07057331710098,
+          -37.49410721846893
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121384208,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009929",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Thompsons Rd",
+        "eventId": "251009929",
+        "id": "ESTA:251009929",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-09T06:34:53.000Z",
+        "updated": "2025-10-09T06:34:53.000Z",
+        "resources": 1,
+        "location": "Thompsons Rd, Cranbourne North",
+        "mfbId": "251009929",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26470751750838,
+          -38.080621769175785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121384228,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009930",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Irymple",
+        "eventId": "251009930",
+        "id": "ESTA:251009930",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-09T06:36:02.000Z",
+        "updated": "2025-10-09T06:36:02.000Z",
+        "resources": 2,
+        "location": "Irymple, Irymple",
+        "cfaId": 240023,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251009930"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.16655692567807,
+          -34.214594728132276
         ]
       }
     },
@@ -7632,7 +7817,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-09T02:06:44.000Z",
         "updated": "2025-10-09T02:06:44.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Rosebank Av, Clayton South",
         "size": "Small",
         "sizeFmt": "Small",
@@ -7644,181 +7829,6 @@
         "coordinates": [
           145.13641247284417,
           -37.93988557598724
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 240009,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240009,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Interman Rd",
-        "eventId": 251009838,
-        "id": "ESTA:251009838",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-09T04:39:00.000Z",
-        "updated": "2025-10-09T04:53:00.000Z",
-        "resources": 0,
-        "location": "Interman Rd, Boronia",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.29435591265192,
-          -37.86579668590707
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 240012,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240012,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Midland Hwy",
-        "eventId": 251009861,
-        "id": "ESTA:251009861",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-10-09T05:05:00.000Z",
-        "updated": "2025-10-09T05:05:00.000Z",
-        "resources": 1,
-        "location": "Midland Hwy, Castlemaine",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.22039841193023,
-          -37.04685293799629
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 240011,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240011,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251009855,
-        "id": "ESTA:251009855",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-09T05:02:00.000Z",
-        "updated": "2025-10-09T05:15:00.000Z",
-        "resources": 0,
-        "location": "Kyvalley",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.01380508190667,
-          -36.298836265895304
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 240001,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009812",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rifle Range Rd",
-        "eventId": "251009812",
-        "id": "ESTA:251009812",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-10-09T05:24:17.000Z",
-        "updated": "2025-10-09T05:24:17.000Z",
-        "resources": 7,
-        "location": "Rifle Range Rd, Glengarry North",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251009812"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.52352156812208,
-          -38.09398112838926
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 240010,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240010,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251009852,
-        "id": "ESTA:251009852",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T04:56:00.000Z",
-        "updated": "2025-10-09T05:26:00.000Z",
-        "resources": 0,
-        "location": "Cranbourne North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.33473237556066,
-          -38.078012846653934
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 240015,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240015,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251009885,
-        "id": "ESTA:251009885",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T05:27:00.000Z",
-        "updated": "2025-10-09T05:34:00.000Z",
-        "resources": 0,
-        "location": "Wodonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.88526829707664,
-          -36.126180888718686
         ]
       }
     },
@@ -7854,58 +7864,147 @@
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "251009893",
+        "cfaId": 240012,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251009893",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Gallaghers Rd",
-        "id": "ESTA:251009893",
-        "eventId": "251009893",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T05:41:40.000Z",
-        "updated": "2025-10-09T05:41:40.000Z",
-        "resources": 1,
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240012,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": 251009861,
+        "id": "ESTA:251009861",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-09T05:05:00.000Z",
+        "updated": "2025-10-09T05:55:00.000Z",
+        "resources": 0,
+        "location": "Midland Hwy, Castlemaine",
         "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Gallaghers Rd, Glen Waverley"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17795856824878,
-          -37.88206117783404
+          144.22039841193023,
+          -37.04685293799629
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "mfbId": "251009877",
+        "cfaId": 240001,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251009877",
+        "sourceId": "251009812",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Glen Waverley",
-        "id": "ESTA:251009877",
-        "eventId": "251009877",
+        "sourceTitle": "Rifle Range Rd",
+        "eventId": "251009812",
+        "id": "ESTA:251009812",
         "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-09T05:44:52.000Z",
-        "updated": "2025-10-09T05:44:52.000Z",
-        "resources": 0,
+        "category2": "Grass and Scrub",
+        "created": "2025-10-09T06:14:02.000Z",
+        "updated": "2025-10-09T06:14:02.000Z",
+        "resources": 5,
+        "location": "Rifle Range Rd, Glengarry North",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Glen Waverley, Glen Waverley"
+        "mfbId": "251009812"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17161014625557,
-          -37.88971070935403
+          146.52352156812208,
+          -38.09398112838926
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 240014,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240014,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Woodcote Rd",
+        "eventId": 251009876,
+        "id": "ESTA:251009876",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-09T05:22:00.000Z",
+        "updated": "2025-10-09T06:18:00.000Z",
+        "resources": 9,
+        "location": "Woodcote Rd, Perry Bridge",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.21634301669,
+          -37.9780887551687
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 240016,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240016,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251009892,
+        "id": "ESTA:251009892",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-09T05:34:00.000Z",
+        "updated": "2025-10-09T06:20:00.000Z",
+        "resources": 0,
+        "location": "Tambo Upper",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.81273796255394,
+          -37.76803966521588
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 240021,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251009920",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Clarkes Rd",
+        "eventId": "251009920",
+        "id": "ESTA:251009920",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-09T06:23:56.000Z",
+        "updated": "2025-10-09T06:23:56.000Z",
+        "resources": 3,
+        "location": "Clarkes Rd, Brookfield",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251009920"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5417060986666,
+          -37.71537777535599
         ]
       }
     },
@@ -7924,7 +8023,7 @@
         "category2": "Other",
         "created": "2025-10-09T05:29:29.000Z",
         "updated": "2025-10-09T05:29:29.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Ringwood, Ringwood"
@@ -7940,36 +8039,36 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "mfbId": "251009874",
+        "status": "Under Control",
+        "mfbId": "251009901",
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251009874",
+        "sourceId": "251009901",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Lara",
-        "id": "ESTA:251009874",
-        "eventId": "251009874",
+        "sourceTitle": "Rosamond Rd",
+        "id": "ESTA:251009901",
+        "eventId": "251009901",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-09T05:36:31.000Z",
-        "updated": "2025-10-09T05:36:31.000Z",
+        "created": "2025-10-09T06:06:28.000Z",
+        "updated": "2025-10-09T06:06:28.000Z",
         "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Lara, Lara"
+        "location": "Rosamond Rd, Maribyrnong"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.39248786326363,
-          -38.03377574054581
+          144.88636413368775,
+          -37.77292007092468
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "sesId": 581825,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -7981,8 +8080,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-10-09T03:55:07.000Z",
-        "updated": "2025-10-09T04:37:14.000Z",
-        "resources": 1,
+        "updated": "2025-10-09T06:28:28.000Z",
+        "resources": 0,
         "location": "Mirboo North"
       },
       "type": "Feature",
@@ -7997,54 +8096,27 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 581827,
+        "sesId": 581836,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 581827,
+        "sourceId": 581836,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251050566,
-        "id": "ESTA:251050566",
+        "eventId": 251050578,
+        "id": "ESTA:251050578",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-09T04:36:23.000Z",
-        "updated": "2025-10-09T04:38:08.000Z",
-        "resources": 0,
-        "location": "Newborough"
+        "created": "2025-10-09T06:19:43.000Z",
+        "updated": "2025-10-09T06:29:33.000Z",
+        "resources": 1,
+        "location": "Willatook"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.29962041000016,
-          -38.17667931167193
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 581831,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 581831,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050571,
-        "id": "ESTA:251050571",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-09T05:33:31.000Z",
-        "updated": "2025-10-09T05:36:03.000Z",
-        "resources": 0,
-        "location": "Mont Albert"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1102612574065,
-          -37.813888119173036
+          142.21940345106987,
+          -38.13276482288497
         ]
       }
     }
@@ -8276,7 +8348,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-09T05:50:20.831Z",
-    "featureCount": 53
+    "lastUpdated": "2025-10-09T06:38:40.900Z",
+    "featureCount": 55
   }
 }
