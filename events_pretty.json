@@ -125,65 +125,61 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121404036,
+        "status": "Request For Assistance",
+        "estaId": 121404109,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240251,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Orchard Ct",
-        "eventId": 251011288,
-        "id": "ESTA:251011288",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 582095,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050835,
+        "id": "ESTA:251050835",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-10-10T22:30:00.000Z",
-        "updated": "2025-10-10T22:30:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-10T22:37:19.000Z",
+        "updated": "2025-10-10T22:40:26.000Z",
         "resources": 0,
-        "location": "Orchard Ct, Drouin",
-        "cfaId": 240251,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Cockatoo",
+        "sesId": 582095
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8598831889113,
-          -38.129875170521714
+          145.4934133967256,
+          -37.93595159883302
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121403997,
+        "status": "Request For Assistance",
+        "estaId": 121404209,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251011272",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hall Av",
-        "eventId": "251011272",
-        "id": "ESTA:251011272",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 582096,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050836,
+        "id": "ESTA:251050836",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-10T22:33:41.000Z",
-        "updated": "2025-10-10T22:33:41.000Z",
-        "resources": 2,
-        "location": "Hall Av, Altona Meadows",
-        "mfbId": "251011272",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-10T22:46:51.000Z",
+        "updated": "2025-10-10T22:47:29.000Z",
+        "resources": 0,
+        "location": "Sunbury",
+        "sesId": 582096
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.77868019271466,
-          -37.86453704775042
+          144.72027237922902,
+          -37.58217220526989
         ]
       }
     },
@@ -204,7 +200,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-10T22:34:37.000Z",
         "updated": "2025-10-10T22:34:37.000Z",
-        "resources": 1,
+        "resources": 5,
         "location": "Castle Crossing Rd, Colignan",
         "cfaId": 240252,
         "size": "Small",
@@ -2368,6 +2364,64 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 240251,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240251,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Orchard Ct",
+        "eventId": 251011288,
+        "id": "ESTA:251011288",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-10-10T22:30:00.000Z",
+        "updated": "2025-10-10T22:30:00.000Z",
+        "resources": 1,
+        "location": "Orchard Ct, Drouin",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8598831889113,
+          -38.129875170521714
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251011272",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251011272",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hall Av",
+        "id": "ESTA:251011272",
+        "eventId": "251011272",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-10T22:33:41.000Z",
+        "updated": "2025-10-10T22:33:41.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Hall Av, Altona Meadows"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.77868019271466,
+          -37.86453704775042
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 582090,
         "feedType": "incident",
@@ -2390,33 +2444,6 @@
         "coordinates": [
           145.07713063536298,
           -37.915573132763136
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 582080,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582080,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050822,
-        "id": "ESTA:251050822",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-10T14:33:24.000Z",
-        "updated": "2025-10-10T22:33:57.000Z",
-        "resources": 0,
-        "location": "Heathmont"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2398399155661,
-          -37.830721191467305
         ]
       }
     }
@@ -2648,7 +2675,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-10T22:35:45.898Z",
-    "featureCount": 38
+    "lastUpdated": "2025-10-10T22:50:20.500Z",
+    "featureCount": 39
   }
 }
