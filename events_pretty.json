@@ -126,23 +126,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121402386,
+        "estaId": 121402446,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251010996",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Somerset Rd",
-        "eventId": "251010996",
-        "id": "ESTA:251010996",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240244,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pt Nepean Rd",
+        "eventId": 251010999,
+        "id": "ESTA:251010999",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-10T17:12:29.000Z",
-        "updated": "2025-10-10T17:12:29.000Z",
-        "resources": 2,
-        "location": "Somerset Rd, Campbellfield",
-        "mfbId": "251010996",
+        "category2": "Building Fire",
+        "created": "2025-10-10T17:24:00.000Z",
+        "updated": "2025-10-10T17:24:00.000Z",
+        "resources": 0,
+        "location": "Pt Nepean Rd, Portsea",
+        "cfaId": 240244,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -150,43 +150,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96530878502242,
-          -37.67893673503676
+          144.71409182584105,
+          -38.31991766219344
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121402393,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121402393,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Campbellfield",
-        "eventId": "F251010997",
-        "id": "ESTA:251010997",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-10T17:12:36.000Z",
-        "updated": "2025-10-10T17:12:47.293Z",
-        "resources": 0,
-        "location": "Somerset Rd, Campbellfield"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96531144180972,
-          -37.67893256636346
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121402407,
         "feedType": "incident",
         "source": "000",
@@ -198,10 +169,10 @@
         "id": "ESTA:251010998",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-10T17:15:54.000Z",
-        "updated": "2025-10-10T17:15:54.000Z",
-        "resources": 2,
+        "category2": "Non Structure Fire",
+        "created": "2025-10-10T17:28:02.000Z",
+        "updated": "2025-10-10T17:28:02.000Z",
+        "resources": 5,
         "location": "Pt Nepean Rd, Portsea",
         "cfaId": 240243,
         "size": "Small",
@@ -214,6 +185,38 @@
         "coordinates": [
           144.71462139634863,
           -38.319955190713756
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121402038,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240240,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Proctors Rd",
+        "eventId": 251010984,
+        "id": "ESTA:251010984",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-10T16:08:00.000Z",
+        "updated": "2025-10-10T16:42:00.000Z",
+        "resources": 3,
+        "location": "Proctors Rd, Dookie",
+        "cfaId": 240240,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.756283856648,
+          -36.336273299738956
         ]
       }
     },
@@ -4969,35 +4972,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 240240,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240240,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Proctors Rd",
-        "eventId": 251010984,
-        "id": "ESTA:251010984",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-10T16:08:00.000Z",
-        "updated": "2025-10-10T16:42:00.000Z",
-        "resources": 3,
-        "location": "Proctors Rd, Dookie",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.756283856648,
-          -36.336273299738956
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 240242,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
@@ -5010,7 +4984,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-10-10T16:48:37.000Z",
         "updated": "2025-10-10T16:48:37.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Moray Cl, Taylors Hill",
         "size": "Small",
         "sizeFmt": "Small",
@@ -5069,7 +5043,7 @@
         "category2": "Non Structure Fire",
         "created": "2025-10-10T16:59:33.000Z",
         "updated": "2025-10-10T16:59:33.000Z",
-        "resources": 2,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Racecourse Rd, Williamstown"
@@ -5098,7 +5072,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-10T17:05:18.000Z",
         "updated": "2025-10-10T17:05:18.000Z",
-        "resources": 3,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Dobell Pl, Dallas"
@@ -5138,6 +5112,35 @@
         "coordinates": [
           144.93078069894722,
           -37.67411013160658
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251010996",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251010996",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Somerset Rd",
+        "id": "ESTA:251010996",
+        "eventId": "251010996",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-10T17:25:14.000Z",
+        "updated": "2025-10-10T17:25:14.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Somerset Rd, Campbellfield"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9648325264355,
+          -37.67916185931772
         ]
       }
     },
@@ -5423,7 +5426,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-10T17:23:00.583Z",
+    "lastUpdated": "2025-10-10T17:35:40.677Z",
     "featureCount": 45
   }
 }
