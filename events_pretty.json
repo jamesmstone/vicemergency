@@ -153,31 +153,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121416981,
+        "status": "Responding",
+        "estaId": 121417029,
         "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582163,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251050901,
-        "id": "ESTA:251050901",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251012864",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Albert Cr",
+        "eventId": "251012864",
+        "id": "ESTA:251012864",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-11T22:15:43.000Z",
-        "updated": "2025-10-11T22:16:08.000Z",
-        "resources": 0,
-        "location": "Mortlake",
-        "sesId": 582163
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-11T22:28:03.000Z",
+        "updated": "2025-10-11T22:28:03.000Z",
+        "resources": 2,
+        "location": "Albert Cr, St Albans",
+        "mfbId": "251012864",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.80965489645953,
-          -37.980686443949494
+          144.79615311539766,
+          -37.740633988373524
         ]
       }
     },
@@ -2301,7 +2303,34 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Request For Assistance",
+        "sesId": 582163,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 582163,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251050901,
+        "id": "ESTA:251050901",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-11T22:15:43.000Z",
+        "updated": "2025-10-11T22:23:50.000Z",
+        "resources": 1,
+        "location": "Mortlake"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.80965489645953,
+          -37.980686443949494
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "sesId": 582162,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2313,8 +2342,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-10-11T21:51:45.000Z",
-        "updated": "2025-10-11T22:11:53.000Z",
-        "resources": 5,
+        "updated": "2025-10-11T22:29:41.000Z",
+        "resources": 3,
         "location": "Wollert"
       },
       "type": "Feature",
@@ -2554,7 +2583,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-11T22:23:00.968Z",
-    "featureCount": 34
+    "lastUpdated": "2025-10-11T22:34:46.014Z",
+    "featureCount": 35
   }
 }
