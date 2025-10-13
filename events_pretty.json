@@ -245,6 +245,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1665743",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Glenelg River Road, Wye",
+        "id": "1665743",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Glenelg River Road, Wye",
+        "created": "2025-10-13T09:35:00.000Z",
+        "updated": "2025-10-13T09:35:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Glenelg River Road, Wye"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.918203625877,
+          -38.0135229533613
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -329,7 +355,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121436903,
         "feedType": "incident",
         "source": "000",
@@ -343,7 +369,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-10-13T09:18:00.000Z",
-        "updated": "2025-10-13T09:18:00.000Z",
+        "updated": "2025-10-13T09:35:00.000Z",
         "resources": 0,
         "location": "Macarthur St, Sale",
         "cfaId": 240592,
@@ -361,7 +387,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121436971,
         "feedType": "incident",
         "source": "000",
@@ -372,10 +398,10 @@
         "eventId": "251015621",
         "id": "ESTA:251015621",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-10-13T09:26:58.000Z",
-        "updated": "2025-10-13T09:26:58.000Z",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-13T09:35:58.000Z",
+        "updated": "2025-10-13T09:35:58.000Z",
         "resources": 3,
         "location": "Buckley St, Morwell",
         "cfaId": 240593,
@@ -395,23 +421,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121436990,
+        "estaId": 121437062,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 240594,
+        "sourceId": 240596,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grant Rd",
-        "eventId": 251015623,
-        "id": "ESTA:251015623",
+        "sourceTitle": "Simpsons Creek Rd",
+        "eventId": 251015629,
+        "id": "ESTA:251015629",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-13T09:29:00.000Z",
-        "updated": "2025-10-13T09:29:00.000Z",
-        "resources": 1,
-        "location": "Grant Rd, Somerville",
-        "cfaId": 240594,
+        "category2": "Bushfire",
+        "created": "2025-10-13T09:35:00.000Z",
+        "updated": "2025-10-13T09:35:00.000Z",
+        "resources": 3,
+        "location": "Simpsons Creek Rd, Bete Bolong",
+        "cfaId": 240596,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -419,37 +445,235 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17964445908746,
-          -38.20902988256747
+          148.35968400850544,
+          -37.7360950821324
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121436990,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015623",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Grant Rd",
+        "eventId": "251015623",
+        "id": "ESTA:251015623",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T09:40:08.000Z",
+        "updated": "2025-10-13T09:40:08.000Z",
+        "resources": 4,
+        "location": "Grant Rd, Somerville",
+        "cfaId": 240594,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251015623"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1796464878607,
+          -38.209025958337534
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121437014,
+        "estaId": 121437150,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121437014,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "East Melbourne",
-        "eventId": "F251015625",
-        "id": "ESTA:251015625",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015632",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Mulgrave",
+        "eventId": "251015632",
+        "id": "ESTA:251015632",
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-10-13T09:29:59.000Z",
-        "updated": "2025-10-13T09:31:09.805Z",
-        "resources": 0,
-        "location": "Lansdowne St, East Melbourne"
+        "created": "2025-10-13T09:46:08.000Z",
+        "updated": "2025-10-13T09:46:08.000Z",
+        "resources": 2,
+        "location": "Mulgrave, Mulgrave",
+        "mfbId": "251015632",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97910422657256,
-          -37.81139642688236
+          145.17339704998693,
+          -37.92026905937175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121437157,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240597,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251015633,
+        "id": "ESTA:251015633",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-10-13T09:46:00.000Z",
+        "updated": "2025-10-13T09:46:00.000Z",
+        "resources": 0,
+        "location": "Kaniva",
+        "cfaId": 240597,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.27438102258537,
+          -36.38366653967327
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121437163,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015634",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Connewarren Lane",
+        "eventId": "251015634",
+        "id": "ESTA:251015634",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T09:48:40.000Z",
+        "updated": "2025-10-13T09:48:40.000Z",
+        "resources": 2,
+        "location": "Connewarren Lane, Mortlake",
+        "cfaId": 240598,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251015634"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.74416540920075,
+          -38.07337138374616
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121437014,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015625",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Lansdowne St",
+        "eventId": "251015625",
+        "id": "ESTA:251015625",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-13T09:49:16.000Z",
+        "updated": "2025-10-13T09:49:16.000Z",
+        "resources": 2,
+        "location": "Lansdowne St, East Melbourne",
+        "mfbId": "251015625",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97910333897826,
+          -37.81140026671033
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121437179,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015636",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Plenty",
+        "eventId": "251015636",
+        "id": "ESTA:251015636",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T09:49:17.000Z",
+        "updated": "2025-10-13T09:49:17.000Z",
+        "resources": 2,
+        "location": "Plenty, Plenty",
+        "cfaId": 240599,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251015636"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12415253661672,
+          -37.66574903586949
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121437173,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015635",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Main St",
+        "eventId": "251015635",
+        "id": "ESTA:251015635",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T09:48:18.000Z",
+        "updated": "2025-10-13T09:48:18.000Z",
+        "resources": 0,
+        "location": "Main St, Mordialloc",
+        "mfbId": "251015635",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08686762615017,
+          -38.00786253342349
         ]
       }
     },
@@ -513,94 +737,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 240581,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251015474",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Alliance Av",
-        "eventId": "251015474",
-        "id": "ESTA:251015474",
-        "category1": "Other",
-        "category2": "Grass and Scrub",
-        "created": "2025-10-13T08:46:40.000Z",
-        "updated": "2025-10-13T08:46:40.000Z",
-        "resources": 1,
-        "location": "Alliance Av, Mernda",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251015474"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0998389710338,
-          -37.60566156201744
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 240587,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240587,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Urquhart St",
-        "eventId": 251015583,
-        "id": "ESTA:251015583",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-13T08:33:00.000Z",
-        "updated": "2025-10-13T08:47:00.000Z",
-        "resources": 0,
-        "location": "Urquhart St, Castlemaine",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2221358043057,
-          -37.06671878384369
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "251015538",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251015538",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bourke St",
-        "id": "ESTA:251015538",
-        "eventId": "251015538",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-13T08:03:44.000Z",
-        "updated": "2025-10-13T08:03:44.000Z",
-        "resources": 1,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Bourke St, Docklands"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95139969470662,
-          -37.81794254474664
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "On Scene",
         "sesId": 582289,
         "feedType": "incident",
@@ -640,7 +776,7 @@
         "category1": "Rescue",
         "category2": "Rescue Persons Trapped",
         "created": "2025-10-13T05:54:38.000Z",
-        "updated": "2025-10-13T07:52:31.000Z",
+        "updated": "2025-10-13T09:49:35.000Z",
         "resources": 1,
         "location": "Heytesbury Lower"
       },
@@ -650,33 +786,6 @@
         "coordinates": [
           142.92758328872807,
           -38.57235822879742
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 582297,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582297,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 582297,
-        "id": "ESTA:582297",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-10-10T06:04:00.000Z",
-        "updated": "2025-10-13T09:26:29.000Z",
-        "resources": 2,
-        "location": "Narre Warren North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.318053449717,
-          -37.980852178781745
         ]
       }
     }
@@ -908,7 +1017,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-13T09:31:40.593Z",
-    "featureCount": 43
+    "lastUpdated": "2025-10-13T09:50:20.745Z",
+    "featureCount": 46
   }
 }
