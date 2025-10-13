@@ -209,33 +209,34 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121439308,
+        "status": "Responding",
+        "estaId": 121439492,
         "feedType": "incident",
-        "source": "000",
+        "source": "OTHER",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251015715",
+        "sourceId": "251015720",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Ballarat Rd",
-        "eventId": "251015715",
-        "id": "ESTA:251015715",
+        "sourceTitle": "Nancarrow Dr",
+        "eventId": "251015720",
+        "id": "ESTA:251015720",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-13T15:19:33.000Z",
-        "updated": "2025-10-13T15:19:33.000Z",
-        "resources": 2,
-        "location": "Ballarat Rd, Maidstone",
-        "mfbId": "251015715",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-13T15:46:20.000Z",
+        "updated": "2025-10-13T15:46:20.000Z",
+        "resources": 4,
+        "location": "Nancarrow Dr, Doreen",
+        "cfaId": 240623,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251015720"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.87642174041855,
-          -37.78608312019041
+          145.1350018393488,
+          -37.60950168877521
         ]
       }
     },
@@ -254,9 +255,9 @@
         "suppress": false,
         "category1": "Other",
         "category2": "Grass and Scrub",
-        "created": "2025-10-13T15:23:03.000Z",
-        "updated": "2025-10-13T15:23:03.000Z",
-        "resources": 2,
+        "created": "2025-10-13T15:27:37.000Z",
+        "updated": "2025-10-13T15:27:37.000Z",
+        "resources": 1,
         "location": "West Wodonga, West Wodonga",
         "cfaId": 240621,
         "size": "Small",
@@ -274,34 +275,30 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121439411,
+        "status": "Safe",
+        "estaId": 121438416,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251015717",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Paul Ct",
-        "eventId": "251015717",
-        "id": "ESTA:251015717",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121438416,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Narracan",
+        "eventId": "F251015688",
+        "id": "ESTA:251015688",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-13T15:23:38.000Z",
-        "updated": "2025-10-13T15:23:38.000Z",
-        "resources": 2,
-        "location": "Paul Ct, Melton West",
-        "cfaId": 240622,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251015717"
+        "category2": "Other",
+        "created": "2025-10-13T12:26:22.000Z",
+        "updated": "2025-10-13T15:49:57.703Z",
+        "resources": 0,
+        "location": "Morwell-Thorpdale Rd, Narracan"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.55280615608288,
-          -37.679665800604056
+          146.25444372476187,
+          -38.284437292465284
         ]
       }
     },
@@ -1673,7 +1670,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-13T14:17:09.000Z",
         "updated": "2025-10-13T14:17:09.000Z",
-        "resources": 2,
+        "resources": 3,
         "location": "Futura Rd, Keysborough",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1719,6 +1716,64 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "mfbId": "251015719",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015719",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sargood St",
+        "id": "ESTA:251015719",
+        "eventId": "251015719",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T15:36:18.000Z",
+        "updated": "2025-10-13T15:36:18.000Z",
+        "resources": 3,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Sargood St, Altona"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8292232360574,
+          -37.868088359055804
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251015715",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015715",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Ballarat Rd",
+        "id": "ESTA:251015715",
+        "eventId": "251015715",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-13T15:19:33.000Z",
+        "updated": "2025-10-13T15:19:33.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Ballarat Rd, Maidstone"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87642174041855,
+          -37.78608312019041
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 582289,
         "feedType": "incident",
@@ -1741,33 +1796,6 @@
         "coordinates": [
           142.92758328872807,
           -38.57235822879742
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 582306,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582306,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251051046,
-        "id": "ESTA:251051046",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-13T14:17:37.000Z",
-        "updated": "2025-10-13T14:51:43.000Z",
-        "resources": 1,
-        "location": "Cohuna"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.21639801259437,
-          -35.81262842250775
         ]
       }
     }
@@ -1999,7 +2027,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-13T15:26:26.137Z",
-    "featureCount": 39
+    "lastUpdated": "2025-10-13T15:50:26.082Z",
+    "featureCount": 40
   }
 }
