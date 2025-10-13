@@ -209,31 +209,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121440305,
+        "status": "Responding",
+        "estaId": 121440602,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582309,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251051048,
-        "id": "ESTA:251051048",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240640,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lt Yarra Rd",
+        "eventId": 251015807,
+        "id": "ESTA:251015807",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-13T19:31:33.000Z",
-        "updated": "2025-10-13T20:25:05.000Z",
-        "resources": 0,
-        "location": "Bunyip",
-        "sesId": 582309
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-13T20:35:00.000Z",
+        "updated": "2025-10-13T20:35:00.000Z",
+        "resources": 2,
+        "location": "Lt Yarra Rd, Yarra Junction",
+        "cfaId": 240640,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.72343066738043,
-          -38.098848394683536
+          145.6173733948919,
+          -37.786488014414424
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121440582,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015802",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wyndham St",
+        "eventId": "251015802",
+        "id": "ESTA:251015802",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-13T20:42:43.000Z",
+        "updated": "2025-10-13T20:42:43.000Z",
+        "resources": 2,
+        "location": "Wyndham St, Shepparton",
+        "mfbId": "251015802",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39902555052433,
+          -36.37953521052816
         ]
       }
     },
@@ -1624,28 +1658,27 @@
         "status": "Safe",
         "cfaId": 240637,
         "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251015764",
-        "sourceFeed": "mfb-incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240637,
+        "sourceFeed": "cfa-incident",
         "sourceTitle": "Booth St",
-        "eventId": "251015764",
+        "eventId": 251015764,
         "id": "ESTA:251015764",
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-13T20:05:45.000Z",
-        "updated": "2025-10-13T20:05:45.000Z",
-        "resources": 1,
+        "category2": "Other",
+        "created": "2025-10-13T19:47:00.000Z",
+        "updated": "2025-10-13T20:06:00.000Z",
+        "resources": 0,
         "location": "Booth St, Golden Square",
         "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251015764"
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.25887540457555,
-          -36.76507046230879
+          144.25886959548458,
+          -36.76507055969481
         ]
       }
     },
@@ -1675,6 +1708,36 @@
         "coordinates": [
           145.10630717143025,
           -37.99361059205097
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 240639,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015800",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Whitehaven St",
+        "eventId": "251015800",
+        "id": "ESTA:251015800",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-13T20:32:45.000Z",
+        "updated": "2025-10-13T20:32:45.000Z",
+        "resources": 1,
+        "location": "Whitehaven St, Wyndham Vale",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251015800"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.62389155647114,
+          -37.89383048968631
         ]
       }
     },
@@ -1933,7 +1996,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-13T20:28:06.026Z",
-    "featureCount": 37
+    "lastUpdated": "2025-10-13T20:50:07.359Z",
+    "featureCount": 39
   }
 }
