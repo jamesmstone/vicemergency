@@ -210,33 +210,62 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 121440165,
+        "estaId": 121440356,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582308,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251015746,
-        "id": "ESTA:251015746",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121440356,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bunyip",
+        "eventId": "S251051049",
+        "id": "ESTA:251051049",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-10-13T18:37:42.000Z",
-        "updated": "2025-10-13T19:17:06.000Z",
-        "resources": 2,
-        "location": "Officer South",
-        "cfaId": 240633,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 582308
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-13T19:39:45.000Z",
+        "updated": "2025-10-13T19:44:13.084Z",
+        "resources": 0,
+        "location": "Riverside Av, Bunyip"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.41692285026815,
-          -38.112285818348944
+          145.72457632517114,
+          -38.09907443544465
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121440379,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015764",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Booth St",
+        "eventId": "251015764",
+        "id": "ESTA:251015764",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-13T19:48:58.000Z",
+        "updated": "2025-10-13T19:48:58.000Z",
+        "resources": 1,
+        "location": "Booth St, Golden Square",
+        "cfaId": 240637,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251015764"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.25887540457555,
+          -36.76507046230879
         ]
       }
     },
@@ -1656,6 +1685,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 240633,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 240633,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251015746,
+        "id": "ESTA:251015746",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-13T18:38:00.000Z",
+        "updated": "2025-10-13T18:56:00.000Z",
+        "resources": 0,
+        "location": "Officer South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41692285026815,
+          -38.112285818348944
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 240629,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1695,9 +1753,9 @@
         "id": "ESTA:251015755",
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-10-13T19:26:26.000Z",
-        "updated": "2025-10-13T19:26:26.000Z",
-        "resources": 2,
+        "created": "2025-10-13T19:37:08.000Z",
+        "updated": "2025-10-13T19:37:08.000Z",
+        "resources": 1,
         "location": "Gladstone Rd, Dandenong",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1709,6 +1767,62 @@
         "coordinates": [
           145.2054839348032,
           -37.97556405168218
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251015757",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251015757",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Middleborough Rd",
+        "id": "ESTA:251015757",
+        "eventId": "251015757",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-13T19:40:12.000Z",
+        "updated": "2025-10-13T19:40:12.000Z",
+        "resources": 2,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Middleborough Rd, Box Hill South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13566243016098,
+          -37.83284133141402
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 582309,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 582309,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251051048,
+        "id": "ESTA:251051048",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-13T19:31:33.000Z",
+        "updated": "2025-10-13T19:34:09.000Z",
+        "resources": 0,
+        "location": "Bunyip"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.72343066738043,
+          -38.098848394683536
         ]
       }
     },
@@ -1967,7 +2081,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-13T19:30:20.498Z",
-    "featureCount": 38
+    "lastUpdated": "2025-10-13T19:50:06.054Z",
+    "featureCount": 42
   }
 }
