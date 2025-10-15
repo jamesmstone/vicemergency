@@ -348,70 +348,35 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121464425,
+        "estaId": 121464479,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251018200",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Allenby Av",
-        "eventId": "251018200",
-        "id": "ESTA:251018200",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121464479,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Carlton",
+        "eventId": "F251018203",
+        "id": "ESTA:251018203",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-10-15T15:11:59.000Z",
-        "updated": "2025-10-15T15:11:59.000Z",
+        "category2": "Structure Fire",
+        "created": "2025-10-15T15:25:41.000Z",
+        "updated": "2025-10-15T15:27:26.814Z",
         "resources": 0,
-        "location": "Allenby Av, Reservoir",
-        "mfbId": "251018200",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Drummond St, Carlton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00885728131232,
-          -37.7052970891996
+          144.96995934061482,
+          -37.794470640350596
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 121464409,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251018199",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hobbs Cr",
-        "eventId": "251018199",
-        "id": "ESTA:251018199",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-15T15:17:59.000Z",
-        "updated": "2025-10-15T15:17:59.000Z",
-        "resources": 2,
-        "location": "Hobbs Cr, Reservoir",
-        "mfbId": "251018199",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0085851343288,
-          -37.705612474249655
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "estaId": 121464464,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -424,8 +389,8 @@
         "suppress": false,
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2025-10-15T15:21:55.000Z",
-        "updated": "2025-10-15T15:21:55.000Z",
+        "created": "2025-10-15T15:32:56.000Z",
+        "updated": "2025-10-15T15:32:56.000Z",
         "resources": 2,
         "location": "Clarke St, Shepparton",
         "mfbId": "251018201",
@@ -438,35 +403,6 @@
         "coordinates": [
           145.41941182243997,
           -36.37762576098233
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121464468,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121464468,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Carlton",
-        "eventId": "F251018202",
-        "id": "ESTA:251018202",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-15T15:21:55.000Z",
-        "updated": "2025-10-15T15:24:10.014Z",
-        "resources": 0,
-        "location": "Drummond St, Carlton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96995934061482,
-          -37.794470640350596
         ]
       }
     },
@@ -1533,30 +1469,59 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 240928,
+        "status": "Under Control",
+        "mfbId": "251018199",
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 240928,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hall Rd",
-        "eventId": 251018185,
-        "id": "ESTA:251018185",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-15T14:12:00.000Z",
-        "updated": "2025-10-15T14:37:00.000Z",
-        "resources": 0,
-        "location": "Hall Rd, Cranbourne West",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251018199",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Hobbs Cr",
+        "id": "ESTA:251018199",
+        "eventId": "251018199",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-15T15:17:59.000Z",
+        "updated": "2025-10-15T15:17:59.000Z",
+        "resources": 1,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "location": "Hobbs Cr, Reservoir"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23864350109093,
-          -38.10761202865919
+          145.0085851343288,
+          -37.705612474249655
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "mfbId": "251018202",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251018202",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Drummond St",
+        "id": "ESTA:251018202",
+        "eventId": "251018202",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-15T15:34:14.000Z",
+        "updated": "2025-10-15T15:34:14.000Z",
+        "resources": 3,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Drummond St, Carlton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9699564242528,
+          -37.79447738542209
         ]
       }
     },
@@ -3310,7 +3275,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-15T15:25:20.416Z",
-    "featureCount": 42
+    "lastUpdated": "2025-10-15T15:38:05.909Z",
+    "featureCount": 41
   }
 }
