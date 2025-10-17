@@ -687,7 +687,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121489277,
         "feedType": "incident",
         "source": "000",
@@ -701,7 +701,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-10-17T10:11:00.000Z",
-        "updated": "2025-10-17T10:11:00.000Z",
+        "updated": "2025-10-17T10:28:00.000Z",
         "resources": 0,
         "location": "Gaffney St, Castlemaine",
         "cfaId": 241289,
@@ -720,29 +720,97 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121489476,
+        "estaId": 121489588,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121489476,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Cranbourne West",
-        "eventId": "F251020779",
-        "id": "ESTA:251020779",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251020786",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Sixty Five West Rd",
+        "eventId": "251020786",
+        "id": "ESTA:251020786",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-10-17T10:25:52.000Z",
-        "updated": "2025-10-17T10:28:32.158Z",
-        "resources": 0,
-        "location": "Cranbourne-Frankston Rd, Cranbourne West"
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-10-17T10:41:31.000Z",
+        "updated": "2025-10-17T10:41:31.000Z",
+        "resources": 5,
+        "location": "Sixty Five West Rd, Cocoroc",
+        "cfaId": 241293,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251020786"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.25850408990073,
-          -38.109754317996455
+          144.62276634841228,
+          -37.941506339052374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121488407,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 241280,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Eleanor Dr",
+        "eventId": 251020680,
+        "id": "ESTA:251020680",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-17T08:54:00.000Z",
+        "updated": "2025-10-17T09:56:00.000Z",
+        "resources": 0,
+        "location": "Eleanor Dr, Silvan",
+        "cfaId": 241280,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46696162256146,
+          -37.839232637761974
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 121489319,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 241290,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Arundel St",
+        "eventId": 251020771,
+        "id": "ESTA:251020771",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-17T10:15:00.000Z",
+        "updated": "2025-10-17T10:48:00.000Z",
+        "resources": 3,
+        "location": "Arundel St, Benalla",
+        "cfaId": 241290,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9855891749535,
+          -36.55921344535665
         ]
       }
     },
@@ -1134,64 +1202,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 241270,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 241270,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Manooka Ct",
-        "eventId": 251020603,
-        "id": "ESTA:251020603",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-17T08:15:00.000Z",
-        "updated": "2025-10-17T09:29:00.000Z",
-        "resources": 2,
-        "location": "Manooka Ct, Bell Park",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.33763104663248,
-          -38.10324892369402
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 241280,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 241280,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Eleanor Dr",
-        "eventId": 251020680,
-        "id": "ESTA:251020680",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-17T08:54:00.000Z",
-        "updated": "2025-10-17T09:56:00.000Z",
-        "resources": 2,
-        "location": "Eleanor Dr, Silvan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.46696162256146,
-          -37.839232637761974
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 241287,
         "feedType": "incident",
@@ -1216,35 +1226,6 @@
         "coordinates": [
           144.32252268471004,
           -37.56007374906082
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 241290,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 241290,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Arundel St",
-        "eventId": 251020771,
-        "id": "ESTA:251020771",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-17T10:15:00.000Z",
-        "updated": "2025-10-17T10:15:00.000Z",
-        "resources": 3,
-        "location": "Arundel St, Benalla",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9855891749535,
-          -36.55921344535665
         ]
       }
     },
@@ -1280,58 +1261,30 @@
     {
       "properties": {
         "status": "Under Control",
-        "mfbId": "251020753",
+        "cfaId": 241291,
         "feedType": "incident",
         "sourceOrg": "VIC/FRV",
-        "sourceId": "251020753",
+        "sourceId": "251020779",
         "sourceFeed": "mfb-incident",
-        "sourceTitle": "Simmons St",
-        "id": "ESTA:251020753",
-        "eventId": "251020753",
+        "sourceTitle": "Cranbourne-Frankston Rd",
+        "eventId": "251020779",
+        "id": "ESTA:251020779",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-17T10:28:23.000Z",
-        "updated": "2025-10-17T10:28:23.000Z",
-        "resources": 2,
+        "created": "2025-10-17T10:34:52.000Z",
+        "updated": "2025-10-17T10:34:52.000Z",
+        "resources": 1,
+        "location": "Cranbourne-Frankston Rd, Cranbourne West",
         "size": "Small",
         "sizeFmt": "Small",
-        "location": "Simmons St, South Yarra"
+        "mfbId": "251020779"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9952961575685,
-          -37.84501826413273
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "mfbId": "251020762",
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251020762",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Barkly St",
-        "id": "ESTA:251020762",
-        "eventId": "251020762",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-17T10:20:52.000Z",
-        "updated": "2025-10-17T10:20:52.000Z",
-        "resources": 2,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "location": "Barkly St, Fitzroy North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97977087772136,
-          -37.77839633104909
+          145.25849337245538,
+          -38.10976106579002
         ]
       }
     }
@@ -1563,7 +1516,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-17T10:28:40.489Z",
-    "featureCount": 57
+    "lastUpdated": "2025-10-17T10:50:06.048Z",
+    "featureCount": 55
   }
 }
