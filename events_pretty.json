@@ -476,23 +476,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121545132,
+        "estaId": 121544530,
         "feedType": "incident",
-        "source": "RADIO",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 241935,
+        "sourceId": 241929,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Break Oday Rd",
-        "eventId": 251027844,
-        "id": "ESTA:251027844",
+        "eventId": 251027827,
+        "id": "ESTA:251027827",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2025-10-21T13:20:00.000Z",
-        "updated": "2025-10-21T13:20:00.000Z",
+        "created": "2025-10-21T11:54:00.000Z",
+        "updated": "2025-10-21T13:04:00.000Z",
         "resources": 0,
         "location": "Break Oday Rd, Glenburn",
-        "cfaId": 241935,
+        "cfaId": 241929,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -507,7 +507,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121545205,
         "feedType": "incident",
         "source": "000",
@@ -520,9 +520,9 @@
         "suppress": false,
         "category1": "Fire",
         "category2": "Non Structure Fire",
-        "created": "2025-10-21T13:32:00.000Z",
-        "updated": "2025-10-21T13:32:00.000Z",
-        "resources": 2,
+        "created": "2025-10-21T13:43:48.000Z",
+        "updated": "2025-10-21T13:43:48.000Z",
+        "resources": 1,
         "location": "Woodlands Cr, Narre Warren",
         "cfaId": 241936,
         "size": "Small",
@@ -535,6 +535,67 @@
         "coordinates": [
           145.3222145044798,
           -38.03417489429128
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121545323,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121545323,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Norlane",
+        "eventId": "F251027850",
+        "id": "ESTA:251027850",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-21T13:45:13.000Z",
+        "updated": "2025-10-21T13:46:00.388Z",
+        "resources": 0,
+        "location": "Princes Hwy, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35537779876893,
+          -38.09700029130048
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121545334,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 241937,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Flat Rock Rd",
+        "eventId": 251027851,
+        "id": "ESTA:251027851",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-21T13:47:00.000Z",
+        "updated": "2025-10-21T13:47:00.000Z",
+        "resources": 1,
+        "location": "Flat Rock Rd, Beechworth",
+        "cfaId": 241937,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6551866111083,
+          -36.348396281237754
         ]
       }
     },
@@ -11115,35 +11176,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 241929,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 241929,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Break Oday Rd",
-        "eventId": 251027827,
-        "id": "ESTA:251027827",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-10-21T11:54:00.000Z",
-        "updated": "2025-10-21T13:04:00.000Z",
-        "resources": 0,
-        "location": "Break Oday Rd, Glenburn",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36179805227434,
-          -37.3900912696781
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 241934,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -11167,6 +11199,64 @@
         "coordinates": [
           145.17803208738704,
           -37.95741700755657
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 241935,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 241935,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Break Oday Rd",
+        "eventId": 251027844,
+        "id": "ESTA:251027844",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-21T13:20:00.000Z",
+        "updated": "2025-10-21T13:20:00.000Z",
+        "resources": 0,
+        "location": "Break Oday Rd, Glenburn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36179805227434,
+          -37.3900912696781
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "mfbId": "251027849",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251027849",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Princes Hwy",
+        "id": "ESTA:251027849",
+        "eventId": "251027849",
+        "category1": "Other",
+        "category2": "Grass and Scrub",
+        "created": "2025-10-21T13:53:21.000Z",
+        "updated": "2025-10-21T13:53:21.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Princes Hwy, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35535407725968,
+          -38.096331779960344
         ]
       }
     },
@@ -11425,7 +11515,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-21T13:39:00.793Z",
-    "featureCount": 49
+    "lastUpdated": "2025-10-21T13:54:06.244Z",
+    "featureCount": 52
   }
 }
