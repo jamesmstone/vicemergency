@@ -474,68 +474,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121546823,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121546823,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Frankston",
-        "eventId": "F251027888",
-        "id": "ESTA:251027888",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-21T19:42:57.000Z",
-        "updated": "2025-10-21T19:47:42.769Z",
-        "resources": 0,
-        "location": "Cranbourne-Frankston Rd, Frankston"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15276358510454,
-          -38.151435663351926
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121546808,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251027887",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Cranbourne Rd",
-        "eventId": "251027887",
-        "id": "ESTA:251027887",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-21T19:48:23.000Z",
-        "updated": "2025-10-21T19:48:23.000Z",
-        "resources": 2,
-        "location": "Cranbourne Rd, Frankston",
-        "cfaId": 241948,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251027887"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15144341212056,
-          -38.15087881508088
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -11140,6 +11078,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 241948,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 241948,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cranbourne Rd",
+        "eventId": 251027887,
+        "id": "ESTA:251027887",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-21T19:42:00.000Z",
+        "updated": "2025-10-21T19:49:00.000Z",
+        "resources": 0,
+        "location": "Cranbourne Rd, Frankston",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15105630590085,
+          -38.150377652059255
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 582889,
         "feedType": "incident",
@@ -11164,33 +11131,6 @@
           -38.02528202431824
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 582903,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582903,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251051639,
-        "id": "ESTA:251051639",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-21T19:23:23.000Z",
-        "updated": "2025-10-21T19:38:23.000Z",
-        "resources": 1,
-        "location": "Sunbury"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.72438462506733,
-          -37.56723807880249
-        ]
-      }
     }
   ],
   "properties": {
@@ -11207,6 +11147,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -11214,8 +11155,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -11231,6 +11171,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -11238,8 +11179,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-21T13:00:00.000Z",
           "heat": {
@@ -11420,7 +11360,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-21T19:50:20.732Z",
-    "featureCount": 49
+    "lastUpdated": "2025-10-21T20:30:06.084Z",
+    "featureCount": 47
   }
 }
