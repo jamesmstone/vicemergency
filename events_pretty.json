@@ -475,63 +475,63 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121546755,
+        "status": "Responding",
+        "estaId": 121546823,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 582903,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251051639,
-        "id": "ESTA:251051639",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121546823,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Frankston",
+        "eventId": "F251027888",
+        "id": "ESTA:251027888",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-21T19:23:23.000Z",
-        "updated": "2025-10-21T19:25:46.000Z",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-21T19:42:57.000Z",
+        "updated": "2025-10-21T19:47:42.769Z",
         "resources": 0,
-        "location": "Sunbury",
-        "sesId": 582903
+        "location": "Cranbourne-Frankston Rd, Frankston"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.72438462506733,
-          -37.56723807880249
+          145.15276358510454,
+          -38.151435663351926
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121546758,
+        "estaId": 121546808,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 241947,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Orchard Rd",
-        "eventId": 251027886,
-        "id": "ESTA:251027886",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251027887",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cranbourne Rd",
+        "eventId": "251027887",
+        "id": "ESTA:251027887",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-10-21T19:24:00.000Z",
-        "updated": "2025-10-21T19:24:00.000Z",
-        "resources": 1,
-        "location": "Orchard Rd, Doreen",
-        "cfaId": 241947,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-21T19:48:23.000Z",
+        "updated": "2025-10-21T19:48:23.000Z",
+        "resources": 2,
+        "location": "Cranbourne Rd, Frankston",
+        "cfaId": 241948,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251027887"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12864123402156,
-          -37.61187759494722
+          145.15144341212056,
+          -38.15087881508088
         ]
       }
     },
@@ -11112,20 +11112,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 241946,
+        "cfaId": 241947,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 241946,
+        "sourceId": 241947,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kings Park Lane",
-        "eventId": 251027877,
-        "id": "ESTA:251027877",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2025-10-21T18:43:00.000Z",
-        "updated": "2025-10-21T18:44:00.000Z",
+        "sourceTitle": "Orchard Rd",
+        "eventId": 251027886,
+        "id": "ESTA:251027886",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-21T19:24:00.000Z",
+        "updated": "2025-10-21T19:36:00.000Z",
         "resources": 0,
-        "location": "Kings Park Lane, Seymour",
+        "location": "Orchard Rd, Doreen",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -11133,8 +11133,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1270841411642,
-          -37.02332635744391
+          145.12864123402156,
+          -37.61187759494722
         ]
       }
     },
@@ -11162,6 +11162,33 @@
         "coordinates": [
           145.10210849294407,
           -38.02528202431824
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 582903,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 582903,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251051639,
+        "id": "ESTA:251051639",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-21T19:23:23.000Z",
+        "updated": "2025-10-21T19:38:23.000Z",
+        "resources": 1,
+        "location": "Sunbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72438462506733,
+          -37.56723807880249
         ]
       }
     }
@@ -11393,7 +11420,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-21T19:32:20.853Z",
-    "featureCount": 48
+    "lastUpdated": "2025-10-21T19:50:20.732Z",
+    "featureCount": 49
   }
 }
