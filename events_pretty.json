@@ -364,24 +364,24 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121559123,
+        "status": "Request For Assistance",
+        "estaId": 121559283,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 584473,
+        "sourceId": 584475,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251053201,
-        "id": "ESTA:251053201",
+        "eventId": 251053203,
+        "id": "ESTA:251053203",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-10-22T15:10:42.000Z",
-        "updated": "2025-10-22T15:16:52.000Z",
+        "created": "2025-10-22T15:48:09.000Z",
+        "updated": "2025-10-22T15:49:20.000Z",
         "resources": 0,
         "location": "Belgrave",
-        "sesId": 584473
+        "sesId": 584475
       },
       "type": "Feature",
       "geometry": {
@@ -389,38 +389,6 @@
         "coordinates": [
           145.35425180874893,
           -37.911340593063116
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121559200,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 242143,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Learmonth Rd",
-        "eventId": 251028573,
-        "id": "ESTA:251028573",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-22T15:28:00.000Z",
-        "updated": "2025-10-22T15:28:00.000Z",
-        "resources": 0,
-        "location": "Learmonth Rd, Wendouree",
-        "cfaId": 242143,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8191451923316,
-          -37.53476928736484
         ]
       }
     },
@@ -3178,30 +3146,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "cfaId": 242142,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 242142,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Henty Hwy",
-        "eventId": 251028572,
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251028572",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Wychunga St",
+        "eventId": "251028572",
         "id": "ESTA:251028572",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-22T15:10:00.000Z",
-        "updated": "2025-10-22T15:10:00.000Z",
-        "resources": 3,
-        "location": "Henty Hwy, Lascelles",
+        "category2": "Structure Fire",
+        "created": "2025-10-22T15:38:45.000Z",
+        "updated": "2025-10-22T15:38:45.000Z",
+        "resources": 9,
+        "location": "Wychunga St, Lascelles",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "mfbId": "251028572"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.5797039292249,
-          -35.60862247736474
+          142.57970717257214,
+          -35.608618846254465
         ]
       }
     },
@@ -3236,6 +3205,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 242143,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242143,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Learmonth Rd",
+        "eventId": 251028573,
+        "id": "ESTA:251028573",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-22T15:28:00.000Z",
+        "updated": "2025-10-22T15:28:00.000Z",
+        "resources": 2,
+        "location": "Learmonth Rd, Wendouree",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8191451923316,
+          -37.53476928736484
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "mfbId": "251028569",
         "feedType": "incident",
@@ -3249,7 +3247,7 @@
         "category2": "Structure Fire",
         "created": "2025-10-22T14:47:47.000Z",
         "updated": "2025-10-22T14:47:47.000Z",
-        "resources": 3,
+        "resources": 1,
         "size": "Small",
         "sizeFmt": "Small",
         "location": "Acland St, St Kilda"
@@ -3559,33 +3557,6 @@
           -37.761210469757835
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 584472,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 584472,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251053200,
-        "id": "ESTA:251053200",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-22T14:55:52.000Z",
-        "updated": "2025-10-22T15:17:07.000Z",
-        "resources": 1,
-        "location": "Ballarat Central"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.85805877141,
-          -37.5602615111599
-        ]
-      }
     }
   ],
   "properties": {
@@ -3815,7 +3786,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-22T15:28:46.303Z",
-    "featureCount": 61
+    "lastUpdated": "2025-10-22T15:50:21.065Z",
+    "featureCount": 60
   }
 }
