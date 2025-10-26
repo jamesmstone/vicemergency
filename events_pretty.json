@@ -1179,53 +1179,87 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 121613909,
+        "status": "Safe",
+        "estaId": 121614206,
         "feedType": "incident",
-        "source": "AMBULANC",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121613909,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Macleod",
-        "eventId": "S251054226",
-        "id": "ESTA:251054226",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251036732",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Cyma St",
+        "eventId": "251036732",
+        "id": "ESTA:251036732",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-10-26T12:41:19.000Z",
-        "updated": "2025-10-26T12:44:20.239Z",
-        "resources": 0,
-        "location": "Grieve St, Macleod"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-26T13:40:33.000Z",
+        "updated": "2025-10-26T13:40:33.000Z",
+        "resources": 1,
+        "location": "Cyma St, Warrnambool",
+        "cfaId": 242737,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251036732"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0625341644869,
-          -37.727481292865384
+          142.50514567070886,
+          -38.394018235712316
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121613832,
+        "status": "Request For Assistance",
+        "estaId": 121614303,
         "feedType": "incident",
-        "source": "000",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 585491,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054231,
+        "id": "ESTA:251054231",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-26T13:48:13.000Z",
+        "updated": "2025-10-26T13:48:36.000Z",
+        "resources": 0,
+        "location": "Werribee",
+        "sesId": 585491
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65276098728913,
+          -37.880720633011705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121614306,
+        "feedType": "incident",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 242732,
+        "sourceId": 242739,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251036714,
-        "id": "ESTA:251036714",
+        "sourceTitle": "Cashin St",
+        "eventId": 251036736,
+        "id": "ESTA:251036736",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-26T12:31:00.000Z",
-        "updated": "2025-10-26T13:07:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-10-26T13:49:00.000Z",
+        "updated": "2025-10-26T13:49:00.000Z",
         "resources": 0,
-        "location": "Wollert",
-        "cfaId": 242732,
+        "location": "Cashin St, Inverloch",
+        "cfaId": 242739,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1233,38 +1267,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0307012181676,
-          -37.593511699964964
+          145.71687259309658,
+          -38.62850051189137
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121614129,
+        "status": "Responding",
+        "estaId": 121614291,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585490,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251054230,
-        "id": "ESTA:251054230",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251036734",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Dwyer Ct",
+        "eventId": "251036734",
+        "id": "ESTA:251036734",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-26T13:19:32.000Z",
-        "updated": "2025-10-26T13:21:26.000Z",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-26T13:49:52.000Z",
+        "updated": "2025-10-26T13:49:52.000Z",
         "resources": 0,
-        "location": "Parkville",
-        "sesId": 585490
+        "location": "Dwyer Ct, Morwell",
+        "mfbId": "251036734",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95594100891316,
-          -37.793737473274305
+          146.43013339512518,
+          -38.22034153127384
         ]
       }
     },
@@ -3244,35 +3280,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 242730,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 242730,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Avon Rd",
-        "eventId": 251036706,
-        "id": "ESTA:251036706",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-10-26T11:44:00.000Z",
-        "updated": "2025-10-26T12:29:00.000Z",
-        "resources": 0,
-        "location": "Avon Rd, Avonsleigh",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4910351492251,
-          -37.90867709462783
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 242729,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3302,6 +3309,35 @@
     {
       "properties": {
         "status": "Safe",
+        "cfaId": 242732,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242732,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251036714,
+        "id": "ESTA:251036714",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-10-26T12:31:00.000Z",
+        "updated": "2025-10-26T13:07:00.000Z",
+        "resources": 0,
+        "location": "Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0307012181676,
+          -37.593511699964964
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 242668,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3325,6 +3361,35 @@
         "coordinates": [
           144.65610823001867,
           -37.882364320899676
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 242738,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242738,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Doveton Av",
+        "eventId": 251036735,
+        "id": "ESTA:251036735",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-26T13:48:00.000Z",
+        "updated": "2025-10-26T13:48:00.000Z",
+        "resources": 0,
+        "location": "Doveton Av, Eumemmerring",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2495303041079,
+          -38.00258909470707
         ]
       }
     },
@@ -6735,6 +6800,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 585490,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 585490,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054230,
+        "id": "ESTA:251054230",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-26T13:19:32.000Z",
+        "updated": "2025-10-26T13:21:26.000Z",
+        "resources": 0,
+        "location": "Parkville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95594100891316,
+          -37.793737473274305
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 585347,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -6756,33 +6848,6 @@
         "coordinates": [
           144.62588824356334,
           -37.87954168829039
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 585489,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585489,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251054229,
-        "id": "ESTA:251054229",
-        "category1": "Rescue",
-        "category2": "Rescue Structure Collapse",
-        "created": "2025-10-26T13:18:09.000Z",
-        "updated": "2025-10-26T13:22:50.000Z",
-        "resources": 0,
-        "location": "Parkville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95594100891316,
-          -37.793737473274305
         ]
       }
     }
@@ -7014,7 +7079,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-26T13:28:40.640Z",
-    "featureCount": 177
+    "lastUpdated": "2025-10-26T13:50:25.949Z",
+    "featureCount": 179
   }
 }
