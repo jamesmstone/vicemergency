@@ -1178,39 +1178,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121615185,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251036767",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Harkness",
-        "eventId": "251036767",
-        "id": "ESTA:251036767",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-26T17:18:41.000Z",
-        "updated": "2025-10-26T17:18:41.000Z",
-        "resources": 2,
-        "location": "Harkness, Harkness",
-        "cfaId": 242750,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251036767"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.567279883747,
-          -37.65061451270201
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -3215,7 +3182,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "cfaId": 242751,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3239,6 +3206,65 @@
         "coordinates": [
           145.2024628832802,
           -38.02904043256908
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 242750,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251036767",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Harkness",
+        "eventId": "251036767",
+        "id": "ESTA:251036767",
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-26T17:18:41.000Z",
+        "updated": "2025-10-26T17:18:41.000Z",
+        "resources": 1,
+        "location": "Harkness, Harkness",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251036767"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.567279883747,
+          -37.65061451270201
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 242752,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242752,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Foxwood Dr",
+        "eventId": 251036771,
+        "id": "ESTA:251036771",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-26T17:30:00.000Z",
+        "updated": "2025-10-26T17:30:00.000Z",
+        "resources": 2,
+        "location": "Foxwood Dr, Point Cook",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.74365936113765,
+          -37.88439120090298
         ]
       }
     },
@@ -6714,8 +6740,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-10-26T16:40:09.000Z",
-        "updated": "2025-10-26T16:42:57.000Z",
-        "resources": 0,
+        "updated": "2025-10-26T17:21:57.000Z",
+        "resources": 1,
         "location": "Toorak"
       },
       "type": "Feature",
@@ -6742,15 +6768,15 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-        "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "South West": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -6766,15 +6792,15 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "South West": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-10-26T13:00:00.000Z",
           "heat": {
@@ -6955,7 +6981,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-26T17:21:40.776Z",
-    "featureCount": 175
+    "lastUpdated": "2025-10-26T17:34:06.018Z",
+    "featureCount": 176
   }
 }
