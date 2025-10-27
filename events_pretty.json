@@ -265,50 +265,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 242869,
+        "status": "Complete",
+        "estaId": 121626424,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 242869,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Charles St",
-        "eventId": 251037390,
-        "id": "ESTA:251037390",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-27T14:20:00.000Z",
-        "updated": "2025-10-27T14:32:00.000Z",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 585709,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054456,
+        "id": "ESTA:251054456",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-27T14:57:48.000Z",
+        "updated": "2025-10-27T15:42:30.000Z",
         "resources": 0,
-        "location": "Charles St, Warragul",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Tarrawingee",
+        "sesId": 585709
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.93431027293687,
-          -38.14929256671532
+          146.4660516574754,
+          -36.38778275663036
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 242868,
+        "status": "Responding",
+        "estaId": 121626559,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 242868,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Crusoe Rd",
-        "eventId": 251037389,
-        "id": "ESTA:251037389",
+        "source": "000",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251037399",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "St Kilda",
+        "eventId": "251037399",
+        "id": "ESTA:251037399",
+        "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-27T14:19:00.000Z",
-        "updated": "2025-10-27T14:39:00.000Z",
-        "resources": 0,
-        "location": "Crusoe Rd, Kangaroo Flat",
+        "category2": "Structure Fire",
+        "created": "2025-10-27T15:43:13.000Z",
+        "updated": "2025-10-27T15:43:13.000Z",
+        "resources": 2,
+        "location": "St Kilda, St Kilda",
+        "mfbId": "251037399",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -316,8 +320,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.22492361943551,
-          -36.81680343287226
+          144.9848398308497,
+          -37.86166768139772
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121626604,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242870,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ballintine St",
+        "eventId": 251037400,
+        "id": "ESTA:251037400",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-27T15:44:00.000Z",
+        "updated": "2025-10-27T15:44:00.000Z",
+        "resources": 0,
+        "location": "Ballintine St, Benalla",
+        "cfaId": 242870,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.95699470612237,
+          -36.55834470355097
         ]
       }
     },
@@ -1080,33 +1116,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 585709,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585709,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251054456,
-        "id": "ESTA:251054456",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-27T14:57:48.000Z",
-        "updated": "2025-10-27T15:12:31.000Z",
-        "resources": 1,
-        "location": "Tarrawingee"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4660516574754,
-          -36.38778275663036
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 585623,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1656,7 +1665,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-27T15:27:40.631Z",
+    "lastUpdated": "2025-10-27T15:50:25.777Z",
     "featureCount": 83
   }
 }
