@@ -265,40 +265,68 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121628308,
+        "status": "Responding",
+        "estaId": 121628676,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251037586",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Hampton Park",
-        "eventId": "251037586",
-        "id": "ESTA:251037586",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121628676,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Christmas Hills",
+        "eventId": "S251054466",
+        "id": "ESTA:251054466",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-27T22:12:49.000Z",
-        "updated": "2025-10-27T22:12:49.000Z",
-        "resources": 2,
-        "location": "Hampton Park, Hampton Park",
-        "cfaId": 242888,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251037586"
+        "created": "2025-10-27T22:25:50.000Z",
+        "updated": "2025-10-27T22:26:10.587Z",
+        "resources": 0,
+        "location": "Eltham-Yarra Glen Rd, Christmas Hills"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2850826272186,
-          -38.03451181735276
+          145.34498583129962,
+          -37.65310354950265
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 121628308,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242888,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251037586,
+        "id": "ESTA:251037586",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-10-27T21:54:00.000Z",
+        "updated": "2025-10-27T22:13:00.000Z",
+        "resources": 0,
+        "location": "Hampton Park",
+        "cfaId": 242888,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28507151912478,
+          -38.0345193213862
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 121628553,
         "feedType": "incident",
         "source": "FIP",
@@ -313,7 +341,7 @@
         "category2": "Building Fire",
         "created": "2025-10-27T22:16:00.000Z",
         "updated": "2025-10-27T22:16:00.000Z",
-        "resources": 1,
+        "resources": 2,
         "location": "Lt Yarra Rd, Yarra Junction",
         "cfaId": 242891,
         "size": "Small",
@@ -330,24 +358,80 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121628366,
+        "status": "Complete",
+        "estaId": 121627999,
         "feedType": "incident",
-        "source": "000",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 585714,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054462,
+        "id": "ESTA:251054462",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-27T21:22:38.000Z",
+        "updated": "2025-10-27T22:36:52.000Z",
+        "resources": 0,
+        "location": "Wantirna",
+        "sesId": 585714
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23409933547345,
+          -37.86370050752814
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 242886,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 242886,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251037525,
+        "id": "ESTA:251037525",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-27T21:15:00.000Z",
+        "updated": "2025-10-27T21:26:00.000Z",
+        "resources": 0,
+        "location": "Bayswater North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.269325414982,
+          -37.832185663174336
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 242890,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 242890,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Healesville-Koo Wee Rup Rd",
         "eventId": 251037592,
         "id": "ESTA:251037592",
-        "suppress": false,
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-10-27T21:58:00.000Z",
         "updated": "2025-10-27T22:17:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Healesville-Koo Wee Rup Rd, Woori Yallock",
-        "cfaId": 242890,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -357,162 +441,6 @@
         "coordinates": [
           145.5327359397619,
           -37.77730793332447
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121628597,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251037614",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Rosanna",
-        "eventId": "251037614",
-        "id": "ESTA:251037614",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-27T22:20:55.000Z",
-        "updated": "2025-10-27T22:20:55.000Z",
-        "resources": 1,
-        "location": "Rosanna, Rosanna",
-        "mfbId": "251037614",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05858270119788,
-          -37.743225769676954
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121628598,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251037615",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Yallourn Dr",
-        "eventId": "251037615",
-        "id": "ESTA:251037615",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-27T22:19:33.000Z",
-        "updated": "2025-10-27T22:19:33.000Z",
-        "resources": 2,
-        "location": "Yallourn Dr, Yallourn",
-        "cfaId": 242892,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251037615"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.34687281694593,
-          -38.176523441781676
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121628646,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121628646,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hoppers Crossing",
-        "eventId": "S251054465",
-        "id": "ESTA:251054465",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-27T22:20:04.000Z",
-        "updated": "2025-10-27T22:23:38.524Z",
-        "resources": 0,
-        "location": "Heaths Rd, Hoppers Crossing"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.69156711060265,
-          -37.87876429426101
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121628617,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251037619",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Pender St",
-        "eventId": "251037619",
-        "id": "ESTA:251037619",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-27T22:23:44.000Z",
-        "updated": "2025-10-27T22:23:44.000Z",
-        "resources": 2,
-        "location": "Pender St, Thornbury",
-        "mfbId": "251037619",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00787572263084,
-          -37.75431346201671
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 242886,
-        "feedType": "incident",
-        "sourceOrg": "VIC/FRV",
-        "sourceId": "251037525",
-        "sourceFeed": "mfb-incident",
-        "sourceTitle": "Bayswater North",
-        "eventId": "251037525",
-        "id": "ESTA:251037525",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-10-27T21:26:30.000Z",
-        "updated": "2025-10-27T21:26:30.000Z",
-        "resources": 1,
-        "location": "Bayswater North, Bayswater North",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "mfbId": "251037525"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26933476214717,
-          -37.83218333939589
         ]
       }
     },
@@ -542,6 +470,65 @@
         "coordinates": [
           144.8011399305073,
           -38.37868427125007
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 242892,
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251037615",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Yallourn Dr",
+        "eventId": "251037615",
+        "id": "ESTA:251037615",
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-27T22:19:33.000Z",
+        "updated": "2025-10-27T22:19:33.000Z",
+        "resources": 3,
+        "location": "Yallourn Dr, Yallourn",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "mfbId": "251037615"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.34687281694593,
+          -38.176523441781676
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "mfbId": "251037614",
+        "feedType": "incident",
+        "sourceOrg": "VIC/FRV",
+        "sourceId": "251037614",
+        "sourceFeed": "mfb-incident",
+        "sourceTitle": "Rosanna",
+        "id": "ESTA:251037614",
+        "eventId": "251037614",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-27T22:32:54.000Z",
+        "updated": "2025-10-27T22:32:54.000Z",
+        "resources": 1,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "location": "Rosanna, Rosanna"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05858270119788,
+          -37.743225769676954
         ]
       }
     },
@@ -1224,33 +1211,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 585714,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585714,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251054462,
-        "id": "ESTA:251054462",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-10-27T21:22:38.000Z",
-        "updated": "2025-10-27T21:59:15.000Z",
-        "resources": 1,
-        "location": "Wantirna"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23409933547345,
-          -37.86370050752814
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Unknown",
         "sesId": 585626,
         "feedType": "incident",
@@ -1575,33 +1535,6 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 585133,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585133,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251053867,
-        "id": "ESTA:251053867",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-26T05:26:10.000Z",
-        "updated": "2025-10-27T22:15:30.000Z",
-        "resources": 0,
-        "location": "Werribee"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.66375104997505,
-          -37.88228203096538
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Unknown",
         "sesId": 585599,
         "feedType": "incident",
@@ -1855,7 +1788,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-27T22:25:06.520Z",
-    "featureCount": 89
+    "lastUpdated": "2025-10-27T22:39:21.069Z",
+    "featureCount": 87
   }
 }
