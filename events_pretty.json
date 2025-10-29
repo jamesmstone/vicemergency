@@ -235,23 +235,52 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121652472,
+        "estaId": 121652628,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121652628,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Vermont South",
+        "eventId": "F251039833",
+        "id": "ESTA:251039833",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-29T17:24:05.000Z",
+        "updated": "2025-10-29T17:24:34.364Z",
+        "resources": 0,
+        "location": "Oxford Gr, Vermont South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.175089679343,
+          -37.84621566884117
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121652621,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 243127,
+        "sourceId": 243128,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Macdougall Rd",
-        "eventId": 251039828,
-        "id": "ESTA:251039828",
+        "sourceTitle": "Whitcombes Rd",
+        "eventId": 251039832,
+        "id": "ESTA:251039832",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-10-29T16:44:00.000Z",
-        "updated": "2025-10-29T16:44:00.000Z",
-        "resources": 2,
-        "location": "Macdougall Rd, Golden Gully",
-        "cfaId": 243127,
+        "created": "2025-10-29T17:23:00.000Z",
+        "updated": "2025-10-29T17:23:00.000Z",
+        "resources": 0,
+        "location": "Whitcombes Rd, Clifton Springs",
+        "cfaId": 243128,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -259,37 +288,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2620389059432,
-          -36.785230966450655
+          144.5817724287577,
+          -38.159594625849145
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121652498,
+        "status": "Responding",
+        "estaId": 121652633,
         "feedType": "incident",
-        "source": "000",
+        "source": "OTHER",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121652498,
+        "sourceId": 121652633,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Docklands",
-        "eventId": "F251039829",
-        "id": "ESTA:251039829",
+        "sourceTitle": "Wallan",
+        "eventId": "S251054604",
+        "id": "ESTA:251054604",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-29T16:49:49.000Z",
-        "updated": "2025-10-29T16:50:43.432Z",
-        "resources": 3,
-        "location": "Batmans Hill Dr, Docklands"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-29T17:22:56.000Z",
+        "updated": "2025-10-29T17:25:47.671Z",
+        "resources": 0,
+        "location": "Northern Hwy, Wallan"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94825211691636,
-          -37.81908268551785
+          144.9785171095666,
+          -37.42440641269962
         ]
       }
     },
@@ -326,20 +355,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 243126,
+        "cfaId": 243127,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 243126,
+        "sourceId": 243127,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "First Av",
-        "eventId": 251039823,
-        "id": "ESTA:251039823",
-        "category1": "Fire",
+        "sourceTitle": "Macdougall Rd",
+        "eventId": 251039828,
+        "id": "ESTA:251039828",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-10-29T16:05:00.000Z",
-        "updated": "2025-10-29T16:13:00.000Z",
+        "created": "2025-10-29T16:44:00.000Z",
+        "updated": "2025-10-29T17:10:00.000Z",
         "resources": 0,
-        "location": "First Av, Melton South",
+        "location": "Macdougall Rd, Golden Gully",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -347,8 +376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.57000774442866,
-          -37.70012357498351
+          144.2620389059432,
+          -36.785230966450655
         ]
       }
     },
@@ -619,7 +648,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -627,7 +655,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-01T13:00:00.000Z",
           "heat": {
@@ -667,7 +696,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-29T16:56:40.108Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-29T17:26:20.229Z",
+    "featureCount": 47
   }
 }
