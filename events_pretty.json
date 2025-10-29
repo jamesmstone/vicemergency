@@ -234,31 +234,62 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121652295,
+        "status": "Responding",
+        "estaId": 121652472,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 585860,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251054602,
-        "id": "ESTA:251054602",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243127,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Macdougall Rd",
+        "eventId": 251039828,
+        "id": "ESTA:251039828",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-10-29T15:58:04.000Z",
-        "updated": "2025-10-29T16:22:56.000Z",
-        "resources": 0,
-        "location": "Burwood",
-        "sesId": 585860
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-29T16:44:00.000Z",
+        "updated": "2025-10-29T16:44:00.000Z",
+        "resources": 2,
+        "location": "Macdougall Rd, Golden Gully",
+        "cfaId": 243127,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.096048278464,
-          -37.85065307689932
+          144.2620389059432,
+          -36.785230966450655
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121652498,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121652498,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F251039829",
+        "id": "ESTA:251039829",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-29T16:49:49.000Z",
+        "updated": "2025-10-29T16:50:43.432Z",
+        "resources": 3,
+        "location": "Batmans Hill Dr, Docklands"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94825211691636,
+          -37.81908268551785
         ]
       }
     },
@@ -588,6 +619,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -595,8 +627,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-01T13:00:00.000Z",
           "heat": {
@@ -636,7 +667,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-29T16:36:40.093Z",
-    "featureCount": 45
+    "lastUpdated": "2025-10-29T16:56:40.108Z",
+    "featureCount": 46
   }
 }
