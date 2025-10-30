@@ -233,6 +233,38 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 121666154,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243259,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "East St",
+        "eventId": 251041179,
+        "id": "ESTA:251041179",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-30T16:43:00.000Z",
+        "updated": "2025-10-30T16:43:00.000Z",
+        "resources": 3,
+        "location": "East St, Kilmore",
+        "cfaId": 243259,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9627781012708,
+          -37.291457223003825
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 121666030,
         "feedType": "incident",
         "source": "000",
@@ -244,10 +276,10 @@
         "id": "ESTA:251041176",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
+        "category2": "Other",
         "created": "2025-10-30T16:16:00.000Z",
-        "updated": "2025-10-30T16:16:00.000Z",
-        "resources": 6,
+        "updated": "2025-10-30T16:45:00.000Z",
+        "resources": 4,
         "location": "Hazelwood North",
         "cfaId": 243258,
         "size": "Small",
@@ -264,62 +296,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121666061,
+        "status": "Responding",
+        "estaId": 121666179,
         "feedType": "incident",
-        "source": "000",
+        "source": "STATION",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121666061,
+        "sourceId": 121666179,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Reservoir",
-        "eventId": "F251041177",
-        "id": "ESTA:251041177",
+        "sourceTitle": "Glen Iris",
+        "eventId": "F251041181",
+        "id": "ESTA:251041181",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-10-30T16:24:12.000Z",
-        "updated": "2025-10-30T16:28:00.744Z",
-        "resources": 3,
-        "location": "Purinuan Rd, Reservoir"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-10-30T16:46:19.000Z",
+        "updated": "2025-10-30T16:46:35.280Z",
+        "resources": 0,
+        "location": "Toorak Rd, Glen Iris"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.010352328771,
-          -37.70673904620738
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121665904,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 243257,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Albert St",
-        "eventId": 251041175,
-        "id": "ESTA:251041175",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-10-30T15:45:00.000Z",
-        "updated": "2025-10-30T15:57:00.000Z",
-        "resources": 3,
-        "location": "Albert St, Shepparton",
-        "cfaId": 243257,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4004313016956,
-          -36.3898486621961
+          145.04593507628925,
+          -37.84563866557711
         ]
       }
     },
@@ -350,6 +350,35 @@
         "coordinates": [
           143.565444946,
           -34.605792999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 243257,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243257,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Albert St",
+        "eventId": 251041175,
+        "id": "ESTA:251041175",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-10-30T15:45:00.000Z",
+        "updated": "2025-10-30T16:35:00.000Z",
+        "resources": 2,
+        "location": "Albert St, Shepparton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4004313016956,
+          -36.3898486621961
         ]
       }
     },
@@ -695,7 +724,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-30T16:35:20.126Z",
-    "featureCount": 47
+    "lastUpdated": "2025-10-30T16:55:40.146Z",
+    "featureCount": 48
   }
 }
