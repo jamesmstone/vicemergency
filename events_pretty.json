@@ -261,6 +261,36 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121677336,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586002,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054717,
+        "id": "ESTA:251054717",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-10-31T09:35:28.000Z",
+        "updated": "2025-10-31T09:36:37.000Z",
+        "resources": 0,
+        "location": "Coburg",
+        "sesId": 586002
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97221042010526,
+          -37.74028116257578
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "estaId": 121677173,
         "feedType": "incident",
@@ -275,7 +305,7 @@
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2025-10-31T09:22:37.000Z",
-        "updated": "2025-10-31T09:25:28.040Z",
+        "updated": "2025-10-31T09:38:53.437Z",
         "resources": 4,
         "location": "Drummond St, Carlton"
       },
@@ -291,35 +321,36 @@
     {
       "properties": {
         "status": "Complete",
-        "estaId": 121677213,
+        "estaId": 121677355,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121677213,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Coburg",
-        "eventId": "F251042362",
-        "id": "ESTA:251042362",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586003,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251054718,
+        "id": "ESTA:251054718",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-10-31T09:25:35.000Z",
-        "updated": "2025-10-31T09:26:35.554Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-10-31T09:37:08.000Z",
+        "updated": "2025-10-31T09:44:21.000Z",
         "resources": 0,
-        "location": "Coburg"
+        "location": "Maldon",
+        "sesId": 586003
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97740992430485,
-          -37.74626389614757
+          144.06030725990638,
+          -37.03124969948223
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 121676997,
         "feedType": "incident",
         "source": "000",
@@ -333,8 +364,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-10-31T09:09:00.000Z",
-        "updated": "2025-10-31T09:27:00.000Z",
-        "resources": 4,
+        "updated": "2025-10-31T09:36:00.000Z",
+        "resources": 0,
         "location": "Willis Little Dr, Benalla",
         "cfaId": 243354,
         "size": "Small",
@@ -344,31 +375,180 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.99822778922896,
-          -36.566099360067874
+          145.99317196363083,
+          -36.56817521728596
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121677451,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121677451,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Thornbury",
+        "eventId": "F251042384",
+        "id": "ESTA:251042384",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-10-31T09:42:38.000Z",
+        "updated": "2025-10-31T09:46:05.703Z",
+        "resources": 0,
+        "location": "Woolton Av, Thornbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99544902625098,
+          -37.76079572824085
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121677367,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243356,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Clendon Cl",
+        "eventId": 251042379,
+        "id": "ESTA:251042379",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-10-31T09:38:00.000Z",
+        "updated": "2025-10-31T09:38:00.000Z",
+        "resources": 0,
+        "location": "Clendon Cl, Mount Eliza",
+        "cfaId": 243356,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0852347645971,
+          -38.2044005623871
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 121677300,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243355,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Michelle Dr",
+        "eventId": 251042370,
+        "id": "ESTA:251042370",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-10-31T09:33:00.000Z",
+        "updated": "2025-10-31T09:33:00.000Z",
+        "resources": 3,
+        "location": "Michelle Dr, Hastings",
+        "cfaId": 243355,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1788049411817,
+          -38.30263664566766
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121677410,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121677410,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F251042380",
+        "id": "ESTA:251042380",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-31T09:40:51.000Z",
+        "updated": "2025-10-31T09:47:25.186Z",
+        "resources": 3,
+        "location": "Bourke St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95631602603342,
+          -37.816000960294495
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 121676918,
         "feedType": "incident",
-        "source": "000",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "628633",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Cobb Hwy, Pretty Pine",
+        "id": "2025-10-31T20:33:00.0000000:628633",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Cobb Hwy, Pretty Pine",
+        "location": "Cobb Hwy, Pretty Pine 2710",
+        "created": "2025-10-31T20:33:00+11:00",
+        "updated": "2025-10-31T20:33:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.900268555,
+          -35.430309296
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 243353,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 243353,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
         "eventId": 251042350,
         "id": "ESTA:251042350",
-        "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-10-31T09:03:00.000Z",
-        "updated": "2025-10-31T09:27:00.000Z",
-        "resources": 3,
+        "updated": "2025-10-31T09:35:00.000Z",
+        "resources": 2,
         "location": "Mirboo",
-        "cfaId": 243353,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -378,35 +558,6 @@
         "coordinates": [
           146.20687382485707,
           -38.44393271107782
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 243349,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 243349,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Crinigan Rd",
-        "eventId": 251042307,
-        "id": "ESTA:251042307",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-10-31T08:25:00.000Z",
-        "updated": "2025-10-31T08:34:00.000Z",
-        "resources": 0,
-        "location": "Crinigan Rd, Morwell",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4307737094129,
-          -38.21863848894886
         ]
       }
     },
@@ -725,7 +876,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-31T09:28:45.330Z",
-    "featureCount": 48
+    "lastUpdated": "2025-10-31T09:50:20.264Z",
+    "featureCount": 53
   }
 }
