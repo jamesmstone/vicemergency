@@ -261,7 +261,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 121681833,
         "feedType": "incident",
         "source": "000",
@@ -275,8 +275,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-10-31T16:32:00.000Z",
-        "updated": "2025-10-31T16:32:00.000Z",
-        "resources": 0,
+        "updated": "2025-10-31T16:44:00.000Z",
+        "resources": 3,
         "location": "Macisaac Rd, Mooroopna",
         "cfaId": 243389,
         "size": "Small",
@@ -286,8 +286,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.34957307332735,
-          -36.379096689849334
+          145.350621403303,
+          -36.379075115534775
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121681928,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121681928,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Narre Warren",
+        "eventId": "F251100045",
+        "id": "ESTA:251100045",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-31T16:46:12.000Z",
+        "updated": "2025-10-31T16:47:10.131Z",
+        "resources": 0,
+        "location": "Cranbourne Rd, Narre Warren"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30616027248658,
+          -38.02889195739
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121681943,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121681943,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "West Melbourne",
+        "eventId": "F251100046",
+        "id": "ESTA:251100046",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-10-31T16:47:48.000Z",
+        "updated": "2025-10-31T16:48:51.567Z",
+        "resources": 0,
+        "location": "West Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9291608037593,
+          -37.80308595117292
         ]
       }
     },
@@ -663,7 +721,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-10-31T16:34:00.251Z",
-    "featureCount": 46
+    "lastUpdated": "2025-10-31T16:54:20.344Z",
+    "featureCount": 48
   }
 }
