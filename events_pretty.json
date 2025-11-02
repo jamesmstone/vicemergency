@@ -562,23 +562,52 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121710343,
+        "estaId": 121710502,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 243763,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251103502,
-        "id": "ESTA:251103502",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121710502,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Abbotsford",
+        "eventId": "F251103507",
+        "id": "ESTA:251103507",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-11-02T15:40:00.000Z",
-        "updated": "2025-11-02T15:40:00.000Z",
+        "created": "2025-11-02T16:25:05.000Z",
+        "updated": "2025-11-02T16:27:13.231Z",
+        "resources": 0,
+        "location": "Studley St, Abbotsford"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99693385333913,
+          -37.801603173189946
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121710501,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243764,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251103506,
+        "id": "ESTA:251103506",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-02T16:26:00.000Z",
+        "updated": "2025-11-02T16:26:00.000Z",
         "resources": 1,
-        "location": "Kyvalley",
-        "cfaId": 243763,
+        "location": "Dromana",
+        "cfaId": 243764,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -586,8 +615,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0240941117791,
-          -36.298844562139955
+          144.97724167167388,
+          -38.32941211901584
         ]
       }
     },
@@ -893,6 +922,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 243763,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 243763,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251103502,
+        "id": "ESTA:251103502",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-02T15:40:00.000Z",
+        "updated": "2025-11-02T16:13:00.000Z",
+        "resources": 0,
+        "location": "Kyvalley",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0240941117791,
+          -36.298844562139955
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "mfbId": "251038481",
         "feedType": "incident",
@@ -981,33 +1039,6 @@
     {
       "properties": {
         "status": "On Scene",
-        "sesId": 586150,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 586150,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251103446,
-        "id": "ESTA:251103446",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-02T11:24:00.000Z",
-        "updated": "2025-11-02T11:29:35.000Z",
-        "resources": 3,
-        "location": "Roxburgh Park"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92396816154945,
-          -37.63989592430684
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
         "sesId": 586161,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1029,6 +1060,60 @@
         "coordinates": [
           144.9433207194965,
           -37.83274582108342
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 586163,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586163,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251150145,
+        "id": "ESTA:251150145",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-02T16:00:37.000Z",
+        "updated": "2025-11-02T16:06:50.000Z",
+        "resources": 0,
+        "location": "Surrey Hills"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1078964165072,
+          -37.82731399028679
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 586150,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586150,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251103446,
+        "id": "ESTA:251103446",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-02T11:24:00.000Z",
+        "updated": "2025-11-02T16:26:08.000Z",
+        "resources": 2,
+        "location": "Roxburgh Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92396816154945,
+          -37.63989592430684
         ]
       }
     }
@@ -1260,7 +1345,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-02T15:50:05.532Z",
-    "featureCount": 57
+    "lastUpdated": "2025-11-02T16:30:08.159Z",
+    "featureCount": 60
   }
 }
