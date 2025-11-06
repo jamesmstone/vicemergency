@@ -206,89 +206,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121761207,
+        "status": "Safe",
+        "estaId": 121761251,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 586747,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251150761,
-        "id": "ESTA:251150761",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-06T18:31:42.000Z",
-        "updated": "2025-11-06T18:34:07.000Z",
-        "resources": 0,
-        "location": "Merricks North",
-        "sesId": 586747
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.07406104225845,
-          -38.35986941817387
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121761209,
-        "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121761209,
+        "sourceId": 121761251,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Balwyn",
-        "eventId": "F251106730",
-        "id": "ESTA:251106730",
+        "sourceTitle": "Melbourne",
+        "eventId": "F251106731",
+        "id": "ESTA:251106731",
         "suppress": false,
         "category1": "Fire",
         "category2": "Structure Fire",
-        "created": "2025-11-06T18:31:09.000Z",
-        "updated": "2025-11-06T18:31:54.519Z",
-        "resources": 0,
-        "location": "Mangan St, Balwyn"
+        "created": "2025-11-06T18:49:02.000Z",
+        "updated": "2025-11-06T18:51:46.673Z",
+        "resources": 4,
+        "location": "Spencer St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0832185435529,
-          -37.81138688545006
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121761208,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121761208,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Maribyrnong",
-        "eventId": "F251106729",
-        "id": "ESTA:251106729",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-06T18:31:44.000Z",
-        "updated": "2025-11-06T18:33:43.730Z",
-        "resources": 0,
-        "location": "Vista Rise, Maribyrnong"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8946079291499,
-          -37.7857263314536
+          144.95156114581204,
+          -37.8134403196
         ]
       }
     },
@@ -1324,6 +1265,33 @@
           -38.031929951483
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 586747,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586747,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251150761,
+        "id": "ESTA:251150761",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-06T18:31:42.000Z",
+        "updated": "2025-11-06T18:34:07.000Z",
+        "resources": 0,
+        "location": "Merricks North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07406104225845,
+          -38.35986941817387
+        ]
+      }
     }
   ],
   "properties": {
@@ -1553,7 +1521,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-06T18:39:40.078Z",
-    "featureCount": 53
+    "lastUpdated": "2025-11-06T18:55:59.877Z",
+    "featureCount": 52
   }
 }
