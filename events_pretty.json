@@ -206,31 +206,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121761922,
+        "status": "Safe",
+        "estaId": 121761899,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 586755,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251150769,
-        "id": "ESTA:251150769",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121761899,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F251106804",
+        "id": "ESTA:251106804",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-06T21:13:26.000Z",
-        "updated": "2025-11-06T21:18:35.000Z",
-        "resources": 0,
-        "location": "Ripplebrook",
-        "sesId": 586755
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-06T21:11:26.000Z",
+        "updated": "2025-11-06T21:24:45.778Z",
+        "resources": 4,
+        "location": "Docklands Dr, Docklands"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.76478114105305,
-          -38.17817406189202
+          144.9397498376497,
+          -37.81449697372453
         ]
       }
     },
@@ -239,7 +238,7 @@
         "status": "Safe",
         "estaId": 121761801,
         "feedType": "incident",
-        "source": "OTHER",
+        "source": "STATION",
         "sourceOrg": "VIC/CFA",
         "sourceId": 244255,
         "sourceFeed": "cfa-incident",
@@ -263,6 +262,102 @@
         "coordinates": [
           145.1168682956248,
           -38.027240653020804
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121762052,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244257,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Anderson Rd",
+        "eventId": 251106829,
+        "id": "ESTA:251106829",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-06T21:29:00.000Z",
+        "updated": "2025-11-06T21:29:00.000Z",
+        "resources": 0,
+        "location": "Anderson Rd, Kilmore",
+        "cfaId": 244257,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95691919186945,
+          -37.30204494942903
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121762087,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244258,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frankston-Dandenong Rd",
+        "eventId": 251106835,
+        "id": "ESTA:251106835",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-06T21:33:00.000Z",
+        "updated": "2025-11-06T21:33:00.000Z",
+        "resources": 2,
+        "location": "Frankston-Dandenong Rd, Dandenong South",
+        "cfaId": 244258,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2175774778917,
+          -38.001460153130694
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121762107,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244259,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barries Rd",
+        "eventId": 251106837,
+        "id": "ESTA:251106837",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-06T21:35:00.000Z",
+        "updated": "2025-11-06T21:35:00.000Z",
+        "resources": 0,
+        "location": "Barries Rd, Melton West",
+        "cfaId": 244259,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.56674145235283,
+          -37.687638605922196
         ]
       }
     },
@@ -1416,6 +1511,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 586755,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586755,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251150769,
+        "id": "ESTA:251150769",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-06T21:13:26.000Z",
+        "updated": "2025-11-06T21:18:35.000Z",
+        "resources": 0,
+        "location": "Ripplebrook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.76478114105305,
+          -38.17817406189202
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 586754,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1427,8 +1549,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-11-06T20:48:27.000Z",
-        "updated": "2025-11-06T20:54:10.000Z",
-        "resources": 0,
+        "updated": "2025-11-06T21:34:02.000Z",
+        "resources": 1,
         "location": "Alphington"
       },
       "type": "Feature",
@@ -1668,7 +1790,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-06T21:24:05.736Z",
-    "featureCount": 57
+    "lastUpdated": "2025-11-06T21:36:08.274Z",
+    "featureCount": 61
   }
 }
