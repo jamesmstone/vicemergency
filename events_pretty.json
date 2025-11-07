@@ -207,35 +207,38 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121774714,
+        "estaId": 121774743,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121774714,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Newport",
-        "eventId": "F251107797",
-        "id": "ESTA:251107797",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244386,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Berrabri Dr",
+        "eventId": 251107799,
+        "id": "ESTA:251107799",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-07T18:22:34.000Z",
-        "updated": "2025-11-07T18:27:09.546Z",
-        "resources": 0,
-        "location": "Newport"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-07T18:39:00.000Z",
+        "updated": "2025-11-07T18:39:00.000Z",
+        "resources": 2,
+        "location": "Berrabri Dr, Scoresby",
+        "cfaId": 244386,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.86509725258307,
-          -37.8444641575039
+          145.22220182396856,
+          -37.8933151180018
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 121774714,
         "feedType": "incident",
         "source": "000",
@@ -249,7 +252,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-11-07T18:27:07.000Z",
-        "updated": "2025-11-07T18:31:38.000Z",
+        "updated": "2025-11-07T18:44:55.000Z",
         "resources": 0,
         "location": "Newport",
         "sesId": 586810
@@ -258,14 +261,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.86508327135274,
-          -37.84447388634143
+          144.86528025351717,
+          -37.844342285139845
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "estaId": 121774706,
         "feedType": "incident",
         "source": "000",
@@ -279,9 +282,9 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-11-07T18:24:00.000Z",
-        "updated": "2025-11-07T18:24:00.000Z",
-        "resources": 11,
-        "location": "Coburns Rd, Melton West",
+        "updated": "2025-11-07T18:47:00.000Z",
+        "resources": 12,
+        "location": "Coburns Rd, Melton",
         "cfaId": 244385,
         "size": "Small",
         "sizeFmt": "Small"
@@ -290,37 +293,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.56769021674793,
-          -37.68671200209737
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121774735,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121774735,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wodonga",
-        "eventId": "F251107798",
-        "id": "ESTA:251107798",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-07T18:34:48.000Z",
-        "updated": "2025-11-07T18:36:06.878Z",
-        "resources": 0,
-        "location": "Dunluce Pl, Wodonga"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.88556600961545,
-          -36.1465971891917
+          144.5680977066597,
+          -37.686386992281875
         ]
       }
     },
@@ -2868,6 +2842,60 @@
           -37.01822498711792
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 586812,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586812,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251107798,
+        "id": "ESTA:251107798",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-11-07T18:36:05.000Z",
+        "updated": "2025-11-07T18:47:23.000Z",
+        "resources": 2,
+        "location": "Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88556091561452,
+          -36.14661081978024
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 586811,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586811,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251150838,
+        "id": "ESTA:251150838",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-11-07T18:36:05.000Z",
+        "updated": "2025-11-07T18:47:31.000Z",
+        "resources": 0,
+        "location": "Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88556091561452,
+          -36.14661081978024
+        ]
+      }
     }
   ],
   "properties": {
@@ -3097,7 +3125,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-07T18:36:40.560Z",
-    "featureCount": 57
+    "lastUpdated": "2025-11-07T18:50:45.838Z",
+    "featureCount": 58
   }
 }
