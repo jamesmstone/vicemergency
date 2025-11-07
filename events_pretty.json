@@ -206,24 +206,53 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121773848,
+        "status": "Safe",
+        "estaId": 121774054,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121774054,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "F251107771",
+        "id": "ESTA:251107771",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-11-07T15:38:39.000Z",
+        "updated": "2025-11-07T15:41:51.495Z",
+        "resources": 3,
+        "location": "Plenty Rd, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02753329470158,
+          -37.72436258660508
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121774072,
+        "feedType": "incident",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 244379,
+        "sourceId": 244381,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Summerhill Rd",
-        "eventId": 251107765,
-        "id": "ESTA:251107765",
+        "sourceTitle": "Newmarket Rd",
+        "eventId": 251107772,
+        "id": "ESTA:251107772",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-07T15:05:00.000Z",
-        "updated": "2025-11-07T15:17:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-11-07T15:43:00.000Z",
+        "updated": "2025-11-07T15:43:00.000Z",
         "resources": 3,
-        "location": "Summerhill Rd, Wollert",
-        "cfaId": 244379,
+        "location": "Newmarket Rd, Werribee",
+        "cfaId": 244381,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -231,8 +260,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98214157221784,
-          -37.57610893376624
+          144.64169641706286,
+          -37.91712977307015
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121773826,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121773826,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F251107763",
+        "id": "ESTA:251107763",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-07T15:01:10.000Z",
+        "updated": "2025-11-07T15:46:47.642Z",
+        "resources": 4,
+        "location": "Bourke St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96648326438103,
+          -37.81350634826385
         ]
       }
     },
@@ -2653,7 +2711,7 @@
         "category2": "Building Fire",
         "created": "2025-11-07T11:51:00.000Z",
         "updated": "2025-11-07T13:30:00.000Z",
-        "resources": 8,
+        "resources": 7,
         "location": "Mentone",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2664,6 +2722,64 @@
         "coordinates": [
           145.06459878477827,
           -37.982216535257784
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 244380,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244380,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251107769,
+        "id": "ESTA:251107769",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-07T15:29:00.000Z",
+        "updated": "2025-11-07T15:29:00.000Z",
+        "resources": 1,
+        "location": "Burkes Bridge",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31713771752624,
+          -35.850035535516476
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 244379,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244379,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Summerhill Rd",
+        "eventId": 251107765,
+        "id": "ESTA:251107765",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-07T15:05:00.000Z",
+        "updated": "2025-11-07T15:31:00.000Z",
+        "resources": 2,
+        "location": "Summerhill Rd, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98214157221784,
+          -37.57610893376624
         ]
       }
     },
@@ -2778,6 +2894,33 @@
         "coordinates": [
           144.817566800679,
           -37.01822498711792
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 586805,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 586805,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251150832,
+        "id": "ESTA:251150832",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-07T15:30:20.000Z",
+        "updated": "2025-11-07T15:47:48.000Z",
+        "resources": 1,
+        "location": "Burkes Bridge"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.31713771752624,
+          -35.850035535516476
         ]
       }
     }
@@ -3009,7 +3152,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-07T15:28:00.157Z",
-    "featureCount": 54
+    "lastUpdated": "2025-11-07T15:50:20.089Z",
+    "featureCount": 59
   }
 }
