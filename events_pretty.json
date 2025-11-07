@@ -206,54 +206,53 @@
     },
     {
       "properties": {
-        "status": "Complete",
+        "status": "Unknown",
         "estaId": 121772091,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 586800,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251107705,
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121772091,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Cranbourne North",
+        "eventId": "F251107705",
         "id": "ESTA:251107705",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-07T11:41:04.000Z",
-        "updated": "2025-11-07T13:27:54.000Z",
-        "resources": 1,
-        "location": "Cranbourne North",
-        "sesId": 586800
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-07T11:40:08.000Z",
+        "updated": "2025-11-07T13:27:57.058Z",
+        "resources": 0,
+        "location": "Cranbourne North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33532491214135,
-          -38.07450661648804
+          145.33534434041164,
+          -38.07449645489333
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121772605,
+        "estaId": 121773210,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 244371,
+        "sourceId": 244376,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Francis St",
-        "eventId": 251107735,
-        "id": "ESTA:251107735",
+        "eventId": 251107749,
+        "id": "ESTA:251107749",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-11-07T12:27:00.000Z",
-        "updated": "2025-11-07T12:43:00.000Z",
+        "created": "2025-11-07T13:37:00.000Z",
+        "updated": "2025-11-07T13:37:00.000Z",
         "resources": 0,
         "location": "Francis St, Bairnsdale",
-        "cfaId": 244371,
+        "cfaId": 244376,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -263,38 +262,6 @@
         "coordinates": [
           147.62650754976133,
           -37.82421980105273
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121772195,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 244367,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251107714,
-        "id": "ESTA:251107714",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-07T11:51:00.000Z",
-        "updated": "2025-11-07T13:30:00.000Z",
-        "resources": 12,
-        "location": "Mentone",
-        "cfaId": 244367,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.06459878477827,
-          -37.982216535257784
         ]
       }
     },
@@ -2702,6 +2669,64 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 244367,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244367,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251107714,
+        "id": "ESTA:251107714",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-07T11:51:00.000Z",
+        "updated": "2025-11-07T13:30:00.000Z",
+        "resources": 12,
+        "location": "Mentone",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.06459878477827,
+          -37.982216535257784
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 244375,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244375,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cumming Dr",
+        "eventId": 251107747,
+        "id": "ESTA:251107747",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-07T13:35:00.000Z",
+        "updated": "2025-11-07T13:44:00.000Z",
+        "resources": 2,
+        "location": "Cumming Dr, Hoppers Crossing",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6950197419065,
+          -37.86468693272467
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
         "mfbId": "251038481",
         "feedType": "incident",
@@ -3042,7 +3067,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-07T13:33:25.770Z",
-    "featureCount": 55
+    "lastUpdated": "2025-11-07T13:50:20.123Z",
+    "featureCount": 56
   }
 }
