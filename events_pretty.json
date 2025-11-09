@@ -2328,39 +2328,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121797850,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 244635,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Swindale St",
-        "eventId": 251109697,
-        "id": "ESTA:251109697",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-09T18:42:00.000Z",
-        "updated": "2025-11-09T19:06:00.000Z",
-        "resources": 2,
-        "location": "Swindale St, Elmore",
-        "cfaId": 244635,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.60932683472666,
-          -36.500251924440974
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 121797873,
         "feedType": "incident",
         "source": "000",
@@ -2374,7 +2342,7 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-11-09T18:52:00.000Z",
-        "updated": "2025-11-09T19:05:00.000Z",
+        "updated": "2025-11-09T19:19:00.000Z",
         "resources": 3,
         "location": "Tennyson St, Norlane",
         "cfaId": 244636,
@@ -2393,20 +2361,20 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121797942,
+        "estaId": 121797950,
         "feedType": "incident",
-        "source": "000",
+        "source": "OTHER",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121797942,
+        "sourceId": 121797950,
         "sourceFeed": "esta-cad-event",
         "sourceTitle": "Malvern East",
-        "eventId": "F251109702",
-        "id": "ESTA:251109702",
+        "eventId": "F251109703",
+        "id": "ESTA:251109703",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-11-09T19:15:19.000Z",
-        "updated": "2025-11-09T19:16:59.029Z",
+        "category2": "Structure Fire",
+        "created": "2025-11-09T19:18:03.000Z",
+        "updated": "2025-11-09T19:19:45.843Z",
         "resources": 0,
         "location": "Hughes St, Malvern East"
       },
@@ -2414,8 +2382,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0567494883208,
-          -37.87714832326408
+          145.05622929653111,
+          -37.88000654155105
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121797968,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244637,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Packington Ct",
+        "eventId": 251109706,
+        "id": "ESTA:251109706",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-09T19:23:00.000Z",
+        "updated": "2025-11-09T19:23:00.000Z",
+        "resources": 3,
+        "location": "Packington Ct, Craigieburn",
+        "cfaId": 244637,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91865977558535,
+          -37.5766735101313
         ]
       }
     },
@@ -3120,13 +3120,13 @@
         "sourceId": "629458",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Tingaringi Rd, Corrowong",
-        "id": "2025-11-08T08:52:00.0000000:629458",
+        "id": "2025-11-10T06:17:00.0000000:629458",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Tingaringi Rd, Corrowong",
         "location": "Tingaringi Rd, Corrowong 2633",
-        "created": "2025-11-08T08:52:00+11:00",
-        "updated": "2025-11-08T08:52:00+11:00",
+        "created": "2025-11-10T06:17:00+11:00",
+        "updated": "2025-11-10T06:17:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3139,6 +3139,66 @@
         "coordinates": [
           148.728302002,
           -36.923938751
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "629727",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Spring Dr, Collendina",
+        "id": "2025-11-10T02:57:00.0000000:629727",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Spring Dr, Collendina",
+        "location": "Collendina 1955 Spring Dr, Collendina 2646",
+        "created": "2025-11-10T02:57:00+11:00",
+        "updated": "2025-11-10T02:57:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.203201294,
+          -36.0241203309999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "629732",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Jindalee Rd, Coomealla",
+        "id": "2025-11-10T06:09:00.0000000:629732",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Jindalee Rd, Coomealla",
+        "location": "28 Jindalee Rd, Coomealla 2717",
+        "created": "2025-11-10T06:09:00+11:00",
+        "updated": "2025-11-10T06:09:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.079071045,
+          -34.1210937499999
         ]
       }
     },
@@ -3245,7 +3305,7 @@
         "category2": "Building Fire",
         "created": "2025-11-09T17:56:00.000Z",
         "updated": "2025-11-09T18:08:00.000Z",
-        "resources": 6,
+        "resources": 5,
         "location": "Craigieburn",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3274,7 +3334,7 @@
         "category2": "Bushfire",
         "created": "2025-11-09T18:38:00.000Z",
         "updated": "2025-11-09T18:46:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Tannery Lane, Mandurang",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3303,7 +3363,7 @@
         "category2": "Bushfire",
         "created": "2025-11-09T18:02:00.000Z",
         "updated": "2025-11-09T19:02:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Wangaratta-Whitfield Rd, King Valley",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3314,6 +3374,35 @@
         "coordinates": [
           146.42260963795036,
           -36.673500657781
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 244635,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244635,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Swindale St",
+        "eventId": 251109697,
+        "id": "ESTA:251109697",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-09T18:42:00.000Z",
+        "updated": "2025-11-09T19:06:00.000Z",
+        "resources": 2,
+        "location": "Swindale St, Elmore",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60932683472666,
+          -36.500251924440974
         ]
       }
     },
@@ -3632,7 +3721,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-09T19:18:39.963Z",
-    "featureCount": 62
+    "lastUpdated": "2025-11-09T19:30:20.164Z",
+    "featureCount": 65
   }
 }
