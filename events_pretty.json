@@ -282,60 +282,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121809508,
+        "status": "Responding",
+        "estaId": 121809543,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587188,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151204,
-        "id": "ESTA:251151204",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244784,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Colquhoun Rd",
+        "eventId": 251110595,
+        "id": "ESTA:251110595",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-10T17:12:49.000Z",
-        "updated": "2025-11-10T17:15:17.000Z",
-        "resources": 0,
-        "location": "Balaclava",
-        "sesId": 587188
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-10T17:26:00.000Z",
+        "updated": "2025-11-10T17:26:00.000Z",
+        "resources": 2,
+        "location": "Colquhoun Rd, Lakes Entrance",
+        "cfaId": 244784,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99591902127847,
-          -37.87253865442178
+          147.97904088022042,
+          -37.82851352845609
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121809490,
+        "status": "Responding",
+        "estaId": 121809571,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121809490,
+        "sourceId": 121809571,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Altona North",
-        "eventId": "F251110590",
-        "id": "ESTA:251110590",
+        "sourceTitle": "Southbank",
+        "eventId": "F251110598",
+        "id": "ESTA:251110598",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-11-10T17:08:43.000Z",
-        "updated": "2025-11-10T17:22:35.318Z",
-        "resources": 3,
-        "location": "Mcarthurs Rd, Altona North"
+        "category2": "Non Structure Fire",
+        "created": "2025-11-10T17:33:36.000Z",
+        "updated": "2025-11-10T17:33:47.473Z",
+        "resources": 0,
+        "location": "Southbank"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.83991182061519,
-          -37.83485425096805
+          144.9585991665838,
+          -37.82412172006641
         ]
       }
     },
@@ -1749,6 +1751,33 @@
           -38.08827550515134
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587188,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587188,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151204,
+        "id": "ESTA:251151204",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-11-10T17:12:49.000Z",
+        "updated": "2025-11-10T17:15:17.000Z",
+        "resources": 0,
+        "location": "Balaclava"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99591902127847,
+          -37.87253865442178
+        ]
+      }
     }
   ],
   "properties": {
@@ -1978,7 +2007,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-10T17:25:20.443Z",
-    "featureCount": 52
+    "lastUpdated": "2025-11-10T17:38:05.641Z",
+    "featureCount": 53
   }
 }
