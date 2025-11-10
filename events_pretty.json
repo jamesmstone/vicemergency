@@ -282,61 +282,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121809191,
+        "status": "Responding",
+        "estaId": 121809363,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587186,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151202,
-        "id": "ESTA:251151202",
+        "source": "OTHER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244781,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bellingham St",
+        "eventId": 251110584,
+        "id": "ESTA:251110584",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-10T15:43:33.000Z",
-        "updated": "2025-11-10T15:44:13.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-10T16:32:00.000Z",
+        "updated": "2025-11-10T16:32:00.000Z",
         "resources": 0,
-        "location": "Elsternwick",
-        "sesId": 587186
+        "location": "Bellingham St, Leongatha",
+        "cfaId": 244781,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00464790148612,
-          -37.8831495895878
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121809207,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587187,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151203,
-        "id": "ESTA:251151203",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-10T15:47:26.000Z",
-        "updated": "2025-11-10T15:49:38.000Z",
-        "resources": 0,
-        "location": "Rosebud",
-        "sesId": 587187
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91643005895565,
-          -38.38565685043469
+          145.9436858110139,
+          -38.47450542652368
         ]
       }
     },
@@ -1696,20 +1668,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 244776,
+        "cfaId": 244778,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 244776,
+        "sourceId": 244778,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Downey Dr",
-        "eventId": 251110577,
-        "id": "ESTA:251110577",
-        "category1": "Other",
+        "sourceTitle": "Eel Race Rd",
+        "eventId": 251110580,
+        "id": "ESTA:251110580",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-11-10T14:36:00.000Z",
-        "updated": "2025-11-10T15:11:00.000Z",
-        "resources": 0,
-        "location": "Downey Dr, Doreen",
+        "created": "2025-11-10T15:57:00.000Z",
+        "updated": "2025-11-10T16:05:00.000Z",
+        "resources": 1,
+        "location": "Eel Race Rd, Seaford",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1717,35 +1689,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.13334894414672,
-          -37.57627253083888
+          145.1342486751072,
+          -38.083525273251595
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 587184,
+        "sesId": 587187,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 587184,
+        "sourceId": 587187,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251151200,
-        "id": "ESTA:251151200",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-10T14:48:07.000Z",
-        "updated": "2025-11-10T15:27:16.000Z",
+        "eventId": 251151203,
+        "id": "ESTA:251151203",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-10T15:47:26.000Z",
+        "updated": "2025-11-10T16:04:02.000Z",
         "resources": 1,
-        "location": "Mulgrave"
+        "location": "Rosebud"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2013421733862,
-          -37.93641762977136
+          144.91643005895565,
+          -38.38565685043469
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587186,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587186,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151202,
+        "id": "ESTA:251151202",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-11-10T15:43:33.000Z",
+        "updated": "2025-11-10T16:33:00.000Z",
+        "resources": 1,
+        "location": "Elsternwick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00464790148612,
+          -37.8831495895878
         ]
       }
     }
@@ -1977,7 +1976,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-10T15:51:06.023Z",
+    "lastUpdated": "2025-11-10T16:36:20.081Z",
     "featureCount": 52
   }
 }
