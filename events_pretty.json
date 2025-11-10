@@ -282,40 +282,10 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121807672,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587176,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151193,
-        "id": "ESTA:251151193",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-10T11:18:42.000Z",
-        "updated": "2025-11-10T13:46:17.000Z",
-        "resources": 0,
-        "location": "Inverloch",
-        "sesId": 587176
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.7307037423951,
-          -38.62721858030779
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121808641,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "",
         "sourceOrg": "VIC/CFA",
         "sourceId": 244774,
         "sourceFeed": "cfa-incident",
@@ -326,7 +296,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-11-10T13:52:00.000Z",
-        "updated": "2025-11-10T13:52:00.000Z",
+        "updated": "2025-11-10T14:04:00.000Z",
         "resources": 0,
         "location": "Normanby St, Warragul",
         "cfaId": 244774,
@@ -339,6 +309,65 @@
         "coordinates": [
           145.94059879150265,
           -38.15480190023135
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121808681,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121808681,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "St Kilda",
+        "eventId": "F251110575",
+        "id": "ESTA:251110575",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-10T13:58:49.000Z",
+        "updated": "2025-11-10T14:18:59.192Z",
+        "resources": 3,
+        "location": "Inkerman St, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9892781652291,
+          -37.86493161695093
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121808527,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587180,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151197,
+        "id": "ESTA:251151197",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-11-10T13:30:54.000Z",
+        "updated": "2025-11-10T14:25:18.000Z",
+        "resources": 0,
+        "location": "Tullamarine",
+        "sesId": 587180
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88026704691583,
+          -37.69933556917645
         ]
       }
     },
@@ -1726,28 +1755,58 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 587180,
+        "status": "On Scene",
+        "cfaId": 244775,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 587180,
+        "sourceId": 587182,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251151197,
-        "id": "ESTA:251151197",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-10T13:30:54.000Z",
-        "updated": "2025-11-10T13:37:14.000Z",
-        "resources": 0,
-        "location": "Tullamarine"
+        "eventId": 251110576,
+        "id": "ESTA:251110576",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-10T14:01:55.000Z",
+        "updated": "2025-11-10T14:15:33.000Z",
+        "resources": 2,
+        "location": "Creightons Creek",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 587182
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88279774396358,
-          -37.702472100607174
+          145.47525297863834,
+          -36.799473244991574
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 587181,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587181,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151198,
+        "id": "ESTA:251151198",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-10T13:58:50.000Z",
+        "updated": "2025-11-10T14:23:43.000Z",
+        "resources": 1,
+        "location": "Jancourt East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.15243659837782,
+          -38.39741469134951
         ]
       }
     }
@@ -1979,7 +2038,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-10T13:52:45.629Z",
-    "featureCount": 52
+    "lastUpdated": "2025-11-10T14:28:40.502Z",
+    "featureCount": 54
   }
 }
