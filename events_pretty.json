@@ -1218,39 +1218,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121821207,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 244907,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251111243,
-        "id": "ESTA:251111243",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-11T18:35:00.000Z",
-        "updated": "2025-11-11T18:45:00.000Z",
-        "resources": 4,
-        "location": "Frankston",
-        "cfaId": 244907,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.13150902455575,
-          -38.13154950868708
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 121821322,
         "feedType": "incident",
         "source": "000",
@@ -1264,16 +1232,79 @@
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
         "created": "2025-11-11T19:15:16.000Z",
-        "updated": "2025-11-11T19:17:25.802Z",
-        "resources": 0,
+        "updated": "2025-11-11T19:28:33.385Z",
+        "resources": 2,
         "location": "Moorabbin"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.07857113479292,
-          -37.94457382512929
+          145.07552447689199,
+          -37.944193154642505
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121821352,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587346,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151372,
+        "id": "ESTA:251151372",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-11T19:29:27.000Z",
+        "updated": "2025-11-11T19:30:01.000Z",
+        "resources": 0,
+        "location": "Foster",
+        "sesId": 587346
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.20154066350463,
+          -38.640499386196204
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 121820976,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587343,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251111233,
+        "id": "ESTA:251111233",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-11T17:15:48.000Z",
+        "updated": "2025-11-11T17:47:17.000Z",
+        "resources": 2,
+        "location": "Nathalia",
+        "cfaId": 244903,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 587343
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2038263024628,
+          -35.99908677867406
         ]
       }
     },
@@ -2661,31 +2692,30 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 244903,
+        "status": "Under Control",
+        "cfaId": 244907,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587343,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251111233,
-        "id": "ESTA:251111233",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-11T17:15:48.000Z",
-        "updated": "2025-11-11T17:47:17.000Z",
-        "resources": 2,
-        "location": "Nathalia",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244907,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251111243,
+        "id": "ESTA:251111243",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-11T18:35:00.000Z",
+        "updated": "2025-11-11T18:45:00.000Z",
+        "resources": 4,
+        "location": "Frankston",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 587343
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2038263024628,
-          -35.99908677867406
+          145.13150902455575,
+          -38.13154950868708
         ]
       }
     }
@@ -2917,7 +2947,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-11T19:21:45.464Z",
-    "featureCount": 56
+    "lastUpdated": "2025-11-11T19:31:40.126Z",
+    "featureCount": 57
   }
 }
