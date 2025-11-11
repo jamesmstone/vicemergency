@@ -1219,55 +1219,81 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121821940,
+        "estaId": 121821994,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 244915,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Maffra-Sale Rd",
-        "eventId": 251111348,
-        "id": "ESTA:251111348",
+        "source": "STATION",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121821994,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Collingwood",
+        "eventId": "F251111358",
+        "id": "ESTA:251111358",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-11T21:20:00.000Z",
-        "updated": "2025-11-11T21:20:00.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-11T21:26:26.000Z",
+        "updated": "2025-11-11T21:26:34.892Z",
         "resources": 0,
-        "location": "Maffra-Sale Rd, Sale",
-        "cfaId": 244915,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Keele St, Collingwood"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.0673071894997,
-          -38.09201955896173
+          144.9924889605266,
+          -37.79780523539945
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121821947,
+        "estaId": 121822008,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 244916,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Victoria St",
-        "eventId": 251111350,
-        "id": "ESTA:251111350",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121822008,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Preston",
+        "eventId": "F251111364",
+        "id": "ESTA:251111364",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-11T21:21:00.000Z",
-        "updated": "2025-11-11T21:21:00.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-11-11T21:27:32.000Z",
+        "updated": "2025-11-11T21:29:20.592Z",
         "resources": 0,
-        "location": "Victoria St, Cobden",
-        "cfaId": 244916,
+        "location": "High St, Preston"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00422460311816,
+          -37.7354707388785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121822058,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244919,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Scoresby Rd",
+        "eventId": 251111374,
+        "id": "ESTA:251111374",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-11T21:33:00.000Z",
+        "updated": "2025-11-11T21:33:00.000Z",
+        "resources": 0,
+        "location": "Scoresby Rd, Ferntree Gully",
+        "cfaId": 244919,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1275,8 +1301,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.07629579551372,
-          -38.33223374532946
+          145.25775506472522,
+          -37.87818393152859
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121821986,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121821986,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Watsonia",
+        "eventId": "F251111357",
+        "id": "ESTA:251111357",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-11-11T21:22:27.000Z",
+        "updated": "2025-11-11T21:34:00.255Z",
+        "resources": 2,
+        "location": "Ibbottson St, Watsonia"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0844428022493,
+          -37.7113703538796
         ]
       }
     },
@@ -2693,6 +2748,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 244916,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 244916,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Victoria St",
+        "eventId": 251111350,
+        "id": "ESTA:251111350",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-11T21:21:00.000Z",
+        "updated": "2025-11-11T21:31:00.000Z",
+        "resources": 1,
+        "location": "Victoria St, Cobden",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.07629579551372,
+          -38.33223374532946
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 587343,
         "feedType": "incident",
@@ -2814,6 +2898,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2821,8 +2906,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2838,6 +2922,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2845,8 +2930,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-11T13:00:00.000Z",
           "heat": {
@@ -3027,7 +3111,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-11T21:24:21.041Z",
-    "featureCount": 60
+    "lastUpdated": "2025-11-11T21:36:20.146Z",
+    "featureCount": 63
   }
 }
