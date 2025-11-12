@@ -1303,30 +1303,33 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121834557,
+        "status": "Responding",
+        "estaId": 121834822,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121834557,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Kealba",
-        "eventId": "F251112333",
-        "id": "ESTA:251112333",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245028,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ebeli Cl",
+        "eventId": 251112386,
+        "id": "ESTA:251112386",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-11-12T20:59:36.000Z",
-        "updated": "2025-11-12T21:11:17.008Z",
-        "resources": 3,
-        "location": "Rowan Dr, Kealba"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-12T21:31:00.000Z",
+        "updated": "2025-11-12T21:31:00.000Z",
+        "resources": 2,
+        "location": "Ebeli Cl, Narre Warren North",
+        "cfaId": 245028,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8317202105689,
-          -37.73634433060455
+          145.28603681314917,
+          -37.96715132310829
         ]
       }
     },
@@ -1346,7 +1349,7 @@
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2025-11-12T21:15:06.000Z",
-        "updated": "2025-11-12T21:24:29.214Z",
+        "updated": "2025-11-12T21:35:51.248Z",
         "resources": 3,
         "location": "Batman Av, Melbourne"
       },
@@ -1356,6 +1359,36 @@
         "coordinates": [
           144.97468646599452,
           -37.817856524680316
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121834860,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587419,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151442,
+        "id": "ESTA:251151442",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-12T21:34:15.000Z",
+        "updated": "2025-11-12T21:35:02.000Z",
+        "resources": 0,
+        "location": "Whittlesea",
+        "sesId": 587419
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12153621513468,
+          -37.51097992946038
         ]
       }
     },
@@ -2741,35 +2774,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 245015,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245015,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Campbell Ct",
-        "eventId": 251112259,
-        "id": "ESTA:251112259",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-12T19:23:00.000Z",
-        "updated": "2025-11-12T20:37:00.000Z",
-        "resources": 0,
-        "location": "Campbell Ct, Apollo Bay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.67152380141715,
-          -38.742958157813575
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 245025,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2793,6 +2797,33 @@
         "coordinates": [
           142.1501420891763,
           -34.19696270212169
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587418,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587418,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151441,
+        "id": "ESTA:251151441",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2025-11-12T21:30:41.000Z",
+        "updated": "2025-11-12T21:33:08.000Z",
+        "resources": 0,
+        "location": "Narre Warren North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28603681314917,
+          -37.96715132310829
         ]
       }
     },
@@ -4306,6 +4337,7 @@
         "Mallee": "EXTREME"
       },
       "tfb": {
+        "Mallee": "YES - TOTAL FIRE BAN IN FORCE",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4313,8 +4345,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "YES - TOTAL FIRE BAN IN FORCE"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4330,6 +4361,7 @@
             "Mallee": "EXTREME"
           },
           "tfb": {
+            "Mallee": "YES - TOTAL FIRE BAN IN FORCE",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4337,8 +4369,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "YES - TOTAL FIRE BAN IN FORCE"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-12T13:00:00.000Z",
           "heat": {
@@ -4519,7 +4550,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-12T21:25:25.506Z",
-    "featureCount": 63
+    "lastUpdated": "2025-11-12T21:37:46.279Z",
+    "featureCount": 64
   }
 }
