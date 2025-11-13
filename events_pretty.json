@@ -424,40 +424,98 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121847056,
+        "status": "Safe",
+        "estaId": 121846933,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587473,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251113378,
-        "id": "ESTA:251113378",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245159,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 251113353,
+        "id": "ESTA:251113353",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-13T19:53:16.000Z",
-        "updated": "2025-11-13T20:12:08.000Z",
-        "resources": 2,
-        "location": "Broadford",
-        "cfaId": 245160,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-13T19:26:00.000Z",
+        "updated": "2025-11-13T20:43:00.000Z",
+        "resources": 0,
+        "location": "Hume Fwy, Wangaratta South",
+        "cfaId": 245159,
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 587473
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0565489307157,
-          -37.262184493559566
+          146.26320226637102,
+          -36.42409840837038
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 121847402,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121847402,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mount Waverley",
+        "eventId": "F251113486",
+        "id": "ESTA:251113486",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-11-13T20:42:56.000Z",
+        "updated": "2025-11-13T20:44:49.644Z",
+        "resources": 3,
+        "location": "Mount Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11937942516974,
+          -37.876752027400975
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121847041,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587472,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151508,
+        "id": "ESTA:251151508",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-13T19:49:41.000Z",
+        "updated": "2025-11-13T20:46:46.000Z",
+        "resources": 0,
+        "location": "Trentham",
+        "sesId": 587472
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.30666588539208,
+          -37.41051629179433
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 121847252,
         "feedType": "incident",
         "source": "000",
@@ -471,7 +529,7 @@
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
         "created": "2025-11-13T20:24:00.000Z",
-        "updated": "2025-11-13T20:24:00.000Z",
+        "updated": "2025-11-13T20:39:00.000Z",
         "resources": 0,
         "location": "Houston St, Horsham",
         "cfaId": 245162,
@@ -792,36 +850,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "630261",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Mclaurin Rd, Warragoon",
-        "id": "2025-11-13T15:50:00.0000000:630261",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Mclaurin Rd, Warragoon",
-        "location": "228 Mclaurin Rd, Warragoon 2710",
-        "created": "2025-11-13T15:50:00+11:00",
-        "updated": "2025-11-13T15:50:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.154434204,
-          -35.588691711
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "630212",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Bowna Waters Rd, Table Top",
@@ -844,6 +872,36 @@
         "coordinates": [
           147.062362671,
           -35.996868133
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "630261",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Mclaurin Rd, Warragoon",
+        "id": "2025-11-13T15:50:00.0000000:630261",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Mclaurin Rd, Warragoon",
+        "location": "228 Mclaurin Rd, Warragoon 2710",
+        "created": "2025-11-13T15:50:00+11:00",
+        "updated": "2025-11-13T15:50:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.154434204,
+          -35.588691711
         ]
       }
     },
@@ -878,57 +936,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 245159,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245159,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 251113353,
-        "id": "ESTA:251113353",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-13T19:26:00.000Z",
-        "updated": "2025-11-13T19:43:00.000Z",
-        "resources": 1,
-        "location": "Hume Fwy, Wangaratta South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.26320226637102,
-          -36.42409840837038
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "sesId": 587472,
+        "cfaId": 245160,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 587472,
+        "sourceId": 587473,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251151508,
-        "id": "ESTA:251151508",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-13T19:49:41.000Z",
-        "updated": "2025-11-13T20:19:49.000Z",
-        "resources": 0,
-        "location": "Trentham"
+        "eventId": 251113378,
+        "id": "ESTA:251113378",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-13T19:53:16.000Z",
+        "updated": "2025-11-13T20:12:08.000Z",
+        "resources": 1,
+        "location": "Broadford",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 587473
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.30666588539208,
-          -37.41051629179433
+          145.0565489307157,
+          -37.262184493559566
         ]
       }
     }
@@ -1160,7 +1192,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-13T20:30:25.611Z",
-    "featureCount": 63
+    "lastUpdated": "2025-11-13T20:51:20.822Z",
+    "featureCount": 64
   }
 }
