@@ -404,7 +404,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "estaId": 121861597,
         "feedType": "incident",
         "source": "000",
@@ -418,7 +418,7 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-11-14T15:32:00.000Z",
-        "updated": "2025-11-14T15:32:00.000Z",
+        "updated": "2025-11-14T16:22:00.000Z",
         "resources": 8,
         "location": "Sully Ct, Diggers Rest",
         "cfaId": 245313,
@@ -431,96 +431,6 @@
         "coordinates": [
           144.7066483704147,
           -37.6191082622883
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121861600,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121861600,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Langwarrin South",
-        "eventId": "F251115657",
-        "id": "ESTA:251115657",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-14T15:31:41.000Z",
-        "updated": "2025-11-14T15:43:15.357Z",
-        "resources": 0,
-        "location": "Robinsons Rd, Langwarrin South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18629076168608,
-          -38.18023850467858
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121861596,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245312,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Robinsons Rd",
-        "eventId": 251115655,
-        "id": "ESTA:251115655",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-14T15:32:00.000Z",
-        "updated": "2025-11-14T15:44:00.000Z",
-        "resources": 2,
-        "location": "Robinsons Rd, Langwarrin South",
-        "cfaId": 245312,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18628612652563,
-          -38.180250767022514
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121861698,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121861698,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Keilor Park",
-        "eventId": "F251115660",
-        "id": "ESTA:251115660",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-11-14T15:49:23.000Z",
-        "updated": "2025-11-14T15:50:04.670Z",
-        "resources": 0,
-        "location": "Keilor Park"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8495497505397,
-          -37.72570432733679
         ]
       }
     },
@@ -829,6 +739,36 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
+        "sourceId": "630496",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Adams St, Tocumwal",
+        "id": "2025-11-15T03:30:00.0000000:630496",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Adams St, Tocumwal",
+        "location": "Adams St, Tocumwal 2714",
+        "created": "2025-11-15T03:30:00+11:00",
+        "updated": "2025-11-15T03:30:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.568069458,
+          -35.815769196
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
         "sourceId": "630261",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Mclaurin Rd, Warragoon",
@@ -856,7 +796,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "cfaId": 245312,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245312,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Robinsons Rd",
+        "eventId": 251115655,
+        "id": "ESTA:251115655",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-14T15:32:00.000Z",
+        "updated": "2025-11-14T15:51:00.000Z",
+        "resources": 0,
+        "location": "Robinsons Rd, Langwarrin South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18628612652563,
+          -38.180250767022514
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 245311,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -868,8 +837,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-11-14T15:08:00.000Z",
-        "updated": "2025-11-14T15:21:00.000Z",
-        "resources": 4,
+        "updated": "2025-11-14T16:05:00.000Z",
+        "resources": 2,
         "location": "Kilpatrick Ct, Corio",
         "size": "Small",
         "sizeFmt": "Small"
@@ -885,30 +854,58 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 245310,
+        "status": "Request For Assistance",
+        "cfaId": 245316,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245310,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Way",
-        "eventId": 251115652,
-        "id": "ESTA:251115652",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-14T15:06:00.000Z",
-        "updated": "2025-11-14T15:33:00.000Z",
-        "resources": 0,
-        "location": "Princes Way, Drouin",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587514,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251115663,
+        "id": "ESTA:251115663",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-14T16:11:55.000Z",
+        "updated": "2025-11-14T16:28:20.000Z",
+        "resources": 2,
+        "location": "Abbeyard",
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 587514
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.84901760126237,
-          -38.13084166296933
+          146.88750999468155,
+          -37.022272046432285
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587515,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587515,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151547,
+        "id": "ESTA:251151547",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-14T16:34:17.000Z",
+        "updated": "2025-11-14T16:34:17.000Z",
+        "resources": 0,
+        "location": "North Bendigo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.27293091116087,
+          -36.741872918084965
         ]
       }
     }
@@ -1140,7 +1137,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-14T15:50:20.396Z",
+    "lastUpdated": "2025-11-14T16:35:20.943Z",
     "featureCount": 62
   }
 }
