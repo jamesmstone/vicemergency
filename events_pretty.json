@@ -526,23 +526,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121877752,
+        "estaId": 121879420,
         "feedType": "incident",
-        "source": "000",
+        "source": "STATION",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 245515,
+        "sourceId": 245532,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251118493,
-        "id": "ESTA:251118493",
+        "sourceTitle": "Bowen St",
+        "eventId": 251118968,
+        "id": "ESTA:251118968",
         "suppress": false,
         "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2025-11-15T20:51:00.000Z",
-        "updated": "2025-11-15T23:21:00.000Z",
+        "category2": "Rescue",
+        "created": "2025-11-15T23:36:00.000Z",
+        "updated": "2025-11-15T23:39:00.000Z",
         "resources": 0,
-        "location": "Yarram",
-        "cfaId": 245515,
+        "location": "Bowen St, St Arnaud",
+        "cfaId": 245532,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -550,40 +550,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.7129216937701,
-          -38.54805715129135
+          143.25109515754798,
+          -36.61614567431166
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121878954,
+        "estaId": 121879468,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245528,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Corangamite Lake Rd",
-        "eventId": 251118846,
-        "id": "ESTA:251118846",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121879468,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Donvale",
+        "eventId": "F251118976",
+        "id": "ESTA:251118976",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-15T22:59:00.000Z",
-        "updated": "2025-11-15T23:29:00.000Z",
-        "resources": 0,
-        "location": "Corangamite Lake Rd, Cororooke",
-        "cfaId": 245528,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-11-15T23:38:52.000Z",
+        "updated": "2025-11-15T23:41:53.550Z",
+        "resources": 3,
+        "location": "Lookover Rd, Donvale"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.52242265588788,
-          -38.28792769439923
+          145.21279784561736,
+          -37.80034437817409
         ]
       }
     },
@@ -1167,6 +1164,64 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 245515,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245515,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251118493,
+        "id": "ESTA:251118493",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2025-11-15T20:51:00.000Z",
+        "updated": "2025-11-15T23:21:00.000Z",
+        "resources": 0,
+        "location": "Yarram",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7129216937701,
+          -38.54805715129135
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 245528,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245528,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Corangamite Lake Rd",
+        "eventId": 251118846,
+        "id": "ESTA:251118846",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-15T22:59:00.000Z",
+        "updated": "2025-11-15T23:29:00.000Z",
+        "resources": 0,
+        "location": "Corangamite Lake Rd, Cororooke",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.52242265588788,
+          -38.28792769439923
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 587585,
         "feedType": "incident",
@@ -1179,8 +1234,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-11-15T21:10:18.000Z",
-        "updated": "2025-11-15T21:17:08.000Z",
-        "resources": 0,
+        "updated": "2025-11-15T23:39:45.000Z",
+        "resources": 1,
         "location": "Blackburn"
       },
       "type": "Feature",
@@ -1189,33 +1244,6 @@
         "coordinates": [
           145.15928813443324,
           -37.83178750712387
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 587587,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587587,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151612,
-        "id": "ESTA:251151612",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-11-15T23:30:00.000Z",
-        "updated": "2025-11-15T23:30:00.000Z",
-        "resources": 0,
-        "location": "Sale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.08721093999458,
-          -38.10459728032876
         ]
       }
     }
@@ -1447,7 +1475,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-15T23:34:40.485Z",
-    "featureCount": 72
+    "lastUpdated": "2025-11-15T23:50:05.812Z",
+    "featureCount": 73
   }
 }
