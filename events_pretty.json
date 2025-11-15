@@ -431,62 +431,61 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 121877041,
+        "status": "Request For Assistance",
+        "estaId": 121877395,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121877041,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Dareton (Nsw)",
-        "eventId": "F251118386",
-        "id": "ESTA:251118386",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587583,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151608,
+        "id": "ESTA:251151608",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-15T17:50:14.000Z",
-        "updated": "2025-11-15T19:02:57.608Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-15T19:40:57.000Z",
+        "updated": "2025-11-15T19:44:31.000Z",
         "resources": 0,
-        "location": "Golf Course Rd, Dareton (Nsw)"
+        "location": "Officer",
+        "sesId": 587583
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.04502333100933,
-          -34.101229758741006
+          145.41716198046697,
+          -38.04832225024
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121877306,
+        "status": "Request For Assistance",
+        "estaId": 121877408,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245510,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251118410,
-        "id": "ESTA:251118410",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587584,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151609,
+        "id": "ESTA:251151609",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-15T19:16:00.000Z",
-        "updated": "2025-11-15T19:16:00.000Z",
-        "resources": 2,
-        "location": "Koyuga",
-        "cfaId": 245510,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-15T19:43:02.000Z",
+        "updated": "2025-11-15T19:44:33.000Z",
+        "resources": 0,
+        "location": "Officer",
+        "sesId": 587584
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8864990635264,
-          -36.18627980892237
+          145.40788301549352,
+          -38.046854132352394
         ]
       }
     },
@@ -951,6 +950,35 @@
           -37.37605712190969
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 245510,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245510,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251118410,
+        "id": "ESTA:251118410",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-15T19:16:00.000Z",
+        "updated": "2025-11-15T19:16:00.000Z",
+        "resources": 8,
+        "location": "Koyuga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90454625979316,
+          -36.19293392866154
+        ]
+      }
     }
   ],
   "properties": {
@@ -1180,7 +1208,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-15T19:30:20.836Z",
-    "featureCount": 65
+    "lastUpdated": "2025-11-15T19:50:05.722Z",
+    "featureCount": 66
   }
 }
