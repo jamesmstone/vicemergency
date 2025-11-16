@@ -525,66 +525,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121886587,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587662,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151681,
-        "id": "ESTA:251151681",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-16T11:07:50.000Z",
-        "updated": "2025-11-16T11:10:14.000Z",
-        "resources": 0,
-        "location": "Healesville",
-        "sesId": 587662
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5170089051338,
-          -37.623076805826145
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121886650,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121886650,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hoppers Crossing",
-        "eventId": "F251119755",
-        "id": "ESTA:251119755",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-11-16T11:11:56.000Z",
-        "updated": "2025-11-16T11:13:17.159Z",
-        "resources": 0,
-        "location": "Old Geelong Rd, Hoppers Crossing"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70033903476997,
-          -37.882484970126924
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 121886569,
         "feedType": "incident",
         "source": "000",
@@ -598,8 +539,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-11-16T11:05:00.000Z",
-        "updated": "2025-11-16T11:17:00.000Z",
-        "resources": 2,
+        "updated": "2025-11-16T11:27:00.000Z",
+        "resources": 1,
         "location": "Invermay Park",
         "cfaId": 245611,
         "size": "Small",
@@ -611,6 +552,36 @@
         "coordinates": [
           143.86418986884624,
           -37.523808784130566
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121886760,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587665,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151684,
+        "id": "ESTA:251151684",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-16T11:28:53.000Z",
+        "updated": "2025-11-16T11:29:19.000Z",
+        "resources": 0,
+        "location": "Heywood",
+        "sesId": 587665
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.65085243111153,
+          -38.09963660646251
         ]
       }
     },
@@ -921,11 +892,39 @@
           -37.78210126579121
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587662,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587662,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151681,
+        "id": "ESTA:251151681",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-16T11:07:50.000Z",
+        "updated": "2025-11-16T11:22:52.000Z",
+        "resources": 1,
+        "location": "Healesville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5170089051338,
+          -37.623076805826145
+        ]
+      }
     }
   ],
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "HIGH",
         "East Gippsland": "MODERATE",
         "West and South Gippsland": "MODERATE",
         "North East": "MODERATE",
@@ -933,8 +932,7 @@
         "North Central": "MODERATE",
         "Northern Country": "HIGH",
         "South West": "NO FORECAST",
-        "Wimmera": "MODERATE",
-        "Mallee": "HIGH"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -950,6 +948,7 @@
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -957,8 +956,7 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "NO FORECAST",
-            "Wimmera": "MODERATE",
-            "Mallee": "HIGH"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -1055,15 +1053,15 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-17T13:00:00.000Z",
           "heat": {
@@ -1150,7 +1148,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-16T11:20:20.617Z",
+    "lastUpdated": "2025-11-16T11:30:06.097Z",
     "featureCount": 69
   }
 }
