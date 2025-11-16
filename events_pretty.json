@@ -525,31 +525,33 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121888898,
+        "status": "Safe",
+        "estaId": 121888956,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587674,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251151693,
-        "id": "ESTA:251151693",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245632,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lawton Av",
+        "eventId": 251119813,
+        "id": "ESTA:251119813",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-16T18:58:26.000Z",
-        "updated": "2025-11-16T19:43:41.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-16T19:20:00.000Z",
+        "updated": "2025-11-16T19:28:00.000Z",
         "resources": 0,
-        "location": "Niddrie",
-        "sesId": 587674
+        "location": "Lawton Av, Geelong West",
+        "cfaId": 245632,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88316039686043,
-          -37.73396574345637
+          144.3479991693146,
+          -38.139092643634704
         ]
       }
     },
@@ -2044,7 +2046,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 245631,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2056,8 +2058,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-11-16T18:23:00.000Z",
-        "updated": "2025-11-16T18:44:00.000Z",
-        "resources": 2,
+        "updated": "2025-11-16T19:58:00.000Z",
+        "resources": 0,
         "location": "Selkirk Ct, Berwick",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2073,21 +2075,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 245632,
+        "status": "Under Control",
+        "cfaId": 245633,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 245632,
+        "sourceId": 245633,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lawton Av",
-        "eventId": 251119813,
-        "id": "ESTA:251119813",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-16T19:20:00.000Z",
-        "updated": "2025-11-16T19:28:00.000Z",
-        "resources": 1,
-        "location": "Lawton Av, Geelong West",
+        "sourceTitle": "",
+        "eventId": 251119820,
+        "id": "ESTA:251119820",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-16T19:54:00.000Z",
+        "updated": "2025-11-16T20:09:00.000Z",
+        "resources": 2,
+        "location": "Swan Reach",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2095,8 +2097,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3479991693146,
-          -38.139092643634704
+          147.87403482658138,
+          -37.82371558012905
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 245635,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245635,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Brighton Av",
+        "eventId": 251119824,
+        "id": "ESTA:251119824",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-16T20:00:00.000Z",
+        "updated": "2025-11-16T20:13:00.000Z",
+        "resources": 2,
+        "location": "Brighton Av, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98250113689465,
+          -37.601375964590886
         ]
       }
     },
@@ -2355,7 +2386,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-16T19:50:05.832Z",
-    "featureCount": 67
+    "lastUpdated": "2025-11-16T20:28:00.623Z",
+    "featureCount": 68
   }
 }
