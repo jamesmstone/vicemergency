@@ -524,6 +524,38 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121888361,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245625,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Station Rd",
+        "eventId": 251119796,
+        "id": "ESTA:251119796",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-16T16:21:00.000Z",
+        "updated": "2025-11-16T16:21:00.000Z",
+        "resources": 0,
+        "location": "Station Rd, Marshall",
+        "cfaId": 245625,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35571185688315,
+          -38.19653645057206
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -2011,64 +2043,6 @@
           -35.920288937286585
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 245620,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245620,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Healesville-Yarra Glen Rd",
-        "eventId": 251119783,
-        "id": "ESTA:251119783",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-16T14:33:00.000Z",
-        "updated": "2025-11-16T15:15:00.000Z",
-        "resources": 2,
-        "location": "Healesville-Yarra Glen Rd, Tarrawarra",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.44278455145815,
-          -37.65429539076122
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 245619,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245619,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Melton Hwy",
-        "eventId": 251119777,
-        "id": "ESTA:251119777",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-16T13:21:00.000Z",
-        "updated": "2025-11-16T15:20:00.000Z",
-        "resources": 0,
-        "location": "Melton Hwy, Melton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.63578496926635,
-          -37.68234831082738
-        ]
-      }
     }
   ],
   "properties": {
@@ -2085,6 +2059,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2092,8 +2067,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2109,6 +2083,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2116,8 +2091,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-16T13:00:00.000Z",
           "heat": {
@@ -2298,7 +2272,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-16T15:50:06.011Z",
-    "featureCount": 65
+    "lastUpdated": "2025-11-16T16:30:25.967Z",
+    "featureCount": 64
   }
 }
