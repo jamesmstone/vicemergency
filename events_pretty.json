@@ -497,38 +497,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121890776,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245657,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Main St",
-        "eventId": 251119949,
-        "id": "ESTA:251119949",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-16T23:16:00.000Z",
-        "updated": "2025-11-16T23:16:00.000Z",
-        "resources": 2,
-        "location": "Main St, Glengarry",
-        "cfaId": 245657,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5753850665479,
-          -38.120607969385226
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 121890689,
         "feedType": "incident",
@@ -543,7 +511,7 @@
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
         "created": "2025-11-16T23:07:54.000Z",
-        "updated": "2025-11-16T23:18:39.822Z",
+        "updated": "2025-11-16T23:30:10.995Z",
         "resources": 3,
         "location": "Carmody St, Burwood"
       },
@@ -558,34 +526,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 121890828,
+        "status": "Responding",
+        "estaId": 121890919,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587687,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251119952,
-        "id": "ESTA:251119952",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245659,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bindaree Dr",
+        "eventId": 251119956,
+        "id": "ESTA:251119956",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-16T23:20:59.000Z",
-        "updated": "2025-11-16T23:21:46.000Z",
-        "resources": 0,
-        "location": "Moolap",
-        "cfaId": 245658,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-11-16T23:29:00.000Z",
+        "updated": "2025-11-16T23:29:00.000Z",
+        "resources": 2,
+        "location": "Bindaree Dr, Melton South",
+        "cfaId": 245659,
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 587687
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.42616290153725,
-          -38.18214557377039
+          144.56364423079367,
+          -37.715392462142006
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121889879,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121889879,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Maffra",
+        "eventId": "F251119891",
+        "id": "ESTA:251119891",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-11-16T21:54:16.000Z",
+        "updated": "2025-11-16T23:31:04.950Z",
+        "resources": 0,
+        "location": "Boisdale St, Maffra"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.97849667410372,
+          -37.96337218983983
         ]
       }
     },
@@ -2106,6 +2102,62 @@
           -34.31401277228229
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 245657,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245657,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Main St",
+        "eventId": 251119949,
+        "id": "ESTA:251119949",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-16T23:16:00.000Z",
+        "updated": "2025-11-16T23:31:00.000Z",
+        "resources": 2,
+        "location": "Main St, Glengarry",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5753850665479,
+          -38.120607969385226
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587687,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587687,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251119952,
+        "id": "ESTA:251119952",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-16T23:20:59.000Z",
+        "updated": "2025-11-16T23:35:09.000Z",
+        "resources": 5,
+        "location": "Moolap"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.42616290153725,
+          -38.18214557377039
+        ]
+      }
     }
   ],
   "properties": {
@@ -2335,7 +2387,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-16T23:24:00.615Z",
-    "featureCount": 66
+    "lastUpdated": "2025-11-16T23:36:25.551Z",
+    "featureCount": 68
   }
 }
