@@ -470,33 +470,59 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121900529,
+        "status": "Safe",
+        "estaId": 121900722,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245734,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251120353,
-        "id": "ESTA:251120353",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121900722,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Laverton North",
+        "eventId": "F251120359",
+        "id": "ESTA:251120359",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-17T17:32:00.000Z",
-        "updated": "2025-11-17T17:43:00.000Z",
-        "resources": 2,
-        "location": "Deanside",
-        "cfaId": 245734,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-11-17T18:30:22.000Z",
+        "updated": "2025-11-17T18:33:22.440Z",
+        "resources": 3,
+        "location": "Princes Fwy, Laverton North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.72567683295708,
-          -37.720622852856394
+          144.80068876647476,
+          -37.83713000584951
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121900699,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121900699,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dandenong",
+        "eventId": "F251120358",
+        "id": "ESTA:251120358",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-11-17T18:22:53.000Z",
+        "updated": "2025-11-17T18:33:48.734Z",
+        "resources": 1,
+        "location": "Birdwood Av, Dandenong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1989280952153,
+          -37.98059052425365
         ]
       }
     },
@@ -2083,6 +2109,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 245734,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245734,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251120353,
+        "id": "ESTA:251120353",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-17T17:32:00.000Z",
+        "updated": "2025-11-17T17:43:00.000Z",
+        "resources": 1,
+        "location": "Deanside",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72567683295708,
+          -37.720622852856394
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
         "cfaId": 245732,
         "feedType": "incident",
@@ -2096,7 +2151,7 @@
         "category2": "Other",
         "created": "2025-11-17T17:21:00.000Z",
         "updated": "2025-11-17T17:44:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Nilma-Bona Vista Rd, Bona Vista",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2115,7 +2170,7 @@
     "conditions": {
       "fdr": {
         "East Gippsland": "MODERATE",
-        "West and South Gippsland": "MODERATE",
+        "West and South Gippsland": "NO FORECAST",
         "North East": "MODERATE",
         "Central": "NO FORECAST",
         "North Central": "MODERATE",
@@ -2139,7 +2194,7 @@
         {
           "fdr": {
             "East Gippsland": "MODERATE",
-            "West and South Gippsland": "MODERATE",
+            "West and South Gippsland": "NO FORECAST",
             "North East": "MODERATE",
             "Central": "NO FORECAST",
             "North Central": "MODERATE",
@@ -2338,7 +2393,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-17T17:50:20.110Z",
-    "featureCount": 66
+    "lastUpdated": "2025-11-17T18:38:21.708Z",
+    "featureCount": 68
   }
 }
