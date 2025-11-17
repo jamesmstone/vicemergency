@@ -470,7 +470,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 121901177,
         "feedType": "incident",
         "source": "000",
@@ -484,8 +484,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-11-17T20:34:00.000Z",
-        "updated": "2025-11-17T20:48:00.000Z",
-        "resources": 3,
+        "updated": "2025-11-17T21:00:00.000Z",
+        "resources": 0,
         "location": "Bannons Lane, Yarrambat",
         "cfaId": 245739,
         "size": "Small",
@@ -503,29 +503,59 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121901195,
+        "estaId": 121901544,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121901195,
+        "sourceId": 121901544,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Whittington",
-        "eventId": "F251120388",
-        "id": "ESTA:251120388",
+        "sourceTitle": "Delahey",
+        "eventId": "F251120411",
+        "id": "ESTA:251120411",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-11-17T20:35:12.000Z",
-        "updated": "2025-11-17T20:48:04.216Z",
-        "resources": 1,
-        "location": "Apollo Pl, Whittington"
+        "category2": "Structure Fire",
+        "created": "2025-11-17T21:18:41.000Z",
+        "updated": "2025-11-17T21:22:06.996Z",
+        "resources": 3,
+        "location": "Goldsmith Av, Delahey"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.39505867863255,
-          -38.17970396651356
+          144.77591400520956,
+          -37.71804196570903
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121901584,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587752,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151761,
+        "id": "ESTA:251151761",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-17T21:23:21.000Z",
+        "updated": "2025-11-17T21:23:51.000Z",
+        "resources": 0,
+        "location": "Beech Forest",
+        "sesId": 587752
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.53560604170647,
+          -38.6562400137104
         ]
       }
     },
@@ -1829,36 +1859,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "630865",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Riverina Hwy, Berrigan",
-        "id": "2025-11-17T23:37:00.0000000:630865",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Riverina Hwy, Berrigan",
-        "location": "14522 Riverina Hwy, Berrigan 2712",
-        "created": "2025-11-17T23:37:00+11:00",
-        "updated": "2025-11-17T23:37:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.762954712,
-          -35.652519226
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "630828",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Balldale Rd, Hopefield",
@@ -1991,6 +1991,36 @@
               -35.588691711
             ]
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "630865",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Riverina Hwy, Berrigan",
+        "id": "2025-11-17T23:37:00.0000000:630865",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Riverina Hwy, Berrigan",
+        "location": "14522 Riverina Hwy, Berrigan 2712",
+        "created": "2025-11-17T23:37:00+11:00",
+        "updated": "2025-11-17T23:37:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.762954712,
+          -35.652519226
         ]
       }
     },
@@ -2141,6 +2171,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 245740,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245740,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251120404,
+        "id": "ESTA:251120404",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-17T21:03:00.000Z",
+        "updated": "2025-11-17T21:19:00.000Z",
+        "resources": 2,
+        "location": "Strathtulloh",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5908717884627,
+          -37.74960046217195
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 587748,
         "feedType": "incident",
@@ -2181,7 +2240,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2189,7 +2247,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2205,7 +2264,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2213,7 +2271,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-17T13:00:00.000Z",
           "heat": {
@@ -2394,7 +2453,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-17T20:50:20.618Z",
-    "featureCount": 68
+    "lastUpdated": "2025-11-17T21:25:05.910Z",
+    "featureCount": 70
   }
 }
