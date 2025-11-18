@@ -565,35 +565,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121911393,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121911393,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yarraville",
-        "eventId": "F251120927",
-        "id": "ESTA:251120927",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-11-18T11:32:19.000Z",
-        "updated": "2025-11-18T11:33:15.468Z",
-        "resources": 3,
-        "location": "Francis St, Yarraville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8773811103179,
-          -37.819895351618115
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 121911332,
         "feedType": "incident",
         "source": "FIP",
@@ -617,6 +588,65 @@
         "coordinates": [
           144.8965687422787,
           -37.79957978581153
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 121911465,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587804,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151815,
+        "id": "ESTA:251151815",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-18T11:43:55.000Z",
+        "updated": "2025-11-18T11:46:59.000Z",
+        "resources": 0,
+        "location": "Pennyroyal",
+        "sesId": 587804
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85081939119365,
+          -38.418459044897965
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121911393,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121911393,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Yarraville",
+        "eventId": "F251120927",
+        "id": "ESTA:251120927",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-11-18T11:32:19.000Z",
+        "updated": "2025-11-18T11:46:00.630Z",
+        "resources": 3,
+        "location": "Francis St, Yarraville"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8773811103179,
+          -37.819895351618115
         ]
       }
     },
@@ -914,64 +944,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 245839,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245839,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251120905,
-        "id": "ESTA:251120905",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-18T10:33:00.000Z",
-        "updated": "2025-11-18T10:44:00.000Z",
-        "resources": 0,
-        "location": "Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.18723232707546,
-          -36.71747036841463
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 245841,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245841,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "College St",
-        "eventId": 251120907,
-        "id": "ESTA:251120907",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-11-18T10:34:00.000Z",
-        "updated": "2025-11-18T10:45:00.000Z",
-        "resources": 0,
-        "location": "College St, Wangaratta",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.31677966065257,
-          -36.33879988051505
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 245843,
         "feedType": "incident",
@@ -985,7 +957,7 @@
         "category2": "Building Fire",
         "created": "2025-11-18T10:42:00.000Z",
         "updated": "2025-11-18T10:55:00.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Westcott Pde, Rockbank",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1060,14 +1032,14 @@
     "conditions": {
       "fdr": {
         "East Gippsland": "MODERATE",
+        "Mallee": "HIGH",
         "West and South Gippsland": "NO FORECAST",
         "North East": "MODERATE",
         "Central": "NO FORECAST",
         "North Central": "MODERATE",
         "Northern Country": "HIGH",
         "South West": "NO FORECAST",
-        "Wimmera": "MODERATE",
-        "Mallee": "HIGH"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "Mallee": "NO - RESTRICTIONS MAY APPLY",
@@ -1084,14 +1056,14 @@
         {
           "fdr": {
             "East Gippsland": "MODERATE",
+            "Mallee": "HIGH",
             "West and South Gippsland": "NO FORECAST",
             "North East": "MODERATE",
             "Central": "NO FORECAST",
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "NO FORECAST",
-            "Wimmera": "MODERATE",
-            "Mallee": "HIGH"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "Mallee": "NO - RESTRICTIONS MAY APPLY",
@@ -1283,7 +1255,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-18T11:37:20.559Z",
-    "featureCount": 71
+    "lastUpdated": "2025-11-18T11:50:00.499Z",
+    "featureCount": 70
   }
 }
