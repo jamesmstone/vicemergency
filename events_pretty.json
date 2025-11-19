@@ -317,61 +317,91 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "estaId": 121924078,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "630865",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Riverina Hwy, Berrigan",
-        "id": "2025-11-19T22:31:00.0000000:630865",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Riverina Hwy, Berrigan",
-        "location": "14522 Riverina Hwy, Berrigan 2712",
-        "created": "2025-11-19T22:31:00+11:00",
-        "updated": "2025-11-19T22:31:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245958,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Liberator Dr",
+        "eventId": 251121635,
+        "id": "ESTA:251121635",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-19T11:26:00.000Z",
+        "updated": "2025-11-19T13:24:00.000Z",
+        "resources": 0,
+        "location": "Liberator Dr, Mitchell Park",
+        "cfaId": 245958,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.762954712,
-          -35.652519226
+          143.79901146839003,
+          -37.5246788911802
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "estaId": 121924882,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "631130",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Yarraman Rd, Bunnaloo",
-        "id": "2025-11-19T22:52:00.0000000:631130",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Yarraman Rd, Bunnaloo",
-        "location": "423 Yarraman Rd, Bunnaloo 2731",
-        "created": "2025-11-19T22:52:00+11:00",
-        "updated": "2025-11-19T22:52:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121924882,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Eltham",
+        "eventId": "F251121654",
+        "id": "ESTA:251121654",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-19T13:26:41.000Z",
+        "updated": "2025-11-19T13:29:00.723Z",
+        "resources": 0,
+        "location": "Barriedale Ct, Eltham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.489624023,
-          -35.7988891599999
+          145.16096581876684,
+          -37.714294978100945
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121924835,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121924835,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Fitzroy",
+        "eventId": "F251121650",
+        "id": "ESTA:251121650",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-19T13:18:06.000Z",
+        "updated": "2025-11-19T13:29:27.209Z",
+        "resources": 3,
+        "location": "Rose St, Fitzroy"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9776502298849,
+          -37.79570236764746
         ]
       }
     },
@@ -582,6 +612,66 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "630865",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Riverina Hwy, Berrigan",
+        "id": "2025-11-19T22:31:00.0000000:630865",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Riverina Hwy, Berrigan",
+        "location": "14522 Riverina Hwy, Berrigan 2712",
+        "created": "2025-11-19T22:31:00+11:00",
+        "updated": "2025-11-19T22:31:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.762954712,
+          -35.652519226
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "631130",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Yarraman Rd, Bunnaloo",
+        "id": "2025-11-19T22:52:00.0000000:631130",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Yarraman Rd, Bunnaloo",
+        "location": "423 Yarraman Rd, Bunnaloo 2731",
+        "created": "2025-11-19T22:52:00+11:00",
+        "updated": "2025-11-19T22:52:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.489624023,
+          -35.7988891599999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 245206,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -611,20 +701,20 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 245958,
+        "cfaId": 245962,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 245958,
+        "sourceId": 245962,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Liberator Dr",
-        "eventId": 251121635,
-        "id": "ESTA:251121635",
+        "sourceTitle": "Campbells Cove Rd",
+        "eventId": 251121646,
+        "id": "ESTA:251121646",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-11-19T11:26:00.000Z",
-        "updated": "2025-11-19T11:38:00.000Z",
+        "created": "2025-11-19T13:07:00.000Z",
+        "updated": "2025-11-19T13:21:00.000Z",
         "resources": 2,
-        "location": "Liberator Dr, Mitchell Park",
+        "location": "Campbells Cove Rd, Werribee South",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -632,37 +722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.79901146839003,
-          -37.5246788911802
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 245957,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245957,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Viewbank Ct",
-        "eventId": 251121634,
-        "id": "ESTA:251121634",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-19T11:25:00.000Z",
-        "updated": "2025-11-19T12:13:00.000Z",
-        "resources": 0,
-        "location": "Viewbank Ct, Point Cook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.76781755567933,
-          -37.88636589183356
+          144.72437007607553,
+          -37.95064005321337
         ]
       }
     }
@@ -671,7 +732,7 @@
     "conditions": {
       "fdr": {
         "East Gippsland": "MODERATE",
-        "West and South Gippsland": "MODERATE",
+        "West and South Gippsland": "NO FORECAST",
         "North East": "MODERATE",
         "Central": "MODERATE",
         "North Central": "MODERATE",
@@ -692,53 +753,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "East Gippsland": "MODERATE",
-            "West and South Gippsland": "MODERATE",
-            "North East": "MODERATE",
-            "Central": "MODERATE",
-            "North Central": "MODERATE",
-            "Northern Country": "MODERATE",
-            "South West": "NO FORECAST",
-            "Wimmera": "MODERATE",
-            "Mallee": "HIGH"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2025-11-18T13:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Not Declared"
-          },
-          "asthma": {
-            "Mallee": "Minor",
-            "Wimmera": "Minor",
-            "Northern Country": "Minor",
-            "North East": "Minor",
-            "East Gippsland": "Minor",
-            "West and South Gippsland": "Minor",
-            "Central": "Minor",
-            "North Central": "Minor",
-            "South West": "Minor"
-          }
-        },
         {
           "fdr": {
             "East Gippsland": "MODERATE",
@@ -867,6 +881,53 @@
             "Central": "Not Declared",
             "North Central": "Not Declared",
             "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "East Gippsland": "MODERATE",
+            "West and South Gippsland": "MODERATE",
+            "North East": "MODERATE",
+            "Central": "MODERATE",
+            "North Central": "MODERATE",
+            "Northern Country": "MODERATE",
+            "South West": "NO FORECAST",
+            "Wimmera": "MODERATE",
+            "Mallee": "HIGH"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2025-11-22T13:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
           }
         }
       ],
@@ -894,7 +955,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-19T12:57:40.134Z",
-    "featureCount": 65
+    "lastUpdated": "2025-11-19T13:37:42.587Z",
+    "featureCount": 67
   }
 }
