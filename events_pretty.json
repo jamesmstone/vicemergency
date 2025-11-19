@@ -317,39 +317,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121925468,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245970,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Unknown -",
-        "eventId": 251121673,
-        "id": "ESTA:251121673",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-19T15:10:00.000Z",
-        "updated": "2025-11-19T15:12:00.000Z",
-        "resources": 0,
-        "location": "Unknown -, Echuca",
-        "cfaId": 245970,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7540994734557,
-          -36.13461772818445
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121925500,
         "feedType": "incident",
         "source": "000",
@@ -364,7 +332,7 @@
         "category2": "Building Fire",
         "created": "2025-11-19T15:18:00.000Z",
         "updated": "2025-11-19T15:18:00.000Z",
-        "resources": 3,
+        "resources": 7,
         "location": "River Rd, Murchison North",
         "cfaId": 245972,
         "size": "Small",
@@ -381,24 +349,83 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121925501,
+        "status": "Request For Assistance",
+        "estaId": 121925606,
         "feedType": "incident",
         "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587876,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151888,
+        "id": "ESTA:251151888",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-11-19T15:39:38.000Z",
+        "updated": "2025-11-19T15:42:40.000Z",
+        "resources": 0,
+        "location": "Truganina",
+        "sesId": 587876
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7166913988113,
+          -37.842373794914046
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121925606,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121925606,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Truganina",
+        "eventId": "F251121680",
+        "id": "ESTA:251121680",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-19T15:37:14.000Z",
+        "updated": "2025-11-19T15:39:40.003Z",
+        "resources": 0,
+        "location": "Westmeadows Lane, Truganina"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7167093211966,
+          -37.842360322472274
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121925594,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 245971,
+        "sourceId": 245974,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pakenham St",
-        "eventId": 251121675,
-        "id": "ESTA:251121675",
+        "sourceTitle": "Capel Av",
+        "eventId": 251121678,
+        "id": "ESTA:251121678",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2025-11-19T15:18:00.000Z",
-        "updated": "2025-11-19T15:18:00.000Z",
+        "created": "2025-11-19T15:37:00.000Z",
+        "updated": "2025-11-19T15:45:00.000Z",
         "resources": 1,
-        "location": "Pakenham St, Echuca",
-        "cfaId": 245971,
+        "location": "Capel Av, Capel Sound",
+        "cfaId": 245974,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -406,37 +433,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.75928837709523,
-          -36.12759419272605
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121925537,
-        "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121925537,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mitcham",
-        "eventId": "F251121676",
-        "id": "ESTA:251121676",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-19T15:23:36.000Z",
-        "updated": "2025-11-19T15:27:12.831Z",
-        "resources": 0,
-        "location": "Walter St, Mitcham"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2067783199693,
-          -37.81792729852685
+          144.87578743260497,
+          -38.36260714243056
         ]
       }
     },
@@ -735,64 +733,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 245965,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245965,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ailsa St",
-        "eventId": 251121664,
-        "id": "ESTA:251121664",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-19T14:22:00.000Z",
-        "updated": "2025-11-19T14:32:00.000Z",
-        "resources": 2,
-        "location": "Ailsa St, Laverton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.76274567232025,
-          -37.867606990930085
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 245966,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 245966,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tormore Rd",
-        "eventId": 251121666,
-        "id": "ESTA:251121666",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-19T14:28:00.000Z",
-        "updated": "2025-11-19T14:33:00.000Z",
-        "resources": 0,
-        "location": "Tormore Rd, Boronia",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2786022663019,
-          -37.85983566191532
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 245963,
         "feedType": "incident",
@@ -851,21 +791,21 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 245969,
+        "status": "Safe",
+        "cfaId": 245970,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 245969,
+        "sourceId": 245970,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Quail Way",
-        "eventId": 251121670,
-        "id": "ESTA:251121670",
-        "category1": "Other",
+        "sourceTitle": "Unknown -",
+        "eventId": 251121673,
+        "id": "ESTA:251121673",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-11-19T14:55:00.000Z",
-        "updated": "2025-11-19T15:16:00.000Z",
-        "resources": 1,
-        "location": "Quail Way, Rowville",
+        "created": "2025-11-19T15:10:00.000Z",
+        "updated": "2025-11-19T15:12:00.000Z",
+        "resources": 0,
+        "location": "Unknown -, Echuca",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -873,8 +813,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2562091850746,
-          -37.93020541751302
+          144.7540994734557,
+          -36.13461772818445
         ]
       }
     },
@@ -904,6 +844,64 @@
         "coordinates": [
           145.10573335926716,
           -38.02873789473364
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 245965,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245965,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ailsa St",
+        "eventId": 251121664,
+        "id": "ESTA:251121664",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-19T14:22:00.000Z",
+        "updated": "2025-11-19T15:29:00.000Z",
+        "resources": 2,
+        "location": "Ailsa St, Laverton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.76274567232025,
+          -37.867606990930085
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 245973,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 245973,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Russell St",
+        "eventId": 251121677,
+        "id": "ESTA:251121677",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-19T15:34:00.000Z",
+        "updated": "2025-11-19T15:34:00.000Z",
+        "resources": 2,
+        "location": "Russell St, Casterton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.39315334704185,
+          -37.59037046667132
         ]
       }
     }
@@ -1135,7 +1133,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-19T15:28:40.097Z",
+    "lastUpdated": "2025-11-19T15:50:20.510Z",
     "featureCount": 73
   }
 }
