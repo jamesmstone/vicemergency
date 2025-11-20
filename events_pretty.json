@@ -531,29 +531,64 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 121938667,
+        "estaId": 121938729,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 121938667,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wantirna",
-        "eventId": "F251122600",
-        "id": "ESTA:251122600",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246097,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251122603,
+        "id": "ESTA:251122603",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-11-20T16:49:34.000Z",
-        "updated": "2025-11-20T16:51:55.955Z",
-        "resources": 0,
-        "location": "Wantirna"
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-20T17:09:00.000Z",
+        "updated": "2025-11-20T17:09:00.000Z",
+        "resources": 4,
+        "location": "Devon Meadows",
+        "cfaId": 246097,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22875081681104,
-          -37.848029036258175
+          145.34160526525707,
+          -38.183448908139624
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121938719,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246096,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Eagle Ct",
+        "eventId": 251122602,
+        "id": "ESTA:251122602",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-20T17:05:00.000Z",
+        "updated": "2025-11-20T17:11:00.000Z",
+        "resources": 0,
+        "location": "Eagle Ct, Craigieburn",
+        "cfaId": 246096,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92043907234034,
+          -37.6067238336091
         ]
       }
     },
@@ -938,6 +973,33 @@
           -36.35379214002116
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 587922,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587922,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251151941,
+        "id": "ESTA:251151941",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-20T16:58:11.000Z",
+        "updated": "2025-11-20T17:00:51.000Z",
+        "resources": 0,
+        "location": "Trafalgar South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.18643986282467,
+          -38.2549249550118
+        ]
+      }
     }
   ],
   "properties": {
@@ -1167,7 +1229,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-20T16:57:00.089Z",
-    "featureCount": 70
+    "lastUpdated": "2025-11-20T17:23:00.266Z",
+    "featureCount": 72
   }
 }
