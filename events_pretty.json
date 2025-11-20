@@ -419,7 +419,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3021965,
@@ -428,8 +428,8 @@
         "id": 3021965,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-11-20T00:03:47.000Z",
-        "updated": "2025-11-20T00:03:47.000Z",
+        "created": "2025-11-20T20:32:35.000Z",
+        "updated": "2025-11-20T20:32:35.000Z",
         "resources": 0,
         "size": "34.15",
         "sizeFmt": "34.15 Ha.",
@@ -530,24 +530,53 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 121939304,
+        "status": "Responding",
+        "estaId": 121939467,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121939467,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Moolap",
+        "eventId": "F251122672",
+        "id": "ESTA:251122672",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-11-20T20:42:21.000Z",
+        "updated": "2025-11-20T20:43:46.361Z",
+        "resources": 0,
+        "location": "Moolap"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.42231108910622,
+          -38.16720109321984
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121939466,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 246107,
+        "sourceId": 246108,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nettles Rd",
-        "eventId": 251122645,
-        "id": "ESTA:251122645",
+        "sourceTitle": "Shetland St",
+        "eventId": 251122671,
+        "id": "ESTA:251122671",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-11-20T20:07:00.000Z",
-        "updated": "2025-11-20T20:19:00.000Z",
+        "category2": "Building Fire",
+        "created": "2025-11-20T20:44:00.000Z",
+        "updated": "2025-11-20T20:44:00.000Z",
         "resources": 2,
-        "location": "Nettles Rd, Mitchell Park",
-        "cfaId": 246107,
+        "location": "Shetland St, Endeavour Hills",
+        "cfaId": 246108,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -555,68 +584,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.79822570010904,
-          -37.52212042705065
+          145.27124115790946,
+          -37.96411402323756
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121938688,
+        "status": "On Scene",
+        "estaId": 121939144,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 587922,
+        "sourceId": 587924,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251151941,
-        "id": "ESTA:251151941",
+        "eventId": 251122623,
+        "id": "ESTA:251122623",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-20T16:58:11.000Z",
-        "updated": "2025-11-20T20:29:15.000Z",
-        "resources": 0,
-        "location": "Trafalgar South",
-        "sesId": 587922
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-11-20T19:25:12.000Z",
+        "updated": "2025-11-20T20:29:57.000Z",
+        "resources": 3,
+        "location": "Parwan",
+        "cfaId": 246101,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 587924
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.18643986282467,
-          -38.2549249550118
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "630865",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Riverina Hwy, Berrigan",
-        "id": "2025-11-21T00:31:00.0000000:630865",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Riverina Hwy, Berrigan",
-        "location": "14522 Riverina Hwy, Berrigan 2712",
-        "created": "2025-11-21T00:31:00+11:00",
-        "updated": "2025-11-21T00:31:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.762954712,
-          -35.652519226
+          144.43649363504045,
+          -37.77660982887758
         ]
       }
     },
@@ -917,6 +919,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "630865",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Riverina Hwy, Berrigan",
+        "id": "2025-11-21T00:31:00.0000000:630865",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Riverina Hwy, Berrigan",
+        "location": "14522 Riverina Hwy, Berrigan 2712",
+        "created": "2025-11-21T00:31:00+11:00",
+        "updated": "2025-11-21T00:31:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.762954712,
+          -35.652519226
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 245206,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -969,94 +1001,6 @@
         "coordinates": [
           147.05990637112063,
           -36.35379214002116
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 246104,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246104,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251122628,
-        "id": "ESTA:251122628",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-20T19:34:00.000Z",
-        "updated": "2025-11-20T19:43:00.000Z",
-        "resources": 0,
-        "location": "Parwan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.43649363504045,
-          -37.77660982887758
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 246101,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 587924,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251122623,
-        "id": "ESTA:251122623",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap Fire",
-        "created": "2025-11-20T19:25:12.000Z",
-        "updated": "2025-11-20T20:29:57.000Z",
-        "resources": 3,
-        "location": "Parwan",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 587924
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.43649363504045,
-          -37.77660982887758
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 246105,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246105,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251122629,
-        "id": "ESTA:251122629",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-20T19:37:00.000Z",
-        "updated": "2025-11-20T19:48:00.000Z",
-        "resources": 0,
-        "location": "Parwan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.43649363504045,
-          -37.77660982887758
         ]
       }
     }
@@ -1288,7 +1232,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-20T20:31:25.553Z",
-    "featureCount": 74
+    "lastUpdated": "2025-11-20T20:50:20.413Z",
+    "featureCount": 72
   }
 }
