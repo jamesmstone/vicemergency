@@ -530,24 +530,57 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 121938981,
+        "status": "Request For Assistance",
+        "estaId": 121939144,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 587924,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251122623,
+        "id": "ESTA:251122623",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-11-20T19:25:12.000Z",
+        "updated": "2025-11-20T19:30:34.000Z",
+        "resources": 2,
+        "location": "Parwan",
+        "cfaId": 246101,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 587924
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.43649363504045,
+          -37.77660982887758
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121939151,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 246100,
+        "sourceId": 246102,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 251122614,
-        "id": "ESTA:251122614",
+        "eventId": 251122624,
+        "id": "ESTA:251122624",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-20T18:32:00.000Z",
-        "updated": "2025-11-20T19:14:00.000Z",
-        "resources": 1,
-        "location": "Churchill",
-        "cfaId": 246100,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-20T19:26:00.000Z",
+        "updated": "2025-11-20T19:26:00.000Z",
+        "resources": 0,
+        "location": "Parwan",
+        "cfaId": 246102,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -555,8 +588,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.42709543147376,
-          -38.31902752661537
+          144.43649363504045,
+          -37.77660982887758
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121939153,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246103,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251122625,
+        "id": "ESTA:251122625",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-20T19:27:00.000Z",
+        "updated": "2025-11-20T19:27:00.000Z",
+        "resources": 0,
+        "location": "Parwan",
+        "cfaId": 246103,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.43649363504045,
+          -37.77660982887758
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 121939166,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121939166,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Traralgon",
+        "eventId": "F251122627",
+        "id": "ESTA:251122627",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-11-20T19:28:05.000Z",
+        "updated": "2025-11-20T19:32:52.721Z",
+        "resources": 0,
+        "location": "Traralgon Creek Rd, Traralgon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.54464792523004,
+          -38.20845638311373
         ]
       }
     },
@@ -944,6 +1038,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 246100,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246100,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251122614,
+        "id": "ESTA:251122614",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-20T18:32:00.000Z",
+        "updated": "2025-11-20T19:14:00.000Z",
+        "resources": 0,
+        "location": "Churchill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.42709543147376,
+          -38.31902752661537
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 587922,
         "feedType": "incident",
@@ -1011,6 +1134,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1018,8 +1142,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1035,6 +1158,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1042,8 +1166,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-20T13:00:00.000Z",
           "heat": {
@@ -1224,7 +1347,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-20T19:23:00.103Z",
-    "featureCount": 72
+    "lastUpdated": "2025-11-20T19:33:00.325Z",
+    "featureCount": 76
   }
 }
