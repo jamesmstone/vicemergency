@@ -764,37 +764,39 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 121976842,
+        "status": "Safe",
+        "estaId": 121977743,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588150,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152161,
-        "id": "ESTA:251152161",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246608,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Albert St",
+        "eventId": 251126616,
+        "id": "ESTA:251126616",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-23T13:37:02.000Z",
-        "updated": "2025-11-23T16:16:24.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-23T16:31:00.000Z",
+        "updated": "2025-11-23T16:39:00.000Z",
         "resources": 0,
-        "location": "Pakenham",
-        "sesId": 588150
+        "location": "Albert St, Upper Ferntree Gully",
+        "cfaId": 246608,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.46314739563843,
-          -38.0395420170399
+          145.31355368361392,
+          -37.89881430085934
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 121977689,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -809,7 +811,7 @@
         "category2": "Other",
         "created": "2025-11-23T16:17:00.000Z",
         "updated": "2025-11-23T16:17:00.000Z",
-        "resources": 1,
+        "resources": 5,
         "location": "Seymour",
         "cfaId": 246607,
         "size": "Small",
@@ -826,30 +828,59 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121977743,
+        "status": "Safe",
+        "estaId": 121977746,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 121977743,
+        "sourceId": 121977746,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Upper Ferntree Gully",
-        "eventId": "F251126616",
-        "id": "ESTA:251126616",
+        "sourceTitle": "Melbourne",
+        "eventId": "F251126617",
+        "id": "ESTA:251126617",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-23T16:29:31.000Z",
-        "updated": "2025-11-23T16:30:32.257Z",
-        "resources": 0,
-        "location": "Albert St, Upper Ferntree Gully"
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-23T16:31:31.000Z",
+        "updated": "2025-11-23T16:50:05.657Z",
+        "resources": 4,
+        "location": "Bourke St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3135717930064,
-          -37.89881097075227
+          144.96648326438103,
+          -37.81350634826385
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 121977831,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121977831,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Redan",
+        "eventId": "F251126619",
+        "id": "ESTA:251126619",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-23T16:50:20.000Z",
+        "updated": "2025-11-23T16:51:07.146Z",
+        "resources": 2,
+        "location": "Redan"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.83216839855413,
+          -37.5760472157659
         ]
       }
     },
@@ -2520,64 +2551,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 246601,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246601,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Winton-Glenrowan Rd",
-        "eventId": 251126607,
-        "id": "ESTA:251126607",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-11-23T15:33:00.000Z",
-        "updated": "2025-11-23T15:45:00.000Z",
-        "resources": 0,
-        "location": "Winton-Glenrowan Rd, Winton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.08758510012117,
-          -36.511015181484005
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 246606,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246606,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Shaw St",
-        "eventId": 251126613,
-        "id": "ESTA:251126613",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-23T16:15:00.000Z",
-        "updated": "2025-11-23T16:15:00.000Z",
-        "resources": 4,
-        "location": "Shaw St, Mortlake",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.81083884026881,
-          -38.079229825182175
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 246603,
         "feedType": "incident",
@@ -2833,7 +2806,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-23T16:31:20.154Z",
-    "featureCount": 84
+    "lastUpdated": "2025-11-23T16:51:21.613Z",
+    "featureCount": 83
   }
 }
