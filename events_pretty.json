@@ -764,39 +764,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 121978365,
+        "status": "Complete",
+        "estaId": 121978345,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246614,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "St Germain Bvd",
-        "eventId": 251126633,
-        "id": "ESTA:251126633",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588157,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152169,
+        "id": "ESTA:251152169",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-23T19:11:00.000Z",
-        "updated": "2025-11-23T19:11:00.000Z",
-        "resources": 3,
-        "location": "St Germain Bvd, Clyde North",
-        "cfaId": 246614,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-23T19:05:17.000Z",
+        "updated": "2025-11-23T19:25:41.000Z",
+        "resources": 0,
+        "location": "Nilma North",
+        "sesId": 588157
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.36045894943885,
-          -38.09508267012889
+          146.0259331220265,
+          -38.119067590453525
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 121978374,
         "feedType": "incident",
         "source": "000",
@@ -810,7 +808,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-11-23T19:13:01.000Z",
-        "updated": "2025-11-23T19:14:32.000Z",
+        "updated": "2025-11-23T19:26:07.000Z",
         "resources": 0,
         "location": "Longwarry",
         "sesId": 588158
@@ -821,6 +819,36 @@
         "coordinates": [
           145.78720597301003,
           -38.130508103016915
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 121978202,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588154,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152166,
+        "id": "ESTA:251152166",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-23T18:17:54.000Z",
+        "updated": "2025-11-23T19:28:30.000Z",
+        "resources": 0,
+        "location": "Mount Egerton",
+        "sesId": 588154
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1056890208101,
+          -37.630606098339044
         ]
       }
     },
@@ -1882,33 +1910,6 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 588154,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588154,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152166,
-        "id": "ESTA:251152166",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-23T18:17:54.000Z",
-        "updated": "2025-11-23T18:28:48.000Z",
-        "resources": 1,
-        "location": "Mount Egerton"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1056890208101,
-          -37.630606098339044
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 588155,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1959,33 +1960,6 @@
           -38.11075882066267
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 588157,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588157,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152169,
-        "id": "ESTA:251152169",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-23T19:05:17.000Z",
-        "updated": "2025-11-23T19:13:32.000Z",
-        "resources": 0,
-        "location": "Nilma North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0259331220265,
-          -38.119067590453525
-        ]
-      }
     }
   ],
   "properties": {
@@ -2002,6 +1976,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2009,8 +1984,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2026,6 +2000,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2033,8 +2008,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-23T13:00:00.000Z",
           "heat": {
@@ -2215,7 +2189,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-23T19:21:00.241Z",
-    "featureCount": 86
+    "lastUpdated": "2025-11-23T19:30:20.604Z",
+    "featureCount": 85
   }
 }
