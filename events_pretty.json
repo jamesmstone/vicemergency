@@ -527,96 +527,29 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 121989998,
+        "estaId": 121990373,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246753,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251127237,
-        "id": "ESTA:251127237",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 121990373,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Cheltenham",
+        "eventId": "F251127249",
+        "id": "ESTA:251127249",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-24T13:33:00.000Z",
-        "updated": "2025-11-24T14:13:00.000Z",
-        "resources": 0,
-        "location": "Kangaroo Flat",
-        "cfaId": 246753,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-11-24T14:44:51.000Z",
+        "updated": "2025-11-24T14:51:48.246Z",
+        "resources": 3,
+        "location": "Railway Walk, Cheltenham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2475233276331,
-          -36.801062857798556
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 121990250,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246758,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 251127246,
-        "id": "ESTA:251127246",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-24T14:19:00.000Z",
-        "updated": "2025-11-24T14:19:00.000Z",
-        "resources": 5,
-        "location": "Princes Hwy, Werribee",
-        "cfaId": 246758,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6989472945496,
-          -37.88567898952983
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 121990217,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246757,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251127245,
-        "id": "ESTA:251127245",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-11-24T14:11:00.000Z",
-        "updated": "2025-11-24T14:25:00.000Z",
-        "resources": 4,
-        "location": "Pearcedale",
-        "cfaId": 246757,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24721058558418,
-          -38.171912316738506
+          145.05455760741987,
+          -37.966653037423704
         ]
       }
     },
@@ -2426,6 +2359,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 246757,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246757,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251127245,
+        "id": "ESTA:251127245",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-24T14:11:00.000Z",
+        "updated": "2025-11-24T14:25:00.000Z",
+        "resources": 3,
+        "location": "Pearcedale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24721058558418,
+          -38.171912316738506
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 245206,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2565,6 +2527,35 @@
         "coordinates": [
           144.58712115148325,
           -36.825908594017555
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 246753,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246753,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251127237,
+        "id": "ESTA:251127237",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-24T13:33:00.000Z",
+        "updated": "2025-11-24T14:13:00.000Z",
+        "resources": 0,
+        "location": "Kangaroo Flat",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2475233276331,
+          -36.801062857798556
         ]
       }
     },
@@ -2724,6 +2715,7 @@
         },
         {
           "fdr": {
+            "Mallee": "HIGH",
             "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "NO FORECAST",
             "North East": "HIGH",
@@ -2731,8 +2723,7 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "MODERATE",
-            "Wimmera": "HIGH",
-            "Mallee": "HIGH"
+            "Wimmera": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2877,7 +2868,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-24T14:30:05.620Z",
+    "lastUpdated": "2025-11-24T14:53:25.646Z",
     "featureCount": 87
   }
 }
