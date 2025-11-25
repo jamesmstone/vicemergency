@@ -792,67 +792,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122002720,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122002720,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "North Melbourne",
-        "eventId": "F251127747",
-        "id": "ESTA:251127747",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-11-25T13:02:22.000Z",
-        "updated": "2025-11-25T13:26:07.379Z",
-        "resources": 3,
-        "location": "Canning St, North Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.94066987055248,
-          -37.795490930174125
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 122002629,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246905,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sybella Av",
-        "eventId": 251127746,
-        "id": "ESTA:251127746",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-25T12:50:00.000Z",
-        "updated": "2025-11-25T13:26:00.000Z",
-        "resources": 6,
-        "location": "Sybella Av, Koo Wee Rup",
-        "cfaId": 246905,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.49755211280657,
-          -38.209132392151986
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "estaId": 122002918,
         "feedType": "incident",
         "source": "000",
@@ -879,6 +818,36 @@
         "coordinates": [
           143.7856625204723,
           -37.29578217170085
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122002507,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588349,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152386,
+        "id": "ESTA:251152386",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-25T12:33:59.000Z",
+        "updated": "2025-11-25T13:45:56.000Z",
+        "resources": 0,
+        "location": "Devenish",
+        "sesId": 588349
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87294795292183,
+          -36.342064230150804
         ]
       }
     },
@@ -2321,28 +2290,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 588349,
+        "status": "Under Control",
+        "cfaId": 246905,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588349,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152386,
-        "id": "ESTA:251152386",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-25T12:33:59.000Z",
-        "updated": "2025-11-25T12:50:33.000Z",
-        "resources": 1,
-        "location": "Devenish"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246905,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sybella Av",
+        "eventId": 251127746,
+        "id": "ESTA:251127746",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-25T12:50:00.000Z",
+        "updated": "2025-11-25T13:26:00.000Z",
+        "resources": 5,
+        "location": "Sybella Av, Koo Wee Rup",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.87294795292183,
-          -36.342064230150804
+          145.49755211280657,
+          -38.209132392151986
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 246907,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246907,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mountain Hwy",
+        "eventId": 251127752,
+        "id": "ESTA:251127752",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-25T13:48:00.000Z",
+        "updated": "2025-11-25T13:48:00.000Z",
+        "resources": 3,
+        "location": "Mountain Hwy, Wantirna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22560633180598,
+          -37.84954103531336
         ]
       }
     }
@@ -2574,7 +2574,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-25T13:39:40.237Z",
+    "lastUpdated": "2025-11-25T13:53:20.540Z",
     "featureCount": 91
   }
 }
