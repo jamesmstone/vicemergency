@@ -736,7 +736,66 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "estaId": 122004566,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588352,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152392,
+        "id": "ESTA:251152392",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-11-25T19:09:05.000Z",
+        "updated": "2025-11-25T19:13:53.000Z",
+        "resources": 0,
+        "location": "Glen Waverley",
+        "sesId": 588352
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17894170529385,
+          -37.88966165582947
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122004532,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122004532,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Templestowe",
+        "eventId": "F251127789",
+        "id": "ESTA:251127789",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-25T18:59:03.000Z",
+        "updated": "2025-11-25T19:15:36.995Z",
+        "resources": 3,
+        "location": "Parker St, Templestowe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12795627676164,
+          -37.75765105244162
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122004468,
         "feedType": "incident",
         "source": "000",
@@ -750,8 +809,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-11-25T18:41:00.000Z",
-        "updated": "2025-11-25T18:41:00.000Z",
-        "resources": 1,
+        "updated": "2025-11-25T19:18:00.000Z",
+        "resources": 0,
         "location": "Calder Fwy, Woodend North",
         "cfaId": 246917,
         "size": "Small",
@@ -763,38 +822,6 @@
         "coordinates": [
           144.54322113255643,
           -37.322734745694696
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122004474,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246918,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251127787,
-        "id": "ESTA:251127787",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-25T18:43:00.000Z",
-        "updated": "2025-11-25T18:52:00.000Z",
-        "resources": 1,
-        "location": "Springvale",
-        "cfaId": 246918,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1460931521081,
-          -37.944346403576404
         ]
       }
     },
@@ -2263,6 +2290,35 @@
           -36.12301306128497
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 246918,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246918,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251127787,
+        "id": "ESTA:251127787",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-25T18:43:00.000Z",
+        "updated": "2025-11-25T18:52:00.000Z",
+        "resources": 0,
+        "location": "Springvale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1460931521081,
+          -37.944346403576404
+        ]
+      }
     }
   ],
   "properties": {
@@ -2286,8 +2342,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2310,8 +2366,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-25T13:00:00.000Z",
           "heat": {
@@ -2492,7 +2548,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-25T18:54:40.467Z",
-    "featureCount": 88
+    "lastUpdated": "2025-11-25T19:24:05.580Z",
+    "featureCount": 90
   }
 }
