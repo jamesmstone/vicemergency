@@ -480,32 +480,6 @@
         "status": "Going",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
-        "sourceId": "1673052",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Sturt Highway, Paringa",
-        "id": "1673052",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Sturt Highway, Paringa",
-        "created": "2025-11-25T08:51:00.000Z",
-        "updated": "2025-11-25T08:51:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Sturt Highway, Paringa"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.784088513749,
-          -34.1818785421562
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
         "sourceId": "1673054",
         "sourceFeed": "cfs-incident",
         "sourceTitle": "Dean Drive, Barmera",
@@ -891,65 +865,38 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122000718,
+        "estaId": 122000965,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122000718,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Warrnambool",
-        "eventId": "S251152374",
-        "id": "ESTA:251152374",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246890,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Moyle St",
+        "eventId": 251127688,
+        "id": "ESTA:251127688",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-11-25T09:15:23.000Z",
-        "updated": "2025-11-25T09:17:31.911Z",
-        "resources": 0,
-        "location": "Viaduct Rd, Warrnambool"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.47615006113512,
-          -38.402626251030476
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122000723,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588340,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152375,
-        "id": "ESTA:251152375",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-11-25T09:18:16.000Z",
-        "updated": "2025-11-25T09:22:34.000Z",
+        "created": "2025-11-25T09:43:00.000Z",
+        "updated": "2025-11-25T09:43:00.000Z",
         "resources": 1,
-        "location": "Pomonal",
-        "sesId": 588340
+        "location": "Moyle St, Yea",
+        "cfaId": 246890,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.6676224398475,
-          -37.22642858703934
+          145.42811313776122,
+          -37.21840959619347
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 122000712,
         "feedType": "incident",
         "source": "000",
@@ -963,8 +910,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-11-25T09:17:00.000Z",
-        "updated": "2025-11-25T09:17:00.000Z",
-        "resources": 2,
+        "updated": "2025-11-25T09:44:00.000Z",
+        "resources": 0,
         "location": "Stewarts Bridge Rd, Lower Moira",
         "cfaId": 246883,
         "size": "Small",
@@ -981,87 +928,23 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 122000737,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246885,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bexsarm Cr",
-        "eventId": 251127676,
-        "id": "ESTA:251127676",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-25T09:20:00.000Z",
-        "updated": "2025-11-25T09:27:00.000Z",
-        "resources": 0,
-        "location": "Bexsarm Cr, Rowville",
-        "cfaId": 246885,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.24949461182985,
-          -37.910603764439415
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122000726,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246884,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mair St",
-        "eventId": 251127675,
-        "id": "ESTA:251127675",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-25T09:19:00.000Z",
-        "updated": "2025-11-25T09:19:00.000Z",
-        "resources": 4,
-        "location": "Mair St, Ballarat Central",
-        "cfaId": 246884,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.85101653044168,
-          -37.55872889547411
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 122000851,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
         "sourceId": 246887,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Victoria St",
+        "sourceTitle": "Panton St",
         "eventId": 251127678,
         "id": "ESTA:251127678",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-11-25T09:30:00.000Z",
-        "updated": "2025-11-25T09:30:00.000Z",
+        "updated": "2025-11-25T09:45:00.000Z",
         "resources": 0,
-        "location": "Victoria St, Eaglehawk",
+        "location": "Panton St, Eaglehawk",
         "cfaId": 246887,
         "size": "Small",
         "sizeFmt": "Small"
@@ -1070,8 +953,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.25287288784062,
-          -36.719665613316316
+          144.2519323270946,
+          -36.719986337596616
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122001058,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122001058,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Canterbury",
+        "eventId": "F251127692",
+        "id": "ESTA:251127692",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-25T09:49:54.000Z",
+        "updated": "2025-11-25T09:51:30.285Z",
+        "resources": 0,
+        "location": "Canterbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08200093421502,
+          -37.83123329586497
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122000431,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588336,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251127665,
+        "id": "ESTA:251127665",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-11-25T08:49:23.000Z",
+        "updated": "2025-11-25T09:24:19.000Z",
+        "resources": 3,
+        "location": "Staughton Vale",
+        "cfaId": 246879,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 588336
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.26229445720767,
+          -37.88126633379972
         ]
       }
     },
@@ -1916,35 +1861,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 246875,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246875,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Carpenter St",
-        "eventId": 251127658,
-        "id": "ESTA:251127658",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-25T08:33:00.000Z",
-        "updated": "2025-11-25T08:44:00.000Z",
-        "resources": 0,
-        "location": "Carpenter St, Maffra",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.98664585218788,
-          -37.9659752655661
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "cfaId": 246878,
         "feedType": "incident",
@@ -1987,7 +1903,7 @@
         "category2": "Bushfire",
         "created": "2025-11-25T07:20:00.000Z",
         "updated": "2025-11-25T08:49:00.000Z",
-        "resources": 11,
+        "resources": 9,
         "location": "Hiscock Gully Rd, Magpie",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1998,36 +1914,6 @@
         "coordinates": [
           143.85734341293352,
           -37.62175841641949
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "cfaId": 246879,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588336,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251127665,
-        "id": "ESTA:251127665",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-11-25T08:49:23.000Z",
-        "updated": "2025-11-25T09:24:19.000Z",
-        "resources": 4,
-        "location": "Staughton Vale",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 588336
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.26229445720767,
-          -37.88126633379972
         ]
       }
     },
@@ -2062,35 +1948,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 246886,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 246886,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Smythe St",
-        "eventId": 251127677,
-        "id": "ESTA:251127677",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-11-25T09:26:00.000Z",
-        "updated": "2025-11-25T09:26:00.000Z",
-        "resources": 0,
-        "location": "Smythe St, Avenel",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23738287419428,
-          -36.903832739988815
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 246877,
         "feedType": "incident",
@@ -2104,7 +1961,7 @@
         "category2": "Other",
         "created": "2025-11-25T08:43:00.000Z",
         "updated": "2025-11-25T09:30:00.000Z",
-        "resources": 11,
+        "resources": 4,
         "location": "Berwick-Cranbourne Rd, Clyde North",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2115,6 +1972,93 @@
         "coordinates": [
           145.3317894481612,
           -38.093129025211596
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 246889,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246889,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baradine Rd",
+        "eventId": 251127682,
+        "id": "ESTA:251127682",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-25T09:36:00.000Z",
+        "updated": "2025-11-25T09:36:00.000Z",
+        "resources": 5,
+        "location": "Baradine Rd, Mooroolbark",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31747851621026,
+          -37.78123456193433
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 246885,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246885,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bexsarm Cr",
+        "eventId": 251127676,
+        "id": "ESTA:251127676",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-25T09:20:00.000Z",
+        "updated": "2025-11-25T09:38:00.000Z",
+        "resources": 0,
+        "location": "Bexsarm Cr, Rowville",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24949461182985,
+          -37.910603764439415
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 246886,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 246886,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Smythe St",
+        "eventId": 251127677,
+        "id": "ESTA:251127677",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-25T09:26:00.000Z",
+        "updated": "2025-11-25T09:41:00.000Z",
+        "resources": 0,
+        "location": "Smythe St, Avenel",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23738287419428,
+          -36.903832739988815
         ]
       }
     },
@@ -2147,28 +2091,55 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 588337,
+        "status": "On Scene",
+        "sesId": 588340,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 588337,
+        "sourceId": 588340,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251152372,
-        "id": "ESTA:251152372",
+        "eventId": 251152375,
+        "id": "ESTA:251152375",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-11-25T09:02:16.000Z",
-        "updated": "2025-11-25T09:07:40.000Z",
+        "created": "2025-11-25T09:18:16.000Z",
+        "updated": "2025-11-25T09:37:13.000Z",
         "resources": 1,
-        "location": "Moyston"
+        "location": "Pomonal"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.74004099301908,
-          -37.308314206213744
+          142.6676224398475,
+          -37.22642858703934
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 588341,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588341,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152376,
+        "id": "ESTA:251152376",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-25T09:33:30.000Z",
+        "updated": "2025-11-25T09:43:49.000Z",
+        "resources": 0,
+        "location": "Halls Gap"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.57855938614054,
+          -37.15675157231465
         ]
       }
     }
@@ -2400,7 +2371,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-25T09:32:00.373Z",
-    "featureCount": 103
+    "lastUpdated": "2025-11-25T09:52:20.151Z",
+    "featureCount": 102
   }
 }
