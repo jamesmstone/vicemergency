@@ -336,6 +336,35 @@
     {
       "properties": {
         "status": "Safe",
+        "estaId": 122030114,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122030114,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mount Mercer",
+        "eventId": "F251128884",
+        "id": "ESTA:251128884",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-27T18:56:36.000Z",
+        "updated": "2025-11-27T20:16:57.603Z",
+        "resources": 0,
+        "location": "Mckerrals Rd, Mount Mercer"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85589835245938,
+          -37.801531381048584
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122030094,
         "feedType": "incident",
         "source": "000",
@@ -350,7 +379,7 @@
         "category2": "Building Fire",
         "created": "2025-11-27T18:53:00.000Z",
         "updated": "2025-11-27T19:39:00.000Z",
-        "resources": 4,
+        "resources": 1,
         "location": "Fairway St, Frankston",
         "cfaId": 247249,
         "size": "Small",
@@ -362,6 +391,38 @@
         "coordinates": [
           145.13520086996397,
           -38.13621309353156
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122030427,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247254,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Elsworth St",
+        "eventId": 251128904,
+        "id": "ESTA:251128904",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-27T20:22:00.000Z",
+        "updated": "2025-11-27T20:22:00.000Z",
+        "resources": 2,
+        "location": "Elsworth St, Canadian",
+        "cfaId": 247254,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.86357992851475,
+          -37.583239927719184
         ]
       }
     },
@@ -1577,117 +1638,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 247247,
+        "status": "Request For Assistance",
+        "sesId": 588826,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247247,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Scrub Trk",
-        "eventId": 251128877,
-        "id": "ESTA:251128877",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-27T18:34:00.000Z",
-        "updated": "2025-11-27T18:56:00.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588826,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152820,
+        "id": "ESTA:251152820",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-27T20:10:06.000Z",
+        "updated": "2025-11-27T20:13:26.000Z",
         "resources": 0,
-        "location": "Scrub Trk, Strathfieldsaye",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Ringwood East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3366087517643,
-          -36.786636841291696
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 247248,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247248,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cecil St",
-        "eventId": 251128880,
-        "id": "ESTA:251128880",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-27T18:43:00.000Z",
-        "updated": "2025-11-27T19:09:00.000Z",
-        "resources": 0,
-        "location": "Cecil St, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.19099795550875,
-          -36.705362588878614
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 247250,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247250,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckerrals Rd",
-        "eventId": 251128884,
-        "id": "ESTA:251128884",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-27T18:58:00.000Z",
-        "updated": "2025-11-27T19:19:00.000Z",
-        "resources": 1,
-        "location": "Mckerrals Rd, Mount Mercer",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.85589146197006,
-          -37.8015350689584
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 247251,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247251,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bronson Cct",
-        "eventId": 251128886,
-        "id": "ESTA:251128886",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-27T19:12:00.000Z",
-        "updated": "2025-11-27T19:19:00.000Z",
-        "resources": 0,
-        "location": "Bronson Cct, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68804825939904,
-          -37.86044103243886
+          145.24752342987722,
+          -37.808999433841755
         ]
       }
     }
@@ -1777,15 +1749,15 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-28T13:00:00.000Z",
           "heat": {
@@ -1919,7 +1891,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-27T19:50:00.660Z",
-    "featureCount": 89
+    "lastUpdated": "2025-11-27T20:27:45.751Z",
+    "featureCount": 88
   }
 }
