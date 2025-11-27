@@ -350,7 +350,7 @@
         "category2": "Bushfire",
         "created": "2025-11-27T17:21:00.000Z",
         "updated": "2025-11-27T17:21:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Booths Rd, Kotupna",
         "cfaId": 247243,
         "size": "Small",
@@ -362,6 +362,94 @@
         "coordinates": [
           145.1815212444161,
           -36.1594597269104
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122029805,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588824,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152817,
+        "id": "ESTA:251152817",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-27T17:27:48.000Z",
+        "updated": "2025-11-27T17:31:57.000Z",
+        "resources": 0,
+        "location": "Riverside",
+        "sesId": 588824
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.22315548498813,
+          -36.746619258043374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122029485,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122029485,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Collingwood",
+        "eventId": "F251128860",
+        "id": "ESTA:251128860",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-27T16:15:52.000Z",
+        "updated": "2025-11-27T17:33:48.108Z",
+        "resources": 13,
+        "location": "Sackville St, Collingwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99184705777918,
+          -37.7988503247585
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122029837,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122029837,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Windsor",
+        "eventId": "F251128870",
+        "id": "ESTA:251128870",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-11-27T17:36:11.000Z",
+        "updated": "2025-11-27T17:37:25.997Z",
+        "resources": 0,
+        "location": "Windsor"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98395937419008,
+          -37.85207303085076
         ]
       }
     },
@@ -1577,35 +1665,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 247241,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247241,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Forster St",
-        "eventId": 251128863,
-        "id": "ESTA:251128863",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-11-27T16:32:00.000Z",
-        "updated": "2025-11-27T16:43:00.000Z",
-        "resources": 2,
-        "location": "Forster St, Norlane",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.363174563165,
-          -38.09624753196747
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 247240,
         "feedType": "incident",
@@ -1630,6 +1689,35 @@
         "coordinates": [
           142.19440751915064,
           -34.24823911633277
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 247241,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247241,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Forster St",
+        "eventId": 251128863,
+        "id": "ESTA:251128863",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-27T16:32:00.000Z",
+        "updated": "2025-11-27T17:37:00.000Z",
+        "resources": 2,
+        "location": "Forster St, Norlane",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.363174563165,
+          -38.09624753196747
         ]
       }
     }
@@ -1861,7 +1949,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-27T17:24:20.333Z",
-    "featureCount": 87
+    "lastUpdated": "2025-11-27T17:38:00.123Z",
+    "featureCount": 90
   }
 }
