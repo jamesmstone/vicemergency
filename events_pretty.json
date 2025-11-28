@@ -307,61 +307,95 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122043089,
+        "status": "Responding",
+        "estaId": 122043712,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588885,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152888,
-        "id": "ESTA:251152888",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247372,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Shepherds Hill Rd",
+        "eventId": 251129540,
+        "id": "ESTA:251129540",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-28T16:22:35.000Z",
-        "updated": "2025-11-28T18:31:47.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-28T18:47:00.000Z",
+        "updated": "2025-11-28T18:47:00.000Z",
         "resources": 0,
-        "location": "Langwarrin",
-        "sesId": 588885
+        "location": "Shepherds Hill Rd, Lauriston",
+        "cfaId": 247372,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1926329133326,
-          -38.16734496995657
+          144.36009780378504,
+          -37.26136765303453
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 122043672,
+        "estaId": 122043723,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 588889,
+        "sourceId": 588890,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251152892,
-        "id": "ESTA:251152892",
+        "eventId": 251152893,
+        "id": "ESTA:251152893",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-11-28T18:32:07.000Z",
-        "updated": "2025-11-28T18:35:58.000Z",
-        "resources": 0,
+        "created": "2025-11-28T18:51:16.000Z",
+        "updated": "2025-11-28T18:52:24.000Z",
+        "resources": 1,
         "location": "Linton",
-        "sesId": 588889
+        "sesId": 588890
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.57309244622598,
-          -37.66891729103742
+          143.5753488133559,
+          -37.66466884743831
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 122043693,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247371,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nepean Hwy",
+        "eventId": 251129539,
+        "id": "ESTA:251129539",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-28T18:40:00.000Z",
+        "updated": "2025-11-28T18:51:00.000Z",
+        "resources": 2,
+        "location": "Nepean Hwy, Seaford",
+        "cfaId": 247371,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12479359809274,
+          -38.12290853312774
         ]
       }
     },
@@ -4085,6 +4119,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "633701",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hume Hwy, Table Top",
+        "id": "2025-11-29T05:39:00.0000000:633701",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Hume Hwy, Table Top",
+        "location": "Hume Hwy, Table Top 2640",
+        "created": "2025-11-29T05:39:00+11:00",
+        "updated": "2025-11-29T05:39:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.996963501,
+          -35.9879188529999
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -4388,6 +4452,33 @@
           -37.664353476247584
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 588889,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588889,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152892,
+        "id": "ESTA:251152892",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-11-28T18:32:07.000Z",
+        "updated": "2025-11-28T18:51:39.000Z",
+        "resources": 1,
+        "location": "Linton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.57309244622598,
+          -37.66891729103742
+        ]
+      }
     }
   ],
   "properties": {
@@ -4617,7 +4708,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-28T18:37:20.251Z",
-    "featureCount": 92
+    "lastUpdated": "2025-11-28T18:53:25.682Z",
+    "featureCount": 95
   }
 }
