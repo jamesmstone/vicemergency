@@ -307,37 +307,39 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122041636,
+        "status": "Safe",
+        "estaId": 122041884,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588879,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152882,
-        "id": "ESTA:251152882",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247364,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wimmera Hwy",
+        "eventId": 251129505,
+        "id": "ESTA:251129505",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-11-28T12:59:04.000Z",
-        "updated": "2025-11-28T14:17:53.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-11-28T13:23:00.000Z",
+        "updated": "2025-11-28T14:25:00.000Z",
         "resources": 0,
-        "location": "Hoppers Crossing",
-        "sesId": 588879
+        "location": "Wimmera Hwy, Quantong",
+        "cfaId": 247364,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.69782949748856,
-          -37.88360255364981
+          142.01996549186697,
+          -36.737428774323966
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 122042383,
         "feedType": "incident",
         "source": "000",
@@ -351,7 +353,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-11-28T14:23:00.000Z",
-        "updated": "2025-11-28T14:23:00.000Z",
+        "updated": "2025-11-28T14:40:00.000Z",
         "resources": 0,
         "location": "Station St, Koo Wee Rup",
         "cfaId": 247366,
@@ -370,23 +372,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122041884,
+        "estaId": 122042497,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 247364,
+        "sourceId": 247367,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wimmera Hwy",
-        "eventId": 251129505,
-        "id": "ESTA:251129505",
+        "sourceTitle": "Wolverene St",
+        "eventId": 251129519,
+        "id": "ESTA:251129519",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-28T13:23:00.000Z",
-        "updated": "2025-11-28T14:25:00.000Z",
-        "resources": 1,
-        "location": "Wimmera Hwy, Quantong",
-        "cfaId": 247364,
+        "category2": "Building Fire",
+        "created": "2025-11-28T14:41:00.000Z",
+        "updated": "2025-11-28T14:45:00.000Z",
+        "resources": 0,
+        "location": "Wolverene St, Hastings",
+        "cfaId": 247367,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -394,8 +396,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.01996549186697,
-          -36.737428774323966
+          145.17122100227215,
+          -38.298166132963985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122042521,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122042521,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Box Hill",
+        "eventId": "F251129520",
+        "id": "ESTA:251129520",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2025-11-28T14:41:35.000Z",
+        "updated": "2025-11-28T14:45:30.558Z",
+        "resources": 3,
+        "location": "Box Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1301002372583,
+          -37.81904120975447
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122042531,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122042531,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Box Hill",
+        "eventId": "F251129521",
+        "id": "ESTA:251129521",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-11-28T14:45:35.000Z",
+        "updated": "2025-11-28T14:46:51.462Z",
+        "resources": 0,
+        "location": "Box Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12565469106553,
+          -37.82072427633191
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122042544,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122042544,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mulgrave",
+        "eventId": "F251129522",
+        "id": "ESTA:251129522",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-11-28T14:47:02.000Z",
+        "updated": "2025-11-28T14:48:47.734Z",
+        "resources": 0,
+        "location": "Portland St, Mulgrave"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20153160528503,
+          -37.937479118320006
         ]
       }
     },
@@ -1457,6 +1546,36 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "633685",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wellington St, Deniliquin",
+        "id": "2025-11-29T01:41:00.0000000:633685",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Wellington St, Deniliquin",
+        "location": "90-106 Wellington St, Deniliquin 2710",
+        "created": "2025-11-29T01:41:00+11:00",
+        "updated": "2025-11-29T01:41:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.961578369,
+          -35.535213471
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -1791,33 +1910,6 @@
           -37.90510046787481
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 588881,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 588881,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251152884,
-        "id": "ESTA:251152884",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-11-28T14:07:06.000Z",
-        "updated": "2025-11-28T14:13:08.000Z",
-        "resources": 0,
-        "location": "Vermont"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.19044025049217,
-          -37.8356679477763
-        ]
-      }
     }
   ],
   "properties": {
@@ -2047,7 +2139,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-28T14:28:20.102Z",
-    "featureCount": 92
+    "lastUpdated": "2025-11-28T14:50:40.413Z",
+    "featureCount": 95
   }
 }
