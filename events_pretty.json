@@ -226,70 +226,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122055878,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247502,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wimble St",
-        "eventId": 251130033,
-        "id": "ESTA:251130033",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-29T17:14:00.000Z",
-        "updated": "2025-11-29T17:36:00.000Z",
-        "resources": 0,
-        "location": "Wimble St, Seymour",
-        "cfaId": 247502,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14954557668554,
-          -37.02554455983465
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122055985,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 247503,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Watton St",
-        "eventId": 251130036,
-        "id": "ESTA:251130036",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-11-29T17:35:00.000Z",
-        "updated": "2025-11-29T17:35:00.000Z",
-        "resources": 1,
-        "location": "Watton St, Werribee",
-        "cfaId": 247503,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.65892955554756,
-          -37.902407333287975
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1122,7 +1058,7 @@
         "category2": "Building Fire",
         "created": "2025-11-29T16:27:00.000Z",
         "updated": "2025-11-29T16:48:00.000Z",
-        "resources": 8,
+        "resources": 7,
         "location": "Barry Rd, Thomastown",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1133,6 +1069,91 @@
         "coordinates": [
           144.99259869808066,
           -37.671499653665705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 247506,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247506,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Day St",
+        "eventId": 251130042,
+        "id": "ESTA:251130042",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-11-29T18:21:00.000Z",
+        "updated": "2025-11-29T18:21:00.000Z",
+        "resources": 3,
+        "location": "Day St, Bairnsdale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.60682508140073,
+          -37.83086631677959
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 247505,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247505,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Narre Warren North Rd",
+        "eventId": 251130041,
+        "id": "ESTA:251130041",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-11-29T18:11:00.000Z",
+        "updated": "2025-11-29T18:27:00.000Z",
+        "resources": 0,
+        "location": "Narre Warren North Rd, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30862558469616,
+          -38.01755777077011
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 588997,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 588997,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251152999,
+        "id": "ESTA:251152999",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-11-29T18:09:29.000Z",
+        "updated": "2025-11-29T18:12:55.000Z",
+        "resources": 0,
+        "location": "East Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98025902088185,
+          -37.809846578915334
         ]
       }
     }
@@ -1151,7 +1172,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1159,7 +1179,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1175,7 +1196,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1183,7 +1203,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-11-29T13:00:00.000Z",
           "heat": {
@@ -1364,7 +1385,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-11-29T17:50:21.589Z",
-    "featureCount": 86
+    "lastUpdated": "2025-11-29T18:36:20.414Z",
+    "featureCount": 87
   }
 }
