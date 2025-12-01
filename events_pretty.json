@@ -293,30 +293,93 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122076705,
+        "status": "Complete",
+        "estaId": 122075792,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122076705,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Woodstock",
-        "eventId": "F251200408",
-        "id": "ESTA:251200408",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589187,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251200392,
+        "id": "ESTA:251200392",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-12-01T13:52:38.000Z",
-        "updated": "2025-12-01T13:54:26.692Z",
-        "resources": 0,
-        "location": "Woodstock"
+        "category1": "Rescue",
+        "category2": "Rescue Rail Trapped",
+        "created": "2025-12-01T11:27:07.000Z",
+        "updated": "2025-12-01T14:22:05.000Z",
+        "resources": 1,
+        "location": "Traralgon",
+        "sesId": 589187
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0306075339776,
-          -37.54908881824961
+          146.47580932745012,
+          -38.21819032397052
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122076705,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247711,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251200408,
+        "id": "ESTA:251200408",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-12-01T13:54:00.000Z",
+        "updated": "2025-12-01T14:20:00.000Z",
+        "resources": 0,
+        "location": "Woodstock",
+        "cfaId": 247711,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0305916921461,
+          -37.549097851419106
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122076924,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589193,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250093,
+        "id": "ESTA:251250093",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-01T14:30:39.000Z",
+        "updated": "2025-12-01T14:30:39.000Z",
+        "resources": 0,
+        "location": "Gentle Annie",
+        "sesId": 589193
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.82540601400322,
+          -37.874150110031806
         ]
       }
     },
@@ -1228,28 +1291,30 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 589187,
+        "status": "Safe",
+        "cfaId": 247712,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589187,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251200392,
-        "id": "ESTA:251200392",
-        "category1": "Rescue",
-        "category2": "Rescue Rail Trapped",
-        "created": "2025-12-01T11:27:07.000Z",
-        "updated": "2025-12-01T11:39:00.000Z",
-        "resources": 2,
-        "location": "Traralgon"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247712,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jackson Dr",
+        "eventId": 251200409,
+        "id": "ESTA:251200409",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-01T13:57:00.000Z",
+        "updated": "2025-12-01T14:20:00.000Z",
+        "resources": 1,
+        "location": "Jackson Dr, Langwarrin",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.47580932745012,
-          -38.21819032397052
+          145.19885560442697,
+          -38.149183114947114
         ]
       }
     }
@@ -1481,7 +1546,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-01T13:55:20.396Z",
-    "featureCount": 88
+    "lastUpdated": "2025-12-01T14:31:45.766Z",
+    "featureCount": 90
   }
 }
