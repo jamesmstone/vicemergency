@@ -219,7 +219,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 122101610,
         "feedType": "incident",
         "source": "000",
@@ -233,45 +233,48 @@
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2025-12-03T14:29:14.000Z",
-        "updated": "2025-12-03T14:30:13.191Z",
-        "resources": 0,
+        "updated": "2025-12-03T14:42:51.334Z",
+        "resources": 4,
         "location": "Broadway -, Reservoir"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00945977915018,
-          -37.71716722719263
+          145.00983196915874,
+          -37.71722777446354
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122101612,
+        "estaId": 122101703,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122101612,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Reservoir",
-        "eventId": "F251201535",
-        "id": "ESTA:251201535",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247969,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Spencer St",
+        "eventId": 251201538,
+        "id": "ESTA:251201538",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-12-03T14:28:49.000Z",
-        "updated": "2025-12-03T14:30:26.723Z",
-        "resources": 0,
-        "location": "Reservoir"
+        "category2": "Building Fire",
+        "created": "2025-12-03T14:49:00.000Z",
+        "updated": "2025-12-03T14:49:00.000Z",
+        "resources": 2,
+        "location": "Spencer St, Canadian",
+        "cfaId": 247969,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00755857105784,
-          -37.71671150325468
+          143.88240732935304,
+          -37.5770325458342
         ]
       }
     },
@@ -1885,7 +1888,7 @@
         "category2": "Building Fire",
         "created": "2025-12-03T13:10:00.000Z",
         "updated": "2025-12-03T13:38:00.000Z",
-        "resources": 5,
+        "resources": 2,
         "location": "The Avenue -, Ocean Grove",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1901,21 +1904,21 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 247966,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 247966,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Narre Warren Rd",
+        "sourceTitle": "",
         "eventId": 251201524,
         "id": "ESTA:251201524",
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2025-12-03T13:38:00.000Z",
-        "updated": "2025-12-03T13:57:00.000Z",
-        "resources": 3,
-        "location": "Narre Warren Rd, Cranbourne North",
+        "updated": "2025-12-03T14:35:00.000Z",
+        "resources": 1,
+        "location": "Cranbourne North",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1923,8 +1926,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.29477490849405,
-          -38.084297721184626
+          145.29541935671847,
+          -38.084532368153205
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 247968,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 247968,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Dr",
+        "eventId": 251201537,
+        "id": "ESTA:251201537",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-03T14:45:00.000Z",
+        "updated": "2025-12-03T14:45:00.000Z",
+        "resources": 3,
+        "location": "Princes Dr, Morwell",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4151182926752,
+          -38.2406510095583
         ]
       }
     },
@@ -4991,7 +5023,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-03T14:31:45.794Z",
-    "featureCount": 83
+    "lastUpdated": "2025-12-03T14:55:25.568Z",
+    "featureCount": 84
   }
 }
