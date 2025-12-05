@@ -899,7 +899,7 @@
         "category2": "Bushfire",
         "created": "2025-12-04T02:17:00.000Z",
         "updated": "2025-12-04T02:17:00.000Z",
-        "resources": 8,
+        "resources": 3,
         "size": "521.00",
         "sizeFmt": "521.00 Ha.",
         "location": "9Km Sw Of Patchewollock"
@@ -915,30 +915,63 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122129189,
+        "status": "Responding",
+        "estaId": 122129413,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122129189,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F251203083",
-        "id": "ESTA:251203083",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 248415,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251203085,
+        "id": "ESTA:251203085",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-12-05T15:41:04.000Z",
-        "updated": "2025-12-05T15:42:43.012Z",
-        "resources": 3,
-        "location": "Elizabeth St, Melbourne"
+        "category2": "Other",
+        "created": "2025-12-05T16:22:00.000Z",
+        "updated": "2025-12-05T16:22:00.000Z",
+        "resources": 2,
+        "location": "Byrneside",
+        "cfaId": 248415,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95838270992664,
-          -37.80285408528902
+          145.20426934554575,
+          -36.41673407059392
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122129429,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589562,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250462,
+        "id": "ESTA:251250462",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-05T16:25:16.000Z",
+        "updated": "2025-12-05T16:29:06.000Z",
+        "resources": 1,
+        "location": "Kialla",
+        "sesId": 589562
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.43177607232735,
+          -36.4722493651228
         ]
       }
     },
@@ -5749,35 +5782,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 248413,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248413,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Precinct Rd",
-        "eventId": 251203074,
-        "id": "ESTA:251203074",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-05T14:41:00.000Z",
-        "updated": "2025-12-05T14:53:00.000Z",
-        "resources": 0,
-        "location": "Precinct Rd, Charlemont",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.35930677445634,
-          -38.213637901740505
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "sesId": 589548,
         "feedType": "incident",
@@ -5802,6 +5806,60 @@
           -36.096916132783505
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 589560,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589560,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250460,
+        "id": "ESTA:251250460",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-05T15:58:31.000Z",
+        "updated": "2025-12-05T16:11:04.000Z",
+        "resources": 1,
+        "location": "Barramunga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7150069725323,
+          -38.608207748753095
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 589561,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589561,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250461,
+        "id": "ESTA:251250461",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-05T16:12:19.000Z",
+        "updated": "2025-12-05T16:34:29.000Z",
+        "resources": 1,
+        "location": "Ballarat East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.87628237493766,
+          -37.55820568995845
+        ]
+      }
     }
   ],
   "properties": {
@@ -5818,7 +5876,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5826,7 +5883,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -5842,7 +5900,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -5850,7 +5907,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-05T13:00:00.000Z",
           "heat": {
@@ -6031,7 +6089,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-05T15:52:00.413Z",
-    "featureCount": 107
+    "lastUpdated": "2025-12-05T16:36:06.179Z",
+    "featureCount": 109
   }
 }
