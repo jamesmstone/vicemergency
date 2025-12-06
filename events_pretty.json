@@ -419,31 +419,34 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122141663,
+        "status": "Complete",
+        "estaId": 122141561,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 589647,
+        "sourceId": 589646,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251250548,
-        "id": "ESTA:251250548",
+        "eventId": 251203782,
+        "id": "ESTA:251203782",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-06T15:38:24.000Z",
-        "updated": "2025-12-06T15:43:24.000Z",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-06T15:21:56.000Z",
+        "updated": "2025-12-06T16:19:54.000Z",
         "resources": 0,
-        "location": "Ringwood",
-        "sesId": 589647
+        "location": "Budgerum East",
+        "cfaId": 248578,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 589646
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2253011853916,
-          -37.807260758621155
+          143.66014707991863,
+          -35.774830551390416
         ]
       }
     },
@@ -481,34 +484,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122141561,
+        "status": "Responding",
+        "estaId": 122141921,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589646,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251203782,
-        "id": "ESTA:251203782",
+        "source": "STATION",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122141921,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Noble Park North",
+        "eventId": "F251203797",
+        "id": "ESTA:251203797",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-12-06T15:21:56.000Z",
-        "updated": "2025-12-06T15:49:15.000Z",
-        "resources": 5,
-        "location": "Budgerum East",
-        "cfaId": 248578,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 589646
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-06T16:27:49.000Z",
+        "updated": "2025-12-06T16:28:23.003Z",
+        "resources": 0,
+        "location": "Jacksons Rd, Noble Park North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.66014707991863,
-          -35.774830551390416
+          145.19213018587664,
+          -37.938599003788866
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122141924,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122141924,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wodonga",
+        "eventId": "F251203798",
+        "id": "ESTA:251203798",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-06T16:27:03.000Z",
+        "updated": "2025-12-06T16:29:24.387Z",
+        "resources": 0,
+        "location": "Park View Cl, Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86827744200073,
+          -36.13247217849812
         ]
       }
     },
@@ -2197,36 +2225,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "635035",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Munderoo Access Rd, Mannus",
-        "id": "2025-12-07T02:19:00.0000000:635035",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Munderoo Access Rd, Mannus",
-        "location": "Munderoo Access Rd, Mannus 2653",
-        "created": "2025-12-07T02:19:00+11:00",
-        "updated": "2025-12-07T02:19:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.931854248,
-          -35.7886009219999
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -2337,6 +2335,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "635035",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Munderoo Access Rd, Mannus",
+        "id": "2025-12-07T02:19:00.0000000:635035",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Munderoo Access Rd, Mannus",
+        "location": "Munderoo Access Rd, Mannus 2653",
+        "created": "2025-12-07T02:19:00+11:00",
+        "updated": "2025-12-07T02:19:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.931854248,
+          -35.7886009219999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 248074,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2394,21 +2422,50 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 248572,
+        "status": "Responding",
+        "cfaId": 248582,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 248572,
+        "sourceId": 248582,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Russell St",
+        "eventId": 251203794,
+        "id": "ESTA:251203794",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-06T16:03:00.000Z",
+        "updated": "2025-12-06T16:03:00.000Z",
+        "resources": 0,
+        "location": "Russell St, Werribee",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.66111813095907,
+          -37.91050686650676
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 248581,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 248581,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 251203767,
-        "id": "ESTA:251203767",
-        "category1": "Fire",
+        "eventId": 251203793,
+        "id": "ESTA:251203793",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-06T13:43:00.000Z",
-        "updated": "2025-12-06T14:53:00.000Z",
-        "resources": 0,
-        "location": "Steiglitz",
+        "created": "2025-12-06T16:02:00.000Z",
+        "updated": "2025-12-06T16:11:00.000Z",
+        "resources": 2,
+        "location": "Werribee",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2416,64 +2473,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.15639795266958,
-          -37.86771650748641
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 248576,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248576,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Leveret Way",
-        "eventId": 251203773,
-        "id": "ESTA:251203773",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-12-06T14:17:00.000Z",
-        "updated": "2025-12-06T15:03:00.000Z",
-        "resources": 0,
-        "location": "Leveret Way, Narre Warren South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32887963534858,
-          -38.072684848855204
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 589644,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589644,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251250547,
-        "id": "ESTA:251250547",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-06T14:57:25.000Z",
-        "updated": "2025-12-06T15:18:08.000Z",
-        "resources": 1,
-        "location": "Beechworth"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.66484362696164,
-          -36.300200336696435
+          144.66111813095907,
+          -37.91050686650676
         ]
       }
     },
@@ -2492,7 +2493,7 @@
         "category2": "Rescue Road Trap",
         "created": "2025-12-06T15:07:21.000Z",
         "updated": "2025-12-06T15:23:06.000Z",
-        "resources": 5,
+        "resources": 3,
         "location": "Corio"
       },
       "type": "Feature",
@@ -2501,6 +2502,87 @@
         "coordinates": [
           144.38109053252512,
           -38.069319616133846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 589648,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589648,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251203791,
+        "id": "ESTA:251203791",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-06T15:52:55.000Z",
+        "updated": "2025-12-06T16:06:29.000Z",
+        "resources": 2,
+        "location": "Craigieburn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94037596903445,
+          -37.58412901009793
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 589651,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589651,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251203796,
+        "id": "ESTA:251203796",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2025-12-06T16:24:14.000Z",
+        "updated": "2025-12-06T16:27:50.000Z",
+        "resources": 2,
+        "location": "Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86934354672005,
+          -36.132691975151715
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 589649,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589649,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250549,
+        "id": "ESTA:251250549",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-06T16:01:59.000Z",
+        "updated": "2025-12-06T16:30:13.000Z",
+        "resources": 0,
+        "location": "Werribee"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.66111813095907,
+          -37.91050686650676
         ]
       }
     }
@@ -2519,7 +2601,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2527,7 +2608,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2543,7 +2625,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2551,7 +2632,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-06T13:00:00.000Z",
           "heat": {
@@ -2732,7 +2814,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-06T15:50:05.697Z",
-    "featureCount": 105
+    "lastUpdated": "2025-12-06T16:32:20.480Z",
+    "featureCount": 108
   }
 }
