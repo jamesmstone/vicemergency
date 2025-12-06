@@ -419,59 +419,62 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122142566,
+        "status": "Responding",
+        "estaId": 122142819,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122142566,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Meadow Heights",
-        "eventId": "F251203821",
-        "id": "ESTA:251203821",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 248597,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Clyde-Five Ways Rd",
+        "eventId": 251203843,
+        "id": "ESTA:251203843",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-12-06T19:11:00.000Z",
-        "updated": "2025-12-06T19:45:56.995Z",
-        "resources": 1,
-        "location": "Morris Ct, Meadow Heights"
+        "category2": "Other",
+        "created": "2025-12-06T20:27:00.000Z",
+        "updated": "2025-12-06T20:27:00.000Z",
+        "resources": 0,
+        "location": "Clyde-Five Ways Rd, Clyde",
+        "cfaId": 248597,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91048352639805,
-          -37.65212473105851
+          145.32104915441954,
+          -38.149840380300105
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122142667,
+        "status": "Safe",
+        "estaId": 122142791,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122142667,
+        "sourceId": 122142791,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Templestowe",
-        "eventId": "F251203826",
-        "id": "ESTA:251203826",
+        "sourceTitle": "Sunshine North",
+        "eventId": "F251203839",
+        "id": "ESTA:251203839",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-06T19:46:33.000Z",
-        "updated": "2025-12-06T19:49:46.362Z",
-        "resources": 0,
-        "location": "Tuckers Rd, Templestowe"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-06T20:20:02.000Z",
+        "updated": "2025-12-06T20:27:19.443Z",
+        "resources": 3,
+        "location": "Furlong Rd, Sunshine North"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15504803167929,
-          -37.769850094859976
+          144.8267805007043,
+          -37.762067797681944
         ]
       }
     },
@@ -1566,36 +1569,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "635020",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Culcairn Holbrook Rd, Morven",
-        "id": "2025-12-07T00:03:00.0000000:635020",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Culcairn Holbrook Rd, Morven",
-        "location": "Culcairn Holbrook Rd, Morven 2660",
-        "created": "2025-12-07T00:03:00+11:00",
-        "updated": "2025-12-07T00:03:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.177993775,
-          -35.6758728029999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "635035",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Munderoo Access Rd, Mannus",
@@ -1618,6 +1591,36 @@
         "coordinates": [
           147.931854248,
           -35.7886009219999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "635020",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Culcairn Holbrook Rd, Morven",
+        "id": "2025-12-07T07:09:00.0000000:635020",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Culcairn Holbrook Rd, Morven",
+        "location": "Culcairn Holbrook Rd, Morven 2660",
+        "created": "2025-12-07T07:09:00+11:00",
+        "updated": "2025-12-07T07:09:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.177993775,
+          -35.6758728029999
         ]
       }
     },
@@ -1773,7 +1776,7 @@
         "category2": "Bushfire",
         "created": "2025-12-04T02:30:00.000Z",
         "updated": "2025-12-06T07:27:00.000Z",
-        "resources": 11,
+        "resources": 12,
         "location": "Snow Rd, Markwood",
         "size": "Large",
         "sizeFmt": "Large"
@@ -1784,122 +1787,6 @@
         "coordinates": [
           146.52468331587392,
           -36.46574154739778
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 248593,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248593,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Turner Av",
-        "eventId": 251203815,
-        "id": "ESTA:251203815",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-06T18:17:00.000Z",
-        "updated": "2025-12-06T18:56:00.000Z",
-        "resources": 0,
-        "location": "Turner Av, Lara",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.40675782128727,
-          -38.02155630454103
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 248594,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248594,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251203818,
-        "id": "ESTA:251203818",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-06T19:00:00.000Z",
-        "updated": "2025-12-06T19:11:00.000Z",
-        "resources": 0,
-        "location": "Eltham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16160444232426,
-          -37.703031961928666
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 248595,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248595,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251203820,
-        "id": "ESTA:251203820",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-06T19:06:00.000Z",
-        "updated": "2025-12-06T19:14:00.000Z",
-        "resources": 0,
-        "location": "Sebastopol",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8418351233363,
-          -37.59529051593632
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 248588,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248588,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grimshaw St",
-        "eventId": 251203804,
-        "id": "ESTA:251203804",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-06T17:03:00.000Z",
-        "updated": "2025-12-06T19:24:00.000Z",
-        "resources": 3,
-        "location": "Grimshaw St, Greensborough",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1013085138546,
-          -37.704284103323616
         ]
       }
     },
@@ -2158,7 +2045,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-06T19:50:20.784Z",
-    "featureCount": 105
+    "lastUpdated": "2025-12-06T20:28:45.942Z",
+    "featureCount": 101
   }
 }
