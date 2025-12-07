@@ -500,35 +500,68 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122153527,
+        "estaId": 122153571,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122153527,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Tarneit",
-        "eventId": "F251204500",
-        "id": "ESTA:251204500",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 248748,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251204502,
+        "id": "ESTA:251204502",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-12-07T15:31:29.000Z",
-        "updated": "2025-12-07T15:34:35.908Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-07T15:43:00.000Z",
+        "updated": "2025-12-07T15:43:00.000Z",
         "resources": 0,
-        "location": "Poplar Bvd, Tarneit"
+        "location": "Kialla East",
+        "cfaId": 248748,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6883738754498,
-          -37.841082562070795
+          145.49893528009443,
+          -36.457058672096345
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 122153207,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589727,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250617,
+        "id": "ESTA:251250617",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-12-07T14:26:14.000Z",
+        "updated": "2025-12-07T15:45:54.000Z",
+        "resources": 0,
+        "location": "Heidelberg West",
+        "sesId": 589727
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0422755901793,
+          -37.73635636098942
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
         "estaId": 122153530,
         "feedType": "incident",
         "source": "000",
@@ -543,7 +576,7 @@
         "category2": "Other",
         "created": "2025-12-07T15:35:00.000Z",
         "updated": "2025-12-07T15:35:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Auden Lane, Fraser Rise",
         "cfaId": 248746,
         "size": "Small",
@@ -1098,114 +1131,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "634853",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Bull Plain Rd, Rennie",
-        "id": "2025-12-07T18:15:00.0000000:634853",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Bull Plain Rd, Rennie",
-        "location": "Bull Plain Rd, Rennie 2646",
-        "created": "2025-12-07T18:15:00+11:00",
-        "updated": "2025-12-07T18:15:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "31 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.156,
-                  -35.7852
-                ],
-                [
-                  146.1566,
-                  -35.7873
-                ],
-                [
-                  146.1571,
-                  -35.7881
-                ],
-                [
-                  146.1563,
-                  -35.7897
-                ],
-                [
-                  146.1495,
-                  -35.7886
-                ],
-                [
-                  146.1487,
-                  -35.7863
-                ],
-                [
-                  146.1495,
-                  -35.7855
-                ],
-                [
-                  146.1508,
-                  -35.7847
-                ],
-                [
-                  146.156,
-                  -35.7852
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              146.151901245,
-              -35.7880210879999
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "634703",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Back Walbundrie Rand Rd, Walbundrie",
-        "id": "2025-12-07T09:56:00.0000000:634703",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Back Walbundrie Rand Rd, Walbundrie",
-        "location": "Back Walbundrie Rand Rd, Walbundrie 2642",
-        "created": "2025-12-07T09:56:00+11:00",
-        "updated": "2025-12-07T09:56:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.699584961,
-          -35.69488144
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Under Control",
         "feedType": "incident",
@@ -1326,6 +1251,114 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "634853",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Bull Plain Rd, Rennie",
+        "id": "2025-12-07T18:15:00.0000000:634853",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Bull Plain Rd, Rennie",
+        "location": "Bull Plain Rd, Rennie 2646",
+        "created": "2025-12-07T18:15:00+11:00",
+        "updated": "2025-12-07T18:15:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "31 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.156,
+                  -35.7852
+                ],
+                [
+                  146.1566,
+                  -35.7873
+                ],
+                [
+                  146.1571,
+                  -35.7881
+                ],
+                [
+                  146.1563,
+                  -35.7897
+                ],
+                [
+                  146.1495,
+                  -35.7886
+                ],
+                [
+                  146.1487,
+                  -35.7863
+                ],
+                [
+                  146.1495,
+                  -35.7855
+                ],
+                [
+                  146.1508,
+                  -35.7847
+                ],
+                [
+                  146.156,
+                  -35.7852
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              146.151901245,
+              -35.7880210879999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "634703",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Back Walbundrie Rand Rd, Walbundrie",
+        "id": "2025-12-07T09:56:00.0000000:634703",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Back Walbundrie Rand Rd, Walbundrie",
+        "location": "Back Walbundrie Rand Rd, Walbundrie 2642",
+        "created": "2025-12-07T09:56:00+11:00",
+        "updated": "2025-12-07T09:56:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.699584961,
+          -35.69488144
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 248617,
@@ -1414,7 +1447,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "cfaId": 248745,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1438,6 +1471,35 @@
         "coordinates": [
           145.13234528015883,
           -38.029253890603314
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 248747,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 248747,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Poplar Bvd",
+        "eventId": 251204500,
+        "id": "ESTA:251204500",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-07T15:35:00.000Z",
+        "updated": "2025-12-07T15:46:00.000Z",
+        "resources": 1,
+        "location": "Poplar Bvd, Tarneit",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68836865014643,
+          -37.841091051771166
         ]
       }
     },
@@ -1470,34 +1532,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 589727,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589727,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251250617,
-        "id": "ESTA:251250617",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2025-12-07T14:26:14.000Z",
-        "updated": "2025-12-07T15:15:57.000Z",
-        "resources": 1,
-        "location": "Heidelberg West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0422755901793,
-          -37.73635636098942
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 589728,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1509,7 +1544,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-12-07T14:51:52.000Z",
-        "updated": "2025-12-07T15:28:26.000Z",
+        "updated": "2025-12-07T15:38:19.000Z",
         "resources": 1,
         "location": "Tarneit"
       },
@@ -1750,7 +1785,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-07T15:36:20.522Z",
-    "featureCount": 117
+    "lastUpdated": "2025-12-07T15:50:20.304Z",
+    "featureCount": 118
   }
 }
