@@ -504,61 +504,88 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122166727,
+        "status": "Safe",
+        "estaId": 122165957,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589790,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251250685,
-        "id": "ESTA:251250685",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122165957,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Golden Square",
+        "eventId": "F251205026",
+        "id": "ESTA:251205026",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-08T17:25:31.000Z",
-        "updated": "2025-12-08T17:26:33.000Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-08T14:32:04.000Z",
+        "updated": "2025-12-08T17:40:22.488Z",
         "resources": 0,
-        "location": "Trentham East",
-        "sesId": 589790
+        "location": "Golden Square"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.37916906021152,
-          -37.393006842462306
+          144.24805578456798,
+          -36.76419085405006
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122166666,
+        "status": "Safe",
+        "estaId": 122166804,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 589789,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251250684,
-        "id": "ESTA:251250684",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122166804,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F251205042",
+        "id": "ESTA:251205042",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-12-08T17:09:58.000Z",
-        "updated": "2025-12-08T17:26:34.000Z",
-        "resources": 0,
-        "location": "Baxter",
-        "sesId": 589789
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-08T17:47:25.000Z",
+        "updated": "2025-12-08T17:49:19.689Z",
+        "resources": 3,
+        "location": "Collins St, Docklands"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15936615088845,
-          -38.195214390534865
+          144.94285028538604,
+          -37.82122255401696
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122166816,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122166816,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Brunswick West",
+        "eventId": "F251205043",
+        "id": "ESTA:251205043",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-08T17:50:52.000Z",
+        "updated": "2025-12-08T17:50:59.581Z",
+        "resources": 0,
+        "location": "Appleby Cr, Brunswick West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94644456628225,
+          -37.75633368511608
         ]
       }
     },
@@ -710,35 +737,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 248901,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 248901,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251205026,
-        "id": "ESTA:251205026",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-08T14:34:00.000Z",
-        "updated": "2025-12-08T16:48:00.000Z",
-        "resources": 0,
-        "location": "Golden Square",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2480470789735,
-          -36.76419872382446
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 248903,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -751,7 +749,7 @@
         "category2": "Other",
         "created": "2025-12-08T15:49:00.000Z",
         "updated": "2025-12-08T16:52:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Riversdale Rd, Riverslea",
         "size": "Small",
         "sizeFmt": "Small"
@@ -818,6 +816,33 @@
         "coordinates": [
           145.14033207753795,
           -37.885290875711895
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 589790,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 589790,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250685,
+        "id": "ESTA:251250685",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-08T17:25:31.000Z",
+        "updated": "2025-12-08T17:47:53.000Z",
+        "resources": 1,
+        "location": "Trentham East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.37916906021152,
+          -37.393006842462306
         ]
       }
     }
@@ -1049,7 +1074,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-08T17:28:40.262Z",
-    "featureCount": 119
+    "lastUpdated": "2025-12-08T17:51:20.717Z",
+    "featureCount": 120
   }
 }
