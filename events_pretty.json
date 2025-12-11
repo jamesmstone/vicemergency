@@ -335,63 +335,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122204524,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 249370,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251206779,
-        "id": "ESTA:251206779",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-11T16:57:00.000Z",
-        "updated": "2025-12-11T16:57:00.000Z",
-        "resources": 2,
-        "location": "Springvale",
-        "cfaId": 249370,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14566069894838,
-          -37.94661056581365
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
-        "estaId": 122204527,
+        "estaId": 122204650,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 590007,
+        "sourceId": 590008,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251250880,
-        "id": "ESTA:251250880",
+        "eventId": 251250881,
+        "id": "ESTA:251250881",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-11T16:57:40.000Z",
-        "updated": "2025-12-11T17:00:13.000Z",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-12-11T17:31:10.000Z",
+        "updated": "2025-12-11T17:32:43.000Z",
         "resources": 0,
-        "location": "Wangaratta",
-        "sesId": 590007
+        "location": "Fitzroy",
+        "sesId": 590008
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.2935192125826,
-          -36.3455252214979
+          144.98339177573592,
+          -37.79573371873697
         ]
       }
     },
@@ -401,14 +369,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/ac5d9ed90c4d2013f5396c9cfc355ccf",
+        "sourceId": "IDV20600/9381f0c949b4cf8e8ef2c747a8a42b25",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/ac5d9ed90c4d2013f5396c9cfc355ccf",
+        "id": "IDV20600/9381f0c949b4cf8e8ef2c747a8a42b25",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-12-11T13:00:00.000Z",
+        "created": "2025-12-11T17:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1206,6 +1174,62 @@
           -37.605084705169176
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 249370,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 249370,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Queens Av",
+        "eventId": 251206779,
+        "id": "ESTA:251206779",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-11T16:57:00.000Z",
+        "updated": "2025-12-11T17:05:00.000Z",
+        "resources": 0,
+        "location": "Queens Av, Springvale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14571182675797,
+          -37.94412410892994
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 590007,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590007,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250880,
+        "id": "ESTA:251250880",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-11T16:57:40.000Z",
+        "updated": "2025-12-11T17:19:14.000Z",
+        "resources": 1,
+        "location": "Wangaratta"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2935192125826,
+          -36.3455252214979
+        ]
+      }
     }
   ],
   "properties": {
@@ -1435,7 +1459,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-11T17:03:05.892Z",
-    "featureCount": 127
+    "lastUpdated": "2025-12-11T17:37:20.683Z",
+    "featureCount": 128
   }
 }
