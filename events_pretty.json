@@ -401,6 +401,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1676098",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Wild Dog Valley Road, Naracoorte",
+        "id": "1676098",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Wild Dog Valley Road, Naracoorte",
+        "created": "2025-12-12T21:24:00.000Z",
+        "updated": "2025-12-12T21:24:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Wild Dog Valley Road, Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.738141214885,
+          -36.923774952794
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -485,7 +511,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3014864,
@@ -494,8 +520,8 @@
         "id": 3014864,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2025-12-12T04:32:23.000Z",
-        "updated": "2025-12-12T04:32:23.000Z",
+        "created": "2025-12-12T21:17:21.000Z",
+        "updated": "2025-12-12T21:17:21.000Z",
         "resources": 0,
         "size": "40.08",
         "sizeFmt": "40.08 Ha.",
@@ -787,97 +813,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122220540,
+        "status": "Request For Assistance",
+        "estaId": 122220706,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122220540,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Maribyrnong",
-        "eventId": "F251207571",
-        "id": "ESTA:251207571",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590087,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251250950,
+        "id": "ESTA:251250950",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-12T21:11:03.000Z",
-        "updated": "2025-12-12T21:11:28.712Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-12T21:36:47.000Z",
+        "updated": "2025-12-12T21:44:54.000Z",
         "resources": 0,
-        "location": "Van Ness Av, Maribyrnong"
+        "location": "Pakenham Upper",
+        "sesId": 590087
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.89473585477202,
-          -37.7768079961348
+          145.51789069404546,
+          -38.01401976464586
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122220560,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122220560,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mount Waverley",
-        "eventId": "F251207574",
-        "id": "ESTA:251207574",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-12T21:14:18.000Z",
-        "updated": "2025-12-12T21:15:18.205Z",
-        "resources": 0,
-        "location": "Sadie St, Mount Waverley"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1202386426474,
-          -37.88985572733041
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122220517,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 249609,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sherwood Av",
-        "eventId": 251207570,
-        "id": "ESTA:251207570",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-12T21:08:00.000Z",
-        "updated": "2025-12-12T21:08:00.000Z",
-        "resources": 2,
-        "location": "Sherwood Av, Chelsea",
-        "cfaId": 249609,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.12159025174475,
-          -38.05289130764787
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 122220600,
         "feedType": "incident",
         "source": "000",
@@ -891,7 +857,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-12-12T21:21:00.000Z",
-        "updated": "2025-12-12T21:21:00.000Z",
+        "updated": "2025-12-12T21:40:00.000Z",
         "resources": 0,
         "location": "Koraleigh View, Nicholson",
         "cfaId": 249610,
@@ -910,29 +876,120 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122220633,
+        "estaId": 122220784,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122220633,
+        "sourceId": 122220784,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F251207582",
-        "id": "ESTA:251207582",
+        "sourceTitle": "Bundoora",
+        "eventId": "F251207590",
+        "id": "ESTA:251207590",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-12T21:23:41.000Z",
-        "updated": "2025-12-12T21:25:08.794Z",
+        "created": "2025-12-12T21:45:52.000Z",
+        "updated": "2025-12-12T21:46:05.624Z",
         "resources": 0,
-        "location": "Elizabeth St, Melbourne"
+        "location": "Princeton Tce, Bundoora"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9627352101422,
-          -37.81267302656969
+          145.07347842621215,
+          -37.68179467701515
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122220786,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122220786,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Port Melbourne",
+        "eventId": "F251207592",
+        "id": "ESTA:251207592",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-12-12T21:45:33.000Z",
+        "updated": "2025-12-12T21:46:40.611Z",
+        "resources": 3,
+        "location": "Heath St, Port Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9454350834395,
+          -37.83394513828547
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122220785,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122220785,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ringwood",
+        "eventId": "F251207591",
+        "id": "ESTA:251207591",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-12-12T21:45:35.000Z",
+        "updated": "2025-12-12T21:48:29.598Z",
+        "resources": 4,
+        "location": "Heatherdale Rd, Ringwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.214702703809,
+          -37.82509673381456
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 122219788,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590079,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251207513,
+        "id": "ESTA:251207513",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-12T18:17:26.000Z",
+        "updated": "2025-12-12T21:46:52.000Z",
+        "resources": 1,
+        "location": "Violet Town",
+        "cfaId": 249596,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 590079
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6424327220514,
+          -36.623019448128524
         ]
       }
     },
@@ -1237,66 +1294,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Being Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "635955",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Roaring May Mtn",
-        "id": "2025-12-12T19:30:00.0000000:635955",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Roaring May Mtn",
-        "location": "Kosciuszko National Park Kosciuszko National Park 2627",
-        "created": "2025-12-12T19:30:00+11:00",
-        "updated": "2025-12-12T19:30:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.169946671,
-          -36.031123543
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "635904",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Little Forest Lane, Barham",
-        "id": "2025-12-12T14:02:00.0000000:635904",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Little Forest Lane, Barham",
-        "location": "Little Forest Lane, Barham 2732",
-        "created": "2025-12-12T14:02:00+11:00",
-        "updated": "2025-12-12T14:02:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.173278809,
-          -35.6387252809999
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -1568,6 +1565,66 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "635955",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Roaring May Mtn",
+        "id": "2025-12-12T19:30:00.0000000:635955",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Roaring May Mtn",
+        "location": "Kosciuszko National Park Kosciuszko National Park 2627",
+        "created": "2025-12-12T19:30:00+11:00",
+        "updated": "2025-12-12T19:30:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.169946671,
+          -36.031123543
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "635904",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Little Forest Lane, Barham",
+        "id": "2025-12-12T14:02:00.0000000:635904",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Little Forest Lane, Barham",
+        "location": "Little Forest Lane, Barham 2732",
+        "created": "2025-12-12T14:02:00+11:00",
+        "updated": "2025-12-12T14:02:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.173278809,
+          -35.6387252809999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "cfaId": 248852,
         "feedType": "incident",
@@ -1668,7 +1725,7 @@
         "category2": "Other",
         "created": "2025-12-12T08:37:00.000Z",
         "updated": "2025-12-12T08:37:00.000Z",
-        "resources": 0,
+        "resources": 1,
         "location": "Long Lane, Barwite",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1679,36 +1736,6 @@
         "coordinates": [
           146.09152592482934,
           -36.98714534442075
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "cfaId": 249596,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 590079,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251207513,
-        "id": "ESTA:251207513",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-12-12T18:17:26.000Z",
-        "updated": "2025-12-12T18:48:49.000Z",
-        "resources": 3,
-        "location": "Violet Town",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 590079
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6424327220514,
-          -36.623019448128524
         ]
       }
     },
@@ -2050,7 +2077,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-12T21:26:20.359Z",
-    "featureCount": 144
+    "lastUpdated": "2025-12-12T21:50:00.383Z",
+    "featureCount": 145
   }
 }
