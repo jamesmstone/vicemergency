@@ -791,34 +791,30 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122219395,
+        "status": "Safe",
+        "estaId": 122219803,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 590078,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251207498,
-        "id": "ESTA:251207498",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122219803,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Preston",
+        "eventId": "F251207515",
+        "id": "ESTA:251207515",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-12-12T16:55:00.000Z",
-        "updated": "2025-12-12T17:47:13.000Z",
-        "resources": 0,
-        "location": "Kinglake West",
-        "cfaId": 249594,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 590078
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-12-12T18:20:19.000Z",
+        "updated": "2025-12-12T18:29:57.711Z",
+        "resources": 3,
+        "location": "Mornane St, Preston"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.27501479615552,
-          -37.414669318688645
+          145.01733767445793,
+          -37.749838912022746
         ]
       }
     },
@@ -828,10 +824,10 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/8c007646de432befb69c312cc4622552",
+        "sourceId": "IDV20600/9582b6bd8f4f2d766da620e74bbbbd08",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/8c007646de432befb69c312cc4622552",
+        "id": "IDV20600/9582b6bd8f4f2d766da620e74bbbbd08",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
@@ -1123,6 +1119,92 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "635297",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Bowls Kilns Rd Fire",
+        "id": "2025-12-12T12:15:00.0000000:635297",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Bowls Kilns Rd Fire",
+        "location": "Bowls Klins Rd, Mathoura 2710",
+        "created": "2025-12-12T12:15:00+11:00",
+        "updated": "2025-12-12T12:15:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.9507,
+                  -35.7613
+                ],
+                [
+                  144.9499,
+                  -35.7615
+                ],
+                [
+                  144.9495,
+                  -35.7621
+                ],
+                [
+                  144.9492,
+                  -35.762
+                ],
+                [
+                  144.9489,
+                  -35.7614
+                ],
+                [
+                  144.949,
+                  -35.7611
+                ],
+                [
+                  144.9494,
+                  -35.7606
+                ],
+                [
+                  144.9501,
+                  -35.7605
+                ],
+                [
+                  144.9505,
+                  -35.7606
+                ],
+                [
+                  144.9509,
+                  -35.7609
+                ],
+                [
+                  144.9507,
+                  -35.7613
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              144.950010369,
+              -35.761012977
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Being Controlled",
         "feedType": "incident",
@@ -1397,92 +1479,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "635297",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Bowls Kilns Rd Fire",
-        "id": "2025-12-12T12:15:00.0000000:635297",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Bowls Kilns Rd Fire",
-        "location": "Bowls Klins Rd, Mathoura 2710",
-        "created": "2025-12-12T12:15:00+11:00",
-        "updated": "2025-12-12T12:15:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.9507,
-                  -35.7613
-                ],
-                [
-                  144.9499,
-                  -35.7615
-                ],
-                [
-                  144.9495,
-                  -35.7621
-                ],
-                [
-                  144.9492,
-                  -35.762
-                ],
-                [
-                  144.9489,
-                  -35.7614
-                ],
-                [
-                  144.949,
-                  -35.7611
-                ],
-                [
-                  144.9494,
-                  -35.7606
-                ],
-                [
-                  144.9501,
-                  -35.7605
-                ],
-                [
-                  144.9505,
-                  -35.7606
-                ],
-                [
-                  144.9509,
-                  -35.7609
-                ],
-                [
-                  144.9507,
-                  -35.7613
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              144.950010369,
-              -35.761012977
-            ]
-          }
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Contained",
         "cfaId": 248852,
@@ -1600,7 +1596,37 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Request For Assistance",
+        "cfaId": 249596,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590079,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251207513,
+        "id": "ESTA:251207513",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-12T18:17:26.000Z",
+        "updated": "2025-12-12T18:27:35.000Z",
+        "resources": 3,
+        "location": "Violet Town",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 590079
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6424327220514,
+          -36.623019448128524
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 249580,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1612,8 +1638,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-12-12T14:33:00.000Z",
-        "updated": "2025-12-12T15:56:00.000Z",
-        "resources": 8,
+        "updated": "2025-12-12T18:18:00.000Z",
+        "resources": 7,
         "location": "Frankston-Dandenong Rd, Dandenong South",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1629,7 +1655,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 249593,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1641,8 +1667,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-12-12T16:39:00.000Z",
-        "updated": "2025-12-12T16:57:00.000Z",
-        "resources": 3,
+        "updated": "2025-12-12T18:25:00.000Z",
+        "resources": 1,
         "location": "Ginger Cr, Mickleham",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1659,20 +1685,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 249595,
+        "cfaId": 249597,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 249595,
+        "sourceId": 249597,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Power Rd",
-        "eventId": 251207503,
-        "id": "ESTA:251207503",
-        "category1": "Fire",
+        "sourceTitle": "Glismann Rd",
+        "eventId": 251207514,
+        "id": "ESTA:251207514",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-12T17:09:00.000Z",
-        "updated": "2025-12-12T17:19:00.000Z",
+        "created": "2025-12-12T18:21:00.000Z",
+        "updated": "2025-12-12T18:27:00.000Z",
         "resources": 0,
-        "location": "Power Rd, Endeavour Hills",
+        "location": "Glismann Rd, Beaconsfield",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1680,8 +1706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.24806586158246,
-          -37.96265359871347
+          145.37599662483447,
+          -38.049445870937404
         ]
       }
     }
@@ -1913,7 +1939,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-12T17:51:00.322Z",
-    "featureCount": 139
+    "lastUpdated": "2025-12-12T18:42:20.967Z",
+    "featureCount": 140
   }
 }
