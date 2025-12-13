@@ -538,7 +538,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 122232954,
         "feedType": "incident",
         "source": "000",
@@ -553,7 +553,7 @@
         "category2": "Building Fire",
         "created": "2025-12-13T17:34:00.000Z",
         "updated": "2025-12-13T17:34:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Arkley Dr, Greenvale",
         "cfaId": 249747,
         "size": "Small",
@@ -565,6 +565,36 @@
         "coordinates": [
           144.90149590119208,
           -37.64994296781357
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122233007,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590168,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251251033,
+        "id": "ESTA:251251033",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-13T17:45:41.000Z",
+        "updated": "2025-12-13T17:48:35.000Z",
+        "resources": 0,
+        "location": "Heathcote",
+        "sesId": 590168
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72084760412554,
+          -36.938961841952754
         ]
       }
     },
@@ -3191,7 +3221,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "cfaId": 249745,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -3203,8 +3233,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-12-13T16:52:02.000Z",
-        "updated": "2025-12-13T17:27:08.000Z",
-        "resources": 4,
+        "updated": "2025-12-13T17:40:24.000Z",
+        "resources": 3,
         "location": "Sunbury",
         "size": "Small",
         "sizeFmt": "Small",
@@ -3216,35 +3246,6 @@
         "coordinates": [
           144.7586979909007,
           -37.59711996440839
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 249746,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 249746,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stud Rd",
-        "eventId": 251208175,
-        "id": "ESTA:251208175",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-13T17:27:00.000Z",
-        "updated": "2025-12-13T17:27:00.000Z",
-        "resources": 3,
-        "location": "Stud Rd, Rowville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23492961580948,
-          -37.9203444023613
         ]
       }
     },
@@ -3503,7 +3504,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-13T17:37:21.040Z",
+    "lastUpdated": "2025-12-13T17:50:20.200Z",
     "featureCount": 138
   }
 }
