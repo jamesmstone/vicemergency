@@ -527,65 +527,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122244739,
+        "status": "On Scene",
+        "estaId": 122244521,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 249901,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251208610,
-        "id": "ESTA:251208610",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590349,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251208602,
+        "id": "ESTA:251208602",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-14T18:35:00.000Z",
-        "updated": "2025-12-14T18:35:00.000Z",
-        "resources": 0,
-        "location": "Heathcote",
-        "cfaId": 249901,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-14T17:22:05.000Z",
+        "updated": "2025-12-14T18:43:58.000Z",
+        "resources": 2,
+        "location": "Woodstock On Loddon",
+        "cfaId": 249899,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 590349
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.69548149032127,
-          -36.905143877215664
+          144.01971594311485,
+          -36.74796152324867
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122244709,
+        "status": "Safe",
+        "estaId": 122244777,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 249900,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kennedy Ct",
-        "eventId": 251208609,
-        "id": "ESTA:251208609",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122244777,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Vermont",
+        "eventId": "F251208611",
+        "id": "ESTA:251208611",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-14T18:24:00.000Z",
-        "updated": "2025-12-14T18:24:00.000Z",
-        "resources": 2,
-        "location": "Kennedy Ct, Wodonga",
-        "cfaId": 249900,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-12-14T18:50:43.000Z",
+        "updated": "2025-12-14T18:52:34.969Z",
+        "resources": 3,
+        "location": "Padua Ct, Vermont"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.87479698268413,
-          -36.13492468629586
+          145.2079204478329,
+          -37.84128039426358
         ]
       }
     },
@@ -2003,36 +2001,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 249899,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 590349,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251208602,
-        "id": "ESTA:251208602",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2025-12-14T17:22:05.000Z",
-        "updated": "2025-12-14T17:52:34.000Z",
-        "resources": 4,
-        "location": "Woodstock On Loddon",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 590349
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.01971594311485,
-          -36.74796152324867
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 249898,
         "feedType": "incident",
@@ -2057,6 +2025,64 @@
         "coordinates": [
           145.70735361111807,
           -38.077295645031924
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 249901,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 249901,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251208610,
+        "id": "ESTA:251208610",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-14T18:35:00.000Z",
+        "updated": "2025-12-14T18:35:00.000Z",
+        "resources": 2,
+        "location": "Heathcote",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69548149032127,
+          -36.905143877215664
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 249900,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 249900,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kennedy Ct",
+        "eventId": 251208609,
+        "id": "ESTA:251208609",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-14T18:24:00.000Z",
+        "updated": "2025-12-14T18:37:00.000Z",
+        "resources": 2,
+        "location": "Kennedy Ct, Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87479698268413,
+          -36.13492468629586
         ]
       }
     }
@@ -2288,7 +2314,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-14T18:37:40.160Z",
-    "featureCount": 134
+    "lastUpdated": "2025-12-14T18:53:40.422Z",
+    "featureCount": 135
   }
 }
