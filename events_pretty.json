@@ -1391,8 +1391,8 @@
         "created": "2025-12-19T02:09:00.000Z",
         "updated": "2025-12-19T02:53:00.000Z",
         "resources": 6,
-        "size": "1517.00",
-        "sizeFmt": "1517.00 Ha.",
+        "size": "1837.49",
+        "sizeFmt": "1837.49 Ha.",
         "location": "16.7Km S Of Patchewollock"
       },
       "type": "Feature",
@@ -1433,31 +1433,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122312892,
+        "status": "Safe",
+        "estaId": 122312977,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 590772,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251251627,
-        "id": "ESTA:251251627",
+        "source": "NOC",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250897,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Village Fair Dr",
+        "eventId": 251211521,
+        "id": "ESTA:251211521",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-19T18:25:59.000Z",
-        "updated": "2025-12-19T18:31:07.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-12-19T18:51:00.000Z",
+        "updated": "2025-12-19T18:53:00.000Z",
         "resources": 0,
-        "location": "Nicholson",
-        "sesId": 590772
+        "location": "Village Fair Dr, Newlands Arm",
+        "cfaId": 250897,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.7657462982557,
-          -37.79357286756806
+          147.69979839982634,
+          -37.924193124076766
         ]
       }
     },
@@ -2064,7 +2066,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "cfaId": 250896,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590775,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251211520,
+        "id": "ESTA:251211520",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2025-12-19T18:41:06.000Z",
+        "updated": "2025-12-19T18:54:06.000Z",
+        "resources": 1,
+        "location": "Halls Gap",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 590775
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5030960576748,
+          -37.12245458297845
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 250895,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2073,11 +2105,11 @@
         "sourceTitle": "",
         "eventId": 251211517,
         "id": "ESTA:251211517",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
+        "category1": "Other",
+        "category2": "Other",
         "created": "2025-12-19T18:24:00.000Z",
-        "updated": "2025-12-19T18:24:00.000Z",
-        "resources": 3,
+        "updated": "2025-12-19T18:42:00.000Z",
+        "resources": 2,
         "location": "Wyndham Vale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2142,6 +2174,60 @@
         "coordinates": [
           144.16514780546382,
           -37.3351357716287
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 590774,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590774,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251251629,
+        "id": "ESTA:251251629",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2025-12-19T18:41:06.000Z",
+        "updated": "2025-12-19T18:54:25.000Z",
+        "resources": 1,
+        "location": "Halls Gap"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5030960576748,
+          -37.12245458297845
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 590772,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590772,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251251627,
+        "id": "ESTA:251251627",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-19T18:25:59.000Z",
+        "updated": "2025-12-19T18:55:18.000Z",
+        "resources": 2,
+        "location": "Nicholson"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7657462982557,
+          -37.79357286756806
         ]
       }
     }
@@ -2373,7 +2459,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-19T18:40:20.164Z",
-    "featureCount": 154
+    "lastUpdated": "2025-12-19T18:57:21.655Z",
+    "featureCount": 157
   }
 }
