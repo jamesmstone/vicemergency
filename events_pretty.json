@@ -903,7 +903,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 122326071,
         "feedType": "incident",
         "source": "000",
@@ -917,7 +917,7 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2025-12-20T16:53:26.000Z",
-        "updated": "2025-12-20T17:01:41.000Z",
+        "updated": "2025-12-20T17:23:26.000Z",
         "resources": 0,
         "location": "Collingwood",
         "sesId": 590876
@@ -933,30 +933,62 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 122326221,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122326221,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Wyndham Vale",
-        "eventId": "F251212178",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251059,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Black Forest Rd",
+        "eventId": 251212178,
         "id": "ESTA:251212178",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2025-12-20T17:23:00.000Z",
-        "updated": "2025-12-20T17:23:43.850Z",
-        "resources": 0,
-        "location": "Black Forest Rd, Wyndham Vale"
+        "created": "2025-12-20T17:24:00.000Z",
+        "updated": "2025-12-20T17:24:00.000Z",
+        "resources": 2,
+        "location": "Black Forest Rd, Wyndham Vale",
+        "cfaId": 251059,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.62036812065875,
-          -37.90058463158315
+          144.62035605084878,
+          -37.90058809484374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122326236,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122326236,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Lower Plenty",
+        "eventId": "F251212179",
+        "id": "ESTA:251212179",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-20T17:25:54.000Z",
+        "updated": "2025-12-20T17:34:57.411Z",
+        "resources": 3,
+        "location": "Main Rd, Lower Plenty"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10896870509293,
+          -37.72990935821892
         ]
       }
     },
@@ -3146,7 +3178,7 @@
         "category2": "Other",
         "created": "2025-12-20T16:55:00.000Z",
         "updated": "2025-12-20T17:13:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Hinterland Cl, Lynbrook",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4817,15 +4849,15 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-22T13:00:00.000Z",
           "heat": {
@@ -4912,7 +4944,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-20T17:24:00.146Z",
-    "featureCount": 157
+    "lastUpdated": "2025-12-20T17:36:40.042Z",
+    "featureCount": 158
   }
 }
