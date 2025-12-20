@@ -903,31 +903,92 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122324657,
+        "status": "Request For Assistance",
+        "estaId": 122325299,
         "feedType": "incident",
         "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 590871,
+        "sourceId": 590874,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251251718,
-        "id": "ESTA:251251718",
+        "eventId": 251251721,
+        "id": "ESTA:251251721",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2025-12-20T13:42:59.000Z",
-        "updated": "2025-12-20T14:32:49.000Z",
+        "created": "2025-12-20T14:45:31.000Z",
+        "updated": "2025-12-20T14:46:03.000Z",
         "resources": 0,
-        "location": "Hurstbridge",
-        "sesId": 590871
+        "location": "Dean",
+        "sesId": 590874
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1965242887768,
-          -37.639061624123386
+          143.95597854061077,
+          -37.45108270849938
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122325288,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251051,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bouquet Cct",
+        "eventId": 251212162,
+        "id": "ESTA:251212162",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-20T14:44:00.000Z",
+        "updated": "2025-12-20T14:44:00.000Z",
+        "resources": 2,
+        "location": "Bouquet Cct, Diggers Rest",
+        "cfaId": 251051,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69707334701116,
+          -37.62394115348921
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122325325,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122325325,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dean",
+        "eventId": "S251251722",
+        "id": "ESTA:251251722",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-20T14:47:24.000Z",
+        "updated": "2025-12-20T14:48:15.725Z",
+        "resources": 0,
+        "location": "Creswick-Dean Rd, Dean"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9559887890886,
+          -37.45107396369759
         ]
       }
     },
@@ -2311,6 +2372,35 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 251050,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251050,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Malcolm Rd",
+        "eventId": 251212159,
+        "id": "ESTA:251212159",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-20T14:40:00.000Z",
+        "updated": "2025-12-20T14:40:00.000Z",
+        "resources": 3,
+        "location": "Malcolm Rd, Braeside",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11367509979337,
+          -38.00115468448649
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "cfaId": 5000182,
         "feedType": "incident",
@@ -2451,35 +2541,6 @@
         "coordinates": [
           144.7840091103411,
           -37.744677824494005
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251046,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251046,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251212149,
-        "id": "ESTA:251212149",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-20T13:39:00.000Z",
-        "updated": "2025-12-20T13:41:00.000Z",
-        "resources": 0,
-        "location": "Cobains",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.08967799917352,
-          -38.06999542509945
         ]
       }
     },
@@ -4113,13 +4174,13 @@
           "fdr": {
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
-            "Mallee": "HIGH",
             "North East": "MODERATE",
             "Central": "MODERATE",
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -4264,7 +4325,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-20T14:40:20.347Z",
-    "featureCount": 157
+    "lastUpdated": "2025-12-20T14:50:05.908Z",
+    "featureCount": 159
   }
 }
