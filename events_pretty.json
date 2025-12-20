@@ -865,32 +865,6 @@
     },
     {
       "properties": {
-        "status": "Controlled",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1677457",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Princes Highway, Millicent",
-        "id": "1677457",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Princes Highway, Millicent",
-        "created": "2025-12-20T00:25:00.000Z",
-        "updated": "2025-12-20T00:25:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Princes Highway, Millicent"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.41977685064,
-          -37.6660406340612
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1085,28 +1059,28 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 102621077,
         "sourceFeed": "delwp-incident",
-        "sourceTitle": "Mcintyre - Hunts Track",
+        "sourceTitle": "Mcintyre - Murrays Road",
         "id": 102621077,
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-12-20T03:00:00.000Z",
         "updated": "2025-12-20T03:15:00.000Z",
-        "resources": 0,
-        "size": null,
-        "sizeFmt": "Unknown",
+        "resources": 7,
+        "size": "0.06",
+        "sizeFmt": "0.06 Ha.",
         "location": "5.9Km Sw Of Rheola"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.6347,
-          -36.6732
+          143.63160507301495,
+          -36.6804341863316
         ]
       }
     },
@@ -1166,31 +1140,33 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122317445,
+        "status": "Not Yet Under Control",
+        "estaId": 122318035,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 590831,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251251676,
-        "id": "ESTA:251251676",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250951,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dropmore Rd",
+        "eventId": 251211891,
+        "id": "ESTA:251211891",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-20T03:42:34.000Z",
-        "updated": "2025-12-20T04:23:24.000Z",
-        "resources": 0,
-        "location": "Burramine",
-        "sesId": 590831
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-20T04:37:00.000Z",
+        "updated": "2025-12-20T04:37:00.000Z",
+        "resources": 2,
+        "location": "Dropmore Rd, Highlands",
+        "cfaId": 250951,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.85116823428297,
-          -35.99513472234665
+          145.40074950076917,
+          -37.039228898899765
         ]
       }
     },
@@ -1211,7 +1187,7 @@
         "category2": "Building Fire",
         "created": "2025-12-20T04:12:00.000Z",
         "updated": "2025-12-20T04:26:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Ross St, Colac",
         "cfaId": 250947,
         "size": "Small",
@@ -1229,67 +1205,6 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122317848,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122317848,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Thomastown",
-        "eventId": "F251211877",
-        "id": "ESTA:251211877",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-12-20T04:19:06.000Z",
-        "updated": "2025-12-20T04:27:32.810Z",
-        "resources": 3,
-        "location": "Pandora Av, Thomastown"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99251787876455,
-          -37.68635751000201
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122317884,
-        "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 250949,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251211882,
-        "id": "ESTA:251211882",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-20T04:23:00.000Z",
-        "updated": "2025-12-20T04:31:00.000Z",
-        "resources": 1,
-        "location": "Goomalibee",
-        "cfaId": 250949,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.89939382266618,
-          -36.499105393850535
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "estaId": 122317762,
         "feedType": "incident",
         "source": "000",
@@ -1303,8 +1218,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-12-20T04:12:00.000Z",
-        "updated": "2025-12-20T04:24:00.000Z",
-        "resources": 2,
+        "updated": "2025-12-20T04:38:00.000Z",
+        "resources": 0,
         "location": "Dahlsen Cr, Bairnsdale",
         "cfaId": 250946,
         "size": "Small",
@@ -1321,7 +1236,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 122317881,
         "feedType": "incident",
         "source": "000",
@@ -1335,8 +1250,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2025-12-20T04:23:00.000Z",
-        "updated": "2025-12-20T04:32:00.000Z",
-        "resources": 2,
+        "updated": "2025-12-20T04:47:00.000Z",
+        "resources": 1,
         "location": "Mcmillan St, Stratford",
         "cfaId": 250948,
         "size": "Small",
@@ -1354,29 +1269,216 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122317991,
+        "estaId": 122318182,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122317991,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Abbotsford",
-        "eventId": "F251211887",
-        "id": "ESTA:251211887",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250953,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251211896,
+        "id": "ESTA:251211896",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-20T04:32:34.000Z",
-        "updated": "2025-12-20T04:33:22.541Z",
-        "resources": 0,
-        "location": "Nicholson St, Abbotsford"
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-12-20T04:47:00.000Z",
+        "updated": "2025-12-20T04:47:00.000Z",
+        "resources": 2,
+        "location": "Narre Warren South",
+        "cfaId": 250953,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9962851243497,
-          -37.8093876210486
+          145.3010989366913,
+          -38.05490261595274
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122318180,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250952,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "White Quartz Rd",
+        "eventId": 251211895,
+        "id": "ESTA:251211895",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-20T04:47:00.000Z",
+        "updated": "2025-12-20T04:47:00.000Z",
+        "resources": 0,
+        "location": "White Quartz Rd, Fryerstown",
+        "cfaId": 250952,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.25335762877094,
+          -37.1599666236622
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122318207,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 590835,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251251681,
+        "id": "ESTA:251251681",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-20T04:48:53.000Z",
+        "updated": "2025-12-20T04:50:05.000Z",
+        "resources": 0,
+        "location": "St Albans",
+        "sesId": 590835
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8067987940804,
+          -37.74076969348921
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122317387,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250942,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murrays Rd",
+        "eventId": 251211856,
+        "id": "ESTA:251211856",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-20T03:38:00.000Z",
+        "updated": "2025-12-20T04:49:00.000Z",
+        "resources": 3,
+        "location": "Murrays Rd, Cochranes Creek",
+        "cfaId": 250942,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.63332367077402,
+          -36.68063048327235
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122318207,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122318207,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "St Albans",
+        "eventId": "F251211899",
+        "id": "ESTA:251211899",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-12-20T04:47:35.000Z",
+        "updated": "2025-12-20T04:49:19.852Z",
+        "resources": 0,
+        "location": "Millawa Av, St Albans"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.80680911447297,
+          -37.740768192148835
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122318263,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122318263,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Illabarook",
+        "eventId": "F251211900",
+        "id": "ESTA:251211900",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-20T04:51:27.000Z",
+        "updated": "2025-12-20T04:52:33.049Z",
+        "resources": 0,
+        "location": "Cape Clear-Rokewood Rd, Illabarook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.64534450910293,
+          -37.82600402389929
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122318203,
+        "feedType": "incident",
+        "source": "OFFICER",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 250954,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251211898,
+        "id": "ESTA:251211898",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-20T04:49:00.000Z",
+        "updated": "2025-12-20T04:49:00.000Z",
+        "resources": 2,
+        "location": "Rowville",
+        "cfaId": 250954,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23630952331015,
+          -37.91067722403587
         ]
       }
     },
@@ -1856,20 +1958,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 250943,
+        "cfaId": 250949,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 250943,
+        "sourceId": 250949,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Baden Powell Pl",
-        "eventId": 251211863,
-        "id": "ESTA:251211863",
+        "sourceTitle": "",
+        "eventId": 251211882,
+        "id": "ESTA:251211882",
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-20T03:45:00.000Z",
-        "updated": "2025-12-20T03:51:00.000Z",
-        "resources": 0,
-        "location": "Baden Powell Pl, Mount Eliza",
+        "created": "2025-12-20T04:23:00.000Z",
+        "updated": "2025-12-20T04:43:00.000Z",
+        "resources": 1,
+        "location": "Goomalibee",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1877,37 +1979,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0942983393379,
-          -38.18878712517507
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 250942,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 250942,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murrays Rd",
-        "eventId": 251211856,
-        "id": "ESTA:251211856",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-20T03:38:00.000Z",
-        "updated": "2025-12-20T04:08:00.000Z",
-        "resources": 3,
-        "location": "Murrays Rd, Cochranes Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.63332367077402,
-          -36.68063048327235
+          145.89939382266618,
+          -36.499105393850535
         ]
       }
     },
@@ -1940,28 +2013,28 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 590833,
+        "status": "Request For Assistance",
+        "sesId": 590834,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 590833,
+        "sourceId": 590834,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 251251679,
-        "id": "ESTA:251251679",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-20T04:12:15.000Z",
-        "updated": "2025-12-20T04:24:58.000Z",
-        "resources": 0,
-        "location": "Brighton"
+        "eventId": 251251680,
+        "id": "ESTA:251251680",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-12-20T04:37:04.000Z",
+        "updated": "2025-12-20T04:43:30.000Z",
+        "resources": 1,
+        "location": "South Morang"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00276992822913,
-          -37.8933189914198
+          145.0743458987081,
+          -37.624909591469994
         ]
       }
     }
@@ -2040,7 +2113,6 @@
         },
         {
           "fdr": {
-            "Mallee": "HIGH",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -2048,7 +2120,8 @@
             "North Central": "MODERATE",
             "Northern Country": "HIGH",
             "South West": "MODERATE",
-            "Wimmera": "HIGH"
+            "Wimmera": "HIGH",
+            "Mallee": "HIGH"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2193,7 +2266,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-20T04:35:00.256Z",
-    "featureCount": 169
+    "lastUpdated": "2025-12-20T04:53:40.319Z",
+    "featureCount": 173
   }
 }
