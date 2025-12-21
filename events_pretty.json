@@ -1045,31 +1045,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122338120,
+        "status": "Responding",
+        "estaId": 122338257,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591167,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252007,
-        "id": "ESTA:251252007",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251247,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rush Lily Dr",
+        "eventId": 251212656,
+        "id": "ESTA:251212656",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-21T17:40:20.000Z",
-        "updated": "2025-12-21T17:43:16.000Z",
-        "resources": 0,
-        "location": "Yarra Glen",
-        "sesId": 591167
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-21T18:25:00.000Z",
+        "updated": "2025-12-21T18:25:00.000Z",
+        "resources": 2,
+        "location": "Rush Lily Dr, Officer",
+        "cfaId": 251247,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35721696654642,
-          -37.64991706608884
+          145.43507165967853,
+          -38.06837045299932
         ]
       }
     },
@@ -2524,7 +2526,7 @@
         "category2": "Other",
         "created": "2025-12-21T17:21:00.000Z",
         "updated": "2025-12-21T17:47:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Ellscott Bvd, Mickleham",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2535,6 +2537,64 @@
         "coordinates": [
           144.89668055854688,
           -37.5432998488756
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 251245,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251245,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tarra Valley Rd",
+        "eventId": 251212654,
+        "id": "ESTA:251212654",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-21T18:07:00.000Z",
+        "updated": "2025-12-21T18:07:00.000Z",
+        "resources": 5,
+        "location": "Tarra Valley Rd, Tarra Valley",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.57914916867523,
+          -38.47510564572473
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 251246,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251246,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Enterprise Gr",
+        "eventId": 251212655,
+        "id": "ESTA:251212655",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-21T18:23:00.000Z",
+        "updated": "2025-12-21T18:23:00.000Z",
+        "resources": 5,
+        "location": "Enterprise Gr, Mount Helen",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.88372811024493,
+          -37.62706299333666
         ]
       }
     },
@@ -2552,8 +2612,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2025-12-21T16:36:49.000Z",
-        "updated": "2025-12-21T17:30:59.000Z",
-        "resources": 0,
+        "updated": "2025-12-21T18:01:08.000Z",
+        "resources": 1,
         "location": "Reservoir"
       },
       "type": "Feature",
@@ -2562,6 +2622,33 @@
         "coordinates": [
           145.02156367125906,
           -37.730053526116144
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591167,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591167,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252007,
+        "id": "ESTA:251252007",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-21T17:40:20.000Z",
+        "updated": "2025-12-21T18:02:34.000Z",
+        "resources": 1,
+        "location": "Yarra Glen"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35721696654642,
+          -37.64991706608884
         ]
       }
     }
@@ -2577,7 +2664,7 @@
         "Northern Country": "MODERATE",
         "South West": "MODERATE",
         "Wimmera": "HIGH",
-        "Mallee": "HIGH"
+        "Mallee": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2601,7 +2688,7 @@
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
             "Wimmera": "HIGH",
-            "Mallee": "HIGH"
+            "Mallee": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2793,7 +2880,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-21T17:50:05.433Z",
-    "featureCount": 156
+    "lastUpdated": "2025-12-21T18:38:00.247Z",
+    "featureCount": 159
   }
 }
