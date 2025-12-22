@@ -967,6 +967,35 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 122351592,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122351592,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F251213171",
+        "id": "ESTA:251213171",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-22T15:46:14.000Z",
+        "updated": "2025-12-22T15:47:03.387Z",
+        "resources": 0,
+        "location": "Flinders St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96519167535916,
+          -37.817894211690145
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 122351496,
         "feedType": "incident",
         "source": "000",
@@ -980,8 +1009,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-12-22T15:22:00.000Z",
-        "updated": "2025-12-22T15:22:00.000Z",
-        "resources": 5,
+        "updated": "2025-12-22T15:47:00.000Z",
+        "resources": 4,
         "location": "Glyndon Ct, Barwon Heads",
         "cfaId": 251391,
         "size": "Small",
@@ -998,30 +1027,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122351512,
+        "status": "Safe",
+        "estaId": 122350740,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122351512,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mooroolbark",
-        "eventId": "F251213170",
-        "id": "ESTA:251213170",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251387,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grant Rd",
+        "eventId": 251213152,
+        "id": "ESTA:251213152",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-22T15:24:39.000Z",
-        "updated": "2025-12-22T15:26:49.883Z",
-        "resources": 0,
-        "location": "Newman Rd, Mooroolbark"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-22T13:27:00.000Z",
+        "updated": "2025-12-22T15:34:00.000Z",
+        "resources": 1,
+        "location": "Grant Rd, Somerville",
+        "cfaId": 251387,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.30610384916778,
-          -37.78789004416352
+          145.17739225313474,
+          -38.218276762719654
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122351539,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591256,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252088,
+        "id": "ESTA:251252088",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-12-22T15:31:45.000Z",
+        "updated": "2025-12-22T15:49:02.000Z",
+        "resources": 0,
+        "location": "West Footscray",
+        "sesId": 591256
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8696108576545,
+          -37.810338843973945
         ]
       }
     },
@@ -2408,64 +2470,6 @@
           -36.32803265297541
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 251387,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251387,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grant Rd",
-        "eventId": 251213152,
-        "id": "ESTA:251213152",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-22T13:27:00.000Z",
-        "updated": "2025-12-22T14:06:00.000Z",
-        "resources": 5,
-        "location": "Grant Rd, Somerville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17739225313474,
-          -38.218276762719654
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251389,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251389,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cornish St",
-        "eventId": 251213157,
-        "id": "ESTA:251213157",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-22T14:12:00.000Z",
-        "updated": "2025-12-22T14:31:00.000Z",
-        "resources": 0,
-        "location": "Cornish St, Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.72211017513118,
-          -37.575746310206846
-        ]
-      }
     }
   ],
   "properties": {
@@ -2695,7 +2699,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-22T15:31:00.367Z",
+    "lastUpdated": "2025-12-22T15:52:20.309Z",
     "featureCount": 153
   }
 }
