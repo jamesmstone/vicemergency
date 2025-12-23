@@ -827,24 +827,54 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122363299,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591298,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252123,
+        "id": "ESTA:251252123",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-23T11:14:56.000Z",
+        "updated": "2025-12-23T11:17:57.000Z",
+        "resources": 0,
+        "location": "Dumbalk",
+        "sesId": 591298
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0775604967494,
+          -38.51398172335941
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
-        "estaId": 122362854,
+        "estaId": 122362975,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 251535,
+        "sourceId": 251536,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grimes Rd",
-        "eventId": 251213617,
-        "id": "ESTA:251213617",
+        "sourceTitle": "Obrien St",
+        "eventId": 251213620,
+        "id": "ESTA:251213620",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2025-12-23T10:25:00.000Z",
-        "updated": "2025-12-23T10:31:00.000Z",
+        "created": "2025-12-23T10:39:00.000Z",
+        "updated": "2025-12-23T11:23:00.000Z",
         "resources": 0,
-        "location": "Grimes Rd, Point Lonsdale",
-        "cfaId": 251535,
+        "location": "Obrien St, Mitiamo",
+        "cfaId": 251536,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -852,72 +882,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6205504545165,
-          -38.27284099274446
+          144.2293053585453,
+          -36.209357182859485
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122363067,
+        "estaId": 122363380,
         "feedType": "incident",
         "source": "PHONE",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251537,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Balmain Dr",
-        "eventId": 251213626,
-        "id": "ESTA:251213626",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122363380,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Kilsyth",
+        "eventId": "F251213634",
+        "id": "ESTA:251213634",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-23T10:50:00.000Z",
-        "updated": "2025-12-23T10:50:00.000Z",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-23T11:24:43.000Z",
+        "updated": "2025-12-23T11:26:25.976Z",
         "resources": 0,
-        "location": "Balmain Dr, Carrum Downs",
-        "cfaId": 251537,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Mountfield Rd, Kilsyth"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16768138781967,
-          -38.107112258173245
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122362526,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251532,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hadfield St",
-        "eventId": 251213607,
-        "id": "ESTA:251213607",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-12-23T09:52:00.000Z",
-        "updated": "2025-12-23T10:43:00.000Z",
-        "resources": 0,
-        "location": "Hadfield St, Lucknow",
-        "cfaId": 251532,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.64989075820236,
-          -37.821506361628
+          145.32340756797205,
+          -37.79596138741069
         ]
       }
     },
@@ -927,14 +922,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/4f938ea3b90548c2d72f52c448081cec",
+        "sourceId": "IDV20600/730dd27ffa067e32360b8312b154bc70",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/4f938ea3b90548c2d72f52c448081cec",
+        "id": "IDV20600/730dd27ffa067e32360b8312b154bc70",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-12-23T05:00:00.000Z",
+        "created": "2025-12-23T11:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2218,36 +2213,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "638300",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Old Barmah Rd, Moama",
-        "id": "2025-12-23T18:23:00.0000000:638300",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Old Barmah Rd, Moama",
-        "location": "Old Barmah Rd, Moama 2731",
-        "created": "2025-12-23T18:23:00+11:00",
-        "updated": "2025-12-23T18:23:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.871810913,
-          -36.0532073969999
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -2309,6 +2274,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "638300",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Old Barmah Rd, Moama",
+        "id": "2025-12-23T18:23:00.0000000:638300",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Old Barmah Rd, Moama",
+        "location": "Old Barmah Rd, Moama 2731",
+        "created": "2025-12-23T18:23:00+11:00",
+        "updated": "2025-12-23T18:23:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.871810913,
+          -36.0532073969999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 251401,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2349,7 +2344,7 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2025-12-23T08:35:28.000Z",
-        "updated": "2025-12-23T09:38:57.000Z",
+        "updated": "2025-12-23T10:59:22.000Z",
         "resources": 2,
         "location": "Abbeyard",
         "size": "Small",
@@ -2368,20 +2363,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 251520,
+        "cfaId": 251535,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 251520,
+        "sourceId": 251535,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Coombs Rd",
-        "eventId": 251213591,
-        "id": "ESTA:251213591",
-        "category1": "Fire",
+        "sourceTitle": "Grimes Rd",
+        "eventId": 251213617,
+        "id": "ESTA:251213617",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-23T08:58:00.000Z",
-        "updated": "2025-12-23T10:10:00.000Z",
+        "created": "2025-12-23T10:25:00.000Z",
+        "updated": "2025-12-23T10:31:00.000Z",
         "resources": 0,
-        "location": "Coombs Rd, Kinglake West",
+        "location": "Grimes Rd, Point Lonsdale",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2389,66 +2384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2258031617607,
-          -37.5066623794621
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251529,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251529,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Trovatello Way",
-        "eventId": 251213603,
-        "id": "ESTA:251213603",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-23T09:27:00.000Z",
-        "updated": "2025-12-23T10:11:00.000Z",
-        "resources": 0,
-        "location": "Trovatello Way, Riddells Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.66810903911954,
-          -37.48832347845559
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 251512,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251512,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Jordan Pl",
-        "eventId": 251213577,
-        "id": "ESTA:251213577",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-23T08:31:00.000Z",
-        "updated": "2025-12-23T10:14:00.000Z",
-        "resources": 0,
-        "location": "Jordan Pl, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.38375022503547,
-          -36.365700100256866
+          144.6205504545165,
+          -38.27284099274446
         ]
       }
     },
@@ -2483,21 +2420,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 251536,
+        "status": "Safe",
+        "cfaId": 251532,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 251536,
+        "sourceId": 251532,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Obrien St",
-        "eventId": 251213620,
-        "id": "ESTA:251213620",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-23T10:39:00.000Z",
-        "updated": "2025-12-23T10:39:00.000Z",
+        "sourceTitle": "Hadfield St",
+        "eventId": 251213607,
+        "id": "ESTA:251213607",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2025-12-23T09:52:00.000Z",
+        "updated": "2025-12-23T10:43:00.000Z",
         "resources": 0,
-        "location": "Obrien St, Mitiamo",
+        "location": "Hadfield St, Lucknow",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2505,8 +2442,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2293053585453,
-          -36.209357182859485
+          147.64989075820236,
+          -37.821506361628
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251512,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251512,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jordan Pl",
+        "eventId": 251213577,
+        "id": "ESTA:251213577",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-23T08:31:00.000Z",
+        "updated": "2025-12-23T10:59:00.000Z",
+        "resources": 0,
+        "location": "Jordan Pl, Shepparton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38375022503547,
+          -36.365700100256866
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251538,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251538,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Forest Rd",
+        "eventId": 251213628,
+        "id": "ESTA:251213628",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-23T10:55:00.000Z",
+        "updated": "2025-12-23T11:07:00.000Z",
+        "resources": 0,
+        "location": "Forest Rd, Lara",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.39795533167262,
+          -38.015054283646464
         ]
       }
     }
@@ -2514,6 +2509,7 @@
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "MODERATE",
         "East Gippsland": "MODERATE",
         "West and South Gippsland": "NO FORECAST",
         "North East": "MODERATE",
@@ -2521,10 +2517,10 @@
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
         "South West": "MODERATE",
-        "Wimmera": "HIGH",
-        "Mallee": "MODERATE"
+        "Wimmera": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2532,12 +2528,12 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "NO FORECAST",
             "North East": "MODERATE",
@@ -2545,10 +2541,10 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "HIGH",
-            "Mallee": "MODERATE"
+            "Wimmera": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2556,8 +2552,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-22T13:00:00.000Z",
           "heat": {
@@ -2738,7 +2733,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-23T10:54:25.916Z",
+    "lastUpdated": "2025-12-23T11:26:40.200Z",
     "featureCount": 159
   }
 }
