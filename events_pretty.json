@@ -828,120 +828,58 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122367646,
+        "estaId": 122368008,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251583,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251213799,
-        "id": "ESTA:251213799",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122368008,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Vermont South",
+        "eventId": "F251213820",
+        "id": "ESTA:251213820",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-23T22:56:00.000Z",
-        "updated": "2025-12-23T23:15:00.000Z",
-        "resources": 1,
-        "location": "Vermont South",
-        "cfaId": 251583,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Non Structure Fire",
+        "created": "2025-12-23T23:26:18.000Z",
+        "updated": "2025-12-23T23:39:15.217Z",
+        "resources": 3,
+        "location": "Pioneer Cl, Vermont South"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19593090621564,
-          -37.86168879650536
+          145.19261604068498,
+          -37.86160820704369
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122367945,
+        "estaId": 122368299,
         "feedType": "incident",
         "source": "STATION",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122367945,
+        "sourceId": 122368299,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mount Waverley",
-        "eventId": "F251213816",
-        "id": "ESTA:251213816",
+        "sourceTitle": "Kilsyth",
+        "eventId": "F251213829",
+        "id": "ESTA:251213829",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2025-12-23T23:21:47.000Z",
-        "updated": "2025-12-23T23:23:02.905Z",
+        "created": "2025-12-23T23:49:04.000Z",
+        "updated": "2025-12-23T23:49:19.340Z",
         "resources": 0,
-        "location": "Inverell Av, Mount Waverley"
+        "location": "Kilsyth"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1442425027437,
-          -37.87225741700543
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122367969,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591312,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252134,
-        "id": "ESTA:251252134",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-12-23T23:24:01.000Z",
-        "updated": "2025-12-23T23:24:38.000Z",
-        "resources": 0,
-        "location": "Richmond",
-        "sesId": 591312
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00267067398997,
-          -37.81150853483825
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122367969,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122367969,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Richmond",
-        "eventId": "F251213818",
-        "id": "ESTA:251213818",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-23T23:20:41.000Z",
-        "updated": "2025-12-23T23:24:04.338Z",
-        "resources": 0,
-        "location": "Lambert St, Richmond"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0026904952476,
-          -37.81149730733942
+          145.31586599892637,
+          -37.80218041360346
         ]
       }
     },
@@ -3307,6 +3245,36 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
+        "sourceId": "638300",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Old Barmah Rd, Moama",
+        "id": "2025-12-24T10:31:00.0000000:638300",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Old Barmah Rd, Moama",
+        "location": "Old Barmah Rd, Moama 2731",
+        "created": "2025-12-24T10:31:00+11:00",
+        "updated": "2025-12-24T10:31:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.871810913,
+          -36.0532073969999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
         "sourceId": "638191",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Logans Rd, Towamba",
@@ -3329,36 +3297,6 @@
         "coordinates": [
           149.653823853,
           -37.0844840999999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "638300",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Old Barmah Rd, Moama",
-        "id": "2025-12-23T18:23:00.0000000:638300",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Old Barmah Rd, Moama",
-        "location": "Old Barmah Rd, Moama 2731",
-        "created": "2025-12-23T18:23:00+11:00",
-        "updated": "2025-12-23T18:23:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.871810913,
-          -36.0532073969999
         ]
       }
     },
@@ -3388,35 +3326,6 @@
         "coordinates": [
           143.48575070013658,
           -36.99917983236007
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251575,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251575,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompson Rd",
-        "eventId": 251213769,
-        "id": "ESTA:251213769",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-23T21:57:00.000Z",
-        "updated": "2025-12-23T22:41:00.000Z",
-        "resources": 0,
-        "location": "Thompson Rd, Bangholme",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.18977696457162,
-          -38.071363091769555
         ]
       }
     },
@@ -3463,8 +3372,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-12-23T22:49:44.000Z",
-        "updated": "2025-12-23T23:07:49.000Z",
-        "resources": 6,
+        "updated": "2025-12-23T23:46:44.000Z",
+        "resources": 3,
         "location": "Lorne",
         "size": "Small",
         "sizeFmt": "Small",
@@ -3505,6 +3414,91 @@
         "coordinates": [
           145.03736305822295,
           -38.251522833308066
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251583,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251583,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251213799,
+        "id": "ESTA:251213799",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-23T22:56:00.000Z",
+        "updated": "2025-12-23T23:15:00.000Z",
+        "resources": 0,
+        "location": "Vermont South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19593090621564,
+          -37.86168879650536
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 251587,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251587,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mitchell Cr",
+        "eventId": 251213824,
+        "id": "ESTA:251213824",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-23T23:34:00.000Z",
+        "updated": "2025-12-23T23:34:00.000Z",
+        "resources": 1,
+        "location": "Mitchell Cr, Portland",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.59356424389497,
+          -38.340067603651505
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591313,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591313,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252135,
+        "id": "ESTA:251252135",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-23T23:33:45.000Z",
+        "updated": "2025-12-23T23:46:16.000Z",
+        "resources": 2,
+        "location": "Portland"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.59356424389497,
+          -38.340067603651505
         ]
       }
     }
@@ -3736,7 +3730,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-23T23:26:40.314Z",
+    "lastUpdated": "2025-12-23T23:50:20.846Z",
     "featureCount": 158
   }
 }
