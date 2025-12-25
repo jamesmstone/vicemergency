@@ -521,32 +521,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1678280",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Park Terrace, Naracoorte",
-        "id": "1678280",
-        "category1": "Other",
-        "category2": "Other",
-        "name": "Park Terrace, Naracoorte",
-        "created": "2025-12-25T14:37:00.000Z",
-        "updated": "2025-12-25T14:37:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Park Terrace, Naracoorte"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.742982873576,
-          -36.9514281572613
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -679,6 +653,70 @@
         "coordinates": [
           142.16091431470278,
           -35.53008727026617
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 122384969,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251797,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Haughton Rd",
+        "eventId": 251214496,
+        "id": "ESTA:251214496",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-25T09:22:00.000Z",
+        "updated": "2025-12-25T10:07:00.000Z",
+        "resources": 6,
+        "location": "Haughton Rd, Clayton South",
+        "cfaId": 251797,
+        "size": "Medium",
+        "sizeFmt": "Medium"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13378414742022,
+          -37.935194006756404
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122388142,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251824,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ogilvie Av",
+        "eventId": 251214591,
+        "id": "ESTA:251214591",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-25T15:24:00.000Z",
+        "updated": "2025-12-25T15:24:00.000Z",
+        "resources": 0,
+        "location": "Ogilvie Av, Echuca",
+        "cfaId": 251824,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.74713559525765,
+          -36.140724292853605
         ]
       }
     },
@@ -1860,35 +1898,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 251797,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251797,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Haughton Rd",
-        "eventId": 251214496,
-        "id": "ESTA:251214496",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-25T09:22:00.000Z",
-        "updated": "2025-12-25T10:07:00.000Z",
-        "resources": 7,
-        "location": "Haughton Rd, Clayton South",
-        "size": "Medium",
-        "sizeFmt": "Medium"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.13378414742022,
-          -37.935194006756404
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 251781,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1914,6 +1923,63 @@
           -37.693060656699956
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 251823,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591439,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251214590,
+        "id": "ESTA:251214590",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2025-12-25T15:10:31.000Z",
+        "updated": "2025-12-25T15:24:26.000Z",
+        "resources": 3,
+        "location": "Lower Norton",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 591439
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.11301746170855,
+          -36.76006813469646
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591438,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591438,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252258,
+        "id": "ESTA:251252258",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-25T15:07:19.000Z",
+        "updated": "2025-12-25T15:07:49.000Z",
+        "resources": 0,
+        "location": "Oxley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38447108024465,
+          -36.443771038548206
+        ]
+      }
     }
   ],
   "properties": {
@@ -1930,7 +1996,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1938,7 +2003,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1954,7 +2020,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1962,7 +2027,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-25T13:00:00.000Z",
           "heat": {
@@ -2143,7 +2209,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-25T14:51:45.363Z",
-    "featureCount": 150
+    "lastUpdated": "2025-12-25T15:29:00.391Z",
+    "featureCount": 152
   }
 }
