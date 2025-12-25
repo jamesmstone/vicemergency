@@ -685,7 +685,39 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
+        "estaId": 122390600,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251847,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grampians Rd",
+        "eventId": 251214710,
+        "id": "ESTA:251214710",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-25T23:06:00.000Z",
+        "updated": "2025-12-25T23:19:00.000Z",
+        "resources": 1,
+        "location": "Grampians Rd, Halls Gap",
+        "cfaId": 251847,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.51909250542386,
+          -37.14055678719331
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122390131,
         "feedType": "incident",
         "source": "PAL",
@@ -699,8 +731,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-12-25T22:19:00.000Z",
-        "updated": "2025-12-25T22:19:00.000Z",
-        "resources": 3,
+        "updated": "2025-12-25T23:25:00.000Z",
+        "resources": 2,
         "location": "Boroka St, Nerrina",
         "cfaId": 251841,
         "size": "Small",
@@ -716,48 +748,19 @@
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122390161,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122390161,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "South Melbourne",
-        "eventId": "F251214681",
-        "id": "ESTA:251214681",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-12-25T22:22:51.000Z",
-        "updated": "2025-12-25T22:41:03.710Z",
-        "resources": 3,
-        "location": "Kings Way, South Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96870783003294,
-          -37.83428166426701
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/5681db91468c6f0bc83d1b3d1fb389aa",
+        "sourceId": "IDV20600/a3abb8deaa90f530a77328b822c82cbd",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/5681db91468c6f0bc83d1b3d1fb389aa",
+        "id": "IDV20600/a3abb8deaa90f530a77328b822c82cbd",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2025-12-25T17:00:00.000Z",
+        "created": "2025-12-25T23:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1049,36 +1052,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "638300",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Old Barmah Rd, Moama",
-        "id": "2025-12-24T13:00:00.0000000:638300",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Old Barmah Rd, Moama",
-        "location": "Old Barmah Rd, Moama 2731",
-        "created": "2025-12-24T13:00:00+11:00",
-        "updated": "2025-12-24T13:00:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "2 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.871810913,
-          -36.0532073969999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "638488",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Bowna Waters Road, Table Top",
@@ -1131,6 +1104,36 @@
         "coordinates": [
           147.656387329,
           -35.8466911309999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "638300",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Old Barmah Rd, Moama",
+        "id": "2025-12-24T13:00:00.0000000:638300",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Old Barmah Rd, Moama",
+        "location": "Old Barmah Rd, Moama 2731",
+        "created": "2025-12-24T13:00:00+11:00",
+        "updated": "2025-12-24T13:00:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "2 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.871810913,
+          -36.0532073969999
         ]
       }
     },
@@ -1195,151 +1198,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 251834,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251834,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251214651,
-        "id": "ESTA:251214651",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2025-12-25T21:31:00.000Z",
-        "updated": "2025-12-25T21:51:00.000Z",
-        "resources": 0,
-        "location": "Manifold Heights",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3358385806198,
-          -38.14345760589941
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251839,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251839,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251214671,
-        "id": "ESTA:251214671",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-25T22:06:00.000Z",
-        "updated": "2025-12-25T22:18:00.000Z",
-        "resources": 0,
-        "location": "Alexandra",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.71228975946835,
-          -37.186877372955976
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251836,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251836,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Canterbury Jetty Rd",
-        "eventId": 251214662,
-        "id": "ESTA:251214662",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-25T21:54:00.000Z",
-        "updated": "2025-12-25T22:19:00.000Z",
-        "resources": 0,
-        "location": "Canterbury Jetty Rd, Rye",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.784984900485,
-          -38.38366932077271
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251840,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251840,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Aura Vale Rd",
-        "eventId": 251214673,
-        "id": "ESTA:251214673",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-25T22:10:00.000Z",
-        "updated": "2025-12-25T22:23:00.000Z",
-        "resources": 0,
-        "location": "Aura Vale Rd, Menzies Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39484661565248,
-          -37.9282133661818
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251797,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251797,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Haughton Rd",
-        "eventId": 251214496,
-        "id": "ESTA:251214496",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-25T09:22:00.000Z",
-        "updated": "2025-12-25T22:23:00.000Z",
-        "resources": 4,
-        "location": "Haughton Rd, Clayton South",
-        "size": "Medium",
-        "sizeFmt": "Medium"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.13378414742022,
-          -37.935194006756404
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 251842,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1368,28 +1226,117 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 591448,
+        "status": "Safe",
+        "cfaId": 251843,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591448,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252267,
-        "id": "ESTA:251252267",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-25T22:13:03.000Z",
-        "updated": "2025-12-25T22:16:01.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251843,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Isaacs Av",
+        "eventId": 251214697,
+        "id": "ESTA:251214697",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-25T22:56:00.000Z",
+        "updated": "2025-12-25T23:11:00.000Z",
         "resources": 0,
-        "location": "Narre Warren"
+        "location": "Isaacs Av, Yackandandah",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.31858696823994,
-          -38.03676086932917
+          146.84510912030908,
+          -36.31063103078986
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251844,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251844,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Raheen Av",
+        "eventId": 251214698,
+        "id": "ESTA:251214698",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-25T22:56:00.000Z",
+        "updated": "2025-12-25T23:11:00.000Z",
+        "resources": 2,
+        "location": "Raheen Av, Wantirna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.227321727139,
+          -37.86143574402088
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251845,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251845,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 251214704,
+        "id": "ESTA:251214704",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-25T23:02:00.000Z",
+        "updated": "2025-12-25T23:20:00.000Z",
+        "resources": 2,
+        "location": "Princes Hwy, Springvale",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17332321795755,
+          -37.94763820680778
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 251849,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251849,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sherwood Rd",
+        "eventId": 251214718,
+        "id": "ESTA:251214718",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-25T23:24:00.000Z",
+        "updated": "2025-12-25T23:24:00.000Z",
+        "resources": 2,
+        "location": "Sherwood Rd, Junction Village",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2920046090535,
+          -38.13667892851029
         ]
       }
     },
@@ -1407,8 +1354,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-12-25T22:26:52.000Z",
-        "updated": "2025-12-25T22:28:46.000Z",
-        "resources": 0,
+        "updated": "2025-12-25T23:02:16.000Z",
+        "resources": 2,
         "location": "Bittern"
       },
       "type": "Feature",
@@ -1417,6 +1364,33 @@
         "coordinates": [
           145.18153864031086,
           -38.35204317838113
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591452,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591452,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252271,
+        "id": "ESTA:251252271",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-25T22:58:48.000Z",
+        "updated": "2025-12-25T23:18:37.000Z",
+        "resources": 0,
+        "location": "Campbellfield"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96645219031728,
+          -37.67571976306681
         ]
       }
     },
@@ -1434,8 +1408,8 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2025-12-25T22:28:36.000Z",
-        "updated": "2025-12-25T22:31:49.000Z",
-        "resources": 0,
+        "updated": "2025-12-25T23:24:51.000Z",
+        "resources": 1,
         "location": "Footscray"
       },
       "type": "Feature",
@@ -1675,7 +1649,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-25T22:51:05.715Z",
-    "featureCount": 160
+    "lastUpdated": "2025-12-25T23:27:01.547Z",
+    "featureCount": 159
   }
 }
