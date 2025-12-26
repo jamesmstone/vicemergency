@@ -639,29 +639,32 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122401996,
+        "estaId": 122402134,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122401996,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Essendon Fields",
-        "eventId": "F251215150",
-        "id": "ESTA:251215150",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251946,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251215152,
+        "id": "ESTA:251215152",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-12-26T17:33:37.000Z",
-        "updated": "2025-12-26T17:49:46.745Z",
-        "resources": 3,
-        "location": "Bulla Rd, Essendon Fields"
+        "category2": "Bushfire",
+        "created": "2025-12-26T18:11:00.000Z",
+        "updated": "2025-12-26T18:27:00.000Z",
+        "resources": 1,
+        "location": "Tarrawarra",
+        "cfaId": 251946,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90619093621,
-          -37.73256829543085
+          145.42385627103585,
+          -37.64023669337167
         ]
       }
     },
@@ -1086,7 +1089,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 251942,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1098,8 +1101,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2025-12-26T16:19:00.000Z",
-        "updated": "2025-12-26T16:33:00.000Z",
-        "resources": 6,
+        "updated": "2025-12-26T18:09:00.000Z",
+        "resources": 1,
         "location": "Taruna Rise, Montrose",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1115,7 +1118,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "cfaId": 251945,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1127,8 +1130,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2025-12-26T17:03:00.000Z",
-        "updated": "2025-12-26T17:13:00.000Z",
-        "resources": 5,
+        "updated": "2025-12-26T18:20:00.000Z",
+        "resources": 3,
         "location": "Riverview Dr, Kialla",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1144,21 +1147,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 251944,
+        "status": "Responding",
+        "cfaId": 251948,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 251944,
+        "sourceId": 251948,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Campbell St",
-        "eventId": 251215146,
-        "id": "ESTA:251215146",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-26T17:13:00.000Z",
-        "updated": "2025-12-26T17:28:00.000Z",
-        "resources": 0,
-        "location": "Campbell St, Maryborough",
+        "sourceTitle": "Francis St",
+        "eventId": 251215155,
+        "id": "ESTA:251215155",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-26T18:30:00.000Z",
+        "updated": "2025-12-26T18:30:00.000Z",
+        "resources": 3,
+        "location": "Francis St, Bairnsdale",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1166,8 +1169,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.73438477886197,
-          -37.04715652855883
+          147.62158508056115,
+          -37.82528238085734
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 251947,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251947,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Toyon Rd",
+        "eventId": 251215154,
+        "id": "ESTA:251215154",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-26T18:21:00.000Z",
+        "updated": "2025-12-26T18:38:00.000Z",
+        "resources": 1,
+        "location": "Toyon Rd, Kalkallo",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96204463743885,
+          -37.53449713458071
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591508,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591508,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252326,
+        "id": "ESTA:251252326",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-26T18:21:27.000Z",
+        "updated": "2025-12-26T18:35:08.000Z",
+        "resources": 1,
+        "location": "Kalkallo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96204463743885,
+          -37.53449713458071
         ]
       }
     }
@@ -1186,7 +1245,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1194,7 +1252,8 @@
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
         "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
+        "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1210,7 +1269,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1218,7 +1276,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-26T13:00:00.000Z",
           "heat": {
@@ -1399,7 +1458,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-26T17:50:25.594Z",
-    "featureCount": 151
+    "lastUpdated": "2025-12-26T18:39:40.357Z",
+    "featureCount": 153
   }
 }
