@@ -653,7 +653,7 @@
         "category2": "Washaway",
         "created": "2025-12-26T22:10:00.000Z",
         "updated": "2025-12-26T22:19:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Wills St, Bright",
         "cfaId": 251958,
         "size": "Small",
@@ -670,33 +670,90 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122403260,
+        "status": "Request For Assistance",
+        "estaId": 122403448,
         "feedType": "incident",
-        "source": "PHONE",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251960,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ballan Rd",
-        "eventId": 251215283,
-        "id": "ESTA:251215283",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591512,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252330,
+        "id": "ESTA:251252330",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-26T22:19:00.000Z",
-        "updated": "2025-12-26T22:19:00.000Z",
-        "resources": 3,
-        "location": "Ballan Rd, Quandong",
-        "cfaId": 251960,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-26T22:42:31.000Z",
+        "updated": "2025-12-26T22:44:54.000Z",
+        "resources": 0,
+        "location": "Stawell",
+        "sesId": 591512
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.55719497003906,
-          -37.8555448279981
+          142.7841874397781,
+          -37.06203550158051
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122403514,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591514,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252332,
+        "id": "ESTA:251252332",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-26T22:48:12.000Z",
+        "updated": "2025-12-26T22:49:18.000Z",
+        "resources": 0,
+        "location": "Aireys Inlet",
+        "sesId": 591514
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.10821230645783,
+          -38.450997245695
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122403497,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122403497,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Aireys Inlet",
+        "eventId": "S251252331",
+        "id": "ESTA:251252331",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-26T22:45:04.000Z",
+        "updated": "2025-12-26T22:48:52.129Z",
+        "resources": 0,
+        "location": "Gilbert St, Aireys Inlet"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.10822402444177,
+          -38.45098412885091
         ]
       }
     },
@@ -1005,36 +1062,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "638429",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Yenschs Rd, Lankeys Creek",
-        "id": "2025-12-25T16:39:00.0000000:638429",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Yenschs Rd, Lankeys Creek",
-        "location": "Misty Hollows, Yenschs Rd, Lankeys Creek 2644",
-        "created": "2025-12-25T16:39:00+11:00",
-        "updated": "2025-12-25T16:39:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "1 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.656387329,
-          -35.8466911309999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "638300",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Old Barmah Rd, Moama",
@@ -1093,6 +1120,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "638429",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Yenschs Rd, Lankeys Creek",
+        "id": "2025-12-25T16:39:00.0000000:638429",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Yenschs Rd, Lankeys Creek",
+        "location": "Misty Hollows, Yenschs Rd, Lankeys Creek 2644",
+        "created": "2025-12-25T16:39:00+11:00",
+        "updated": "2025-12-25T16:39:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "1 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.656387329,
+          -35.8466911309999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 251401,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1122,64 +1179,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 251957,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251957,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Campion Walk",
-        "eventId": 251215245,
-        "id": "ESTA:251215245",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-26T21:35:00.000Z",
-        "updated": "2025-12-26T21:35:00.000Z",
-        "resources": 2,
-        "location": "Campion Walk, Lynbrook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.25592794762738,
-          -38.05507901096128
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 251955,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 251955,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Greyjoy Rd",
-        "eventId": 251215224,
-        "id": "ESTA:251215224",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-26T21:18:00.000Z",
-        "updated": "2025-12-26T21:40:00.000Z",
-        "resources": 0,
-        "location": "Greyjoy Rd, Charlemont",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.36586148214332,
-          -38.21555128726716
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 251954,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1192,7 +1191,7 @@
         "category2": "Building Fire",
         "created": "2025-12-26T21:09:00.000Z",
         "updated": "2025-12-26T22:12:00.000Z",
-        "resources": 5,
+        "resources": 2,
         "location": "Selkirk Av, Wantirna",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1221,7 +1220,7 @@
         "category2": "Other",
         "created": "2025-12-26T21:32:00.000Z",
         "updated": "2025-12-26T22:17:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Aquila Ct, Ballarat North",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1463,7 +1462,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-26T22:29:00.343Z",
+    "lastUpdated": "2025-12-26T22:51:20.446Z",
     "featureCount": 153
   }
 }
