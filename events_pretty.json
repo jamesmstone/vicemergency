@@ -639,23 +639,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122400600,
+        "estaId": 122400865,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 251932,
+        "sourceId": 251936,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mountjoy Pde",
-        "eventId": 251215116,
-        "id": "ESTA:251215116",
+        "sourceTitle": "Boundary Rd",
+        "eventId": 251215122,
+        "id": "ESTA:251215122",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-26T13:44:00.000Z",
-        "updated": "2025-12-26T13:44:00.000Z",
-        "resources": 2,
-        "location": "Mountjoy Pde, Lorne",
-        "cfaId": 251932,
+        "category2": "Other",
+        "created": "2025-12-26T14:15:00.000Z",
+        "updated": "2025-12-26T14:15:00.000Z",
+        "resources": 4,
+        "location": "Boundary Rd, Wollert",
+        "cfaId": 251936,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -663,8 +663,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.97496005507136,
-          -38.540547559558775
+          145.01116425347647,
+          -37.5986092828263
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122400890,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122400890,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F251215123",
+        "id": "ESTA:251215123",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-12-26T14:17:32.000Z",
+        "updated": "2025-12-26T14:22:13.683Z",
+        "resources": 4,
+        "location": "Collins St, Docklands"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94210884832552,
+          -37.82104237008508
         ]
       }
     },
@@ -1089,28 +1118,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 591505,
+        "status": "Safe",
+        "cfaId": 251933,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591505,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252323,
-        "id": "ESTA:251252323",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-26T13:13:15.000Z",
-        "updated": "2025-12-26T13:33:58.000Z",
-        "resources": 1,
-        "location": "Woori Yallock"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251933,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Evelyn Cl",
+        "eventId": 251215117,
+        "id": "ESTA:251215117",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-26T14:01:00.000Z",
+        "updated": "2025-12-26T14:12:00.000Z",
+        "resources": 0,
+        "location": "Evelyn Cl, Melton West",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.53575443897327,
-          -37.74919037417146
+          144.55560947093363,
+          -37.678216733378854
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 251935,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 251935,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Smith St",
+        "eventId": 251215120,
+        "id": "ESTA:251215120",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-26T14:12:00.000Z",
+        "updated": "2025-12-26T14:12:00.000Z",
+        "resources": 1,
+        "location": "Smith St, Winchelsea",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.98600040566419,
+          -38.24699891127819
         ]
       }
     }
@@ -1129,7 +1189,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1137,7 +1196,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1153,7 +1213,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1161,7 +1220,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-26T13:00:00.000Z",
           "heat": {
@@ -1342,7 +1402,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-26T13:53:45.523Z",
-    "featureCount": 149
+    "lastUpdated": "2025-12-26T14:29:40.018Z",
+    "featureCount": 151
   }
 }
