@@ -501,32 +501,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1678632",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Langkoop Rd/Hynam Caves Rd , Mount Light",
-        "id": "1678632",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Langkoop Rd/Hynam Caves Rd , Mount Light",
-        "created": "2025-12-27T21:03:00.000Z",
-        "updated": "2025-12-27T21:03:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Langkoop Rd/Hynam Caves Rd , Mount Light"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.82904337854,
-          -37.0116957657612
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -638,29 +612,64 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122416222,
+        "estaId": 122416454,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122416222,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Parkville",
-        "eventId": "F251216036",
-        "id": "ESTA:251216036",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252115,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Farm Rd",
+        "eventId": 251216052,
+        "id": "ESTA:251216052",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-27T21:36:52.000Z",
-        "updated": "2025-12-27T21:47:18.726Z",
-        "resources": 0,
-        "location": "Grattan St, Parkville"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-27T22:18:00.000Z",
+        "updated": "2025-12-27T22:18:00.000Z",
+        "resources": 3,
+        "location": "Farm Rd, Cocoroc",
+        "cfaId": 252115,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95606274662367,
-          -37.79934731199611
+          144.6453110297773,
+          -37.92861930290868
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122416409,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252113,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fitzroy St",
+        "eventId": 251216047,
+        "id": "ESTA:251216047",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-12-27T22:12:00.000Z",
+        "updated": "2025-12-27T22:12:00.000Z",
+        "resources": 2,
+        "location": "Fitzroy St, Sale",
+        "cfaId": 252113,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.06279879053923,
+          -38.1009446776983
         ]
       }
     },
@@ -727,64 +736,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 252100,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252100,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Uplands Cr",
-        "eventId": 251215997,
-        "id": "ESTA:251215997",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-27T19:20:00.000Z",
-        "updated": "2025-12-27T20:54:00.000Z",
-        "resources": 0,
-        "location": "Uplands Cr, Weir Views",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.57890745353748,
-          -37.724610221932075
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 252108,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252108,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Old Melbourne Rd",
-        "eventId": 251216012,
-        "id": "ESTA:251216012",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-27T20:39:00.000Z",
-        "updated": "2025-12-27T21:01:00.000Z",
-        "resources": 0,
-        "location": "Old Melbourne Rd, Traralgon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.49424704717725,
-          -38.19839865452953
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "cfaId": 252112,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -794,10 +745,10 @@
         "eventId": 251216031,
         "id": "ESTA:251216031",
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2025-12-27T21:28:00.000Z",
-        "updated": "2025-12-27T21:28:00.000Z",
-        "resources": 3,
+        "updated": "2025-12-27T21:57:00.000Z",
+        "resources": 0,
         "location": "Mount Dandenong",
         "size": "Small",
         "sizeFmt": "Small"
@@ -808,6 +759,33 @@
         "coordinates": [
           145.35624241897065,
           -37.82539222729403
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591567,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591567,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252391,
+        "id": "ESTA:251252391",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-27T22:08:27.000Z",
+        "updated": "2025-12-27T22:19:01.000Z",
+        "resources": 0,
+        "location": "Loch Sport"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.59867097851708,
+          -38.03353567859191
         ]
       }
     }
@@ -1039,7 +1017,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-27T21:50:05.646Z",
-    "featureCount": 150
+    "lastUpdated": "2025-12-27T22:27:40.183Z",
+    "featureCount": 149
   }
 }
