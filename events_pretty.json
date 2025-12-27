@@ -611,64 +611,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122414852,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122414852,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Sunbury",
-        "eventId": "F251215975",
-        "id": "ESTA:251215975",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-12-27T16:18:24.000Z",
-        "updated": "2025-12-27T16:22:04.940Z",
-        "resources": 0,
-        "location": "Elizabeth Dr, Sunbury"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70981298325293,
-          -37.57804174396481
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122414808,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122414808,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Laverton North",
-        "eventId": "F251215972",
-        "id": "ESTA:251215972",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-12-27T16:08:07.000Z",
-        "updated": "2025-12-27T16:28:20.660Z",
-        "resources": 4,
-        "location": "Laverton North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.79847523751388,
-          -37.836257899462616
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 122414884,
         "feedType": "incident",
@@ -681,9 +623,9 @@
         "id": "ESTA:251215977",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
+        "category2": "Non Structure Fire",
         "created": "2025-12-27T16:29:24.000Z",
-        "updated": "2025-12-27T16:31:57.482Z",
+        "updated": "2025-12-27T16:40:09.486Z",
         "resources": 3,
         "location": "Shakespeare Av, Preston"
       },
@@ -698,30 +640,65 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122414910,
+        "status": "Under Control",
+        "estaId": 122414914,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122414910,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Preston",
-        "eventId": "F251215978",
-        "id": "ESTA:251215978",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252095,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sewells Rd",
+        "eventId": 251215979,
+        "id": "ESTA:251215979",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-12-27T16:33:34.000Z",
-        "updated": "2025-12-27T16:33:53.783Z",
-        "resources": 0,
-        "location": "Shakespeare Av, Preston"
+        "category2": "Other",
+        "created": "2025-12-27T16:35:00.000Z",
+        "updated": "2025-12-27T16:48:00.000Z",
+        "resources": 2,
+        "location": "Sewells Rd, Mount Cottrell",
+        "cfaId": 252095,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01210960270024,
-          -37.732722267969464
+          144.63849409919325,
+          -37.81301316283716
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 122414915,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252096,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cashin St",
+        "eventId": 251215980,
+        "id": "ESTA:251215980",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-27T16:37:00.000Z",
+        "updated": "2025-12-27T16:37:00.000Z",
+        "resources": 3,
+        "location": "Cashin St, Inverloch",
+        "cfaId": 252096,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.71687259309658,
+          -38.62850051189137
         ]
       }
     },
@@ -788,35 +765,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 252093,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252093,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ansell Cr",
-        "eventId": 251215965,
-        "id": "ESTA:251215965",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-27T15:19:00.000Z",
-        "updated": "2025-12-27T15:35:00.000Z",
-        "resources": 0,
-        "location": "Ansell Cr, Shepparton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.41634676673658,
-          -36.394522877284835
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 252094,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -840,6 +788,33 @@
         "coordinates": [
           145.24911034792308,
           -37.91241846996783
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591564,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591564,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252387,
+        "id": "ESTA:251252387",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2025-12-27T16:37:37.000Z",
+        "updated": "2025-12-27T16:41:09.000Z",
+        "resources": 0,
+        "location": "Bendigo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.28160636624844,
+          -36.75876159730238
         ]
       }
     }
@@ -1071,7 +1046,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-27T16:34:20.097Z",
-    "featureCount": 151
+    "lastUpdated": "2025-12-27T16:53:40.224Z",
+    "featureCount": 150
   }
 }
