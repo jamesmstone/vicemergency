@@ -639,31 +639,33 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122426244,
+        "status": "Safe",
+        "estaId": 122426458,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591617,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252444,
-        "id": "ESTA:251252444",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252267,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 251216468,
+        "id": "ESTA:251216468",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-28T13:44:23.000Z",
-        "updated": "2025-12-28T14:44:22.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2025-12-28T14:15:00.000Z",
+        "updated": "2025-12-28T15:10:00.000Z",
         "resources": 0,
-        "location": "Echuca Village",
-        "sesId": 591617
+        "location": "Mickleham",
+        "cfaId": 252267,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.83168895251123,
-          -36.117398657833775
+          144.85206798238153,
+          -37.55660011976359
         ]
       }
     },
@@ -684,7 +686,7 @@
         "category2": "Building Fire",
         "created": "2025-12-28T14:19:00.000Z",
         "updated": "2025-12-28T14:46:00.000Z",
-        "resources": 4,
+        "resources": 0,
         "location": "Freda Rd, Armstrong Creek",
         "cfaId": 252268,
         "size": "Small",
@@ -696,99 +698,6 @@
         "coordinates": [
           144.3358166082754,
           -38.23738940701923
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122426517,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252269,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Michell Ct",
-        "eventId": 251216471,
-        "id": "ESTA:251216471",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-12-28T14:27:00.000Z",
-        "updated": "2025-12-28T14:27:00.000Z",
-        "resources": 2,
-        "location": "Michell Ct, Hamilton",
-        "cfaId": 252269,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.00083769852645,
-          -37.73354174850559
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122426646,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122426646,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Norlane",
-        "eventId": "F251216473",
-        "id": "ESTA:251216473",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2025-12-28T14:46:02.000Z",
-        "updated": "2025-12-28T14:47:57.566Z",
-        "resources": 0,
-        "location": "Norlane"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.35568918963662,
-          -38.09704619130977
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122426551,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252270,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Knight St",
-        "eventId": 251216472,
-        "id": "ESTA:251216472",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2025-12-28T14:33:00.000Z",
-        "updated": "2025-12-28T14:33:00.000Z",
-        "resources": 2,
-        "location": "Knight St, Mooroopna",
-        "cfaId": 252270,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34487414288975,
-          -36.387784488966176
         ]
       }
     },
@@ -961,7 +870,65 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Not Yet Under Control",
+        "cfaId": 252270,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252270,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Knight St",
+        "eventId": 251216472,
+        "id": "ESTA:251216472",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2025-12-28T14:33:00.000Z",
+        "updated": "2025-12-28T14:33:00.000Z",
+        "resources": 2,
+        "location": "Knight St, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34487414288975,
+          -36.387784488966176
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 252271,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252271,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Loch St",
+        "eventId": 251216474,
+        "id": "ESTA:251216474",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-28T14:54:00.000Z",
+        "updated": "2025-12-28T15:06:00.000Z",
+        "resources": 2,
+        "location": "Loch St, Nhill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.64500049776223,
+          -36.333476897453856
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 252249,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -973,8 +940,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2025-12-28T11:43:00.000Z",
-        "updated": "2025-12-28T11:54:00.000Z",
-        "resources": 2,
+        "updated": "2025-12-28T15:15:00.000Z",
+        "resources": 1,
         "location": "Dunvegan Dr, Kurunjang",
         "size": "Small",
         "sizeFmt": "Small"
@@ -985,91 +952,6 @@
         "coordinates": [
           144.59889101168156,
           -37.66365184098943
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 252264,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252264,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kallista-Emerald Rd",
-        "eventId": 251216464,
-        "id": "ESTA:251216464",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2025-12-28T13:44:00.000Z",
-        "updated": "2025-12-28T14:06:00.000Z",
-        "resources": 0,
-        "location": "Kallista-Emerald Rd, Kallista",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.386810394546,
-          -37.88931512826222
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 252267,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252267,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 251216468,
-        "id": "ESTA:251216468",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-28T14:15:00.000Z",
-        "updated": "2025-12-28T14:32:00.000Z",
-        "resources": 2,
-        "location": "Mickleham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.85206798238153,
-          -37.55660011976359
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 591609,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591609,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252438,
-        "id": "ESTA:251252438",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-12-28T12:30:14.000Z",
-        "updated": "2025-12-28T13:01:29.000Z",
-        "resources": 3,
-        "location": "Indented Head"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70362337958966,
-          -38.13736074903017
         ]
       }
     }
@@ -1301,7 +1183,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-28T14:51:00.229Z",
-    "featureCount": 158
+    "lastUpdated": "2025-12-28T15:28:00.296Z",
+    "featureCount": 154
   }
 }
