@@ -133,32 +133,6 @@
     },
     {
       "properties": {
-        "status": "Contained",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1678693",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Walkington Hills Road, Frances",
-        "id": "1678693",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Walkington Hills Road, Frances",
-        "created": "2025-12-28T03:51:00.000Z",
-        "updated": "2025-12-28T03:51:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Walkington Hills Road, Frances"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.810211992758,
-          -36.6984459080662
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Going",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
@@ -291,68 +265,6 @@
         "coordinates": [
           141.90265618363105,
           -34.11207022377296
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 122441292,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591711,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252546,
-        "id": "ESTA:251252546",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-29T18:50:25.000Z",
-        "updated": "2025-12-29T19:45:33.000Z",
-        "resources": 0,
-        "location": "Locksley",
-        "sesId": 591711
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27980682746278,
-          -36.82581206218452
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122441463,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252485,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lardner Rd",
-        "eventId": 251216949,
-        "id": "ESTA:251216949",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2025-12-29T19:48:00.000Z",
-        "updated": "2025-12-29T19:48:00.000Z",
-        "resources": 0,
-        "location": "Lardner Rd, Drouin",
-        "cfaId": 252485,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.85935852033924,
-          -38.14232502370623
         ]
       }
     },
@@ -1485,7 +1397,7 @@
         "category2": "Rescue Road Trap Fire",
         "created": "2025-12-29T19:07:18.000Z",
         "updated": "2025-12-29T19:47:56.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Wangaratta South",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1502,28 +1414,57 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 591713,
+        "status": "Safe",
+        "cfaId": 252487,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591713,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252547,
-        "id": "ESTA:251252547",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-29T19:21:25.000Z",
-        "updated": "2025-12-29T19:39:19.000Z",
-        "resources": 1,
-        "location": "Hastings"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252487,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hamilton Hwy",
+        "eventId": 251216955,
+        "id": "ESTA:251216955",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2025-12-29T20:28:00.000Z",
+        "updated": "2025-12-29T20:28:00.000Z",
+        "resources": 0,
+        "location": "Hamilton Hwy, Tarrington",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1458906791348,
-          -38.318449376476316
+          142.09596259176394,
+          -37.76678231588952
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591716,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591716,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252550,
+        "id": "ESTA:251252550",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-29T19:50:36.000Z",
+        "updated": "2025-12-29T20:16:43.000Z",
+        "resources": 1,
+        "location": "The Basin"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3087695208868,
+          -37.85638871208407
         ]
       }
     },
@@ -2417,7 +2358,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2425,7 +2365,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2441,7 +2382,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2449,7 +2389,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-29T13:00:00.000Z",
           "heat": {
@@ -2630,7 +2571,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-29T19:50:06.045Z",
-    "featureCount": 155
+    "lastUpdated": "2025-12-29T20:32:45.681Z",
+    "featureCount": 153
   }
 }
