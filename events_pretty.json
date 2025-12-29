@@ -296,36 +296,6 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122441243,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591708,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252543,
-        "id": "ESTA:251252543",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-12-29T18:31:44.000Z",
-        "updated": "2025-12-29T19:14:09.000Z",
-        "resources": 0,
-        "location": "Collingwood",
-        "sesId": 591708
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9844299593604,
-          -37.79932016845452
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "estaId": 122441369,
         "feedType": "incident",
@@ -356,31 +326,33 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122441372,
+        "status": "Responding",
+        "estaId": 122441379,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591714,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252548,
-        "id": "ESTA:251252548",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252484,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Racecourse Rd",
+        "eventId": 251216948,
+        "id": "ESTA:251216948",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-29T19:22:39.000Z",
-        "updated": "2025-12-29T19:22:39.000Z",
-        "resources": 0,
-        "location": "Hastings",
-        "sesId": 591714
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-29T19:25:00.000Z",
+        "updated": "2025-12-29T19:25:00.000Z",
+        "resources": 3,
+        "location": "Racecourse Rd, Mornington",
+        "cfaId": 252484,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1458906791348,
-          -38.318449376476316
+          145.0717081681213,
+          -38.2253648004419
         ]
       }
     },
@@ -1512,8 +1484,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap Fire",
         "created": "2025-12-29T19:07:18.000Z",
-        "updated": "2025-12-29T19:22:30.000Z",
-        "resources": 5,
+        "updated": "2025-12-29T19:25:35.000Z",
+        "resources": 4,
         "location": "Wangaratta",
         "size": "Small",
         "sizeFmt": "Small",
@@ -1530,7 +1502,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 591711,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1542,7 +1514,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2025-12-29T18:50:25.000Z",
-        "updated": "2025-12-29T19:11:49.000Z",
+        "updated": "2025-12-29T19:30:46.000Z",
         "resources": 1,
         "location": "Locksley"
       },
@@ -2445,6 +2417,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2452,8 +2425,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2469,6 +2441,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2476,8 +2449,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-29T13:00:00.000Z",
           "heat": {
@@ -2658,7 +2630,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-29T19:23:20.552Z",
-    "featureCount": 156
+    "lastUpdated": "2025-12-29T19:34:40.245Z",
+    "featureCount": 155
   }
 }
