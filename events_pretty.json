@@ -597,33 +597,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122454425,
+        "status": "Request For Assistance",
+        "estaId": 122454613,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252673,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Eldorado-Tarrawingee Rd",
-        "eventId": 251217379,
-        "id": "ESTA:251217379",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591840,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252684,
+        "id": "ESTA:251252684",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-30T18:22:00.000Z",
-        "updated": "2025-12-30T19:14:00.000Z",
-        "resources": 4,
-        "location": "Eldorado-Tarrawingee Rd, Tarrawingee",
-        "cfaId": 252673,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-30T19:24:29.000Z",
+        "updated": "2025-12-30T19:34:18.000Z",
+        "resources": 1,
+        "location": "Campbells Bridge",
+        "sesId": 591840
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.50201343927245,
-          -36.36461558374627
+          142.78556608477072,
+          -36.93259398642578
         ]
       }
     },
@@ -632,7 +630,7 @@
         "status": "Safe",
         "estaId": 122454521,
         "feedType": "incident",
-        "source": "000",
+        "source": "RADIO",
         "sourceOrg": "VIC/CFA",
         "sourceId": 252677,
         "sourceFeed": "cfa-incident",
@@ -656,68 +654,6 @@
         "coordinates": [
           145.49706677659196,
           -37.77527209890094
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122454401,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252671,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nine Mile Trk",
-        "eventId": 251217377,
-        "id": "ESTA:251217377",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2025-12-30T18:13:00.000Z",
-        "updated": "2025-12-30T19:18:00.000Z",
-        "resources": 1,
-        "location": "Nine Mile Trk, Mount Buffalo",
-        "cfaId": 252671,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.82334228931052,
-          -36.66991029999299
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122454598,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591839,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252683,
-        "id": "ESTA:251252683",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-30T19:19:43.000Z",
-        "updated": "2025-12-30T19:20:26.000Z",
-        "resources": 0,
-        "location": "Drouin South",
-        "sesId": 591839
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8480095441061,
-          -38.205795314325336
         ]
       }
     },
@@ -1755,6 +1691,91 @@
           -36.26190798282063
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 252673,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252673,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Eldorado-Tarrawingee Rd",
+        "eventId": 251217379,
+        "id": "ESTA:251217379",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-30T18:22:00.000Z",
+        "updated": "2025-12-30T19:14:00.000Z",
+        "resources": 4,
+        "location": "Eldorado-Tarrawingee Rd, Tarrawingee",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.50201343927245,
+          -36.36461558374627
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 252671,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252671,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nine Mile Trk",
+        "eventId": 251217377,
+        "id": "ESTA:251217377",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2025-12-30T18:13:00.000Z",
+        "updated": "2025-12-30T19:18:00.000Z",
+        "resources": 1,
+        "location": "Nine Mile Trk, Mount Buffalo",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.82334228931052,
+          -36.66991029999299
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 591839,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591839,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252683,
+        "id": "ESTA:251252683",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-30T19:19:43.000Z",
+        "updated": "2025-12-30T19:25:42.000Z",
+        "resources": 0,
+        "location": "Drouin South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8480095441061,
+          -38.205795314325336
+        ]
+      }
     }
   ],
   "properties": {
@@ -1771,6 +1792,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1778,8 +1800,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1795,6 +1816,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1802,8 +1824,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2025-12-30T13:00:00.000Z",
           "heat": {
@@ -1984,7 +2005,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-30T19:23:20.673Z",
-    "featureCount": 182
+    "lastUpdated": "2025-12-30T19:35:25.717Z",
+    "featureCount": 183
   }
 }
