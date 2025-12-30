@@ -382,31 +382,91 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122453053,
+        "status": "Responding",
+        "estaId": 122453401,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591835,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252678,
-        "id": "ESTA:251252678",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 252654,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fairground Prom",
+        "eventId": 251217345,
+        "id": "ESTA:251217345",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2025-12-30T13:44:13.000Z",
-        "updated": "2025-12-30T14:22:52.000Z",
-        "resources": 0,
-        "location": "Molka",
-        "sesId": 591835
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2025-12-30T14:38:00.000Z",
+        "updated": "2025-12-30T14:38:00.000Z",
+        "resources": 5,
+        "location": "Fairground Prom, Berwick",
+        "cfaId": 252654,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4722558811131,
-          -36.666335301751076
+          145.37208337652393,
+          -38.07484140332629
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122453448,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122453448,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Richmond",
+        "eventId": "F251217346",
+        "id": "ESTA:251217346",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2025-12-30T14:41:16.000Z",
+        "updated": "2025-12-30T14:46:47.925Z",
+        "resources": 3,
+        "location": "Elizabeth St, Richmond"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99978073653804,
+          -37.81214405325126
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122453470,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122453470,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Altona North",
+        "eventId": "F251217347",
+        "id": "ESTA:251217347",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-30T14:47:15.000Z",
+        "updated": "2025-12-30T14:53:16.987Z",
+        "resources": 3,
+        "location": "Blackshaws Rd, Altona North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84763925106483,
+          -37.83151399673216
         ]
       }
     },
@@ -1302,36 +1362,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 252652,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 252652,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "School Rd",
-        "eventId": 251217340,
-        "id": "ESTA:251217340",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2025-12-30T14:05:00.000Z",
-        "updated": "2025-12-30T14:05:00.000Z",
-        "resources": 2,
-        "location": "School Rd, Hansonville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.28037439551287,
-          -36.59733550739263
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "cfaId": 252653,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1340,11 +1371,11 @@
         "sourceTitle": "Ellis Lane",
         "eventId": 251217342,
         "id": "ESTA:251217342",
-        "category1": "Fire",
-        "category2": "Bushfire",
+        "category1": "Other",
+        "category2": "Other",
         "created": "2025-12-30T14:07:00.000Z",
-        "updated": "2025-12-30T14:07:00.000Z",
-        "resources": 5,
+        "updated": "2025-12-30T14:49:00.000Z",
+        "resources": 0,
         "location": "Ellis Lane, Greta",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1586,7 +1617,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-30T14:31:20.593Z",
-    "featureCount": 173
+    "lastUpdated": "2025-12-30T14:54:00.042Z",
+    "featureCount": 174
   }
 }
