@@ -382,30 +382,90 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122452774,
+        "status": "Complete",
+        "estaId": 122452875,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122452774,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Dandenong",
-        "eventId": "F251217330",
-        "id": "ESTA:251217330",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591833,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252676,
+        "id": "ESTA:251252676",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2025-12-30T13:10:46.000Z",
-        "updated": "2025-12-30T13:28:36.367Z",
-        "resources": 4,
-        "location": "Clow St, Dandenong"
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2025-12-30T13:21:14.000Z",
+        "updated": "2025-12-30T13:44:09.000Z",
+        "resources": 0,
+        "location": "Craigieburn",
+        "sesId": 591833
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.22013737664165,
-          -37.985336649458155
+          144.90752737263097,
+          -37.582803039156516
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122453053,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 591835,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 251252678,
+        "id": "ESTA:251252678",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2025-12-30T13:44:13.000Z",
+        "updated": "2025-12-30T13:44:56.000Z",
+        "resources": 0,
+        "location": "Molka",
+        "sesId": 591835
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4722558811131,
+          -36.666335301751076
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122453067,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122453067,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "White Hills",
+        "eventId": "F251217338",
+        "id": "ESTA:251217338",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2025-12-30T13:46:31.000Z",
+        "updated": "2025-12-30T13:47:22.052Z",
+        "resources": 0,
+        "location": "Plumridge St, White Hills"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3039448030009,
+          -36.72830006310259
         ]
       }
     },
@@ -414,7 +474,7 @@
         "status": "Safe",
         "estaId": 122452658,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "",
         "sourceOrg": "VIC/CFA",
         "sourceId": 252650,
         "sourceFeed": "cfa-incident",
@@ -438,35 +498,6 @@
         "coordinates": [
           145.80692845593143,
           -37.13495817384421
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122453005,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122453005,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "",
-        "eventId": "F251217337",
-        "id": "ESTA:251217337",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2025-12-30T13:31:07.000Z",
-        "updated": "2025-12-30T13:40:30.767Z",
-        "resources": 3,
-        "location": ""
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92181386631395,
-          -38.136821721772094
         ]
       }
     },
@@ -1417,33 +1448,6 @@
           -37.637658282640224
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 591833,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 591833,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 251252676,
-        "id": "ESTA:251252676",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2025-12-30T13:21:14.000Z",
-        "updated": "2025-12-30T13:37:41.000Z",
-        "resources": 2,
-        "location": "Craigieburn"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.90752737263097,
-          -37.582803039156516
-        ]
-      }
     }
   ],
   "properties": {
@@ -1625,7 +1629,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1633,7 +1636,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-01-02T13:00:00.000Z",
           "heat": {
@@ -1673,7 +1677,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2025-12-30T13:41:25.743Z",
+    "lastUpdated": "2025-12-30T13:56:40.266Z",
     "featureCount": 176
   }
 }
