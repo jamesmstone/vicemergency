@@ -282,35 +282,68 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122496394,
+        "estaId": 122496442,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122496394,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melton",
-        "eventId": "F260100966",
-        "id": "ESTA:260100966",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253286,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ring Rd",
+        "eventId": 260100968,
+        "id": "ESTA:260100968",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-01-02T19:15:26.000Z",
-        "updated": "2026-01-02T19:16:58.405Z",
-        "resources": 0,
-        "location": "Target St, Melton"
+        "created": "2026-01-02T19:34:00.000Z",
+        "updated": "2026-01-02T19:34:00.000Z",
+        "resources": 3,
+        "location": "Ring Rd, Mitchell Park",
+        "cfaId": 253286,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.59170772613226,
-          -37.69432628258343
+          143.81255237751202,
+          -37.52313147827172
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 122496352,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592063,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150128,
+        "id": "ESTA:260150128",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-02T19:05:12.000Z",
+        "updated": "2026-01-02T19:38:56.000Z",
+        "resources": 0,
+        "location": "Rutherglen",
+        "sesId": 592063
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.51604383895958,
+          -36.10334113127395
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122496423,
         "feedType": "incident",
         "source": "000",
@@ -324,8 +357,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-01-02T19:26:00.000Z",
-        "updated": "2026-01-02T19:26:00.000Z",
-        "resources": 2,
+        "updated": "2026-01-02T19:42:00.000Z",
+        "resources": 0,
         "location": "Villamanta St, Geelong West",
         "cfaId": 253285,
         "size": "Small",
@@ -342,24 +375,24 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122496384,
+        "status": "Under Control",
+        "estaId": 122496458,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 253283,
+        "sourceId": 253287,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kingswood Dr",
-        "eventId": 260100964,
-        "id": "ESTA:260100964",
+        "sourceTitle": "Leo Av",
+        "eventId": 260100969,
+        "id": "ESTA:260100969",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-02T19:15:00.000Z",
-        "updated": "2026-01-02T19:15:00.000Z",
-        "resources": 3,
-        "location": "Kingswood Dr, Chirnside Park",
-        "cfaId": 253283,
+        "category2": "Other",
+        "created": "2026-01-02T19:40:00.000Z",
+        "updated": "2026-01-02T19:47:00.000Z",
+        "resources": 1,
+        "location": "Leo Av, Tarneit",
+        "cfaId": 253287,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -367,8 +400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.32647285031769,
-          -37.74995485532432
+          144.6829884422687,
+          -37.8310998578044
         ]
       }
     },
@@ -961,33 +994,6 @@
           -37.57426390945225
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 592063,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592063,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150128,
-        "id": "ESTA:260150128",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-02T19:05:12.000Z",
-        "updated": "2026-01-02T19:27:05.000Z",
-        "resources": 1,
-        "location": "Rutherglen"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.51604383895958,
-          -36.10334113127395
-        ]
-      }
     }
   ],
   "properties": {
@@ -1217,7 +1223,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-02T19:30:08.240Z",
+    "lastUpdated": "2026-01-02T19:50:20.192Z",
     "featureCount": 184
   }
 }
