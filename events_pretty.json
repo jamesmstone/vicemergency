@@ -227,60 +227,94 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122506104,
+        "status": "Safe",
+        "estaId": 122505781,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592135,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150203,
-        "id": "ESTA:260150203",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253423,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260101268,
+        "id": "ESTA:260101268",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-03T12:54:03.000Z",
-        "updated": "2026-01-03T13:21:25.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-03T12:25:00.000Z",
+        "updated": "2026-01-03T13:37:00.000Z",
         "resources": 0,
-        "location": "St Arnaud",
-        "sesId": 592135
+        "location": "Narrawong",
+        "cfaId": 253423,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2597220948122,
-          -36.61178225941197
+          141.71467839235643,
+          -38.226215561876
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122506433,
+        "status": "Safe",
+        "estaId": 122506649,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122506433,
+        "sourceId": 122506649,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yarraville",
-        "eventId": "S260150205",
-        "id": "ESTA:260150205",
+        "sourceTitle": "Norlane",
+        "eventId": "F260101287",
+        "id": "ESTA:260101287",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-03T13:21:26.000Z",
-        "updated": "2026-01-03T13:25:37.512Z",
-        "resources": 0,
-        "location": "Drew St, Yarraville"
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-01-03T13:46:47.000Z",
+        "updated": "2026-01-03T13:49:30.967Z",
+        "resources": 2,
+        "location": "Gerbera Av, Norlane"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8690638887809,
-          -37.81567990648157
+          144.36174743094443,
+          -38.08984423026011
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 122506597,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253429,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tarneit Rd",
+        "eventId": 260101286,
+        "id": "ESTA:260101286",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-01-03T13:41:00.000Z",
+        "updated": "2026-01-03T13:41:00.000Z",
+        "resources": 2,
+        "location": "Tarneit Rd, Hoppers Crossing",
+        "cfaId": 253429,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.66783014596004,
+          -37.859654622427676
         ]
       }
     },
@@ -2337,6 +2371,36 @@
       }
     },
     {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "639139",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Summerglen Rd, Rennie",
+        "id": "2026-01-03T17:21:00.0000000:639139",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Summerglen Rd, Rennie",
+        "location": "Summerglen Rd, Rennie 2646",
+        "created": "2026-01-03T17:21:00+11:00",
+        "updated": "2026-01-03T17:21:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.180252076,
+          -35.842151642
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -2511,36 +2575,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "639139",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Summerglen Rd, Rennie",
-        "id": "2026-01-03T17:21:00.0000000:639139",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Summerglen Rd, Rennie",
-        "location": "Summerglen Rd, Rennie 2646",
-        "created": "2026-01-03T17:21:00+11:00",
-        "updated": "2026-01-03T17:21:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.180252076,
-          -35.842151642
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 253107,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2593,64 +2627,6 @@
         "coordinates": [
           145.44465534158448,
           -37.092667353203076
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 253425,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253425,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Brossard Rd",
-        "eventId": 260101271,
-        "id": "ESTA:260101271",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-03T12:32:00.000Z",
-        "updated": "2026-01-03T12:47:00.000Z",
-        "resources": 0,
-        "location": "Brossard Rd, Mickleham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8925742773388,
-          -37.53880170224618
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 253423,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253423,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260101268,
-        "id": "ESTA:260101268",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-03T12:25:00.000Z",
-        "updated": "2026-01-03T12:48:00.000Z",
-        "resources": 1,
-        "location": "Narrawong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.71467839235643,
-          -38.226215561876
         ]
       }
     },
@@ -2714,7 +2690,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 253428,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2726,8 +2702,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2026-01-03T13:16:00.000Z",
-        "updated": "2026-01-03T13:34:00.000Z",
-        "resources": 1,
+        "updated": "2026-01-03T13:42:00.000Z",
+        "resources": 0,
         "location": "Anglesea",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2743,7 +2719,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 592136,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -2755,8 +2731,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-01-03T13:03:16.000Z",
-        "updated": "2026-01-03T13:05:05.000Z",
-        "resources": 1,
+        "updated": "2026-01-03T13:45:04.000Z",
+        "resources": 2,
         "location": "Yarraville"
       },
       "type": "Feature",
@@ -2996,7 +2972,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-03T13:35:00.094Z",
-    "featureCount": 185
+    "lastUpdated": "2026-01-03T13:51:25.790Z",
+    "featureCount": 184
   }
 }
