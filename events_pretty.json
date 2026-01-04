@@ -761,36 +761,6 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122519238,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592201,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150275,
-        "id": "ESTA:260150275",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-01-04T18:23:27.000Z",
-        "updated": "2026-01-04T18:25:44.000Z",
-        "resources": 0,
-        "location": "Altona North",
-        "sesId": 592201
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8627826584505,
-          -37.83756531478033
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 122519156,
         "feedType": "incident",
@@ -823,60 +793,63 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122519270,
+        "status": "Complete",
+        "estaId": 122519238,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 592202,
+        "sourceId": 592201,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260150276,
-        "id": "ESTA:260150276",
+        "eventId": 260150275,
+        "id": "ESTA:260150275",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-04T18:33:23.000Z",
-        "updated": "2026-01-04T18:35:18.000Z",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-01-04T18:23:27.000Z",
+        "updated": "2026-01-04T18:42:03.000Z",
         "resources": 0,
-        "location": "Avenel",
-        "sesId": 592202
+        "location": "Altona North",
+        "sesId": 592201
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23545370234922,
-          -36.90231688880832
+          144.8627826584505,
+          -37.83756531478033
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122519277,
+        "estaId": 122519293,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122519277,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Canterbury",
-        "eventId": "F260101698",
-        "id": "ESTA:260101698",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253606,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Paynes Rd",
+        "eventId": 260101700,
+        "id": "ESTA:260101700",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-01-04T18:35:30.000Z",
-        "updated": "2026-01-04T18:35:36.229Z",
-        "resources": 0,
-        "location": "Canterbury Rd, Canterbury"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-04T18:44:00.000Z",
+        "updated": "2026-01-04T18:44:00.000Z",
+        "resources": 5,
+        "location": "Paynes Rd, Rockbank",
+        "cfaId": 253606,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.07325530053646,
-          -37.8232891623109
+          144.6367555412955,
+          -37.73603966505678
         ]
       }
     },
@@ -1306,35 +1279,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 253600,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253600,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grove St",
-        "eventId": 260101688,
-        "id": "ESTA:260101688",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-04T17:37:00.000Z",
-        "updated": "2026-01-04T17:50:00.000Z",
-        "resources": 0,
-        "location": "Grove St, Eltham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1547043830774,
-          -37.710953980188435
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 253602,
         "feedType": "incident",
@@ -1348,7 +1292,7 @@
         "category2": "Bushfire",
         "created": "2026-01-04T17:48:00.000Z",
         "updated": "2026-01-04T18:03:00.000Z",
-        "resources": 4,
+        "resources": 1,
         "location": "Marionvale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1435,7 +1379,7 @@
         "category2": "Building Fire",
         "created": "2026-01-04T17:39:00.000Z",
         "updated": "2026-01-04T18:21:00.000Z",
-        "resources": 5,
+        "resources": 4,
         "location": "Abeckett St, Inverloch",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1446,6 +1390,33 @@
         "coordinates": [
           145.72788425695333,
           -38.63400059865752
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 592202,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592202,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150276,
+        "id": "ESTA:260150276",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-04T18:33:23.000Z",
+        "updated": "2026-01-04T18:35:18.000Z",
+        "resources": 0,
+        "location": "Avenel"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23545370234922,
+          -36.90231688880832
         ]
       }
     },
@@ -2552,7 +2523,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-04T18:39:20.498Z",
-    "featureCount": 208
+    "lastUpdated": "2026-01-04T18:55:21.761Z",
+    "featureCount": 207
   }
 }
