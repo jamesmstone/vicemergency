@@ -761,38 +761,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122519293,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253606,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Paynes Rd",
-        "eventId": 260101700,
-        "id": "ESTA:260101700",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-04T18:44:00.000Z",
-        "updated": "2026-01-04T18:44:00.000Z",
-        "resources": 7,
-        "location": "Paynes Rd, Rockbank",
-        "cfaId": 253606,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6367555412955,
-          -37.73603966505678
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "estaId": 122519116,
         "feedType": "incident",
@@ -808,7 +776,7 @@
         "category2": "Bushfire",
         "created": "2026-01-04T17:48:00.000Z",
         "updated": "2026-01-04T19:22:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Marionvale",
         "cfaId": 253602,
         "size": "Small",
@@ -825,7 +793,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 122519270,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -839,8 +807,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-01-04T18:33:23.000Z",
-        "updated": "2026-01-04T18:55:33.000Z",
-        "resources": 1,
+        "updated": "2026-01-04T19:23:06.000Z",
+        "resources": 0,
         "location": "Avenel",
         "sesId": 592202
       },
@@ -850,66 +818,6 @@
         "coordinates": [
           145.23545370234922,
           -36.90231688880832
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "639139",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Summerglen Rd, Rennie",
-        "id": "2026-01-04T18:07:00.0000000:639139",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Summerglen Rd, Rennie",
-        "location": "Summerglen Rd, Rennie 2646",
-        "created": "2026-01-04T18:07:00+11:00",
-        "updated": "2026-01-04T18:07:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.180252076,
-          -35.842151642
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "639924",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Savernake Rd, Rennie",
-        "id": "2026-01-04T19:47:00.0000000:639924",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Savernake Rd, Rennie",
-        "location": "Savernake Rd, Rennie 2646",
-        "created": "2026-01-04T19:47:00+11:00",
-        "updated": "2026-01-04T19:47:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "1 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.036087036,
-          -35.833629609
         ]
       }
     },
@@ -1251,6 +1159,66 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "639139",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Summerglen Rd, Rennie",
+        "id": "2026-01-04T18:07:00.0000000:639139",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Summerglen Rd, Rennie",
+        "location": "Summerglen Rd, Rennie 2646",
+        "created": "2026-01-04T18:07:00+11:00",
+        "updated": "2026-01-04T18:07:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.180252076,
+          -35.842151642
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "639924",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Savernake Rd, Rennie",
+        "id": "2026-01-04T19:47:00.0000000:639924",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Savernake Rd, Rennie",
+        "location": "Savernake Rd, Rennie 2646",
+        "created": "2026-01-04T19:47:00+11:00",
+        "updated": "2026-01-04T19:47:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "1 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.036087036,
+          -35.833629609
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 253107,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1274,6 +1242,35 @@
         "coordinates": [
           145.00081756815484,
           -37.57426390945225
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 253606,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253606,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Paynes Rd",
+        "eventId": 260101700,
+        "id": "ESTA:260101700",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-04T18:44:00.000Z",
+        "updated": "2026-01-04T18:44:00.000Z",
+        "resources": 8,
+        "location": "Paynes Rd, Rockbank",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6367555412955,
+          -37.73603966505678
         ]
       }
     },
@@ -2196,7 +2193,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2204,7 +2200,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2220,7 +2217,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2228,7 +2224,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-01-04T13:00:00.000Z",
           "heat": {
@@ -2409,7 +2406,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-04T19:23:25.755Z",
+    "lastUpdated": "2026-01-04T19:34:25.615Z",
     "featureCount": 203
   }
 }
