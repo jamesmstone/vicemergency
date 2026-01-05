@@ -1232,24 +1232,54 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122531055,
+        "status": "Complete",
+        "estaId": 122531134,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592295,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150367,
+        "id": "ESTA:260150367",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-05T16:38:00.000Z",
+        "updated": "2026-01-05T16:45:40.000Z",
+        "resources": 0,
+        "location": "Bruarong",
+        "sesId": 592295
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87706675983412,
+          -36.38910223084077
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 122531153,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 253793,
+        "sourceId": 253794,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mons Pde",
-        "eventId": 260102064,
-        "id": "ESTA:260102064",
+        "sourceTitle": "",
+        "eventId": 260102065,
+        "id": "ESTA:260102065",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-05T16:15:00.000Z",
-        "updated": "2026-01-05T16:31:00.000Z",
-        "resources": 0,
-        "location": "Mons Pde, Noble Park",
-        "cfaId": 253793,
+        "category2": "Other",
+        "created": "2026-01-05T16:43:00.000Z",
+        "updated": "2026-01-05T16:52:00.000Z",
+        "resources": 2,
+        "location": "Diamond Creek",
+        "cfaId": 253794,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1257,98 +1287,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1798995357994,
-          -37.96890898284279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "639885",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Avalon Little Paupong Rd, Numbla Vale",
-        "id": "2026-01-05T14:03:00.0000000:639885",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Avalon Little Paupong Rd, Numbla Vale",
-        "location": "Avalon Little Paupong Rd, Numbla Vale 2628",
-        "created": "2026-01-05T14:03:00+11:00",
-        "updated": "2026-01-05T14:03:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "4 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.7995,
-                  -36.6668
-                ],
-                [
-                  148.7995,
-                  -36.667
-                ],
-                [
-                  148.7981,
-                  -36.6682
-                ],
-                [
-                  148.7969,
-                  -36.6687
-                ],
-                [
-                  148.7953,
-                  -36.6686
-                ],
-                [
-                  148.7946,
-                  -36.6679
-                ],
-                [
-                  148.7964,
-                  -36.6676
-                ],
-                [
-                  148.7974,
-                  -36.6677
-                ],
-                [
-                  148.798,
-                  -36.6672
-                ],
-                [
-                  148.798,
-                  -36.667
-                ],
-                [
-                  148.7987,
-                  -36.6665
-                ],
-                [
-                  148.7995,
-                  -36.6668
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              148.799713135,
-              -36.669898987
-            ]
-          }
+          145.15086151069104,
+          -37.67249286598598
         ]
       }
     },
@@ -1828,6 +1768,96 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "639885",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Avalon Little Paupong Rd, Numbla Vale",
+        "id": "2026-01-05T14:03:00.0000000:639885",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Avalon Little Paupong Rd, Numbla Vale",
+        "location": "Avalon Little Paupong Rd, Numbla Vale 2628",
+        "created": "2026-01-05T14:03:00+11:00",
+        "updated": "2026-01-05T14:03:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "4 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.7995,
+                  -36.6668
+                ],
+                [
+                  148.7995,
+                  -36.667
+                ],
+                [
+                  148.7981,
+                  -36.6682
+                ],
+                [
+                  148.7969,
+                  -36.6687
+                ],
+                [
+                  148.7953,
+                  -36.6686
+                ],
+                [
+                  148.7946,
+                  -36.6679
+                ],
+                [
+                  148.7964,
+                  -36.6676
+                ],
+                [
+                  148.7974,
+                  -36.6677
+                ],
+                [
+                  148.798,
+                  -36.6672
+                ],
+                [
+                  148.798,
+                  -36.667
+                ],
+                [
+                  148.7987,
+                  -36.6665
+                ],
+                [
+                  148.7995,
+                  -36.6668
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              148.799713135,
+              -36.669898987
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 253107,
@@ -1946,64 +1976,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 253784,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253784,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260102044,
-        "id": "ESTA:260102044",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-05T14:55:00.000Z",
-        "updated": "2026-01-05T15:42:00.000Z",
-        "resources": 0,
-        "location": "Mordialloc",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08157770633173,
-          -38.00395158471287
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 253776,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253776,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bear St",
-        "eventId": 260102037,
-        "id": "ESTA:260102037",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-05T14:31:00.000Z",
-        "updated": "2026-01-05T15:44:00.000Z",
-        "resources": 0,
-        "location": "Bear St, Mordialloc",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09151329508097,
-          -38.005537145565825
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 253788,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2016,7 +1988,7 @@
         "category2": "Other",
         "created": "2026-01-05T15:46:00.000Z",
         "updated": "2026-01-05T16:06:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Mcadam St, Maffra",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2056,6 +2028,35 @@
         "coordinates": [
           144.6770972382958,
           -37.8512051000287
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 253793,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253793,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mons Pde",
+        "eventId": 260102064,
+        "id": "ESTA:260102064",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-05T16:15:00.000Z",
+        "updated": "2026-01-05T16:31:00.000Z",
+        "resources": 0,
+        "location": "Mons Pde, Noble Park",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1798995357994,
+          -37.96890898284279
         ]
       }
     }
@@ -2287,7 +2288,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-05T16:37:25.837Z",
+    "lastUpdated": "2026-01-05T16:58:25.989Z",
     "featureCount": 220
   }
 }
