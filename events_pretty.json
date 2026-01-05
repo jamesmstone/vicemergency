@@ -1108,9 +1108,9 @@
         "category2": "Bushfire",
         "created": "2026-01-05T05:58:00.000Z",
         "updated": "2026-01-05T05:58:00.000Z",
-        "resources": 22,
-        "size": "81.00",
-        "sizeFmt": "81.00 Ha.",
+        "resources": 10,
+        "size": "307.54",
+        "sizeFmt": "307.54 Ha.",
         "location": "27Km West Of Walwa"
       },
       "type": "Feature",
@@ -1232,60 +1232,92 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122531891,
+        "status": "Request For Assistance",
+        "estaId": 122532127,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122531891,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Caulfield North",
-        "eventId": "F260102099",
-        "id": "ESTA:260102099",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592304,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150374,
+        "id": "ESTA:260150374",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-05T20:39:35.000Z",
-        "updated": "2026-01-05T20:39:41.997Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-05T21:15:08.000Z",
+        "updated": "2026-01-05T21:24:08.000Z",
         "resources": 0,
-        "location": "Caulfield North"
+        "location": "Broadford",
+        "sesId": 592304
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03596253149033,
-          -37.87407464933396
+          145.09659726785074,
+          -37.17986400990019
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122531930,
+        "status": "Safe",
+        "estaId": 122532086,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592302,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150372,
-        "id": "ESTA:260150372",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253805,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Elizabeth St",
+        "eventId": 260102105,
+        "id": "ESTA:260102105",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-05T20:45:27.000Z",
-        "updated": "2026-01-05T20:48:01.000Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-05T21:08:00.000Z",
+        "updated": "2026-01-05T21:23:00.000Z",
         "resources": 0,
-        "location": "Mount Eliza",
-        "sesId": 592302
+        "location": "Elizabeth St, Donald",
+        "cfaId": 253805,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.08271310698208,
-          -38.182984345998044
+          142.99113580104952,
+          -36.35735284623767
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122532181,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122532181,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F260102107",
+        "id": "ESTA:260102107",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-05T21:22:31.000Z",
+        "updated": "2026-01-05T21:23:10.706Z",
+        "resources": 0,
+        "location": "Docklands"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94850455526458,
+          -37.819752635739526
         ]
       }
     },
@@ -1940,6 +1972,60 @@
           -36.761371227683696
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 592302,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592302,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150372,
+        "id": "ESTA:260150372",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-05T20:45:27.000Z",
+        "updated": "2026-01-05T21:13:04.000Z",
+        "resources": 2,
+        "location": "Mount Eliza"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08271310698208,
+          -38.182984345998044
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 592303,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592303,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150373,
+        "id": "ESTA:260150373",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-05T21:02:51.000Z",
+        "updated": "2026-01-05T21:25:39.000Z",
+        "resources": 1,
+        "location": "Endeavour Hills"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2536983556432,
+          -37.98627648378222
+        ]
+      }
     }
   ],
   "properties": {
@@ -2169,7 +2255,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-05T20:54:41.081Z",
-    "featureCount": 217
+    "lastUpdated": "2026-01-05T21:29:26.096Z",
+    "featureCount": 220
   }
 }
