@@ -1067,32 +1067,58 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122543569,
+        "estaId": 122543372,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253991,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Vetara St",
-        "eventId": 260102476,
-        "id": "ESTA:260102476",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122543372,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Yellingbo",
+        "eventId": "F260102472",
+        "id": "ESTA:260102472",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-06T16:53:00.000Z",
-        "updated": "2026-01-06T16:53:00.000Z",
-        "resources": 3,
-        "location": "Vetara St, Berwick",
-        "cfaId": 253991,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-01-06T16:01:02.000Z",
+        "updated": "2026-01-06T17:22:56.266Z",
+        "resources": 0,
+        "location": "Macclesfield Rd, Yellingbo"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3710326755165,
-          -38.075953329569415
+          145.4862186459237,
+          -37.84764133932773
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122543684,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122543684,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melton",
+        "eventId": "F260102480",
+        "id": "ESTA:260102480",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-01-06T17:22:14.000Z",
+        "updated": "2026-01-06T17:23:58.371Z",
+        "resources": 0,
+        "location": "Western Fwy, Melton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6143135182829,
+          -37.69747046375837
         ]
       }
     },
@@ -1667,64 +1693,6 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 253989,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253989,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Macclesfield Rd",
-        "eventId": 260102472,
-        "id": "ESTA:260102472",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-01-06T16:04:00.000Z",
-        "updated": "2026-01-06T16:04:00.000Z",
-        "resources": 0,
-        "location": "Macclesfield Rd, Yellingbo",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4861994858756,
-          -37.84764673888446
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 253987,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 253987,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260102468,
-        "id": "ESTA:260102468",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-06T15:55:00.000Z",
-        "updated": "2026-01-06T16:07:00.000Z",
-        "resources": 1,
-        "location": "Ravenhall",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.73844615344515,
-          -37.758807134200346
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 253988,
         "feedType": "incident",
@@ -1749,6 +1717,93 @@
         "coordinates": [
           145.4861994858756,
           -37.84764673888446
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 253987,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253987,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260102468,
+        "id": "ESTA:260102468",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-06T15:55:00.000Z",
+        "updated": "2026-01-06T17:06:00.000Z",
+        "resources": 1,
+        "location": "Ravenhall",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73844615344515,
+          -37.758807134200346
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 253991,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253991,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Vetara St",
+        "eventId": 260102476,
+        "id": "ESTA:260102476",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-06T16:53:00.000Z",
+        "updated": "2026-01-06T17:09:00.000Z",
+        "resources": 0,
+        "location": "Vetara St, Berwick",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3710326755165,
+          -38.075953329569415
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 253992,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 253992,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Craigieburn Rd",
+        "eventId": 260102477,
+        "id": "ESTA:260102477",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-06T17:01:00.000Z",
+        "updated": "2026-01-06T17:12:00.000Z",
+        "resources": 2,
+        "location": "Craigieburn Rd, Yuroke",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86115581931844,
+          -37.587540917435014
         ]
       }
     },
@@ -4489,7 +4544,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-06T17:00:20.438Z",
-    "featureCount": 223
+    "lastUpdated": "2026-01-06T17:31:40.186Z",
+    "featureCount": 217
   }
 }
