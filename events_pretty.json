@@ -1949,8 +1949,8 @@
         "created": "2026-01-05T05:58:00.000Z",
         "updated": "2026-01-05T05:58:00.000Z",
         "resources": 3,
-        "size": "3053.00",
-        "sizeFmt": "3053.00 Ha.",
+        "size": "3442.95",
+        "sizeFmt": "3442.95 Ha.",
         "location": "27Km West Of Walwa"
       },
       "type": "Feature",
@@ -1991,6 +1991,33 @@
     },
     {
       "properties": {
+        "status": "Not Yet Under Control",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 102637108,
+        "sourceFeed": "delwp-incident",
+        "sourceTitle": "Berrys Lane Longwood - Berrys Lane Longwood",
+        "id": 102637108,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T03:30:00.000Z",
+        "updated": "2026-01-07T04:41:00.000Z",
+        "resources": 75,
+        "size": "2739.00",
+        "sizeFmt": "2739.00 Ha.",
+        "location": "3.1Km Sw Of Longwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4049,
+          -36.8295
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2018,97 +2045,95 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122558631,
+        "status": "Safe",
+        "estaId": 122559268,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122558631,
+        "sourceId": 122559268,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mount Dandenong",
-        "eventId": "S260150615",
-        "id": "ESTA:260150615",
+        "sourceTitle": "Wodonga",
+        "eventId": "F260103217",
+        "id": "ESTA:260103217",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-01-07T23:33:58.000Z",
+        "updated": "2026-01-07T23:37:08.764Z",
+        "resources": 2,
+        "location": "Bandiana Link Rd, Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.91019689702705,
+          -36.11978279403878
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559267,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122559267,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wonthaggi",
+        "eventId": "F260103216",
+        "id": "ESTA:260103216",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2026-01-07T23:34:53.000Z",
+        "updated": "2026-01-07T23:37:12.240Z",
+        "resources": 0,
+        "location": "Graham St, Wonthaggi"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59012527703987,
+          -38.60616078461577
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122559311,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592555,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150630,
+        "id": "ESTA:260150630",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2026-01-07T22:39:28.000Z",
-        "updated": "2026-01-07T23:13:20.901Z",
+        "created": "2026-01-07T23:38:17.000Z",
+        "updated": "2026-01-07T23:41:11.000Z",
         "resources": 0,
-        "location": "Mount Dandenong"
+        "location": "Point Cook",
+        "sesId": 592555
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35694122273648,
-          -37.83573969685409
+          144.74494401538746,
+          -37.888867431869265
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122559023,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254348,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tregany Ct",
-        "eventId": 260103198,
-        "id": "ESTA:260103198",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-01-07T23:16:00.000Z",
-        "updated": "2026-01-07T23:16:00.000Z",
-        "resources": 1,
-        "location": "Tregany Ct, Yarrawonga",
-        "cfaId": 254348,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.98882899638656,
-          -36.02164460566318
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122559041,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122559041,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Cowes",
-        "eventId": "S260150623",
-        "id": "ESTA:260150623",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-07T23:12:52.000Z",
-        "updated": "2026-01-07T23:16:59.750Z",
-        "resources": 0,
-        "location": "Sunseeker Ct, Cowes"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.20939958077514,
-          -38.4516949073961
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "estaId": 122559022,
         "feedType": "incident",
         "source": "000",
@@ -2122,7 +2147,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-01-07T23:16:00.000Z",
-        "updated": "2026-01-07T23:16:00.000Z",
+        "updated": "2026-01-07T23:40:00.000Z",
         "resources": 3,
         "location": "Beckworth Court Rd, Clunes",
         "cfaId": 254347,
@@ -2140,86 +2165,24 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122559080,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592550,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150624,
-        "id": "ESTA:260150624",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-01-07T23:19:26.000Z",
-        "updated": "2026-01-07T23:22:48.000Z",
-        "resources": 0,
-        "location": "Maiden Gully",
-        "sesId": 592550
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.20446219238735,
-          -36.74947501292166
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 122559080,
+        "estaId": 122559322,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254352,
+        "sourceId": 254361,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lower Beckhams Rd",
-        "eventId": 260103203,
-        "id": "ESTA:260103203",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-07T23:19:00.000Z",
-        "updated": "2026-01-07T23:19:00.000Z",
-        "resources": 2,
-        "location": "Lower Beckhams Rd, Maiden Gully",
-        "cfaId": 254352,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.20446219238735,
-          -36.74947501292166
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122559110,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254354,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Shillidays Rd",
-        "eventId": 260103205,
-        "id": "ESTA:260103205",
+        "sourceTitle": "Spillway Rd",
+        "eventId": 260103219,
+        "id": "ESTA:260103219",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-01-07T23:22:00.000Z",
-        "updated": "2026-01-07T23:22:00.000Z",
+        "created": "2026-01-07T23:39:00.000Z",
+        "updated": "2026-01-07T23:39:00.000Z",
         "resources": 1,
-        "location": "Shillidays Rd, Barfold",
-        "cfaId": 254354,
+        "location": "Spillway Rd, Lake Eppalock",
+        "cfaId": 254361,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2227,60 +2190,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.49000982493914,
-          -37.120393859496076
+          144.5291564909731,
+          -36.848041349677914
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122559120,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122559120,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Traralgon",
-        "eventId": "F260103206",
-        "id": "ESTA:260103206",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-01-07T23:19:08.000Z",
-        "updated": "2026-01-07T23:23:24.121Z",
-        "resources": 0,
-        "location": "Summerhill Rd, Traralgon"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.55394641953504,
-          -38.180620736863915
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122559105,
+        "status": "Safe",
+        "estaId": 122559346,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254353,
+        "sourceId": 254362,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hedley Range Rd",
-        "eventId": 260103204,
-        "id": "ESTA:260103204",
+        "sourceTitle": "Newbridge-Bridgewater Rd",
+        "eventId": 260103221,
+        "id": "ESTA:260103221",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-07T23:22:00.000Z",
-        "updated": "2026-01-07T23:22:00.000Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T23:41:00.000Z",
+        "updated": "2026-01-07T23:41:00.000Z",
         "resources": 0,
-        "location": "Hedley Range Rd, Binginwarri",
-        "cfaId": 254353,
+        "location": "Newbridge-Bridgewater Rd, Newbridge",
+        "cfaId": 254362,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2288,38 +2222,320 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.447073541212,
-          -38.61263806677526
+          143.89973777548232,
+          -36.70095756595551
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122559144,
+        "status": "Safe",
+        "estaId": 122559348,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592552,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150627,
-        "id": "ESTA:260150627",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254363,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hamilton Hwy",
+        "eventId": 260103222,
+        "id": "ESTA:260103222",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-07T23:25:16.000Z",
-        "updated": "2026-01-07T23:26:20.000Z",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T23:41:00.000Z",
+        "updated": "2026-01-07T23:41:00.000Z",
         "resources": 0,
-        "location": "West Footscray",
-        "sesId": 592552
+        "location": "Hamilton Hwy, Mortlake",
+        "cfaId": 254363,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.86549001194876,
-          -37.81222874741033
+          142.76471934979418,
+          -38.04018968980051
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 122559023,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254348,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Tregany Ct",
+        "eventId": 260103198,
+        "id": "ESTA:260103198",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-07T23:16:00.000Z",
+        "updated": "2026-01-07T23:16:00.000Z",
+        "resources": 2,
+        "location": "Tregany Ct, Yarrawonga",
+        "cfaId": 254348,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.98882899638656,
+          -36.02164460566318
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559327,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122559327,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hoppers Crossing",
+        "eventId": "F260103220",
+        "id": "ESTA:260103220",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:39:03.000Z",
+        "updated": "2026-01-07T23:43:32.751Z",
+        "resources": 0,
+        "location": "Julier Cr, Hoppers Crossing"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69205900836045,
+          -37.86884412760649
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559364,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254365,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Creightons Creek Rd",
+        "eventId": 260103224,
+        "id": "ESTA:260103224",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T23:41:00.000Z",
+        "updated": "2026-01-07T23:41:00.000Z",
+        "resources": 2,
+        "location": "Creightons Creek Rd, Creightons Creek",
+        "cfaId": 254365,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.53770833655048,
+          -36.838873102126215
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559414,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254368,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Great Alpine Rd",
+        "eventId": 260103227,
+        "id": "ESTA:260103227",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-01-07T23:44:00.000Z",
+        "updated": "2026-01-07T23:44:00.000Z",
+        "resources": 1,
+        "location": "Great Alpine Rd, Ensay",
+        "cfaId": 254368,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.83404535724176,
+          -37.420609263868826
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122558953,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592546,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150620,
+        "id": "ESTA:260150620",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-07T23:09:14.000Z",
+        "updated": "2026-01-07T23:44:30.000Z",
+        "resources": 0,
+        "location": "Murchison",
+        "sesId": 592546
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1863637202242,
+          -36.6412679791152
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559383,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254366,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bentley Ct",
+        "eventId": 260103225,
+        "id": "ESTA:260103225",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-07T23:43:00.000Z",
+        "updated": "2026-01-07T23:43:00.000Z",
+        "resources": 2,
+        "location": "Bentley Ct, Romsey",
+        "cfaId": 254366,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75006761112377,
+          -37.343748601846166
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122559261,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254359,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wyperfeld Cct",
+        "eventId": 260103215,
+        "id": "ESTA:260103215",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-07T23:35:00.000Z",
+        "updated": "2026-01-07T23:45:00.000Z",
+        "resources": 1,
+        "location": "Wyperfeld Cct, Caroline Springs",
+        "cfaId": 254359,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72539725087557,
+          -37.747552858842006
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122559395,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254367,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hilda Pl",
+        "eventId": 260103226,
+        "id": "ESTA:260103226",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:43:00.000Z",
+        "updated": "2026-01-07T23:45:00.000Z",
+        "resources": 0,
+        "location": "Hilda Pl, Whittlesea",
+        "cfaId": 254367,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11784475554254,
+          -37.50795607152251
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122559435,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122559435,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Traralgon",
+        "eventId": "F260103229",
+        "id": "ESTA:260103229",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:45:33.000Z",
+        "updated": "2026-01-07T23:46:14.563Z",
+        "resources": 0,
+        "location": "Traralgon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5612803666894,
+          -38.17649562939302
         ]
       }
     },
@@ -2340,7 +2556,7 @@
         "category2": "Other",
         "created": "2026-01-07T23:16:00.000Z",
         "updated": "2026-01-07T23:26:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Arthurs Seat Rd, Arthurs Seat",
         "cfaId": 254349,
         "size": "Small",
@@ -2357,54 +2573,53 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122559164,
+        "status": "Responding",
+        "estaId": 122559440,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592553,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150628,
-        "id": "ESTA:260150628",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122559440,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Shepparton",
+        "eventId": "F260103230",
+        "id": "ESTA:260103230",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-07T23:26:46.000Z",
-        "updated": "2026-01-07T23:26:46.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-01-07T23:46:02.000Z",
+        "updated": "2026-01-07T23:46:45.536Z",
         "resources": 0,
-        "location": "Glenaroua",
-        "sesId": 592553
+        "location": "Poplar Av, Shepparton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95280483221035,
-          -37.04194226332224
+          145.41311487610471,
+          -36.39903983246245
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122558075,
+        "status": "Responding",
+        "estaId": 122559425,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254327,
+        "sourceId": 254369,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Robertsons Rd",
-        "eventId": 260103160,
-        "id": "ESTA:260103160",
+        "sourceTitle": "Doxeys Lane",
+        "eventId": 260103228,
+        "id": "ESTA:260103228",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-07T21:48:00.000Z",
-        "updated": "2026-01-07T23:27:00.000Z",
+        "category2": "Building Fire",
+        "created": "2026-01-07T23:45:00.000Z",
+        "updated": "2026-01-07T23:45:00.000Z",
         "resources": 0,
-        "location": "Robertsons Rd, Bolwarra",
-        "cfaId": 254327,
+        "location": "Doxeys Lane, Upton Hill",
+        "cfaId": 254369,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2412,37 +2627,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.5958734958357,
-          -38.27829452922555
+          145.38545513520424,
+          -36.910183181411305
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122557075,
+        "status": "Safe",
+        "estaId": 122559350,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122557075,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "St Leonards",
-        "eventId": "F260103113",
-        "id": "ESTA:260103113",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254364,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Upton Rd",
+        "eventId": 260103223,
+        "id": "ESTA:260103223",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-01-07T18:23:47.000Z",
-        "updated": "2026-01-07T23:28:00.925Z",
+        "created": "2026-01-07T23:41:00.000Z",
+        "updated": "2026-01-07T23:49:00.000Z",
         "resources": 0,
-        "location": "Ibbotson St, St Leonards"
+        "location": "Upton Rd, Avenel",
+        "cfaId": 254364,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7031645181738,
-          -38.16403968490597
+          145.35319203804767,
+          -36.916626556969454
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122559144,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592552,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150627,
+        "id": "ESTA:260150627",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-07T23:25:16.000Z",
+        "updated": "2026-01-07T23:50:13.000Z",
+        "resources": 0,
+        "location": "West Footscray",
+        "sesId": 592552
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86549001194876,
+          -37.81222874741033
         ]
       }
     },
@@ -2508,19 +2756,19 @@
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "640383",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "James Rd, Pine Lodge",
-        "id": "2026-01-08T10:08:00.0000000:640383",
+        "id": "2026-01-08T10:25:00.0000000:640383",
         "category1": "Other",
         "category2": "Other Non-Urgent Alerts",
         "name": "James Rd, Pine Lodge",
         "location": "James Rd, Pine Lodge 2714",
-        "created": "2026-01-08T10:08:00+11:00",
-        "updated": "2026-01-08T10:08:00+11:00",
+        "created": "2026-01-08T10:25:00+11:00",
+        "updated": "2026-01-08T10:25:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2533,6 +2781,36 @@
         "coordinates": [
           145.433059693,
           -35.653751374
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "640387",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hilsley Lane, Jindera",
+        "id": "2026-01-08T10:41:00.0000000:640387",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Hilsley Lane, Jindera",
+        "location": "Hilsley Lane, Jindera 2642",
+        "created": "2026-01-08T10:41:00+11:00",
+        "updated": "2026-01-08T10:41:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.92074585,
+          -35.9850807179999
         ]
       }
     },
@@ -2593,127 +2871,6 @@
         "coordinates": [
           146.955703735,
           -36.071594239
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "639894",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "River Rd, Jingellic",
-        "id": "2026-01-08T00:46:00.0000000:639894",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "River Rd, Jingellic",
-        "location": "River Rd, Jingellic 2642",
-        "created": "2026-01-08T00:46:00+11:00",
-        "updated": "2026-01-08T00:46:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "3 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.662,
-                  -35.9167
-                ],
-                [
-                  147.6622,
-                  -35.9161
-                ],
-                [
-                  147.6628,
-                  -35.9157
-                ],
-                [
-                  147.6634,
-                  -35.9156
-                ],
-                [
-                  147.6635,
-                  -35.9159
-                ],
-                [
-                  147.6633,
-                  -35.9163
-                ],
-                [
-                  147.6626,
-                  -35.9166
-                ],
-                [
-                  147.6623,
-                  -35.9167
-                ],
-                [
-                  147.662,
-                  -35.9167
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.677,
-                  -35.9152
-                ],
-                [
-                  147.678,
-                  -35.915
-                ],
-                [
-                  147.6783,
-                  -35.9151
-                ],
-                [
-                  147.6784,
-                  -35.9156
-                ],
-                [
-                  147.6782,
-                  -35.9162
-                ],
-                [
-                  147.6774,
-                  -35.9164
-                ],
-                [
-                  147.6769,
-                  -35.9161
-                ],
-                [
-                  147.6768,
-                  -35.9157
-                ],
-                [
-                  147.677,
-                  -35.9152
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              147.66204834,
-              -35.916622162
-            ]
-          }
         ]
       }
     },
@@ -2923,122 +3080,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 254335,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254335,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lewis Rd",
-        "eventId": 260103177,
-        "id": "ESTA:260103177",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-07T22:36:00.000Z",
-        "updated": "2026-01-07T22:36:00.000Z",
-        "resources": 0,
-        "location": "Lewis Rd, Ladys Pass",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6807650009586,
-          -36.79989703922175
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 254336,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254336,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wards Rd",
-        "eventId": 260103179,
-        "id": "ESTA:260103179",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-07T22:39:00.000Z",
-        "updated": "2026-01-07T22:39:00.000Z",
-        "resources": 0,
-        "location": "Wards Rd, Huntly",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.29386826361036,
-          -36.649086083424464
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 254341,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254341,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Weeks Rd",
-        "eventId": 260103187,
-        "id": "ESTA:260103187",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-07T22:45:00.000Z",
-        "updated": "2026-01-07T22:45:00.000Z",
-        "resources": 0,
-        "location": "Weeks Rd, Ascot (Bendigo)",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.33050005570226,
-          -36.693000099821234
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 254337,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254337,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wattlegum Rd",
-        "eventId": 260103180,
-        "id": "ESTA:260103180",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-07T22:40:00.000Z",
-        "updated": "2026-01-07T22:47:00.000Z",
-        "resources": 0,
-        "location": "Wattlegum Rd, Whipstick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.26040093077538,
-          -36.65236689284023
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 254343,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3126,20 +3167,20 @@
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 254346,
+        "cfaId": 254353,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254346,
+        "sourceId": 254353,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wright Lane",
-        "eventId": 260103195,
-        "id": "ESTA:260103195",
-        "category1": "Fire",
+        "sourceTitle": "Hedley Range Rd",
+        "eventId": 260103204,
+        "id": "ESTA:260103204",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-01-07T23:02:00.000Z",
-        "updated": "2026-01-07T23:02:00.000Z",
-        "resources": 7,
-        "location": "Wright Lane, Myrtle Creek",
+        "created": "2026-01-07T23:22:00.000Z",
+        "updated": "2026-01-07T23:22:00.000Z",
+        "resources": 2,
+        "location": "Hedley Range Rd, Binginwarri",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3147,8 +3188,153 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.36564744912206,
-          -36.92094027136371
+          146.447073541212,
+          -38.61263806677526
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 254354,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254354,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Shillidays Rd",
+        "eventId": 260103205,
+        "id": "ESTA:260103205",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-07T23:22:00.000Z",
+        "updated": "2026-01-07T23:22:00.000Z",
+        "resources": 4,
+        "location": "Shillidays Rd, Barfold",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.49000982493914,
+          -37.120393859496076
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 254327,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254327,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Robertsons Rd",
+        "eventId": 260103160,
+        "id": "ESTA:260103160",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-01-07T21:48:00.000Z",
+        "updated": "2026-01-07T23:27:00.000Z",
+        "resources": 0,
+        "location": "Robertsons Rd, Bolwarra",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5958734958357,
+          -38.27829452922555
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 254352,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254352,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lower Beckhams Rd",
+        "eventId": 260103203,
+        "id": "ESTA:260103203",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:19:00.000Z",
+        "updated": "2026-01-07T23:28:00.000Z",
+        "resources": 0,
+        "location": "Lower Beckhams Rd, Maiden Gully",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.20446219238735,
+          -36.74947501292166
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 254357,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254357,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Upton Rd",
+        "eventId": 260103214,
+        "id": "ESTA:260103214",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:34:00.000Z",
+        "updated": "2026-01-07T23:34:00.000Z",
+        "resources": 0,
+        "location": "Upton Rd, Upton Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41883685030237,
+          -36.887890907390236
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 254356,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254356,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Graham St",
+        "eventId": 260103213,
+        "id": "ESTA:260103213",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-07T23:33:00.000Z",
+        "updated": "2026-01-07T23:47:00.000Z",
+        "resources": 0,
+        "location": "Graham St, Wonthaggi",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59011580508474,
+          -38.60617124156155
         ]
       }
     },
@@ -3176,33 +3362,6 @@
         "coordinates": [
           144.73406284221727,
           -37.577373281808455
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 592543,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592543,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150617,
-        "id": "ESTA:260150617",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-07T23:05:40.000Z",
-        "updated": "2026-01-07T23:07:55.000Z",
-        "resources": 0,
-        "location": "Frankston South"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.11796678868293,
-          -38.18348278660117
         ]
       }
     },
@@ -3236,27 +3395,81 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 592546,
+        "sesId": 592550,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 592546,
+        "sourceId": 592550,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260150620,
-        "id": "ESTA:260150620",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-07T23:09:14.000Z",
-        "updated": "2026-01-07T23:15:21.000Z",
+        "eventId": 260150624,
+        "id": "ESTA:260150624",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-01-07T23:19:26.000Z",
+        "updated": "2026-01-07T23:22:48.000Z",
         "resources": 0,
-        "location": "Murchison"
+        "location": "Maiden Gully"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1863637202242,
-          -36.6412679791152
+          144.20446219238735,
+          -36.74947501292166
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 592553,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592553,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150628,
+        "id": "ESTA:260150628",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-07T23:26:46.000Z",
+        "updated": "2026-01-07T23:40:02.000Z",
+        "resources": 2,
+        "location": "Glenaroua"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95280483221035,
+          -37.04194226332224
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 592543,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592543,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150617,
+        "id": "ESTA:260150617",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-07T23:05:40.000Z",
+        "updated": "2026-01-07T23:40:56.000Z",
+        "resources": 1,
+        "location": "Frankston South"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11796678868293,
+          -38.18348278660117
         ]
       }
     },
@@ -7401,7 +7614,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-07T23:28:20.045Z",
-    "featureCount": 255
+    "lastUpdated": "2026-01-07T23:51:06.068Z",
+    "featureCount": 265
   }
 }
