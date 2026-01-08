@@ -3671,58 +3671,6 @@
     },
     {
       "properties": {
-        "status": "Contained",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1681012",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Reid Road, Lucindale",
-        "id": "1681012",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Reid Road, Lucindale",
-        "created": "2026-01-08T14:50:00.000Z",
-        "updated": "2026-01-08T14:50:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Reid Road, Lucindale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.448712969636,
-          -37.0819891001248
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1681013",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Penola Lucindale Road, Maaoupe",
-        "id": "1681013",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Penola Lucindale Road, Maaoupe",
-        "created": "2026-01-08T15:12:00.000Z",
-        "updated": "2026-01-08T15:12:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Penola Lucindale Road, Maaoupe"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.784842259014,
-          -37.2853759542297
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -4112,9 +4060,9 @@
         "category2": "Bushfire",
         "created": "2026-01-08T05:13:00.000Z",
         "updated": "2026-01-08T05:16:00.000Z",
-        "resources": 5,
-        "size": "0.50",
-        "sizeFmt": "0.50 Ha.",
+        "resources": 0,
+        "size": "3.00",
+        "sizeFmt": "3.00 Ha.",
         "location": "Orbost - Knob Track"
       },
       "type": "Feature",
@@ -4128,7 +4076,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 102645018,
@@ -4139,7 +4087,7 @@
         "category2": "Bushfire",
         "created": "2026-01-08T05:27:00.000Z",
         "updated": "2026-01-08T05:27:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "size": "0.30",
         "sizeFmt": "0.30 Ha.",
         "location": "Yalmy - Serpentine Creek"
@@ -4452,7 +4400,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
+        "estaId": 122569114,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122569114,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Reservoir",
+        "eventId": "F260103703",
+        "id": "ESTA:260103703",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-01-08T15:43:34.000Z",
+        "updated": "2026-01-08T15:44:31.287Z",
+        "resources": 3,
+        "location": "Albert St, Reservoir"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02557957349083,
+          -37.72755937203888
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122569008,
         "feedType": "incident",
         "source": "RADIO",
@@ -4464,10 +4441,10 @@
         "id": "ESTA:260103697",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
+        "category2": "Bushfire",
         "created": "2026-01-08T15:21:00.000Z",
-        "updated": "2026-01-08T15:21:00.000Z",
-        "resources": 1,
+        "updated": "2026-01-08T15:45:00.000Z",
+        "resources": 2,
         "location": "Dartmoor-Hamilton Rd, Yulecart",
         "cfaId": 254684,
         "size": "Small",
@@ -4484,24 +4461,202 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 122568583,
+        "status": "Request For Assistance",
+        "estaId": 122569116,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592687,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150772,
+        "id": "ESTA:260150772",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T15:45:10.000Z",
+        "updated": "2026-01-08T15:45:49.000Z",
+        "resources": 0,
+        "location": "Arcadia",
+        "sesId": 592687
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33514487515777,
+          -36.58476024784735
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122569125,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592688,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150773,
+        "id": "ESTA:260150773",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T15:47:06.000Z",
+        "updated": "2026-01-08T15:51:41.000Z",
+        "resources": 0,
+        "location": "Nicholson",
+        "sesId": 592688
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.73619134122202,
+          -37.817420414818955
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122569127,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254674,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Betts Trk",
-        "eventId": 260103678,
-        "id": "ESTA:260103678",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592689,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150774,
+        "id": "ESTA:260150774",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T15:47:45.000Z",
+        "updated": "2026-01-08T15:51:08.000Z",
+        "resources": 0,
+        "location": "West Footscray",
+        "sesId": 592689
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8737574727145,
+          -37.79685127031935
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122569130,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122569130,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Norlane",
+        "eventId": "F260103706",
+        "id": "ESTA:260103706",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-08T14:06:00.000Z",
-        "updated": "2026-01-08T14:06:00.000Z",
-        "resources": 4,
-        "location": "Betts Trk, Dalyenong",
-        "cfaId": 254674,
+        "category2": "Fire",
+        "created": "2026-01-08T15:41:38.000Z",
+        "updated": "2026-01-08T15:50:34.860Z",
+        "resources": 2,
+        "location": "Station St, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36649589600955,
+          -38.090297804222004
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122568787,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122568787,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Shepherds Flat",
+        "eventId": "S260150766",
+        "id": "ESTA:260150766",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T14:33:47.000Z",
+        "updated": "2026-01-08T15:50:38.274Z",
+        "resources": 0,
+        "location": "Powell Connection Rd, Shepherds Flat"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.12834129948982,
+          -37.248686385664435
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122568863,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592683,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150767,
+        "id": "ESTA:260150767",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T14:51:05.000Z",
+        "updated": "2026-01-08T15:50:47.000Z",
+        "resources": 0,
+        "location": "Leonards Hill",
+        "sesId": 592683
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.12355824675467,
+          -37.40586651979752
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122569140,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254687,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Henty Hwy",
+        "eventId": 260103708,
+        "id": "ESTA:260103708",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-08T15:51:00.000Z",
+        "updated": "2026-01-08T15:51:00.000Z",
+        "resources": 1,
+        "location": "Henty Hwy, Hamilton",
+        "cfaId": 254687,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4509,14 +4664,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.3558616020628,
-          -36.79338171463968
+          141.99423884614788,
+          -37.72210605343655
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
+        "estaId": 122569139,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122569139,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Warrnambool",
+        "eventId": "F260103707",
+        "id": "ESTA:260103707",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-01-08T15:48:47.000Z",
+        "updated": "2026-01-08T15:51:49.951Z",
+        "resources": 0,
+        "location": "Denneys St, Warrnambool"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.48918016971228,
+          -38.38138698982891
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122569035,
         "feedType": "incident",
         "source": "RADIO",
@@ -4530,8 +4714,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-01-08T15:26:00.000Z",
-        "updated": "2026-01-08T15:26:00.000Z",
-        "resources": 1,
+        "updated": "2026-01-08T15:54:00.000Z",
+        "resources": 0,
         "location": "Satimer Rd, Wando Vale",
         "cfaId": 254685,
         "size": "Small",
@@ -4548,30 +4732,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122568975,
+        "status": "Complete",
+        "estaId": 122568877,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122568975,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "St Albans",
-        "eventId": "F260103695",
-        "id": "ESTA:260103695",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 592684,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260150768,
+        "id": "ESTA:260150768",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-01-08T15:11:36.000Z",
-        "updated": "2026-01-08T15:26:58.831Z",
-        "resources": 3,
-        "location": "Sunshine Av, St Albans"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-08T14:53:57.000Z",
+        "updated": "2026-01-08T15:55:43.000Z",
+        "resources": 0,
+        "location": "Tylden",
+        "sesId": 592684
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.83071981269296,
-          -37.748940312747706
+          144.41594622268647,
+          -37.302737984597094
         ]
       }
     },
@@ -13782,13 +13967,13 @@
         "sourceId": "640470",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Fantail Rd, Yambulla",
-        "id": "2026-01-08T20:10:00.0000000:640470",
+        "id": "2026-01-09T02:47:00.0000000:640470",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Fantail Rd, Yambulla",
         "location": "Fantail Rd, Yambulla 2550",
-        "created": "2026-01-08T20:10:00+11:00",
-        "updated": "2026-01-08T20:10:00+11:00",
+        "created": "2026-01-09T02:47:00+11:00",
+        "updated": "2026-01-09T02:47:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -13976,6 +14161,36 @@
     },
     {
       "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "640504",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wattle Scrub Road",
+        "id": "2026-01-09T02:21:00.0000000:640504",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Wattle Scrub Road",
+        "location": "Wattle Scrub Road",
+        "created": "2026-01-09T02:21:00+11:00",
+        "updated": "2026-01-09T02:21:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.215377808,
+          -37.1433219909999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Not Yet Under Control",
         "cfaId": 253703,
         "feedType": "incident",
@@ -14105,7 +14320,7 @@
         "category2": "Bushfire",
         "created": "2026-01-07T03:30:00.000Z",
         "updated": "2026-01-08T05:01:00.000Z",
-        "resources": 84,
+        "resources": 87,
         "location": "Fire Longwood Hume Fwy, Longwood",
         "size": "Large",
         "sizeFmt": "Large"
@@ -14179,79 +14394,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 254676,
+        "status": "Not Yet Under Control",
+        "cfaId": 254674,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254676,
+        "sourceId": 254674,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Queens Rd",
-        "eventId": 260103683,
-        "id": "ESTA:260103683",
+        "sourceTitle": "Betts Trk",
+        "eventId": 260103678,
+        "id": "ESTA:260103678",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-08T14:26:00.000Z",
-        "updated": "2026-01-08T14:47:00.000Z",
-        "resources": 0,
-        "location": "Queens Rd, Wandin East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.45565210067014,
-          -37.79572637849023
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 254679,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254679,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260103689,
-        "id": "ESTA:260103689",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-08T14:42:00.000Z",
-        "updated": "2026-01-08T14:51:00.000Z",
-        "resources": 0,
-        "location": "Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.71151233440312,
-          -37.6090105743143
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 254665,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254665,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stewarton Rd",
-        "eventId": 260103660,
-        "id": "ESTA:260103660",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-08T12:55:00.000Z",
-        "updated": "2026-01-08T14:55:00.000Z",
+        "category2": "Bushfire",
+        "created": "2026-01-08T14:06:00.000Z",
+        "updated": "2026-01-08T14:06:00.000Z",
         "resources": 4,
-        "location": "Stewarton Rd, Stewarton",
+        "location": "Betts Trk, Dalyenong",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -14259,8 +14416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.78289390693206,
-          -36.406934647068844
+          143.3558616020628,
+          -36.79338171463968
         ]
       }
     },
@@ -14279,7 +14436,7 @@
         "category2": "Bushfire",
         "created": "2026-01-08T14:10:00.000Z",
         "updated": "2026-01-08T15:12:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "I Merrett Rd, Serviceton",
         "size": "Small",
         "sizeFmt": "Small"
@@ -14324,82 +14481,86 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 592683,
+        "status": "Responding",
+        "cfaId": 254686,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592683,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150767,
-        "id": "ESTA:260150767",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-08T14:51:05.000Z",
-        "updated": "2026-01-08T15:18:13.000Z",
-        "resources": 1,
-        "location": "Leonards Hill"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254686,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Coleraine-Edenhope Rd",
+        "eventId": 260103701,
+        "id": "ESTA:260103701",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-08T15:39:00.000Z",
+        "updated": "2026-01-08T15:39:00.000Z",
+        "resources": 5,
+        "location": "Coleraine-Edenhope Rd, Konongwootong",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.12355824675467,
-          -37.40586651979752
+          141.68289383112614,
+          -37.51168753172842
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 592682,
+        "status": "Responding",
+        "cfaId": 254688,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 592682,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260150766,
-        "id": "ESTA:260150766",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-08T14:37:59.000Z",
-        "updated": "2026-01-08T15:18:22.000Z",
-        "resources": 1,
-        "location": "Shepherds Flat"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254688,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Robinsons Rd",
+        "eventId": 260103709,
+        "id": "ESTA:260103709",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-08T15:54:00.000Z",
+        "updated": "2026-01-08T15:54:00.000Z",
+        "resources": 2,
+        "location": "Robinsons Rd, Ravenhall",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.12833100573744,
-          -37.24869719948665
+          144.75453266498772,
+          -37.77822829730516
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 592684,
+        "sesId": 592686,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 592684,
+        "sourceId": 592686,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260150768,
-        "id": "ESTA:260150768",
+        "eventId": 260150771,
+        "id": "ESTA:260150771",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2026-01-08T14:53:57.000Z",
-        "updated": "2026-01-08T15:23:31.000Z",
-        "resources": 1,
-        "location": "Tylden"
+        "created": "2026-01-08T15:35:13.000Z",
+        "updated": "2026-01-08T15:40:16.000Z",
+        "resources": 0,
+        "location": "Whittlesea"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.41594622268647,
-          -37.302737984597094
+          145.11966049712535,
+          -37.5108869877348
         ]
       }
     },
@@ -14408,13 +14569,13 @@
       "properties": {
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": "tfb/Mallee/09-01-2026",
+        "sourceId": "tfb/East_Gippsland/09-01-2026",
         "sourceFeed": "cfa-fdrtfb",
-        "sourceTitle": "Mallee",
-        "id": "tfb/Mallee/09-01-2026",
+        "sourceTitle": "East Gippsland",
+        "id": "tfb/East_Gippsland/09-01-2026",
         "category1": "Fire",
         "category2": "Total Fire Ban",
-        "location": "Mallee, East Gippsland, West and South Gippsland, North East, Central, North Central, Northern Country, South West, Wimmera",
+        "location": "East Gippsland, West and South Gippsland, North East, Central, North Central, Northern Country, South West, Wimmera, Mallee",
         "status": "TOTAL FIRE BAN IN FORCE",
         "webHeadline": "Today, Fri, 9 Jan 2026 has been declared a day of Total Fire Ban for the whole State of Victoria.  No fires can be lit or be allowed to remain alight in the open air from 12:01 AM on Fri, 9 Jan 2026 until 11:59 PM Fri, 9 Jan 2026.",
         "created": "2026-01-08T13:00:00.000Z",
@@ -14425,1476 +14586,6 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  140.9854,
-                  -34.0234
-                ],
-                [
-                  141.0124,
-                  -34.025
-                ],
-                [
-                  141.0035,
-                  -34.0392
-                ],
-                [
-                  141.0242,
-                  -34.0591
-                ],
-                [
-                  141.0342,
-                  -34.0362
-                ],
-                [
-                  141.0449,
-                  -34.0432
-                ],
-                [
-                  141.044,
-                  -34.0608
-                ],
-                [
-                  141.1558,
-                  -34.0548
-                ],
-                [
-                  141.1543,
-                  -34.0812
-                ],
-                [
-                  141.1757,
-                  -34.0739
-                ],
-                [
-                  141.1838,
-                  -34.0912
-                ],
-                [
-                  141.1867,
-                  -34.0793
-                ],
-                [
-                  141.2046,
-                  -34.0623
-                ],
-                [
-                  141.2443,
-                  -34.0637
-                ],
-                [
-                  141.2439,
-                  -34.0869
-                ],
-                [
-                  141.2609,
-                  -34.0789
-                ],
-                [
-                  141.3259,
-                  -34.131
-                ],
-                [
-                  141.3252,
-                  -34.1378
-                ],
-                [
-                  141.3585,
-                  -34.11
-                ],
-                [
-                  141.3843,
-                  -34.1225
-                ],
-                [
-                  141.3898,
-                  -34.1338
-                ],
-                [
-                  141.4103,
-                  -34.1282
-                ],
-                [
-                  141.4096,
-                  -34.147
-                ],
-                [
-                  141.436,
-                  -34.1451
-                ],
-                [
-                  141.4342,
-                  -34.1591
-                ],
-                [
-                  141.4454,
-                  -34.1671
-                ],
-                [
-                  141.4988,
-                  -34.1557
-                ],
-                [
-                  141.5203,
-                  -34.1816
-                ],
-                [
-                  141.5161,
-                  -34.2077
-                ],
-                [
-                  141.51,
-                  -34.2155
-                ],
-                [
-                  141.5341,
-                  -34.2096
-                ],
-                [
-                  141.5335,
-                  -34.192
-                ],
-                [
-                  141.5695,
-                  -34.1934
-                ],
-                [
-                  141.583,
-                  -34.198
-                ],
-                [
-                  141.5907,
-                  -34.1872
-                ],
-                [
-                  141.6045,
-                  -34.1884
-                ],
-                [
-                  141.59,
-                  -34.1807
-                ],
-                [
-                  141.603,
-                  -34.1678
-                ],
-                [
-                  141.5929,
-                  -34.1571
-                ],
-                [
-                  141.5834,
-                  -34.1528
-                ],
-                [
-                  141.6072,
-                  -34.1492
-                ],
-                [
-                  141.6193,
-                  -34.1555
-                ],
-                [
-                  141.613,
-                  -34.1387
-                ],
-                [
-                  141.6298,
-                  -34.1441
-                ],
-                [
-                  141.6327,
-                  -34.1208
-                ],
-                [
-                  141.6766,
-                  -34.1011
-                ],
-                [
-                  141.7083,
-                  -34.0952
-                ],
-                [
-                  141.7209,
-                  -34.1135
-                ],
-                [
-                  141.728,
-                  -34.0916
-                ],
-                [
-                  141.8427,
-                  -34.1309
-                ],
-                [
-                  141.8722,
-                  -34.1314
-                ],
-                [
-                  141.8784,
-                  -34.1336
-                ],
-                [
-                  141.8865,
-                  -34.1195
-                ],
-                [
-                  141.8855,
-                  -34.1148
-                ],
-                [
-                  141.9237,
-                  -34.1134
-                ],
-                [
-                  141.9318,
-                  -34.1363
-                ],
-                [
-                  141.9433,
-                  -34.1191
-                ],
-                [
-                  141.9684,
-                  -34.1355
-                ],
-                [
-                  141.9726,
-                  -34.1142
-                ],
-                [
-                  142.0194,
-                  -34.1244
-                ],
-                [
-                  142.0133,
-                  -34.1053
-                ],
-                [
-                  142.0412,
-                  -34.0995
-                ],
-                [
-                  142.0315,
-                  -34.1261
-                ],
-                [
-                  142.0783,
-                  -34.1317
-                ],
-                [
-                  142.0669,
-                  -34.1505
-                ],
-                [
-                  142.0786,
-                  -34.1551
-                ],
-                [
-                  142.085,
-                  -34.1717
-                ],
-                [
-                  142.1045,
-                  -34.1754
-                ],
-                [
-                  142.1206,
-                  -34.1735
-                ],
-                [
-                  142.1206,
-                  -34.1569
-                ],
-                [
-                  142.1443,
-                  -34.1506
-                ],
-                [
-                  142.1455,
-                  -34.149
-                ],
-                [
-                  142.1643,
-                  -34.1507
-                ],
-                [
-                  142.164,
-                  -34.1761
-                ],
-                [
-                  142.1682,
-                  -34.1818
-                ],
-                [
-                  142.2218,
-                  -34.1817
-                ],
-                [
-                  142.241,
-                  -34.2074
-                ],
-                [
-                  142.2456,
-                  -34.2076
-                ],
-                [
-                  142.2413,
-                  -34.248
-                ],
-                [
-                  142.2335,
-                  -34.2556
-                ],
-                [
-                  142.2503,
-                  -34.2658
-                ],
-                [
-                  142.2505,
-                  -34.2864
-                ],
-                [
-                  142.2347,
-                  -34.2969
-                ],
-                [
-                  142.2357,
-                  -34.3049
-                ],
-                [
-                  142.2861,
-                  -34.2961
-                ],
-                [
-                  142.3001,
-                  -34.3064
-                ],
-                [
-                  142.2872,
-                  -34.3093
-                ],
-                [
-                  142.2852,
-                  -34.3254
-                ],
-                [
-                  142.3177,
-                  -34.3312
-                ],
-                [
-                  142.3341,
-                  -34.3377
-                ],
-                [
-                  142.3697,
-                  -34.3258
-                ],
-                [
-                  142.3954,
-                  -34.3335
-                ],
-                [
-                  142.3897,
-                  -34.3589
-                ],
-                [
-                  142.3903,
-                  -34.3623
-                ],
-                [
-                  142.3635,
-                  -34.363
-                ],
-                [
-                  142.3777,
-                  -34.3663
-                ],
-                [
-                  142.3654,
-                  -34.3861
-                ],
-                [
-                  142.353,
-                  -34.3963
-                ],
-                [
-                  142.3684,
-                  -34.4356
-                ],
-                [
-                  142.3551,
-                  -34.4691
-                ],
-                [
-                  142.3808,
-                  -34.4665
-                ],
-                [
-                  142.3848,
-                  -34.4765
-                ],
-                [
-                  142.3635,
-                  -34.4874
-                ],
-                [
-                  142.3605,
-                  -34.4975
-                ],
-                [
-                  142.383,
-                  -34.4909
-                ],
-                [
-                  142.3938,
-                  -34.4916
-                ],
-                [
-                  142.379,
-                  -34.5185
-                ],
-                [
-                  142.4012,
-                  -34.5243
-                ],
-                [
-                  142.3738,
-                  -34.5302
-                ],
-                [
-                  142.3787,
-                  -34.5398
-                ],
-                [
-                  142.3917,
-                  -34.5476
-                ],
-                [
-                  142.406,
-                  -34.5418
-                ],
-                [
-                  142.4085,
-                  -34.5665
-                ],
-                [
-                  142.4288,
-                  -34.5624
-                ],
-                [
-                  142.4479,
-                  -34.5795
-                ],
-                [
-                  142.4546,
-                  -34.5817
-                ],
-                [
-                  142.4503,
-                  -34.5599
-                ],
-                [
-                  142.4663,
-                  -34.5627
-                ],
-                [
-                  142.4598,
-                  -34.6295
-                ],
-                [
-                  142.4547,
-                  -34.6322
-                ],
-                [
-                  142.486,
-                  -34.6364
-                ],
-                [
-                  142.4749,
-                  -34.648
-                ],
-                [
-                  142.4739,
-                  -34.6679
-                ],
-                [
-                  142.5128,
-                  -34.6601
-                ],
-                [
-                  142.517,
-                  -34.6634
-                ],
-                [
-                  142.4995,
-                  -34.671
-                ],
-                [
-                  142.5071,
-                  -34.6976
-                ],
-                [
-                  142.4995,
-                  -34.7024
-                ],
-                [
-                  142.5199,
-                  -34.702
-                ],
-                [
-                  142.5083,
-                  -34.7472
-                ],
-                [
-                  142.5234,
-                  -34.7575
-                ],
-                [
-                  142.6213,
-                  -34.785
-                ],
-                [
-                  142.6334,
-                  -34.7826
-                ],
-                [
-                  142.6455,
-                  -34.7633
-                ],
-                [
-                  142.6206,
-                  -34.7572
-                ],
-                [
-                  142.6166,
-                  -34.7289
-                ],
-                [
-                  142.6633,
-                  -34.7213
-                ],
-                [
-                  142.6662,
-                  -34.7325
-                ],
-                [
-                  142.6793,
-                  -34.7382
-                ],
-                [
-                  142.6817,
-                  -34.722
-                ],
-                [
-                  142.6979,
-                  -34.7246
-                ],
-                [
-                  142.6787,
-                  -34.6806
-                ],
-                [
-                  142.686,
-                  -34.6694
-                ],
-                [
-                  142.7093,
-                  -34.6773
-                ],
-                [
-                  142.6897,
-                  -34.6521
-                ],
-                [
-                  142.7084,
-                  -34.6204
-                ],
-                [
-                  142.6895,
-                  -34.6169
-                ],
-                [
-                  142.7036,
-                  -34.5965
-                ],
-                [
-                  142.7454,
-                  -34.6019
-                ],
-                [
-                  142.7612,
-                  -34.5982
-                ],
-                [
-                  142.7449,
-                  -34.5825
-                ],
-                [
-                  142.752,
-                  -34.5751
-                ],
-                [
-                  142.7835,
-                  -34.5788
-                ],
-                [
-                  142.7706,
-                  -34.5682
-                ],
-                [
-                  142.7914,
-                  -34.5454
-                ],
-                [
-                  142.8106,
-                  -34.5611
-                ],
-                [
-                  142.8016,
-                  -34.579
-                ],
-                [
-                  142.7871,
-                  -34.5874
-                ],
-                [
-                  142.8102,
-                  -34.5878
-                ],
-                [
-                  142.8045,
-                  -34.606
-                ],
-                [
-                  142.8231,
-                  -34.5994
-                ],
-                [
-                  142.8426,
-                  -34.6256
-                ],
-                [
-                  142.8554,
-                  -34.6189
-                ],
-                [
-                  142.8692,
-                  -34.6271
-                ],
-                [
-                  142.856,
-                  -34.6394
-                ],
-                [
-                  142.8645,
-                  -34.6385
-                ],
-                [
-                  142.8722,
-                  -34.6493
-                ],
-                [
-                  142.8611,
-                  -34.6634
-                ],
-                [
-                  142.8859,
-                  -34.6794
-                ],
-                [
-                  142.9131,
-                  -34.651
-                ],
-                [
-                  142.9251,
-                  -34.6474
-                ],
-                [
-                  142.9599,
-                  -34.6644
-                ],
-                [
-                  142.9732,
-                  -34.694
-                ],
-                [
-                  142.9749,
-                  -34.6711
-                ],
-                [
-                  142.9902,
-                  -34.6616
-                ],
-                [
-                  143.0178,
-                  -34.6732
-                ],
-                [
-                  143.0084,
-                  -34.6871
-                ],
-                [
-                  143.0135,
-                  -34.6939
-                ],
-                [
-                  143.0305,
-                  -34.6859
-                ],
-                [
-                  143.0387,
-                  -34.7007
-                ],
-                [
-                  143.0437,
-                  -34.6878
-                ],
-                [
-                  143.0544,
-                  -34.698
-                ],
-                [
-                  143.0712,
-                  -34.6796
-                ],
-                [
-                  143.0914,
-                  -34.7005
-                ],
-                [
-                  143.1121,
-                  -34.6797
-                ],
-                [
-                  143.1125,
-                  -34.6873
-                ],
-                [
-                  143.1083,
-                  -34.7003
-                ],
-                [
-                  143.1336,
-                  -34.7001
-                ],
-                [
-                  143.1472,
-                  -34.7136
-                ],
-                [
-                  143.1618,
-                  -34.6983
-                ],
-                [
-                  143.166,
-                  -34.7173
-                ],
-                [
-                  143.1814,
-                  -34.7089
-                ],
-                [
-                  143.2003,
-                  -34.7172
-                ],
-                [
-                  143.2029,
-                  -34.7334
-                ],
-                [
-                  143.2194,
-                  -34.7291
-                ],
-                [
-                  143.22,
-                  -34.7472
-                ],
-                [
-                  143.2256,
-                  -34.7579
-                ],
-                [
-                  143.2654,
-                  -34.7475
-                ],
-                [
-                  143.2737,
-                  -34.7519
-                ],
-                [
-                  143.2523,
-                  -34.7723
-                ],
-                [
-                  143.2757,
-                  -34.7829
-                ],
-                [
-                  143.2787,
-                  -34.7927
-                ],
-                [
-                  143.31,
-                  -34.7803
-                ],
-                [
-                  143.3513,
-                  -34.7941
-                ],
-                [
-                  143.3586,
-                  -34.8159
-                ],
-                [
-                  143.3417,
-                  -34.8468
-                ],
-                [
-                  143.3523,
-                  -34.8583
-                ],
-                [
-                  143.331,
-                  -34.8845
-                ],
-                [
-                  143.3215,
-                  -34.8888
-                ],
-                [
-                  143.3415,
-                  -34.9179
-                ],
-                [
-                  143.3177,
-                  -34.9532
-                ],
-                [
-                  143.3237,
-                  -34.9802
-                ],
-                [
-                  143.319,
-                  -34.9921
-                ],
-                [
-                  143.3367,
-                  -35.0077
-                ],
-                [
-                  143.3382,
-                  -35.0106
-                ],
-                [
-                  143.3302,
-                  -35.0369
-                ],
-                [
-                  143.3234,
-                  -35.0363
-                ],
-                [
-                  143.3417,
-                  -35.0618
-                ],
-                [
-                  143.3506,
-                  -35.0648
-                ],
-                [
-                  143.3414,
-                  -35.0941
-                ],
-                [
-                  143.3904,
-                  -35.1455
-                ],
-                [
-                  143.3911,
-                  -35.18
-                ],
-                [
-                  143.3877,
-                  -35.1842
-                ],
-                [
-                  143.4647,
-                  -35.2023
-                ],
-                [
-                  143.472,
-                  -35.2184
-                ],
-                [
-                  143.5733,
-                  -35.2092
-                ],
-                [
-                  143.5807,
-                  -35.2142
-                ],
-                [
-                  143.5652,
-                  -35.2357
-                ],
-                [
-                  143.5629,
-                  -35.2366
-                ],
-                [
-                  143.5905,
-                  -35.2807
-                ],
-                [
-                  143.5641,
-                  -35.3166
-                ],
-                [
-                  143.5665,
-                  -35.3424
-                ],
-                [
-                  143.5822,
-                  -35.3416
-                ],
-                [
-                  143.5981,
-                  -35.3514
-                ],
-                [
-                  143.6197,
-                  -35.3859
-                ],
-                [
-                  143.6407,
-                  -35.3999
-                ],
-                [
-                  143.6818,
-                  -35.373
-                ],
-                [
-                  143.6829,
-                  -35.3675
-                ],
-                [
-                  143.71,
-                  -35.3876
-                ],
-                [
-                  143.7091,
-                  -35.3915
-                ],
-                [
-                  143.7448,
-                  -35.386
-                ],
-                [
-                  143.7624,
-                  -35.3915
-                ],
-                [
-                  143.7628,
-                  -35.4216
-                ],
-                [
-                  143.7894,
-                  -35.4222
-                ],
-                [
-                  143.8119,
-                  -35.4338
-                ],
-                [
-                  143.8587,
-                  -35.4764
-                ],
-                [
-                  143.8594,
-                  -35.4792
-                ],
-                [
-                  143.9342,
-                  -35.5014
-                ],
-                [
-                  143.9336,
-                  -35.5055
-                ],
-                [
-                  143.9701,
-                  -35.5004
-                ],
-                [
-                  143.9627,
-                  -35.5131
-                ],
-                [
-                  143.9923,
-                  -35.5344
-                ],
-                [
-                  143.9954,
-                  -35.5347
-                ],
-                [
-                  143.9922,
-                  -35.5508
-                ],
-                [
-                  143.9901,
-                  -35.5526
-                ],
-                [
-                  144.0112,
-                  -35.5627
-                ],
-                [
-                  144.0392,
-                  -35.5522
-                ],
-                [
-                  144.0461,
-                  -35.5518
-                ],
-                [
-                  144.1006,
-                  -35.5892
-                ],
-                [
-                  144.1061,
-                  -35.5911
-                ],
-                [
-                  144.1182,
-                  -35.6249
-                ],
-                [
-                  144.1561,
-                  -35.6506
-                ],
-                [
-                  144.164,
-                  -35.6711
-                ],
-                [
-                  144.1867,
-                  -35.6697
-                ],
-                [
-                  144.2482,
-                  -35.7208
-                ],
-                [
-                  144.2692,
-                  -35.7536
-                ],
-                [
-                  144.2877,
-                  -35.7382
-                ],
-                [
-                  144.2964,
-                  -35.7367
-                ],
-                [
-                  144.3017,
-                  -35.7439
-                ],
-                [
-                  144.2959,
-                  -35.7541
-                ],
-                [
-                  144.3411,
-                  -35.7663
-                ],
-                [
-                  144.3485,
-                  -35.7665
-                ],
-                [
-                  144.3623,
-                  -35.7949
-                ],
-                [
-                  144.3749,
-                  -35.7911
-                ],
-                [
-                  144.3714,
-                  -35.8172
-                ],
-                [
-                  144.3645,
-                  -35.8208
-                ],
-                [
-                  144.3836,
-                  -35.8191
-                ],
-                [
-                  144.377,
-                  -35.835
-                ],
-                [
-                  144.3738,
-                  -35.8369
-                ],
-                [
-                  144.409,
-                  -35.8597
-                ],
-                [
-                  144.4108,
-                  -35.8594
-                ],
-                [
-                  144.4044,
-                  -35.8799
-                ],
-                [
-                  144.4183,
-                  -35.8928
-                ],
-                [
-                  144.409,
-                  -35.9036
-                ],
-                [
-                  144.3808,
-                  -35.8841
-                ],
-                [
-                  144.3455,
-                  -35.8939
-                ],
-                [
-                  144.3534,
-                  -35.9195
-                ],
-                [
-                  144.3355,
-                  -35.9341
-                ],
-                [
-                  144.2498,
-                  -35.9301
-                ],
-                [
-                  144.1875,
-                  -35.9078
-                ],
-                [
-                  144.1854,
-                  -35.9465
-                ],
-                [
-                  144.1606,
-                  -35.9466
-                ],
-                [
-                  144.1587,
-                  -35.9492
-                ],
-                [
-                  143.9231,
-                  -35.9528
-                ],
-                [
-                  143.9185,
-                  -35.9376
-                ],
-                [
-                  143.8617,
-                  -35.9349
-                ],
-                [
-                  143.874,
-                  -35.9162
-                ],
-                [
-                  143.7284,
-                  -35.9059
-                ],
-                [
-                  143.7282,
-                  -35.9325
-                ],
-                [
-                  143.6182,
-                  -35.9349
-                ],
-                [
-                  143.6181,
-                  -35.9694
-                ],
-                [
-                  143.4757,
-                  -35.9753
-                ],
-                [
-                  143.4819,
-                  -36.1014
-                ],
-                [
-                  143.5116,
-                  -36.1013
-                ],
-                [
-                  143.5135,
-                  -36.1733
-                ],
-                [
-                  143.5367,
-                  -36.174
-                ],
-                [
-                  143.5316,
-                  -36.2032
-                ],
-                [
-                  143.5683,
-                  -36.2224
-                ],
-                [
-                  143.5118,
-                  -36.265
-                ],
-                [
-                  143.5081,
-                  -36.2649
-                ],
-                [
-                  143.514,
-                  -36.295
-                ],
-                [
-                  143.4822,
-                  -36.2951
-                ],
-                [
-                  143.4811,
-                  -36.3617
-                ],
-                [
-                  143.4786,
-                  -36.3761
-                ],
-                [
-                  143.439,
-                  -36.3684
-                ],
-                [
-                  143.4458,
-                  -36.4419
-                ],
-                [
-                  143.4451,
-                  -36.446
-                ],
-                [
-                  143.4305,
-                  -36.4695
-                ],
-                [
-                  143.4123,
-                  -36.4678
-                ],
-                [
-                  143.4067,
-                  -36.4999
-                ],
-                [
-                  143.3157,
-                  -36.4768
-                ],
-                [
-                  143.2857,
-                  -36.4068
-                ],
-                [
-                  143.1475,
-                  -36.4097
-                ],
-                [
-                  143.1367,
-                  -36.4276
-                ],
-                [
-                  143.1331,
-                  -36.4494
-                ],
-                [
-                  143.0457,
-                  -36.4433
-                ],
-                [
-                  143.059,
-                  -36.4609
-                ],
-                [
-                  143.0515,
-                  -36.4772
-                ],
-                [
-                  143.0212,
-                  -36.474
-                ],
-                [
-                  143.0198,
-                  -36.4827
-                ],
-                [
-                  142.823,
-                  -36.4625
-                ],
-                [
-                  142.7986,
-                  -36.4228
-                ],
-                [
-                  142.7985,
-                  -36.4081
-                ],
-                [
-                  142.7318,
-                  -36.4052
-                ],
-                [
-                  142.7318,
-                  -36.3975
-                ],
-                [
-                  142.743,
-                  -36.3931
-                ],
-                [
-                  142.7316,
-                  -36.2985
-                ],
-                [
-                  142.7192,
-                  -36.3072
-                ],
-                [
-                  142.7418,
-                  -36.2727
-                ],
-                [
-                  142.7431,
-                  -36.2648
-                ],
-                [
-                  142.7221,
-                  -36.2625
-                ],
-                [
-                  142.7221,
-                  -36.2395
-                ],
-                [
-                  142.7478,
-                  -36.1539
-                ],
-                [
-                  142.7432,
-                  -36.1478
-                ],
-                [
-                  142.7278,
-                  -36.1478
-                ],
-                [
-                  142.732,
-                  -36.1036
-                ],
-                [
-                  142.6809,
-                  -36.1
-                ],
-                [
-                  142.6809,
-                  -36.0963
-                ],
-                [
-                  142.6316,
-                  -36.1205
-                ],
-                [
-                  142.6042,
-                  -36.1204
-                ],
-                [
-                  142.6008,
-                  -35.9978
-                ],
-                [
-                  142.239,
-                  -35.9979
-                ],
-                [
-                  142.239,
-                  -35.8683
-                ],
-                [
-                  141.9972,
-                  -35.8678
-                ],
-                [
-                  142.0102,
-                  -35.7552
-                ],
-                [
-                  141.9989,
-                  -35.7161
-                ],
-                [
-                  141.9922,
-                  -35.7108
-                ],
-                [
-                  141.9975,
-                  -35.5661
-                ],
-                [
-                  141.9975,
-                  -35.4984
-                ],
-                [
-                  141.4995,
-                  -35.4985
-                ],
-                [
-                  141.4998,
-                  -35.7486
-                ],
-                [
-                  140.9647,
-                  -35.7485
-                ],
-                [
-                  140.9625,
-                  -33.9803
-                ],
-                [
-                  140.9854,
-                  -34.0234
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              142.6907500000001,
-              -35.24011387499996
-            ]
-          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -22521,6 +21212,1476 @@
               142.23745850850008,
               -36.47415864399994
             ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  140.9854,
+                  -34.0234
+                ],
+                [
+                  141.0124,
+                  -34.025
+                ],
+                [
+                  141.0035,
+                  -34.0392
+                ],
+                [
+                  141.0242,
+                  -34.0591
+                ],
+                [
+                  141.0342,
+                  -34.0362
+                ],
+                [
+                  141.0449,
+                  -34.0432
+                ],
+                [
+                  141.044,
+                  -34.0608
+                ],
+                [
+                  141.1558,
+                  -34.0548
+                ],
+                [
+                  141.1543,
+                  -34.0812
+                ],
+                [
+                  141.1757,
+                  -34.0739
+                ],
+                [
+                  141.1838,
+                  -34.0912
+                ],
+                [
+                  141.1867,
+                  -34.0793
+                ],
+                [
+                  141.2046,
+                  -34.0623
+                ],
+                [
+                  141.2443,
+                  -34.0637
+                ],
+                [
+                  141.2439,
+                  -34.0869
+                ],
+                [
+                  141.2609,
+                  -34.0789
+                ],
+                [
+                  141.3259,
+                  -34.131
+                ],
+                [
+                  141.3252,
+                  -34.1378
+                ],
+                [
+                  141.3585,
+                  -34.11
+                ],
+                [
+                  141.3843,
+                  -34.1225
+                ],
+                [
+                  141.3898,
+                  -34.1338
+                ],
+                [
+                  141.4103,
+                  -34.1282
+                ],
+                [
+                  141.4096,
+                  -34.147
+                ],
+                [
+                  141.436,
+                  -34.1451
+                ],
+                [
+                  141.4342,
+                  -34.1591
+                ],
+                [
+                  141.4454,
+                  -34.1671
+                ],
+                [
+                  141.4988,
+                  -34.1557
+                ],
+                [
+                  141.5203,
+                  -34.1816
+                ],
+                [
+                  141.5161,
+                  -34.2077
+                ],
+                [
+                  141.51,
+                  -34.2155
+                ],
+                [
+                  141.5341,
+                  -34.2096
+                ],
+                [
+                  141.5335,
+                  -34.192
+                ],
+                [
+                  141.5695,
+                  -34.1934
+                ],
+                [
+                  141.583,
+                  -34.198
+                ],
+                [
+                  141.5907,
+                  -34.1872
+                ],
+                [
+                  141.6045,
+                  -34.1884
+                ],
+                [
+                  141.59,
+                  -34.1807
+                ],
+                [
+                  141.603,
+                  -34.1678
+                ],
+                [
+                  141.5929,
+                  -34.1571
+                ],
+                [
+                  141.5834,
+                  -34.1528
+                ],
+                [
+                  141.6072,
+                  -34.1492
+                ],
+                [
+                  141.6193,
+                  -34.1555
+                ],
+                [
+                  141.613,
+                  -34.1387
+                ],
+                [
+                  141.6298,
+                  -34.1441
+                ],
+                [
+                  141.6327,
+                  -34.1208
+                ],
+                [
+                  141.6766,
+                  -34.1011
+                ],
+                [
+                  141.7083,
+                  -34.0952
+                ],
+                [
+                  141.7209,
+                  -34.1135
+                ],
+                [
+                  141.728,
+                  -34.0916
+                ],
+                [
+                  141.8427,
+                  -34.1309
+                ],
+                [
+                  141.8722,
+                  -34.1314
+                ],
+                [
+                  141.8784,
+                  -34.1336
+                ],
+                [
+                  141.8865,
+                  -34.1195
+                ],
+                [
+                  141.8855,
+                  -34.1148
+                ],
+                [
+                  141.9237,
+                  -34.1134
+                ],
+                [
+                  141.9318,
+                  -34.1363
+                ],
+                [
+                  141.9433,
+                  -34.1191
+                ],
+                [
+                  141.9684,
+                  -34.1355
+                ],
+                [
+                  141.9726,
+                  -34.1142
+                ],
+                [
+                  142.0194,
+                  -34.1244
+                ],
+                [
+                  142.0133,
+                  -34.1053
+                ],
+                [
+                  142.0412,
+                  -34.0995
+                ],
+                [
+                  142.0315,
+                  -34.1261
+                ],
+                [
+                  142.0783,
+                  -34.1317
+                ],
+                [
+                  142.0669,
+                  -34.1505
+                ],
+                [
+                  142.0786,
+                  -34.1551
+                ],
+                [
+                  142.085,
+                  -34.1717
+                ],
+                [
+                  142.1045,
+                  -34.1754
+                ],
+                [
+                  142.1206,
+                  -34.1735
+                ],
+                [
+                  142.1206,
+                  -34.1569
+                ],
+                [
+                  142.1443,
+                  -34.1506
+                ],
+                [
+                  142.1455,
+                  -34.149
+                ],
+                [
+                  142.1643,
+                  -34.1507
+                ],
+                [
+                  142.164,
+                  -34.1761
+                ],
+                [
+                  142.1682,
+                  -34.1818
+                ],
+                [
+                  142.2218,
+                  -34.1817
+                ],
+                [
+                  142.241,
+                  -34.2074
+                ],
+                [
+                  142.2456,
+                  -34.2076
+                ],
+                [
+                  142.2413,
+                  -34.248
+                ],
+                [
+                  142.2335,
+                  -34.2556
+                ],
+                [
+                  142.2503,
+                  -34.2658
+                ],
+                [
+                  142.2505,
+                  -34.2864
+                ],
+                [
+                  142.2347,
+                  -34.2969
+                ],
+                [
+                  142.2357,
+                  -34.3049
+                ],
+                [
+                  142.2861,
+                  -34.2961
+                ],
+                [
+                  142.3001,
+                  -34.3064
+                ],
+                [
+                  142.2872,
+                  -34.3093
+                ],
+                [
+                  142.2852,
+                  -34.3254
+                ],
+                [
+                  142.3177,
+                  -34.3312
+                ],
+                [
+                  142.3341,
+                  -34.3377
+                ],
+                [
+                  142.3697,
+                  -34.3258
+                ],
+                [
+                  142.3954,
+                  -34.3335
+                ],
+                [
+                  142.3897,
+                  -34.3589
+                ],
+                [
+                  142.3903,
+                  -34.3623
+                ],
+                [
+                  142.3635,
+                  -34.363
+                ],
+                [
+                  142.3777,
+                  -34.3663
+                ],
+                [
+                  142.3654,
+                  -34.3861
+                ],
+                [
+                  142.353,
+                  -34.3963
+                ],
+                [
+                  142.3684,
+                  -34.4356
+                ],
+                [
+                  142.3551,
+                  -34.4691
+                ],
+                [
+                  142.3808,
+                  -34.4665
+                ],
+                [
+                  142.3848,
+                  -34.4765
+                ],
+                [
+                  142.3635,
+                  -34.4874
+                ],
+                [
+                  142.3605,
+                  -34.4975
+                ],
+                [
+                  142.383,
+                  -34.4909
+                ],
+                [
+                  142.3938,
+                  -34.4916
+                ],
+                [
+                  142.379,
+                  -34.5185
+                ],
+                [
+                  142.4012,
+                  -34.5243
+                ],
+                [
+                  142.3738,
+                  -34.5302
+                ],
+                [
+                  142.3787,
+                  -34.5398
+                ],
+                [
+                  142.3917,
+                  -34.5476
+                ],
+                [
+                  142.406,
+                  -34.5418
+                ],
+                [
+                  142.4085,
+                  -34.5665
+                ],
+                [
+                  142.4288,
+                  -34.5624
+                ],
+                [
+                  142.4479,
+                  -34.5795
+                ],
+                [
+                  142.4546,
+                  -34.5817
+                ],
+                [
+                  142.4503,
+                  -34.5599
+                ],
+                [
+                  142.4663,
+                  -34.5627
+                ],
+                [
+                  142.4598,
+                  -34.6295
+                ],
+                [
+                  142.4547,
+                  -34.6322
+                ],
+                [
+                  142.486,
+                  -34.6364
+                ],
+                [
+                  142.4749,
+                  -34.648
+                ],
+                [
+                  142.4739,
+                  -34.6679
+                ],
+                [
+                  142.5128,
+                  -34.6601
+                ],
+                [
+                  142.517,
+                  -34.6634
+                ],
+                [
+                  142.4995,
+                  -34.671
+                ],
+                [
+                  142.5071,
+                  -34.6976
+                ],
+                [
+                  142.4995,
+                  -34.7024
+                ],
+                [
+                  142.5199,
+                  -34.702
+                ],
+                [
+                  142.5083,
+                  -34.7472
+                ],
+                [
+                  142.5234,
+                  -34.7575
+                ],
+                [
+                  142.6213,
+                  -34.785
+                ],
+                [
+                  142.6334,
+                  -34.7826
+                ],
+                [
+                  142.6455,
+                  -34.7633
+                ],
+                [
+                  142.6206,
+                  -34.7572
+                ],
+                [
+                  142.6166,
+                  -34.7289
+                ],
+                [
+                  142.6633,
+                  -34.7213
+                ],
+                [
+                  142.6662,
+                  -34.7325
+                ],
+                [
+                  142.6793,
+                  -34.7382
+                ],
+                [
+                  142.6817,
+                  -34.722
+                ],
+                [
+                  142.6979,
+                  -34.7246
+                ],
+                [
+                  142.6787,
+                  -34.6806
+                ],
+                [
+                  142.686,
+                  -34.6694
+                ],
+                [
+                  142.7093,
+                  -34.6773
+                ],
+                [
+                  142.6897,
+                  -34.6521
+                ],
+                [
+                  142.7084,
+                  -34.6204
+                ],
+                [
+                  142.6895,
+                  -34.6169
+                ],
+                [
+                  142.7036,
+                  -34.5965
+                ],
+                [
+                  142.7454,
+                  -34.6019
+                ],
+                [
+                  142.7612,
+                  -34.5982
+                ],
+                [
+                  142.7449,
+                  -34.5825
+                ],
+                [
+                  142.752,
+                  -34.5751
+                ],
+                [
+                  142.7835,
+                  -34.5788
+                ],
+                [
+                  142.7706,
+                  -34.5682
+                ],
+                [
+                  142.7914,
+                  -34.5454
+                ],
+                [
+                  142.8106,
+                  -34.5611
+                ],
+                [
+                  142.8016,
+                  -34.579
+                ],
+                [
+                  142.7871,
+                  -34.5874
+                ],
+                [
+                  142.8102,
+                  -34.5878
+                ],
+                [
+                  142.8045,
+                  -34.606
+                ],
+                [
+                  142.8231,
+                  -34.5994
+                ],
+                [
+                  142.8426,
+                  -34.6256
+                ],
+                [
+                  142.8554,
+                  -34.6189
+                ],
+                [
+                  142.8692,
+                  -34.6271
+                ],
+                [
+                  142.856,
+                  -34.6394
+                ],
+                [
+                  142.8645,
+                  -34.6385
+                ],
+                [
+                  142.8722,
+                  -34.6493
+                ],
+                [
+                  142.8611,
+                  -34.6634
+                ],
+                [
+                  142.8859,
+                  -34.6794
+                ],
+                [
+                  142.9131,
+                  -34.651
+                ],
+                [
+                  142.9251,
+                  -34.6474
+                ],
+                [
+                  142.9599,
+                  -34.6644
+                ],
+                [
+                  142.9732,
+                  -34.694
+                ],
+                [
+                  142.9749,
+                  -34.6711
+                ],
+                [
+                  142.9902,
+                  -34.6616
+                ],
+                [
+                  143.0178,
+                  -34.6732
+                ],
+                [
+                  143.0084,
+                  -34.6871
+                ],
+                [
+                  143.0135,
+                  -34.6939
+                ],
+                [
+                  143.0305,
+                  -34.6859
+                ],
+                [
+                  143.0387,
+                  -34.7007
+                ],
+                [
+                  143.0437,
+                  -34.6878
+                ],
+                [
+                  143.0544,
+                  -34.698
+                ],
+                [
+                  143.0712,
+                  -34.6796
+                ],
+                [
+                  143.0914,
+                  -34.7005
+                ],
+                [
+                  143.1121,
+                  -34.6797
+                ],
+                [
+                  143.1125,
+                  -34.6873
+                ],
+                [
+                  143.1083,
+                  -34.7003
+                ],
+                [
+                  143.1336,
+                  -34.7001
+                ],
+                [
+                  143.1472,
+                  -34.7136
+                ],
+                [
+                  143.1618,
+                  -34.6983
+                ],
+                [
+                  143.166,
+                  -34.7173
+                ],
+                [
+                  143.1814,
+                  -34.7089
+                ],
+                [
+                  143.2003,
+                  -34.7172
+                ],
+                [
+                  143.2029,
+                  -34.7334
+                ],
+                [
+                  143.2194,
+                  -34.7291
+                ],
+                [
+                  143.22,
+                  -34.7472
+                ],
+                [
+                  143.2256,
+                  -34.7579
+                ],
+                [
+                  143.2654,
+                  -34.7475
+                ],
+                [
+                  143.2737,
+                  -34.7519
+                ],
+                [
+                  143.2523,
+                  -34.7723
+                ],
+                [
+                  143.2757,
+                  -34.7829
+                ],
+                [
+                  143.2787,
+                  -34.7927
+                ],
+                [
+                  143.31,
+                  -34.7803
+                ],
+                [
+                  143.3513,
+                  -34.7941
+                ],
+                [
+                  143.3586,
+                  -34.8159
+                ],
+                [
+                  143.3417,
+                  -34.8468
+                ],
+                [
+                  143.3523,
+                  -34.8583
+                ],
+                [
+                  143.331,
+                  -34.8845
+                ],
+                [
+                  143.3215,
+                  -34.8888
+                ],
+                [
+                  143.3415,
+                  -34.9179
+                ],
+                [
+                  143.3177,
+                  -34.9532
+                ],
+                [
+                  143.3237,
+                  -34.9802
+                ],
+                [
+                  143.319,
+                  -34.9921
+                ],
+                [
+                  143.3367,
+                  -35.0077
+                ],
+                [
+                  143.3382,
+                  -35.0106
+                ],
+                [
+                  143.3302,
+                  -35.0369
+                ],
+                [
+                  143.3234,
+                  -35.0363
+                ],
+                [
+                  143.3417,
+                  -35.0618
+                ],
+                [
+                  143.3506,
+                  -35.0648
+                ],
+                [
+                  143.3414,
+                  -35.0941
+                ],
+                [
+                  143.3904,
+                  -35.1455
+                ],
+                [
+                  143.3911,
+                  -35.18
+                ],
+                [
+                  143.3877,
+                  -35.1842
+                ],
+                [
+                  143.4647,
+                  -35.2023
+                ],
+                [
+                  143.472,
+                  -35.2184
+                ],
+                [
+                  143.5733,
+                  -35.2092
+                ],
+                [
+                  143.5807,
+                  -35.2142
+                ],
+                [
+                  143.5652,
+                  -35.2357
+                ],
+                [
+                  143.5629,
+                  -35.2366
+                ],
+                [
+                  143.5905,
+                  -35.2807
+                ],
+                [
+                  143.5641,
+                  -35.3166
+                ],
+                [
+                  143.5665,
+                  -35.3424
+                ],
+                [
+                  143.5822,
+                  -35.3416
+                ],
+                [
+                  143.5981,
+                  -35.3514
+                ],
+                [
+                  143.6197,
+                  -35.3859
+                ],
+                [
+                  143.6407,
+                  -35.3999
+                ],
+                [
+                  143.6818,
+                  -35.373
+                ],
+                [
+                  143.6829,
+                  -35.3675
+                ],
+                [
+                  143.71,
+                  -35.3876
+                ],
+                [
+                  143.7091,
+                  -35.3915
+                ],
+                [
+                  143.7448,
+                  -35.386
+                ],
+                [
+                  143.7624,
+                  -35.3915
+                ],
+                [
+                  143.7628,
+                  -35.4216
+                ],
+                [
+                  143.7894,
+                  -35.4222
+                ],
+                [
+                  143.8119,
+                  -35.4338
+                ],
+                [
+                  143.8587,
+                  -35.4764
+                ],
+                [
+                  143.8594,
+                  -35.4792
+                ],
+                [
+                  143.9342,
+                  -35.5014
+                ],
+                [
+                  143.9336,
+                  -35.5055
+                ],
+                [
+                  143.9701,
+                  -35.5004
+                ],
+                [
+                  143.9627,
+                  -35.5131
+                ],
+                [
+                  143.9923,
+                  -35.5344
+                ],
+                [
+                  143.9954,
+                  -35.5347
+                ],
+                [
+                  143.9922,
+                  -35.5508
+                ],
+                [
+                  143.9901,
+                  -35.5526
+                ],
+                [
+                  144.0112,
+                  -35.5627
+                ],
+                [
+                  144.0392,
+                  -35.5522
+                ],
+                [
+                  144.0461,
+                  -35.5518
+                ],
+                [
+                  144.1006,
+                  -35.5892
+                ],
+                [
+                  144.1061,
+                  -35.5911
+                ],
+                [
+                  144.1182,
+                  -35.6249
+                ],
+                [
+                  144.1561,
+                  -35.6506
+                ],
+                [
+                  144.164,
+                  -35.6711
+                ],
+                [
+                  144.1867,
+                  -35.6697
+                ],
+                [
+                  144.2482,
+                  -35.7208
+                ],
+                [
+                  144.2692,
+                  -35.7536
+                ],
+                [
+                  144.2877,
+                  -35.7382
+                ],
+                [
+                  144.2964,
+                  -35.7367
+                ],
+                [
+                  144.3017,
+                  -35.7439
+                ],
+                [
+                  144.2959,
+                  -35.7541
+                ],
+                [
+                  144.3411,
+                  -35.7663
+                ],
+                [
+                  144.3485,
+                  -35.7665
+                ],
+                [
+                  144.3623,
+                  -35.7949
+                ],
+                [
+                  144.3749,
+                  -35.7911
+                ],
+                [
+                  144.3714,
+                  -35.8172
+                ],
+                [
+                  144.3645,
+                  -35.8208
+                ],
+                [
+                  144.3836,
+                  -35.8191
+                ],
+                [
+                  144.377,
+                  -35.835
+                ],
+                [
+                  144.3738,
+                  -35.8369
+                ],
+                [
+                  144.409,
+                  -35.8597
+                ],
+                [
+                  144.4108,
+                  -35.8594
+                ],
+                [
+                  144.4044,
+                  -35.8799
+                ],
+                [
+                  144.4183,
+                  -35.8928
+                ],
+                [
+                  144.409,
+                  -35.9036
+                ],
+                [
+                  144.3808,
+                  -35.8841
+                ],
+                [
+                  144.3455,
+                  -35.8939
+                ],
+                [
+                  144.3534,
+                  -35.9195
+                ],
+                [
+                  144.3355,
+                  -35.9341
+                ],
+                [
+                  144.2498,
+                  -35.9301
+                ],
+                [
+                  144.1875,
+                  -35.9078
+                ],
+                [
+                  144.1854,
+                  -35.9465
+                ],
+                [
+                  144.1606,
+                  -35.9466
+                ],
+                [
+                  144.1587,
+                  -35.9492
+                ],
+                [
+                  143.9231,
+                  -35.9528
+                ],
+                [
+                  143.9185,
+                  -35.9376
+                ],
+                [
+                  143.8617,
+                  -35.9349
+                ],
+                [
+                  143.874,
+                  -35.9162
+                ],
+                [
+                  143.7284,
+                  -35.9059
+                ],
+                [
+                  143.7282,
+                  -35.9325
+                ],
+                [
+                  143.6182,
+                  -35.9349
+                ],
+                [
+                  143.6181,
+                  -35.9694
+                ],
+                [
+                  143.4757,
+                  -35.9753
+                ],
+                [
+                  143.4819,
+                  -36.1014
+                ],
+                [
+                  143.5116,
+                  -36.1013
+                ],
+                [
+                  143.5135,
+                  -36.1733
+                ],
+                [
+                  143.5367,
+                  -36.174
+                ],
+                [
+                  143.5316,
+                  -36.2032
+                ],
+                [
+                  143.5683,
+                  -36.2224
+                ],
+                [
+                  143.5118,
+                  -36.265
+                ],
+                [
+                  143.5081,
+                  -36.2649
+                ],
+                [
+                  143.514,
+                  -36.295
+                ],
+                [
+                  143.4822,
+                  -36.2951
+                ],
+                [
+                  143.4811,
+                  -36.3617
+                ],
+                [
+                  143.4786,
+                  -36.3761
+                ],
+                [
+                  143.439,
+                  -36.3684
+                ],
+                [
+                  143.4458,
+                  -36.4419
+                ],
+                [
+                  143.4451,
+                  -36.446
+                ],
+                [
+                  143.4305,
+                  -36.4695
+                ],
+                [
+                  143.4123,
+                  -36.4678
+                ],
+                [
+                  143.4067,
+                  -36.4999
+                ],
+                [
+                  143.3157,
+                  -36.4768
+                ],
+                [
+                  143.2857,
+                  -36.4068
+                ],
+                [
+                  143.1475,
+                  -36.4097
+                ],
+                [
+                  143.1367,
+                  -36.4276
+                ],
+                [
+                  143.1331,
+                  -36.4494
+                ],
+                [
+                  143.0457,
+                  -36.4433
+                ],
+                [
+                  143.059,
+                  -36.4609
+                ],
+                [
+                  143.0515,
+                  -36.4772
+                ],
+                [
+                  143.0212,
+                  -36.474
+                ],
+                [
+                  143.0198,
+                  -36.4827
+                ],
+                [
+                  142.823,
+                  -36.4625
+                ],
+                [
+                  142.7986,
+                  -36.4228
+                ],
+                [
+                  142.7985,
+                  -36.4081
+                ],
+                [
+                  142.7318,
+                  -36.4052
+                ],
+                [
+                  142.7318,
+                  -36.3975
+                ],
+                [
+                  142.743,
+                  -36.3931
+                ],
+                [
+                  142.7316,
+                  -36.2985
+                ],
+                [
+                  142.7192,
+                  -36.3072
+                ],
+                [
+                  142.7418,
+                  -36.2727
+                ],
+                [
+                  142.7431,
+                  -36.2648
+                ],
+                [
+                  142.7221,
+                  -36.2625
+                ],
+                [
+                  142.7221,
+                  -36.2395
+                ],
+                [
+                  142.7478,
+                  -36.1539
+                ],
+                [
+                  142.7432,
+                  -36.1478
+                ],
+                [
+                  142.7278,
+                  -36.1478
+                ],
+                [
+                  142.732,
+                  -36.1036
+                ],
+                [
+                  142.6809,
+                  -36.1
+                ],
+                [
+                  142.6809,
+                  -36.0963
+                ],
+                [
+                  142.6316,
+                  -36.1205
+                ],
+                [
+                  142.6042,
+                  -36.1204
+                ],
+                [
+                  142.6008,
+                  -35.9978
+                ],
+                [
+                  142.239,
+                  -35.9979
+                ],
+                [
+                  142.239,
+                  -35.8683
+                ],
+                [
+                  141.9972,
+                  -35.8678
+                ],
+                [
+                  142.0102,
+                  -35.7552
+                ],
+                [
+                  141.9989,
+                  -35.7161
+                ],
+                [
+                  141.9922,
+                  -35.7108
+                ],
+                [
+                  141.9975,
+                  -35.5661
+                ],
+                [
+                  141.9975,
+                  -35.4984
+                ],
+                [
+                  141.4995,
+                  -35.4985
+                ],
+                [
+                  141.4998,
+                  -35.7486
+                ],
+                [
+                  140.9647,
+                  -35.7485
+                ],
+                [
+                  140.9625,
+                  -33.9803
+                ],
+                [
+                  140.9854,
+                  -34.0234
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              142.6907500000001,
+              -35.24011387499996
+            ]
           }
         ]
       }
@@ -27053,7 +27214,6 @@
         "Mallee": "EXTREME"
       },
       "tfb": {
-        "Mallee": "YES - TOTAL FIRE BAN IN FORCE",
         "East Gippsland": "YES - TOTAL FIRE BAN IN FORCE",
         "West and South Gippsland": "YES - TOTAL FIRE BAN IN FORCE",
         "North East": "YES - TOTAL FIRE BAN IN FORCE",
@@ -27061,7 +27221,8 @@
         "North Central": "YES - TOTAL FIRE BAN IN FORCE",
         "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
         "South West": "YES - TOTAL FIRE BAN IN FORCE",
-        "Wimmera": "YES - TOTAL FIRE BAN IN FORCE"
+        "Wimmera": "YES - TOTAL FIRE BAN IN FORCE",
+        "Mallee": "YES - TOTAL FIRE BAN IN FORCE"
       },
       "forecasts": [
         {
@@ -27077,7 +27238,6 @@
             "Mallee": "EXTREME"
           },
           "tfb": {
-            "Mallee": "YES - TOTAL FIRE BAN IN FORCE",
             "East Gippsland": "YES - TOTAL FIRE BAN IN FORCE",
             "West and South Gippsland": "YES - TOTAL FIRE BAN IN FORCE",
             "North East": "YES - TOTAL FIRE BAN IN FORCE",
@@ -27085,7 +27245,8 @@
             "North Central": "YES - TOTAL FIRE BAN IN FORCE",
             "Northern Country": "YES - TOTAL FIRE BAN IN FORCE",
             "South West": "YES - TOTAL FIRE BAN IN FORCE",
-            "Wimmera": "YES - TOTAL FIRE BAN IN FORCE"
+            "Wimmera": "YES - TOTAL FIRE BAN IN FORCE",
+            "Mallee": "YES - TOTAL FIRE BAN IN FORCE"
           },
           "date": "2026-01-08T13:00:00.000Z",
           "heat": {
@@ -27266,7 +27427,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-08T15:35:06.636Z",
-    "featureCount": 299
+    "lastUpdated": "2026-01-08T15:57:06.232Z",
+    "featureCount": 304
   }
 }
