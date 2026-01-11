@@ -7401,23 +7401,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122608415,
+        "estaId": 122608551,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 256566,
+        "sourceId": 256570,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Herbert Rd",
-        "eventId": 260106579,
-        "id": "ESTA:260106579",
+        "sourceTitle": "",
+        "eventId": 260106585,
+        "id": "ESTA:260106585",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-11T17:49:00.000Z",
-        "updated": "2026-01-11T17:49:00.000Z",
-        "resources": 0,
-        "location": "Herbert Rd, Carrum Downs",
-        "cfaId": 256566,
+        "category2": "Bushfire",
+        "created": "2026-01-11T18:33:00.000Z",
+        "updated": "2026-01-11T18:33:00.000Z",
+        "resources": 2,
+        "location": "Keilor North",
+        "cfaId": 256570,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -7425,8 +7425,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1858521026744,
-          -38.090875935434035
+          144.76417272834698,
+          -37.671065726227894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122608554,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122608554,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Keilor North",
+        "eventId": "F260106587",
+        "id": "ESTA:260106587",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-01-11T18:31:15.000Z",
+        "updated": "2026-01-11T18:35:15.512Z",
+        "resources": 0,
+        "location": "Thompsons Rd, Keilor North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.76287198795316,
+          -37.67016151842283
         ]
       }
     },
@@ -9183,7 +9212,7 @@
         "category2": "Building Fire",
         "created": "2026-01-11T09:56:00.000Z",
         "updated": "2026-01-11T10:07:00.000Z",
-        "resources": 4,
+        "resources": 3,
         "location": "Brougham St, Eltham",
         "size": "Small",
         "sizeFmt": "Small"
@@ -9228,7 +9257,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 256562,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -9240,8 +9269,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-01-11T16:10:00.000Z",
-        "updated": "2026-01-11T16:34:00.000Z",
-        "resources": 3,
+        "updated": "2026-01-11T17:56:00.000Z",
+        "resources": 2,
         "location": "Golden Spring Ct, Warrnambool",
         "size": "Small",
         "sizeFmt": "Small"
@@ -9252,93 +9281,6 @@
         "coordinates": [
           142.50592012449275,
           -38.37122682791135
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 256564,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256564,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Synnot St",
-        "eventId": 260106570,
-        "id": "ESTA:260106570",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-11T16:46:00.000Z",
-        "updated": "2026-01-11T16:58:00.000Z",
-        "resources": 0,
-        "location": "Synnot St, Werribee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.66165662017409,
-          -37.90284004075433
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 256565,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256565,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kents Ford Lane",
-        "eventId": 260106572,
-        "id": "ESTA:260106572",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-11T16:54:00.000Z",
-        "updated": "2026-01-11T17:08:00.000Z",
-        "resources": 0,
-        "location": "Kents Ford Lane, Ballangeich",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.6886408618571,
-          -38.19144364440534
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 256546,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256546,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Craigie St",
-        "eventId": 260106525,
-        "id": "ESTA:260106525",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-11T12:08:00.000Z",
-        "updated": "2026-01-11T17:24:00.000Z",
-        "resources": 0,
-        "location": "Craigie St, Harcourt",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2685676803054,
-          -36.99331744201597
         ]
       }
     },
@@ -11163,7 +11105,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-11T17:50:00.701Z",
-    "featureCount": 416
+    "lastUpdated": "2026-01-11T18:39:21.091Z",
+    "featureCount": 414
   }
 }
