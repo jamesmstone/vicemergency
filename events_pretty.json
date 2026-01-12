@@ -5327,8 +5327,8 @@
         "created": "2026-01-09T08:46:00.000Z",
         "updated": "2026-01-09T09:54:00.000Z",
         "resources": 32,
-        "size": "3303.22",
-        "sizeFmt": "3303.22 Ha.",
+        "size": "3435.61",
+        "sizeFmt": "3435.61 Ha.",
         "location": "7.4Km S Of Tomahawk Creek"
       },
       "type": "Feature",
@@ -6342,29 +6342,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122619069,
+        "estaId": 122619332,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122619069,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Frankston",
-        "eventId": "F260107035",
-        "id": "ESTA:260107035",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 256790,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Regina St",
+        "eventId": 260107041,
+        "id": "ESTA:260107041",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-12T13:38:25.000Z",
-        "updated": "2026-01-12T13:40:39.116Z",
-        "resources": 0,
-        "location": "Gould St, Frankston"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-01-12T14:21:00.000Z",
+        "updated": "2026-01-12T14:21:00.000Z",
+        "resources": 3,
+        "location": "Regina St, Mitchell Park",
+        "cfaId": 256790,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.12332662361922,
-          -38.13124786963036
+          143.80911494153162,
+          -37.522276227249854
         ]
       }
     },
@@ -6385,7 +6388,7 @@
         "category2": "Other",
         "created": "2026-01-12T13:29:00.000Z",
         "updated": "2026-01-12T13:48:00.000Z",
-        "resources": 2,
+        "resources": 0,
         "location": "Jubilee Rd, Newtown (Ballarat)",
         "cfaId": 256787,
         "size": "Small",
@@ -6397,6 +6400,100 @@
         "coordinates": [
           143.67980627203949,
           -37.70786325060774
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122619390,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 594427,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260152603,
+        "id": "ESTA:260152603",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-12T14:29:35.000Z",
+        "updated": "2026-01-12T14:35:24.000Z",
+        "resources": 0,
+        "location": "Blackburn",
+        "sesId": 594427
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16048009580348,
+          -37.82359620163605
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 122619231,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 256789,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Creightons Creek Rd",
+        "eventId": 260107038,
+        "id": "ESTA:260107038",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-12T14:05:00.000Z",
+        "updated": "2026-01-12T14:05:00.000Z",
+        "resources": 1,
+        "location": "Creightons Creek Rd, Creightons Creek",
+        "cfaId": 256789,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.52888034803428,
+          -36.84426260618565
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122619385,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 256791,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pogue Rd",
+        "eventId": 260107042,
+        "id": "ESTA:260107042",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-12T14:29:00.000Z",
+        "updated": "2026-01-12T14:29:00.000Z",
+        "resources": 0,
+        "location": "Pogue Rd, Toolamba",
+        "cfaId": 256791,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32512651884423,
+          -36.47202582173791
         ]
       }
     },
@@ -7759,7 +7856,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 256777,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -7771,8 +7868,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-01-12T11:19:00.000Z",
-        "updated": "2026-01-12T11:35:00.000Z",
-        "resources": 1,
+        "updated": "2026-01-12T14:10:00.000Z",
+        "resources": 0,
         "location": "Pogue Rd, Toolamba",
         "size": "Small",
         "sizeFmt": "Small"
@@ -7788,117 +7885,55 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 256785,
+        "status": "Request For Assistance",
+        "sesId": 594425,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256785,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fenaughty St",
-        "eventId": 260107029,
-        "id": "ESTA:260107029",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-01-12T12:58:00.000Z",
-        "updated": "2026-01-12T12:58:00.000Z",
-        "resources": 3,
-        "location": "Fenaughty St, Kyabram",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 594425,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260152601,
+        "id": "ESTA:260152601",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-12T13:57:41.000Z",
+        "updated": "2026-01-12T14:18:23.000Z",
+        "resources": 2,
+        "location": "Tootgarook"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.04262000342246,
-          -36.315473567237184
+          144.85244486661065,
+          -38.377166799212844
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 256757,
+        "status": "Request For Assistance",
+        "sesId": 594426,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256757,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260106975,
-        "id": "ESTA:260106975",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-01-12T10:09:00.000Z",
-        "updated": "2026-01-12T13:07:00.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 594426,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260152602,
+        "id": "ESTA:260152602",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-01-12T14:18:22.000Z",
+        "updated": "2026-01-12T14:21:53.000Z",
         "resources": 0,
-        "location": "Maindample",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Dandenong"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.95405396734577,
-          -37.02673888737401
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 256786,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256786,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bourke St",
-        "eventId": 260107030,
-        "id": "ESTA:260107030",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-01-12T13:09:00.000Z",
-        "updated": "2026-01-12T13:11:00.000Z",
-        "resources": 0,
-        "location": "Bourke St, Bulla",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.80696250418887,
-          -37.636678645182435
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 256613,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 256613,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260106662,
-        "id": "ESTA:260106662",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-11T22:40:00.000Z",
-        "updated": "2026-01-12T13:35:00.000Z",
-        "resources": 0,
-        "location": "Woodfield",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.80182332878667,
-          -37.02019746071822
+          145.209908863248,
+          -37.977264003252444
         ]
       }
     }
@@ -8130,7 +8165,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-12T13:49:46.524Z",
-    "featureCount": 396
+    "lastUpdated": "2026-01-12T14:36:21.268Z",
+    "featureCount": 397
   }
 }
