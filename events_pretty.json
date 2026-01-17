@@ -3815,54 +3815,54 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122682232,
+        "status": "Request For Assistance",
+        "estaId": 122682829,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/SES",
-        "sourceId": 595763,
+        "sourceId": 595767,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260154000,
-        "id": "ESTA:260154000",
+        "eventId": 260154002,
+        "id": "ESTA:260154002",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2026-01-17T14:13:37.000Z",
-        "updated": "2026-01-17T15:20:45.000Z",
-        "resources": 0,
-        "location": "Drouin West",
-        "sesId": 595763
+        "created": "2026-01-17T15:36:42.000Z",
+        "updated": "2026-01-17T15:47:17.000Z",
+        "resources": 1,
+        "location": "Barramunga",
+        "sesId": 595767
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8934509577465,
-          -38.07460809185471
+          143.71498070258383,
+          -38.60842459158436
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122682753,
+        "status": "Safe",
+        "estaId": 122682247,
         "feedType": "incident",
-        "source": "000",
+        "source": "RADIO",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 258194,
+        "sourceId": 258184,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260109806,
-        "id": "ESTA:260109806",
+        "sourceTitle": "Spring Creek Rd",
+        "eventId": 260109791,
+        "id": "ESTA:260109791",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-17T15:25:00.000Z",
-        "updated": "2026-01-17T15:25:00.000Z",
+        "category2": "Bushfire",
+        "created": "2026-01-17T14:15:00.000Z",
+        "updated": "2026-01-17T15:37:00.000Z",
         "resources": 0,
-        "location": "Warrandyte",
-        "cfaId": 258194,
+        "location": "Spring Creek Rd, Koriella",
+        "cfaId": 258184,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3870,8 +3870,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1987399098066,
-          -37.7653477262439
+          145.66214462658436,
+          -37.15307987722463
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 122682872,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 595768,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260154003,
+        "id": "ESTA:260154003",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-17T15:43:18.000Z",
+        "updated": "2026-01-17T15:43:44.000Z",
+        "resources": 0,
+        "location": "Mckenzie Hill",
+        "sesId": 595768
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1835072283855,
+          -37.06888904029239
         ]
       }
     },
@@ -3892,7 +3922,7 @@
         "category2": "Road Accident",
         "created": "2026-01-17T15:03:00.000Z",
         "updated": "2026-01-17T15:26:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Paynes Rd, Rockbank",
         "cfaId": 258193,
         "size": "Small",
@@ -3904,6 +3934,35 @@
         "coordinates": [
           144.63211756423203,
           -37.74413785748601
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122682880,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122682880,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Albert Park",
+        "eventId": "F260109810",
+        "id": "ESTA:260109810",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-17T15:44:50.000Z",
+        "updated": "2026-01-17T15:46:26.840Z",
+        "resources": 0,
+        "location": "Albert Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95136807603305,
+          -37.84912128995295
         ]
       }
     },
@@ -7212,35 +7271,6 @@
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 258184,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 258184,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Spring Creek Rd",
-        "eventId": 260109791,
-        "id": "ESTA:260109791",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-17T14:15:00.000Z",
-        "updated": "2026-01-17T14:15:00.000Z",
-        "resources": 0,
-        "location": "Spring Creek Rd, Koriella",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.66214462658436,
-          -37.15307987722463
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "cfaId": 258191,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -7299,35 +7329,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 258189,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 258189,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Station St",
-        "eventId": 260109799,
-        "id": "ESTA:260109799",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-01-17T14:43:00.000Z",
-        "updated": "2026-01-17T14:52:00.000Z",
-        "resources": 3,
-        "location": "Station St, Koo Wee Rup",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4871631811809,
-          -38.19842805753525
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 258181,
         "feedType": "incident",
@@ -7352,6 +7353,94 @@
         "coordinates": [
           145.622173139451,
           -37.143545271970545
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 258195,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 595766,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260109808,
+        "id": "ESTA:260109808",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-01-17T15:35:08.000Z",
+        "updated": "2026-01-17T15:42:25.000Z",
+        "resources": 5,
+        "location": "Elmore",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 595766
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58845467929152,
+          -36.486826084698684
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 258194,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 258194,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260109806,
+        "id": "ESTA:260109806",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-17T15:25:00.000Z",
+        "updated": "2026-01-17T15:41:00.000Z",
+        "resources": 2,
+        "location": "Warrandyte",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1987399098066,
+          -37.7653477262439
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 258189,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 258189,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Station St",
+        "eventId": 260109799,
+        "id": "ESTA:260109799",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-17T14:43:00.000Z",
+        "updated": "2026-01-17T15:46:00.000Z",
+        "resources": 2,
+        "location": "Station St, Koo Wee Rup",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4871631811809,
+          -38.19842805753525
         ]
       }
     },
@@ -7610,7 +7699,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-17T15:28:00.751Z",
-    "featureCount": 407
+    "lastUpdated": "2026-01-17T15:50:20.541Z",
+    "featureCount": 410
   }
 }
