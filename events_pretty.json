@@ -3815,68 +3815,6 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122683835,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 595770,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260154005,
-        "id": "ESTA:260154005",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-17T19:06:28.000Z",
-        "updated": "2026-01-17T19:12:04.000Z",
-        "resources": 0,
-        "location": "Ellinbank",
-        "sesId": 595770
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.91958474705595,
-          -38.2600081457572
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 122683840,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 258204,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Elsie St",
-        "eventId": 260109848,
-        "id": "ESTA:260109848",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-17T19:08:00.000Z",
-        "updated": "2026-01-17T19:14:00.000Z",
-        "resources": 1,
-        "location": "Elsie St, Boronia",
-        "cfaId": 258204,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2876653680876,
-          -37.85673249745697
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Request For Assistance",
         "estaId": 122683883,
         "feedType": "incident",
@@ -3907,30 +3845,31 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
         "estaId": 122683895,
         "feedType": "incident",
         "source": "OFFICER",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122683895,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Longwood East",
-        "eventId": "S260154007",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 595772,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260154007,
         "id": "ESTA:260154007",
         "suppress": false,
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-01-17T19:22:20.000Z",
-        "updated": "2026-01-17T19:22:22.049Z",
+        "updated": "2026-01-17T19:27:46.000Z",
         "resources": 0,
-        "location": "Longwood-Gobur Rd, Longwood East"
+        "location": "Longwood East",
+        "sesId": 595772
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4839771679607,
-          -36.85862298023346
+          145.4839605731635,
+          -36.8586339422045
         ]
       }
     },
@@ -6832,6 +6771,64 @@
     },
     {
       "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 254298,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254298,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hume Fwy",
+        "eventId": 260103093,
+        "id": "ESTA:260103093",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T16:06:00.000Z",
+        "updated": "2026-01-07T16:06:00.000Z",
+        "resources": 2,
+        "location": "Hume Fwy, Longwood",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.42404495753306,
+          -36.825008548352905
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 254114,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254114,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Longwood - Berry's Lane",
+        "eventId": 260102721,
+        "id": "ESTA:260102721",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T03:30:00.000Z",
+        "updated": "2026-01-09T19:04:00.000Z",
+        "resources": 250,
+        "location": "Longwood - Berry's Lane, Longwood",
+        "size": "Large",
+        "sizeFmt": "Large"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39928405686538,
+          -36.83060872342354
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 254863,
         "feedType": "incident",
@@ -7180,21 +7177,21 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 254298,
+        "status": "Safe",
+        "cfaId": 258204,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254298,
+        "sourceId": 258204,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 260103093,
-        "id": "ESTA:260103093",
+        "sourceTitle": "Elsie St",
+        "eventId": 260109848,
+        "id": "ESTA:260109848",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-01-07T16:06:00.000Z",
-        "updated": "2026-01-07T16:06:00.000Z",
-        "resources": 2,
-        "location": "Hume Fwy, Longwood",
+        "created": "2026-01-17T19:08:00.000Z",
+        "updated": "2026-01-17T19:14:00.000Z",
+        "resources": 0,
+        "location": "Elsie St, Boronia",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -7202,37 +7199,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.42404495753306,
-          -36.825008548352905
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 254114,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 254114,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Longwood - Berry's Lane",
-        "eventId": 260102721,
-        "id": "ESTA:260102721",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-01-07T03:30:00.000Z",
-        "updated": "2026-01-09T19:04:00.000Z",
-        "resources": 250,
-        "location": "Longwood - Berry's Lane, Longwood",
-        "size": "Large",
-        "sizeFmt": "Large"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39928405686538,
-          -36.83060872342354
+          145.2876653680876,
+          -37.85673249745697
         ]
       }
     },
@@ -7491,7 +7459,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-17T19:22:46.894Z",
-    "featureCount": 403
+    "lastUpdated": "2026-01-17T19:33:20.488Z",
+    "featureCount": 402
   }
 }
