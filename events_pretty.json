@@ -3122,7 +3122,7 @@
         "category2": "Bushfire",
         "created": "2026-01-09T08:25:00.000Z",
         "updated": "2026-01-09T08:35:00.000Z",
-        "resources": 12,
+        "resources": 0,
         "size": "3541.72",
         "sizeFmt": "3541.72 Ha.",
         "location": "5.9Km E Of Kennedys Creek"
@@ -3815,7 +3815,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 122683883,
         "feedType": "incident",
         "source": "STATION",
@@ -3829,7 +3829,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-01-17T19:18:24.000Z",
-        "updated": "2026-01-17T19:18:43.000Z",
+        "updated": "2026-01-17T19:37:33.000Z",
         "resources": 0,
         "location": "Rawson",
         "sesId": 595771
@@ -3845,31 +3845,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122683895,
+        "status": "Responding",
+        "estaId": 122683973,
         "feedType": "incident",
-        "source": "OFFICER",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 595772,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260154007,
-        "id": "ESTA:260154007",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122683973,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Fitzroy",
+        "eventId": "F260109858",
+        "id": "ESTA:260109858",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-17T19:22:20.000Z",
-        "updated": "2026-01-17T19:27:46.000Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-01-17T19:42:43.000Z",
+        "updated": "2026-01-17T19:45:15.315Z",
         "resources": 0,
-        "location": "Longwood East",
-        "sesId": 595772
+        "location": "Victoria Pde, Fitzroy"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4839605731635,
-          -36.8586339422045
+          144.9745668516142,
+          -37.80769573072184
         ]
       }
     },
@@ -6244,13 +6243,13 @@
         "sourceId": "640420",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Murray River Rd Talmalmo Fire",
-        "id": "2026-01-17T02:13:00.0000000:640420",
+        "id": "2026-01-18T06:42:00.0000000:640420",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Murray River Rd Talmalmo Fire",
         "location": "Murray River Rd, Burrowye 3709",
-        "created": "2026-01-17T02:13:00+11:00",
-        "updated": "2026-01-17T02:13:00+11:00",
+        "created": "2026-01-18T06:42:00+11:00",
+        "updated": "2026-01-18T06:42:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -7230,6 +7229,33 @@
           -38.02847743903084
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 595772,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 595772,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260154007,
+        "id": "ESTA:260154007",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-17T19:22:20.000Z",
+        "updated": "2026-01-17T19:27:46.000Z",
+        "resources": 0,
+        "location": "Longwood East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4839605731635,
+          -36.8586339422045
+        ]
+      }
     }
   ],
   "properties": {
@@ -7459,7 +7485,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-17T19:33:20.488Z",
-    "featureCount": 402
+    "lastUpdated": "2026-01-17T19:50:00.677Z",
+    "featureCount": 403
   }
 }
