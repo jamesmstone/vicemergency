@@ -2765,32 +2765,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1682750",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Murtho",
-        "id": "1682750",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Murtho",
-        "created": "2026-01-18T11:38:00.000Z",
-        "updated": "2026-01-18T11:38:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Murtho"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.913239975103,
-          -33.9801952153995
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2829,7 +2803,7 @@
         "category2": "Bushfire",
         "created": "2026-01-09T08:46:00.000Z",
         "updated": "2026-01-09T09:54:00.000Z",
-        "resources": 29,
+        "resources": 21,
         "size": "4283.43",
         "sizeFmt": "4283.43 Ha.",
         "location": "7.4Km S Of Tomahawk Creek"
@@ -2910,7 +2884,7 @@
         "category2": "Bushfire",
         "created": "2026-01-09T08:25:00.000Z",
         "updated": "2026-01-09T08:35:00.000Z",
-        "resources": 7,
+        "resources": 1,
         "size": "3550.61",
         "sizeFmt": "3550.61 Ha.",
         "location": "5.9Km E Of Kennedys Creek"
@@ -3547,30 +3521,60 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122694058,
+        "status": "Complete",
+        "estaId": 122693984,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122694058,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ormond",
-        "eventId": "F260110238",
-        "id": "ESTA:260110238",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 595990,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260154231,
+        "id": "ESTA:260154231",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-01-18T14:29:30.000Z",
-        "updated": "2026-01-18T14:40:26.766Z",
-        "resources": 3,
-        "location": "Tucker Rd, Ormond"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-01-18T14:15:52.000Z",
+        "updated": "2026-01-18T15:19:17.000Z",
+        "resources": 0,
+        "location": "Armadale",
+        "sesId": 595990
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05320435715433,
-          -37.90700165836961
+          145.0213243002129,
+          -37.85353914618158
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122694270,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122694270,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Fitzroy North",
+        "eventId": "F260110240",
+        "id": "ESTA:260110240",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-01-18T15:11:39.000Z",
+        "updated": "2026-01-18T15:23:12.792Z",
+        "resources": 3,
+        "location": "Brunswick St, Fitzroy North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97976036081116,
+          -37.792067307989846
         ]
       }
     },
@@ -6550,7 +6554,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "cfaId": 258380,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 258380,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Goulburn Valley Hwy",
+        "eventId": 260110239,
+        "id": "ESTA:260110239",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-18T14:51:00.000Z",
+        "updated": "2026-01-18T14:51:00.000Z",
+        "resources": 0,
+        "location": "Goulburn Valley Hwy, Molesworth",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.52482650960746,
+          -37.1643751593009
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 258376,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -6562,8 +6595,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-01-18T13:11:00.000Z",
-        "updated": "2026-01-18T13:50:00.000Z",
-        "resources": 8,
+        "updated": "2026-01-18T15:04:00.000Z",
+        "resources": 4,
         "location": "Francis St, Seaford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -6574,91 +6607,6 @@
         "coordinates": [
           145.13925478097923,
           -38.10507032281794
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 258378,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 258378,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260110233,
-        "id": "ESTA:260110233",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-01-18T13:36:00.000Z",
-        "updated": "2026-01-18T13:58:00.000Z",
-        "resources": 0,
-        "location": "Quantong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.06305059030507,
-          -36.738944708458405
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 258374,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 258374,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260110215,
-        "id": "ESTA:260110215",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-01-18T12:12:00.000Z",
-        "updated": "2026-01-18T14:08:00.000Z",
-        "resources": 0,
-        "location": "Panmure",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.67016384889982,
-          -38.346049428894496
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 595990,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 595990,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260154231,
-        "id": "ESTA:260154231",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-01-18T14:15:52.000Z",
-        "updated": "2026-01-18T14:42:29.000Z",
-        "resources": 2,
-        "location": "Armadale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0213243002129,
-          -37.85353914618158
         ]
       }
     },
@@ -6917,7 +6865,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-01-18T14:50:20.374Z",
-    "featureCount": 398
+    "lastUpdated": "2026-01-18T15:27:40.647Z",
+    "featureCount": 396
   }
 }
