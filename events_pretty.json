@@ -3276,7 +3276,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Complete",
+        "estaId": 122872212,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 597798,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250185,
+        "id": "ESTA:260250185",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-02-01T17:31:40.000Z",
+        "updated": "2026-02-01T17:47:10.000Z",
+        "resources": 0,
+        "location": "Eagle Point",
+        "sesId": 597798
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.66825399990066,
+          -37.89726572162888
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "estaId": 122872175,
         "feedType": "incident",
         "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
@@ -3290,8 +3320,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-02-01T17:23:00.000Z",
-        "updated": "2026-02-01T17:23:00.000Z",
-        "resources": 0,
+        "updated": "2026-02-01T17:48:00.000Z",
+        "resources": 1,
         "location": "Goulburn Valley Hwy, Koriella",
         "cfaId": 261731,
         "size": "Small",
@@ -3308,31 +3338,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122872212,
+        "status": "Responding",
+        "estaId": 122872266,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 597798,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250185,
-        "id": "ESTA:260250185",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261732,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harnham Dr",
+        "eventId": 260200464,
+        "id": "ESTA:260200464",
         "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-02-01T17:31:40.000Z",
-        "updated": "2026-02-01T17:32:09.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-01T17:49:00.000Z",
+        "updated": "2026-02-01T17:49:00.000Z",
         "resources": 0,
-        "location": "Eagle Point",
-        "sesId": 597798
+        "location": "Harnham Dr, Bairnsdale",
+        "cfaId": 261732,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.66825399990066,
-          -37.89726572162888
+          147.59602666861417,
+          -37.83756406410247
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122872282,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122872282,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Neerim Junction",
+        "eventId": "F260200465",
+        "id": "ESTA:260200465",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-01T17:55:10.000Z",
+        "updated": "2026-02-01T17:56:07.558Z",
+        "resources": 0,
+        "location": "Neerim Junction"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96127924308882,
+          -37.92910287475762
         ]
       }
     },
@@ -4392,35 +4453,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 261730,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 261730,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Camms Rd",
-        "eventId": 260200458,
-        "id": "ESTA:260200458",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-01T16:34:00.000Z",
-        "updated": "2026-02-01T16:40:00.000Z",
-        "resources": 0,
-        "location": "Camms Rd, Cranbourne",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.28525292592414,
-          -38.09851490789471
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 261728,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4433,7 +4465,7 @@
         "category2": "Building Fire",
         "created": "2026-02-01T16:06:00.000Z",
         "updated": "2026-02-01T17:06:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Hammond Rd, Dandenong South",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4704,7 +4736,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-01T17:33:21.755Z",
-    "featureCount": 387
+    "lastUpdated": "2026-02-01T17:56:20.322Z",
+    "featureCount": 388
   }
 }
