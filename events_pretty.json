@@ -913,6 +913,36 @@
     },
     {
       "properties": {
+        "status": "Minor",
+        "feedType": "earthquake",
+        "sourceOrg": "AU/GA",
+        "sourceId": "701432",
+        "sourceFeed": "ga-earthquake",
+        "sourceTitle": "Magnitude 3.1 earthquake - Briagolong, VIC - 02/02/2026 09:38:26 (UTC)",
+        "id": "701432",
+        "category1": "Earthquake",
+        "category2": "Earthquake",
+        "name": "Magnitude 3.1 - Briagolong, VIC",
+        "sizeFmt": "Magnitude 3.1",
+        "created": "2026-02-02T21:38:26-00:00",
+        "updated": "2026-02-02T21:38:26-00:00",
+        "webBody": "A magnitude 3.1 earthquake has occurred in \"Briagolong, VIC\" at a depth of 10.00 km at 02/02/2026 09:38:26 (UTC)",
+        "url": "https://earthquakes.ga.gov.au/event/ga2026cikhbf",
+        "cssClass": "earthquake",
+        "magnitude": "3.07696229165708",
+        "location": "Briagolong, VIC"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.189,
+          -37.419
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "feedType": "incident",
         "sourceOrg": "SA/CFS",
@@ -934,32 +964,6 @@
         "coordinates": [
           140.580599670337,
           -34.3758000585785
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Contained",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1687373",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Henningsen Rd/Whites Flat Rd , Yahl",
-        "id": "1687373",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Henningsen Rd/Whites Flat Rd , Yahl",
-        "created": "2026-02-02T15:43:00.000Z",
-        "updated": "2026-02-02T15:43:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Henningsen Rd/Whites Flat Rd , Yahl"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.833681930343,
-          -37.9111383608524
         ]
       }
     },
@@ -1507,53 +1511,82 @@
     {
       "properties": {
         "status": "Request For Assistance",
-        "estaId": 122884357,
+        "estaId": 122886076,
         "feedType": "incident",
-        "source": "000",
+        "source": "SES STRM",
         "sourceOrg": "VIC/SES",
-        "sourceId": 597876,
+        "sourceId": 597887,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260250274,
-        "id": "ESTA:260250274",
+        "eventId": 260250285,
+        "id": "ESTA:260250285",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-02-02T17:46:27.000Z",
-        "updated": "2026-02-02T17:47:06.000Z",
-        "resources": 0,
-        "location": "Mooroopna",
-        "sesId": 597876
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-02T22:50:32.000Z",
+        "updated": "2026-02-02T22:55:04.000Z",
+        "resources": 1,
+        "location": "Mill Park",
+        "sesId": 597887
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35935042665096,
-          -36.39443845644078
+          145.05969203905113,
+          -37.65857305998346
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122884357,
+        "estaId": 122886085,
         "feedType": "incident",
-        "source": "000",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122886085,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Endeavour Hills",
+        "eventId": "F260200940",
+        "id": "ESTA:260200940",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-02T22:50:20.000Z",
+        "updated": "2026-02-02T22:51:23.333Z",
+        "resources": 0,
+        "location": "Endeavour Hills"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2375397150445,
+          -37.9726413275802
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122885980,
+        "feedType": "incident",
+        "source": "PAL",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 261880,
+        "sourceId": 261908,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260200854,
-        "id": "ESTA:260200854",
+        "sourceTitle": "Eastern Beach Rd",
+        "eventId": 260200933,
+        "id": "ESTA:260200933",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-02T17:46:00.000Z",
-        "updated": "2026-02-02T17:46:00.000Z",
+        "category2": "Other",
+        "created": "2026-02-02T22:40:00.000Z",
+        "updated": "2026-02-02T22:53:00.000Z",
         "resources": 0,
-        "location": "Mooroopna",
-        "cfaId": 261880,
+        "location": "Eastern Beach Rd, Geelong",
+        "cfaId": 261908,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1561,31 +1594,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.35935042665096,
-          -36.39443845644078
+          144.3744870374521,
+          -38.14680630952318
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122884358,
+        "status": "Safe",
+        "estaId": 122886125,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122886125,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Southbank",
+        "eventId": "F260200942",
+        "id": "ESTA:260200942",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-02T22:54:43.000Z",
+        "updated": "2026-02-02T22:55:52.737Z",
+        "resources": 3,
+        "location": "Southbank"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95911315687542,
+          -37.82678205276452
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122885779,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 261881,
+        "sourceId": 261906,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mclennan St",
-        "eventId": 260200855,
-        "id": "ESTA:260200855",
+        "sourceTitle": "Watton St",
+        "eventId": 260200928,
+        "id": "ESTA:260200928",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-02T17:47:00.000Z",
-        "updated": "2026-02-02T17:47:00.000Z",
+        "category2": "Bushfire",
+        "created": "2026-02-02T22:20:00.000Z",
+        "updated": "2026-02-02T22:37:00.000Z",
         "resources": 0,
-        "location": "Mclennan St, Mooroopna",
-        "cfaId": 261881,
+        "location": "Watton St, Werribee",
+        "cfaId": 261906,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1593,8 +1655,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3610205233204,
-          -36.394551533959
+          144.6517120287364,
+          -37.90585894038182
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122885442,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261903,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harmony Way",
+        "eventId": 260200922,
+        "id": "ESTA:260200922",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-02T21:43:00.000Z",
+        "updated": "2026-02-02T23:01:00.000Z",
+        "resources": 0,
+        "location": "Harmony Way, Harcourt",
+        "cfaId": 261903,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.24575542011917,
+          -36.96702589179585
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122885390,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261902,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Fwy",
+        "eventId": 260200918,
+        "id": "ESTA:260200918",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-02T21:38:00.000Z",
+        "updated": "2026-02-02T23:01:00.000Z",
+        "resources": 0,
+        "location": "Calder Fwy, Harcourt",
+        "cfaId": 261902,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2500216374397,
+          -36.998250795096006
         ]
       }
     },
@@ -1607,13 +1733,13 @@
         "sourceId": "644678",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Mount Tipperary",
-        "id": "2026-02-02T17:41:00.0000000:644678",
+        "id": "2026-02-03T09:19:00.0000000:644678",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Mount Tipperary",
         "location": "Mathewsons Trl, Wantagong 2644",
-        "created": "2026-02-02T17:41:00+11:00",
-        "updated": "2026-02-02T17:41:00+11:00",
+        "created": "2026-02-03T09:19:00+11:00",
+        "updated": "2026-02-03T09:19:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -1735,8 +1861,8 @@
           {
             "type": "Point",
             "coordinates": [
-              147.69227028,
-              -35.6455792369999
+              147.692276001,
+              -35.6455802909999
             ]
           }
         ]
@@ -1750,13 +1876,13 @@
         "sourceId": "644542",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Hendersons Rd, Wantagong",
-        "id": "2026-02-02T17:47:00.0000000:644542",
+        "id": "2026-02-03T09:57:00.0000000:644542",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Hendersons Rd, Wantagong",
         "location": "Upper Wantagong, Hendersons Rd, Wantagong 2644",
-        "created": "2026-02-02T17:47:00+11:00",
-        "updated": "2026-02-02T17:47:00+11:00",
+        "created": "2026-02-03T09:57:00+11:00",
+        "updated": "2026-02-03T09:57:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -2292,6 +2418,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 261910,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261910,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260200938,
+        "id": "ESTA:260200938",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-02T22:48:00.000Z",
+        "updated": "2026-02-02T22:59:00.000Z",
+        "resources": 2,
+        "location": "Endeavour Hills",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2383307377526,
+          -37.97325036739947
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Contained",
         "cfaId": 254114,
         "feedType": "incident",
@@ -2490,6 +2645,118 @@
         "coordinates": [
           144.2085285903486,
           -36.96389397704901
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 261904,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261904,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burdap Dr",
+        "eventId": 260200924,
+        "id": "ESTA:260200924",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-02T21:50:00.000Z",
+        "updated": "2026-02-02T22:32:00.000Z",
+        "resources": 2,
+        "location": "Burdap Dr, Mount Evelyn",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38452591796755,
+          -37.77516151981607
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 261909,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261909,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260200936,
+        "id": "ESTA:260200936",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-02T22:43:00.000Z",
+        "updated": "2026-02-02T22:43:00.000Z",
+        "resources": 1,
+        "location": "Wangaratta South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2786574381639,
+          -36.39819320299785
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 597885,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 597885,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250282,
+        "id": "ESTA:260250282",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-02T22:21:09.000Z",
+        "updated": "2026-02-02T22:26:24.000Z",
+        "resources": 0,
+        "location": "Brunswick West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9404331418684,
+          -37.75961004391861
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 597884,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 597884,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250281,
+        "id": "ESTA:260250281",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-02T22:11:26.000Z",
+        "updated": "2026-02-02T22:44:17.000Z",
+        "resources": 1,
+        "location": "Black Rock"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02167276561457,
+          -37.97765416303717
         ]
       }
     }
@@ -2721,7 +2988,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-02T17:49:20.872Z",
-    "featureCount": 377
+    "lastUpdated": "2026-02-02T23:04:26.680Z",
+    "featureCount": 386
   }
 }
