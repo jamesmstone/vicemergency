@@ -939,6 +939,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1687373",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Henningsen Rd/Whites Flat Rd , Yahl",
+        "id": "1687373",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Henningsen Rd/Whites Flat Rd , Yahl",
+        "created": "2026-02-02T15:43:00.000Z",
+        "updated": "2026-02-02T15:43:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Henningsen Rd/Whites Flat Rd , Yahl"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.833681930343,
+          -37.9111383608524
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1475,6 +1501,67 @@
         "coordinates": [
           149.8132,
           -37.5414
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122884095,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261878,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Punt Rd",
+        "eventId": 260200847,
+        "id": "ESTA:260200847",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-02T16:22:00.000Z",
+        "updated": "2026-02-02T16:37:00.000Z",
+        "resources": 0,
+        "location": "Punt Rd, Cobram",
+        "cfaId": 261878,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64539392527698,
+          -35.92077545371869
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122884171,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122884171,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F260200848",
+        "id": "ESTA:260200848",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-02T16:43:08.000Z",
+        "updated": "2026-02-02T16:52:33.444Z",
+        "resources": 3,
+        "location": "Elizabeth St, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9642572284836,
+          -37.81662985433209
         ]
       }
     },
@@ -2372,35 +2459,6 @@
           -36.96389397704901
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 261877,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 261877,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lorimer St",
-        "eventId": 260200841,
-        "id": "ESTA:260200841",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-02T15:06:00.000Z",
-        "updated": "2026-02-02T15:19:00.000Z",
-        "resources": 0,
-        "location": "Lorimer St, Melton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.57409557178582,
-          -37.68918695993479
-        ]
-      }
     }
   ],
   "properties": {
@@ -2630,7 +2688,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-02T15:47:40.517Z",
-    "featureCount": 374
+    "lastUpdated": "2026-02-02T16:54:41.327Z",
+    "featureCount": 376
   }
 }
