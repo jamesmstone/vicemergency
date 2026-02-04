@@ -1556,24 +1556,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122908870,
+        "status": "Safe",
+        "estaId": 122909024,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 262239,
+        "sourceId": 262240,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gunns Gully Rd",
-        "eventId": 260201778,
-        "id": "ESTA:260201778",
+        "sourceTitle": "",
+        "eventId": 260201779,
+        "id": "ESTA:260201779",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-02-04T15:00:00.000Z",
-        "updated": "2026-02-04T15:00:00.000Z",
-        "resources": 1,
-        "location": "Gunns Gully Rd, Mickleham",
-        "cfaId": 262239,
+        "created": "2026-02-04T15:33:00.000Z",
+        "updated": "2026-02-04T15:41:00.000Z",
+        "resources": 0,
+        "location": "Bendigo",
+        "cfaId": 262240,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1581,8 +1581,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93223569278405,
-          -37.50910533158693
+          144.2757687832902,
+          -36.75566307753375
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122909040,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122909040,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Maidstone",
+        "eventId": "F260201780",
+        "id": "ESTA:260201780",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-02-04T15:35:19.000Z",
+        "updated": "2026-02-04T15:52:31.027Z",
+        "resources": 7,
+        "location": "Foreman Way, Maidstone"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88392148135117,
+          -37.78325492744176
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 122909040,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598031,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250432,
+        "id": "ESTA:260250432",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-02-04T15:36:47.000Z",
+        "updated": "2026-02-04T15:52:28.000Z",
+        "resources": 0,
+        "location": "Maidstone",
+        "sesId": 598031
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.88391187336617,
+          -37.783264332392896
         ]
       }
     },
@@ -1611,45 +1670,6 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6052,
-                  -35.8185
-                ],
-                [
-                  147.6057,
-                  -35.8179
-                ],
-                [
-                  147.6063,
-                  -35.8178
-                ],
-                [
-                  147.6067,
-                  -35.8182
-                ],
-                [
-                  147.6065,
-                  -35.819
-                ],
-                [
-                  147.6061,
-                  -35.8191
-                ],
-                [
-                  147.6056,
-                  -35.819
-                ],
-                [
-                  147.6052,
-                  -35.8185
-                ]
-              ]
-            ]
-          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -1717,6 +1737,45 @@
                 [
                   147.6056,
                   -35.8066
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6052,
+                  -35.8185
+                ],
+                [
+                  147.6057,
+                  -35.8179
+                ],
+                [
+                  147.6063,
+                  -35.8178
+                ],
+                [
+                  147.6067,
+                  -35.8182
+                ],
+                [
+                  147.6065,
+                  -35.819
+                ],
+                [
+                  147.6061,
+                  -35.8191
+                ],
+                [
+                  147.6056,
+                  -35.819
+                ],
+                [
+                  147.6052,
+                  -35.8185
                 ]
               ]
             ]
@@ -2109,35 +2168,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 262236,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262236,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260201773,
-        "id": "ESTA:260201773",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-02-04T14:08:00.000Z",
-        "updated": "2026-02-04T14:27:00.000Z",
-        "resources": 0,
-        "location": "Nyora",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.69190616744487,
-          -38.33503085041475
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 262237,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2149,8 +2179,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-04T14:37:00.000Z",
-        "updated": "2026-02-04T14:49:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-04T15:20:00.000Z",
+        "resources": 1,
         "location": "Connor St, East Geelong",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2161,35 +2191,6 @@
         "coordinates": [
           144.3731717085292,
           -38.15452582935369
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 262238,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262238,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Old St Leonards Rd",
-        "eventId": 260201776,
-        "id": "ESTA:260201776",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-04T14:50:00.000Z",
-        "updated": "2026-02-04T14:50:00.000Z",
-        "resources": 5,
-        "location": "Old St Leonards Rd, St Leonards",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70243898938335,
-          -38.17437249796983
         ]
       }
     },
@@ -3296,7 +3297,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-04T15:04:21.753Z",
+    "lastUpdated": "2026-02-04T15:56:20.540Z",
     "featureCount": 388
   }
 }
