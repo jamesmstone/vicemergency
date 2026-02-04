@@ -1557,23 +1557,52 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 122908120,
+        "estaId": 122908505,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122908505,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Burnley",
+        "eventId": "F260201772",
+        "id": "ESTA:260201772",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-04T13:48:32.000Z",
+        "updated": "2026-02-04T14:02:05.597Z",
+        "resources": 3,
+        "location": "Madden Gr, Burnley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0095821727144,
+          -37.828259714181186
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122908613,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 262233,
+        "sourceId": 262236,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Millar St",
-        "eventId": 260201763,
-        "id": "ESTA:260201763",
+        "sourceTitle": "",
+        "eventId": 260201773,
+        "id": "ESTA:260201773",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-02-04T12:47:00.000Z",
-        "updated": "2026-02-04T13:09:00.000Z",
-        "resources": 1,
-        "location": "Millar St, Horsham",
-        "cfaId": 262233,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-04T14:08:00.000Z",
+        "updated": "2026-02-04T14:08:00.000Z",
+        "resources": 0,
+        "location": "Nyora",
+        "cfaId": 262236,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1581,37 +1610,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.19510836915146,
-          -36.708368228422074
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 122908328,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122908328,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Geelong West",
-        "eventId": "F260201764",
-        "id": "ESTA:260201764",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-04T13:15:57.000Z",
-        "updated": "2026-02-04T13:19:29.734Z",
-        "resources": 0,
-        "location": "Geelong West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.34462261758327,
-          -38.131496214922045
+          145.69190616744487,
+          -38.33503085041475
         ]
       }
     },
@@ -2051,35 +2051,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 261926,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 261926,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Donnybrook Rd",
-        "eventId": 260200993,
-        "id": "ESTA:260200993",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-03T01:05:00.000Z",
-        "updated": "2026-02-03T05:34:00.000Z",
-        "resources": 3,
-        "location": "Donnybrook Rd, Wollert",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96703377493336,
-          -37.57246107341327
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 262158,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2137,7 +2108,36 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
+        "cfaId": 261926,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 261926,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Donnybrook Rd",
+        "eventId": 260200993,
+        "id": "ESTA:260200993",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-03T01:05:00.000Z",
+        "updated": "2026-02-04T13:32:00.000Z",
+        "resources": 4,
+        "location": "Donnybrook Rd, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96703377493336,
+          -37.57246107341327
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 262232,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2149,8 +2149,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2026-02-04T12:22:00.000Z",
-        "updated": "2026-02-04T12:22:00.000Z",
-        "resources": 3,
+        "updated": "2026-02-04T13:49:00.000Z",
+        "resources": 0,
         "location": "York St, Ballarat East",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2167,78 +2167,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 262228,
+        "cfaId": 262235,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 262228,
+        "sourceId": 262235,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "York St",
-        "eventId": 260201752,
-        "id": "ESTA:260201752",
+        "sourceTitle": "Darling Way",
+        "eventId": 260201768,
+        "id": "ESTA:260201768",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-02-04T11:52:00.000Z",
-        "updated": "2026-02-04T12:23:00.000Z",
-        "resources": 0,
-        "location": "York St, Ballarat East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.87918327627145,
-          -37.56857823941418
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 262231,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262231,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tetoora Cl",
-        "eventId": 260201759,
-        "id": "ESTA:260201759",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-04T12:15:00.000Z",
-        "updated": "2026-02-04T12:25:00.000Z",
-        "resources": 0,
-        "location": "Tetoora Cl, Rowville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26347217058967,
-          -37.90391669086708
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 262225,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262225,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kirribilli Av",
-        "eventId": 260201746,
-        "id": "ESTA:260201746",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-04T11:02:00.000Z",
-        "updated": "2026-02-04T12:27:00.000Z",
+        "created": "2026-02-04T13:36:00.000Z",
+        "updated": "2026-02-04T13:56:00.000Z",
         "resources": 2,
-        "location": "Kirribilli Av, Keysborough",
+        "location": "Darling Way, Narre Warren",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2246,37 +2188,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.16606134697915,
-          -37.982914621477455
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 262230,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262230,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Frankston Fwy",
-        "eventId": 260201758,
-        "id": "ESTA:260201758",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-04T12:11:00.000Z",
-        "updated": "2026-02-04T13:05:00.000Z",
-        "resources": 0,
-        "location": "Frankston Fwy, Seaford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1358510944658,
-          -38.12186800653821
+          145.32266725708337,
+          -38.03771134742252
         ]
       }
     },
@@ -2293,7 +2206,7 @@
         "category2": "Total Fire Ban",
         "location": "North East",
         "status": "TOTAL FIRE BAN IN FORCE",
-        "webHeadline": "Tomorrow, Thu, 5 Feb 2026 has been declared a day of Total Fire Ban in the North East district(s) of Victoria.  No fires can be lit or be allowed to remain alight in the open air from 12:01 AM on Thu, 5 Feb 2026 until 11:59 PM Thu, 5 Feb 2026.",
+        "webHeadline": "Today, Thu, 5 Feb 2026 has been declared a day of Total Fire Ban in the North East district(s) of Victoria.  No fires can be lit or be allowed to remain alight in the open air from 12:01 AM on Thu, 5 Feb 2026 until 11:59 PM Thu, 5 Feb 2026.",
         "created": "2026-02-04T13:00:00.000Z",
         "updated": "2026-02-04T13:00:00.000Z",
         "url": "https://www.cfa.vic.gov.au/warnings-restrictions/total-fire-bans-and-ratings/can-i-or-cant-i/",
@@ -3383,7 +3296,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-04T13:20:20.602Z",
-    "featureCount": 391
+    "lastUpdated": "2026-02-04T14:10:00.219Z",
+    "featureCount": 388
   }
 }
