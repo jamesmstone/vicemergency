@@ -1657,23 +1657,23 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 122921322,
+        "estaId": 122921584,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 262418,
+        "sourceId": 262421,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260202224,
-        "id": "ESTA:260202224",
+        "sourceTitle": "Trinity Bvd",
+        "eventId": 260202231,
+        "id": "ESTA:260202231",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-02-05T15:00:00.000Z",
-        "updated": "2026-02-05T15:00:00.000Z",
-        "resources": 0,
-        "location": "Langwarrin",
-        "cfaId": 262418,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-05T15:51:00.000Z",
+        "updated": "2026-02-05T15:51:00.000Z",
+        "resources": 2,
+        "location": "Trinity Bvd, Attwood",
+        "cfaId": 262421,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1681,40 +1681,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19103079077743,
-          -38.152270953709724
+          144.88304356161785,
+          -37.67389105202319
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122921325,
+        "status": "Under Control",
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262419,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murlong St",
-        "eventId": 260202225,
-        "id": "ESTA:260202225",
-        "suppress": false,
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "644932",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Happy Jacks",
+        "id": "2026-02-05T15:11:00.0000000:644932",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-05T15:01:00.000Z",
-        "updated": "2026-02-05T15:01:00.000Z",
-        "resources": 0,
-        "location": "Murlong St, Swan Hill",
-        "cfaId": 262419,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Grass Fire",
+        "name": "Happy Jacks",
+        "location": "Happy Jacks Road",
+        "created": "2026-02-05T15:11:00+11:00",
+        "updated": "2026-02-05T15:11:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.54405299332294,
-          -35.34211731443726
+          148.468505859,
+          -36.021820068
         ]
       }
     },
@@ -2037,31 +2035,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "cfaId": 262415,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "644932",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Happy Jacks",
-        "id": "2026-02-05T15:11:00.0000000:644932",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262415,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Meldrum Ct",
+        "eventId": 260202219,
+        "id": "ESTA:260202219",
         "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Happy Jacks",
-        "location": "Happy Jacks Road",
-        "created": "2026-02-05T15:11:00+11:00",
-        "updated": "2026-02-05T15:11:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "category2": "Building Fire",
+        "created": "2026-02-05T14:08:00.000Z",
+        "updated": "2026-02-05T15:12:00.000Z",
+        "resources": 3,
+        "location": "Meldrum Ct, Narre Warren South",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.468505859,
-          -36.021820068
+          145.290221129926,
+          -38.05511434198967
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 262419,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262419,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Murlong St",
+        "eventId": 260202225,
+        "id": "ESTA:260202225",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-05T15:01:00.000Z",
+        "updated": "2026-02-05T15:14:00.000Z",
+        "resources": 0,
+        "location": "Murlong St, Swan Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.54405299332294,
+          -35.34211731443726
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 262418,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262418,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260202224,
+        "id": "ESTA:260202224",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-05T15:00:00.000Z",
+        "updated": "2026-02-05T15:54:00.000Z",
+        "resources": 0,
+        "location": "Langwarrin",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19103079077743,
+          -38.152270953709724
         ]
       }
     },
@@ -2271,7 +2326,7 @@
     {
       "properties": {
         "status": "On Scene",
-        "cfaId": 262410,
+        "sesId": 598086,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
         "sourceId": 598086,
@@ -2283,11 +2338,8 @@
         "category2": "Rescue Road Trap",
         "created": "2026-02-05T12:47:40.000Z",
         "updated": "2026-02-05T13:51:55.000Z",
-        "resources": 5,
-        "location": "Skipton",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 598086
+        "resources": 4,
+        "location": "Skipton"
       },
       "type": "Feature",
       "geometry": {
@@ -2295,64 +2347,6 @@
         "coordinates": [
           143.26858355916053,
           -37.72548257212145
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 262415,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262415,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Meldrum Ct",
-        "eventId": 260202219,
-        "id": "ESTA:260202219",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-05T14:08:00.000Z",
-        "updated": "2026-02-05T14:31:00.000Z",
-        "resources": 4,
-        "location": "Meldrum Ct, Narre Warren South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.290221129926,
-          -38.05511434198967
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 262416,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262416,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Howard St",
-        "eventId": 260202222,
-        "id": "ESTA:260202222",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-05T14:33:00.000Z",
-        "updated": "2026-02-05T14:52:00.000Z",
-        "resources": 0,
-        "location": "Howard St, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.20022446738625,
-          -36.70042923112809
         ]
       }
     },
@@ -2370,8 +2364,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-02-05T14:50:18.000Z",
-        "updated": "2026-02-05T15:00:26.000Z",
-        "resources": 0,
+        "updated": "2026-02-05T15:39:19.000Z",
+        "resources": 2,
         "location": "Hawthorn East"
       },
       "type": "Feature",
@@ -3486,7 +3480,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-05T15:06:20.446Z",
+    "lastUpdated": "2026-02-05T16:00:00.536Z",
     "featureCount": 390
   }
 }
