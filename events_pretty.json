@@ -1656,36 +1656,36 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122922310,
+        "status": "Unknown",
+        "estaId": 122922365,
         "feedType": "incident",
-        "source": "000",
+        "source": "SES STRM",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 122922310,
+        "sourceId": 122922365,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Pascoe Vale",
-        "eventId": "F260202260",
-        "id": "ESTA:260202260",
+        "sourceTitle": "Taggerty",
+        "eventId": "S260250495",
+        "id": "ESTA:260250495",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-02-05T19:19:17.000Z",
-        "updated": "2026-02-05T19:28:27.013Z",
-        "resources": 3,
-        "location": "Edmunds Ct, Pascoe Vale"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-05T19:38:24.000Z",
+        "updated": "2026-02-05T19:41:48.327Z",
+        "resources": 0,
+        "location": "Taggerty"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.94756169574015,
-          -37.72719828900017
+          145.71178398276416,
+          -37.32167394186908
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 122922278,
         "feedType": "incident",
         "source": "000",
@@ -1699,8 +1699,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-05T19:13:00.000Z",
-        "updated": "2026-02-05T19:31:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-05T19:51:00.000Z",
+        "resources": 1,
         "location": "Millers Lane, Lancefield",
         "cfaId": 262432,
         "size": "Small",
@@ -1717,7 +1717,69 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Request For Assistance",
+        "estaId": 122922411,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598098,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250497,
+        "id": "ESTA:260250497",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-05T19:51:20.000Z",
+        "updated": "2026-02-05T19:53:33.000Z",
+        "resources": 0,
+        "location": "Armstrong Creek",
+        "sesId": 598098
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35569699596502,
+          -38.224071601045004
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 122922281,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262433,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Middle Creek Rd",
+        "eventId": 260202258,
+        "id": "ESTA:260202258",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-05T19:14:00.000Z",
+        "updated": "2026-02-05T19:52:00.000Z",
+        "resources": 2,
+        "location": "Middle Creek Rd, Gobur",
+        "cfaId": 262433,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.636414798456,
+          -37.020530117389946
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 122922343,
         "feedType": "incident",
         "source": "000",
@@ -1731,7 +1793,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-05T19:33:00.000Z",
-        "updated": "2026-02-05T19:33:00.000Z",
+        "updated": "2026-02-05T20:00:00.000Z",
         "resources": 2,
         "location": "Swansea Rd, Lilydale",
         "cfaId": 262434,
@@ -1744,36 +1806,6 @@
         "coordinates": [
           145.3634225817028,
           -37.77806961427401
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122922365,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598096,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250495,
-        "id": "ESTA:260250495",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-05T19:39:40.000Z",
-        "updated": "2026-02-05T19:39:40.000Z",
-        "resources": 0,
-        "location": "Taggerty",
-        "sesId": 598096
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.71177603634268,
-          -37.32168562554932
         ]
       }
     },
@@ -2330,64 +2362,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 262427,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262427,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260202244,
-        "id": "ESTA:260202244",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2026-02-05T18:02:00.000Z",
-        "updated": "2026-02-05T18:42:00.000Z",
-        "resources": 0,
-        "location": "Cranbourne West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2647704254382,
-          -38.10290025036726
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 262433,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262433,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Middle Creek Rd",
-        "eventId": 260202258,
-        "id": "ESTA:260202258",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-05T19:14:00.000Z",
-        "updated": "2026-02-05T19:14:00.000Z",
-        "resources": 2,
-        "location": "Middle Creek Rd, Gobur",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.636414798456,
-          -37.020530117389946
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 262430,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2440,6 +2414,35 @@
         "coordinates": [
           145.0607513722665,
           -37.647920148050524
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 262435,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262435,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Greens Rd",
+        "eventId": 260202264,
+        "id": "ESTA:260202264",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-05T19:45:00.000Z",
+        "updated": "2026-02-05T19:45:00.000Z",
+        "resources": 0,
+        "location": "Greens Rd, Gellibrand",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.53025428464082,
+          -38.51836741787821
         ]
       }
     },
@@ -2511,8 +2514,8 @@
         "category1": "Rescue",
         "category2": "Rescue High Angle",
         "created": "2026-02-05T18:47:20.000Z",
-        "updated": "2026-02-05T19:25:33.000Z",
-        "resources": 10,
+        "updated": "2026-02-05T19:58:12.000Z",
+        "resources": 9,
         "location": "Boronia"
       },
       "type": "Feature",
@@ -3627,7 +3630,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-05T19:41:07.154Z",
+    "lastUpdated": "2026-02-05T20:02:00.525Z",
     "featureCount": 395
   }
 }
