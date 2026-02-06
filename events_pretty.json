@@ -1545,60 +1545,65 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122934263,
+        "status": "Safe",
+        "estaId": 122934601,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598172,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250572,
-        "id": "ESTA:260250572",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262652,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Victoria St",
+        "eventId": 260202739,
+        "id": "ESTA:260202739",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-06T14:02:27.000Z",
-        "updated": "2026-02-06T14:07:31.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-06T14:50:00.000Z",
+        "updated": "2026-02-06T14:52:00.000Z",
         "resources": 0,
-        "location": "Metung",
-        "sesId": 598172
+        "location": "Victoria St, Ballarat East",
+        "cfaId": 262652,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.86703953288801,
-          -37.87840331010925
+          143.87270109652349,
+          -37.56191523053509
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 122934312,
+        "status": "Under Control",
+        "estaId": 122934499,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 122934312,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hallam",
-        "eventId": "F260202732",
-        "id": "ESTA:260202732",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262651,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Harwich St",
+        "eventId": 260202737,
+        "id": "ESTA:260202737",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-02-06T14:07:37.000Z",
-        "updated": "2026-02-06T14:09:14.159Z",
-        "resources": 0,
-        "location": "Adam Av, Hallam"
+        "category2": "Building Fire",
+        "created": "2026-02-06T14:36:00.000Z",
+        "updated": "2026-02-06T14:52:00.000Z",
+        "resources": 2,
+        "location": "Harwich St, Rockbank",
+        "cfaId": 262651,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26239121054704,
-          -37.9975136905148
+          144.6404139539714,
+          -37.72266801630803
         ]
       }
     },
@@ -2013,35 +2018,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 262647,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262647,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Greyjoy Rd",
-        "eventId": 260202719,
-        "id": "ESTA:260202719",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-06T13:07:00.000Z",
-        "updated": "2026-02-06T13:21:00.000Z",
-        "resources": 0,
-        "location": "Greyjoy Rd, Charlemont",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3599266202295,
-          -38.21481418227279
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 262646,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2053,8 +2029,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-02-06T13:06:00.000Z",
-        "updated": "2026-02-06T13:22:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-06T14:12:00.000Z",
+        "resources": 0,
         "location": "Cobden-Terang Rd, Terang",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2065,6 +2041,62 @@
         "coordinates": [
           142.9250067175763,
           -38.264095340695796
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 262650,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262650,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baldrys Rd",
+        "eventId": 260202734,
+        "id": "ESTA:260202734",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-06T14:12:00.000Z",
+        "updated": "2026-02-06T14:43:00.000Z",
+        "resources": 4,
+        "location": "Baldrys Rd, Main Ridge",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96105913019835,
+          -38.42139543506009
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 598172,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598172,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250572,
+        "id": "ESTA:260250572",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-06T14:02:27.000Z",
+        "updated": "2026-02-06T14:32:24.000Z",
+        "resources": 1,
+        "location": "Metung"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.86703953288801,
+          -37.87840331010925
         ]
       }
     },
@@ -3171,7 +3203,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-06T14:09:20.775Z",
-    "featureCount": 391
+    "lastUpdated": "2026-02-06T15:03:46.436Z",
+    "featureCount": 392
   }
 }
