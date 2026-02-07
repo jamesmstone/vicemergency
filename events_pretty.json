@@ -1955,24 +1955,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 122946240,
+        "status": "Not Yet Under Control",
+        "estaId": 122947095,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 262834,
+        "sourceId": 262840,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Calder Hwy",
-        "eventId": 260203191,
-        "id": "ESTA:260203191",
+        "sourceTitle": "",
+        "eventId": 260203207,
+        "id": "ESTA:260203207",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-07T13:10:00.000Z",
-        "updated": "2026-02-07T13:51:00.000Z",
-        "resources": 0,
-        "location": "Calder Hwy, Red Cliffs",
-        "cfaId": 262834,
+        "category2": "Other",
+        "created": "2026-02-07T14:37:00.000Z",
+        "updated": "2026-02-07T14:37:00.000Z",
+        "resources": 4,
+        "location": "Monbulk",
+        "cfaId": 262840,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1980,44 +1980,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.1869497234733,
-          -34.31488090245776
+          145.42428321440818,
+          -37.852881596959925
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 122947063,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598267,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250653,
-        "id": "ESTA:260250653",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-02-07T14:32:44.000Z",
-        "updated": "2026-02-07T14:33:29.000Z",
-        "resources": 0,
-        "location": "Springvale",
-        "sesId": 598267
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17276989737718,
-          -37.93919451270099
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 122947074,
         "feedType": "incident",
         "source": "000",
@@ -2031,8 +2001,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-07T14:34:00.000Z",
-        "updated": "2026-02-07T14:34:00.000Z",
-        "resources": 0,
+        "updated": "2026-02-07T14:53:00.000Z",
+        "resources": 4,
         "location": "Candlebark Cl, Diamond Creek",
         "cfaId": 262839,
         "size": "Small",
@@ -2817,35 +2787,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 262837,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 262837,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260203195,
-        "id": "ESTA:260203195",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-07T13:26:00.000Z",
-        "updated": "2026-02-07T13:38:00.000Z",
-        "resources": 0,
-        "location": "Tooradin",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39012911425792,
-          -38.18653952668174
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 262836,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2903,6 +2844,62 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "cfaId": 262841,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 262841,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260203208,
+        "id": "ESTA:260203208",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-02-07T14:43:00.000Z",
+        "updated": "2026-02-07T14:44:00.000Z",
+        "resources": 2,
+        "location": "Traralgon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.55255626477913,
+          -38.182322651842895
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 598267,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598267,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250653,
+        "id": "ESTA:260250653",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-02-07T14:32:44.000Z",
+        "updated": "2026-02-07T14:44:37.000Z",
+        "resources": 1,
+        "location": "Springvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17276989737718,
+          -37.93919451270099
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "On Scene",
         "sesId": 598256,
         "feedType": "incident",
@@ -2915,8 +2912,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2026-02-07T10:28:56.000Z",
-        "updated": "2026-02-07T10:49:55.000Z",
-        "resources": 3,
+        "updated": "2026-02-07T14:45:15.000Z",
+        "resources": 2,
         "location": "Maryborough"
       },
       "type": "Feature",
@@ -3156,7 +3153,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-07T14:35:46.502Z",
+    "lastUpdated": "2026-02-07T14:57:46.586Z",
     "featureCount": 404
   }
 }
