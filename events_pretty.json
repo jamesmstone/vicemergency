@@ -1679,7 +1679,7 @@
     },
     {
       "properties": {
-        "status": "Contained",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 102637151,
@@ -1690,7 +1690,7 @@
         "category2": "Bushfire",
         "created": "2026-02-09T01:25:00.000Z",
         "updated": "2026-02-09T03:20:00.000Z",
-        "resources": 6,
+        "resources": 0,
         "size": "0.60",
         "sizeFmt": "0.60 Ha.",
         "location": "12Kms West Of Kotupna"
@@ -1922,31 +1922,94 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 122969546,
+        "status": "Responding",
+        "estaId": 122969992,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598450,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250829,
-        "id": "ESTA:260250829",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263184,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260204031,
+        "id": "ESTA:260204031",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-09T11:10:55.000Z",
-        "updated": "2026-02-09T11:16:45.000Z",
-        "resources": 0,
-        "location": "Archdale",
-        "sesId": 598450
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-09T12:17:00.000Z",
+        "updated": "2026-02-09T12:17:00.000Z",
+        "resources": 3,
+        "location": "Beauchamp",
+        "cfaId": 263184,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.51449664263725,
-          -36.84353859422929
+          143.64776239204866,
+          -35.72287230279142
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 122970017,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 122970017,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Norlane",
+        "eventId": "F260204032",
+        "id": "ESTA:260204032",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2026-02-09T12:20:26.000Z",
+        "updated": "2026-02-09T12:22:54.487Z",
+        "resources": 2,
+        "location": "Station St, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3668324101279,
+          -38.0867495468679
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122970033,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263185,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260204034,
+        "id": "ESTA:260204034",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-09T12:24:00.000Z",
+        "updated": "2026-02-09T12:24:00.000Z",
+        "resources": 0,
+        "location": "Beauchamp",
+        "cfaId": 263185,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.60530594405745,
+          -35.722826173379055
         ]
       }
     },
@@ -2186,94 +2249,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 263175,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 263175,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mallee Hwy",
-        "eventId": 260204002,
-        "id": "ESTA:260204002",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-09T10:11:00.000Z",
-        "updated": "2026-02-09T10:11:00.000Z",
-        "resources": 7,
-        "location": "Mallee Hwy, Piangil",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.30850994054416,
-          -35.05415966472055
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 263176,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 263176,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray St",
-        "eventId": 260204006,
-        "id": "ESTA:260204006",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-09T10:21:00.000Z",
-        "updated": "2026-02-09T10:21:00.000Z",
-        "resources": 0,
-        "location": "Murray St, Piangil",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.30850994054416,
-          -35.05415966472055
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
-        "cfaId": 263177,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 263177,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Allan St",
-        "eventId": 260204007,
-        "id": "ESTA:260204007",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-09T10:23:00.000Z",
-        "updated": "2026-02-09T10:53:00.000Z",
-        "resources": 1,
-        "location": "Allan St, Longwood East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4386443662659,
-          -36.82219060453009
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 263179,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2285,8 +2261,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-02-09T10:42:00.000Z",
-        "updated": "2026-02-09T10:53:00.000Z",
-        "resources": 3,
+        "updated": "2026-02-09T11:43:00.000Z",
+        "resources": 0,
         "location": "Wollert",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2302,21 +2278,23 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 598448,
+        "status": "Safe",
+        "cfaId": 263175,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598448,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250827,
-        "id": "ESTA:260250827",
-        "category1": "Rescue",
-        "category2": "Rescue Vehicle Into Structure",
-        "created": "2026-02-09T10:21:21.000Z",
-        "updated": "2026-02-09T10:56:30.000Z",
-        "resources": 2,
-        "location": "Piangil"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263175,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mallee Hwy",
+        "eventId": 260204002,
+        "id": "ESTA:260204002",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-09T10:11:00.000Z",
+        "updated": "2026-02-09T11:44:00.000Z",
+        "resources": 0,
+        "location": "Mallee Hwy, Piangil",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -2329,28 +2307,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 598449,
+        "status": "Safe",
+        "cfaId": 263183,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598449,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260250828,
-        "id": "ESTA:260250828",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-09T11:04:10.000Z",
-        "updated": "2026-02-09T11:19:17.000Z",
-        "resources": 1,
-        "location": "Sheans Creek"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263183,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lawson Cr",
+        "eventId": 260204028,
+        "id": "ESTA:260204028",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-09T11:45:00.000Z",
+        "updated": "2026-02-09T11:50:00.000Z",
+        "resources": 0,
+        "location": "Lawson Cr, Warragul",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.65408565740213,
-          -36.759139607318986
+          145.94865271691233,
+          -38.156667724337105
         ]
       }
     }
@@ -2369,7 +2349,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2377,7 +2356,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2393,7 +2373,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2401,7 +2380,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-08T13:00:00.000Z",
           "heat": {
@@ -2582,7 +2562,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-09T11:30:20.473Z",
-    "featureCount": 402
+    "lastUpdated": "2026-02-09T12:32:00.372Z",
+    "featureCount": 401
   }
 }
