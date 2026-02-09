@@ -1922,6 +1922,68 @@
     },
     {
       "properties": {
+        "status": "Complete",
+        "estaId": 122971422,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598461,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260250834,
+        "id": "ESTA:260250834",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-09T17:22:59.000Z",
+        "updated": "2026-02-09T17:56:24.000Z",
+        "resources": 0,
+        "location": "South Morang",
+        "sesId": 598461
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10314017029197,
+          -37.6198967362433
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 122971543,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263196,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Monkey Gully Rd",
+        "eventId": 260204075,
+        "id": "ESTA:260204075",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-09T18:04:00.000Z",
+        "updated": "2026-02-09T18:04:00.000Z",
+        "resources": 0,
+        "location": "Monkey Gully Rd, Mansfield",
+        "cfaId": 263196,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.08922813985723,
+          -37.07046281408022
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -1977,6 +2039,36 @@
         "coordinates": [
           146.067077637,
           -35.769989014
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "645561",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "(Riverina Hwy), Thurgoona",
+        "id": "2026-02-10T04:59:00.0000000:645561",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "(Riverina Hwy), Thurgoona",
+        "location": "B58 (Riverina Hwy), Thurgoona 2640",
+        "created": "2026-02-10T04:59:00+11:00",
+        "updated": "2026-02-10T04:59:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.017028809,
+          -36.071350098
         ]
       }
     },
@@ -2156,21 +2248,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 263193,
+        "status": "Not Yet Under Control",
+        "cfaId": 263195,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 263193,
+        "sourceId": 263195,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260204066,
-        "id": "ESTA:260204066",
+        "sourceTitle": "Western Fwy",
+        "eventId": 260204069,
+        "id": "ESTA:260204069",
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
-        "created": "2026-02-09T16:32:00.000Z",
-        "updated": "2026-02-09T16:43:00.000Z",
-        "resources": 0,
-        "location": "Upper Ferntree Gully",
+        "created": "2026-02-09T17:14:00.000Z",
+        "updated": "2026-02-09T17:27:00.000Z",
+        "resources": 7,
+        "location": "Western Fwy, Deanside",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2178,37 +2270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3156904199555,
-          -37.89288790891083
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 263194,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 263194,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Scanlon Dr",
-        "eventId": 260204068,
-        "id": "ESTA:260204068",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-09T16:49:00.000Z",
-        "updated": "2026-02-09T17:04:00.000Z",
-        "resources": 0,
-        "location": "Scanlon Dr, Epping",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9945998497956,
-          -37.647696942633196
+          144.70333036333477,
+          -37.746241596528556
         ]
       }
     },
@@ -3102,6 +3165,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "YES - TOTAL FIRE BAN IN FORCE",
@@ -3109,8 +3173,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3126,6 +3189,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "YES - TOTAL FIRE BAN IN FORCE",
@@ -3133,8 +3197,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-09T13:00:00.000Z",
           "heat": {
@@ -3315,7 +3378,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-09T17:08:41.120Z",
-    "featureCount": 398
+    "lastUpdated": "2026-02-09T18:07:20.584Z",
+    "featureCount": 400
   }
 }
