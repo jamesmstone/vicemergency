@@ -1348,24 +1348,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123009584,
+        "status": "Responding",
+        "estaId": 123010024,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 263796,
+        "sourceId": 263803,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 260205643,
-        "id": "ESTA:260205643",
+        "eventId": 260205664,
+        "id": "ESTA:260205664",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-02-12T22:12:00.000Z",
-        "updated": "2026-02-12T22:15:00.000Z",
-        "resources": 0,
-        "location": "Silvan",
-        "cfaId": 263796,
+        "created": "2026-02-12T22:57:00.000Z",
+        "updated": "2026-02-12T22:57:00.000Z",
+        "resources": 1,
+        "location": "Corio",
+        "cfaId": 263803,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1373,61 +1373,93 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.44498623246784,
-          -37.82448868899289
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123009816,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 598851,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251235,
-        "id": "ESTA:260251235",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-12T22:35:22.000Z",
-        "updated": "2026-02-12T22:36:16.000Z",
-        "resources": 0,
-        "location": "Moe",
-        "sesId": 598851
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2613382703652,
-          -38.18465507538288
+          144.34880059287119,
+          -38.08289479241475
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123009823,
+        "estaId": 123010036,
+        "feedType": "incident",
+        "source": "OTHER",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123010036,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Sunbury",
+        "eventId": "F260205666",
+        "id": "ESTA:260205666",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-02-12T22:57:43.000Z",
+        "updated": "2026-02-12T22:59:01.657Z",
+        "resources": 0,
+        "location": "Mcdougall Rd, Sunbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71750849662516,
+          -37.593538284055334
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123010038,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598853,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260205667,
+        "id": "ESTA:260205667",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-02-12T22:59:04.000Z",
+        "updated": "2026-02-12T23:00:58.000Z",
+        "resources": 0,
+        "location": "Swan Hill",
+        "cfaId": 263805,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 598853
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.54452687407647,
+          -35.34915625290828
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123010032,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 263800,
+        "sourceId": 263804,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260205656,
-        "id": "ESTA:260205656",
+        "sourceTitle": "Ridgemont Dr",
+        "eventId": 260205665,
+        "id": "ESTA:260205665",
         "suppress": false,
         "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-02-12T22:36:00.000Z",
-        "updated": "2026-02-12T22:36:00.000Z",
-        "resources": 2,
-        "location": "Nalangil",
-        "cfaId": 263800,
+        "category2": "Rescue",
+        "created": "2026-02-12T22:58:00.000Z",
+        "updated": "2026-02-12T22:58:00.000Z",
+        "resources": 0,
+        "location": "Ridgemont Dr, Berwick",
+        "cfaId": 263804,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1435,8 +1467,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.45631976568927,
-          -38.3451240578771
+          145.33879574800852,
+          -38.06974339824029
         ]
       }
     },
@@ -1724,49 +1756,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 263792,
+        "cfaId": 263796,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 263792,
+        "sourceId": 263796,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 260205634,
-        "id": "ESTA:260205634",
-        "category1": "Accident / Rescue",
-        "category2": "Rescue",
-        "created": "2026-02-12T21:42:00.000Z",
-        "updated": "2026-02-12T21:59:00.000Z",
-        "resources": 0,
-        "location": "Traralgon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5024890505456,
-          -38.20732921399422
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 263795,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 263795,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Parker Rd",
-        "eventId": 260205640,
-        "id": "ESTA:260205640",
+        "eventId": 260205643,
+        "id": "ESTA:260205643",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-02-12T21:59:00.000Z",
-        "updated": "2026-02-12T22:01:00.000Z",
+        "created": "2026-02-12T22:12:00.000Z",
+        "updated": "2026-02-12T22:15:00.000Z",
         "resources": 0,
-        "location": "Parker Rd, Silvan",
+        "location": "Silvan",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1774,8 +1777,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4401218995222,
-          -37.82887644542685
+          145.44498623246784,
+          -37.82448868899289
         ]
       }
     },
@@ -1790,8 +1793,8 @@
         "sourceTitle": "Ferntree Gully Rd",
         "eventId": 260205644,
         "id": "ESTA:260205644",
-        "category1": "Other",
-        "category2": "Other",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
         "created": "2026-02-12T22:14:00.000Z",
         "updated": "2026-02-12T22:25:00.000Z",
         "resources": 1,
@@ -1852,7 +1855,7 @@
         "category2": "Bushfire",
         "created": "2026-02-12T20:33:00.000Z",
         "updated": "2026-02-12T22:37:00.000Z",
-        "resources": 7,
+        "resources": 8,
         "location": "Pastoria",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1868,21 +1871,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 263801,
+        "status": "Under Control",
+        "cfaId": 263800,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 263801,
+        "sourceId": 263800,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heaths Rd",
-        "eventId": 260205657,
-        "id": "ESTA:260205657",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-12T22:38:00.000Z",
-        "updated": "2026-02-12T22:38:00.000Z",
-        "resources": 3,
-        "location": "Heaths Rd, Hoppers Crossing",
+        "sourceTitle": "",
+        "eventId": 260205656,
+        "id": "ESTA:260205656",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-12T22:36:00.000Z",
+        "updated": "2026-02-12T22:46:00.000Z",
+        "resources": 2,
+        "location": "Nalangil",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1890,8 +1893,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.68001591239218,
-          -37.87699885753065
+          143.45631976568927,
+          -38.3451240578771
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 263802,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 263802,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frankston-Dandenong Rd",
+        "eventId": 260205662,
+        "id": "ESTA:260205662",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-12T22:51:00.000Z",
+        "updated": "2026-02-12T23:01:00.000Z",
+        "resources": 1,
+        "location": "Frankston-Dandenong Rd, Carrum Downs",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16925798640332,
+          -38.10289236352559
         ]
       }
     },
@@ -1919,6 +1951,60 @@
         "coordinates": [
           145.70534456008207,
           -37.187856255380545
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 598851,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598851,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251235,
+        "id": "ESTA:260251235",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-12T22:35:22.000Z",
+        "updated": "2026-02-12T22:49:32.000Z",
+        "resources": 0,
+        "location": "Moe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2613382703652,
+          -38.18465507538288
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 598852,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598852,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251236,
+        "id": "ESTA:260251236",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-12T22:52:31.000Z",
+        "updated": "2026-02-12T22:52:31.000Z",
+        "resources": 0,
+        "location": "Croydon"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27897082515463,
+          -37.79017712239746
         ]
       }
     }
@@ -2150,7 +2236,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-12T22:44:20.335Z",
-    "featureCount": 409
+    "lastUpdated": "2026-02-12T23:03:00.876Z",
+    "featureCount": 412
   }
 }
