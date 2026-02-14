@@ -1375,7 +1375,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123034124,
         "feedType": "incident",
         "source": "000",
@@ -1389,8 +1389,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-14T18:43:00.000Z",
-        "updated": "2026-02-14T18:43:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-14T19:23:00.000Z",
+        "resources": 0,
         "location": "Kilarnie Bvd, Wollert",
         "cfaId": 264093,
         "size": "Small",
@@ -1402,6 +1402,36 @@
         "coordinates": [
           145.01321697313472,
           -37.57977246680603
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123034170,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 598966,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251344,
+        "id": "ESTA:260251344",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-02-14T18:59:35.000Z",
+        "updated": "2026-02-14T19:29:30.000Z",
+        "resources": 0,
+        "location": "Chadstone",
+        "sesId": 598966
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1016033538157,
+          -37.879544749488886
         ]
       }
     },
@@ -2103,66 +2133,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "645925",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Perricoota Rd, Moama",
-        "id": "2026-02-15T01:26:00.0000000:645925",
-        "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Perricoota Rd, Moama",
-        "location": "Perricoota Rd, Moama 2731",
-        "created": "2026-02-15T01:26:00+11:00",
-        "updated": "2026-02-15T01:26:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.594482422,
-          -36.02841568
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "645986",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Memorial Rd, Curlwaa",
-        "id": "2026-02-15T04:32:00.0000000:645986",
-        "category1": "Fire",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Memorial Rd, Curlwaa",
-        "location": "Memorial Rd, Curlwaa 2648",
-        "created": "2026-02-15T04:32:00+11:00",
-        "updated": "2026-02-15T04:32:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.982406616,
-          -34.096027374
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "645958",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Willigobung Rd, Willigobung",
@@ -2275,17 +2245,17 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "645989",
+        "sourceId": "645925",
         "sourceFeed": "rfs-cap",
-        "sourceTitle": "Gerogery Rd, Ettamogah",
-        "id": "2026-02-15T05:18:00.0000000:645989",
+        "sourceTitle": "Perricoota Rd, Moama",
+        "id": "2026-02-15T01:26:00.0000000:645925",
         "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Gerogery Rd, Ettamogah",
-        "location": "Gerogery Rd, Ettamogah 2640",
-        "created": "2026-02-15T05:18:00+11:00",
-        "updated": "2026-02-15T05:18:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Perricoota Rd, Moama",
+        "location": "Perricoota Rd, Moama 2731",
+        "created": "2026-02-15T01:26:00+11:00",
+        "updated": "2026-02-15T01:26:00+11:00",
+        "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
           "0 ha"
@@ -2295,8 +2265,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.97706604,
-          -35.9880981439999
+          144.594482422,
+          -36.02841568
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "645986",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Memorial Rd, Curlwaa",
+        "id": "2026-02-15T04:32:00.0000000:645986",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Memorial Rd, Curlwaa",
+        "location": "Memorial Rd, Curlwaa 2648",
+        "created": "2026-02-15T04:32:00+11:00",
+        "updated": "2026-02-15T04:32:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.982406616,
+          -34.096027374
         ]
       }
     },
@@ -2460,7 +2460,7 @@
         "category2": "Building Fire",
         "created": "2026-02-14T16:12:00.000Z",
         "updated": "2026-02-14T16:54:00.000Z",
-        "resources": 7,
+        "resources": 5,
         "location": "Rupert St, Broadford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2489,6 +2489,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2496,8 +2497,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2513,6 +2513,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2520,8 +2521,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-14T13:00:00.000Z",
           "heat": {
@@ -2702,7 +2702,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-14T18:49:26.534Z",
+    "lastUpdated": "2026-02-14T19:32:00.431Z",
     "featureCount": 406
   }
 }
