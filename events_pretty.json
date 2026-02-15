@@ -1528,6 +1528,35 @@
       }
     },
     {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123045750,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123045750,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Altona Meadows",
+        "eventId": "F260206823",
+        "id": "ESTA:260206823",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-02-15T18:46:06.000Z",
+        "updated": "2026-02-15T18:48:03.669Z",
+        "resources": 3,
+        "location": "Rosebery St, Altona Meadows"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.78387276911653,
+          -37.868146099144894
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -2353,7 +2382,36 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
+        "cfaId": 264243,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264243,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Alamere Dr",
+        "eventId": 260206819,
+        "id": "ESTA:260206819",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-15T18:19:00.000Z",
+        "updated": "2026-02-15T18:19:00.000Z",
+        "resources": 8,
+        "location": "Alamere Dr, Traralgon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.50874686271683,
+          -38.19904603330943
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 264242,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2365,8 +2423,8 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-02-15T17:43:00.000Z",
-        "updated": "2026-02-15T17:43:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-15T18:23:00.000Z",
+        "resources": 0,
         "location": "Laverton",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2377,6 +2435,35 @@
         "coordinates": [
           144.76005851837368,
           -37.868880549115424
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 264244,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264244,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Midland Hwy",
+        "eventId": 260206821,
+        "id": "ESTA:260206821",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-15T18:35:00.000Z",
+        "updated": "2026-02-15T18:35:00.000Z",
+        "resources": 1,
+        "location": "Midland Hwy, Gheringhap",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.23658048408396,
+          -38.07780290788786
         ]
       }
     }
@@ -2395,7 +2482,6 @@
         "Mallee": "HIGH"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2403,7 +2489,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2419,7 +2506,6 @@
             "Mallee": "HIGH"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2427,7 +2513,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-15T13:00:00.000Z",
           "heat": {
@@ -2608,7 +2695,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-15T17:57:09.126Z",
-    "featureCount": 406
+    "lastUpdated": "2026-02-15T18:50:20.318Z",
+    "featureCount": 409
   }
 }
