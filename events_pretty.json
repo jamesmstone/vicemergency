@@ -1504,55 +1504,52 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123046485,
+        "estaId": 123046652,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264266,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Manifold St",
-        "eventId": 260206873,
-        "id": "ESTA:260206873",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123046652,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ashburton",
+        "eventId": "F260206877",
+        "id": "ESTA:260206877",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-15T21:22:00.000Z",
-        "updated": "2026-02-15T21:23:00.000Z",
-        "resources": 0,
-        "location": "Manifold St, Manifold Heights",
-        "cfaId": 264266,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Fire",
+        "category2": "Fire",
+        "created": "2026-02-15T21:40:31.000Z",
+        "updated": "2026-02-15T21:43:36.747Z",
+        "resources": 3,
+        "location": "Dunlop St, Ashburton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.33551655021532,
-          -38.1369448217037
+          145.05958291293808,
+          -37.85508067352176
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123046550,
+        "estaId": 123046688,
         "feedType": "incident",
-        "source": "000",
+        "source": "SPR",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264267,
+        "sourceId": 264270,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260206875,
-        "id": "ESTA:260206875",
+        "sourceTitle": "Chapel St",
+        "eventId": 260206880,
+        "id": "ESTA:260206880",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-15T21:30:00.000Z",
-        "updated": "2026-02-15T21:30:00.000Z",
+        "category2": "Building Fire",
+        "created": "2026-02-15T21:46:00.000Z",
+        "updated": "2026-02-15T21:46:00.000Z",
         "resources": 1,
-        "location": "Anakie",
-        "cfaId": 264267,
+        "location": "Chapel St, Maldon",
+        "cfaId": 264270,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1560,38 +1557,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.26583207457125,
-          -37.94630528936635
+          144.0640829389946,
+          -36.992451228991854
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123046574,
+        "status": "Safe",
+        "estaId": 123045676,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599034,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251416,
-        "id": "ESTA:260251416",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264243,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Alamere Dr",
+        "eventId": 260206819,
+        "id": "ESTA:260206819",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-15T21:32:00.000Z",
-        "updated": "2026-02-15T21:32:27.000Z",
-        "resources": 0,
-        "location": "Cairnlea",
-        "sesId": 599034
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-15T18:19:00.000Z",
+        "updated": "2026-02-15T21:54:00.000Z",
+        "resources": 5,
+        "location": "Alamere Dr, Traralgon",
+        "cfaId": 264243,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7807755032491,
-          -37.751871277100996
+          146.50874686271683,
+          -38.19904603330943
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123046793,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123046793,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "East Melbourne",
+        "eventId": "S260251418",
+        "id": "ESTA:260251418",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-15T21:54:36.000Z",
+        "updated": "2026-02-15T21:56:12.807Z",
+        "resources": 0,
+        "location": "Victoria Pde, East Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97922845984033,
+          -37.80895334253324
         ]
       }
     },
@@ -2422,35 +2450,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 264243,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264243,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Alamere Dr",
-        "eventId": 260206819,
-        "id": "ESTA:260206819",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-15T18:19:00.000Z",
-        "updated": "2026-02-15T19:41:00.000Z",
-        "resources": 7,
-        "location": "Alamere Dr, Traralgon",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.50874686271683,
-          -38.19904603330943
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 264248,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2463,7 +2462,7 @@
         "category2": "Building Fire",
         "created": "2026-02-15T19:16:00.000Z",
         "updated": "2026-02-15T19:55:00.000Z",
-        "resources": 4,
+        "resources": 1,
         "location": "Arcadia Way, Eltham North",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2474,35 +2473,6 @@
         "coordinates": [
           145.15197311079186,
           -37.68938112043471
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 264261,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264261,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260206865,
-        "id": "ESTA:260206865",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-15T20:48:00.000Z",
-        "updated": "2026-02-15T20:51:00.000Z",
-        "resources": 0,
-        "location": "Manifold Heights",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.33536253703718,
-          -38.136788149657484
         ]
       }
     },
@@ -2532,35 +2502,6 @@
         "coordinates": [
           143.9145200341261,
           -35.72959971425985
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 264263,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264263,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grampians Rd",
-        "eventId": 260206870,
-        "id": "ESTA:260206870",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-15T21:00:00.000Z",
-        "updated": "2026-02-15T21:00:00.000Z",
-        "resources": 1,
-        "location": "Grampians Rd, Halls Gap",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5368111447817,
-          -37.12930502479525
         ]
       }
     },
@@ -2621,6 +2562,91 @@
           -37.696818126306894
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 264266,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264266,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Manifold St",
+        "eventId": 260206873,
+        "id": "ESTA:260206873",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-15T21:22:00.000Z",
+        "updated": "2026-02-15T21:23:00.000Z",
+        "resources": 0,
+        "location": "Manifold St, Manifold Heights",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.33551655021532,
+          -38.1369448217037
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 264269,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264269,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Victor Cr",
+        "eventId": 260206879,
+        "id": "ESTA:260206879",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-15T21:44:00.000Z",
+        "updated": "2026-02-15T21:44:00.000Z",
+        "resources": 4,
+        "location": "Victor Cr, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31226846469892,
+          -38.02461238575966
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 599034,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599034,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251416,
+        "id": "ESTA:260251416",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-15T21:32:00.000Z",
+        "updated": "2026-02-15T21:34:00.000Z",
+        "resources": 0,
+        "location": "Cairnlea"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7807755032491,
+          -37.751871277100996
+        ]
+      }
     }
   ],
   "properties": {
@@ -2637,6 +2663,7 @@
         "Mallee": "HIGH"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2644,8 +2671,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2661,6 +2687,7 @@
             "Mallee": "HIGH"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2668,8 +2695,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-15T13:00:00.000Z",
           "heat": {
@@ -2850,7 +2876,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-15T21:33:40.302Z",
-    "featureCount": 414
+    "lastUpdated": "2026-02-15T21:56:20.466Z",
+    "featureCount": 415
   }
 }
