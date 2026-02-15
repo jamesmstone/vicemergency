@@ -1530,29 +1530,126 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123045750,
+        "estaId": 123045778,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123045750,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Altona Meadows",
-        "eventId": "F260206823",
-        "id": "ESTA:260206823",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264246,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Brennan St",
+        "eventId": 260206826,
+        "id": "ESTA:260206826",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-02-15T18:46:06.000Z",
-        "updated": "2026-02-15T18:48:03.669Z",
-        "resources": 3,
-        "location": "Rosebery St, Altona Meadows"
+        "category2": "Building Fire",
+        "created": "2026-02-15T18:56:00.000Z",
+        "updated": "2026-02-15T19:26:00.000Z",
+        "resources": 0,
+        "location": "Brennan St, Mirboo North",
+        "cfaId": 264246,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.78387276911653,
-          -37.868146099144894
+          146.15497151441934,
+          -38.40203346035127
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 123045832,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264248,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Arcadia Way",
+        "eventId": 260206828,
+        "id": "ESTA:260206828",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-15T19:16:00.000Z",
+        "updated": "2026-02-15T19:16:00.000Z",
+        "resources": 10,
+        "location": "Arcadia Way, Eltham North",
+        "cfaId": 264248,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15197311079186,
+          -37.68938112043471
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123045846,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123045846,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Airport West",
+        "eventId": "F260206829",
+        "id": "ESTA:260206829",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-15T19:19:26.000Z",
+        "updated": "2026-02-15T19:30:32.945Z",
+        "resources": 3,
+        "location": "Matthews Av, Airport West"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8905619272826,
+          -37.71384002144596
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 123045773,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599031,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260206824,
+        "id": "ESTA:260206824",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-02-15T18:53:39.000Z",
+        "updated": "2026-02-15T19:31:51.000Z",
+        "resources": 1,
+        "location": "Nullawil",
+        "cfaId": 264245,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 599031
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.21447019363367,
+          -35.893749839672125
         ]
       }
     },
@@ -2177,6 +2274,36 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "646063",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Sturt Hwy, Yanga",
+        "id": "2026-02-16T06:14:00.0000000:646063",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Sturt Hwy, Yanga",
+        "location": "Sturt Hwy, Yanga 2711",
+        "created": "2026-02-16T06:14:00+11:00",
+        "updated": "2026-02-16T06:14:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.711242676,
+          -34.7359809879999
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -2395,7 +2522,7 @@
         "category2": "Building Fire",
         "created": "2026-02-15T18:19:00.000Z",
         "updated": "2026-02-15T18:19:00.000Z",
-        "resources": 8,
+        "resources": 10,
         "location": "Alamere Dr, Traralgon",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2411,36 +2538,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 264242,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264242,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260206817,
-        "id": "ESTA:260206817",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-02-15T17:43:00.000Z",
-        "updated": "2026-02-15T18:23:00.000Z",
-        "resources": 0,
-        "location": "Laverton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.76005851837368,
-          -37.868880549115424
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 264244,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2452,7 +2550,7 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2026-02-15T18:35:00.000Z",
-        "updated": "2026-02-15T18:35:00.000Z",
+        "updated": "2026-02-15T19:06:00.000Z",
         "resources": 1,
         "location": "Midland Hwy, Gheringhap",
         "size": "Small",
@@ -2464,6 +2562,33 @@
         "coordinates": [
           144.23658048408396,
           -38.07780290788786
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 599032,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599032,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251414,
+        "id": "ESTA:260251414",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-15T19:17:25.000Z",
+        "updated": "2026-02-15T19:22:19.000Z",
+        "resources": 0,
+        "location": "Bayswater North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27172199867448,
+          -37.82443437831564
         ]
       }
     }
@@ -2695,7 +2820,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-15T18:50:20.318Z",
-    "featureCount": 409
+    "lastUpdated": "2026-02-15T19:33:40.254Z",
+    "featureCount": 413
   }
 }
