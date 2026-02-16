@@ -1468,93 +1468,59 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123058325,
-        "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599118,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251504,
-        "id": "ESTA:260251504",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-16T17:36:56.000Z",
-        "updated": "2026-02-16T17:42:28.000Z",
-        "resources": 0,
-        "location": "Baddaginnie",
-        "sesId": 599118
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.9034022132871,
-          -36.6240217253624
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123058342,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599119,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251505,
-        "id": "ESTA:260251505",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-02-16T17:39:53.000Z",
-        "updated": "2026-02-16T17:44:17.000Z",
-        "resources": 0,
-        "location": "Maffra",
-        "sesId": 599119
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.98580454143269,
-          -37.95999957660673
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 123058342,
+        "estaId": 123058580,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264443,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Powerscourt St",
-        "eventId": 260207440,
-        "id": "ESTA:260207440",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123058580,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Keilor East",
+        "eventId": "F260207455",
+        "id": "ESTA:260207455",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-02-16T17:40:00.000Z",
-        "updated": "2026-02-16T17:40:00.000Z",
+        "created": "2026-02-16T18:48:09.000Z",
+        "updated": "2026-02-16T18:48:16.146Z",
         "resources": 0,
-        "location": "Powerscourt St, Maffra",
-        "cfaId": 264443,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Keilor East"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.98580454143269,
-          -37.95999957660673
+          144.8485102641625,
+          -37.74130298859197
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123058586,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123058586,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Thornbury",
+        "eventId": "F260207457",
+        "id": "ESTA:260207457",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-16T18:49:07.000Z",
+        "updated": "2026-02-16T18:51:57.098Z",
+        "resources": 3,
+        "location": "Flinders St, Thornbury"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01786673080724,
+          -37.75755275545813
         ]
       }
     },
@@ -1564,10 +1530,10 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/b2eaa933043bbe18a2caa9ceabcd6f13",
+        "sourceId": "IDV20600/d0e69032f18180a7d192f7173d715519",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/b2eaa933043bbe18a2caa9ceabcd6f13",
+        "id": "IDV20600/d0e69032f18180a7d192f7173d715519",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
@@ -3404,6 +3370,36 @@
         "coordinates": [
           145.51151426300177,
           -37.055155205678496
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 264447,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599120,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260207452,
+        "id": "ESTA:260207452",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-02-16T18:19:49.000Z",
+        "updated": "2026-02-16T18:30:15.000Z",
+        "resources": 2,
+        "location": "Heathcote Junction",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 599120
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02659556191261,
+          -37.366765810199965
         ]
       }
     },
@@ -7879,7 +7875,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-16T17:48:06.468Z",
+    "lastUpdated": "2026-02-16T18:57:40.515Z",
     "featureCount": 413
   }
 }
