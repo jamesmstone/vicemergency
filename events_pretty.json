@@ -1468,30 +1468,93 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123058090,
+        "status": "Request For Assistance",
+        "estaId": 123058325,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123058090,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F260207434",
-        "id": "ESTA:260207434",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599118,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251504,
+        "id": "ESTA:260251504",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-02-16T16:38:07.000Z",
-        "updated": "2026-02-16T16:49:53.523Z",
-        "resources": 3,
-        "location": "Lt Lonsdale St, Melbourne"
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-16T17:36:56.000Z",
+        "updated": "2026-02-16T17:42:28.000Z",
+        "resources": 0,
+        "location": "Baddaginnie",
+        "sesId": 599118
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95817122256224,
-          -37.8122224473212
+          145.9034022132871,
+          -36.6240217253624
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123058342,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599119,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251505,
+        "id": "ESTA:260251505",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-02-16T17:39:53.000Z",
+        "updated": "2026-02-16T17:44:17.000Z",
+        "resources": 0,
+        "location": "Maffra",
+        "sesId": 599119
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.98580454143269,
+          -37.95999957660673
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123058342,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264443,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Powerscourt St",
+        "eventId": 260207440,
+        "id": "ESTA:260207440",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-16T17:40:00.000Z",
+        "updated": "2026-02-16T17:40:00.000Z",
+        "resources": 0,
+        "location": "Powerscourt St, Maffra",
+        "cfaId": 264443,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.98580454143269,
+          -37.95999957660673
         ]
       }
     },
@@ -1501,14 +1564,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/56a4091eaaf9ce074e134c8d2c301b5b",
+        "sourceId": "IDV20600/b2eaa933043bbe18a2caa9ceabcd6f13",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/56a4091eaaf9ce074e134c8d2c301b5b",
+        "id": "IDV20600/b2eaa933043bbe18a2caa9ceabcd6f13",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-02-16T13:00:00.000Z",
+        "created": "2026-02-16T17:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -7816,7 +7879,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-16T16:59:00.408Z",
-    "featureCount": 411
+    "lastUpdated": "2026-02-16T17:48:06.468Z",
+    "featureCount": 413
   }
 }
