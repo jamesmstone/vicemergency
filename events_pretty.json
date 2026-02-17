@@ -1789,30 +1789,60 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123070766,
+        "status": "Complete",
+        "estaId": 123071295,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123070766,
+        "sourceId": 123071295,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Beaufort",
-        "eventId": "F260207955",
-        "id": "ESTA:260207955",
+        "sourceTitle": "Langwarrin",
+        "eventId": "F260207971",
+        "id": "ESTA:260207971",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-17T16:52:56.000Z",
-        "updated": "2026-02-17T18:30:26.504Z",
+        "category2": "Fire",
+        "created": "2026-02-17T19:20:00.000Z",
+        "updated": "2026-02-17T19:23:31.332Z",
         "resources": 0,
-        "location": "Old Shirley Rd, Beaufort"
+        "location": "Mcclelland Dr, Langwarrin"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.36245345168743,
-          -37.42897491714905
+          145.17010993869025,
+          -38.15779789501919
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123071224,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599278,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251665,
+        "id": "ESTA:260251665",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-17T19:02:12.000Z",
+        "updated": "2026-02-17T19:32:27.000Z",
+        "resources": 0,
+        "location": "Seymour",
+        "sesId": 599278
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1553520587585,
+          -37.00577010027017
         ]
       }
     },
@@ -3337,21 +3367,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 264661,
+        "status": "Responding",
+        "cfaId": 264664,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264661,
+        "sourceId": 264664,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Eighth St",
-        "eventId": 260207958,
-        "id": "ESTA:260207958",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-17T18:03:00.000Z",
-        "updated": "2026-02-17T18:15:00.000Z",
-        "resources": 0,
-        "location": "Eighth St, Mildura",
+        "sourceTitle": "",
+        "eventId": 260207966,
+        "id": "ESTA:260207966",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-17T19:15:00.000Z",
+        "updated": "2026-02-17T19:15:00.000Z",
+        "resources": 2,
+        "location": "Peechelba East",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3359,8 +3389,122 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.14522743469283,
-          -34.17139762073061
+          146.28418819207158,
+          -36.1420921226842
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 264666,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264666,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frankston-Flinders Rd",
+        "eventId": 260207968,
+        "id": "ESTA:260207968",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-02-17T19:15:00.000Z",
+        "updated": "2026-02-17T19:15:00.000Z",
+        "resources": 0,
+        "location": "Frankston-Flinders Rd, Tyabb",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18944326581254,
+          -38.26063698631771
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 264667,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264667,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mills Rd",
+        "eventId": 260207969,
+        "id": "ESTA:260207969",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-17T19:20:00.000Z",
+        "updated": "2026-02-17T19:20:00.000Z",
+        "resources": 1,
+        "location": "Mills Rd, Warragul",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.95195842113526,
+          -38.139420670511754
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 264665,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 264665,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Frankston-Flinders Rd",
+        "eventId": 260207967,
+        "id": "ESTA:260207967",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-17T19:15:00.000Z",
+        "updated": "2026-02-17T19:25:00.000Z",
+        "resources": 2,
+        "location": "Frankston-Flinders Rd, Tyabb",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19002749163334,
+          -38.260582921673254
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 599279,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599279,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251666,
+        "id": "ESTA:260251666",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-02-17T19:14:58.000Z",
+        "updated": "2026-02-17T19:19:51.000Z",
+        "resources": 0,
+        "location": "Tyabb"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18944326581254,
+          -38.26063698631771
         ]
       }
     }
@@ -3592,7 +3736,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-17T18:35:00.065Z",
-    "featureCount": 424
+    "lastUpdated": "2026-02-17T19:34:46.392Z",
+    "featureCount": 429
   }
 }
