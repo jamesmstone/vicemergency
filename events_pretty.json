@@ -1139,7 +1139,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3017918,
@@ -1148,8 +1148,8 @@
         "id": 3017918,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-02-18T22:41:35.000Z",
-        "updated": "2026-02-18T22:41:35.000Z",
+        "created": "2026-02-18T23:51:48.000Z",
+        "updated": "2026-02-18T23:51:48.000Z",
         "resources": 0,
         "size": "15.06",
         "sizeFmt": "15.06 Ha.",
@@ -1218,6 +1218,62 @@
         "coordinates": [
           142.9630609,
           -38.0291197
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Patrolled",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 3022794,
+        "sourceFeed": "delwp-burns",
+        "sourceTitle": "Wickliffe - Willaura-Wickliffe Road",
+        "id": 3022794,
+        "category1": "Planned Burn",
+        "category2": "Planned Burn",
+        "created": "2026-02-19T02:15:43.000Z",
+        "updated": "2026-02-19T02:15:43.000Z",
+        "resources": 0,
+        "size": "30.23",
+        "sizeFmt": "30.23 Ha.",
+        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
+        "location": "5Km N Of Wickliffe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7183746,
+          -37.6444442
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "In Progress",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DELWP",
+        "sourceId": 3022795,
+        "sourceFeed": "delwp-burns",
+        "sourceTitle": "Wickliffe - Chatsworth-Wickliffe Road",
+        "id": 3022795,
+        "category1": "Planned Burn",
+        "category2": "Planned Burn",
+        "created": "2026-02-19T02:41:50.000Z",
+        "updated": "2026-02-19T02:41:50.000Z",
+        "resources": 0,
+        "size": "51.47",
+        "sizeFmt": "51.47 Ha.",
+        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
+        "location": "3.8Km S Of Wickliffe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7181481,
+          -37.7250672
         ]
       }
     },
@@ -1891,9 +1947,9 @@
         "category2": "Bushfire",
         "created": "2026-02-17T01:30:00.000Z",
         "updated": "2026-02-17T01:30:00.000Z",
-        "resources": 0,
-        "size": "213.90",
-        "sizeFmt": "213.90 Ha.",
+        "resources": 18,
+        "size": "212.53",
+        "sizeFmt": "212.53 Ha.",
         "location": "3.2Km Se Of Trawool"
       },
       "type": "Feature",
@@ -2042,53 +2098,87 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123085796,
+        "status": "On Scene",
+        "estaId": 123087892,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123085796,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Pascoe Vale",
-        "eventId": "F260208516",
-        "id": "ESTA:260208516",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599356,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260208580,
+        "id": "ESTA:260208580",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-02-18T23:33:11.000Z",
-        "updated": "2026-02-18T23:47:40.452Z",
-        "resources": 3,
-        "location": "Pascoe Vale Rd, Pascoe Vale"
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-02-19T02:30:59.000Z",
+        "updated": "2026-02-19T02:52:21.000Z",
+        "resources": 4,
+        "location": "Lilydale",
+        "cfaId": 264868,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 599356
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92235178545306,
-          -37.724386483207894
+          145.36225139038584,
+          -37.7575593043338
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123087992,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599357,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251737,
+        "id": "ESTA:260251737",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-19T02:39:58.000Z",
+        "updated": "2026-02-19T02:46:18.000Z",
+        "resources": 0,
+        "location": "Golden Point (Castlemaine)",
+        "sesId": 599357
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2819675167723,
+          -37.06841230294043
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123085617,
+        "estaId": 123087939,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264848,
+        "sourceId": 264870,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lenne St",
-        "eventId": 260208509,
-        "id": "ESTA:260208509",
+        "sourceTitle": "Main St",
+        "eventId": 260208582,
+        "id": "ESTA:260208582",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-02-18T23:19:00.000Z",
-        "updated": "2026-02-18T23:31:00.000Z",
+        "created": "2026-02-19T02:35:00.000Z",
+        "updated": "2026-02-19T02:44:00.000Z",
         "resources": 0,
-        "location": "Lenne St, Beaconsfield Upper",
-        "cfaId": 264848,
+        "location": "Main St, Nar Nar Goon",
+        "cfaId": 264870,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2096,96 +2186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.41099023284664,
-          -37.99534741041885
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "estaId": 123085312,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599342,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251726,
-        "id": "ESTA:260251726",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-18T22:51:47.000Z",
-        "updated": "2026-02-18T23:54:21.000Z",
-        "resources": 0,
-        "location": "Costerfield",
-        "sesId": 599342
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.82302160161134,
-          -36.89900642870281
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123086070,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123086070,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Cranbourne North",
-        "eventId": "F260208524",
-        "id": "ESTA:260208524",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-18T23:55:36.000Z",
-        "updated": "2026-02-18T23:56:40.148Z",
-        "resources": 0,
-        "location": "Wheelers Park Dr, Cranbourne North"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32792329069818,
-          -38.078262467987805
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123085979,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123085979,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Bellfield (Greater Melbourne)",
-        "eventId": "F260208522",
-        "id": "ESTA:260208522",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-02-18T23:50:14.000Z",
-        "updated": "2026-02-18T23:58:54.058Z",
-        "resources": 3,
-        "location": "Waterdale Rd, Bellfield (Greater Melbourne)"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04327010152733,
-          -37.75684380813218
+          145.5698573200292,
+          -38.0819480645837
         ]
       }
     },
@@ -2319,8 +2321,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-02-18T02:12:00.000Z",
-        "updated": "2026-02-18T05:47:00.000Z",
-        "resources": 6,
+        "updated": "2026-02-19T00:48:00.000Z",
+        "resources": 12,
         "location": "Bacchus Marsh Rd, Bullengarook",
         "size": "Medium",
         "sizeFmt": "Medium"
@@ -2337,20 +2339,20 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 264835,
+        "cfaId": 264867,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264835,
+        "sourceId": 264867,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hume Fwy",
-        "eventId": 260208440,
-        "id": "ESTA:260208440",
-        "category1": "Fire",
+        "sourceTitle": "Boronia Rd",
+        "eventId": 260208574,
+        "id": "ESTA:260208574",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-02-18T21:47:00.000Z",
-        "updated": "2026-02-18T22:16:00.000Z",
-        "resources": 2,
-        "location": "Hume Fwy, Broadford",
+        "created": "2026-02-19T02:00:00.000Z",
+        "updated": "2026-02-19T02:12:00.000Z",
+        "resources": 1,
+        "location": "Boronia Rd, Boronia",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2358,28 +2360,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0692929744462,
-          -37.18431601887231
+          145.26737253762926,
+          -37.86077038349302
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 264845,
+        "cfaId": 264857,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264845,
+        "sourceId": 264857,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wildwood Rd",
-        "eventId": 260208498,
-        "id": "ESTA:260208498",
+        "sourceTitle": "Mason Rd",
+        "eventId": 260208540,
+        "id": "ESTA:260208540",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-18T22:53:00.000Z",
-        "updated": "2026-02-18T23:27:00.000Z",
+        "category2": "Bushfire",
+        "created": "2026-02-19T00:29:00.000Z",
+        "updated": "2026-02-19T02:17:00.000Z",
         "resources": 0,
-        "location": "Wildwood Rd, Wildwood",
+        "location": "Mason Rd, Girgarre",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2387,28 +2389,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.80544621166445,
-          -37.607326103806805
+          144.9367522813456,
+          -36.41177900461492
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 264850,
+        "status": "Safe",
+        "cfaId": 264859,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264850,
+        "sourceId": 264859,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Anzac Rd",
-        "eventId": 260208512,
-        "id": "ESTA:260208512",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-18T23:22:00.000Z",
-        "updated": "2026-02-18T23:37:00.000Z",
-        "resources": 1,
-        "location": "Anzac Rd, Trafalgar",
+        "sourceTitle": "Lades Rd",
+        "eventId": 260208547,
+        "id": "ESTA:260208547",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-19T00:38:00.000Z",
+        "updated": "2026-02-19T02:28:00.000Z",
+        "resources": 0,
+        "location": "Lades Rd, Highlands",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2416,57 +2418,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.15700848390676,
-          -38.210475780317324
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 264849,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 264849,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Oshea Rd",
-        "eventId": 260208510,
-        "id": "ESTA:260208510",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-18T23:20:00.000Z",
-        "updated": "2026-02-18T23:49:00.000Z",
-        "resources": 1,
-        "location": "Oshea Rd, Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.33945100726737,
-          -38.060425360547754
+          145.42041975905838,
+          -37.07043545929931
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 264853,
+        "cfaId": 264871,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 264853,
+        "sourceId": 264871,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Burwood Hwy",
-        "eventId": 260208523,
-        "id": "ESTA:260208523",
+        "sourceTitle": "",
+        "eventId": 260208585,
+        "id": "ESTA:260208585",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-18T23:54:00.000Z",
-        "updated": "2026-02-18T23:54:00.000Z",
-        "resources": 3,
-        "location": "Burwood Hwy, Wantirna South",
+        "category2": "Bushfire",
+        "created": "2026-02-19T02:49:00.000Z",
+        "updated": "2026-02-19T02:49:00.000Z",
+        "resources": 0,
+        "location": "Hopetoun Park",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2474,35 +2447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.23829944147022,
-          -37.869675344855274
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 599350,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599350,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251729,
-        "id": "ESTA:260251729",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-02-18T23:39:19.000Z",
-        "updated": "2026-02-18T23:58:32.000Z",
-        "resources": 1,
-        "location": "Briar Hill"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1161338867366,
-          -37.71144328370453
+          144.50243390299192,
+          -37.68704132043615
         ]
       }
     }
@@ -2734,7 +2680,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-18T23:59:20.554Z",
-    "featureCount": 436
+    "lastUpdated": "2026-02-19T02:53:46.429Z",
+    "featureCount": 433
   }
 }
