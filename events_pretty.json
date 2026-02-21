@@ -2337,10 +2337,10 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 123123304,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/SES",
         "sourceId": 599520,
         "sourceFeed": "ses-incident",
@@ -2351,8 +2351,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2026-02-21T15:47:59.000Z",
-        "updated": "2026-02-21T15:53:08.000Z",
-        "resources": 0,
+        "updated": "2026-02-21T16:31:55.000Z",
+        "resources": 1,
         "location": "Doreen",
         "sesId": 599520
       },
@@ -2367,30 +2367,60 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123123302,
+        "status": "Responding",
+        "estaId": 123123561,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123123302,
+        "sourceId": 123123561,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Brunswick",
-        "eventId": "F260209726",
-        "id": "ESTA:260209726",
+        "sourceTitle": "Pakenham",
+        "eventId": "F260209736",
+        "id": "ESTA:260209736",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-02-21T15:47:06.000Z",
-        "updated": "2026-02-21T15:55:08.991Z",
-        "resources": 3,
-        "location": "Davison St, Brunswick"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-02-21T16:29:34.000Z",
+        "updated": "2026-02-21T16:32:52.641Z",
+        "resources": 0,
+        "location": "Windermere Bvd, Pakenham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95740347142734,
-          -37.76341226776021
+          145.50746751339375,
+          -38.05881307900947
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123123564,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599521,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251891,
+        "id": "ESTA:260251891",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-21T16:33:34.000Z",
+        "updated": "2026-02-21T16:33:51.000Z",
+        "resources": 0,
+        "location": "Merbein",
+        "sesId": 599521
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.05283952939274,
+          -34.16944748294218
         ]
       }
     },
@@ -3654,115 +3684,30 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 265302,
+        "status": "Under Control",
+        "cfaId": 265307,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 265302,
+        "sourceId": 265307,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260209718,
-        "id": "ESTA:260209718",
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2026-02-21T14:42:00.000Z",
-        "updated": "2026-02-21T15:04:00.000Z",
-        "resources": 0,
-        "location": "Bo Peep",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.66846504798548,
-          -37.5384441422185
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 265300,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265300,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260209715,
-        "id": "ESTA:260209715",
-        "category1": "Fire",
+        "sourceTitle": "Lily Way",
+        "eventId": 260209734,
+        "id": "ESTA:260209734",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-02-21T14:33:00.000Z",
-        "updated": "2026-02-21T15:16:00.000Z",
-        "resources": 1,
-        "location": "Clonbinane",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1563639673303,
-          -37.331097494146235
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 265301,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265301,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "The Mews -",
-        "eventId": 260209716,
-        "id": "ESTA:260209716",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-21T14:41:00.000Z",
-        "updated": "2026-02-21T15:19:00.000Z",
-        "resources": 0,
-        "location": "The Mews -, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68023062976744,
-          -37.873416610623195
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 599500,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599500,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260209569,
-        "id": "ESTA:260209569",
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2026-02-21T06:44:24.000Z",
-        "updated": "2026-02-21T15:47:12.000Z",
+        "created": "2026-02-21T16:23:00.000Z",
+        "updated": "2026-02-21T16:34:00.000Z",
         "resources": 2,
-        "location": "Enochs Point"
+        "location": "Lily Way, Skye",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.0981585399975,
-          -37.43193717597607
+          145.19820833891615,
+          -38.11843452832475
         ]
       }
     }
@@ -3994,7 +3939,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-21T15:57:20.604Z",
-    "featureCount": 451
+    "lastUpdated": "2026-02-21T16:40:40.608Z",
+    "featureCount": 449
   }
 }
