@@ -2337,31 +2337,94 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123122717,
+        "status": "Responding",
+        "estaId": 123122849,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599518,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251888,
-        "id": "ESTA:260251888",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 265303,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Corrigan Rd",
+        "eventId": 260209719,
+        "id": "ESTA:260209719",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-21T14:30:05.000Z",
-        "updated": "2026-02-21T14:30:39.000Z",
-        "resources": 0,
-        "location": "Rutherglen",
-        "sesId": 599518
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-21T14:45:00.000Z",
+        "updated": "2026-02-21T14:45:00.000Z",
+        "resources": 3,
+        "location": "Corrigan Rd, Springvale",
+        "cfaId": 265303,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.54591804665847,
-          -36.049246417216146
+          145.17027255993924,
+          -37.95454793392075
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123122819,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123122819,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Cheltenham",
+        "eventId": "F260209717",
+        "id": "ESTA:260209717",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-02-21T14:41:34.000Z",
+        "updated": "2026-02-21T14:50:41.848Z",
+        "resources": 3,
+        "location": "Railway Walk, Cheltenham"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05455760741987,
+          -37.966653037423704
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123122809,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 265301,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "The Mews -",
+        "eventId": 260209716,
+        "id": "ESTA:260209716",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-21T14:41:00.000Z",
+        "updated": "2026-02-21T14:51:00.000Z",
+        "resources": 2,
+        "location": "The Mews -, Hoppers Crossing",
+        "cfaId": 265301,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68023062976744,
+          -37.873416610623195
         ]
       }
     },
@@ -2382,7 +2445,7 @@
         "category2": "Other",
         "created": "2026-02-21T14:33:00.000Z",
         "updated": "2026-02-21T14:33:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Clonbinane",
         "cfaId": 265300,
         "size": "Small",
@@ -3300,13 +3363,13 @@
         "sourceId": "647446",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Ruwolts Rd, Boomanoomana",
-        "id": "2026-02-21T00:11:00.0000000:647446",
+        "id": "2026-02-22T01:44:00.0000000:647446",
         "category1": "Other",
         "category2": "Other Non-Urgent Alerts",
         "name": "Ruwolts Rd, Boomanoomana",
         "location": "Ruwolts Rd, Boomanoomana 2712",
-        "created": "2026-02-21T00:11:00+11:00",
-        "updated": "2026-02-21T00:11:00+11:00",
+        "created": "2026-02-22T01:44:00+11:00",
+        "updated": "2026-02-22T01:44:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3641,7 +3704,7 @@
         "category2": "Building Fire",
         "created": "2026-02-21T11:40:00.000Z",
         "updated": "2026-02-21T12:34:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Heywood",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3657,7 +3720,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "cfaId": 265302,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 265302,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260209718,
+        "id": "ESTA:260209718",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2026-02-21T14:42:00.000Z",
+        "updated": "2026-02-21T14:42:00.000Z",
+        "resources": 3,
+        "location": "Bo Peep",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.66846504798548,
+          -37.5384441422185
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 265297,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3669,8 +3761,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2026-02-21T12:46:00.000Z",
-        "updated": "2026-02-21T14:20:00.000Z",
-        "resources": 2,
+        "updated": "2026-02-21T14:55:00.000Z",
+        "resources": 1,
         "location": "Sugarloaf Rd, Eildon",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3708,6 +3800,33 @@
         "coordinates": [
           146.0981585399975,
           -37.43193717597607
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 599518,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599518,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251888,
+        "id": "ESTA:260251888",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-21T14:30:05.000Z",
+        "updated": "2026-02-21T14:39:48.000Z",
+        "resources": 1,
+        "location": "Rutherglen"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.54591804665847,
+          -36.049246417216146
         ]
       }
     }
@@ -3939,7 +4058,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-21T14:35:20.538Z",
-    "featureCount": 449
+    "lastUpdated": "2026-02-21T14:57:40.787Z",
+    "featureCount": 453
   }
 }
