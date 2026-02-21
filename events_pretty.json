@@ -1263,6 +1263,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1690690",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Burkes Rd/Cadgee Rd , Naracoorte",
+        "id": "1690690",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Burkes Rd/Cadgee Rd , Naracoorte",
+        "created": "2026-02-21T20:21:00.000Z",
+        "updated": "2026-02-21T20:21:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Burkes Rd/Cadgee Rd , Naracoorte"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.765566114688,
+          -36.92493973969
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -2337,40 +2363,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "estaId": 123124264,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599527,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260209769,
-        "id": "ESTA:260209769",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Persons Trapped",
-        "created": "2026-02-21T19:27:57.000Z",
-        "updated": "2026-02-21T19:47:10.000Z",
-        "resources": 2,
-        "location": "Lilydale",
-        "cfaId": 265322,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 599527
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3419589910163,
-          -37.75738364241223
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123124326,
         "feedType": "incident",
         "source": "000",
@@ -2382,9 +2375,9 @@
         "id": "ESTA:260209776",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Bushfire",
+        "category2": "Other",
         "created": "2026-02-21T19:47:00.000Z",
-        "updated": "2026-02-21T19:47:00.000Z",
+        "updated": "2026-02-21T20:21:00.000Z",
         "resources": 1,
         "location": "Recreation Rd, Aintree",
         "cfaId": 265324,
@@ -2402,33 +2395,64 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123124343,
+        "status": "Complete",
+        "estaId": 123124264,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265325,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Province Bvd",
-        "eventId": 260209778,
-        "id": "ESTA:260209778",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599527,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260209769,
+        "id": "ESTA:260209769",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-21T19:51:00.000Z",
-        "updated": "2026-02-21T19:51:00.000Z",
+        "category1": "Rescue",
+        "category2": "Rescue Persons Trapped",
+        "created": "2026-02-21T19:27:57.000Z",
+        "updated": "2026-02-21T20:29:03.000Z",
         "resources": 1,
-        "location": "Province Bvd, Highton",
-        "cfaId": 265325,
+        "location": "Lilydale",
+        "cfaId": 265322,
         "size": "Small",
-        "sizeFmt": "Small"
+        "sizeFmt": "Small",
+        "sesId": 599527
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3079729025778,
-          -38.16157223774872
+          145.3419589910163,
+          -37.75738364241223
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123124468,
+        "feedType": "incident",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 599531,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260251899,
+        "id": "ESTA:260251899",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-21T20:29:17.000Z",
+        "updated": "2026-02-21T20:31:47.000Z",
+        "resources": 0,
+        "location": "Hamilton",
+        "sesId": 599531
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0593689520674,
+          -37.74519765336763
         ]
       }
     },
@@ -2438,14 +2462,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/64e9033a2fa7879d799cc60cc8380ba6",
+        "sourceId": "IDV20600/52dce2ff104866e40df71957932b9269",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/64e9033a2fa7879d799cc60cc8380ba6",
+        "id": "IDV20600/52dce2ff104866e40df71957932b9269",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-02-21T19:00:00.000Z",
+        "created": "2026-02-21T20:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -3489,19 +3513,19 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "647697",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Bunnaloo Rd, Bunnaloo",
-        "id": "2026-02-22T06:31:00.0000000:647697",
+        "id": "2026-02-22T07:23:00.0000000:647697",
         "category1": "Transport",
         "category2": "Motor Vehicle Accident",
         "name": "Bunnaloo Rd, Bunnaloo",
         "location": "Bunnaloo Rd, Bunnaloo 2731",
-        "created": "2026-02-22T06:31:00+11:00",
-        "updated": "2026-02-22T06:31:00+11:00",
+        "created": "2026-02-22T07:23:00+11:00",
+        "updated": "2026-02-22T07:23:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3751,93 +3775,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 265315,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265315,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray Valley Hwy",
-        "eventId": 260209753,
-        "id": "ESTA:260209753",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-21T18:50:00.000Z",
-        "updated": "2026-02-21T19:05:00.000Z",
-        "resources": 0,
-        "location": "Murray Valley Hwy, Strathmerton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.48646108173668,
-          -35.92482673486257
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 265317,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265317,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckirdy St",
-        "eventId": 260209760,
-        "id": "ESTA:260209760",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-02-21T19:15:00.000Z",
-        "updated": "2026-02-21T19:27:00.000Z",
-        "resources": 1,
-        "location": "Mckirdy St, Springvale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1397067529723,
-          -37.955267012885315
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 265318,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 265318,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Manuka Cl",
-        "eventId": 260209761,
-        "id": "ESTA:260209761",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-21T19:20:00.000Z",
-        "updated": "2026-02-21T19:32:00.000Z",
-        "resources": 0,
-        "location": "Manuka Cl, Cranbourne East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.31629296204488,
-          -38.121925945384945
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 265320,
         "feedType": "incident",
@@ -3867,28 +3804,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 599524,
+        "status": "Safe",
+        "cfaId": 265317,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 599524,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260251894,
-        "id": "ESTA:260251894",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-02-21T18:13:14.000Z",
-        "updated": "2026-02-21T18:32:49.000Z",
-        "resources": 2,
-        "location": "Kaarimba"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 265317,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mckirdy St",
+        "eventId": 260209760,
+        "id": "ESTA:260209760",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-21T19:15:00.000Z",
+        "updated": "2026-02-21T20:02:00.000Z",
+        "resources": 0,
+        "location": "Mckirdy St, Springvale",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26665521822443,
-          -36.12634157006906
+          145.1397067529723,
+          -37.955267012885315
         ]
       }
     }
@@ -4120,7 +4059,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-21T19:54:00.526Z",
-    "featureCount": 455
+    "lastUpdated": "2026-02-21T20:35:06.772Z",
+    "featureCount": 453
   }
 }
