@@ -753,6 +753,36 @@
     },
     {
       "properties": {
+        "status": "Minor",
+        "feedType": "earthquake",
+        "sourceOrg": "AU/GA",
+        "sourceId": "701880",
+        "sourceFeed": "ga-earthquake",
+        "sourceTitle": "Magnitude 2.9 earthquake - Inverloch, VIC - 26/02/2026 02:43:58 (UTC)",
+        "id": "701880",
+        "category1": "Earthquake",
+        "category2": "Earthquake",
+        "name": "Magnitude 2.9 - Inverloch, VIC",
+        "sizeFmt": "Magnitude 2.9",
+        "created": "2026-02-26T14:43:58-00:00",
+        "updated": "2026-02-26T14:43:58-00:00",
+        "webBody": "A magnitude 2.9 earthquake has occurred in \"Inverloch, VIC\" at a depth of 10.00 km at 26/02/2026 02:43:58 (UTC)",
+        "url": "https://earthquakes.ga.gov.au/event/ga2026dzxzag",
+        "cssClass": "earthquake",
+        "magnitude": "2.91411388859532",
+        "location": "Inverloch, VIC"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.77,
+          -38.715
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1859,53 +1889,57 @@
     },
     {
       "properties": {
-        "status": "Unknown",
-        "estaId": 123184776,
+        "status": "On Scene",
+        "estaId": 123185205,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123184776,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hawthorn",
-        "eventId": "S260252811",
-        "id": "ESTA:260252811",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 600451,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260211887,
+        "id": "ESTA:260211887",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-02-26T14:07:08.000Z",
-        "updated": "2026-02-26T14:12:36.818Z",
-        "resources": 0,
-        "location": "Hawthorn"
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-02-26T15:21:42.000Z",
+        "updated": "2026-02-26T15:33:36.000Z",
+        "resources": 6,
+        "location": "Coldstream",
+        "cfaId": 266126,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 600451
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.04435567065923,
-          -37.81558497849132
+          145.34254030128292,
+          -37.7165658819955
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123184720,
+        "estaId": 123185054,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 266123,
+        "sourceId": 266125,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Taverner St",
-        "eventId": 260211878,
-        "id": "ESTA:260211878",
+        "sourceTitle": "York St",
+        "eventId": 260211884,
+        "id": "ESTA:260211884",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-02-26T13:59:00.000Z",
-        "updated": "2026-02-26T14:23:00.000Z",
-        "resources": 2,
-        "location": "Taverner St, Rainbow",
-        "cfaId": 266123,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-26T14:53:00.000Z",
+        "updated": "2026-02-26T15:05:00.000Z",
+        "resources": 0,
+        "location": "York St, Ballarat East",
+        "cfaId": 266125,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1913,8 +1947,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.99717559422962,
-          -35.89984417161212
+          143.87918327627145,
+          -37.56857823941418
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123184364,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 266117,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Abattoir Rd",
+        "eventId": 260211868,
+        "id": "ESTA:260211868",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-26T13:08:00.000Z",
+        "updated": "2026-02-26T15:25:00.000Z",
+        "resources": 0,
+        "location": "Abattoir Rd, Stawell",
+        "cfaId": 266117,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.757269601428,
+          -37.05549729094474
         ]
       }
     },
@@ -3036,19 +3102,19 @@
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "648240",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Moama",
-        "id": "2026-02-27T01:32:00.0000000:648240",
+        "id": "2026-02-27T01:33:00.0000000:648240",
         "category1": "Other",
         "category2": "Other Non-Urgent Alerts",
         "name": "Moama",
         "location": "Moama 2731",
-        "created": "2026-02-27T01:32:00+11:00",
-        "updated": "2026-02-27T01:32:00+11:00",
+        "created": "2026-02-27T01:33:00+11:00",
+        "updated": "2026-02-27T01:33:00+11:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -3125,65 +3191,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 266117,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 266117,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Abattoir Rd",
-        "eventId": 260211868,
-        "id": "ESTA:260211868",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-02-26T13:08:00.000Z",
-        "updated": "2026-02-26T13:08:00.000Z",
-        "resources": 1,
-        "location": "Abattoir Rd, Stawell",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.757269601428,
-          -37.05549729094474
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
-        "cfaId": 266119,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 266119,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Diamond Views Dr",
-        "eventId": 260211872,
-        "id": "ESTA:260211872",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-26T13:22:00.000Z",
-        "updated": "2026-02-26T14:05:00.000Z",
-        "resources": 0,
-        "location": "Diamond Views Dr, Diamond Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16243612910353,
-          -37.66290457268008
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 266121,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -3195,8 +3203,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-02-26T13:49:00.000Z",
-        "updated": "2026-02-26T14:12:00.000Z",
-        "resources": 3,
+        "updated": "2026-02-26T15:05:00.000Z",
+        "resources": 0,
         "location": "Central Av, Shepparton East",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3212,21 +3220,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 266124,
+        "status": "Responding",
+        "cfaId": 266127,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 266124,
+        "sourceId": 266127,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Walpole Av",
-        "eventId": 260211879,
-        "id": "ESTA:260211879",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-26T14:04:00.000Z",
-        "updated": "2026-02-26T14:13:00.000Z",
-        "resources": 1,
-        "location": "Walpole Av, Rosebud",
+        "sourceTitle": "Lehman Lane",
+        "eventId": 260211888,
+        "id": "ESTA:260211888",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-26T15:28:00.000Z",
+        "updated": "2026-02-26T15:28:00.000Z",
+        "resources": 2,
+        "location": "Lehman Lane, Cranbourne East",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3234,8 +3242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88803329205555,
-          -38.36654095812911
+          145.29430299430595,
+          -38.11342597434305
         ]
       }
     },
@@ -3281,7 +3289,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3289,7 +3296,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -3305,7 +3313,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -3313,7 +3320,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-02-26T13:00:00.000Z",
           "heat": {
@@ -3494,7 +3502,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-26T14:34:40.236Z",
+    "lastUpdated": "2026-02-26T15:35:00.501Z",
     "featureCount": 431
   }
 }
