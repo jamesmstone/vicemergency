@@ -69294,53 +69294,83 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123199910,
+        "status": "Safe",
+        "estaId": 123199998,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123199910,
+        "sourceId": 123199998,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Hawthorn East",
-        "eventId": "F260212448",
-        "id": "ESTA:260212448",
+        "sourceTitle": "Trentham Cliffs (Nsw)",
+        "eventId": "F260212453",
+        "id": "ESTA:260212453",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-02-27T18:51:32.000Z",
-        "updated": "2026-02-27T18:53:34.536Z",
-        "resources": 0,
-        "location": "Anderson Rd, Hawthorn East"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-02-27T19:21:01.000Z",
+        "updated": "2026-02-27T19:25:21.097Z",
+        "resources": 1,
+        "location": "Sturt Hwy, Trentham Cliffs (Nsw)"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.04845300353213,
-          -37.84099228830338
+          142.24527104499825,
+          -34.22202663772707
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123199980,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 600785,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260253151,
+        "id": "ESTA:260253151",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-27T19:17:15.000Z",
+        "updated": "2026-02-27T19:29:24.000Z",
+        "resources": 0,
+        "location": "Whitlands",
+        "sesId": 600785
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.35442544415002,
+          -36.78413926286938
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123199904,
+        "estaId": 123200031,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 266371,
+        "sourceId": 266374,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "St Georges Rd",
-        "eventId": 260212447,
-        "id": "ESTA:260212447",
+        "sourceTitle": "Narre Warren North Rd",
+        "eventId": 260212457,
+        "id": "ESTA:260212457",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2026-02-27T18:52:00.000Z",
-        "updated": "2026-02-27T18:52:00.000Z",
-        "resources": 2,
-        "location": "St Georges Rd, Shepparton",
-        "cfaId": 266371,
+        "created": "2026-02-27T19:35:00.000Z",
+        "updated": "2026-02-27T19:35:00.000Z",
+        "resources": 1,
+        "location": "Narre Warren North Rd, Narre Warren North",
+        "cfaId": 266374,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -69348,8 +69378,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.40730737358243,
-          -36.38726331621157
+          145.3136837210816,
+          -37.99019808993239
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123200034,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 600786,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260253152,
+        "id": "ESTA:260253152",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-27T19:36:10.000Z",
+        "updated": "2026-02-27T19:36:51.000Z",
+        "resources": 0,
+        "location": "Lockwood South",
+        "sesId": 600786
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1364574680501,
+          -36.911676674208465
         ]
       }
     },
@@ -70441,6 +70501,36 @@
     },
     {
       "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "648365",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Sturt Hwy, Trentham Cliffs",
+        "id": "2026-02-28T06:29:00.0000000:648365",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Sturt Hwy, Trentham Cliffs",
+        "location": "Sturt Hwy, Trentham Cliffs 2738",
+        "created": "2026-02-28T06:29:00+11:00",
+        "updated": "2026-02-28T06:29:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.245269775,
+          -34.222019196
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
@@ -70500,35 +70590,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "cfaId": 266194,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 266194,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stow Rd",
-        "eventId": 260212064,
-        "id": "ESTA:260212064",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-02-27T02:01:00.000Z",
-        "updated": "2026-02-27T08:56:00.000Z",
-        "resources": 0,
-        "location": "Stow Rd, Warrenbayne",
-        "size": "Medium",
-        "sizeFmt": "Medium"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.85575318494546,
-          -36.72878070005194
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 266310,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -70557,31 +70618,88 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "cfaId": 266370,
+        "status": "Safe",
+        "cfaId": 266371,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 600780,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260212442,
-        "id": "ESTA:260212442",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-02-27T18:26:18.000Z",
-        "updated": "2026-02-27T18:47:05.000Z",
-        "resources": 2,
-        "location": "Frankston North",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 266371,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "St Georges Rd",
+        "eventId": 260212447,
+        "id": "ESTA:260212447",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-02-27T18:52:00.000Z",
+        "updated": "2026-02-27T19:00:00.000Z",
+        "resources": 0,
+        "location": "St Georges Rd, Shepparton",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 600780
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15193670239202,
-          -38.11910334424333
+          145.40730737358243,
+          -36.38726331621157
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 266373,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 266373,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mountain Hwy",
+        "eventId": 260212450,
+        "id": "ESTA:260212450",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-02-27T19:10:00.000Z",
+        "updated": "2026-02-27T19:25:00.000Z",
+        "resources": 2,
+        "location": "Mountain Hwy, Wantirna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23021619786692,
+          -37.84782603973232
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 266194,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 266194,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stow Rd",
+        "eventId": 260212064,
+        "id": "ESTA:260212064",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-02-27T02:01:00.000Z",
+        "updated": "2026-02-27T08:56:00.000Z",
+        "resources": 0,
+        "location": "Stow Rd, Warrenbayne",
+        "size": "Medium",
+        "sizeFmt": "Medium"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.85575318494546,
+          -36.72878070005194
         ]
       }
     },
@@ -70831,6 +70949,33 @@
     {
       "properties": {
         "status": "Request For Assistance",
+        "sesId": 600782,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 600782,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260253147,
+        "id": "ESTA:260253147",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-02-27T19:01:36.000Z",
+        "updated": "2026-02-27T19:27:06.000Z",
+        "resources": 1,
+        "location": "Murmungee"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.67322663833014,
+          -36.46629478536126
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
         "sesId": 600781,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -70842,8 +70987,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-02-27T18:40:48.000Z",
-        "updated": "2026-02-27T18:45:51.000Z",
-        "resources": 0,
+        "updated": "2026-02-27T19:37:43.000Z",
+        "resources": 1,
         "location": "Lockwood South"
       },
       "type": "Feature",
@@ -71083,7 +71228,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-02-27T18:57:40.712Z",
-    "featureCount": 445
+    "lastUpdated": "2026-02-27T19:39:00.493Z",
+    "featureCount": 450
   }
 }
