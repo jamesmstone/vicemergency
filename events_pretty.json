@@ -479,7 +479,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3017844,
@@ -488,8 +488,8 @@
         "id": 3017844,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-03-04T00:52:37.000Z",
-        "updated": "2026-03-04T00:52:37.000Z",
+        "created": "2026-03-04T06:03:18.000Z",
+        "updated": "2026-03-04T06:03:18.000Z",
         "resources": 0,
         "size": "60.44",
         "sizeFmt": "60.44 Ha.",
@@ -860,54 +860,24 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123254565,
+        "status": "Safe",
+        "estaId": 123256555,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 601860,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260350952,
-        "id": "ESTA:260350952",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-04T03:41:32.000Z",
-        "updated": "2026-03-04T05:49:22.000Z",
-        "resources": 0,
-        "location": "Kinglake",
-        "sesId": 601860
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34267706907596,
-          -37.53081100603655
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 123256009,
-        "feedType": "incident",
-        "source": "000",
+        "source": "NOC",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 267118,
+        "sourceId": 267127,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mantung Cr",
-        "eventId": 260301578,
-        "id": "ESTA:260301578",
+        "sourceTitle": "Alice Av",
+        "eventId": 260301600,
+        "id": "ESTA:260301600",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-04T05:47:00.000Z",
-        "updated": "2026-03-04T05:54:00.000Z",
-        "resources": 1,
-        "location": "Mantung Cr, Rowville",
-        "cfaId": 267118,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-04T06:36:00.000Z",
+        "updated": "2026-03-04T06:38:00.000Z",
+        "resources": 0,
+        "location": "Alice Av, Mickleham",
+        "cfaId": 267127,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -915,40 +885,193 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2432624452327,
-          -37.921072923680484
+          144.89243564726732,
+          -37.53729421913466
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123256565,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267128,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rumbalara Rd",
+        "eventId": 260301601,
+        "id": "ESTA:260301601",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-04T06:37:00.000Z",
+        "updated": "2026-03-04T06:49:00.000Z",
+        "resources": 0,
+        "location": "Rumbalara Rd, Mooroopna",
+        "cfaId": 267128,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35457151405296,
+          -36.40427934073007
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123256521,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267125,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bell St",
+        "eventId": 260301597,
+        "id": "ESTA:260301597",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-04T06:33:00.000Z",
+        "updated": "2026-03-04T06:41:00.000Z",
+        "resources": 0,
+        "location": "Bell St, Ararat",
+        "cfaId": 267125,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.92541966772632,
+          -37.28826438131367
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123256727,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601879,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260350974,
+        "id": "ESTA:260350974",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-04T06:52:07.000Z",
+        "updated": "2026-03-04T06:56:10.000Z",
+        "resources": 0,
+        "location": "Heywood",
+        "sesId": 601879
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6332581698637,
+          -38.13443120752034
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123256057,
+        "estaId": 123256781,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267119,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mackenzie St",
-        "eventId": 260301580,
-        "id": "ESTA:260301580",
+        "source": "OTHER",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123256781,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Heidelberg West",
+        "eventId": "F260301609",
+        "id": "ESTA:260301609",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-04T05:52:00.000Z",
-        "updated": "2026-03-04T05:52:00.000Z",
-        "resources": 3,
-        "location": "Mackenzie St, Kangaroo Flat",
-        "cfaId": 267119,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-04T06:55:01.000Z",
+        "updated": "2026-03-04T06:57:13.175Z",
+        "resources": 0,
+        "location": "Dougharty Rd, Heidelberg West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.2360614858361,
-          -36.79072170342217
+          145.04443219065303,
+          -37.734199387749854
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "estaId": 123256674,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601877,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260301607,
+        "id": "ESTA:260301607",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-04T06:46:34.000Z",
+        "updated": "2026-03-04T07:00:18.000Z",
+        "resources": 6,
+        "location": "Healesville",
+        "cfaId": 267129,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 601877
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.52998963552955,
+          -37.66874430132661
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123256837,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123256837,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mildura",
+        "eventId": "F260301613",
+        "id": "ESTA:260301613",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-04T07:00:05.000Z",
+        "updated": "2026-03-04T07:02:17.106Z",
+        "resources": 0,
+        "location": "Mildura"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.15742703620464,
+          -34.18958575254196
         ]
       }
     },
@@ -983,51 +1106,21 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 267106,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 601867,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260301550,
-        "id": "ESTA:260301550",
-        "category1": "Rescue",
-        "category2": "Rescue Confined Space",
-        "created": "2026-03-04T04:37:06.000Z",
-        "updated": "2026-03-04T05:15:07.000Z",
-        "resources": 6,
-        "location": "Broadford",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 601867
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04655962283815,
-          -37.20317638496764
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
-        "cfaId": 267113,
+        "cfaId": 267118,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 267113,
+        "sourceId": 267118,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fraser St",
-        "eventId": 260301565,
-        "id": "ESTA:260301565",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-04T04:56:00.000Z",
-        "updated": "2026-03-04T05:04:00.000Z",
-        "resources": 2,
-        "location": "Fraser St, Melton South",
+        "sourceTitle": "Mantung Cr",
+        "eventId": 260301578,
+        "id": "ESTA:260301578",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-04T05:47:00.000Z",
+        "updated": "2026-03-04T05:54:00.000Z",
+        "resources": 1,
+        "location": "Mantung Cr, Rowville",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1035,43 +1128,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.57775420512073,
-          -37.69906652504653
+          145.2432624452327,
+          -37.921072923680484
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 267104,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267104,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Coffeys Lane",
-        "eventId": 260301546,
-        "id": "ESTA:260301546",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-03-04T04:30:00.000Z",
-        "updated": "2026-03-04T05:16:00.000Z",
-        "resources": 3,
-        "location": "Coffeys Lane, Heathmere",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.5848791442624,
-          -38.18324163459418
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
         "cfaId": 267115,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1083,7 +1147,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-03-04T05:38:00.000Z",
-        "updated": "2026-03-04T05:38:00.000Z",
+        "updated": "2026-03-04T06:05:00.000Z",
         "resources": 2,
         "location": "Maroona-Glenthompson Rd, Maroona",
         "size": "Small",
@@ -1100,21 +1164,21 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "cfaId": 267122,
+        "status": "Under Control",
+        "cfaId": 267119,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 267122,
+        "sourceId": 267119,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Caroline Springs Bvd",
-        "eventId": 260301586,
-        "id": "ESTA:260301586",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-04T06:00:00.000Z",
-        "updated": "2026-03-04T06:00:00.000Z",
-        "resources": 1,
-        "location": "Caroline Springs Bvd, Caroline Springs",
+        "sourceTitle": "Mackenzie St",
+        "eventId": 260301580,
+        "id": "ESTA:260301580",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-04T05:52:00.000Z",
+        "updated": "2026-03-04T06:08:00.000Z",
+        "resources": 2,
+        "location": "Mackenzie St, Kangaroo Flat",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1122,8 +1186,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.74168873412097,
-          -37.73205105913422
+          144.2360614858361,
+          -36.79072170342217
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 267123,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267123,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Calder Fwy",
+        "eventId": 260301590,
+        "id": "ESTA:260301590",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-04T06:14:00.000Z",
+        "updated": "2026-03-04T06:29:00.000Z",
+        "resources": 3,
+        "location": "Calder Fwy, Elphinstone",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36620362983282,
+          -37.10072840382108
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 267113,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267113,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fraser St",
+        "eventId": 260301565,
+        "id": "ESTA:260301565",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-04T04:56:00.000Z",
+        "updated": "2026-03-04T06:32:00.000Z",
+        "resources": 0,
+        "location": "Fraser St, Melton South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.57775420512073,
+          -37.69906652504653
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 267130,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267130,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sherwood Rd",
+        "eventId": 260301608,
+        "id": "ESTA:260301608",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-04T06:51:00.000Z",
+        "updated": "2026-03-04T06:51:00.000Z",
+        "resources": 1,
+        "location": "Sherwood Rd, Junction Village",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2920046090535,
+          -38.13667892851029
         ]
       }
     },
@@ -1157,33 +1308,6 @@
     {
       "properties": {
         "status": "On Scene",
-        "sesId": 601869,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 601869,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260350963,
-        "id": "ESTA:260350963",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-04T05:09:04.000Z",
-        "updated": "2026-03-04T05:34:54.000Z",
-        "resources": 1,
-        "location": "Mildura"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.13059968717002,
-          -34.20293391363423
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "sesId": 601872,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1195,7 +1319,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2026-03-04T05:47:17.000Z",
-        "updated": "2026-03-04T05:56:10.000Z",
+        "updated": "2026-03-04T06:12:04.000Z",
         "resources": 1,
         "location": "Rowville"
       },
@@ -1205,6 +1329,60 @@
         "coordinates": [
           145.2432624452327,
           -37.921072923680484
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 601867,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601867,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260301550,
+        "id": "ESTA:260301550",
+        "category1": "Rescue",
+        "category2": "Rescue Confined Space",
+        "created": "2026-03-04T04:37:06.000Z",
+        "updated": "2026-03-04T06:30:12.000Z",
+        "resources": 2,
+        "location": "Broadford"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04655962283815,
+          -37.20317638496764
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 601876,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601876,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260350972,
+        "id": "ESTA:260350972",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-03-04T06:44:35.000Z",
+        "updated": "2026-03-04T06:48:02.000Z",
+        "resources": 0,
+        "location": "Highett"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0550150716818,
+          -37.95493325414955
         ]
       }
     }
@@ -1436,7 +1614,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-04T06:03:40.644Z",
-    "featureCount": 407
+    "lastUpdated": "2026-03-04T07:02:20.499Z",
+    "featureCount": 413
   }
 }
