@@ -944,7 +944,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123271835,
         "feedType": "incident",
         "source": "000",
@@ -958,8 +958,8 @@
         "category1": "Fire",
         "category2": "Structure Fire",
         "created": "2026-03-05T11:29:44.000Z",
-        "updated": "2026-03-05T11:30:27.363Z",
-        "resources": 0,
+        "updated": "2026-03-05T11:49:33.930Z",
+        "resources": 3,
         "location": "High St, Preston"
       },
       "type": "Feature",
@@ -973,59 +973,120 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123271838,
+        "status": "Responding",
+        "estaId": 123271969,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123271838,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Preston",
-        "eventId": "F260302086",
-        "id": "ESTA:260302086",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267302,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Melba Pde",
+        "eventId": 260302090,
+        "id": "ESTA:260302090",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-03-05T11:28:31.000Z",
-        "updated": "2026-03-05T11:34:10.663Z",
+        "category2": "Building Fire",
+        "created": "2026-03-05T11:49:00.000Z",
+        "updated": "2026-03-05T11:49:00.000Z",
         "resources": 3,
-        "location": "Hotham St, Preston"
+        "location": "Melba Pde, Anglesea",
+        "cfaId": 267302,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0067984315095,
-          -37.75169130660655
+          144.17758753121274,
+          -38.42477824688091
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123272014,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123272014,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "St Kilda",
+        "eventId": "F260302091",
+        "id": "ESTA:260302091",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-05T11:54:41.000Z",
+        "updated": "2026-03-05T11:55:29.862Z",
+        "resources": 0,
+        "location": "Belford St, St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9805233979828,
+          -37.86794726930406
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123271862,
+        "estaId": 123272049,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123271862,
+        "sourceId": 123272049,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Preston",
-        "eventId": "F260302087",
-        "id": "ESTA:260302087",
+        "sourceTitle": "Burwood",
+        "eventId": "F260302092",
+        "id": "ESTA:260302092",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-03-05T11:32:40.000Z",
-        "updated": "2026-03-05T11:36:42.448Z",
-        "resources": 3,
-        "location": "Bell St, Preston"
+        "category2": "Non Structure Fire",
+        "created": "2026-03-05T11:58:33.000Z",
+        "updated": "2026-03-05T11:59:44.096Z",
+        "resources": 0,
+        "location": "Station St, Burwood"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.00767651770903,
-          -37.746237628493354
+          145.1211414154172,
+          -37.84502430813815
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Unknown",
+        "estaId": 123271526,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123271526,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Womboota (Nsw)",
+        "eventId": "F260302077",
+        "id": "ESTA:260302077",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-05T10:52:46.000Z",
+        "updated": "2026-03-05T12:00:29.407Z",
+        "resources": 0,
+        "location": "Holschier Rd, Womboota (Nsw)"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5587966188809,
+          -35.87145219513034
         ]
       }
     },
@@ -1054,8 +1115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.559829712,
-          -35.871559143
+          144.558899402,
+          -35.8714641989999
         ]
       }
     },
@@ -1179,6 +1240,7 @@
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "MODERATE",
         "East Gippsland": "NO FORECAST",
         "West and South Gippsland": "MODERATE",
         "North East": "MODERATE",
@@ -1186,8 +1248,7 @@
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
         "South West": "MODERATE",
-        "Wimmera": "MODERATE",
-        "Mallee": "MODERATE"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -1203,6 +1264,7 @@
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -1210,8 +1272,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -1403,7 +1464,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-05T11:41:42.434Z",
-    "featureCount": 402
+    "lastUpdated": "2026-03-05T12:01:20.682Z",
+    "featureCount": 404
   }
 }
