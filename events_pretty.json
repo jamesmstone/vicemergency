@@ -944,30 +944,90 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123274008,
+        "status": "Request For Assistance",
+        "estaId": 123274399,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123274008,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Bulleen",
-        "eventId": "F260302139",
-        "id": "ESTA:260302139",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601958,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351045,
+        "id": "ESTA:260351045",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-03-05T17:39:34.000Z",
-        "updated": "2026-03-05T18:18:57.521Z",
-        "resources": 4,
-        "location": "Avon St, Bulleen"
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-03-05T19:35:22.000Z",
+        "updated": "2026-03-05T19:35:53.000Z",
+        "resources": 0,
+        "location": "Carlton North",
+        "sesId": 601958
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0844639777159,
-          -37.765461444880906
+          144.97336413618748,
+          -37.78200782551928
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123274399,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123274399,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Carlton North",
+        "eventId": "F260302152",
+        "id": "ESTA:260302152",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-05T19:33:26.000Z",
+        "updated": "2026-03-05T19:35:24.761Z",
+        "resources": 0,
+        "location": "Rathdowne St, Carlton North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9733769097256,
+          -37.781995180080095
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123274025,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 601956,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351043,
+        "id": "ESTA:260351043",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-05T17:43:46.000Z",
+        "updated": "2026-03-05T19:36:39.000Z",
+        "resources": 0,
+        "location": "Eastville",
+        "sesId": 601956
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.93943665915137,
+          -36.88829369462642
         ]
       }
     },
@@ -1033,6 +1093,64 @@
     },
     {
       "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 267322,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267322,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Saskia Way",
+        "eventId": 260302142,
+        "id": "ESTA:260302142",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-05T18:36:00.000Z",
+        "updated": "2026-03-05T18:36:00.000Z",
+        "resources": 2,
+        "location": "Saskia Way, Morwell",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.43602453205273,
+          -38.23544501092399
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 267324,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267324,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Thompsons Rd",
+        "eventId": 260302150,
+        "id": "ESTA:260302150",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-05T19:18:00.000Z",
+        "updated": "2026-03-05T19:30:00.000Z",
+        "resources": 0,
+        "location": "Thompsons Rd, Cranbourne West",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25659886086157,
+          -38.08059232088629
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
@@ -1057,149 +1175,6 @@
         "coordinates": [
           145.42404495753306,
           -36.825008548352905
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 267315,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267315,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Diggers Rest-Coimadai Rd",
-        "eventId": 260302128,
-        "id": "ESTA:260302128",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-05T16:49:00.000Z",
-        "updated": "2026-03-05T17:31:00.000Z",
-        "resources": 0,
-        "location": "Diggers Rest-Coimadai Rd, Merrimu",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.48696257457803,
-          -37.63274433108895
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 267320,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267320,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260302135,
-        "id": "ESTA:260302135",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-05T17:17:00.000Z",
-        "updated": "2026-03-05T17:34:00.000Z",
-        "resources": 0,
-        "location": "Indigo Valley",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.66901551668187,
-          -36.11374258953282
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 267319,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267319,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260302133,
-        "id": "ESTA:260302133",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-05T17:05:00.000Z",
-        "updated": "2026-03-05T17:59:00.000Z",
-        "resources": 0,
-        "location": "Bacchus Marsh",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.43803854746682,
-          -37.66565443053268
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 267321,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267321,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260302140,
-        "id": "ESTA:260302140",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-05T17:59:00.000Z",
-        "updated": "2026-03-05T18:10:00.000Z",
-        "resources": 0,
-        "location": "Cranbourne",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2821467417037,
-          -38.10551672844849
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 601956,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 601956,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351043,
-        "id": "ESTA:260351043",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-05T17:43:46.000Z",
-        "updated": "2026-03-05T18:19:49.000Z",
-        "resources": 1,
-        "location": "Eastville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.93943665915137,
-          -36.88829369462642
         ]
       }
     }
@@ -1431,7 +1406,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-05T18:23:40.410Z",
-    "featureCount": 403
+    "lastUpdated": "2026-03-05T19:39:40.610Z",
+    "featureCount": 402
   }
 }
