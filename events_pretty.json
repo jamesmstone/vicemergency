@@ -944,7 +944,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123272972,
         "feedType": "incident",
         "source": "000",
@@ -958,8 +958,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-03-05T14:06:00.000Z",
-        "updated": "2026-03-05T14:06:00.000Z",
-        "resources": 0,
+        "updated": "2026-03-05T14:36:00.000Z",
+        "resources": 1,
         "location": "Curlewis",
         "cfaId": 267310,
         "size": "Small",
@@ -969,8 +969,102 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.51506520381497,
-          -38.1701043862552
+          144.51776994490385,
+          -38.17044996230485
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123273164,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267311,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "All Nations Lane",
+        "eventId": 260302120,
+        "id": "ESTA:260302120",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-05T14:40:00.000Z",
+        "updated": "2026-03-05T15:04:00.000Z",
+        "resources": 2,
+        "location": "All Nations Lane, Magpie",
+        "cfaId": 267311,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85402765531552,
+          -37.61770285621352
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123273311,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267312,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barclay Cr",
+        "eventId": 260302123,
+        "id": "ESTA:260302123",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-05T15:05:00.000Z",
+        "updated": "2026-03-05T15:05:00.000Z",
+        "resources": 0,
+        "location": "Barclay Cr, Hastings",
+        "cfaId": 267312,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19401480825636,
+          -38.289246637813484
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "648930",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Endeavour Dr, Balranald",
+        "id": "2026-03-06T01:12:00.0000000:648930",
+        "category1": "Fire",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Endeavour Dr, Balranald",
+        "location": "Endeavour Dr, Balranald 2715",
+        "created": "2026-03-06T01:12:00+11:00",
+        "updated": "2026-03-06T01:12:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.544647217,
+          -34.63761139
         ]
       }
     },
@@ -1035,7 +1129,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 267308,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1047,7 +1141,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-03-05T13:34:00.000Z",
-        "updated": "2026-03-05T13:44:00.000Z",
+        "updated": "2026-03-05T14:11:00.000Z",
         "resources": 0,
         "location": "Downard St, Braeside",
         "size": "Small",
@@ -1077,6 +1171,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1084,8 +1179,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1101,6 +1195,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1108,8 +1203,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-05T13:00:00.000Z",
           "heat": {
@@ -1290,7 +1384,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-05T14:08:20.311Z",
-    "featureCount": 398
+    "lastUpdated": "2026-03-05T15:08:40.501Z",
+    "featureCount": 401
   }
 }
