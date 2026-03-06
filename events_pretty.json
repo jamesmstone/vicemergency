@@ -1030,6 +1030,35 @@
     {
       "properties": {
         "status": "Responding",
+        "estaId": 123289229,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123289229,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Maribyrnong",
+        "eventId": "F260302607",
+        "id": "ESTA:260302607",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-06T19:23:38.000Z",
+        "updated": "2026-03-06T19:25:23.078Z",
+        "resources": 0,
+        "location": "Wests Rd, Maribyrnong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8814318023248,
+          -37.774596835802086
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 123289147,
         "feedType": "incident",
         "source": "000",
@@ -1043,7 +1072,7 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-03-06T18:56:00.000Z",
-        "updated": "2026-03-06T18:56:00.000Z",
+        "updated": "2026-03-06T19:12:00.000Z",
         "resources": 0,
         "location": "Cara Cr, Berwick",
         "cfaId": 267480,
@@ -1103,7 +1132,7 @@
         "category2": "Building Fire",
         "created": "2026-03-06T11:47:00.000Z",
         "updated": "2026-03-06T12:27:00.000Z",
-        "resources": 4,
+        "resources": 5,
         "location": "Parkers Rd, Parkdale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1119,7 +1148,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 267476,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1131,8 +1160,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-03-06T17:36:00.000Z",
-        "updated": "2026-03-06T17:57:00.000Z",
-        "resources": 2,
+        "updated": "2026-03-06T19:02:00.000Z",
+        "resources": 0,
         "location": "Campbell Rd, Cobram",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1143,35 +1172,6 @@
         "coordinates": [
           145.65989625039893,
           -35.94541468415015
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 267477,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267477,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mandalay Av",
-        "eventId": 260302600,
-        "id": "ESTA:260302600",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-06T18:32:00.000Z",
-        "updated": "2026-03-06T18:32:00.000Z",
-        "resources": 3,
-        "location": "Mandalay Av, Armstrong Creek",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.36867348206945,
-          -38.24241103462726
         ]
       }
     }
@@ -1403,7 +1403,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-06T18:58:40.299Z",
+    "lastUpdated": "2026-03-06T19:39:26.303Z",
     "featureCount": 401
   }
 }
