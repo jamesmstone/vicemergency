@@ -1029,24 +1029,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 123289491,
+        "status": "Safe",
+        "estaId": 123289748,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 267483,
+        "sourceId": 267485,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Perry Rd",
-        "eventId": 260302626,
-        "id": "ESTA:260302626",
+        "sourceTitle": "Underwood Rd",
+        "eventId": 260302633,
+        "id": "ESTA:260302633",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-06T20:40:00.000Z",
-        "updated": "2026-03-06T20:51:00.000Z",
-        "resources": 1,
-        "location": "Perry Rd, Keysborough",
-        "cfaId": 267483,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-06T21:22:00.000Z",
+        "updated": "2026-03-06T21:35:00.000Z",
+        "resources": 2,
+        "location": "Underwood Rd, Ferntree Gully",
+        "cfaId": 267485,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1054,14 +1054,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17465538844593,
-          -38.014697733327715
+          145.29196334802936,
+          -37.87439558771574
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123289546,
         "feedType": "incident",
         "source": "000",
@@ -1075,7 +1075,7 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-03-06T20:53:00.000Z",
-        "updated": "2026-03-06T20:53:00.000Z",
+        "updated": "2026-03-06T21:29:00.000Z",
         "resources": 0,
         "location": "Buangor",
         "cfaId": 267484,
@@ -1093,31 +1093,31 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123289556,
+        "status": "Not Yet Controlled",
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602047,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351129,
-        "id": "ESTA:260351129",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-06T20:54:10.000Z",
-        "updated": "2026-03-06T20:59:46.000Z",
-        "resources": 0,
-        "location": "Baynton",
-        "sesId": 602047
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "649050",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Batlow Rd, Willigobung",
+        "id": "2026-03-07T08:27:00.0000000:649050",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Batlow Rd, Willigobung",
+        "location": "Batlow Rd, Willigobung 2653",
+        "created": "2026-03-07T08:27:00+11:00",
+        "updated": "2026-03-07T08:27:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6641549238489,
-          -37.126956016984586
+          148.065673828,
+          -35.644138337
         ]
       }
     },
@@ -1165,7 +1165,7 @@
         "category2": "Building Fire",
         "created": "2026-03-06T11:47:00.000Z",
         "updated": "2026-03-06T12:27:00.000Z",
-        "resources": 5,
+        "resources": 4,
         "location": "Parkers Rd, Parkdale",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1205,6 +1205,62 @@
         "coordinates": [
           145.09590638751024,
           -37.600557133447
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 267483,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267483,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Perry Rd",
+        "eventId": 260302626,
+        "id": "ESTA:260302626",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-06T20:40:00.000Z",
+        "updated": "2026-03-06T21:03:00.000Z",
+        "resources": 0,
+        "location": "Perry Rd, Keysborough",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17465538844593,
+          -38.014697733327715
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 602047,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602047,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351129,
+        "id": "ESTA:260351129",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-06T20:54:10.000Z",
+        "updated": "2026-03-06T21:19:17.000Z",
+        "resources": 1,
+        "location": "Baynton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6641549238489,
+          -37.126956016984586
         ]
       }
     }
@@ -1436,7 +1492,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-06T21:02:00.425Z",
-    "featureCount": 402
+    "lastUpdated": "2026-03-06T21:38:06.461Z",
+    "featureCount": 404
   }
 }
