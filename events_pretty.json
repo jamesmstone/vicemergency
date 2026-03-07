@@ -1057,30 +1057,92 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123302270,
+        "status": "Not Yet Under Control",
+        "estaId": 123302371,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123302270,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Blackburn",
-        "eventId": "F260302990",
-        "id": "ESTA:260302990",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267610,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Phillips Rd",
+        "eventId": 260302993,
+        "id": "ESTA:260302993",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-07T17:46:33.000Z",
-        "updated": "2026-03-07T17:48:44.710Z",
-        "resources": 0,
-        "location": "The Avenue -, Blackburn"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-07T18:13:00.000Z",
+        "updated": "2026-03-07T18:13:00.000Z",
+        "resources": 4,
+        "location": "Phillips Rd, Myall (Kerang)",
+        "cfaId": 267610,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1444050422176,
-          -37.821987820377274
+          143.99728400483113,
+          -35.64666010978568
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123302458,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123302458,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Point Cook",
+        "eventId": "F260302998",
+        "id": "ESTA:260302998",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-07T18:36:56.000Z",
+        "updated": "2026-03-07T18:37:08.987Z",
+        "resources": 0,
+        "location": "Lennon Bvd, Point Cook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73984187987588,
+          -37.89633132896549
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123302355,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602108,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351196,
+        "id": "ESTA:260351196",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-07T18:09:53.000Z",
+        "updated": "2026-03-07T18:37:34.000Z",
+        "resources": 0,
+        "location": "Yellingbo",
+        "sesId": 602108
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4876021514794,
+          -37.85019723545186
         ]
       }
     },
@@ -2215,6 +2277,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 267609,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267609,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Milligan Ct",
+        "eventId": 260302992,
+        "id": "ESTA:260302992",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-07T18:07:00.000Z",
+        "updated": "2026-03-07T18:19:00.000Z",
+        "resources": 0,
+        "location": "Milligan Ct, Traralgon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.55818933774623,
+          -38.20435260198077
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 602100,
         "feedType": "incident",
@@ -2495,7 +2586,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-07T17:54:06.723Z",
-    "featureCount": 393
+    "lastUpdated": "2026-03-07T18:47:20.566Z",
+    "featureCount": 396
   }
 }
