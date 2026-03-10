@@ -896,30 +896,62 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123339556,
+        "status": "Responding",
+        "estaId": 123340001,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123339556,
+        "sourceId": 123340001,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Broadmeadows",
-        "eventId": "F260304067",
-        "id": "ESTA:260304067",
+        "sourceTitle": "Reservoir",
+        "eventId": "F260304081",
+        "id": "ESTA:260304081",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-03-10T13:41:57.000Z",
-        "updated": "2026-03-10T14:04:15.330Z",
-        "resources": 11,
-        "location": "Broadmeadows"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-10T15:05:50.000Z",
+        "updated": "2026-03-10T15:07:18.179Z",
+        "resources": 0,
+        "location": "Crookston Rd, Reservoir"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92554850221242,
-          -37.69126962774333
+          145.02271455122485,
+          -37.71062935336964
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123339975,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 267990,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Shadforth St",
+        "eventId": 260304079,
+        "id": "ESTA:260304079",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-10T15:00:00.000Z",
+        "updated": "2026-03-10T15:00:00.000Z",
+        "resources": 2,
+        "location": "Shadforth St, Kerang",
+        "cfaId": 267990,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.91569354217847,
+          -35.72631770717872
         ]
       }
     },
@@ -7884,36 +7916,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "649367",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Imlay Rd, Narrabarba",
-        "id": "2026-03-11T00:49:00.0000000:649367",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Imlay Rd, Narrabarba",
-        "location": "Imlay Rd, Narrabarba 2551",
-        "created": "2026-03-11T00:49:00+11:00",
-        "updated": "2026-03-11T00:49:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.807373047,
-          -37.2468147279999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "649330",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Ben Boyd Rd, Nullica",
@@ -7999,30 +8001,55 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 267986,
+        "status": "Request For Assistance",
+        "sesId": 602340,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 267986,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260304062,
-        "id": "ESTA:260304062",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-10T13:08:00.000Z",
-        "updated": "2026-03-10T13:16:00.000Z",
-        "resources": 0,
-        "location": "East Bendigo",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602340,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351426,
+        "id": "ESTA:260351426",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-10T14:28:36.000Z",
+        "updated": "2026-03-10T14:53:17.000Z",
+        "resources": 1,
+        "location": "Nerrina"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3223505501255,
-          -36.74722257973531
+          143.9079638053866,
+          -37.53377620146305
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 602339,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602339,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351425,
+        "id": "ESTA:260351425",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-10T14:22:58.000Z",
+        "updated": "2026-03-10T15:00:08.000Z",
+        "resources": 1,
+        "location": "Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8886584375389,
+          -36.109982765218234
         ]
       }
     },
@@ -9847,7 +9874,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-10T14:09:00.386Z",
-    "featureCount": 397
+    "lastUpdated": "2026-03-10T15:12:40.248Z",
+    "featureCount": 398
   }
 }
