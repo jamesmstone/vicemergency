@@ -617,31 +617,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123352788,
+        "status": "Safe",
+        "estaId": 123352632,
         "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602607,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351702,
-        "id": "ESTA:260351702",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123352632,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Donnybrook",
+        "eventId": "F260304550",
+        "id": "ESTA:260304550",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-11T18:03:56.000Z",
-        "updated": "2026-03-11T18:04:40.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-11T17:11:44.000Z",
+        "updated": "2026-03-11T19:07:03.111Z",
         "resources": 0,
-        "location": "Malvern",
-        "sesId": 602607
+        "location": "Donnybrook Rd, Donnybrook"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.03201176370993,
-          -37.86322575624465
+          144.96945627629927,
+          -37.542793385078845
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123352955,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268151,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "School Rd",
+        "eventId": 260304562,
+        "id": "ESTA:260304562",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-11T19:10:00.000Z",
+        "updated": "2026-03-11T19:10:00.000Z",
+        "resources": 0,
+        "location": "School Rd, Menzies Creek",
+        "cfaId": 268151,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39426243436856,
+          -37.91740884528255
         ]
       }
     },
@@ -1932,88 +1963,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 268145,
+        "status": "On Scene",
+        "sesId": 602607,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268145,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lawson Way",
-        "eventId": 260304549,
-        "id": "ESTA:260304549",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-03-11T17:10:00.000Z",
-        "updated": "2026-03-11T17:27:00.000Z",
-        "resources": 0,
-        "location": "Lawson Way, Endeavour Hills",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602607,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351702,
+        "id": "ESTA:260351702",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-11T18:03:56.000Z",
+        "updated": "2026-03-11T18:45:03.000Z",
+        "resources": 1,
+        "location": "Malvern"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26631149654418,
-          -37.97673025925482
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268147,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268147,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gomms Rd",
-        "eventId": 260304552,
-        "id": "ESTA:260304552",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-11T17:26:00.000Z",
-        "updated": "2026-03-11T17:32:00.000Z",
-        "resources": 0,
-        "location": "Gomms Rd, Somerville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16406238449247,
-          -38.215545763795724
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 268146,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268146,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Donnybrook Rd",
-        "eventId": 260304550,
-        "id": "ESTA:260304550",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-11T17:12:00.000Z",
-        "updated": "2026-03-11T17:33:00.000Z",
-        "resources": 4,
-        "location": "Donnybrook Rd, Donnybrook",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96943567938345,
-          -37.542798511218805
+          145.03201176370993,
+          -37.86322575624465
         ]
       }
     }
@@ -2245,7 +2216,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-11T18:06:06.672Z",
-    "featureCount": 386
+    "lastUpdated": "2026-03-11T19:12:00.216Z",
+    "featureCount": 385
   }
 }
