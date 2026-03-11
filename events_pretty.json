@@ -617,62 +617,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123352632,
+        "status": "Request For Assistance",
+        "estaId": 123353076,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123352632,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Donnybrook",
-        "eventId": "F260304550",
-        "id": "ESTA:260304550",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602610,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351705,
+        "id": "ESTA:260351705",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-11T17:11:44.000Z",
-        "updated": "2026-03-11T19:07:03.111Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-11T19:47:44.000Z",
+        "updated": "2026-03-11T19:48:11.000Z",
         "resources": 0,
-        "location": "Donnybrook Rd, Donnybrook"
+        "location": "Jindivick",
+        "sesId": 602610
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96945627629927,
-          -37.542793385078845
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123352955,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268151,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "School Rd",
-        "eventId": 260304562,
-        "id": "ESTA:260304562",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-11T19:10:00.000Z",
-        "updated": "2026-03-11T19:10:00.000Z",
-        "resources": 0,
-        "location": "School Rd, Menzies Creek",
-        "cfaId": 268151,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39426243436856,
-          -37.91740884528255
+          145.9228092062156,
+          -38.034892712550345
         ]
       }
     },
@@ -1793,36 +1762,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "649476",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Adelaide St, Gol Gol",
-        "id": "2026-03-12T04:13:00.0000000:649476",
-        "category1": "Transport",
-        "category2": "Motor Vehicle Accident",
-        "name": "Adelaide St, Gol Gol",
-        "location": "Adelaide St, Gol Gol 2738",
-        "created": "2026-03-12T04:13:00+11:00",
-        "updated": "2026-03-12T04:13:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.210113526,
-          -34.178699493
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -1964,6 +1903,65 @@
     {
       "properties": {
         "status": "On Scene",
+        "cfaId": 268151,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602608,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260304562,
+        "id": "ESTA:260304562",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-11T19:10:24.000Z",
+        "updated": "2026-03-11T19:34:09.000Z",
+        "resources": 6,
+        "location": "Menzies Creek",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 602608
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39426243436856,
+          -37.91740884528255
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 268155,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268155,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260304566,
+        "id": "ESTA:260304566",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-11T19:24:00.000Z",
+        "updated": "2026-03-11T19:50:00.000Z",
+        "resources": 0,
+        "location": "Keysborough",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.162262285109,
+          -37.99736427451423
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
         "sesId": 602607,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -1975,8 +1973,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-03-11T18:03:56.000Z",
-        "updated": "2026-03-11T18:45:03.000Z",
-        "resources": 1,
+        "updated": "2026-03-11T19:47:07.000Z",
+        "resources": 2,
         "location": "Malvern"
       },
       "type": "Feature",
@@ -2216,7 +2214,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-11T19:12:00.216Z",
+    "lastUpdated": "2026-03-11T19:53:40.375Z",
     "featureCount": 385
   }
 }
