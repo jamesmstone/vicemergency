@@ -589,33 +589,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123377609,
+        "status": "Complete",
+        "estaId": 123377785,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268419,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Warradale Ct",
-        "eventId": 260305431,
-        "id": "ESTA:260305431",
+        "source": "",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602746,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351845,
+        "id": "ESTA:260351845",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-13T16:45:00.000Z",
-        "updated": "2026-03-13T16:45:00.000Z",
-        "resources": 2,
-        "location": "Warradale Ct, Noble Park North",
-        "cfaId": 268419,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-03-13T17:25:31.000Z",
+        "updated": "2026-03-13T17:43:22.000Z",
+        "resources": 0,
+        "location": "Doveton",
+        "sesId": 602746
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.19450498694198,
-          -37.94705505757826
+          145.23064612622085,
+          -38.000747361139666
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123377650,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123377650,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Glen Iris",
+        "eventId": "F260305432",
+        "id": "ESTA:260305432",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-13T16:55:05.000Z",
+        "updated": "2026-03-13T17:44:27.680Z",
+        "resources": 11,
+        "location": "Bardolph St, Glen Iris"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.07960273076753,
+          -37.85119535820415
         ]
       }
     },
@@ -680,6 +707,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 268419,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268419,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Warradale Ct",
+        "eventId": 260305431,
+        "id": "ESTA:260305431",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-13T16:45:00.000Z",
+        "updated": "2026-03-13T17:01:00.000Z",
+        "resources": 0,
+        "location": "Warradale Ct, Noble Park North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19450498694198,
+          -37.94705505757826
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 602716,
         "feedType": "incident",
@@ -720,7 +776,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -728,7 +783,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -744,7 +800,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -752,7 +807,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-13T13:00:00.000Z",
           "heat": {
@@ -933,7 +989,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-13T16:52:40.234Z",
-    "featureCount": 368
+    "lastUpdated": "2026-03-13T17:46:26.531Z",
+    "featureCount": 370
   }
 }
