@@ -177,7 +177,7 @@
     },
     {
       "properties": {
-        "status": "Patrolled",
+        "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3018055,
@@ -186,8 +186,8 @@
         "id": 3018055,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-03-13T01:53:40.000Z",
-        "updated": "2026-03-13T01:53:40.000Z",
+        "created": "2026-03-14T22:44:38.000Z",
+        "updated": "2026-03-14T22:44:38.000Z",
         "resources": 0,
         "size": "35.24",
         "sizeFmt": "35.24 Ha.",
@@ -729,83 +729,24 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123391576,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602804,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351899,
-        "id": "ESTA:260351899",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-14T21:32:07.000Z",
-        "updated": "2026-03-14T22:28:16.000Z",
-        "resources": 0,
-        "location": "Warrnambool",
-        "sesId": 602804
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4888886174025,
-          -38.37018277278898
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123391870,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123391870,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Collingwood",
-        "eventId": "F260306007",
-        "id": "ESTA:260306007",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-03-14T22:15:56.000Z",
-        "updated": "2026-03-14T22:28:46.071Z",
-        "resources": 4,
-        "location": "Wellington St, Collingwood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.98619054243963,
-          -37.805916425779046
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123391948,
+        "status": "Responding",
+        "estaId": 123392127,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268584,
+        "sourceId": 268586,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Linda Ct",
-        "eventId": 260306014,
-        "id": "ESTA:260306014",
+        "sourceTitle": "Trentham Scenic Reserve Rd",
+        "eventId": 260306028,
+        "id": "ESTA:260306028",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-03-14T22:26:00.000Z",
-        "updated": "2026-03-14T22:35:00.000Z",
-        "resources": 1,
-        "location": "Linda Ct, Werribee",
-        "cfaId": 268584,
+        "created": "2026-03-14T22:50:00.000Z",
+        "updated": "2026-03-14T22:50:00.000Z",
+        "resources": 3,
+        "location": "Trentham Scenic Reserve Rd, Trentham",
+        "cfaId": 268586,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -813,8 +754,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.64083072782145,
-          -37.8926020687815
+          144.32575307658706,
+          -37.37060658554997
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123392060,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123392060,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Abbotsford",
+        "eventId": "F260306024",
+        "id": "ESTA:260306024",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-03-14T22:39:25.000Z",
+        "updated": "2026-03-14T22:54:42.255Z",
+        "resources": 3,
+        "location": "Nicholson St, Abbotsford"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99681956318219,
+          -37.80393007171103
         ]
       }
     },
@@ -968,7 +938,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Not Yet Under Control",
         "cfaId": 268585,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -981,7 +951,7 @@
         "category2": "Other",
         "created": "2026-03-14T22:30:00.000Z",
         "updated": "2026-03-14T22:30:00.000Z",
-        "resources": 0,
+        "resources": 2,
         "location": "Morala Ct, Portarlington",
         "size": "Small",
         "sizeFmt": "Small"
@@ -997,28 +967,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 602805,
+        "status": "Safe",
+        "cfaId": 268584,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602805,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351900,
-        "id": "ESTA:260351900",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-14T22:06:31.000Z",
-        "updated": "2026-03-14T22:14:45.000Z",
-        "resources": 0,
-        "location": "Carrum Downs"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268584,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Linda Ct",
+        "eventId": 260306014,
+        "id": "ESTA:260306014",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-14T22:26:00.000Z",
+        "updated": "2026-03-14T22:35:00.000Z",
+        "resources": 1,
+        "location": "Linda Ct, Werribee",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1724014607108,
-          -38.11358404980618
+          144.64083072782145,
+          -37.8926020687815
         ]
       }
     },
@@ -1048,6 +1020,33 @@
           -37.81566937062501
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Unknown",
+        "sesId": 602805,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602805,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351900,
+        "id": "ESTA:260351900",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-14T22:06:31.000Z",
+        "updated": "2026-03-14T22:55:40.000Z",
+        "resources": 1,
+        "location": "Carrum Downs"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1724014607108,
+          -38.11358404980618
+        ]
+      }
     }
   ],
   "properties": {
@@ -1069,10 +1068,10 @@
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
         "North Central": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1093,10 +1092,10 @@
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-14T13:00:00.000Z",
           "heat": {
@@ -1277,7 +1276,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-14T22:36:40.086Z",
+    "lastUpdated": "2026-03-14T22:59:40.214Z",
     "featureCount": 379
   }
 }
