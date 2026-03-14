@@ -729,61 +729,92 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Complete",
+        "estaId": 123391576,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "649628",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Imlay Rd, Rockton",
-        "id": "2026-03-13T18:13:00.0000000:649628",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Imlay Rd, Rockton",
-        "location": "Imlay Rd, Rockton 2632",
-        "created": "2026-03-13T18:13:00+11:00",
-        "updated": "2026-03-13T18:13:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602804,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351899,
+        "id": "ESTA:260351899",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-14T21:32:07.000Z",
+        "updated": "2026-03-14T22:28:16.000Z",
+        "resources": 0,
+        "location": "Warrnambool",
+        "sesId": 602804
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.341806,
-          -37.134962
+          142.4888886174025,
+          -38.37018277278898
         ]
       }
     },
     {
       "properties": {
-        "status": "Being Controlled",
+        "status": "Safe",
+        "estaId": 123391870,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "649741",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "(Riverina Hwy), Blighty",
-        "id": "2026-03-15T03:38:00.0000000:649741",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123391870,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Collingwood",
+        "eventId": "F260306007",
+        "id": "ESTA:260306007",
+        "suppress": false,
         "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "(Riverina Hwy), Blighty",
-        "location": "B58 (Riverina Hwy), Blighty 2713",
-        "created": "2026-03-15T03:38:00+11:00",
-        "updated": "2026-03-15T03:38:00+11:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
+        "category2": "Structure Fire",
+        "created": "2026-03-14T22:15:56.000Z",
+        "updated": "2026-03-14T22:28:46.071Z",
+        "resources": 4,
+        "location": "Wellington St, Collingwood"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.407394409,
-          -35.6093330379999
+          144.98619054243963,
+          -37.805916425779046
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123391948,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268584,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Linda Ct",
+        "eventId": 260306014,
+        "id": "ESTA:260306014",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-14T22:26:00.000Z",
+        "updated": "2026-03-14T22:35:00.000Z",
+        "resources": 1,
+        "location": "Linda Ct, Werribee",
+        "cfaId": 268584,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.64083072782145,
+          -37.8926020687815
         ]
       }
     },
@@ -820,6 +851,66 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "649628",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Imlay Rd, Rockton",
+        "id": "2026-03-13T18:13:00.0000000:649628",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Imlay Rd, Rockton",
+        "location": "Imlay Rd, Rockton 2632",
+        "created": "2026-03-13T18:13:00+11:00",
+        "updated": "2026-03-13T18:13:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.341806,
+          -37.134962
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "649741",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "(Riverina Hwy), Blighty",
+        "id": "2026-03-15T09:10:00.0000000:649741",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "(Riverina Hwy), Blighty",
+        "location": "B58 (Riverina Hwy), Blighty 2713",
+        "created": "2026-03-15T09:10:00+11:00",
+        "updated": "2026-03-15T09:10:00+11:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.407394409,
+          -35.6093330379999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -848,36 +939,7 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 268580,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268580,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Millewa Rd",
-        "eventId": 260305976,
-        "id": "ESTA:260305976",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-03-14T20:34:00.000Z",
-        "updated": "2026-03-14T21:02:00.000Z",
-        "resources": 0,
-        "location": "Millewa Rd, Merrinee",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.89533668370603,
-          -34.36633673879897
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "cfaId": 268582,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -889,7 +951,7 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-03-14T21:15:00.000Z",
-        "updated": "2026-03-14T21:15:00.000Z",
+        "updated": "2026-03-14T22:13:00.000Z",
         "resources": 8,
         "location": "Headland Dr, Torquay",
         "size": "Small",
@@ -906,28 +968,84 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 602804,
+        "status": "Responding",
+        "cfaId": 268585,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602804,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351899,
-        "id": "ESTA:260351899",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-14T21:32:07.000Z",
-        "updated": "2026-03-14T21:45:46.000Z",
-        "resources": 1,
-        "location": "Warrnambool"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268585,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Morala Ct",
+        "eventId": 260306016,
+        "id": "ESTA:260306016",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-14T22:30:00.000Z",
+        "updated": "2026-03-14T22:30:00.000Z",
+        "resources": 0,
+        "location": "Morala Ct, Portarlington",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4888886174025,
-          -38.37018277278898
+          144.63797702177055,
+          -38.12071289117655
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 602805,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602805,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351900,
+        "id": "ESTA:260351900",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-14T22:06:31.000Z",
+        "updated": "2026-03-14T22:14:45.000Z",
+        "resources": 0,
+        "location": "Carrum Downs"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1724014607108,
+          -38.11358404980618
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 602806,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602806,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351901,
+        "id": "ESTA:260351901",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-14T22:20:19.000Z",
+        "updated": "2026-03-14T22:22:51.000Z",
+        "resources": 0,
+        "location": "Ringwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22831476099273,
+          -37.81566937062501
         ]
       }
     }
@@ -1159,7 +1277,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-14T21:57:40.570Z",
-    "featureCount": 375
+    "lastUpdated": "2026-03-14T22:36:40.086Z",
+    "featureCount": 379
   }
 }
