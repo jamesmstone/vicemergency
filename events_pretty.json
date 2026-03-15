@@ -429,7 +429,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
         "sourceId": 3022429,
@@ -438,8 +438,8 @@
         "id": 3022429,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-03-14T01:07:41.000Z",
-        "updated": "2026-03-14T01:07:41.000Z",
+        "created": "2026-03-15T21:46:24.000Z",
+        "updated": "2026-03-15T21:46:24.000Z",
         "resources": 0,
         "size": "1392.99",
         "sizeFmt": "1392.99 Ha.",
@@ -1064,24 +1064,83 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123403319,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602858,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351963,
+        "id": "ESTA:260351963",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-15T22:25:58.000Z",
+        "updated": "2026-03-15T22:28:52.000Z",
+        "resources": 0,
+        "location": "Tamleugh",
+        "sesId": 602858
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6287610078662,
+          -36.59936266939734
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Responding",
-        "estaId": 123402967,
+        "estaId": 123403378,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123403378,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Burwood",
+        "eventId": "F260306478",
+        "id": "ESTA:260306478",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-15T22:28:54.000Z",
+        "updated": "2026-03-15T22:31:31.972Z",
+        "resources": 0,
+        "location": "Burwood"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09920324086477,
+          -37.850819709161506
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123403131,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268754,
+        "sourceId": 268757,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260306458,
-        "id": "ESTA:260306458",
+        "sourceTitle": "High St",
+        "eventId": 260306466,
+        "id": "ESTA:260306466",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-15T21:49:00.000Z",
-        "updated": "2026-03-15T21:49:00.000Z",
-        "resources": 2,
-        "location": "Pirron Yallock",
-        "cfaId": 268754,
+        "category2": "Building Fire",
+        "created": "2026-03-15T22:06:00.000Z",
+        "updated": "2026-03-15T22:15:00.000Z",
+        "resources": 0,
+        "location": "High St, Golden Square",
+        "cfaId": 268757,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1089,66 +1148,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.43687418136096,
-          -38.351062434120955
+          144.2646341979163,
+          -36.768961271167484
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123402981,
+        "estaId": 123403420,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123402981,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Springvale",
-        "eventId": "F260306460",
-        "id": "ESTA:260306460",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268759,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260306479,
+        "id": "ESTA:260306479",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-03-15T21:49:43.000Z",
-        "updated": "2026-03-15T21:50:28.095Z",
-        "resources": 0,
-        "location": "Keets Ct, Springvale"
+        "created": "2026-03-15T22:34:00.000Z",
+        "updated": "2026-03-15T22:34:00.000Z",
+        "resources": 1,
+        "location": "Aintree",
+        "cfaId": 268759,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1588500986244,
-          -37.96079178719024
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123403059,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123403059,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Glen Iris",
-        "eventId": "F260306462",
-        "id": "ESTA:260306462",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-03-15T21:56:32.000Z",
-        "updated": "2026-03-15T21:57:16.035Z",
-        "resources": 0,
-        "location": "Edgar St, Glen Iris"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.04553779118447,
-          -37.8557232912141
+          144.66519561391382,
+          -37.7254145402774
         ]
       }
     },
@@ -1760,238 +1793,6 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 268746,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268746,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Slate Quarry Rd",
-        "eventId": 260306437,
-        "id": "ESTA:260306437",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-15T21:02:00.000Z",
-        "updated": "2026-03-15T21:02:00.000Z",
-        "resources": 11,
-        "location": "Slate Quarry Rd, Meredith",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.11839038593445,
-          -37.83124607609229
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268745,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268745,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260306436,
-        "id": "ESTA:260306436",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-15T21:00:00.000Z",
-        "updated": "2026-03-15T21:03:00.000Z",
-        "resources": 0,
-        "location": "Whorouly",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.58468634585063,
-          -36.50338728676947
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 268747,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268747,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Slate Quarry Rd",
-        "eventId": 260306439,
-        "id": "ESTA:260306439",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-15T21:03:00.000Z",
-        "updated": "2026-03-15T21:03:00.000Z",
-        "resources": 0,
-        "location": "Slate Quarry Rd, Meredith",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.11839038593445,
-          -37.83124607609229
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 268750,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268750,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Slate Quarry Rd",
-        "eventId": 260306443,
-        "id": "ESTA:260306443",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-15T21:07:00.000Z",
-        "updated": "2026-03-15T21:07:00.000Z",
-        "resources": 0,
-        "location": "Slate Quarry Rd, Meredith",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.11839038593445,
-          -37.83124607609229
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 268752,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268752,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Slate Quarry Rd",
-        "eventId": 260306448,
-        "id": "ESTA:260306448",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-15T21:17:00.000Z",
-        "updated": "2026-03-15T21:17:00.000Z",
-        "resources": 0,
-        "location": "Slate Quarry Rd, Meredith",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.11839038593445,
-          -37.83124607609229
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268739,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268739,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Toscana Way",
-        "eventId": 260306414,
-        "id": "ESTA:260306414",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-03-15T19:43:00.000Z",
-        "updated": "2026-03-15T21:21:00.000Z",
-        "resources": 0,
-        "location": "Toscana Way, Wallan",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00851610074176,
-          -37.393292597406
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268751,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268751,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mortimer Rd",
-        "eventId": 260306447,
-        "id": "ESTA:260306447",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-15T21:16:00.000Z",
-        "updated": "2026-03-15T21:23:00.000Z",
-        "resources": 0,
-        "location": "Mortimer Rd, Nar Nar Goon North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.59065194650515,
-          -38.025602983719274
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268749,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268749,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Baxter-Tooradin Rd",
-        "eventId": 260306442,
-        "id": "ESTA:260306442",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-15T21:06:00.000Z",
-        "updated": "2026-03-15T21:28:00.000Z",
-        "resources": 0,
-        "location": "Baxter-Tooradin Rd, Devon Meadows",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.29000781202475,
-          -38.20311102038567
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 268753,
         "feedType": "incident",
@@ -2016,6 +1817,151 @@
         "coordinates": [
           143.91424952997883,
           -35.72975948598119
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 268756,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268756,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Spruhan Av",
+        "eventId": 260306464,
+        "id": "ESTA:260306464",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-15T22:04:00.000Z",
+        "updated": "2026-03-15T22:13:00.000Z",
+        "resources": 2,
+        "location": "Spruhan Av, Norlane",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36274722562507,
+          -38.09481428359373
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 268746,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268746,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Slate Quarry Rd",
+        "eventId": 260306437,
+        "id": "ESTA:260306437",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-15T21:02:00.000Z",
+        "updated": "2026-03-15T22:17:00.000Z",
+        "resources": 9,
+        "location": "Slate Quarry Rd, Meredith",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.11839038593445,
+          -37.83124607609229
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 268755,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268755,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260306463,
+        "id": "ESTA:260306463",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-15T22:00:00.000Z",
+        "updated": "2026-03-15T22:22:00.000Z",
+        "resources": 2,
+        "location": "North Wonthaggi",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.60024563449355,
+          -38.59667773629873
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 268760,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268760,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Rowe St",
+        "eventId": 260306480,
+        "id": "ESTA:260306480",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-15T22:35:00.000Z",
+        "updated": "2026-03-15T22:35:00.000Z",
+        "resources": 0,
+        "location": "Rowe St, Euroa",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.56790001580103,
+          -36.746622440608306
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 268754,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268754,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260306458,
+        "id": "ESTA:260306458",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-15T21:49:00.000Z",
+        "updated": "2026-03-15T22:37:00.000Z",
+        "resources": 0,
+        "location": "Pirron Yallock",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.43687418136096,
+          -38.351062434120955
         ]
       }
     },
@@ -2274,7 +2220,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-15T21:57:46.719Z",
-    "featureCount": 397
+    "lastUpdated": "2026-03-15T22:38:40.701Z",
+    "featureCount": 395
   }
 }
