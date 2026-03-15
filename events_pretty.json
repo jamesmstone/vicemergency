@@ -1065,55 +1065,52 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123402026,
+        "estaId": 123402057,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268732,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heaths Rd",
-        "eventId": 260306405,
-        "id": "ESTA:260306405",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123402057,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Terang",
+        "eventId": "F260306409",
+        "id": "ESTA:260306409",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-03-15T18:47:00.000Z",
-        "updated": "2026-03-15T18:48:00.000Z",
-        "resources": 2,
-        "location": "Heaths Rd, Hoppers Crossing",
-        "cfaId": 268732,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "created": "2026-03-15T18:57:22.000Z",
+        "updated": "2026-03-15T19:28:32.637Z",
+        "resources": 0,
+        "location": "Dalvui Lane, Terang"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.67308222077597,
-          -37.8762401702295
+          142.94503902379495,
+          -38.220915108164704
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123402033,
+        "estaId": 123402148,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268733,
+        "sourceId": 268736,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Simpson St",
-        "eventId": 260306406,
-        "id": "ESTA:260306406",
+        "sourceTitle": "Mostyn St",
+        "eventId": 260306411,
+        "id": "ESTA:260306411",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-15T18:51:00.000Z",
-        "updated": "2026-03-15T18:51:00.000Z",
+        "category2": "Building Fire",
+        "created": "2026-03-15T19:33:00.000Z",
+        "updated": "2026-03-15T19:33:00.000Z",
         "resources": 0,
-        "location": "Simpson St, Rushworth",
-        "cfaId": 268733,
+        "location": "Mostyn St, Castlemaine",
+        "cfaId": 268736,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1121,8 +1118,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01310470474874,
-          -36.58398103308431
+          144.218671919525,
+          -37.06642127843728
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 123402055,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268734,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Dalvui Lane",
+        "eventId": 260306408,
+        "id": "ESTA:260306408",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-15T18:58:00.000Z",
+        "updated": "2026-03-15T18:58:00.000Z",
+        "resources": 7,
+        "location": "Dalvui Lane, Terang",
+        "cfaId": 268734,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.94503448033905,
+          -38.220925231752126
         ]
       }
     },
@@ -1613,6 +1642,7 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "status": "Under Control",
         "feedType": "incident",
@@ -1620,25 +1650,56 @@
         "sourceId": "649741",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "(Riverina Hwy), Blighty",
-        "id": "2026-03-15T22:51:00.0000000:649741",
+        "id": "2026-03-16T05:56:00.0000000:649741",
         "category1": "Fire",
         "category2": "Grass Fire",
         "name": "(Riverina Hwy), Blighty",
         "location": "B58 (Riverina Hwy), Blighty 2713",
-        "created": "2026-03-15T22:51:00+11:00",
-        "updated": "2026-03-15T22:51:00+11:00",
+        "created": "2026-03-16T05:56:00+11:00",
+        "updated": "2026-03-16T05:56:00+11:00",
         "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
-          "0 ha"
+          "31 ha"
         ]
       },
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.407394409,
-          -35.6093330379999
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.408,
+                  -35.6082
+                ],
+                [
+                  145.4124,
+                  -35.6088
+                ],
+                [
+                  145.4112,
+                  -35.6149
+                ],
+                [
+                  145.4065,
+                  -35.6145
+                ],
+                [
+                  145.408,
+                  -35.6082
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              145.409393156,
+              -35.6118076769999
+            ]
+          }
         ]
       }
     },
@@ -1703,20 +1764,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 268727,
+        "cfaId": 268732,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268727,
+        "sourceId": 268732,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Irrewillipe Rd",
-        "eventId": 260306388,
-        "id": "ESTA:260306388",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-15T16:10:00.000Z",
-        "updated": "2026-03-15T18:15:00.000Z",
-        "resources": 6,
-        "location": "Irrewillipe Rd, Elliminyt",
+        "sourceTitle": "Heaths Rd",
+        "eventId": 260306405,
+        "id": "ESTA:260306405",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-15T18:47:00.000Z",
+        "updated": "2026-03-15T18:58:00.000Z",
+        "resources": 0,
+        "location": "Heaths Rd, Hoppers Crossing",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1724,8 +1785,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.5661334537057,
-          -38.360070672764394
+          144.67308222077597,
+          -37.8762401702295
         ]
       }
     }
@@ -1744,6 +1805,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1751,8 +1813,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1768,6 +1829,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1775,8 +1837,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-15T13:00:00.000Z",
           "heat": {
@@ -1957,7 +2018,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-15T18:53:46.386Z",
-    "featureCount": 387
+    "lastUpdated": "2026-03-15T19:35:26.255Z",
+    "featureCount": 388
   }
 }
