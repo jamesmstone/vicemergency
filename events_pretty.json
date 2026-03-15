@@ -1064,24 +1064,54 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123401006,
+        "status": "Complete",
+        "estaId": 123400862,
         "feedType": "incident",
-        "source": "VMA",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 602844,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260351945,
+        "id": "ESTA:260351945",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-15T14:06:33.000Z",
+        "updated": "2026-03-15T14:51:23.000Z",
+        "resources": 0,
+        "location": "Hurstbridge",
+        "sesId": 602844
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.18903689830063,
+          -37.654772474079444
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123401149,
+        "feedType": "incident",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268722,
+        "sourceId": 268724,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cobains Rd",
-        "eventId": 260306376,
-        "id": "ESTA:260306376",
+        "sourceTitle": "",
+        "eventId": 260306378,
+        "id": "ESTA:260306378",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-15T14:29:00.000Z",
-        "updated": "2026-03-15T14:29:00.000Z",
-        "resources": 0,
-        "location": "Cobains Rd, Sale",
-        "cfaId": 268722,
+        "category2": "Other",
+        "created": "2026-03-15T14:55:00.000Z",
+        "updated": "2026-03-15T14:55:00.000Z",
+        "resources": 2,
+        "location": "Deanside",
+        "cfaId": 268724,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1089,8 +1119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.0719316732657,
-          -38.08631174133479
+          144.70054995900244,
+          -37.74514202960661
         ]
       }
     },
@@ -1671,35 +1701,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 268714,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268714,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Raglan Pde",
-        "eventId": 260306358,
-        "id": "ESTA:260306358",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-15T12:31:00.000Z",
-        "updated": "2026-03-15T13:53:00.000Z",
-        "resources": 1,
-        "location": "Raglan Pde, Warrnambool",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.47644295658336,
-          -38.37341316267788
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 268719,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1757,28 +1758,59 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 602844,
+        "status": "Safe",
+        "cfaId": 268722,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602844,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351945,
-        "id": "ESTA:260351945",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-15T14:06:33.000Z",
-        "updated": "2026-03-15T14:32:47.000Z",
-        "resources": 1,
-        "location": "Hurstbridge"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268722,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cobains Rd",
+        "eventId": 260306376,
+        "id": "ESTA:260306376",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-15T14:29:00.000Z",
+        "updated": "2026-03-15T14:44:00.000Z",
+        "resources": 0,
+        "location": "Cobains Rd, Sale",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.18903689830063,
-          -37.654772474079444
+          147.0719316732657,
+          -38.08631174133479
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 268723,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268723,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Riana Loop",
+        "eventId": 260306377,
+        "id": "ESTA:260306377",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-15T14:49:00.000Z",
+        "updated": "2026-03-15T14:54:00.000Z",
+        "resources": 0,
+        "location": "Riana Loop, Eumemmerring",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24781802721907,
+          -37.99701227575733
         ]
       }
     }
@@ -1797,7 +1829,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1805,7 +1836,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1821,7 +1853,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1829,7 +1860,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-15T13:00:00.000Z",
           "heat": {
@@ -2010,7 +2042,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-15T14:40:26.651Z",
-    "featureCount": 389
+    "lastUpdated": "2026-03-15T15:01:00.341Z",
+    "featureCount": 390
   }
 }
