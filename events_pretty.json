@@ -1064,54 +1064,53 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123400862,
+        "status": "Safe",
+        "estaId": 123401309,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 602844,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260351945,
-        "id": "ESTA:260351945",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123401309,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Footscray",
+        "eventId": "F260306383",
+        "id": "ESTA:260306383",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-15T14:06:33.000Z",
-        "updated": "2026-03-15T14:51:23.000Z",
-        "resources": 0,
-        "location": "Hurstbridge",
-        "sesId": 602844
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-15T15:30:05.000Z",
+        "updated": "2026-03-15T15:32:33.391Z",
+        "resources": 4,
+        "location": "Ballarat Rd, Footscray"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.18903689830063,
-          -37.654772474079444
+          144.89826789085686,
+          -37.79400591990903
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123401149,
+        "estaId": 123401327,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 268724,
+        "sourceId": 268726,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260306378,
-        "id": "ESTA:260306378",
+        "sourceTitle": "Scoria Cct",
+        "eventId": 260306384,
+        "id": "ESTA:260306384",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-15T14:55:00.000Z",
-        "updated": "2026-03-15T14:55:00.000Z",
-        "resources": 2,
-        "location": "Deanside",
-        "cfaId": 268724,
+        "category2": "Building Fire",
+        "created": "2026-03-15T15:35:00.000Z",
+        "updated": "2026-03-15T15:35:00.000Z",
+        "resources": 1,
+        "location": "Scoria Cct, Craigieburn",
+        "cfaId": 268726,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1119,8 +1118,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.70054995900244,
-          -37.74514202960661
+          144.90127692929173,
+          -37.60173430829797
         ]
       }
     },
@@ -1701,64 +1700,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 268719,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268719,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wakefield Ct",
-        "eventId": 260306370,
-        "id": "ESTA:260306370",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-15T13:55:00.000Z",
-        "updated": "2026-03-15T14:10:00.000Z",
-        "resources": 0,
-        "location": "Wakefield Ct, Cranbourne North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.27243026032352,
-          -38.07740169189229
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 268721,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 268721,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Morwell-Traralgon Rd",
-        "eventId": 260306374,
-        "id": "ESTA:260306374",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-15T14:13:00.000Z",
-        "updated": "2026-03-15T14:22:00.000Z",
-        "resources": 1,
-        "location": "Morwell-Traralgon Rd, Morwell",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.37975915847088,
-          -38.23164632095337
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 268722,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1811,6 +1752,35 @@
         "coordinates": [
           145.24781802721907,
           -37.99701227575733
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 268724,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 268724,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Neale Rd",
+        "eventId": 260306378,
+        "id": "ESTA:260306378",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-15T14:55:00.000Z",
+        "updated": "2026-03-15T15:11:00.000Z",
+        "resources": 0,
+        "location": "Neale Rd, Deanside",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68830605862084,
+          -37.73963972441416
         ]
       }
     }
@@ -2042,7 +2012,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-15T15:01:00.341Z",
-    "featureCount": 390
+    "lastUpdated": "2026-03-15T15:38:00.723Z",
+    "featureCount": 389
   }
 }
