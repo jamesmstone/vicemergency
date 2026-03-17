@@ -844,6 +844,38 @@
     },
     {
       "properties": {
+        "status": "Responding",
+        "estaId": 123427430,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269035,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Goulburn Valley Hwy",
+        "eventId": 260307323,
+        "id": "ESTA:260307323",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-17T23:03:00.000Z",
+        "updated": "2026-03-17T23:03:00.000Z",
+        "resources": 0,
+        "location": "Goulburn Valley Hwy, Alexandra",
+        "cfaId": 269035,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73231533128126,
+          -37.200658731523234
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -1422,64 +1454,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 269028,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269028,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ness Lane",
-        "eventId": 260307284,
-        "id": "ESTA:260307284",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-17T21:26:00.000Z",
-        "updated": "2026-03-17T21:50:00.000Z",
-        "resources": 0,
-        "location": "Ness Lane, Kangaroo Ground",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21666331902495,
-          -37.68453750832641
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 269029,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269029,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Belmont Ct",
-        "eventId": 260307290,
-        "id": "ESTA:260307290",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-17T21:44:00.000Z",
-        "updated": "2026-03-17T21:59:00.000Z",
-        "resources": 0,
-        "location": "Belmont Ct, Taylors Hill",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.74018224555988,
-          -37.722262674531976
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 269032,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1530,6 +1504,33 @@
         "coordinates": [
           144.0833734973971,
           -37.344563202683894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 603061,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603061,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352154,
+        "id": "ESTA:260352154",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-03-17T23:15:35.000Z",
+        "updated": "2026-03-17T23:15:35.000Z",
+        "resources": 0,
+        "location": "Hawthorn"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02086960840978,
+          -37.821656742889395
         ]
       }
     }
@@ -1713,7 +1714,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1721,7 +1721,8 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-20T13:00:00.000Z",
           "heat": {
@@ -1761,7 +1762,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-17T22:45:06.948Z",
+    "lastUpdated": "2026-03-17T23:16:40.592Z",
     "featureCount": 376
   }
 }
