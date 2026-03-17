@@ -844,7 +844,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123427430,
         "feedType": "incident",
         "source": "000",
@@ -858,7 +858,7 @@
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-03-17T23:03:00.000Z",
-        "updated": "2026-03-17T23:03:00.000Z",
+        "updated": "2026-03-17T23:26:00.000Z",
         "resources": 0,
         "location": "Goulburn Valley Hwy, Alexandra",
         "cfaId": 269035,
@@ -871,6 +871,68 @@
         "coordinates": [
           145.73231533128126,
           -37.200658731523234
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123427817,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603062,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352155,
+        "id": "ESTA:260352155",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-17T23:36:48.000Z",
+        "updated": "2026-03-17T23:39:44.000Z",
+        "resources": 0,
+        "location": "Point Cook",
+        "sesId": 603062
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75001935174544,
+          -37.87678124362348
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123427708,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269036,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Normanby St",
+        "eventId": 260307333,
+        "id": "ESTA:260307333",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-17T23:28:00.000Z",
+        "updated": "2026-03-17T23:41:00.000Z",
+        "resources": 1,
+        "location": "Normanby St, Warragul",
+        "cfaId": 269036,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94024482559587,
+          -38.15875510214209
         ]
       }
     },
@@ -1454,20 +1516,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 269032,
+        "cfaId": 269037,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 269032,
+        "sourceId": 269037,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Camms Rd",
-        "eventId": 260307298,
-        "id": "ESTA:260307298",
+        "sourceTitle": "Drift Lane",
+        "eventId": 260307334,
+        "id": "ESTA:260307334",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-03-17T22:03:00.000Z",
-        "updated": "2026-03-17T22:26:00.000Z",
+        "created": "2026-03-17T23:29:00.000Z",
+        "updated": "2026-03-17T23:47:00.000Z",
         "resources": 0,
-        "location": "Camms Rd, Cranbourne",
+        "location": "Drift Lane, Armstrong Creek",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1475,8 +1537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28419394452064,
-          -38.09747210285268
+          144.3377990013222,
+          -38.24285858254848
         ]
       }
     },
@@ -1504,33 +1566,6 @@
         "coordinates": [
           144.0833734973971,
           -37.344563202683894
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 603061,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 603061,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260352154,
-        "id": "ESTA:260352154",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-03-17T23:15:35.000Z",
-        "updated": "2026-03-17T23:15:35.000Z",
-        "resources": 0,
-        "location": "Hawthorn"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.02086960840978,
-          -37.821656742889395
         ]
       }
     }
@@ -1714,6 +1749,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
@@ -1721,8 +1757,7 @@
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-20T13:00:00.000Z",
           "heat": {
@@ -1762,7 +1797,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-17T23:16:40.592Z",
-    "featureCount": 376
+    "lastUpdated": "2026-03-17T23:50:20.593Z",
+    "featureCount": 377
   }
 }
