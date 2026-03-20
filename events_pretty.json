@@ -1222,65 +1222,60 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123464824,
+        "status": "Request For Assistance",
+        "estaId": 123465054,
         "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269424,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 260308766,
-        "id": "ESTA:260308766",
+        "source": "STATION",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603198,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352314,
+        "id": "ESTA:260352314",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-03-20T18:21:00.000Z",
-        "updated": "2026-03-20T18:56:00.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Toorloo Arm",
-        "cfaId": 269424,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-03-20T19:32:28.000Z",
+        "updated": "2026-03-20T19:34:45.000Z",
+        "resources": 0,
+        "location": "Pakenham",
+        "sesId": 603198
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.07532774085473,
-          -37.74365612701553
+          145.4423533696921,
+          -38.064727224931325
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 123464863,
+        "status": "Responding",
+        "estaId": 123465058,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269425,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Odea Rd",
-        "eventId": 260308767,
-        "id": "ESTA:260308767",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123465058,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Pakenham",
+        "eventId": "F260308776",
+        "id": "ESTA:260308776",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-20T18:32:00.000Z",
-        "updated": "2026-03-20T19:01:00.000Z",
-        "resources": 5,
-        "location": "Odea Rd, Strathallan",
-        "cfaId": 269425,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-20T19:29:27.000Z",
+        "updated": "2026-03-20T19:33:27.636Z",
+        "resources": 0,
+        "location": "Everly Cct, Pakenham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.80442294144925,
-          -36.25609949219396
+          145.442024331616,
+          -38.0644802187754
         ]
       }
     },
@@ -1771,20 +1766,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 269421,
+        "cfaId": 269424,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 269421,
+        "sourceId": 269424,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Way",
-        "eventId": 260308754,
-        "id": "ESTA:260308754",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-20T17:16:00.000Z",
-        "updated": "2026-03-20T18:28:00.000Z",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 260308766,
+        "id": "ESTA:260308766",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-20T18:21:00.000Z",
+        "updated": "2026-03-20T18:56:00.000Z",
         "resources": 0,
-        "location": "Princes Way, Drouin",
+        "location": "Princes Hwy, Toorloo Arm",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1792,8 +1787,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.84423931765568,
-          -38.121286803318476
+          148.07532774085473,
+          -37.74365612701553
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 269425,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269425,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Odea Rd",
+        "eventId": 260308767,
+        "id": "ESTA:260308767",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-20T18:32:00.000Z",
+        "updated": "2026-03-20T19:01:00.000Z",
+        "resources": 2,
+        "location": "Odea Rd, Strathallan",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.80442294144925,
+          -36.25609949219396
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 269428,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269428,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burgoine Rd",
+        "eventId": 260308770,
+        "id": "ESTA:260308770",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-20T19:10:00.000Z",
+        "updated": "2026-03-20T19:10:00.000Z",
+        "resources": 3,
+        "location": "Burgoine Rd, Rochester",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.71162979264764,
+          -36.33270332105296
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 269427,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269427,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Florance Ct",
+        "eventId": 260308769,
+        "id": "ESTA:260308769",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-20T19:07:00.000Z",
+        "updated": "2026-03-20T19:29:00.000Z",
+        "resources": 1,
+        "location": "Florance Ct, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3461037176861,
+          -36.37763345776561
         ]
       }
     },
@@ -2079,7 +2161,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-20T19:02:00.351Z",
-    "featureCount": 362
+    "lastUpdated": "2026-03-20T19:42:00.125Z",
+    "featureCount": 365
   }
 }
