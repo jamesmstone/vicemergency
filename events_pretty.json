@@ -1564,7 +1564,37 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Request For Assistance",
+        "estaId": 123478465,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603258,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352378,
+        "id": "ESTA:260352378",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-21T20:44:58.000Z",
+        "updated": "2026-03-21T20:50:33.000Z",
+        "resources": 0,
+        "location": "Natte Yallock",
+        "sesId": 603258
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.47912134336983,
+          -36.943452434949364
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "estaId": 123478332,
         "feedType": "incident",
         "source": "000",
@@ -1578,8 +1608,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-03-21T20:17:00.000Z",
-        "updated": "2026-03-21T20:28:00.000Z",
-        "resources": 1,
+        "updated": "2026-03-21T20:47:00.000Z",
+        "resources": 0,
         "location": "Burke Ct, Woodend",
         "cfaId": 269569,
         "size": "Small",
@@ -1596,33 +1626,60 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 123478349,
+        "status": "Responding",
+        "estaId": 123478508,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269570,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260309310,
-        "id": "ESTA:260309310",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123478508,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F260309318",
+        "id": "ESTA:260309318",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-03-21T20:21:00.000Z",
-        "updated": "2026-03-21T20:32:00.000Z",
-        "resources": 2,
-        "location": "Bright",
-        "cfaId": 269570,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-21T20:53:38.000Z",
+        "updated": "2026-03-21T20:57:49.610Z",
+        "resources": 0,
+        "location": "Lonsdale St, Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.9771059561953,
-          -36.7376146582207
+          144.9682505859317,
+          -37.81075768358754
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651417",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Sturt St, Howlong",
+        "id": "2026-03-22T07:51:00.0000000:651417",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Sturt St, Howlong",
+        "location": "Howlong Aged Care, Sturt St, Howlong 2643",
+        "created": "2026-03-22T07:51:00+11:00",
+        "updated": "2026-03-22T07:51:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.624628,
+          -35.9800070009999
         ]
       }
     },
@@ -2112,36 +2169,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 269561,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 603254,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260309285,
-        "id": "ESTA:260309285",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-03-21T17:17:37.000Z",
-        "updated": "2026-03-21T20:14:15.000Z",
-        "resources": 2,
-        "location": "Koonoomoo",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 603254
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.57292048815762,
-          -35.88065648244607
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 269555,
         "feedType": "incident",
@@ -2155,7 +2182,7 @@
         "category2": "Building Fire",
         "created": "2026-03-21T15:08:00.000Z",
         "updated": "2026-03-21T20:15:00.000Z",
-        "resources": 3,
+        "resources": 2,
         "location": "Wedge St, Kyneton",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2166,6 +2193,91 @@
         "coordinates": [
           144.44607338730611,
           -37.23713001272698
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 269570,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269570,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260309310,
+        "id": "ESTA:260309310",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-21T20:21:00.000Z",
+        "updated": "2026-03-21T20:43:00.000Z",
+        "resources": 2,
+        "location": "Bright",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9771059561953,
+          -36.7376146582207
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 269571,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269571,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bradshaw St",
+        "eventId": 260309312,
+        "id": "ESTA:260309312",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-21T20:37:00.000Z",
+        "updated": "2026-03-21T20:51:00.000Z",
+        "resources": 1,
+        "location": "Bradshaw St, Golden Point (Ballarat)",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.86331392480724,
+          -37.573641044216124
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 603254,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603254,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260309285,
+        "id": "ESTA:260309285",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-21T17:17:37.000Z",
+        "updated": "2026-03-21T20:14:15.000Z",
+        "resources": 2,
+        "location": "Koonoomoo"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57292048815762,
+          -35.88065648244607
         ]
       }
     }
@@ -2397,7 +2509,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-21T20:37:21.190Z",
-    "featureCount": 365
+    "lastUpdated": "2026-03-21T20:58:21.434Z",
+    "featureCount": 369
   }
 }
