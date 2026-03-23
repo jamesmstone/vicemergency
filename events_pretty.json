@@ -2224,7 +2224,7 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Complete",
         "estaId": 123503926,
         "feedType": "incident",
         "source": "000",
@@ -2238,8 +2238,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2026-03-23T21:58:04.000Z",
-        "updated": "2026-03-23T22:37:15.000Z",
-        "resources": 3,
+        "updated": "2026-03-23T23:06:53.000Z",
+        "resources": 1,
         "location": "Mildura",
         "cfaId": 269917,
         "size": "Small",
@@ -2257,57 +2257,24 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123503840,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 603377,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260310710,
-        "id": "ESTA:260310710",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-03-23T21:49:44.000Z",
-        "updated": "2026-03-23T22:40:07.000Z",
-        "resources": 3,
-        "location": "Shelbourne",
-        "cfaId": 269914,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 603377
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.03992881687182,
-          -36.84714936858202
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 123504365,
+        "estaId": 123504749,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 269921,
+        "sourceId": 269925,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "South Gippsland Hwy",
-        "eventId": 260310747,
-        "id": "ESTA:260310747",
+        "sourceTitle": "Station St",
+        "eventId": 260310772,
+        "id": "ESTA:260310772",
         "suppress": false,
         "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2026-03-23T22:41:00.000Z",
-        "updated": "2026-03-23T22:41:00.000Z",
+        "category2": "Rescue",
+        "created": "2026-03-23T23:11:00.000Z",
+        "updated": "2026-03-23T23:11:00.000Z",
         "resources": 1,
-        "location": "South Gippsland Hwy, Lynbrook",
-        "cfaId": 269921,
+        "location": "Station St, Mooroolbark",
+        "cfaId": 269925,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2315,8 +2282,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2525561973673,
-          -38.04398044633207
+          145.312322563135,
+          -37.78626173852691
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123504662,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123504662,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Epping",
+        "eventId": "F260310769",
+        "id": "ESTA:260310769",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-03-23T23:03:01.000Z",
+        "updated": "2026-03-23T23:12:56.599Z",
+        "resources": 3,
+        "location": "Mcdonalds Rd, Epping"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0403055187037,
+          -37.646110072240894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123504646,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 269924,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260310768,
+        "id": "ESTA:260310768",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-23T23:02:00.000Z",
+        "updated": "2026-03-23T23:15:00.000Z",
+        "resources": 1,
+        "location": "Blairgowrie",
+        "cfaId": 269924,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7741786063086,
+          -38.36087458412814
         ]
       }
     },
@@ -2548,21 +2576,51 @@
     },
     {
       "properties": {
+        "status": "Request For Assistance",
+        "cfaId": 269914,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603377,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260310710,
+        "id": "ESTA:260310710",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-23T21:49:44.000Z",
+        "updated": "2026-03-23T22:40:07.000Z",
+        "resources": 3,
+        "location": "Shelbourne",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 603377
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.03992881687182,
+          -36.84714936858202
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Safe",
-        "cfaId": 269910,
+        "cfaId": 269921,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 269910,
+        "sourceId": 269921,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260310698,
-        "id": "ESTA:260310698",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-23T21:27:00.000Z",
-        "updated": "2026-03-23T21:54:00.000Z",
+        "sourceTitle": "South Gippsland Hwy",
+        "eventId": 260310747,
+        "id": "ESTA:260310747",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-23T22:41:00.000Z",
+        "updated": "2026-03-23T23:00:00.000Z",
         "resources": 0,
-        "location": "Dandenong South",
+        "location": "South Gippsland Hwy, Lynbrook",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2570,15 +2628,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.2272307277617,
-          -38.00448088535951
+          145.2525561973673,
+          -38.04398044633207
         ]
       }
     },
     {
       "properties": {
         "status": "On Scene",
-        "cfaId": 269912,
+        "sesId": 603376,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
         "sourceId": 603376,
@@ -2591,10 +2649,7 @@
         "created": "2026-03-23T21:35:41.000Z",
         "updated": "2026-03-23T22:35:41.000Z",
         "resources": 3,
-        "location": "Vesper",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 603376
+        "location": "Vesper"
       },
       "type": "Feature",
       "geometry": {
@@ -2602,62 +2657,6 @@
         "coordinates": [
           146.06788680648222,
           -37.88642312911827
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 269916,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269916,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260310717,
-        "id": "ESTA:260310717",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-23T21:57:00.000Z",
-        "updated": "2026-03-23T22:07:00.000Z",
-        "resources": 0,
-        "location": "Winton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.06244837377585,
-          -36.522025666206666
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Complete",
-        "sesId": 603380,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 603380,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260352494,
-        "id": "ESTA:260352494",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-23T22:36:31.000Z",
-        "updated": "2026-03-23T22:36:31.000Z",
-        "resources": 0,
-        "location": "Hawthorn East"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.05284779399625,
-          -37.82779529753631
         ]
       }
     }
@@ -2889,7 +2888,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-23T22:45:00.123Z",
+    "lastUpdated": "2026-03-23T23:16:20.505Z",
     "featureCount": 393
   }
 }
