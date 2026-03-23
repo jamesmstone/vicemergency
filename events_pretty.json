@@ -2198,33 +2198,89 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123502644,
+        "status": "Complete",
+        "estaId": 123502837,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 269896,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Basin Trk",
-        "eventId": 260310620,
-        "id": "ESTA:260310620",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603373,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352490,
+        "id": "ESTA:260352490",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-23T18:02:00.000Z",
-        "updated": "2026-03-23T18:02:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-23T19:05:21.000Z",
+        "updated": "2026-03-23T19:09:20.000Z",
         "resources": 0,
-        "location": "Basin Trk, Killarney",
-        "cfaId": 269896,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Sutton Grange",
+        "sesId": 603373
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3330902223186,
-          -38.35483663892026
+          144.39957801984494,
+          -36.98562786636106
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123502888,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123502888,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Doncaster",
+        "eventId": "F260310626",
+        "id": "ESTA:260310626",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-23T19:18:02.000Z",
+        "updated": "2026-03-23T19:19:29.358Z",
+        "resources": 0,
+        "location": "Doncaster"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11868285338687,
+          -37.7961460377216
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123502870,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123502870,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F260310625",
+        "id": "ESTA:260310625",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-23T19:13:14.000Z",
+        "updated": "2026-03-23T19:23:01.639Z",
+        "resources": 4,
+        "location": "Gallaghers Pl, Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95653870670006,
+          -37.81677945147045
         ]
       }
     },
@@ -2289,20 +2345,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 269893,
+        "cfaId": 269896,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 269893,
+        "sourceId": 269896,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pioneer Rd",
-        "eventId": 260310615,
-        "id": "ESTA:260310615",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-23T16:52:00.000Z",
-        "updated": "2026-03-23T17:29:00.000Z",
-        "resources": 1,
-        "location": "Pioneer Rd, Grovedale",
+        "sourceTitle": "Basin Trk",
+        "eventId": 260310620,
+        "id": "ESTA:260310620",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-23T18:02:00.000Z",
+        "updated": "2026-03-23T18:40:00.000Z",
+        "resources": 0,
+        "location": "Basin Trk, Killarney",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2310,8 +2366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3280872887092,
-          -38.20168618712796
+          142.3330902223186,
+          -38.35483663892026
         ]
       }
     },
@@ -2366,6 +2422,33 @@
         "coordinates": [
           144.41640142346833,
           -37.37538939229241
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 603370,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 603370,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260352486,
+        "id": "ESTA:260352486",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-23T18:47:28.000Z",
+        "updated": "2026-03-23T19:11:38.000Z",
+        "resources": 1,
+        "location": "Beechworth"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.72301669119588,
+          -36.375483620864735
         ]
       }
     }
@@ -2597,7 +2680,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-23T18:06:20.379Z",
-    "featureCount": 387
+    "lastUpdated": "2026-03-23T19:24:06.425Z",
+    "featureCount": 390
   }
 }
