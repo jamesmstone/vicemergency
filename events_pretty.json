@@ -2088,31 +2088,63 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123514364,
+        "status": "Request For Assistance",
+        "estaId": 123515008,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 603457,
+        "sourceId": 603458,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260352577,
-        "id": "ESTA:260352577",
+        "eventId": 260311200,
+        "id": "ESTA:260311200",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-24T14:04:48.000Z",
-        "updated": "2026-03-24T15:12:34.000Z",
-        "resources": 0,
-        "location": "Monbulk",
-        "sesId": 603457
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-24T16:24:22.000Z",
+        "updated": "2026-03-24T16:31:31.000Z",
+        "resources": 5,
+        "location": "Wonga Park",
+        "cfaId": 270036,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 603458
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.39930684519794,
-          -37.87728322973781
+          145.28309525858225,
+          -37.76211016183486
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123514972,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123514972,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Prahran",
+        "eventId": "F260311198",
+        "id": "ESTA:260311198",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-24T16:16:30.000Z",
+        "updated": "2026-03-24T16:26:25.377Z",
+        "resources": 3,
+        "location": "Bangs St, Prahran"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.99680968184046,
+          -37.8516145344965
         ]
       }
     },
@@ -2654,6 +2686,35 @@
           -36.09915639163534
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 270034,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270034,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Malcolm St",
+        "eventId": 260311194,
+        "id": "ESTA:260311194",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-24T15:53:00.000Z",
+        "updated": "2026-03-24T16:16:00.000Z",
+        "resources": 5,
+        "location": "Malcolm St, Kalkallo",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94846046838953,
+          -37.53051279300119
+        ]
+      }
     }
   ],
   "properties": {
@@ -2883,7 +2944,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-24T15:14:40.339Z",
-    "featureCount": 389
+    "lastUpdated": "2026-03-24T16:32:40.307Z",
+    "featureCount": 391
   }
 }
