@@ -1455,7 +1455,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123576839,
         "feedType": "incident",
         "source": "PAL",
@@ -1469,8 +1469,8 @@
         "category1": "Fire",
         "category2": "Non Structure Fire",
         "created": "2026-03-29T15:37:25.000Z",
-        "updated": "2026-03-29T15:37:40.111Z",
-        "resources": 0,
+        "updated": "2026-03-29T15:49:05.370Z",
+        "resources": 3,
         "location": "Avalon Av, Broadmeadows"
       },
       "type": "Feature",
@@ -1484,34 +1484,94 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123576840,
+        "status": "Responding",
+        "estaId": 123576908,
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604341,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260313495,
-        "id": "ESTA:260313495",
+        "source": "SPR",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270711,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Camp St",
+        "eventId": 260313499,
+        "id": "ESTA:260313499",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-03-29T15:37:56.000Z",
-        "updated": "2026-03-29T15:38:52.000Z",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-29T15:55:00.000Z",
+        "updated": "2026-03-29T15:55:00.000Z",
         "resources": 0,
-        "location": "Fulham",
-        "cfaId": 270708,
+        "location": "Camp St, Daylesford",
+        "cfaId": 270711,
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 604341
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.96571520797488,
-          -38.100514832321316
+          144.1456884274374,
+          -37.34060573957789
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123576911,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270712,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hawker Gdns",
+        "eventId": 260313500,
+        "id": "ESTA:260313500",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-29T15:56:00.000Z",
+        "updated": "2026-03-29T16:00:00.000Z",
+        "resources": 0,
+        "location": "Hawker Gdns, Berwick",
+        "cfaId": 270712,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32817590099765,
+          -38.03297746981127
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123576924,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123576924,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "North Melbourne",
+        "eventId": "F260313501",
+        "id": "ESTA:260313501",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-29T15:57:10.000Z",
+        "updated": "2026-03-29T15:59:43.467Z",
+        "resources": 3,
+        "location": "Boundary Rd, North Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.93909312061416,
+          -37.79528543864678
         ]
       }
     },
@@ -2011,6 +2071,94 @@
           -36.10783482018887
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 270708,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604341,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260313495,
+        "id": "ESTA:260313495",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-29T15:37:56.000Z",
+        "updated": "2026-03-29T15:56:57.000Z",
+        "resources": 5,
+        "location": "Fulham",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604341
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.96571520797488,
+          -38.100514832321316
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 270710,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270710,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Hazelwood Rd",
+        "eventId": 260313496,
+        "id": "ESTA:260313496",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-29T15:47:00.000Z",
+        "updated": "2026-03-29T15:47:00.000Z",
+        "resources": 2,
+        "location": "Hazelwood Rd, Morwell",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3944057706714,
+          -38.23730149311632
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 270709,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270709,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Commercial Rd",
+        "eventId": 260313497,
+        "id": "ESTA:260313497",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-29T15:47:00.000Z",
+        "updated": "2026-03-29T15:47:00.000Z",
+        "resources": 2,
+        "location": "Commercial Rd, Morwell",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.39362372843,
+          -38.23653139993677
+        ]
+      }
     }
   ],
   "properties": {
@@ -2240,7 +2388,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-29T15:40:20.327Z",
-    "featureCount": 354
+    "lastUpdated": "2026-03-29T16:01:21.268Z",
+    "featureCount": 359
   }
 }
