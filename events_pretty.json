@@ -1455,65 +1455,120 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123577788,
+        "status": "Complete",
+        "estaId": 123577871,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270726,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Momentum Way",
-        "eventId": 260313544,
-        "id": "ESTA:260313544",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604347,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260353470,
+        "id": "ESTA:260353470",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-29T19:56:00.000Z",
-        "updated": "2026-03-29T19:57:00.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-29T20:12:20.000Z",
+        "updated": "2026-03-29T20:36:12.000Z",
         "resources": 0,
-        "location": "Momentum Way, Ravenhall",
-        "cfaId": 270726,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Portland North",
+        "sesId": 604347
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.73523975538018,
-          -37.75898884052856
+          141.55818355412194,
+          -38.30580533703846
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123577999,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123577999,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mulgrave",
+        "eventId": "F260313568",
+        "id": "ESTA:260313568",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-03-29T20:34:04.000Z",
+        "updated": "2026-03-29T20:38:15.902Z",
+        "resources": 0,
+        "location": "Mulgrave"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15720475947015,
+          -37.903134847908284
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123578034,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604348,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260353471,
+        "id": "ESTA:260353471",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-03-29T20:42:50.000Z",
+        "updated": "2026-03-29T20:43:23.000Z",
+        "resources": 0,
+        "location": "Portland North",
+        "sesId": 604348
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5737866268814,
+          -38.282883766538426
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 123577673,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270724,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Long Gully Rd",
-        "eventId": 260313538,
-        "id": "ESTA:260313538",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-29T19:21:00.000Z",
-        "updated": "2026-03-29T19:58:00.000Z",
-        "resources": 7,
-        "location": "Long Gully Rd, Healesville",
-        "cfaId": 270724,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "652267",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Newell Hwy, Tocumwal",
+        "id": "2026-03-29T15:47:00.0000000:652267",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Newell Hwy, Tocumwal",
+        "location": "Newell Hwy, Tocumwal 2714",
+        "created": "2026-03-29T15:47:00+11:00",
+        "updated": "2026-03-29T15:47:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.47029748205003,
-          -37.618325531234284
+          145.541742,
+          -35.744706
         ]
       }
     },
@@ -1929,36 +1984,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "652267",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Newell Hwy, Tocumwal",
-        "id": "2026-03-29T15:47:00.0000000:652267",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Newell Hwy, Tocumwal",
-        "location": "Newell Hwy, Tocumwal 2714",
-        "created": "2026-03-29T15:47:00+11:00",
-        "updated": "2026-03-29T15:47:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.541742,
-          -35.744706
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2016,21 +2041,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 270723,
+        "status": "Under Control",
+        "cfaId": 270724,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 270723,
+        "sourceId": 270724,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260313534,
-        "id": "ESTA:260313534",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-29T18:54:00.000Z",
-        "updated": "2026-03-29T19:33:00.000Z",
-        "resources": 1,
-        "location": "Somers",
+        "sourceTitle": "Long Gully Rd",
+        "eventId": 260313538,
+        "id": "ESTA:260313538",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-03-29T19:21:00.000Z",
+        "updated": "2026-03-29T19:58:00.000Z",
+        "resources": 8,
+        "location": "Long Gully Rd, Healesville",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2038,35 +2063,124 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1810004557973,
-          -38.3863407694173
+          145.47029748205003,
+          -37.618325531234284
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 604346,
+        "status": "Safe",
+        "cfaId": 270726,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604346,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260353469,
-        "id": "ESTA:260353469",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-29T19:09:39.000Z",
-        "updated": "2026-03-29T19:48:57.000Z",
-        "resources": 1,
-        "location": "Labertouche"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270726,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260313544,
+        "id": "ESTA:260313544",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-29T19:56:00.000Z",
+        "updated": "2026-03-29T20:31:00.000Z",
+        "resources": 0,
+        "location": "Ravenhall",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.82399729902394,
-          -38.05463816498705
+          144.72979750777677,
+          -37.75359433591507
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 270729,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270729,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Vaggs Rd",
+        "eventId": 260313566,
+        "id": "ESTA:260313566",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-29T20:35:00.000Z",
+        "updated": "2026-03-29T20:35:00.000Z",
+        "resources": 2,
+        "location": "Vaggs Rd, Ross Creek",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7822040862476,
+          -37.631223578761144
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 270728,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270728,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Main St",
+        "eventId": 260313559,
+        "id": "ESTA:260313559",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-29T20:29:00.000Z",
+        "updated": "2026-03-29T20:41:00.000Z",
+        "resources": 1,
+        "location": "Main St, Rutherglen",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4659711174309,
+          -36.057508967830984
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 270727,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270727,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Thomson St",
+        "eventId": 260313552,
+        "id": "ESTA:260313552",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-29T20:13:00.000Z",
+        "updated": "2026-03-29T20:44:00.000Z",
+        "resources": 2,
+        "location": "Thomson St, Alberton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.66930838538443,
+          -38.616838591388955
         ]
       }
     }
@@ -2085,7 +2199,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2093,7 +2206,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2109,7 +2223,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2117,7 +2230,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-29T13:00:00.000Z",
           "heat": {
@@ -2298,7 +2412,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-29T19:59:20.349Z",
-    "featureCount": 356
+    "lastUpdated": "2026-03-29T20:46:00.121Z",
+    "featureCount": 360
   }
 }
