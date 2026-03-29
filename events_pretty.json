@@ -369,36 +369,6 @@
     },
     {
       "properties": {
-        "status": "Minor",
-        "feedType": "earthquake",
-        "sourceOrg": "AU/GA",
-        "sourceId": "702643",
-        "sourceFeed": "ga-earthquake",
-        "sourceTitle": "Magnitude 2.6 earthquake - Boort, VIC - 28/03/2026 03:05:53 (UTC)",
-        "id": "702643",
-        "category1": "Earthquake",
-        "category2": "Earthquake",
-        "name": "Magnitude 2.6 - Boort, VIC",
-        "sizeFmt": "Magnitude 2.6",
-        "created": "2026-03-28T15:05:53-00:00",
-        "updated": "2026-03-28T15:05:53-00:00",
-        "webBody": "A magnitude 2.6 earthquake has occurred in \"Boort, VIC\" at a depth of 10.00 km at 28/03/2026 03:05:53 (UTC)",
-        "url": "https://earthquakes.ga.gov.au/event/ga2026geaciq",
-        "cssClass": "earthquake",
-        "magnitude": "2.60611387695739",
-        "location": "Boort, VIC"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.803,
-          -36.171
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DELWP",
@@ -1485,30 +1455,63 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123576539,
+        "status": "Responding",
+        "estaId": 123576839,
         "feedType": "incident",
-        "source": "000",
+        "source": "PAL",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123576539,
+        "sourceId": 123576839,
         "sourceFeed": "esta-cad-event",
         "sourceTitle": "Broadmeadows",
-        "eventId": "F260313486",
-        "id": "ESTA:260313486",
+        "eventId": "F260313494",
+        "id": "ESTA:260313494",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "created": "2026-03-29T14:30:06.000Z",
-        "updated": "2026-03-29T14:40:50.184Z",
-        "resources": 3,
-        "location": "Lahinch St, Broadmeadows"
+        "category2": "Non Structure Fire",
+        "created": "2026-03-29T15:37:25.000Z",
+        "updated": "2026-03-29T15:37:40.111Z",
+        "resources": 0,
+        "location": "Avalon Av, Broadmeadows"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.92376001419262,
-          -37.68841284895315
+          144.9214912957821,
+          -37.6902949572669
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123576840,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604341,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260313495,
+        "id": "ESTA:260313495",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-03-29T15:37:56.000Z",
+        "updated": "2026-03-29T15:38:52.000Z",
+        "resources": 0,
+        "location": "Fulham",
+        "cfaId": 270708,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604341
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.96571520797488,
+          -38.100514832321316
         ]
       }
     },
@@ -2024,7 +2027,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2032,7 +2034,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2048,7 +2051,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2056,7 +2058,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-03-29T13:00:00.000Z",
           "heat": {
@@ -2237,7 +2240,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-29T14:46:26.654Z",
+    "lastUpdated": "2026-03-29T15:40:20.327Z",
     "featureCount": 354
   }
 }
