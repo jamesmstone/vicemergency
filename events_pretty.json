@@ -899,7 +899,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 3023223,
@@ -908,8 +908,8 @@
         "id": 3023223,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-03-30T00:23:46.000Z",
-        "updated": "2026-03-30T00:23:46.000Z",
+        "created": "2026-03-30T07:47:30.000Z",
+        "updated": "2026-03-30T07:47:30.000Z",
         "resources": 0,
         "size": "145.07",
         "sizeFmt": "145.07 Ha.",
@@ -1340,86 +1340,53 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
         "estaId": 123584436,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270812,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260314174,
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123584436,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Minimay",
+        "eventId": "F260314174",
         "id": "ESTA:260314174",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-03-30T05:25:00.000Z",
-        "updated": "2026-03-30T05:25:00.000Z",
-        "resources": 1,
-        "location": "Minimay",
-        "cfaId": 270812,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.19887972593068,
-          -36.68619223950282
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123584651,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604381,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260353513,
-        "id": "ESTA:260353513",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-03-30T05:41:04.000Z",
-        "updated": "2026-03-30T05:43:58.000Z",
+        "created": "2026-03-30T05:23:03.000Z",
+        "updated": "2026-03-30T07:46:33.025Z",
         "resources": 0,
-        "location": "Croydon",
-        "sesId": 604381
+        "location": "Minimay"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.27927857972836,
-          -37.79306552210452
+          141.19888900122027,
+          -36.68618295365342
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123584663,
+        "status": "Safe",
+        "estaId": 123586320,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 270815,
+        "sourceId": 270831,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tangerine Ct",
-        "eventId": 260314183,
-        "id": "ESTA:260314183",
+        "sourceTitle": "Yarramundi Dr",
+        "eventId": 260314263,
+        "id": "ESTA:260314263",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-30T05:41:00.000Z",
-        "updated": "2026-03-30T05:41:00.000Z",
-        "resources": 2,
-        "location": "Tangerine Ct, Mount Martha",
-        "cfaId": 270815,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-30T07:46:00.000Z",
+        "updated": "2026-03-30T07:48:00.000Z",
+        "resources": 0,
+        "location": "Yarramundi Dr, Clifton Springs",
+        "cfaId": 270831,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1427,130 +1394,210 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05515396015662,
-          -38.25544166322545
+          144.55710675544435,
+          -38.15800258455276
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123586198,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123586198,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Box Hill",
+        "eventId": "F260314257",
+        "id": "ESTA:260314257",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-03-30T07:35:27.000Z",
+        "updated": "2026-03-30T07:49:09.842Z",
+        "resources": 3,
+        "location": "Bruce St, Box Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12222533391216,
+          -37.81702228045222
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123586295,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123586295,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Carlton",
+        "eventId": "F260314261",
+        "id": "ESTA:260314261",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-03-30T07:43:31.000Z",
+        "updated": "2026-03-30T07:50:29.368Z",
+        "resources": 3,
+        "location": "Lygon St, Carlton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96728779643584,
+          -37.798675113273106
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123584682,
+        "estaId": 123586384,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123584682,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Boronia",
-        "eventId": "F260314186",
-        "id": "ESTA:260314186",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270832,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Inspiration Cct",
+        "eventId": 260314266,
+        "id": "ESTA:260314266",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-03-30T05:42:31.000Z",
-        "updated": "2026-03-30T05:42:44.358Z",
-        "resources": 0,
-        "location": "Boronia"
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-30T07:52:00.000Z",
+        "updated": "2026-03-30T07:52:00.000Z",
+        "resources": 1,
+        "location": "Inspiration Cct, Pakenham",
+        "cfaId": 270832,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28825529305647,
-          -37.86266814527693
+          145.45470147485238,
+          -38.076497704914665
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 123584389,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270811,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260314171,
-        "id": "ESTA:260314171",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-30T05:21:00.000Z",
-        "updated": "2026-03-30T05:43:00.000Z",
-        "resources": 1,
-        "location": "Howes Creek",
-        "cfaId": 270811,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0212818078599,
-          -37.1345243070507
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123584657,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270816,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260314182,
-        "id": "ESTA:260314182",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-03-30T05:41:00.000Z",
-        "updated": "2026-03-30T05:42:00.000Z",
-        "resources": 3,
-        "location": "Boronia",
-        "cfaId": 270816,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.28824387922887,
-          -37.8626798939285
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123584751,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123584751,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Caulfield North",
-        "eventId": "F260314187",
-        "id": "ESTA:260314187",
-        "suppress": false,
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "652377",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Chinamans Rd, Tocumwal",
+        "id": "2026-03-30T18:16:00.0000000:652377",
         "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-30T05:46:32.000Z",
-        "updated": "2026-03-30T05:47:58.962Z",
-        "resources": 0,
-        "location": "Wilks St, Caulfield North"
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Chinamans Rd, Tocumwal",
+        "location": "Chinamans Rd, Tocumwal 2714",
+        "created": "2026-03-30T18:16:00+11:00",
+        "updated": "2026-03-30T18:16:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01436401808795,
-          -37.86291012635249
+          145.541625977,
+          -35.780166626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651585",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Miralai Road Bondi State Forest",
+        "id": "2026-03-24T08:22:00.0000000:651585",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Miralai Road Bondi State Forest",
+        "location": "Forestry Hr Miralai North Plantation, Bondio State Forest",
+        "created": "2026-03-24T08:22:00+11:00",
+        "updated": "2026-03-24T08:22:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "138 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.1275,
+                  -37.0679
+                ],
+                [
+                  149.1314,
+                  -37.0689
+                ],
+                [
+                  149.1284,
+                  -37.0783
+                ],
+                [
+                  149.13,
+                  -37.0787
+                ],
+                [
+                  149.1289,
+                  -37.0846
+                ],
+                [
+                  149.1273,
+                  -37.0861
+                ],
+                [
+                  149.122,
+                  -37.0854
+                ],
+                [
+                  149.1196,
+                  -37.0844
+                ],
+                [
+                  149.1237,
+                  -37.0675
+                ],
+                [
+                  149.1275,
+                  -37.0679
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.125571551,
+              -37.0743627959999
+            ]
+          }
         ]
       }
     },
@@ -1852,88 +1899,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "651585",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Miralai Road Bondi State Forest",
-        "id": "2026-03-24T08:22:00.0000000:651585",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Miralai Road Bondi State Forest",
-        "location": "Forestry Hr Miralai North Plantation, Bondio State Forest",
-        "created": "2026-03-24T08:22:00+11:00",
-        "updated": "2026-03-24T08:22:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "138 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.1275,
-                  -37.0679
-                ],
-                [
-                  149.1314,
-                  -37.0689
-                ],
-                [
-                  149.1284,
-                  -37.0783
-                ],
-                [
-                  149.13,
-                  -37.0787
-                ],
-                [
-                  149.1289,
-                  -37.0846
-                ],
-                [
-                  149.1273,
-                  -37.0861
-                ],
-                [
-                  149.122,
-                  -37.0854
-                ],
-                [
-                  149.1196,
-                  -37.0844
-                ],
-                [
-                  149.1237,
-                  -37.0675
-                ],
-                [
-                  149.1275,
-                  -37.0679
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.125571551,
-              -37.0743627959999
-            ]
-          }
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Under Control",
         "cfaId": 254298,
@@ -1993,7 +1958,123 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Responding",
+        "cfaId": 270821,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270821,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260314229,
+        "id": "ESTA:260314229",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-30T06:47:00.000Z",
+        "updated": "2026-03-30T06:47:00.000Z",
+        "resources": 0,
+        "location": "Tocumwal (Nsw)",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.53284215145,
+          -35.74167167485344
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 270824,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270824,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Donaldson St",
+        "eventId": 260314238,
+        "id": "ESTA:260314238",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-30T06:57:00.000Z",
+        "updated": "2026-03-30T07:08:00.000Z",
+        "resources": 0,
+        "location": "Donaldson St, Colac",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.57090804705533,
+          -38.332007174688634
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 270822,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270822,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Park St",
+        "eventId": 260314232,
+        "id": "ESTA:260314232",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-03-30T06:50:00.000Z",
+        "updated": "2026-03-30T07:12:00.000Z",
+        "resources": 1,
+        "location": "Park St, Wendouree",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.82597024125099,
+          -37.53482228892848
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 270829,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 270829,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baxter-Tooradin Rd",
+        "eventId": 260314255,
+        "id": "ESTA:260314255",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-30T07:35:00.000Z",
+        "updated": "2026-03-30T07:35:00.000Z",
+        "resources": 0,
+        "location": "Baxter-Tooradin Rd, Baxter",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15696295932207,
+          -38.19496941481814
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 270786,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2005,8 +2086,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-03-30T03:21:00.000Z",
-        "updated": "2026-03-30T03:53:00.000Z",
-        "resources": 4,
+        "updated": "2026-03-30T07:47:00.000Z",
+        "resources": 1,
         "location": "Creekwood Ct, Tarneit",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2019,185 +2100,12 @@
           -37.84409939118167
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 270782,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270782,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260314026,
-        "id": "ESTA:260314026",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-03-30T02:56:00.000Z",
-        "updated": "2026-03-30T04:56:00.000Z",
-        "resources": 0,
-        "location": "Cobram",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6681891454504,
-          -35.94079201604617
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 270807,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270807,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mickleham Rd",
-        "eventId": 260314139,
-        "id": "ESTA:260314139",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-03-30T04:46:00.000Z",
-        "updated": "2026-03-30T04:57:00.000Z",
-        "resources": 0,
-        "location": "Mickleham Rd, Greenvale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.88249476855026,
-          -37.63455346094684
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 270806,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270806,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Midland Hwy",
-        "eventId": 260314123,
-        "id": "ESTA:260314123",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-30T04:36:00.000Z",
-        "updated": "2026-03-30T05:16:00.000Z",
-        "resources": 0,
-        "location": "Midland Hwy, Swanpool",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00088856594206,
-          -36.746971679438985
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 270809,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270809,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Swanston St",
-        "eventId": 260314156,
-        "id": "ESTA:260314156",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-30T05:02:00.000Z",
-        "updated": "2026-03-30T05:17:00.000Z",
-        "resources": 5,
-        "location": "Swanston St, South Geelong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.36139598635907,
-          -38.16495700335536
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 270805,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270805,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Oaks Ct",
-        "eventId": 260314120,
-        "id": "ESTA:260314120",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-30T04:34:00.000Z",
-        "updated": "2026-03-30T05:33:00.000Z",
-        "resources": 0,
-        "location": "Oaks Ct, Lysterfield South",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.28658203435722,
-          -37.96034622138578
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 270810,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 270810,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lune Ct",
-        "eventId": 260314157,
-        "id": "ESTA:260314157",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-03-30T05:03:00.000Z",
-        "updated": "2026-03-30T05:46:00.000Z",
-        "resources": 0,
-        "location": "Lune Ct, Torquay",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.32464278164144,
-          -38.31710931725591
-        ]
-      }
     }
   ],
   "properties": {
     "conditions": {
       "fdr": {
+        "Mallee": "MODERATE",
         "East Gippsland": "NO FORECAST",
         "West and South Gippsland": "MODERATE",
         "North East": "MODERATE",
@@ -2205,8 +2113,7 @@
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
         "South West": "MODERATE",
-        "Wimmera": "MODERATE",
-        "Mallee": "MODERATE"
+        "Wimmera": "MODERATE"
       },
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2222,6 +2129,7 @@
       "forecasts": [
         {
           "fdr": {
+            "Mallee": "MODERATE",
             "East Gippsland": "NO FORECAST",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
@@ -2229,8 +2137,7 @@
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
-            "Mallee": "MODERATE"
+            "Wimmera": "MODERATE"
           },
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
@@ -2422,7 +2329,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-30T05:49:46.345Z",
-    "featureCount": 354
+    "lastUpdated": "2026-03-30T07:55:40.496Z",
+    "featureCount": 351
   }
 }
