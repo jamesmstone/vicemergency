@@ -1390,29 +1390,64 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123603659,
+        "estaId": 123603330,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123603659,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Glenroy",
-        "eventId": "F260400034",
-        "id": "ESTA:260400034",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271055,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260400021,
+        "id": "ESTA:260400021",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-03-31T17:20:32.000Z",
-        "updated": "2026-03-31T17:31:39.133Z",
-        "resources": 3,
-        "location": "Prospect St, Glenroy"
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-31T15:59:00.000Z",
+        "updated": "2026-03-31T18:20:00.000Z",
+        "resources": 0,
+        "location": "Hampton Park",
+        "cfaId": 271055,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9156507025148,
-          -37.70834909239856
+          145.26877208849805,
+          -38.02848575358535
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123603868,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271063,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Porters Rd",
+        "eventId": 260400042,
+        "id": "ESTA:260400042",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-03-31T18:21:00.000Z",
+        "updated": "2026-03-31T18:34:00.000Z",
+        "resources": 1,
+        "location": "Porters Rd, Hamilton",
+        "cfaId": 271063,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.97885461446427,
+          -37.7351864587347
         ]
       }
     },
@@ -2237,45 +2272,6 @@
             "coordinates": [
               [
                 [
-                  149.3512,
-                  -37.0131
-                ],
-                [
-                  149.36,
-                  -37.0143
-                ],
-                [
-                  149.3656,
-                  -37.0204
-                ],
-                [
-                  149.3599,
-                  -37.0229
-                ],
-                [
-                  149.3499,
-                  -37.0193
-                ],
-                [
-                  149.3475,
-                  -37.0169
-                ],
-                [
-                  149.3512,
-                  -37.0112
-                ],
-                [
-                  149.3512,
-                  -37.0131
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
                   149.3706,
                   -37.0059
                 ],
@@ -2326,6 +2322,45 @@
                 [
                   149.3706,
                   -37.0059
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.3512,
+                  -37.0131
+                ],
+                [
+                  149.36,
+                  -37.0143
+                ],
+                [
+                  149.3656,
+                  -37.0204
+                ],
+                [
+                  149.3599,
+                  -37.0229
+                ],
+                [
+                  149.3499,
+                  -37.0193
+                ],
+                [
+                  149.3475,
+                  -37.0169
+                ],
+                [
+                  149.3512,
+                  -37.0112
+                ],
+                [
+                  149.3512,
+                  -37.0131
                 ]
               ]
             ]
@@ -2593,21 +2628,51 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 271055,
+        "status": "On Scene",
+        "cfaId": 271061,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604465,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260400038,
+        "id": "ESTA:260400038",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2026-03-31T18:02:02.000Z",
+        "updated": "2026-03-31T18:30:53.000Z",
+        "resources": 5,
+        "location": "Beechworth",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604465
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.72301669119588,
+          -36.375483620864735
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 271060,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 271055,
+        "sourceId": 271060,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260400021,
-        "id": "ESTA:260400021",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-03-31T15:59:00.000Z",
-        "updated": "2026-03-31T16:16:00.000Z",
-        "resources": 4,
-        "location": "Hampton Park",
+        "sourceTitle": "Macarthur St",
+        "eventId": 260400037,
+        "id": "ESTA:260400037",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-03-31T18:02:00.000Z",
+        "updated": "2026-03-31T18:27:00.000Z",
+        "resources": 2,
+        "location": "Macarthur St, Dunkeld",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2615,8 +2680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26877208849805,
-          -38.02848575358535
+          142.3461556344068,
+          -37.64633928648896
         ]
       }
     }
@@ -2848,7 +2913,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-31T17:39:40.555Z",
-    "featureCount": 343
+    "lastUpdated": "2026-03-31T18:37:26.251Z",
+    "featureCount": 345
   }
 }
