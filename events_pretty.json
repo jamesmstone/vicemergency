@@ -391,32 +391,6 @@
     },
     {
       "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1697289",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Stewarts Range Rd/Lucindale Rd , Stewart Range",
-        "id": "1697289",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Stewarts Range Rd/Lucindale Rd , Stewart Range",
-        "created": "2026-03-31T15:29:00.000Z",
-        "updated": "2026-03-31T15:29:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Stewarts Range Rd/Lucindale Rd , Stewart Range"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.606690685225,
-          -36.9935986287334
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
@@ -1410,6 +1384,35 @@
         "coordinates": [
           145.2218,
           -37.1325
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123603332,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123603332,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Hampton Park",
+        "eventId": "F260400022",
+        "id": "ESTA:260400022",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-31T15:58:11.000Z",
+        "updated": "2026-03-31T16:25:57.865Z",
+        "resources": 0,
+        "location": "Hampton Park"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26877584857303,
+          -38.02847240092977
         ]
       }
     },
@@ -2590,24 +2593,23 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Safe",
         "cfaId": 271053,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604462,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271053,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
         "eventId": 260400012,
         "id": "ESTA:260400012",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-03-31T15:05:57.000Z",
-        "updated": "2026-03-31T15:18:59.000Z",
-        "resources": 3,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-31T15:06:00.000Z",
+        "updated": "2026-03-31T15:50:00.000Z",
+        "resources": 0,
         "location": "Newtown (Geelong)",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 604462
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -2620,28 +2622,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 604461,
+        "status": "Under Control",
+        "cfaId": 271055,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604461,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450001,
-        "id": "ESTA:260450001",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-03-31T14:27:50.000Z",
-        "updated": "2026-03-31T14:54:40.000Z",
-        "resources": 1,
-        "location": "Strath Creek"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271055,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260400021,
+        "id": "ESTA:260400021",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-03-31T15:59:00.000Z",
+        "updated": "2026-03-31T16:16:00.000Z",
+        "resources": 3,
+        "location": "Hampton Park",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.21179370586745,
-          -37.244794610193665
+          145.26877208849805,
+          -38.02848575358535
         ]
       }
     }
@@ -2873,7 +2877,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-03-31T15:40:06.940Z",
+    "lastUpdated": "2026-03-31T16:39:20.669Z",
     "featureCount": 344
   }
 }
