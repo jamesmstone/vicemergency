@@ -1571,24 +1571,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123645248,
+        "status": "Responding",
+        "estaId": 123645624,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 271516,
+        "sourceId": 271518,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Myers St",
-        "eventId": 260402707,
-        "id": "ESTA:260402707",
+        "sourceTitle": "Forage Dr",
+        "eventId": 260402713,
+        "id": "ESTA:260402713",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-03T15:36:00.000Z",
-        "updated": "2026-04-03T15:47:00.000Z",
-        "resources": 1,
-        "location": "Myers St, Geelong",
-        "cfaId": 271516,
+        "created": "2026-04-03T16:44:00.000Z",
+        "updated": "2026-04-03T16:44:00.000Z",
+        "resources": 4,
+        "location": "Forage Dr, Clyde North",
+        "cfaId": 271518,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1596,8 +1596,100 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.35455483431835,
-          -38.14994490147065
+          145.36924558323352,
+          -38.10661398895887
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123645627,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604636,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450169,
+        "id": "ESTA:260450169",
+        "suppress": false,
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-04-03T16:45:07.000Z",
+        "updated": "2026-04-03T16:45:46.000Z",
+        "resources": 0,
+        "location": "Frankston",
+        "sesId": 604636
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1396434386512,
+          -38.165688186397055
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123645615,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271517,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Brunel St",
+        "eventId": 260402712,
+        "id": "ESTA:260402712",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-03T16:43:00.000Z",
+        "updated": "2026-04-03T16:43:00.000Z",
+        "resources": 1,
+        "location": "Brunel St, Great Western",
+        "cfaId": 271517,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8517309054502,
+          -37.152004058127886
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "652696",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Woolosen Rd, Cathcart",
+        "id": "2026-04-04T01:48:00.0000000:652696",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Woolosen Rd, Cathcart",
+        "location": "Woolosen Rd, Cathcart 2632",
+        "created": "2026-04-04T01:48:00+11:00",
+        "updated": "2026-04-04T01:48:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.398152,
+          -36.8876700009999
         ]
       }
     },
@@ -2085,36 +2177,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "652696",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Woolosen Rd, Cathcart",
-        "id": "2026-04-04T01:48:00.0000000:652696",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Woolosen Rd, Cathcart",
-        "location": "Woolosen Rd, Cathcart 2632",
-        "created": "2026-04-04T01:48:00+11:00",
-        "updated": "2026-04-04T01:48:00+11:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.398152,
-          -36.8876700009999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2169,91 +2231,6 @@
           -35.74617695111292
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 271515,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 271515,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Ash Av",
-        "eventId": 260402703,
-        "id": "ESTA:260402703",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-03T14:32:00.000Z",
-        "updated": "2026-04-03T15:02:00.000Z",
-        "resources": 0,
-        "location": "Ash Av, Sandy Point",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.11674593844495,
-          -38.82333777250695
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 271514,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 271514,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 260402702,
-        "id": "ESTA:260402702",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-03T14:19:00.000Z",
-        "updated": "2026-04-03T15:09:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Pomborneit",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.3114105767695,
-          -38.30540595596226
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 604635,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604635,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450168,
-        "id": "ESTA:260450168",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-03T15:04:38.000Z",
-        "updated": "2026-04-03T15:34:32.000Z",
-        "resources": 1,
-        "location": "Brunswick West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.94549293272095,
-          -37.753966884380986
-        ]
-      }
     }
   ],
   "properties": {
@@ -2270,6 +2247,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2277,8 +2255,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2294,6 +2271,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2301,8 +2279,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-03T13:00:00.000Z",
           "heat": {
@@ -2483,7 +2460,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-03T15:50:26.738Z",
-    "featureCount": 333
+    "lastUpdated": "2026-04-03T16:53:00.581Z",
+    "featureCount": 332
   }
 }
