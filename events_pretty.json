@@ -1572,23 +1572,82 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123646022,
+        "estaId": 123646435,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123646435,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Footscray",
+        "eventId": "F260402751",
+        "id": "ESTA:260402751",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-04-03T20:31:19.000Z",
+        "updated": "2026-04-03T20:41:09.910Z",
+        "resources": 3,
+        "location": "Mcnab Av, Footscray"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90067709367392,
+          -37.802847853574136
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "estaId": 123646278,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604637,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450170,
+        "id": "ESTA:260450170",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-03T19:46:51.000Z",
+        "updated": "2026-04-03T20:41:37.000Z",
+        "resources": 0,
+        "location": "St Arnaud",
+        "sesId": 604637
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2751649486963,
+          -36.62179006510633
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 123646444,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 271522,
+        "sourceId": 271524,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260402728,
-        "id": "ESTA:260402728",
+        "sourceTitle": "Main St",
+        "eventId": 260402756,
+        "id": "ESTA:260402756",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-03T18:09:00.000Z",
-        "updated": "2026-04-03T19:17:00.000Z",
-        "resources": 0,
-        "location": "Mount Clear",
-        "cfaId": 271522,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-04-03T20:33:00.000Z",
+        "updated": "2026-04-03T20:33:00.000Z",
+        "resources": 1,
+        "location": "Main St, Pakenham",
+        "cfaId": 271524,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1596,37 +1655,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.85560066401683,
-          -37.60345502524805
+          145.48192758527068,
+          -38.078096265670375
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123646261,
+        "estaId": 123646510,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 123646261,
+        "sourceId": 123646510,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Abbotsford",
-        "eventId": "F260402740",
-        "id": "ESTA:260402740",
+        "sourceTitle": "Rosanna",
+        "eventId": "F260402764",
+        "id": "ESTA:260402764",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-04-03T19:37:54.000Z",
-        "updated": "2026-04-03T19:40:31.944Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-03T20:46:09.000Z",
+        "updated": "2026-04-03T20:46:58.573Z",
         "resources": 0,
-        "location": "Trenerry Cr, Abbotsford"
+        "location": "Turnham Av, Rosanna"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99818203456167,
-          -37.797929411191085
+          145.06614033063445,
+          -37.742878625906826
         ]
       }
     },
@@ -1657,6 +1716,36 @@
         "coordinates": [
           149.398152,
           -36.8876700009999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "652987",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Wonboyn Rd, Wonboyn",
+        "id": "2026-04-04T07:23:00.0000000:652987",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Wonboyn Rd, Wonboyn",
+        "location": "Wonboyn Rd, Wonboyn 2551",
+        "created": "2026-04-04T07:23:00+11:00",
+        "updated": "2026-04-04T07:23:00+11:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.911502,
+          -37.2470769999999
         ]
       }
     },
@@ -2198,6 +2287,36 @@
           -35.74617695111292
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 271523,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604638,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260402744,
+        "id": "ESTA:260402744",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2026-04-03T20:12:29.000Z",
+        "updated": "2026-04-03T20:28:14.000Z",
+        "resources": 2,
+        "location": "Frankston North",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604638
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16562478572294,
+          -38.12367053664509
+        ]
+      }
     }
   ],
   "properties": {
@@ -2427,7 +2546,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-03T19:46:26.971Z",
-    "featureCount": 331
+    "lastUpdated": "2026-04-03T20:48:40.449Z",
+    "featureCount": 335
   }
 }
