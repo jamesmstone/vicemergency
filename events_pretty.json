@@ -1649,37 +1649,37 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123660545,
+        "status": "Complete",
+        "estaId": 123660472,
         "feedType": "incident",
-        "source": "SES STRM",
+        "source": "000",
         "sourceOrg": "VIC/SES",
-        "sourceId": 604705,
+        "sourceId": 604704,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260450236,
-        "id": "ESTA:260450236",
+        "eventId": 260450235,
+        "id": "ESTA:260450235",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-04-04T21:11:12.000Z",
-        "updated": "2026-04-04T21:13:19.000Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-04T20:55:24.000Z",
+        "updated": "2026-04-04T21:37:18.000Z",
         "resources": 0,
-        "location": "South Morang",
-        "sesId": 604705
+        "location": "Burnewang",
+        "sesId": 604704
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09185261174332,
-          -37.63462985612126
+          144.6957248980645,
+          -36.48620706008577
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 123660551,
         "feedType": "incident",
         "source": "000",
@@ -1693,8 +1693,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-04-04T21:12:00.000Z",
-        "updated": "2026-04-04T21:12:00.000Z",
-        "resources": 1,
+        "updated": "2026-04-04T21:44:00.000Z",
+        "resources": 0,
         "location": "Cypress Cr, Leopold",
         "cfaId": 271702,
         "size": "Small",
@@ -2656,35 +2656,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 271694,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 271694,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray Valley Hwy",
-        "eventId": 260403834,
-        "id": "ESTA:260403834",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-04-04T19:02:00.000Z",
-        "updated": "2026-04-04T20:26:00.000Z",
-        "resources": 0,
-        "location": "Murray Valley Hwy, Strathmerton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.39441152086084,
-          -35.92539767543445
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
         "cfaId": 271699,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2742,28 +2713,86 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 604704,
+        "status": "Safe",
+        "cfaId": 271703,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604704,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450235,
-        "id": "ESTA:260450235",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-04T20:55:24.000Z",
-        "updated": "2026-04-04T21:09:57.000Z",
-        "resources": 1,
-        "location": "Burnewang"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271703,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mccormicks Rd",
+        "eventId": 260403871,
+        "id": "ESTA:260403871",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-04T21:19:00.000Z",
+        "updated": "2026-04-04T21:40:00.000Z",
+        "resources": 0,
+        "location": "Mccormicks Rd, Skye",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6957248980645,
-          -36.48620706008577
+          145.19547775675372,
+          -38.11073270488884
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 271704,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271704,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Macclesfield Rd",
+        "eventId": 260403876,
+        "id": "ESTA:260403876",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-04T21:34:00.000Z",
+        "updated": "2026-04-04T21:44:00.000Z",
+        "resources": 2,
+        "location": "Macclesfield Rd, Macclesfield",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.47703940525287,
+          -37.87965751481839
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 604705,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604705,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450236,
+        "id": "ESTA:260450236",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-04-04T21:11:12.000Z",
+        "updated": "2026-04-04T21:32:54.000Z",
+        "resources": 1,
+        "location": "South Morang"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09185261174332,
+          -37.63462985612126
         ]
       }
     }
@@ -2995,7 +3024,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-04T21:15:00.451Z",
-    "featureCount": 331
+    "lastUpdated": "2026-04-04T21:50:20.471Z",
+    "featureCount": 332
   }
 }
