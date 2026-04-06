@@ -2182,54 +2182,24 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123684376,
-        "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604800,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450328,
-        "id": "ESTA:260450328",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-06T14:15:47.000Z",
-        "updated": "2026-04-06T14:49:28.000Z",
-        "resources": 0,
-        "location": "Pirron Yallock",
-        "sesId": 604800
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.4378000543878,
-          -38.35103416742341
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 123684618,
+        "estaId": 123684892,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 271984,
+        "sourceId": 271988,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260405415,
-        "id": "ESTA:260405415",
+        "sourceTitle": "Kangan Dr",
+        "eventId": 260405424,
+        "id": "ESTA:260405424",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-06T14:55:00.000Z",
-        "updated": "2026-04-06T14:55:00.000Z",
-        "resources": 1,
-        "location": "Hazelwood North",
-        "cfaId": 271984,
+        "category2": "Building Fire",
+        "created": "2026-04-06T15:42:00.000Z",
+        "updated": "2026-04-06T15:42:00.000Z",
+        "resources": 4,
+        "location": "Kangan Dr, Berwick",
+        "cfaId": 271988,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2237,8 +2207,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.50279276720855,
-          -38.243263231557854
+          145.3457990752879,
+          -38.0452667437336
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123684840,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271987,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cookes Rd",
+        "eventId": 260405422,
+        "id": "ESTA:260405422",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-06T15:32:00.000Z",
+        "updated": "2026-04-06T15:55:00.000Z",
+        "resources": 4,
+        "location": "Cookes Rd, Doreen",
+        "cfaId": 271987,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11008039066124,
+          -37.59772087237979
         ]
       }
     },
@@ -3856,28 +3858,88 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 604799,
+        "status": "Safe",
+        "cfaId": 271984,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604799,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450327,
-        "id": "ESTA:260450327",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-06T14:03:39.000Z",
-        "updated": "2026-04-06T14:48:36.000Z",
-        "resources": 1,
-        "location": "Springvale"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271984,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260405415,
+        "id": "ESTA:260405415",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-06T14:55:00.000Z",
+        "updated": "2026-04-06T15:11:00.000Z",
+        "resources": 3,
+        "location": "Hazelwood North",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15352472718354,
-          -37.944778715593294
+          146.50279276720855,
+          -38.243263231557854
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 271985,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271985,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Poole Bvd",
+        "eventId": 260405417,
+        "id": "ESTA:260405417",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-06T15:04:00.000Z",
+        "updated": "2026-04-06T15:24:00.000Z",
+        "resources": 0,
+        "location": "Poole Bvd, Swan Hill",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.55044725425165,
+          -35.353394143062985
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 271986,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 271986,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ann St",
+        "eventId": 260405419,
+        "id": "ESTA:260405419",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-06T15:09:00.000Z",
+        "updated": "2026-04-06T15:39:00.000Z",
+        "resources": 5,
+        "location": "Ann St, Dandenong",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2199014789916,
+          -37.97929016367772
         ]
       }
     }
@@ -4109,7 +4171,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-06T14:59:20.373Z",
-    "featureCount": 320
+    "lastUpdated": "2026-04-06T15:56:40.534Z",
+    "featureCount": 322
   }
 }
