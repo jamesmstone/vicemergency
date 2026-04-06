@@ -2182,24 +2182,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 123686295,
+        "status": "Safe",
+        "estaId": 123686592,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 272005,
+        "sourceId": 272007,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260405515,
-        "id": "ESTA:260405515",
+        "sourceTitle": "Swan Bay Rd",
+        "eventId": 260405588,
+        "id": "ESTA:260405588",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-06T21:25:00.000Z",
-        "updated": "2026-04-06T21:45:00.000Z",
-        "resources": 4,
-        "location": "Irymple",
-        "cfaId": 272005,
+        "created": "2026-04-06T22:06:00.000Z",
+        "updated": "2026-04-06T22:23:00.000Z",
+        "resources": 0,
+        "location": "Swan Bay Rd, Wallington",
+        "cfaId": 272007,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2207,8 +2207,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.12663409939867,
-          -34.271912445640886
+          144.5279927741203,
+          -38.21208751544232
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123686943,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123686943,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ashburton",
+        "eventId": "F260405656",
+        "id": "ESTA:260405656",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-06T22:42:58.000Z",
+        "updated": "2026-04-06T22:44:07.537Z",
+        "resources": 0,
+        "location": "Ashburton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.09299395784316,
+          -37.86499514067183
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123686984,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604814,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450343,
+        "id": "ESTA:260450343",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-06T22:47:58.000Z",
+        "updated": "2026-04-06T22:48:27.000Z",
+        "resources": 0,
+        "location": "Bell Park",
+        "sesId": 604814
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3404466222818,
+          -38.094158152801086
         ]
       }
     },
@@ -3273,36 +3332,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "652696",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Woolosen Rd, Cathcart",
-        "id": "2026-04-06T12:50:00.0000000:652696",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Woolosen Rd, Cathcart",
-        "location": "Woolosen Rd, Cathcart 2632",
-        "created": "2026-04-06T12:50:00+10:00",
-        "updated": "2026-04-06T12:50:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.398152,
-          -36.8876700009999
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "653321",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Estate Rd, Mathoura",
@@ -3793,6 +3822,64 @@
           -36.32109352191032
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272006,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272006,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Philip St",
+        "eventId": 260405562,
+        "id": "ESTA:260405562",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-06T21:51:00.000Z",
+        "updated": "2026-04-06T22:14:00.000Z",
+        "resources": 0,
+        "location": "Philip St, Port Fairy",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2208791367914,
+          -38.38975417512118
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272005,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272005,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260405515,
+        "id": "ESTA:260405515",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-06T21:25:00.000Z",
+        "updated": "2026-04-06T22:20:00.000Z",
+        "resources": 0,
+        "location": "Irymple",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.12663409939867,
+          -34.271912445640886
+        ]
+      }
     }
   ],
   "properties": {
@@ -4022,7 +4109,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-06T21:47:00.423Z",
-    "featureCount": 317
+    "lastUpdated": "2026-04-06T22:49:06.718Z",
+    "featureCount": 320
   }
 }
