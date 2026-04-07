@@ -1766,30 +1766,34 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123698334,
+        "status": "Request For Assistance",
+        "estaId": 123698577,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123698334,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Docklands",
-        "eventId": "F260406747",
-        "id": "ESTA:260406747",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604872,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260406753,
+        "id": "ESTA:260406753",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Fire",
-        "created": "2026-04-07T17:04:49.000Z",
-        "updated": "2026-04-07T17:07:59.943Z",
-        "resources": 4,
-        "location": "Pearl River Rd, Docklands"
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-04-07T18:10:29.000Z",
+        "updated": "2026-04-07T18:10:44.000Z",
+        "resources": 0,
+        "location": "Dederang",
+        "cfaId": 272123,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604872
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.93790634043285,
-          -37.81552391881761
+          146.99880592242974,
+          -36.45338152480741
         ]
       }
     },
@@ -2565,6 +2569,35 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 254298,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 254298,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Longwood - Berry's Lane",
+        "eventId": 260103093,
+        "id": "ESTA:260103093",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-01-07T16:06:00.000Z",
+        "updated": "2026-02-13T03:18:00.000Z",
+        "resources": 0,
+        "location": "Longwood - Berry's Lane, Longwood",
+        "size": "Large",
+        "sizeFmt": "Large"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.42404495753306,
+          -36.825008548352905
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 271621,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2622,65 +2655,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 272118,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272118,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Campaspe Esp",
-        "eventId": 260406741,
-        "id": "ESTA:260406741",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-07T16:28:00.000Z",
-        "updated": "2026-04-07T16:28:00.000Z",
-        "resources": 3,
-        "location": "Campaspe Esp, Echuca",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.73741425094218,
-          -36.132140290826825
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272117,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272117,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Frankston-Flinders Rd",
-        "eventId": 260406740,
-        "id": "ESTA:260406740",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-07T16:27:00.000Z",
-        "updated": "2026-04-07T16:38:00.000Z",
-        "resources": 0,
-        "location": "Frankston-Flinders Rd, Somerville",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17714640378276,
-          -38.22492341592041
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Under Control",
         "cfaId": 272120,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2692,8 +2667,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-04-07T16:33:00.000Z",
-        "updated": "2026-04-07T16:40:00.000Z",
-        "resources": 10,
+        "updated": "2026-04-07T17:18:00.000Z",
+        "resources": 9,
         "location": "Black Rock",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2709,57 +2684,88 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 254298,
+        "status": "Safe",
+        "cfaId": 272118,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 254298,
+        "sourceId": 272118,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Longwood - Berry's Lane",
-        "eventId": 260103093,
-        "id": "ESTA:260103093",
+        "sourceTitle": "Campaspe Esp",
+        "eventId": 260406741,
+        "id": "ESTA:260406741",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-01-07T16:06:00.000Z",
-        "updated": "2026-02-13T03:18:00.000Z",
+        "created": "2026-04-07T16:28:00.000Z",
+        "updated": "2026-04-07T17:31:00.000Z",
         "resources": 0,
-        "location": "Longwood - Berry's Lane, Longwood",
-        "size": "Large",
-        "sizeFmt": "Large"
+        "location": "Campaspe Esp, Echuca",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.42404495753306,
-          -36.825008548352905
+          144.73741425094218,
+          -36.132140290826825
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 604871,
+        "status": "Under Control",
+        "cfaId": 272121,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604871,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450380,
-        "id": "ESTA:260450380",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-07T16:12:34.000Z",
-        "updated": "2026-04-07T16:23:50.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272121,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lloyd Ct",
+        "eventId": 260406748,
+        "id": "ESTA:260406748",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-07T17:24:00.000Z",
+        "updated": "2026-04-07T17:34:00.000Z",
         "resources": 1,
-        "location": "Birregurra"
+        "location": "Lloyd Ct, Brookfield",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.86947665443705,
-          -38.32787919615092
+          144.56001796797756,
+          -37.69487985365604
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272122,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272122,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jones Rd",
+        "eventId": 260406750,
+        "id": "ESTA:260406750",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-04-07T17:46:00.000Z",
+        "updated": "2026-04-07T17:52:00.000Z",
+        "resources": 0,
+        "location": "Jones Rd, Dandenong",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20138759465587,
+          -37.982144560757256
         ]
       }
     }
@@ -2991,7 +2997,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-07T17:11:40.697Z",
+    "lastUpdated": "2026-04-07T18:11:40.345Z",
     "featureCount": 303
   }
 }
