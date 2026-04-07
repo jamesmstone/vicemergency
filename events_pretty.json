@@ -1766,56 +1766,86 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123699171,
+        "status": "Safe",
+        "estaId": 123699013,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272130,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sunview Way",
-        "eventId": 260406809,
-        "id": "ESTA:260406809",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123699013,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Picola West",
+        "eventId": "F260406779",
+        "id": "ESTA:260406779",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-04-07T20:54:00.000Z",
-        "updated": "2026-04-07T20:54:00.000Z",
-        "resources": 2,
-        "location": "Sunview Way, Mount Martha",
-        "cfaId": 272130,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-07T20:19:43.000Z",
+        "updated": "2026-04-07T21:49:38.656Z",
+        "resources": 0,
+        "location": "Trickeys Lane, Picola West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0151419674292,
-          -38.289113209976925
+          145.03223687702865,
+          -35.95838280772284
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123699186,
+        "status": "On Scene",
+        "estaId": 123698577,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272131,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grey St",
-        "eventId": 260406812,
-        "id": "ESTA:260406812",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604872,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260406753,
+        "id": "ESTA:260406753",
         "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-04-07T21:00:00.000Z",
-        "updated": "2026-04-07T21:00:00.000Z",
-        "resources": 2,
-        "location": "Grey St, Traralgon",
-        "cfaId": 272131,
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-04-07T18:10:29.000Z",
+        "updated": "2026-04-07T18:53:18.000Z",
+        "resources": 4,
+        "location": "Dederang",
+        "cfaId": 272123,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 604872
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.99880592242974,
+          -36.45338152480741
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123699370,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272134,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mc Leod St",
+        "eventId": 260406859,
+        "id": "ESTA:260406859",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-07T21:34:00.000Z",
+        "updated": "2026-04-07T21:41:00.000Z",
+        "resources": 0,
+        "location": "Mc Leod St, Coleraine",
+        "cfaId": 272134,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1823,8 +1853,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.52864090698318,
-          -38.1920888050603
+          141.69247806482124,
+          -37.59981893944623
         ]
       }
     },
@@ -1855,6 +1885,36 @@
         "coordinates": [
           149.911502,
           -37.2470769999999
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "653432",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Urana Rd, Jindera",
+        "id": "2026-04-08T07:53:00.0000000:653432",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Urana Rd, Jindera",
+        "location": "Urana Rd, Jindera 2642",
+        "created": "2026-04-08T07:53:00+10:00",
+        "updated": "2026-04-08T07:53:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.89606,
+          -36.0017809999999
         ]
       }
     },
@@ -2066,6 +2126,180 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
+        "sourceId": "653433",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Mcleods Road, Bondi State Forest",
+        "id": "2026-04-08T07:40:00.0000000:653433",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Mcleods Road, Bondi State Forest",
+        "location": "Forestry Hr Mcleods Road Plantation F26",
+        "created": "2026-04-08T07:40:00+10:00",
+        "updated": "2026-04-08T07:40:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "425 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.1916,
+                  -37.0981
+                ],
+                [
+                  149.196,
+                  -37.0985
+                ],
+                [
+                  149.1971,
+                  -37.0933
+                ],
+                [
+                  149.2071,
+                  -37.0946
+                ],
+                [
+                  149.2059,
+                  -37.096
+                ],
+                [
+                  149.2039,
+                  -37.1057
+                ],
+                [
+                  149.195,
+                  -37.1044
+                ],
+                [
+                  149.195,
+                  -37.1049
+                ],
+                [
+                  149.1956,
+                  -37.1054
+                ],
+                [
+                  149.1927,
+                  -37.1152
+                ],
+                [
+                  149.1874,
+                  -37.1146
+                ],
+                [
+                  149.1886,
+                  -37.1115
+                ],
+                [
+                  149.1881,
+                  -37.1106
+                ],
+                [
+                  149.1866,
+                  -37.11
+                ],
+                [
+                  149.1844,
+                  -37.1079
+                ],
+                [
+                  149.1784,
+                  -37.1062
+                ],
+                [
+                  149.1794,
+                  -37.1049
+                ],
+                [
+                  149.1792,
+                  -37.1034
+                ],
+                [
+                  149.1781,
+                  -37.1033
+                ],
+                [
+                  149.1775,
+                  -37.1035
+                ],
+                [
+                  149.1746,
+                  -37.1023
+                ],
+                [
+                  149.1744,
+                  -37.1013
+                ],
+                [
+                  149.1751,
+                  -37.0997
+                ],
+                [
+                  149.1765,
+                  -37.0985
+                ],
+                [
+                  149.1777,
+                  -37.0952
+                ],
+                [
+                  149.1798,
+                  -37.0918
+                ],
+                [
+                  149.1806,
+                  -37.0899
+                ],
+                [
+                  149.1811,
+                  -37.0879
+                ],
+                [
+                  149.1819,
+                  -37.0857
+                ],
+                [
+                  149.1866,
+                  -37.0883
+                ],
+                [
+                  149.1856,
+                  -37.0931
+                ],
+                [
+                  149.1924,
+                  -37.0941
+                ],
+                [
+                  149.1916,
+                  -37.0981
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.183177948,
+              -37.1052930929999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
         "sourceId": "651692",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Killarney Road Nalbaugh State Forest",
@@ -2085,6 +2319,45 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.3512,
+                  -37.0131
+                ],
+                [
+                  149.36,
+                  -37.0143
+                ],
+                [
+                  149.3656,
+                  -37.0204
+                ],
+                [
+                  149.3599,
+                  -37.0229
+                ],
+                [
+                  149.3499,
+                  -37.0193
+                ],
+                [
+                  149.3475,
+                  -37.0169
+                ],
+                [
+                  149.3512,
+                  -37.0112
+                ],
+                [
+                  149.3512,
+                  -37.0131
+                ]
+              ]
+            ]
+          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -2140,45 +2413,6 @@
                 [
                   149.3706,
                   -37.0059
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.3512,
-                  -37.0131
-                ],
-                [
-                  149.36,
-                  -37.0143
-                ],
-                [
-                  149.3656,
-                  -37.0204
-                ],
-                [
-                  149.3599,
-                  -37.0229
-                ],
-                [
-                  149.3499,
-                  -37.0193
-                ],
-                [
-                  149.3475,
-                  -37.0169
-                ],
-                [
-                  149.3512,
-                  -37.0112
-                ],
-                [
-                  149.3512,
-                  -37.0131
                 ]
               ]
             ]
@@ -2359,94 +2593,6 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 272123,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604872,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260406753,
-        "id": "ESTA:260406753",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-04-07T18:10:29.000Z",
-        "updated": "2026-04-07T18:53:18.000Z",
-        "resources": 4,
-        "location": "Dederang",
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 604872
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.99880592242974,
-          -36.45338152480741
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272129,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272129,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Trickeys Lane",
-        "eventId": 260406779,
-        "id": "ESTA:260406779",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-07T20:20:00.000Z",
-        "updated": "2026-04-07T20:48:00.000Z",
-        "resources": 1,
-        "location": "Trickeys Lane, Picola West",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.03222419689124,
-          -35.95838934285045
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 272132,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272132,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Grattan Way",
-        "eventId": 260406817,
-        "id": "ESTA:260406817",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-07T21:03:00.000Z",
-        "updated": "2026-04-07T21:03:00.000Z",
-        "resources": 1,
-        "location": "Grattan Way, Pakenham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.44259301621187,
-          -38.057187357445535
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
@@ -2560,6 +2706,122 @@
           -37.96216656252317
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272132,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272132,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grattan Way",
+        "eventId": 260406817,
+        "id": "ESTA:260406817",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-07T21:03:00.000Z",
+        "updated": "2026-04-07T21:08:00.000Z",
+        "resources": 0,
+        "location": "Grattan Way, Pakenham",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.44259301621187,
+          -38.057187357445535
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272130,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272130,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Sunview Way",
+        "eventId": 260406809,
+        "id": "ESTA:260406809",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-07T20:54:00.000Z",
+        "updated": "2026-04-07T21:09:00.000Z",
+        "resources": 0,
+        "location": "Sunview Way, Mount Martha",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0151419674292,
+          -38.289113209976925
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272131,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272131,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burns St",
+        "eventId": 260406812,
+        "id": "ESTA:260406812",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-04-07T21:00:00.000Z",
+        "updated": "2026-04-07T21:28:00.000Z",
+        "resources": 0,
+        "location": "Burns St, Traralgon",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5288474420165,
+          -38.191936420966925
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 272135,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272135,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Heaths Rd",
+        "eventId": 260406883,
+        "id": "ESTA:260406883",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-07T21:50:00.000Z",
+        "updated": "2026-04-07T21:50:00.000Z",
+        "resources": 3,
+        "location": "Heaths Rd, Hoppers Crossing",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68001591239218,
+          -37.87699885753065
+        ]
+      }
     }
   ],
   "properties": {
@@ -2576,7 +2838,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2584,7 +2845,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2600,7 +2862,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2608,7 +2869,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-07T14:00:00.000Z",
           "heat": {
@@ -2789,7 +3051,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-07T21:08:21.186Z",
-    "featureCount": 305
+    "lastUpdated": "2026-04-07T22:00:28.317Z",
+    "featureCount": 309
   }
 }
