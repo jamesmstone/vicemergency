@@ -1687,24 +1687,83 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 123711701,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272284,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Remembrance Dr",
-        "eventId": 260408577,
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123711701,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Burrumbeet",
+        "eventId": "F260408577",
         "id": "ESTA:260408577",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-08T16:47:00.000Z",
-        "updated": "2026-04-08T17:07:00.000Z",
+        "created": "2026-04-08T16:44:53.000Z",
+        "updated": "2026-04-08T18:29:28.855Z",
+        "resources": 0,
+        "location": "Remembrance Dr, Burrumbeet"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.67078142634762,
+          -37.49067903247631
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123712167,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604922,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450421,
+        "id": "ESTA:260450421",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-08T18:36:02.000Z",
+        "updated": "2026-04-08T18:37:30.000Z",
+        "resources": 0,
+        "location": "Devon Meadows",
+        "sesId": 604922
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31432587200612,
+          -38.1801405729317
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 123712127,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272295,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Great Ocean Rd",
+        "eventId": 260408589,
+        "id": "ESTA:260408589",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-08T18:26:00.000Z",
+        "updated": "2026-04-08T18:26:00.000Z",
         "resources": 2,
-        "location": "Remembrance Dr, Burrumbeet",
-        "cfaId": 272284,
+        "location": "Great Ocean Rd, Allansford",
+        "cfaId": 272295,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1712,133 +1771,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.6707786138054,
-          -37.490687075521514
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123711804,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272286,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Dunlop St",
-        "eventId": 260408579,
-        "id": "ESTA:260408579",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-08T17:08:00.000Z",
-        "updated": "2026-04-08T17:08:00.000Z",
-        "resources": 1,
-        "location": "Dunlop St, Yarrawonga",
-        "cfaId": 272286,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00102438566438,
-          -36.01997978405351
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123711784,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272285,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Curtain Rd",
-        "eventId": 260408578,
-        "id": "ESTA:260408578",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-08T17:04:00.000Z",
-        "updated": "2026-04-08T17:10:00.000Z",
-        "resources": 0,
-        "location": "Curtain Rd, Hurstbridge",
-        "cfaId": 272285,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1945347407592,
-          -37.639788218723254
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123711830,
-        "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272287,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Cranbourne-Frankston Rd",
-        "eventId": 260408580,
-        "id": "ESTA:260408580",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-08T17:13:00.000Z",
-        "updated": "2026-04-08T17:13:00.000Z",
-        "resources": 0,
-        "location": "Cranbourne-Frankston Rd, Cranbourne",
-        "cfaId": 272287,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26019222052892,
-          -38.11032128501661
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123711836,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123711836,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Geelong West",
-        "eventId": "F260408581",
-        "id": "ESTA:260408581",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-08T17:13:59.000Z",
-        "updated": "2026-04-08T17:15:26.382Z",
-        "resources": 1,
-        "location": "Weller St, Geelong West"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.34600699383324,
-          -38.14141434776522
+          142.627706448638,
+          -38.39538973395991
         ]
       }
     },
@@ -1848,14 +1782,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/931d97fea188e9c68a0c6323a21b3073",
+        "sourceId": "IDV20600/8b8e98bbd4df1902da5921100d8953b4",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/931d97fea188e9c68a0c6323a21b3073",
+        "id": "IDV20600/8b8e98bbd4df1902da5921100d8953b4",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-04-08T14:00:00.000Z",
+        "created": "2026-04-08T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2431,14 +2365,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV21037/dac29045a9bde02cad244b4111a77f9e",
+        "sourceId": "IDV21037/d3ebeae2cb24a4f914c6d5b32a21c174",
         "sourceFeed": "bom-idv21037",
         "sourceTitle": "Severe Weather Warning for DAMAGING WINDS",
-        "id": "IDV21037/dac29045a9bde02cad244b4111a77f9e",
+        "id": "IDV21037/d3ebeae2cb24a4f914c6d5b32a21c174",
         "category1": "Met",
         "category2": "Weather",
         "name": "Severe Weather Warning for DAMAGING WINDS",
-        "created": "2026-04-08T12:09:33.000Z",
+        "created": "2026-04-08T18:32:11.000Z",
         "webHeadline": "DAMAGING NORTHWESTERLY WINDS averaging 60 to 70 km/h with peak gusts of around 100 km/h are likely to develop in the eastern ranges from late Thursday afternoon. Wind gusts may reach 110 km/h from late Thursday evening in exposed alpine areas above 1200 metres.\n\nWinds are expected to ease by late Fri...\n",
         "webBody": "DAMAGING NORTHWESTERLY WINDS averaging 60 to 70 km/h with peak gusts of around 100 km/h are likely to develop in the eastern ranges from late Thursday afternoon. Wind gusts may reach 110 km/h from late Thursday evening in exposed alpine areas above 1200 metres.\n\nWinds are expected to ease by late Fri...\n",
         "url": "http://www.bom.gov.au/products/IDV21037.shtml",
@@ -7583,6 +7517,41 @@
             "coordinates": [
               [
                 [
+                  148.17,
+                  -35.6045
+                ],
+                [
+                  148.1633,
+                  -35.6092
+                ],
+                [
+                  148.1591,
+                  -35.6084
+                ],
+                [
+                  148.1566,
+                  -35.6102
+                ],
+                [
+                  148.1579,
+                  -35.6083
+                ],
+                [
+                  148.1703,
+                  -35.6032
+                ],
+                [
+                  148.17,
+                  -35.6045
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
                   148.1696,
                   -35.6049
                 ],
@@ -7996,118 +7965,6 @@
             "coordinates": [
               [
                 [
-                  148.1699,
-                  -35.6026
-                ],
-                [
-                  148.1696,
-                  -35.6027
-                ],
-                [
-                  148.1698,
-                  -35.6021
-                ],
-                [
-                  148.1702,
-                  -35.6023
-                ],
-                [
-                  148.1699,
-                  -35.6026
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.1701,
-                  -35.603
-                ],
-                [
-                  148.1693,
-                  -35.6035
-                ],
-                [
-                  148.1694,
-                  -35.6031
-                ],
-                [
-                  148.1705,
-                  -35.6027
-                ],
-                [
-                  148.1701,
-                  -35.603
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.1716,
-                  -35.6018
-                ],
-                [
-                  148.1713,
-                  -35.6019
-                ],
-                [
-                  148.1721,
-                  -35.6015
-                ],
-                [
-                  148.1716,
-                  -35.6018
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.17,
-                  -35.6045
-                ],
-                [
-                  148.1633,
-                  -35.6092
-                ],
-                [
-                  148.1591,
-                  -35.6084
-                ],
-                [
-                  148.1566,
-                  -35.6102
-                ],
-                [
-                  148.1579,
-                  -35.6083
-                ],
-                [
-                  148.1703,
-                  -35.6032
-                ],
-                [
-                  148.17,
-                  -35.6045
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
                   148.1942,
                   -35.5858
                 ],
@@ -8354,6 +8211,83 @@
             ]
           },
           {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.1699,
+                  -35.6026
+                ],
+                [
+                  148.1696,
+                  -35.6027
+                ],
+                [
+                  148.1698,
+                  -35.6021
+                ],
+                [
+                  148.1702,
+                  -35.6023
+                ],
+                [
+                  148.1699,
+                  -35.6026
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.1701,
+                  -35.603
+                ],
+                [
+                  148.1693,
+                  -35.6035
+                ],
+                [
+                  148.1694,
+                  -35.6031
+                ],
+                [
+                  148.1705,
+                  -35.6027
+                ],
+                [
+                  148.1701,
+                  -35.603
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.1716,
+                  -35.6018
+                ],
+                [
+                  148.1713,
+                  -35.6019
+                ],
+                [
+                  148.1721,
+                  -35.6015
+                ],
+                [
+                  148.1716,
+                  -35.6018
+                ]
+              ]
+            ]
+          },
+          {
             "type": "Point",
             "coordinates": [
               148.189945221,
@@ -8588,20 +8522,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 272282,
+        "cfaId": 272292,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 272282,
+        "sourceId": 272292,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Pakington St",
-        "eventId": 260408572,
-        "id": "ESTA:260408572",
+        "sourceTitle": "Ballan Rd",
+        "eventId": 260408585,
+        "id": "ESTA:260408585",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-08T16:14:00.000Z",
-        "updated": "2026-04-08T16:23:00.000Z",
+        "created": "2026-04-08T17:37:00.000Z",
+        "updated": "2026-04-08T18:04:00.000Z",
         "resources": 0,
-        "location": "Pakington St, Geelong West",
+        "location": "Ballan Rd, Moorabool",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -8609,8 +8543,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.34926942563357,
-          -38.13677863644916
+          144.30096143754363,
+          -38.076858381178894
         ]
       }
     }
@@ -8842,7 +8776,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-08T17:15:40.864Z",
-    "featureCount": 300
+    "lastUpdated": "2026-04-08T18:43:40.513Z",
+    "featureCount": 298
   }
 }
