@@ -1579,6 +1579,33 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "feedType": "incident",
+        "sourceOrg": "VIC/DEECA",
+        "sourceId": 102622072,
+        "sourceFeed": "deeca-incident",
+        "sourceTitle": "Pental Island - River Track",
+        "id": 102622072,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-04-07T22:00:00Z",
+        "updated": "2026-04-08T22:50:45.8256232Z",
+        "resources": 0,
+        "size": 0.01,
+        "sizeFmt": "0.01 Ha.",
+        "location": "13.2Km E Of Swan Hill"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6921,
+          -35.3776
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
@@ -1687,33 +1714,89 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123712925,
+        "status": "Complete",
+        "estaId": 123713387,
         "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272306,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 260408672,
-        "id": "ESTA:260408672",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123713387,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Pakenham",
+        "eventId": "F260408753",
+        "id": "ESTA:260408753",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-08T21:49:00.000Z",
-        "updated": "2026-04-08T21:49:00.000Z",
-        "resources": 2,
-        "location": "Princes Hwy, Werribee",
-        "cfaId": 272306,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-04-08T22:46:56.000Z",
+        "updated": "2026-04-08T22:51:29.848Z",
+        "resources": 0,
+        "location": "Rachael Ct, Pakenham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6989472945496,
-          -37.88567898952983
+          145.48965905203661,
+          -38.06629015083703
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 123713431,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604933,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450432,
+        "id": "ESTA:260450432",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-08T22:51:37.000Z",
+        "updated": "2026-04-08T22:52:15.000Z",
+        "resources": 0,
+        "location": "Tullamarine",
+        "sesId": 604933
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87695347021537,
+          -37.70456584647769
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123713434,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123713434,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Tullamarine",
+        "eventId": "F260408759",
+        "id": "ESTA:260408759",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-08T22:51:41.000Z",
+        "updated": "2026-04-08T22:51:57.900Z",
+        "resources": 0,
+        "location": "Spring St, Tullamarine"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87696653990116,
+          -37.70455376224414
         ]
       }
     },
@@ -6924,36 +7007,6 @@
       }
     },
     {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "653321",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Estate Rd, Mathoura",
-        "id": "2026-04-08T18:04:00.0000000:653321",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Estate Rd, Mathoura",
-        "location": "Estate Rd, Mathoura 2710",
-        "created": "2026-04-08T18:04:00+10:00",
-        "updated": "2026-04-08T18:04:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.812479,
-          -35.770033
-        ]
-      }
-    },
-    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -6962,13 +7015,13 @@
         "sourceId": "651585",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Miralai Road Bondi State Forest",
-        "id": "2026-04-06T18:44:00.0000000:651585",
+        "id": "2026-04-09T08:46:00.0000000:651585",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Miralai Road Bondi State Forest",
         "location": "Forestry Hr Miralai North Plantation, Bondio State Forest",
-        "created": "2026-04-06T18:44:00+10:00",
-        "updated": "2026-04-06T18:44:00+10:00",
+        "created": "2026-04-09T08:46:00+10:00",
+        "updated": "2026-04-09T08:46:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -7906,56 +7959,6 @@
             "coordinates": [
               [
                 [
-                  148.1701,
-                  -35.603
-                ],
-                [
-                  148.1693,
-                  -35.6035
-                ],
-                [
-                  148.1694,
-                  -35.6031
-                ],
-                [
-                  148.1705,
-                  -35.6027
-                ],
-                [
-                  148.1701,
-                  -35.603
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.1716,
-                  -35.6018
-                ],
-                [
-                  148.1713,
-                  -35.6019
-                ],
-                [
-                  148.1721,
-                  -35.6015
-                ],
-                [
-                  148.1716,
-                  -35.6018
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
                   148.1942,
                   -35.5858
                 ],
@@ -8229,6 +8232,56 @@
             ]
           },
           {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.1701,
+                  -35.603
+                ],
+                [
+                  148.1693,
+                  -35.6035
+                ],
+                [
+                  148.1694,
+                  -35.6031
+                ],
+                [
+                  148.1705,
+                  -35.6027
+                ],
+                [
+                  148.1701,
+                  -35.603
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.1716,
+                  -35.6018
+                ],
+                [
+                  148.1713,
+                  -35.6019
+                ],
+                [
+                  148.1721,
+                  -35.6015
+                ],
+                [
+                  148.1716,
+                  -35.6018
+                ]
+              ]
+            ]
+          },
+          {
             "type": "Point",
             "coordinates": [
               148.189945221,
@@ -8405,6 +8458,36 @@
     {
       "properties": {
         "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "653321",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Estate Rd, Mathoura",
+        "id": "2026-04-08T18:04:00.0000000:653321",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Estate Rd, Mathoura",
+        "location": "Estate Rd, Mathoura 2710",
+        "created": "2026-04-08T18:04:00+10:00",
+        "updated": "2026-04-08T18:04:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.812479,
+          -35.770033
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
         "cfaId": 254298,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -8463,20 +8546,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 272304,
+        "cfaId": 272307,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 272304,
+        "sourceId": 272307,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Centenary Cr",
-        "eventId": 260408624,
-        "id": "ESTA:260408624",
+        "sourceTitle": "Glenfern Rd",
+        "eventId": 260408713,
+        "id": "ESTA:260408713",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-04-08T20:57:00.000Z",
-        "updated": "2026-04-08T20:59:00.000Z",
+        "created": "2026-04-08T22:20:00.000Z",
+        "updated": "2026-04-08T22:22:00.000Z",
         "resources": 0,
-        "location": "Centenary Cr, Werribee",
+        "location": "Glenfern Rd, Upwey",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -8484,176 +8567,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.65628334238542,
-          -37.88831520488024
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272301,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272301,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Warringa Cr",
-        "eventId": 260408602,
-        "id": "ESTA:260408602",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-08T20:10:00.000Z",
-        "updated": "2026-04-08T21:16:00.000Z",
-        "resources": 0,
-        "location": "Warringa Cr, Hoppers Crossing",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.68862245738003,
-          -37.8838906344181
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272302,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272302,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Navigator-Dunnstown Rd",
-        "eventId": 260408604,
-        "id": "ESTA:260408604",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-08T20:18:00.000Z",
-        "updated": "2026-04-08T21:25:00.000Z",
-        "resources": 0,
-        "location": "Navigator-Dunnstown Rd, Dunnstown",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.96590891538102,
-          -37.598587679696784
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272303,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272303,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Fwy",
-        "eventId": 260408618,
-        "id": "ESTA:260408618",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-08T20:45:00.000Z",
-        "updated": "2026-04-08T21:35:00.000Z",
-        "resources": 0,
-        "location": "Princes Fwy, Tynong North",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.61032987357436,
-          -38.0676808195138
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 604925,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604925,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450424,
-        "id": "ESTA:260450424",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-08T20:14:45.000Z",
-        "updated": "2026-04-08T21:22:59.000Z",
-        "resources": 1,
-        "location": "Kensington"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91681192736564,
-          -37.795593128936325
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 604926,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 604926,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450425,
-        "id": "ESTA:260450425",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-08T20:39:56.000Z",
-        "updated": "2026-04-08T21:29:36.000Z",
-        "resources": 1,
-        "location": "South Melbourne"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96685920055216,
-          -37.836209657839795
+          145.33528571387384,
+          -37.917066831236696
         ]
       }
     },
     {
       "properties": {
         "status": "Request For Assistance",
-        "sesId": 604928,
+        "sesId": 604931,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 604928,
+        "sourceId": 604931,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260450427,
-        "id": "ESTA:260450427",
+        "eventId": 260450430,
+        "id": "ESTA:260450430",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2026-04-08T21:21:55.000Z",
-        "updated": "2026-04-08T21:30:07.000Z",
+        "created": "2026-04-08T22:29:13.000Z",
+        "updated": "2026-04-08T22:32:19.000Z",
         "resources": 0,
-        "location": "Donvale"
+        "location": "Scotsburn"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.17869136956188,
-          -37.796816115650444
+          143.9193480107123,
+          -37.666733352900636
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 604932,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 604932,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450431,
+        "id": "ESTA:260450431",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-08T22:38:46.000Z",
+        "updated": "2026-04-08T22:41:16.000Z",
+        "resources": 0,
+        "location": "Mount Waverley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14220261124206,
+          -37.871487138166216
         ]
       }
     }
@@ -8885,7 +8854,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-08T21:54:00.654Z",
-    "featureCount": 302
+    "lastUpdated": "2026-04-08T22:54:00.603Z",
+    "featureCount": 301
   }
 }
