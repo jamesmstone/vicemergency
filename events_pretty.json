@@ -1449,30 +1449,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123725209,
+        "status": "Request For Assistance",
+        "estaId": 123725333,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123725209,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Brunswick East",
-        "eventId": "F260409384",
-        "id": "ESTA:260409384",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 605080,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450590,
+        "id": "ESTA:260450590",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-09T19:39:13.000Z",
-        "updated": "2026-04-09T19:40:09.152Z",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-04-09T20:19:58.000Z",
+        "updated": "2026-04-09T20:22:52.000Z",
         "resources": 0,
-        "location": "Lygon St, Brunswick East"
+        "location": "St Albans",
+        "sesId": 605080
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97191342187355,
-          -37.76941626535009
+          144.8107093362955,
+          -37.736300560145885
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123725286,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123725286,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Wodonga",
+        "eventId": "F260409392",
+        "id": "ESTA:260409392",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-04-09T20:01:50.000Z",
+        "updated": "2026-04-09T20:23:54.702Z",
+        "resources": 2,
+        "location": "Wodonga"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87826620437554,
+          -36.12999358670734
         ]
       }
     },
@@ -1482,14 +1512,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/d1162f304d226001421e21f60d64d2d1",
+        "sourceId": "IDV20600/d4afb001f725d4b4f94a87543b381fd6",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/d1162f304d226001421e21f60d64d2d1",
+        "id": "IDV20600/d4afb001f725d4b4f94a87543b381fd6",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2026-04-09T18:00:00.000Z",
+        "created": "2026-04-09T20:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2777,14 +2807,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/2d23e2d3a6a8715884b2a05f96381fe5",
+        "sourceId": "IDV20600/79f100a801e368b98b40ee2e3698e9a8",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/2d23e2d3a6a8715884b2a05f96381fe5",
+        "id": "IDV20600/79f100a801e368b98b40ee2e3698e9a8",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-04-09T18:00:00.000Z",
+        "created": "2026-04-09T20:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -9632,6 +9662,33 @@
           -36.68979190982039
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 605079,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 605079,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450589,
+        "id": "ESTA:260450589",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-09T20:08:17.000Z",
+        "updated": "2026-04-09T20:24:33.000Z",
+        "resources": 1,
+        "location": "Brandy Creek"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92205557451453,
+          -38.100252814654944
+        ]
+      }
     }
   ],
   "properties": {
@@ -9861,7 +9918,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-09T19:42:40.742Z",
-    "featureCount": 274
+    "lastUpdated": "2026-04-09T20:33:02.465Z",
+    "featureCount": 276
   }
 }
