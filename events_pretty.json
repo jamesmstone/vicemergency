@@ -847,24 +847,24 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 123737962,
+        "status": "Responding",
+        "estaId": 123738189,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 272548,
+        "sourceId": 272551,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Fletcher Rd",
-        "eventId": 260410200,
-        "id": "ESTA:260410200",
+        "sourceTitle": "Porters Rd",
+        "eventId": 260410212,
+        "id": "ESTA:260410212",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-10T18:41:00.000Z",
-        "updated": "2026-04-10T18:56:00.000Z",
-        "resources": 2,
-        "location": "Fletcher Rd, Craigieburn North",
-        "cfaId": 272548,
+        "category2": "Bushfire",
+        "created": "2026-04-10T19:45:00.000Z",
+        "updated": "2026-04-10T19:45:00.000Z",
+        "resources": 1,
+        "location": "Porters Rd, Benalla",
+        "cfaId": 272551,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -872,60 +872,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9200870261321,
-          -37.57380581966814
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123738025,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123738025,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Camberwell",
-        "eventId": "F260410203",
-        "id": "ESTA:260410203",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-04-10T18:56:40.000Z",
-        "updated": "2026-04-10T18:59:40.082Z",
-        "resources": 3,
-        "location": "Lynden St, Camberwell"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.08620247028986,
-          -37.84157448723416
+          145.94530306770528,
+          -36.51418707947161
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123737977,
+        "estaId": 123738212,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 272549,
+        "sourceId": 272552,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Latchford Dr",
-        "eventId": 260410201,
-        "id": "ESTA:260410201",
+        "sourceTitle": "Nicholson St",
+        "eventId": 260410213,
+        "id": "ESTA:260410213",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2026-04-10T18:46:00.000Z",
-        "updated": "2026-04-10T18:46:00.000Z",
-        "resources": 4,
-        "location": "Latchford Dr, Mickleham",
-        "cfaId": 272549,
+        "created": "2026-04-10T19:52:00.000Z",
+        "updated": "2026-04-10T19:52:00.000Z",
+        "resources": 0,
+        "location": "Nicholson St, Bairnsdale",
+        "cfaId": 272552,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -933,8 +904,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90144858343007,
-          -37.543591994813355
+          147.62710760809586,
+          -37.82530718481992
         ]
       }
     },
@@ -4054,6 +4025,64 @@
           -36.825008548352905
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272549,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272549,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Latchford Dr",
+        "eventId": 260410201,
+        "id": "ESTA:260410201",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-10T18:46:00.000Z",
+        "updated": "2026-04-10T19:06:00.000Z",
+        "resources": 1,
+        "location": "Latchford Dr, Mickleham",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.90140782579795,
+          -37.54383459495294
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 272548,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272548,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fletcher Rd",
+        "eventId": 260410200,
+        "id": "ESTA:260410200",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-10T18:41:00.000Z",
+        "updated": "2026-04-10T19:41:00.000Z",
+        "resources": 0,
+        "location": "Fletcher Rd, Craigieburn North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9200870261321,
+          -37.57380581966814
+        ]
+      }
     }
   ],
   "properties": {
@@ -4070,6 +4099,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4077,8 +4107,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4094,6 +4123,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4101,8 +4131,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-10T14:00:00.000Z",
           "heat": {
@@ -4283,7 +4312,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-10T19:06:40.668Z",
-    "featureCount": 246
+    "lastUpdated": "2026-04-10T19:58:00.461Z",
+    "featureCount": 247
   }
 }
