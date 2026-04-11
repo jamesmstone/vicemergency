@@ -745,30 +745,33 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123750730,
+        "status": "Safe",
+        "estaId": 123750301,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123750730,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Toorak",
-        "eventId": "F260411343",
-        "id": "ESTA:260411343",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272679,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wellington Rd",
+        "eventId": 260411333,
+        "id": "ESTA:260411333",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-04-11T19:37:58.000Z",
-        "updated": "2026-04-11T19:40:04.217Z",
-        "resources": 0,
-        "location": "Glenferrie Rd, Toorak"
+        "category2": "Other",
+        "created": "2026-04-11T17:51:00.000Z",
+        "updated": "2026-04-11T19:49:00.000Z",
+        "resources": 3,
+        "location": "Wellington Rd, Narre Warren East",
+        "cfaId": 272679,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.032544365568,
-          -37.83812317627776
+          145.37879533318676,
+          -37.95812973361615
         ]
       }
     },
@@ -3921,64 +3924,6 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 272679,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272679,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wellington Rd",
-        "eventId": 260411333,
-        "id": "ESTA:260411333",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-11T17:51:00.000Z",
-        "updated": "2026-04-11T18:04:00.000Z",
-        "resources": 3,
-        "location": "Wellington Rd, Narre Warren East",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.37879533318676,
-          -37.95812973361615
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 272682,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272682,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gilbert St",
-        "eventId": 260411337,
-        "id": "ESTA:260411337",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-11T18:13:00.000Z",
-        "updated": "2026-04-11T18:54:00.000Z",
-        "resources": 0,
-        "location": "Gilbert St, Wodonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.87931832786728,
-          -36.13635381295004
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
         "cfaId": 272683,
         "feedType": "incident",
@@ -3992,7 +3937,7 @@
         "category2": "Bushfire",
         "created": "2026-04-11T18:51:00.000Z",
         "updated": "2026-04-11T19:22:00.000Z",
-        "resources": 3,
+        "resources": 0,
         "location": "Jacksons Trk, Jindivick",
         "size": "Small",
         "sizeFmt": "Small"
@@ -4039,7 +3984,7 @@
       "fdr": {
         "East Gippsland": "MODERATE",
         "West and South Gippsland": "MODERATE",
-        "North East": "MODERATE",
+        "North East": "NO FORECAST",
         "Central": "MODERATE",
         "North Central": "MODERATE",
         "Northern Country": "MODERATE",
@@ -4048,6 +3993,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4055,15 +4001,14 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
           "fdr": {
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
-            "North East": "MODERATE",
+            "North East": "NO FORECAST",
             "Central": "MODERATE",
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
@@ -4072,6 +4017,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4079,8 +4025,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-11T14:00:00.000Z",
           "heat": {
@@ -4261,7 +4206,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-11T19:41:40.795Z",
-    "featureCount": 242
+    "lastUpdated": "2026-04-11T20:00:40.530Z",
+    "featureCount": 240
   }
 }
