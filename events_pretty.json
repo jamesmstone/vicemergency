@@ -773,31 +773,91 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 123760984,
+        "status": "Safe",
+        "estaId": 123761135,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 605360,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260450840,
-        "id": "ESTA:260450840",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123761135,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Coolaroo",
+        "eventId": "F260412149",
+        "id": "ESTA:260412149",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-12T16:39:55.000Z",
-        "updated": "2026-04-12T16:44:00.000Z",
-        "resources": 0,
-        "location": "Gentle Annie",
-        "sesId": 605360
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-04-12T17:22:41.000Z",
+        "updated": "2026-04-12T17:34:26.282Z",
+        "resources": 4,
+        "location": "Norval Cr, Coolaroo"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8131264413747,
-          -37.87132316037486
+          144.92922163092177,
+          -37.65665781355343
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123760958,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 272806,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wellington Rd",
+        "eventId": 260412144,
+        "id": "ESTA:260412144",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-04-12T16:33:00.000Z",
+        "updated": "2026-04-12T17:36:00.000Z",
+        "resources": 0,
+        "location": "Wellington Rd, Warburton",
+        "cfaId": 272806,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.68445484037716,
+          -37.750592742439686
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123761158,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123761158,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Brunswick",
+        "eventId": "F260412151",
+        "id": "ESTA:260412151",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-04-12T17:28:38.000Z",
+        "updated": "2026-04-12T17:42:38.276Z",
+        "resources": 3,
+        "location": "Brunswick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96327870969486,
+          -37.75915446950155
         ]
       }
     },
@@ -1885,118 +1945,6 @@
     {
       "type": "Feature",
       "properties": {
-        "status": "Being Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "654085",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Nullica Short Cut Rd, Nullica",
-        "id": "2026-04-12T17:02:00.0000000:654085",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Nullica Short Cut Rd, Nullica",
-        "location": "Nullica Short Cut Rd, Nullica 2551",
-        "created": "2026-04-12T17:02:00+10:00",
-        "updated": "2026-04-12T17:02:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.8403,
-                  -37.1011
-                ],
-                [
-                  149.8408,
-                  -37.1017
-                ],
-                [
-                  149.8408,
-                  -37.1021
-                ],
-                [
-                  149.8406,
-                  -37.1029
-                ],
-                [
-                  149.8403,
-                  -37.1031
-                ],
-                [
-                  149.8393,
-                  -37.102
-                ],
-                [
-                  149.839,
-                  -37.1013
-                ],
-                [
-                  149.8395,
-                  -37.1008
-                ],
-                [
-                  149.8399,
-                  -37.1008
-                ],
-                [
-                  149.8403,
-                  -37.1011
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.84027,
-              -37.1013799999999
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "653920",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Melrose Lane, Lalalty",
-        "id": "2026-04-13T02:09:00.0000000:653920",
-        "category1": "Fire",
-        "category2": "Grass Fire",
-        "name": "Melrose Lane, Lalalty",
-        "location": "Melrose Lane, Lalalty 3644",
-        "created": "2026-04-13T02:09:00+10:00",
-        "updated": "2026-04-13T02:09:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.750538,
-          -35.7962699999999
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
@@ -2548,6 +2496,118 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "654085",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Nullica Short Cut Rd, Nullica",
+        "id": "2026-04-12T17:02:00.0000000:654085",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Nullica Short Cut Rd, Nullica",
+        "location": "Nullica Short Cut Rd, Nullica 2551",
+        "created": "2026-04-12T17:02:00+10:00",
+        "updated": "2026-04-12T17:02:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.8403,
+                  -37.1011
+                ],
+                [
+                  149.8408,
+                  -37.1017
+                ],
+                [
+                  149.8408,
+                  -37.1021
+                ],
+                [
+                  149.8406,
+                  -37.1029
+                ],
+                [
+                  149.8403,
+                  -37.1031
+                ],
+                [
+                  149.8393,
+                  -37.102
+                ],
+                [
+                  149.839,
+                  -37.1013
+                ],
+                [
+                  149.8395,
+                  -37.1008
+                ],
+                [
+                  149.8399,
+                  -37.1008
+                ],
+                [
+                  149.8403,
+                  -37.1011
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.84027,
+              -37.1013799999999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "653920",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Melrose Lane, Lalalty",
+        "id": "2026-04-13T02:09:00.0000000:653920",
+        "category1": "Fire",
+        "category2": "Grass Fire",
+        "name": "Melrose Lane, Lalalty",
+        "location": "Melrose Lane, Lalalty 3644",
+        "created": "2026-04-13T02:09:00+10:00",
+        "updated": "2026-04-13T02:09:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.750538,
+          -35.7962699999999
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 254298,
@@ -2607,59 +2667,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 272804,
+        "status": "Request For Assistance",
+        "sesId": 605361,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272804,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Toora St",
-        "eventId": 260412141,
-        "id": "ESTA:260412141",
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-04-12T15:51:00.000Z",
-        "updated": "2026-04-12T16:22:00.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 605361,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450841,
+        "id": "ESTA:260450841",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-04-12T17:15:51.000Z",
+        "updated": "2026-04-12T17:19:02.000Z",
         "resources": 0,
-        "location": "Toora St, Morwell",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Newborough"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.42031177727296,
-          -38.228437895797036
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 272806,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 272806,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wellington Rd",
-        "eventId": 260412144,
-        "id": "ESTA:260412144",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-12T16:33:00.000Z",
-        "updated": "2026-04-12T16:33:00.000Z",
-        "resources": 4,
-        "location": "Wellington Rd, Warburton",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.68460091402738,
-          -37.750035586714695
+          146.3003344766037,
+          -38.1772243165865
         ]
       }
     }
@@ -2678,7 +2707,6 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2686,7 +2714,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2702,7 +2731,6 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2710,7 +2738,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-12T14:00:00.000Z",
           "heat": {
@@ -2891,7 +2920,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-12T16:52:22.294Z",
-    "featureCount": 237
+    "lastUpdated": "2026-04-12T17:46:00.535Z",
+    "featureCount": 238
   }
 }
