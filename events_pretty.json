@@ -672,59 +672,32 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123783902,
+        "estaId": 123784114,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123783902,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Fitzroy North",
-        "eventId": "F260414577",
-        "id": "ESTA:260414577",
+        "source": "",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273051,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pheasant Pde",
+        "eventId": 260414586,
+        "id": "ESTA:260414586",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-04-14T10:39:02.000Z",
-        "updated": "2026-04-14T10:41:57.232Z",
+        "category2": "Other",
+        "created": "2026-04-14T11:07:00.000Z",
+        "updated": "2026-04-14T11:27:00.000Z",
         "resources": 0,
-        "location": "St Georges Rd, Fitzroy North"
+        "location": "Pheasant Pde, Warburton",
+        "cfaId": 273051,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98075723897557,
-          -37.78762727537863
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 123783952,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 605460,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260414580,
-        "id": "ESTA:260414580",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue High Angle",
-        "created": "2026-04-14T10:47:34.000Z",
-        "updated": "2026-04-14T10:48:31.000Z",
-        "resources": 0,
-        "location": "Shepparton",
-        "sesId": 605460
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3704969872445,
-          -36.34757253632095
+          145.71034044634806,
+          -37.754835448784114
         ]
       }
     },
@@ -1790,84 +1763,6 @@
         "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
-        "sourceId": "651687",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Beasleys Road, Towamba State Forest",
-        "id": "2026-04-14T15:22:00.0000000:651687",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Beasleys Road, Towamba State Forest",
-        "location": "Towamba",
-        "created": "2026-04-14T15:22:00+10:00",
-        "updated": "2026-04-14T15:22:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "177 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.6885,
-                  -37.1036
-                ],
-                [
-                  149.6855,
-                  -37.1184
-                ],
-                [
-                  149.672,
-                  -37.1167
-                ],
-                [
-                  149.6708,
-                  -37.122
-                ],
-                [
-                  149.6637,
-                  -37.121
-                ],
-                [
-                  149.6704,
-                  -37.117
-                ],
-                [
-                  149.6775,
-                  -37.1069
-                ],
-                [
-                  149.6886,
-                  -37.1025
-                ],
-                [
-                  149.6885,
-                  -37.1036
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.681506183,
-              -37.111627292
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
         "sourceId": "654374",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Radiata Road Tumba Pine State Forest",
@@ -2740,6 +2635,84 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651687",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Beasleys Road, Towamba State Forest",
+        "id": "2026-04-14T15:22:00.0000000:651687",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Beasleys Road, Towamba State Forest",
+        "location": "Towamba",
+        "created": "2026-04-14T15:22:00+10:00",
+        "updated": "2026-04-14T15:22:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "177 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.6885,
+                  -37.1036
+                ],
+                [
+                  149.6855,
+                  -37.1184
+                ],
+                [
+                  149.672,
+                  -37.1167
+                ],
+                [
+                  149.6708,
+                  -37.122
+                ],
+                [
+                  149.6637,
+                  -37.121
+                ],
+                [
+                  149.6704,
+                  -37.117
+                ],
+                [
+                  149.6775,
+                  -37.1069
+                ],
+                [
+                  149.6886,
+                  -37.1025
+                ],
+                [
+                  149.6885,
+                  -37.1036
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.681506183,
+              -37.111627292
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 254298,
@@ -2770,86 +2743,31 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 273037,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273037,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sapling Bvd",
-        "eventId": 260414463,
-        "id": "ESTA:260414463",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-14T07:52:00.000Z",
-        "updated": "2026-04-14T09:52:00.000Z",
-        "resources": 0,
-        "location": "Sapling Bvd, Tarneit",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6895671600638,
-          -37.82380382542416
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 273045,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273045,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Culmara Ct",
-        "eventId": 260414557,
-        "id": "ESTA:260414557",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-14T09:52:00.000Z",
-        "updated": "2026-04-14T09:54:00.000Z",
-        "resources": 0,
-        "location": "Culmara Ct, Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.32013315590459,
-          -38.017957087291315
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 605457,
+        "status": "Request For Assistance",
+        "cfaId": 273048,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 605457,
+        "sourceId": 605460,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260450939,
-        "id": "ESTA:260450939",
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-04-14T07:51:58.000Z",
-        "updated": "2026-04-14T09:47:46.000Z",
-        "resources": 1,
-        "location": "Tarneit"
+        "eventId": 260414580,
+        "id": "ESTA:260414580",
+        "category1": "Rescue",
+        "category2": "Rescue High Angle",
+        "created": "2026-04-14T10:47:34.000Z",
+        "updated": "2026-04-14T11:26:11.000Z",
+        "resources": 4,
+        "location": "Shepparton",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 605460
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6895671600638,
-          -37.82380382542416
+          145.3704969872445,
+          -36.34757253632095
         ]
       }
     }
@@ -3081,7 +2999,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-14T10:49:20.995Z",
-    "featureCount": 223
+    "lastUpdated": "2026-04-14T12:04:01.770Z",
+    "featureCount": 220
   }
 }
