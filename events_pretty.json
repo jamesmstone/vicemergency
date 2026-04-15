@@ -922,6 +922,99 @@
       }
     },
     {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123799954,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123799954,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Altona",
+        "eventId": "F260416242",
+        "id": "ESTA:260416242",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-04-15T17:21:23.000Z",
+        "updated": "2026-04-15T17:32:43.928Z",
+        "resources": 5,
+        "location": "Somers Pde, Altona"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.81139477511047,
+          -37.870016098477066
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123800019,
+        "feedType": "incident",
+        "source": "PAL",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273193,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kingswood Dr",
+        "eventId": 260416250,
+        "id": "ESTA:260416250",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-04-15T17:42:00.000Z",
+        "updated": "2026-04-15T17:42:00.000Z",
+        "resources": 2,
+        "location": "Kingswood Dr, Chirnside Park",
+        "cfaId": 273193,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32703149820412,
+          -37.75538819814646
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123800015,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273192,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Twyford Rd",
+        "eventId": 260416249,
+        "id": "ESTA:260416249",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-15T17:41:00.000Z",
+        "updated": "2026-04-15T17:41:00.000Z",
+        "resources": 2,
+        "location": "Twyford Rd, Clyde",
+        "cfaId": 273192,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33178066939197,
+          -38.13261864261735
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -3902,7 +3995,7 @@
         "category2": "Building Fire",
         "created": "2026-04-15T13:06:00.000Z",
         "updated": "2026-04-15T13:06:00.000Z",
-        "resources": 13,
+        "resources": 16,
         "location": "Refinery Rd, Corio",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3913,6 +4006,89 @@
         "coordinates": [
           144.37248785370574,
           -38.076570158066204
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 273189,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273189,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pearce St",
+        "eventId": 260416240,
+        "id": "ESTA:260416240",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-15T17:05:00.000Z",
+        "updated": "2026-04-15T17:23:00.000Z",
+        "resources": 0,
+        "location": "Pearce St, Wodonga",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87542809036523,
+          -36.13644900321705
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 605500,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 605500,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450975,
+        "id": "ESTA:260450975",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-04-15T17:19:24.000Z",
+        "updated": "2026-04-15T17:41:20.000Z",
+        "resources": 1,
+        "location": "Wyndham Vale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.61576249331674,
+          -37.875543247350606
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 605501,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 605501,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260450976,
+        "id": "ESTA:260450976",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2026-04-15T17:25:03.000Z",
+        "updated": "2026-04-15T17:43:49.000Z",
+        "resources": 0,
+        "location": "Altona"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.81194094566098,
+          -37.8700008206684
         ]
       }
     }
@@ -4144,7 +4320,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-15T16:42:40.947Z",
-    "featureCount": 224
+    "lastUpdated": "2026-04-15T17:47:21.307Z",
+    "featureCount": 230
   }
 }
