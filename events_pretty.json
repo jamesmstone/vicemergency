@@ -783,53 +783,85 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123792325,
+        "status": "Responding",
+        "estaId": 123794037,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123792325,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Meadow Heights",
-        "eventId": "F260415633",
-        "id": "ESTA:260415633",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273130,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Baines Cr",
+        "eventId": 260415870,
+        "id": "ESTA:260415870",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-04-15T03:50:50.000Z",
-        "updated": "2026-04-15T04:05:56.194Z",
+        "category2": "Building Fire",
+        "created": "2026-04-15T06:02:00.000Z",
+        "updated": "2026-04-15T06:02:00.000Z",
         "resources": 3,
-        "location": "Malmsbury Dr, Meadow Heights"
+        "location": "Baines Cr, Torquay",
+        "cfaId": 273130,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.91450616561025,
-          -37.66259540899094
+          144.3137188282557,
+          -38.32769860825004
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123794001,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123794001,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mildura",
+        "eventId": "F260415867",
+        "id": "ESTA:260415867",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-04-15T05:55:37.000Z",
+        "updated": "2026-04-15T06:05:02.377Z",
+        "resources": 1,
+        "location": "Mildura"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.15184980382708,
+          -34.20229521511743
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123792619,
+        "estaId": 123794142,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIP",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 273124,
+        "sourceId": 273131,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hollywood Bvd",
-        "eventId": 260415681,
-        "id": "ESTA:260415681",
+        "sourceTitle": "Market Rd",
+        "eventId": 260415882,
+        "id": "ESTA:260415882",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2026-04-15T04:13:00.000Z",
-        "updated": "2026-04-15T04:13:00.000Z",
-        "resources": 3,
-        "location": "Hollywood Bvd, Point Lonsdale",
-        "cfaId": 273124,
+        "created": "2026-04-15T06:10:00.000Z",
+        "updated": "2026-04-15T06:10:00.000Z",
+        "resources": 2,
+        "location": "Market Rd, Werribee",
+        "cfaId": 273131,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -837,40 +869,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.61143716712567,
-          -38.27364689673458
+          144.65891260232414,
+          -37.89576574719481
         ]
       }
     },
     {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123792140,
-        "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273119,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Swanston St",
-        "eventId": 260415598,
-        "id": "ESTA:260415598",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-15T03:38:00.000Z",
-        "updated": "2026-04-15T04:16:00.000Z",
-        "resources": 3,
-        "location": "Swanston St, Harrow",
-        "cfaId": 273119,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
       "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651687",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Beasleys Road, Towamba State Forest",
+        "id": "2026-04-14T15:22:00.0000000:651687",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Beasleys Road, Towamba State Forest",
+        "location": "Towamba",
+        "created": "2026-04-14T15:22:00+10:00",
+        "updated": "2026-04-14T15:22:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "177 ha"
+        ]
+      },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.59226174115557,
-          -37.1639742212137
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.6885,
+                  -37.1036
+                ],
+                [
+                  149.6855,
+                  -37.1184
+                ],
+                [
+                  149.672,
+                  -37.1167
+                ],
+                [
+                  149.6708,
+                  -37.122
+                ],
+                [
+                  149.6637,
+                  -37.121
+                ],
+                [
+                  149.6704,
+                  -37.117
+                ],
+                [
+                  149.6775,
+                  -37.1069
+                ],
+                [
+                  149.6886,
+                  -37.1025
+                ],
+                [
+                  149.6885,
+                  -37.1036
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.681506183,
+              -37.111627292
+            ]
+          }
         ]
       }
     },
@@ -899,324 +977,6 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6329,
-                  -35.6732
-                ],
-                [
-                  147.6399,
-                  -35.6753
-                ],
-                [
-                  147.6444,
-                  -35.6745
-                ],
-                [
-                  147.6409,
-                  -35.6761
-                ],
-                [
-                  147.6343,
-                  -35.6742
-                ],
-                [
-                  147.6294,
-                  -35.675
-                ],
-                [
-                  147.6329,
-                  -35.6732
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6242,
-                  -35.6733
-                ],
-                [
-                  147.6205,
-                  -35.6735
-                ],
-                [
-                  147.6256,
-                  -35.6747
-                ],
-                [
-                  147.6264,
-                  -35.6784
-                ],
-                [
-                  147.6241,
-                  -35.6789
-                ],
-                [
-                  147.6265,
-                  -35.6791
-                ],
-                [
-                  147.628,
-                  -35.6835
-                ],
-                [
-                  147.6217,
-                  -35.6814
-                ],
-                [
-                  147.6202,
-                  -35.6732
-                ],
-                [
-                  147.6242,
-                  -35.6733
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6434,
-                  -35.6786
-                ],
-                [
-                  147.6401,
-                  -35.6792
-                ],
-                [
-                  147.6466,
-                  -35.6798
-                ],
-                [
-                  147.6468,
-                  -35.6822
-                ],
-                [
-                  147.6378,
-                  -35.6845
-                ],
-                [
-                  147.6424,
-                  -35.6818
-                ],
-                [
-                  147.6365,
-                  -35.6843
-                ],
-                [
-                  147.6356,
-                  -35.6834
-                ],
-                [
-                  147.6383,
-                  -35.6826
-                ],
-                [
-                  147.6337,
-                  -35.6836
-                ],
-                [
-                  147.639,
-                  -35.6805
-                ],
-                [
-                  147.6456,
-                  -35.6821
-                ],
-                [
-                  147.645,
-                  -35.6803
-                ],
-                [
-                  147.6367,
-                  -35.6808
-                ],
-                [
-                  147.6377,
-                  -35.6792
-                ],
-                [
-                  147.6434,
-                  -35.6786
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6384,
-                  -35.6762
-                ],
-                [
-                  147.6325,
-                  -35.6785
-                ],
-                [
-                  147.6348,
-                  -35.6776
-                ],
-                [
-                  147.6304,
-                  -35.6811
-                ],
-                [
-                  147.6385,
-                  -35.6766
-                ],
-                [
-                  147.635,
-                  -35.6806
-                ],
-                [
-                  147.6292,
-                  -35.6836
-                ],
-                [
-                  147.6367,
-                  -35.6783
-                ],
-                [
-                  147.6292,
-                  -35.6824
-                ],
-                [
-                  147.6334,
-                  -35.6788
-                ],
-                [
-                  147.6288,
-                  -35.6805
-                ],
-                [
-                  147.6292,
-                  -35.6794
-                ],
-                [
-                  147.6356,
-                  -35.6772
-                ],
-                [
-                  147.6345,
-                  -35.6764
-                ],
-                [
-                  147.6384,
-                  -35.6762
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6416,
-                  -35.6762
-                ],
-                [
-                  147.6422,
-                  -35.6772
-                ],
-                [
-                  147.6432,
-                  -35.6776
-                ],
-                [
-                  147.6422,
-                  -35.6777
-                ],
-                [
-                  147.6416,
-                  -35.6776
-                ],
-                [
-                  147.6409,
-                  -35.6781
-                ],
-                [
-                  147.6389,
-                  -35.6782
-                ],
-                [
-                  147.6359,
-                  -35.6796
-                ],
-                [
-                  147.6356,
-                  -35.6799
-                ],
-                [
-                  147.6358,
-                  -35.6795
-                ],
-                [
-                  147.6384,
-                  -35.6775
-                ],
-                [
-                  147.6393,
-                  -35.6764
-                ],
-                [
-                  147.6416,
-                  -35.6762
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.6517,
-                  -35.6745
-                ],
-                [
-                  147.6496,
-                  -35.6802
-                ],
-                [
-                  147.6478,
-                  -35.6811
-                ],
-                [
-                  147.6466,
-                  -35.6786
-                ],
-                [
-                  147.6439,
-                  -35.6787
-                ],
-                [
-                  147.6473,
-                  -35.6774
-                ],
-                [
-                  147.649,
-                  -35.6747
-                ],
-                [
-                  147.6517,
-                  -35.6745
-                ]
-              ]
-            ]
-          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -1552,6 +1312,324 @@
             ]
           },
           {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6329,
+                  -35.6732
+                ],
+                [
+                  147.6399,
+                  -35.6753
+                ],
+                [
+                  147.6444,
+                  -35.6745
+                ],
+                [
+                  147.6409,
+                  -35.6761
+                ],
+                [
+                  147.6343,
+                  -35.6742
+                ],
+                [
+                  147.6294,
+                  -35.675
+                ],
+                [
+                  147.6329,
+                  -35.6732
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6517,
+                  -35.6745
+                ],
+                [
+                  147.6496,
+                  -35.6802
+                ],
+                [
+                  147.6478,
+                  -35.6811
+                ],
+                [
+                  147.6466,
+                  -35.6786
+                ],
+                [
+                  147.6439,
+                  -35.6787
+                ],
+                [
+                  147.6473,
+                  -35.6774
+                ],
+                [
+                  147.649,
+                  -35.6747
+                ],
+                [
+                  147.6517,
+                  -35.6745
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6242,
+                  -35.6733
+                ],
+                [
+                  147.6205,
+                  -35.6735
+                ],
+                [
+                  147.6256,
+                  -35.6747
+                ],
+                [
+                  147.6264,
+                  -35.6784
+                ],
+                [
+                  147.6241,
+                  -35.6789
+                ],
+                [
+                  147.6265,
+                  -35.6791
+                ],
+                [
+                  147.628,
+                  -35.6835
+                ],
+                [
+                  147.6217,
+                  -35.6814
+                ],
+                [
+                  147.6202,
+                  -35.6732
+                ],
+                [
+                  147.6242,
+                  -35.6733
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6434,
+                  -35.6786
+                ],
+                [
+                  147.6401,
+                  -35.6792
+                ],
+                [
+                  147.6466,
+                  -35.6798
+                ],
+                [
+                  147.6468,
+                  -35.6822
+                ],
+                [
+                  147.6378,
+                  -35.6845
+                ],
+                [
+                  147.6424,
+                  -35.6818
+                ],
+                [
+                  147.6365,
+                  -35.6843
+                ],
+                [
+                  147.6356,
+                  -35.6834
+                ],
+                [
+                  147.6383,
+                  -35.6826
+                ],
+                [
+                  147.6337,
+                  -35.6836
+                ],
+                [
+                  147.639,
+                  -35.6805
+                ],
+                [
+                  147.6456,
+                  -35.6821
+                ],
+                [
+                  147.645,
+                  -35.6803
+                ],
+                [
+                  147.6367,
+                  -35.6808
+                ],
+                [
+                  147.6377,
+                  -35.6792
+                ],
+                [
+                  147.6434,
+                  -35.6786
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6384,
+                  -35.6762
+                ],
+                [
+                  147.6325,
+                  -35.6785
+                ],
+                [
+                  147.6348,
+                  -35.6776
+                ],
+                [
+                  147.6304,
+                  -35.6811
+                ],
+                [
+                  147.6385,
+                  -35.6766
+                ],
+                [
+                  147.635,
+                  -35.6806
+                ],
+                [
+                  147.6292,
+                  -35.6836
+                ],
+                [
+                  147.6367,
+                  -35.6783
+                ],
+                [
+                  147.6292,
+                  -35.6824
+                ],
+                [
+                  147.6334,
+                  -35.6788
+                ],
+                [
+                  147.6288,
+                  -35.6805
+                ],
+                [
+                  147.6292,
+                  -35.6794
+                ],
+                [
+                  147.6356,
+                  -35.6772
+                ],
+                [
+                  147.6345,
+                  -35.6764
+                ],
+                [
+                  147.6384,
+                  -35.6762
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.6416,
+                  -35.6762
+                ],
+                [
+                  147.6422,
+                  -35.6772
+                ],
+                [
+                  147.6432,
+                  -35.6776
+                ],
+                [
+                  147.6422,
+                  -35.6777
+                ],
+                [
+                  147.6416,
+                  -35.6776
+                ],
+                [
+                  147.6409,
+                  -35.6781
+                ],
+                [
+                  147.6389,
+                  -35.6782
+                ],
+                [
+                  147.6359,
+                  -35.6796
+                ],
+                [
+                  147.6356,
+                  -35.6799
+                ],
+                [
+                  147.6358,
+                  -35.6795
+                ],
+                [
+                  147.6384,
+                  -35.6775
+                ],
+                [
+                  147.6393,
+                  -35.6764
+                ],
+                [
+                  147.6416,
+                  -35.6762
+                ]
+              ]
+            ]
+          },
+          {
             "type": "Point",
             "coordinates": [
               147.705688476,
@@ -1586,6 +1664,96 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.8831,
+                  -35.6169
+                ],
+                [
+                  147.8826,
+                  -35.617
+                ],
+                [
+                  147.8823,
+                  -35.6172
+                ],
+                [
+                  147.8809,
+                  -35.6164
+                ],
+                [
+                  147.8827,
+                  -35.616
+                ],
+                [
+                  147.8841,
+                  -35.6159
+                ],
+                [
+                  147.8835,
+                  -35.6167
+                ],
+                [
+                  147.8831,
+                  -35.6169
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.8752,
+                  -35.6003
+                ],
+                [
+                  147.8745,
+                  -35.5994
+                ],
+                [
+                  147.8792,
+                  -35.6007
+                ],
+                [
+                  147.882,
+                  -35.6056
+                ],
+                [
+                  147.8812,
+                  -35.6077
+                ],
+                [
+                  147.8792,
+                  -35.6085
+                ],
+                [
+                  147.8763,
+                  -35.6001
+                ],
+                [
+                  147.8775,
+                  -35.602
+                ],
+                [
+                  147.8753,
+                  -35.6023
+                ],
+                [
+                  147.8726,
+                  -35.5987
+                ],
+                [
+                  147.8752,
+                  -35.6003
+                ]
+              ]
+            ]
+          },
           {
             "type": "Polygon",
             "coordinates": [
@@ -1676,6 +1844,84 @@
                 [
                   147.875,
                   -35.6024
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.8787,
+                  -35.6065
+                ],
+                [
+                  147.879,
+                  -35.6077
+                ],
+                [
+                  147.8758,
+                  -35.6092
+                ],
+                [
+                  147.8661,
+                  -35.6098
+                ],
+                [
+                  147.8681,
+                  -35.6099
+                ],
+                [
+                  147.8673,
+                  -35.6089
+                ],
+                [
+                  147.8697,
+                  -35.6079
+                ],
+                [
+                  147.872,
+                  -35.6088
+                ],
+                [
+                  147.8785,
+                  -35.6075
+                ],
+                [
+                  147.8696,
+                  -35.6077
+                ],
+                [
+                  147.8709,
+                  -35.6073
+                ],
+                [
+                  147.8787,
+                  -35.6065
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.8822,
+                  -35.6085
+                ],
+                [
+                  147.8818,
+                  -35.6106
+                ],
+                [
+                  147.8785,
+                  -35.6084
+                ],
+                [
+                  147.8822,
+                  -35.6085
                 ]
               ]
             ]
@@ -1781,174 +2027,6 @@
                 [
                   147.8871,
                   -35.6153
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.8831,
-                  -35.6169
-                ],
-                [
-                  147.8826,
-                  -35.617
-                ],
-                [
-                  147.8823,
-                  -35.6172
-                ],
-                [
-                  147.8809,
-                  -35.6164
-                ],
-                [
-                  147.8827,
-                  -35.616
-                ],
-                [
-                  147.8841,
-                  -35.6159
-                ],
-                [
-                  147.8835,
-                  -35.6167
-                ],
-                [
-                  147.8831,
-                  -35.6169
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.8752,
-                  -35.6003
-                ],
-                [
-                  147.8745,
-                  -35.5994
-                ],
-                [
-                  147.8792,
-                  -35.6007
-                ],
-                [
-                  147.882,
-                  -35.6056
-                ],
-                [
-                  147.8812,
-                  -35.6077
-                ],
-                [
-                  147.8792,
-                  -35.6085
-                ],
-                [
-                  147.8763,
-                  -35.6001
-                ],
-                [
-                  147.8775,
-                  -35.602
-                ],
-                [
-                  147.8753,
-                  -35.6023
-                ],
-                [
-                  147.8726,
-                  -35.5987
-                ],
-                [
-                  147.8752,
-                  -35.6003
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.8787,
-                  -35.6065
-                ],
-                [
-                  147.879,
-                  -35.6077
-                ],
-                [
-                  147.8758,
-                  -35.6092
-                ],
-                [
-                  147.8661,
-                  -35.6098
-                ],
-                [
-                  147.8681,
-                  -35.6099
-                ],
-                [
-                  147.8673,
-                  -35.6089
-                ],
-                [
-                  147.8697,
-                  -35.6079
-                ],
-                [
-                  147.872,
-                  -35.6088
-                ],
-                [
-                  147.8785,
-                  -35.6075
-                ],
-                [
-                  147.8696,
-                  -35.6077
-                ],
-                [
-                  147.8709,
-                  -35.6073
-                ],
-                [
-                  147.8787,
-                  -35.6065
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.8822,
-                  -35.6085
-                ],
-                [
-                  147.8818,
-                  -35.6106
-                ],
-                [
-                  147.8785,
-                  -35.6084
-                ],
-                [
-                  147.8822,
-                  -35.6085
                 ]
               ]
             ]
@@ -2439,84 +2517,6 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "651687",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Beasleys Road, Towamba State Forest",
-        "id": "2026-04-14T15:22:00.0000000:651687",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Beasleys Road, Towamba State Forest",
-        "location": "Towamba",
-        "created": "2026-04-14T15:22:00+10:00",
-        "updated": "2026-04-14T15:22:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "177 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.6885,
-                  -37.1036
-                ],
-                [
-                  149.6855,
-                  -37.1184
-                ],
-                [
-                  149.672,
-                  -37.1167
-                ],
-                [
-                  149.6708,
-                  -37.122
-                ],
-                [
-                  149.6637,
-                  -37.121
-                ],
-                [
-                  149.6704,
-                  -37.117
-                ],
-                [
-                  149.6775,
-                  -37.1069
-                ],
-                [
-                  149.6886,
-                  -37.1025
-                ],
-                [
-                  149.6885,
-                  -37.1036
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.681506183,
-              -37.111627292
-            ]
-          }
-        ]
-      }
-    },
-    {
       "properties": {
         "status": "Under Control",
         "cfaId": 254298,
@@ -2548,20 +2548,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 273114,
+        "cfaId": 273128,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 273114,
+        "sourceId": 273128,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Thompson Av",
-        "eventId": 260415423,
-        "id": "ESTA:260415423",
+        "sourceTitle": "Fairy Dell Rd",
+        "eventId": 260415805,
+        "id": "ESTA:260415805",
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2026-04-15T02:17:00.000Z",
-        "updated": "2026-04-15T03:20:00.000Z",
+        "created": "2026-04-15T05:16:00.000Z",
+        "updated": "2026-04-15T05:18:00.000Z",
         "resources": 0,
-        "location": "Thompson Av, Cobram",
+        "location": "Fairy Dell Rd, Monbulk",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2569,57 +2569,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.65307565593386,
-          -35.91548878106941
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 273115,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273115,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260415515,
-        "id": "ESTA:260415515",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-04-15T02:59:00.000Z",
-        "updated": "2026-04-15T03:23:00.000Z",
-        "resources": 1,
-        "location": "Foster",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.22031435058426,
-          -38.66077620364493
+          145.4141861233233,
+          -37.89124630154851
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 273118,
+        "cfaId": 273129,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 273118,
+        "sourceId": 273129,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mulcahys Rd",
-        "eventId": 260415573,
-        "id": "ESTA:260415573",
+        "sourceTitle": "Witt St",
+        "eventId": 260415841,
+        "id": "ESTA:260415841",
         "category1": "Hazardous Material",
         "category2": "Hazardous Material",
-        "created": "2026-04-15T03:30:00.000Z",
-        "updated": "2026-04-15T03:32:00.000Z",
+        "created": "2026-04-15T05:42:00.000Z",
+        "updated": "2026-04-15T05:44:00.000Z",
         "resources": 0,
-        "location": "Mulcahys Rd, Trentham",
+        "location": "Witt St, Yarrawonga",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2627,95 +2598,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.30504837451318,
-          -37.390087099170216
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 273117,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273117,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Elliot Ct",
-        "eventId": 260415570,
-        "id": "ESTA:260415570",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-15T03:28:00.000Z",
-        "updated": "2026-04-15T03:37:00.000Z",
-        "resources": 0,
-        "location": "Elliot Ct, Point Lonsdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.61696517039417,
-          -38.269929835864815
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 273123,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273123,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mulcahys Rd",
-        "eventId": 260415674,
-        "id": "ESTA:260415674",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-15T04:06:00.000Z",
-        "updated": "2026-04-15T04:06:00.000Z",
-        "resources": 1,
-        "location": "Mulcahys Rd, Trentham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.30504837451318,
-          -37.390087099170216
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 273122,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273122,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260415647,
-        "id": "ESTA:260415647",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-15T03:58:00.000Z",
-        "updated": "2026-04-15T04:10:00.000Z",
-        "resources": 3,
-        "location": "Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3384472955566,
-          -38.05995156674516
+          146.0061754848442,
+          -36.009231030357675
         ]
       }
     }
@@ -2797,11 +2681,11 @@
             "East Gippsland": "MODERATE",
             "West and South Gippsland": "MODERATE",
             "North East": "MODERATE",
-            "Central": "MODERATE",
+            "Central": "HIGH",
             "North Central": "MODERATE",
             "Northern Country": "MODERATE",
             "South West": "MODERATE",
-            "Wimmera": "MODERATE",
+            "Wimmera": "HIGH",
             "Mallee": "MODERATE"
           },
           "tfb": {
@@ -2947,7 +2831,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-15T04:19:21.159Z",
-    "featureCount": 229
+    "lastUpdated": "2026-04-15T06:13:41.260Z",
+    "featureCount": 225
   }
 }
