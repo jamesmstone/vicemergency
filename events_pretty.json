@@ -1281,23 +1281,23 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 123868275,
+        "estaId": 123868461,
         "feedType": "incident",
-        "source": "000",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 273972,
+        "sourceId": 273975,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Dorset Rd",
-        "eventId": 260425738,
-        "id": "ESTA:260425738",
+        "sourceTitle": "Park Dr",
+        "eventId": 260425754,
+        "id": "ESTA:260425754",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-20T17:25:00.000Z",
-        "updated": "2026-04-20T17:33:00.000Z",
+        "category2": "Bushfire",
+        "created": "2026-04-20T18:16:00.000Z",
+        "updated": "2026-04-20T18:29:00.000Z",
         "resources": 1,
-        "location": "Dorset Rd, Ferntree Gully",
-        "cfaId": 273972,
+        "location": "Park Dr, Belgrave",
+        "cfaId": 273975,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1305,136 +1305,788 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28465132527978,
-          -37.88279665685308
+          145.36134940282938,
+          -37.9164864386827
         ]
       }
     },
     {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 123868279,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273973,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kirra Pl",
-        "eventId": 260425739,
-        "id": "ESTA:260425739",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-20T17:26:00.000Z",
-        "updated": "2026-04-20T17:26:00.000Z",
-        "resources": 3,
-        "location": "Kirra Pl, Point Cook",
-        "cfaId": 273973,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
       "type": "Feature",
+      "properties": {
+        "status": "Warning",
+        "feedType": "incident",
+        "sourceOrg": "AU/BOM",
+        "sourceId": "IDV20600/89a1753ace694660b519fc123050900e",
+        "sourceFeed": "bom-idv20600",
+        "sourceTitle": "Strong Wind Warning",
+        "id": "IDV20600/89a1753ace694660b519fc123050900e",
+        "category1": "Met",
+        "category2": "Strong Wind",
+        "name": "Strong Wind Warning",
+        "created": "2026-04-20T18:00:00.000Z",
+        "webHeadline": "Strong Wind Warning",
+        "webBody": null,
+        "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
+        "location": "Central Coast"
+      },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.77034862292123,
-          -37.911005898263234
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.6139,
+                  -38.2918
+                ],
+                [
+                  144.651,
+                  -38.3035
+                ],
+                [
+                  144.742,
+                  -38.3539
+                ],
+                [
+                  144.8868,
+                  -38.477
+                ],
+                [
+                  144.8865,
+                  -38.4956
+                ],
+                [
+                  145.0101,
+                  -38.4803
+                ],
+                [
+                  145.0327,
+                  -38.4861
+                ],
+                [
+                  145.1171,
+                  -38.518
+                ],
+                [
+                  145.1716,
+                  -38.5096
+                ],
+                [
+                  145.2214,
+                  -38.5279
+                ],
+                [
+                  145.2392,
+                  -38.5067
+                ],
+                [
+                  145.2639,
+                  -38.5079
+                ],
+                [
+                  145.2715,
+                  -38.5048
+                ],
+                [
+                  145.3128,
+                  -38.5219
+                ],
+                [
+                  145.3531,
+                  -38.5668
+                ],
+                [
+                  145.3629,
+                  -38.5518
+                ],
+                [
+                  145.3408,
+                  -38.5356
+                ],
+                [
+                  145.3559,
+                  -38.5184
+                ],
+                [
+                  145.3633,
+                  -38.5155
+                ],
+                [
+                  145.3725,
+                  -38.5361
+                ],
+                [
+                  145.4791,
+                  -38.5532
+                ],
+                [
+                  145.54,
+                  -38.6135
+                ],
+                [
+                  145.5614,
+                  -38.652
+                ],
+                [
+                  145.6065,
+                  -38.6777
+                ],
+                [
+                  145.6554,
+                  -38.6767
+                ],
+                [
+                  145.7389,
+                  -38.6347
+                ],
+                [
+                  145.8183,
+                  -38.6469
+                ],
+                [
+                  145.8456,
+                  -38.6935
+                ],
+                [
+                  145.8424,
+                  -38.6958
+                ],
+                [
+                  145.8092,
+                  -38.6835
+                ],
+                [
+                  145.8016,
+                  -38.6613
+                ],
+                [
+                  145.7496,
+                  -38.6477
+                ],
+                [
+                  145.7336,
+                  -38.6463
+                ],
+                [
+                  145.7871,
+                  -38.6818
+                ],
+                [
+                  145.873,
+                  -38.7815
+                ],
+                [
+                  145.922,
+                  -38.9088
+                ],
+                [
+                  146.0006,
+                  -38.8817
+                ],
+                [
+                  146.0003,
+                  -38.8611
+                ],
+                [
+                  145.9967,
+                  -38.8516
+                ],
+                [
+                  146.0137,
+                  -38.8233
+                ],
+                [
+                  146.0382,
+                  -38.8123
+                ],
+                [
+                  146.1072,
+                  -38.8233
+                ],
+                [
+                  146.1737,
+                  -38.8615
+                ],
+                [
+                  146.1826,
+                  -38.8584
+                ],
+                [
+                  146.1615,
+                  -38.8497
+                ],
+                [
+                  146.151,
+                  -38.8354
+                ],
+                [
+                  146.1563,
+                  -38.8149
+                ],
+                [
+                  146.169,
+                  -38.8167
+                ],
+                [
+                  146.1855,
+                  -38.8627
+                ],
+                [
+                  146.1842,
+                  -38.8695
+                ],
+                [
+                  146.2725,
+                  -38.98
+                ],
+                [
+                  146.2511,
+                  -38.9952
+                ],
+                [
+                  146.2744,
+                  -38.9971
+                ],
+                [
+                  146.2907,
+                  -39.0189
+                ],
+                [
+                  146.2855,
+                  -39.0249
+                ],
+                [
+                  146.3262,
+                  -39.0395
+                ],
+                [
+                  146.3183,
+                  -39.0526
+                ],
+                [
+                  146.3438,
+                  -39.0606
+                ],
+                [
+                  146.3222,
+                  -39.0808
+                ],
+                [
+                  146.3257,
+                  -39.0943
+                ],
+                [
+                  146.37,
+                  -39.1347
+                ],
+                [
+                  146.3753,
+                  -39.1348
+                ],
+                [
+                  146.3753,
+                  -39.6647
+                ],
+                [
+                  143.9494,
+                  -39.579
+                ],
+                [
+                  143.5115,
+                  -39.536
+                ],
+                [
+                  143.5115,
+                  -38.856
+                ],
+                [
+                  143.5535,
+                  -38.8553
+                ],
+                [
+                  143.6153,
+                  -38.7952
+                ],
+                [
+                  143.6658,
+                  -38.7793
+                ],
+                [
+                  143.6816,
+                  -38.7372
+                ],
+                [
+                  143.8289,
+                  -38.6925
+                ],
+                [
+                  143.8382,
+                  -38.6922
+                ],
+                [
+                  143.9209,
+                  -38.6005
+                ],
+                [
+                  143.9239,
+                  -38.5932
+                ],
+                [
+                  143.9755,
+                  -38.5657
+                ],
+                [
+                  143.988,
+                  -38.5493
+                ],
+                [
+                  143.9786,
+                  -38.5343
+                ],
+                [
+                  144.0366,
+                  -38.4759
+                ],
+                [
+                  144.1051,
+                  -38.4683
+                ],
+                [
+                  144.1339,
+                  -38.4343
+                ],
+                [
+                  144.252,
+                  -38.3965
+                ],
+                [
+                  144.3281,
+                  -38.3267
+                ],
+                [
+                  144.4275,
+                  -38.282
+                ],
+                [
+                  144.5008,
+                  -38.2904
+                ],
+                [
+                  144.505,
+                  -38.2761
+                ],
+                [
+                  144.5383,
+                  -38.2711
+                ],
+                [
+                  144.6139,
+                  -38.2918
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              144.94338504700005,
+              -38.96782901249995
+            ],
+            "name": "Central Coast"
+          }
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
-        "estaId": 123868266,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273971,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stawell Rd",
-        "eventId": 260425737,
-        "id": "ESTA:260425737",
-        "suppress": false,
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "655204",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Botany St, Eden Nsw 2551",
+        "id": "2026-04-20T14:26:00.0000000:655204",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-20T17:23:00.000Z",
-        "updated": "2026-04-20T17:36:00.000Z",
-        "resources": 2,
-        "location": "Stawell Rd, Horsham",
-        "cfaId": 273971,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Fire",
+        "name": "Botany St, Eden Nsw 2551",
+        "location": "Botany St, Eden Nsw 2551",
+        "created": "2026-04-20T14:26:00+10:00",
+        "updated": "2026-04-20T14:26:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.20477815054056,
-          -36.72894951607127
+          149.895141602,
+          -37.055011749
         ]
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "status": "Under Control",
-        "estaId": 123868252,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273970,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260425735,
-        "id": "ESTA:260425735",
-        "suppress": false,
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651687",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Beasleys Road, Towamba State Forest",
+        "id": "2026-04-20T08:55:00.0000000:651687",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-20T17:19:00.000Z",
-        "updated": "2026-04-20T17:38:00.000Z",
-        "resources": 5,
-        "location": "Connewarre",
-        "cfaId": 273970,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category2": "Fire",
+        "name": "Beasleys Road, Towamba State Forest",
+        "location": "Towamba",
+        "created": "2026-04-20T08:55:00+10:00",
+        "updated": "2026-04-20T08:55:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "177 ha"
+        ]
       },
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.40051103327187,
-          -38.28576681130964
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.6885,
+                  -37.1036
+                ],
+                [
+                  149.6855,
+                  -37.1184
+                ],
+                [
+                  149.672,
+                  -37.1167
+                ],
+                [
+                  149.6708,
+                  -37.122
+                ],
+                [
+                  149.6637,
+                  -37.121
+                ],
+                [
+                  149.6704,
+                  -37.117
+                ],
+                [
+                  149.6775,
+                  -37.1069
+                ],
+                [
+                  149.6886,
+                  -37.1025
+                ],
+                [
+                  149.6885,
+                  -37.1036
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.681506183,
+              -37.111627292
+            ]
+          }
         ]
       }
     },
     {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 123868087,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 273967,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "King St",
-        "eventId": 260425730,
-        "id": "ESTA:260425730",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-20T16:33:00.000Z",
-        "updated": "2026-04-20T16:33:00.000Z",
-        "resources": 5,
-        "location": "King St, Brim",
-        "cfaId": 273967,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
       "type": "Feature",
+      "properties": {
+        "status": "Being Controlled",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "655284",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Quat Quatta Trl",
+        "id": "2026-04-20T17:50:00.0000000:655284",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "name": "Quat Quatta Trl",
+        "location": "Quat Quatta State Forest Quat Quatta Trl, Howlong 2643",
+        "created": "2026-04-20T17:50:00+10:00",
+        "updated": "2026-04-20T17:50:00+10:00",
+        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "3 ha"
+        ]
+      },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.41585831557276,
-          -36.07749010024428
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5818,
+                  -35.9688
+                ],
+                [
+                  146.5816,
+                  -35.9688
+                ],
+                [
+                  146.5818,
+                  -35.9687
+                ],
+                [
+                  146.5818,
+                  -35.9688
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5838,
+                  -35.9677
+                ],
+                [
+                  146.5836,
+                  -35.9677
+                ],
+                [
+                  146.5835,
+                  -35.9675
+                ],
+                [
+                  146.5837,
+                  -35.9675
+                ],
+                [
+                  146.5838,
+                  -35.9677
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5848,
+                  -35.9692
+                ],
+                [
+                  146.5853,
+                  -35.9698
+                ],
+                [
+                  146.5853,
+                  -35.97
+                ],
+                [
+                  146.585,
+                  -35.97
+                ],
+                [
+                  146.5851,
+                  -35.9699
+                ],
+                [
+                  146.585,
+                  -35.9698
+                ],
+                [
+                  146.5846,
+                  -35.9699
+                ],
+                [
+                  146.584,
+                  -35.9697
+                ],
+                [
+                  146.584,
+                  -35.9695
+                ],
+                [
+                  146.5845,
+                  -35.9695
+                ],
+                [
+                  146.5848,
+                  -35.9692
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5867,
+                  -35.9702
+                ],
+                [
+                  146.587,
+                  -35.9702
+                ],
+                [
+                  146.5869,
+                  -35.9704
+                ],
+                [
+                  146.5869,
+                  -35.9707
+                ],
+                [
+                  146.5866,
+                  -35.9708
+                ],
+                [
+                  146.5863,
+                  -35.9705
+                ],
+                [
+                  146.5865,
+                  -35.9702
+                ],
+                [
+                  146.5867,
+                  -35.9702
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5791,
+                  -35.973
+                ],
+                [
+                  146.579,
+                  -35.973
+                ],
+                [
+                  146.5792,
+                  -35.9729
+                ],
+                [
+                  146.5791,
+                  -35.973
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5817,
+                  -35.9714
+                ],
+                [
+                  146.5816,
+                  -35.9714
+                ],
+                [
+                  146.5817,
+                  -35.971
+                ],
+                [
+                  146.582,
+                  -35.9709
+                ],
+                [
+                  146.582,
+                  -35.9712
+                ],
+                [
+                  146.5817,
+                  -35.9714
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.5771,
+                  -35.9701
+                ],
+                [
+                  146.5766,
+                  -35.9708
+                ],
+                [
+                  146.5769,
+                  -35.9716
+                ],
+                [
+                  146.5771,
+                  -35.9719
+                ],
+                [
+                  146.5769,
+                  -35.9722
+                ],
+                [
+                  146.5769,
+                  -35.9729
+                ],
+                [
+                  146.5759,
+                  -35.9721
+                ],
+                [
+                  146.5759,
+                  -35.9714
+                ],
+                [
+                  146.5762,
+                  -35.9708
+                ],
+                [
+                  146.577,
+                  -35.97
+                ],
+                [
+                  146.5776,
+                  -35.9697
+                ],
+                [
+                  146.5771,
+                  -35.9701
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              146.576446672,
+              -35.9717653659999
+            ]
+          }
         ]
       }
     },
@@ -2046,398 +2698,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "655204",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Botany St, Eden Nsw 2551",
-        "id": "2026-04-20T14:26:00.0000000:655204",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Botany St, Eden Nsw 2551",
-        "location": "Botany St, Eden Nsw 2551",
-        "created": "2026-04-20T14:26:00+10:00",
-        "updated": "2026-04-20T14:26:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.895141602,
-          -37.055011749
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "651687",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Beasleys Road, Towamba State Forest",
-        "id": "2026-04-20T08:55:00.0000000:651687",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Beasleys Road, Towamba State Forest",
-        "location": "Towamba",
-        "created": "2026-04-20T08:55:00+10:00",
-        "updated": "2026-04-20T08:55:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "177 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.6885,
-                  -37.1036
-                ],
-                [
-                  149.6855,
-                  -37.1184
-                ],
-                [
-                  149.672,
-                  -37.1167
-                ],
-                [
-                  149.6708,
-                  -37.122
-                ],
-                [
-                  149.6637,
-                  -37.121
-                ],
-                [
-                  149.6704,
-                  -37.117
-                ],
-                [
-                  149.6775,
-                  -37.1069
-                ],
-                [
-                  149.6886,
-                  -37.1025
-                ],
-                [
-                  149.6885,
-                  -37.1036
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.681506183,
-              -37.111627292
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Being Controlled",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "655284",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Quat Quatta Trl",
-        "id": "2026-04-20T17:50:00.0000000:655284",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "name": "Quat Quatta Trl",
-        "location": "Quat Quatta State Forest Quat Quatta Trl, Howlong 2643",
-        "created": "2026-04-20T17:50:00+10:00",
-        "updated": "2026-04-20T17:50:00+10:00",
-        "webHeadline": "A fire has started There is no immediate danger. Stay up to date in case the situation changes",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "3 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5818,
-                  -35.9688
-                ],
-                [
-                  146.5816,
-                  -35.9688
-                ],
-                [
-                  146.5818,
-                  -35.9687
-                ],
-                [
-                  146.5818,
-                  -35.9688
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5838,
-                  -35.9677
-                ],
-                [
-                  146.5836,
-                  -35.9677
-                ],
-                [
-                  146.5835,
-                  -35.9675
-                ],
-                [
-                  146.5837,
-                  -35.9675
-                ],
-                [
-                  146.5838,
-                  -35.9677
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5848,
-                  -35.9692
-                ],
-                [
-                  146.5853,
-                  -35.9698
-                ],
-                [
-                  146.5853,
-                  -35.97
-                ],
-                [
-                  146.585,
-                  -35.97
-                ],
-                [
-                  146.5851,
-                  -35.9699
-                ],
-                [
-                  146.585,
-                  -35.9698
-                ],
-                [
-                  146.5846,
-                  -35.9699
-                ],
-                [
-                  146.584,
-                  -35.9697
-                ],
-                [
-                  146.584,
-                  -35.9695
-                ],
-                [
-                  146.5845,
-                  -35.9695
-                ],
-                [
-                  146.5848,
-                  -35.9692
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5867,
-                  -35.9702
-                ],
-                [
-                  146.587,
-                  -35.9702
-                ],
-                [
-                  146.5869,
-                  -35.9704
-                ],
-                [
-                  146.5869,
-                  -35.9707
-                ],
-                [
-                  146.5866,
-                  -35.9708
-                ],
-                [
-                  146.5863,
-                  -35.9705
-                ],
-                [
-                  146.5865,
-                  -35.9702
-                ],
-                [
-                  146.5867,
-                  -35.9702
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5791,
-                  -35.973
-                ],
-                [
-                  146.579,
-                  -35.973
-                ],
-                [
-                  146.5792,
-                  -35.9729
-                ],
-                [
-                  146.5791,
-                  -35.973
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5817,
-                  -35.9714
-                ],
-                [
-                  146.5816,
-                  -35.9714
-                ],
-                [
-                  146.5817,
-                  -35.971
-                ],
-                [
-                  146.582,
-                  -35.9709
-                ],
-                [
-                  146.582,
-                  -35.9712
-                ],
-                [
-                  146.5817,
-                  -35.9714
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.5771,
-                  -35.9701
-                ],
-                [
-                  146.5766,
-                  -35.9708
-                ],
-                [
-                  146.5769,
-                  -35.9716
-                ],
-                [
-                  146.5771,
-                  -35.9719
-                ],
-                [
-                  146.5769,
-                  -35.9722
-                ],
-                [
-                  146.5769,
-                  -35.9729
-                ],
-                [
-                  146.5759,
-                  -35.9721
-                ],
-                [
-                  146.5759,
-                  -35.9714
-                ],
-                [
-                  146.5762,
-                  -35.9708
-                ],
-                [
-                  146.577,
-                  -35.97
-                ],
-                [
-                  146.5776,
-                  -35.9697
-                ],
-                [
-                  146.5771,
-                  -35.9701
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              146.576446672,
-              -35.9717653659999
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 273183,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2496,6 +2756,93 @@
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 273967,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273967,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "King St",
+        "eventId": 260425730,
+        "id": "ESTA:260425730",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-20T16:33:00.000Z",
+        "updated": "2026-04-20T17:42:00.000Z",
+        "resources": 4,
+        "location": "King St, Brim",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.41585831557276,
+          -36.07749010024428
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 273971,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273971,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stawell Rd",
+        "eventId": 260425737,
+        "id": "ESTA:260425737",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-20T17:23:00.000Z",
+        "updated": "2026-04-20T17:58:00.000Z",
+        "resources": 0,
+        "location": "Stawell Rd, Horsham",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20477815054056,
+          -36.72894951607127
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 273970,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 273970,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260425735,
+        "id": "ESTA:260425735",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-20T17:19:00.000Z",
+        "updated": "2026-04-20T17:59:00.000Z",
+        "resources": 3,
+        "location": "Connewarre",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.40051103327187,
+          -38.28576681130964
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 273964,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -2507,8 +2854,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-04-20T15:22:00.000Z",
-        "updated": "2026-04-20T16:26:00.000Z",
-        "resources": 4,
+        "updated": "2026-04-20T18:10:00.000Z",
+        "resources": 3,
         "location": "Swann Dr, Derrimut",
         "size": "Small",
         "sizeFmt": "Small"
@@ -2750,7 +3097,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-20T17:42:41.407Z",
+    "lastUpdated": "2026-04-20T18:42:01.375Z",
     "featureCount": 221
   }
 }
