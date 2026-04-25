@@ -457,7 +457,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 855405,
@@ -466,8 +466,8 @@
         "id": 855405,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-04-23T01:17:08.000Z",
-        "updated": "2026-04-23T01:17:08.000Z",
+        "created": "2026-04-25T23:39:14.000Z",
+        "updated": "2026-04-25T23:39:14.000Z",
         "resources": 0,
         "size": "32.99",
         "sizeFmt": "32.99 Ha.",
@@ -2243,7 +2243,7 @@
     },
     {
       "properties": {
-        "status": "Contained",
+        "status": "Under Control",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 102641037,
@@ -2253,7 +2253,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-04-25T08:15:00Z",
-        "updated": "2026-04-25T10:15:46.6057194Z",
+        "updated": "2026-04-25T23:26:12.9869353Z",
         "resources": 0,
         "size": 0.01,
         "sizeFmt": "0.01 Ha.",
@@ -2297,24 +2297,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123942563,
+        "status": "Responding",
+        "estaId": 123943466,
         "feedType": "incident",
-        "source": "PAL",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 274820,
+        "sourceId": 274826,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Simons Hill Rd",
-        "eventId": 260435199,
-        "id": "ESTA:260435199",
+        "sourceTitle": "Richard St",
+        "eventId": 260435410,
+        "id": "ESTA:260435410",
         "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Washaway",
-        "created": "2026-04-25T22:08:00.000Z",
-        "updated": "2026-04-25T22:48:00.000Z",
-        "resources": 1,
-        "location": "Simons Hill Rd, Wallan",
-        "cfaId": 274820,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-25T23:41:00.000Z",
+        "updated": "2026-04-25T23:41:00.000Z",
+        "resources": 2,
+        "location": "Richard St, Canadian",
+        "cfaId": 274826,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2322,8 +2322,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9155229726232,
-          -37.37727863298153
+          143.88542934829164,
+          -37.582581265587514
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123932943,
+        "feedType": "incident",
+        "source": "RADIO",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 274685,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Buckley Gr",
+        "eventId": 260434373,
+        "id": "ESTA:260434373",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-25T05:33:00.000Z",
+        "updated": "2026-04-25T08:57:00.000Z",
+        "resources": 5,
+        "location": "Buckley Gr, Moolap",
+        "cfaId": 274685,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.42992468261346,
+          -38.16410795956113
         ]
       }
     },
@@ -3598,7 +3630,7 @@
         "category2": "Bushfire",
         "created": "2026-04-25T03:59:00.000Z",
         "updated": "2026-04-25T04:59:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Clear Lake",
         "size": "Small",
         "sizeFmt": "Small"
@@ -3614,106 +3646,19 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "cfaId": 274675,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 274675,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lexton-Talbot Rd",
-        "eventId": 260434386,
-        "id": "ESTA:260434386",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-25T05:41:00.000Z",
-        "updated": "2026-04-25T06:06:00.000Z",
-        "resources": 0,
-        "location": "Lexton-Talbot Rd, Evansford",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.6276895468509,
-          -37.22755802571925
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 274685,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 274685,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Buckley Gr",
-        "eventId": 260434373,
-        "id": "ESTA:260434373",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-25T05:33:00.000Z",
-        "updated": "2026-04-25T08:57:00.000Z",
-        "resources": 5,
-        "location": "Buckley Gr, Moolap",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.42992468261346,
-          -38.16410795956113
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 274777,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 274777,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bank St",
-        "eventId": 260434966,
-        "id": "ESTA:260434966",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-25T11:46:00.000Z",
-        "updated": "2026-04-25T11:57:00.000Z",
-        "resources": 2,
-        "location": "Bank St, Craigieburn",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92897210053624,
-          -37.59353619740648
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Safe",
-        "cfaId": 274818,
+        "cfaId": 274821,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 274818,
+        "sourceId": 274821,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "White Av",
-        "eventId": 260435140,
-        "id": "ESTA:260435140",
+        "eventId": 260435298,
+        "id": "ESTA:260435298",
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
-        "created": "2026-04-25T21:39:00.000Z",
-        "updated": "2026-04-25T21:51:00.000Z",
+        "created": "2026-04-25T22:52:00.000Z",
+        "updated": "2026-04-25T22:55:00.000Z",
         "resources": 0,
         "location": "White Av, Wendouree",
         "size": "Small",
@@ -3731,20 +3676,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 274816,
+        "cfaId": 274777,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 274816,
+        "sourceId": 274777,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Challenger St",
-        "eventId": 260435107,
-        "id": "ESTA:260435107",
+        "sourceTitle": "Bank St",
+        "eventId": 260434966,
+        "id": "ESTA:260434966",
         "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-04-25T20:52:00.000Z",
-        "updated": "2026-04-25T22:13:00.000Z",
-        "resources": 0,
-        "location": "Challenger St, Diamond Creek",
+        "category2": "Building Fire",
+        "created": "2026-04-25T11:46:00.000Z",
+        "updated": "2026-04-25T23:05:00.000Z",
+        "resources": 2,
+        "location": "Bank St, Craigieburn",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3752,62 +3697,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15323896707017,
-          -37.684525364286735
+          144.92897210053624,
+          -37.59353619740648
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 606051,
+        "status": "Safe",
+        "cfaId": 274675,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606051,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260451459,
-        "id": "ESTA:260451459",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-25T22:32:46.000Z",
-        "updated": "2026-04-25T22:38:49.000Z",
-        "resources": 3,
-        "location": "Flinders"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 274675,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lexton-Talbot Rd",
+        "eventId": 260434386,
+        "id": "ESTA:260434386",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-04-25T05:41:00.000Z",
+        "updated": "2026-04-25T23:07:00.000Z",
+        "resources": 0,
+        "location": "Lexton-Talbot Rd, Evansford",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.96664871278338,
-          -38.440586757649754
+          143.6276895468509,
+          -37.22755802571925
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 606050,
+        "status": "Under Control",
+        "cfaId": 274822,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606050,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260451458,
-        "id": "ESTA:260451458",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-04-25T22:20:24.000Z",
-        "updated": "2026-04-25T22:47:29.000Z",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 274822,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barwon Heads Rd",
+        "eventId": 260435342,
+        "id": "ESTA:260435342",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-04-25T23:10:00.000Z",
+        "updated": "2026-04-25T23:25:00.000Z",
+        "resources": 2,
+        "location": "Barwon Heads Rd, Connewarre",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4172864781641,
+          -38.25852989349394
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 274825,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 274825,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nolan St",
+        "eventId": 260435359,
+        "id": "ESTA:260435359",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-04-25T23:15:00.000Z",
+        "updated": "2026-04-25T23:25:00.000Z",
         "resources": 1,
-        "location": "Violet Town"
+        "location": "Nolan St, Bendigo",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.71695503408566,
-          -36.6305700519037
+          144.2896878043761,
+          -36.74904199395331
         ]
       }
     }
@@ -4039,7 +4017,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-25T22:49:40.993Z",
-    "featureCount": 253
+    "lastUpdated": "2026-04-25T23:49:01.140Z",
+    "featureCount": 252
   }
 }
