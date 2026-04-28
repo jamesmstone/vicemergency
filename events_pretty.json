@@ -101,7 +101,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 512375,
@@ -110,8 +110,8 @@
         "id": 512375,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-04-21T01:10:16.000Z",
-        "updated": "2026-04-21T01:10:16.000Z",
+        "created": "2026-04-28T07:27:53.000Z",
+        "updated": "2026-04-28T07:27:53.000Z",
         "resources": 0,
         "size": "228.65",
         "sizeFmt": "228.65 Ha.",
@@ -600,6 +600,32 @@
         "coordinates": [
           141.3073,
           -35.9947
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1701315",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Dukes Highway, Wolseley",
+        "id": "1701315",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "name": "Dukes Highway, Wolseley",
+        "created": "2026-04-28T08:42:00.000Z",
+        "updated": "2026-04-28T08:42:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Dukes Highway, Wolseley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.906625085948,
+          -36.3251030870813
         ]
       }
     },
@@ -1224,34 +1250,6 @@
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
-        "sourceId": 3012611,
-        "sourceFeed": "deeca-burns",
-        "sourceTitle": "Yallakar Sf - Pine Hills Boundary Tk",
-        "id": 3012611,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2026-04-19T07:17:58.000Z",
-        "updated": "2026-04-19T07:17:58.000Z",
-        "resources": 0,
-        "size": "1078.17",
-        "sizeFmt": "1078.17 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": "6Km Nw Of Harrow"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.5270476,
-          -37.1221658
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Patrolled",
-        "feedType": "incident",
-        "sourceOrg": "VIC/DEECA",
         "sourceId": 3014079,
         "sourceFeed": "deeca-burns",
         "sourceTitle": "Skipton - Skipton Common",
@@ -1389,7 +1387,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 3016677,
@@ -1398,8 +1396,8 @@
         "id": 3016677,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-04-28T02:59:01.000Z",
-        "updated": "2026-04-28T02:59:01.000Z",
+        "created": "2026-04-28T09:11:10.000Z",
+        "updated": "2026-04-28T09:11:10.000Z",
         "resources": 0,
         "size": "50.67",
         "sizeFmt": "50.67 Ha.",
@@ -2671,24 +2669,117 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 123975587,
+        "status": "Responding",
+        "estaId": 123978549,
         "feedType": "incident",
-        "source": "OTHER",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 123978549,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Burnley",
+        "eventId": "F260439720",
+        "id": "ESTA:260439720",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-04-28T09:21:53.000Z",
+        "updated": "2026-04-28T09:22:26.328Z",
+        "resources": 0,
+        "location": "Yarra Bvd, Burnley"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02146025052343,
+          -37.82858726034568
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123978267,
+        "feedType": "incident",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275190,
+        "sourceId": 275236,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Sully Ct",
-        "eventId": 260439467,
-        "id": "ESTA:260439467",
+        "sourceTitle": "Rupicola Ct",
+        "eventId": 260439704,
+        "id": "ESTA:260439704",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-28T08:58:00.000Z",
+        "updated": "2026-04-28T09:25:00.000Z",
+        "resources": 1,
+        "location": "Rupicola Ct, Hillside (Greater Melbourne)",
+        "cfaId": 275236,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73719056813607,
+          -37.69344035471827
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 123978622,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275241,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Stradbroke Av",
+        "eventId": 260439724,
+        "id": "ESTA:260439724",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-04-28T09:29:00.000Z",
+        "updated": "2026-04-28T09:29:00.000Z",
+        "resources": 1,
+        "location": "Stradbroke Av, Nyah",
+        "cfaId": 275241,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.37763442683004,
+          -35.17508018952157
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123977985,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275229,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Merriang Rd",
+        "eventId": 260439688,
+        "id": "ESTA:260439688",
         "suppress": false,
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
-        "created": "2026-04-28T05:33:00.000Z",
-        "updated": "2026-04-28T06:45:00.000Z",
-        "resources": 0,
-        "location": "Sully Ct, Diggers Rest",
-        "cfaId": 275190,
+        "created": "2026-04-28T08:31:00.000Z",
+        "updated": "2026-04-28T09:31:00.000Z",
+        "resources": 1,
+        "location": "Merriang Rd, Donnybrook",
+        "cfaId": 275229,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2696,214 +2787,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7061692303054,
-          -37.61921609558742
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123976571,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275205,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Aberdeen Ct",
-        "eventId": 260439558,
-        "id": "ESTA:260439558",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:42:00.000Z",
-        "updated": "2026-04-28T06:45:00.000Z",
-        "resources": 0,
-        "location": "Aberdeen Ct, Epping",
-        "cfaId": 275205,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0430974109931,
-          -37.64428502992271
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123976425,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275204,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "King St",
-        "eventId": 260439544,
-        "id": "ESTA:260439544",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-04-28T06:32:00.000Z",
-        "updated": "2026-04-28T06:55:00.000Z",
-        "resources": 0,
-        "location": "King St, Bayswater",
-        "cfaId": 275204,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.26740670775092,
-          -37.8394031914194
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123974744,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123974744,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Echuca",
-        "eventId": "F260439370",
-        "id": "ESTA:260439370",
-        "suppress": false,
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-04-28T04:32:58.000Z",
-        "updated": "2026-04-28T07:01:29.936Z",
-        "resources": 0,
-        "location": "Echuca"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.73104997784364,
-          -36.19898357525969
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123976206,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123976206,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Oakleigh",
-        "eventId": "F260439529",
-        "id": "ESTA:260439529",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-04-28T06:16:06.000Z",
-        "updated": "2026-04-28T07:03:16.065Z",
-        "resources": 4,
-        "location": "Parer St, Oakleigh"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.09783906565985,
-          -37.91003752484638
+          145.02720843425757,
+          -37.52113950801318
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123976927,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123976927,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "St Albans",
-        "eventId": "F260439601",
-        "id": "ESTA:260439601",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T07:02:05.000Z",
-        "updated": "2026-04-28T07:03:57.989Z",
-        "resources": 0,
-        "location": "Main Rd, St Albans"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.78831494396007,
-          -37.742930958781336
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 123976949,
+        "estaId": 123978657,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275210,
+        "sourceId": 275242,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260439603,
-        "id": "ESTA:260439603",
+        "sourceTitle": "Quarry Rd",
+        "eventId": 260439725,
+        "id": "ESTA:260439725",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-28T07:05:00.000Z",
-        "updated": "2026-04-28T07:08:00.000Z",
-        "resources": 0,
-        "location": "Greenvale",
-        "cfaId": 275210,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.83479483293573,
-          -37.637823770680534
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 123976948,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275209,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260439602,
-        "id": "ESTA:260439602",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-04-28T07:05:00.000Z",
-        "updated": "2026-04-28T07:05:00.000Z",
+        "created": "2026-04-28T09:32:00.000Z",
+        "updated": "2026-04-28T09:32:00.000Z",
         "resources": 2,
-        "location": "Epping",
-        "cfaId": 275209,
+        "location": "Quarry Rd, Narre Warren North",
+        "cfaId": 275242,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2911,31 +2819,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02997421706309,
-          -37.6489600954727
+          145.3253630790439,
+          -38.004387623706
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 123976955,
+        "status": "Safe",
+        "estaId": 123978443,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275211,
+        "sourceId": 275237,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Compass Way",
-        "eventId": 260439604,
-        "id": "ESTA:260439604",
+        "sourceTitle": "Station Rd",
+        "eventId": 260439710,
+        "id": "ESTA:260439710",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-28T07:06:00.000Z",
-        "updated": "2026-04-28T07:06:00.000Z",
+        "created": "2026-04-28T09:12:00.000Z",
+        "updated": "2026-04-28T09:34:00.000Z",
         "resources": 2,
-        "location": "Compass Way, Mount Duneed",
-        "cfaId": 275211,
+        "location": "Station Rd, New Gisborne",
+        "cfaId": 275237,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -2943,37 +2851,264 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3358710101508,
-          -38.22025315427509
+          144.59870998141096,
+          -37.458834273034135
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 123976995,
+        "estaId": 123978665,
         "feedType": "incident",
-        "source": "PAL",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 123976995,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Baxter",
-        "eventId": "F260439608",
-        "id": "ESTA:260439608",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275243,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Fwy",
+        "eventId": 260439728,
+        "id": "ESTA:260439728",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-28T07:06:25.000Z",
-        "updated": "2026-04-28T07:09:18.851Z",
-        "resources": 0,
-        "location": "Teal Pl, Baxter"
+        "created": "2026-04-28T09:33:00.000Z",
+        "updated": "2026-04-28T09:33:00.000Z",
+        "resources": 2,
+        "location": "Princes Fwy, Werribee",
+        "cfaId": 275243,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15652359353444,
-          -38.193068019822064
+          144.7168085467126,
+          -37.8783493093803
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "estaId": 123978590,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275240,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wallaby Trk",
+        "eventId": 260439723,
+        "id": "ESTA:260439723",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-28T09:26:00.000Z",
+        "updated": "2026-04-28T09:35:00.000Z",
+        "resources": 2,
+        "location": "Wallaby Trk, Sebastopol",
+        "cfaId": 275240,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8493310374772,
+          -37.589928522025176
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 123978520,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275238,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Carr St",
+        "eventId": 260439717,
+        "id": "ESTA:260439717",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-04-28T09:20:00.000Z",
+        "updated": "2026-04-28T09:36:00.000Z",
+        "resources": 2,
+        "location": "Carr St, Geelong",
+        "cfaId": 275238,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.365234922092,
+          -38.16261946075434
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "657371",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Hume Hwy, Holbrook",
+        "id": "2026-04-27T20:14:00.0000000:657371",
+        "category1": "Other",
+        "category2": "Other Non-Urgent Alerts",
+        "name": "Hume Hwy, Holbrook",
+        "location": "Hume Hwy, Holbrook 2644",
+        "created": "2026-04-27T20:14:00+10:00",
+        "updated": "2026-04-27T20:14:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.273010254,
+          -35.787414551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "657280",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Storkys Hr",
+        "id": "2026-04-28T14:09:00.0000000:657280",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Storkys Hr",
+        "location": "Nadgee Nature Reserve",
+        "created": "2026-04-28T14:09:00+10:00",
+        "updated": "2026-04-28T14:09:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "376 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.9247,
+                  -37.3058
+                ],
+                [
+                  149.9251,
+                  -37.3115
+                ],
+                [
+                  149.9314,
+                  -37.3136
+                ],
+                [
+                  149.9261,
+                  -37.3178
+                ],
+                [
+                  149.9218,
+                  -37.318
+                ],
+                [
+                  149.924,
+                  -37.3201
+                ],
+                [
+                  149.921,
+                  -37.3199
+                ],
+                [
+                  149.9198,
+                  -37.323
+                ],
+                [
+                  149.9187,
+                  -37.3234
+                ],
+                [
+                  149.9178,
+                  -37.3197
+                ],
+                [
+                  149.9151,
+                  -37.3213
+                ],
+                [
+                  149.9015,
+                  -37.3159
+                ],
+                [
+                  149.9063,
+                  -37.3128
+                ],
+                [
+                  149.9076,
+                  -37.3076
+                ],
+                [
+                  149.9151,
+                  -37.2997
+                ],
+                [
+                  149.9147,
+                  -37.2951
+                ],
+                [
+                  149.9177,
+                  -37.2929
+                ],
+                [
+                  149.9172,
+                  -37.291
+                ],
+                [
+                  149.9202,
+                  -37.2944
+                ],
+                [
+                  149.918,
+                  -37.2972
+                ],
+                [
+                  149.9193,
+                  -37.301
+                ],
+                [
+                  149.9247,
+                  -37.3058
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.919433594,
+              -37.3069660109999
+            ]
+          }
         ]
       }
     },
@@ -3505,13 +3640,13 @@
         "sourceId": "656716",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Forestry Hr - Cirrus Road",
-        "id": "2026-04-28T14:34:00.0000000:656716",
+        "id": "2026-04-28T17:26:00.0000000:656716",
         "category1": "Fire",
         "category2": "Fire",
         "name": "Forestry Hr - Cirrus Road",
         "location": "Cirrus Road Hr",
-        "created": "2026-04-28T14:34:00+10:00",
-        "updated": "2026-04-28T14:34:00+10:00",
+        "created": "2026-04-28T17:26:00+10:00",
+        "updated": "2026-04-28T17:26:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -4178,166 +4313,6 @@
     {
       "properties": {
         "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "657371",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Hume Hwy, Holbrook",
-        "id": "2026-04-27T20:14:00.0000000:657371",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Hume Hwy, Holbrook",
-        "location": "Hume Hwy, Holbrook 2644",
-        "created": "2026-04-27T20:14:00+10:00",
-        "updated": "2026-04-27T20:14:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.273010254,
-          -35.787414551
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "657280",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Storkys Hr",
-        "id": "2026-04-28T14:09:00.0000000:657280",
-        "category1": "Fire",
-        "category2": "Fire",
-        "name": "Storkys Hr",
-        "location": "Nadgee Nature Reserve",
-        "created": "2026-04-28T14:09:00+10:00",
-        "updated": "2026-04-28T14:09:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "376 ha"
-        ]
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.9247,
-                  -37.3058
-                ],
-                [
-                  149.9251,
-                  -37.3115
-                ],
-                [
-                  149.9314,
-                  -37.3136
-                ],
-                [
-                  149.9261,
-                  -37.3178
-                ],
-                [
-                  149.9218,
-                  -37.318
-                ],
-                [
-                  149.924,
-                  -37.3201
-                ],
-                [
-                  149.921,
-                  -37.3199
-                ],
-                [
-                  149.9198,
-                  -37.323
-                ],
-                [
-                  149.9187,
-                  -37.3234
-                ],
-                [
-                  149.9178,
-                  -37.3197
-                ],
-                [
-                  149.9151,
-                  -37.3213
-                ],
-                [
-                  149.9015,
-                  -37.3159
-                ],
-                [
-                  149.9063,
-                  -37.3128
-                ],
-                [
-                  149.9076,
-                  -37.3076
-                ],
-                [
-                  149.9151,
-                  -37.2997
-                ],
-                [
-                  149.9147,
-                  -37.2951
-                ],
-                [
-                  149.9177,
-                  -37.2929
-                ],
-                [
-                  149.9172,
-                  -37.291
-                ],
-                [
-                  149.9202,
-                  -37.2944
-                ],
-                [
-                  149.918,
-                  -37.2972
-                ],
-                [
-                  149.9193,
-                  -37.301
-                ],
-                [
-                  149.9247,
-                  -37.3058
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.919433594,
-              -37.3069660109999
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 273183,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -4424,79 +4399,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 275199,
+        "status": "Under Control",
+        "cfaId": 275234,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275199,
+        "sourceId": 275234,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Smith St",
-        "eventId": 260439505,
-        "id": "ESTA:260439505",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:00:00.000Z",
-        "updated": "2026-04-28T06:16:00.000Z",
-        "resources": 0,
-        "location": "Smith St, Warragul",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.93302855252054,
-          -38.15893309136296
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275189,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275189,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260439456,
-        "id": "ESTA:260439456",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-04-28T05:28:00.000Z",
-        "updated": "2026-04-28T06:18:00.000Z",
-        "resources": 0,
-        "location": "Diggers Rest",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7052217147381,
-          -37.61944998897729
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275194,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275194,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Harleston Rd",
-        "eventId": 260439477,
-        "id": "ESTA:260439477",
+        "sourceTitle": "Manchester Rd",
+        "eventId": 260439696,
+        "id": "ESTA:260439696",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-04-28T05:43:00.000Z",
-        "updated": "2026-04-28T06:41:00.000Z",
-        "resources": 0,
-        "location": "Harleston Rd, Mount Eliza",
+        "created": "2026-04-28T08:44:00.000Z",
+        "updated": "2026-04-28T08:53:00.000Z",
+        "resources": 1,
+        "location": "Manchester Rd, Mooroolbark",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4504,28 +4421,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.09882382572843,
-          -38.16754844768793
+          145.31051382749067,
+          -37.784406324464975
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 275200,
+        "cfaId": 275233,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275200,
+        "sourceId": 275233,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Buffalo Cct",
-        "eventId": 260439516,
-        "id": "ESTA:260439516",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:07:00.000Z",
-        "updated": "2026-04-28T06:42:00.000Z",
+        "sourceTitle": "Angelique St",
+        "eventId": 260439694,
+        "id": "ESTA:260439694",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-28T08:36:00.000Z",
+        "updated": "2026-04-28T09:05:00.000Z",
         "resources": 0,
-        "location": "Buffalo Cct, Mount Duneed",
+        "location": "Angelique St, Berwick",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4533,57 +4450,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.32628786123792,
-          -38.23804656440842
+          145.349356022669,
+          -38.07107277559901
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 275202,
+        "status": "Under Control",
+        "cfaId": 275235,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275202,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Maroondah Hwy",
-        "eventId": 260439539,
-        "id": "ESTA:260439539",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:27:00.000Z",
-        "updated": "2026-04-28T06:46:00.000Z",
-        "resources": 0,
-        "location": "Maroondah Hwy, Lilydale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3402979846251,
-          -37.75754951539978
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275203,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275203,
+        "sourceId": 275235,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "",
-        "eventId": 260439540,
-        "id": "ESTA:260439540",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:27:00.000Z",
-        "updated": "2026-04-28T06:50:00.000Z",
-        "resources": 0,
-        "location": "Upwey",
+        "eventId": 260439700,
+        "id": "ESTA:260439700",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-04-28T08:52:00.000Z",
+        "updated": "2026-04-28T09:10:00.000Z",
+        "resources": 6,
+        "location": "North Geelong",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4591,57 +4479,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33018384540898,
-          -37.90221470489962
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275206,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275206,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Teal Pl",
-        "eventId": 260439574,
-        "id": "ESTA:260439574",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-04-28T06:50:00.000Z",
-        "updated": "2026-04-28T06:54:00.000Z",
-        "resources": 0,
-        "location": "Teal Pl, Baxter",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.15650843644485,
-          -38.19306986331109
+          144.35461912559532,
+          -38.115004037815794
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "cfaId": 275208,
+        "cfaId": 275239,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275208,
+        "sourceId": 275239,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Lindsay St",
-        "eventId": 260439587,
-        "id": "ESTA:260439587",
+        "sourceTitle": "Tyner Rd",
+        "eventId": 260439722,
+        "id": "ESTA:260439722",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-04-28T06:58:00.000Z",
-        "updated": "2026-04-28T06:58:00.000Z",
-        "resources": 1,
-        "location": "Lindsay St, Heywood",
+        "created": "2026-04-28T09:24:00.000Z",
+        "updated": "2026-04-28T09:24:00.000Z",
+        "resources": 0,
+        "location": "Tyner Rd, Wantirna South",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4649,8 +4508,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.62371804945099,
-          -38.132986163791294
+          145.2435758669009,
+          -37.8720072118235
         ]
       }
     }
@@ -4669,6 +4528,7 @@
         "Mallee": "MODERATE"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4676,8 +4536,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -4693,6 +4552,7 @@
             "Mallee": "MODERATE"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -4700,8 +4560,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-04-27T14:00:00.000Z",
           "heat": {
@@ -4882,7 +4741,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-04-28T07:09:42.171Z",
-    "featureCount": 271
+    "lastUpdated": "2026-04-28T09:37:00.987Z",
+    "featureCount": 266
   }
 }
