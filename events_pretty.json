@@ -797,6 +797,32 @@
     },
     {
       "properties": {
+        "status": "Controlled",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1701862",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Sturt Highway, Paringa",
+        "id": "1701862",
+        "category1": "Fire",
+        "category2": "Planned Burn",
+        "name": "Sturt Highway, Paringa",
+        "created": "2026-05-01T09:41:00.000Z",
+        "updated": "2026-05-01T09:41:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Sturt Highway, Paringa"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.796587912172,
+          -34.1846780231407
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "In Progress",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
@@ -2113,7 +2139,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 3022775,
@@ -2122,8 +2148,8 @@
         "id": 3022775,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-05-01T01:21:46.000Z",
-        "updated": "2026-05-01T01:21:46.000Z",
+        "created": "2026-05-01T11:07:20.000Z",
+        "updated": "2026-05-01T11:07:20.000Z",
         "resources": 0,
         "size": "19.92",
         "sizeFmt": "19.92 Ha.",
@@ -3070,8 +3096,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-05-01T06:02:00Z",
-        "updated": "2026-05-01T09:19:21.4343996Z",
-        "resources": 0,
+        "updated": "2026-05-01T11:03:45.782796Z",
+        "resources": 5,
         "size": 1,
         "sizeFmt": "1 Ha.",
         "location": "1.9Km W Of Nug Nug"
@@ -3195,60 +3221,281 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 124020648,
+        "status": "Responding",
+        "estaId": 124021652,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606286,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260501791,
-        "id": "ESTA:260501791",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275715,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "St Germain Bvd",
+        "eventId": 260501864,
+        "id": "ESTA:260501864",
         "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-05-01T09:44:54.000Z",
-        "updated": "2026-05-01T09:50:52.000Z",
-        "resources": 3,
-        "location": "Rowville",
-        "sesId": 606286
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-05-01T11:05:00.000Z",
+        "updated": "2026-05-01T11:05:00.000Z",
+        "resources": 4,
+        "location": "St Germain Bvd, Clyde North",
+        "cfaId": 275715,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26022098103724,
-          -37.91350250685749
+          145.36045894943885,
+          -38.09508267012889
         ]
       }
     },
     {
       "properties": {
         "status": "Responding",
-        "estaId": 124020756,
+        "estaId": 124021649,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124020756,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Springvale",
-        "eventId": "F260501798",
-        "id": "ESTA:260501798",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275714,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Ninth Av",
+        "eventId": 260501863,
+        "id": "ESTA:260501863",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-05-01T09:52:20.000Z",
-        "updated": "2026-05-01T09:53:27.645Z",
-        "resources": 0,
-        "location": "Buckingham Av, Springvale"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-05-01T11:05:00.000Z",
+        "updated": "2026-05-01T11:05:00.000Z",
+        "resources": 3,
+        "location": "Ninth Av, Rosebud",
+        "cfaId": 275714,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.15094875059754,
-          -37.95108500110561
+          144.90406284756565,
+          -38.359980414173016
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124021694,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606287,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550040,
+        "id": "ESTA:260550040",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-05-01T11:07:14.000Z",
+        "updated": "2026-05-01T11:11:40.000Z",
+        "resources": 2,
+        "location": "Donnybrook",
+        "sesId": 606287
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623612886131,
+          -37.54656082221329
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124021694,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606288,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260501867,
+        "id": "ESTA:260501867",
+        "suppress": false,
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2026-05-01T11:07:14.000Z",
+        "updated": "2026-05-01T11:14:01.000Z",
+        "resources": 5,
+        "location": "Donnybrook",
+        "cfaId": 275717,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 606288
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623612886131,
+          -37.54656082221329
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124021730,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606289,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550041,
+        "id": "ESTA:260550041",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-05-01T11:10:14.000Z",
+        "updated": "2026-05-01T11:13:03.000Z",
+        "resources": 0,
+        "location": "Gerangamete",
+        "sesId": 606289
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6823837343283,
+          -38.4671096881884
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124021765,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606290,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550042,
+        "id": "ESTA:260550042",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-05-01T11:13:32.000Z",
+        "updated": "2026-05-01T11:13:32.000Z",
+        "resources": 0,
+        "location": "Donnybrook",
+        "sesId": 606290
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623612886131,
+          -37.54656082221329
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 124021737,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124021737,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Docklands",
+        "eventId": "F260501871",
+        "id": "ESTA:260501871",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-05-01T11:09:37.000Z",
+        "updated": "2026-05-01T11:13:49.521Z",
+        "resources": 3,
+        "location": "Docklands"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.94803752755055,
+          -37.82079747491387
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124021765,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275719,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "English St",
+        "eventId": 260501875,
+        "id": "ESTA:260501875",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-01T11:14:00.000Z",
+        "updated": "2026-05-01T11:14:00.000Z",
+        "resources": 0,
+        "location": "English St, Donnybrook",
+        "cfaId": 275719,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623612886131,
+          -37.54656082221329
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124021718,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275718,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Anderson St",
+        "eventId": 260501869,
+        "id": "ESTA:260501869",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-05-01T11:09:00.000Z",
+        "updated": "2026-05-01T11:09:00.000Z",
+        "resources": 1,
+        "location": "Anderson St, Skipton",
+        "cfaId": 275718,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.36531972983292,
+          -37.68285782192426
         ]
       }
     },
@@ -5293,20 +5540,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 275689,
+        "cfaId": 275703,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275689,
+        "sourceId": 275703,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Darlington Rd",
-        "eventId": 260501729,
-        "id": "ESTA:260501729",
+        "sourceTitle": "",
+        "eventId": 260501819,
+        "id": "ESTA:260501819",
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-05-01T08:47:00.000Z",
-        "updated": "2026-05-01T08:56:00.000Z",
+        "created": "2026-05-01T10:08:00.000Z",
+        "updated": "2026-05-01T10:24:00.000Z",
         "resources": 0,
-        "location": "Darlington Rd, Gnotuk",
+        "location": "California Gully",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5314,57 +5561,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.10927751878708,
-          -38.20188577516472
+          144.26392856276016,
+          -36.72924775519759
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 275685,
+        "cfaId": 275700,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275685,
+        "sourceId": 275700,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hamish Ct",
-        "eventId": 260501710,
-        "id": "ESTA:260501710",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-05-01T08:33:00.000Z",
-        "updated": "2026-05-01T09:00:00.000Z",
-        "resources": 0,
-        "location": "Hamish Ct, Greensborough",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1037737978302,
-          -37.685434403919686
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275673,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275673,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Stamford St",
-        "eventId": 260501615,
-        "id": "ESTA:260501615",
+        "sourceTitle": "",
+        "eventId": 260501808,
+        "id": "ESTA:260501808",
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-05-01T07:48:00.000Z",
-        "updated": "2026-05-01T09:03:00.000Z",
+        "created": "2026-05-01T09:58:00.000Z",
+        "updated": "2026-05-01T10:25:00.000Z",
         "resources": 0,
-        "location": "Stamford St, Newborough",
+        "location": "Skipton",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5372,86 +5590,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.28158564005264,
-          -38.17740851775528
+          143.36531972983292,
+          -37.68285782192426
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 275693,
+        "cfaId": 275708,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275693,
+        "sourceId": 275708,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Moondarra Dr",
+        "eventId": 260501839,
+        "id": "ESTA:260501839",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-05-01T10:26:00.000Z",
+        "updated": "2026-05-01T10:28:00.000Z",
+        "resources": 0,
+        "location": "Moondarra Dr, Berwick",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3301425903169,
+          -38.067277660481075
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 275709,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275709,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Princes Hwy",
-        "eventId": 260501756,
-        "id": "ESTA:260501756",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-05-01T09:09:00.000Z",
-        "updated": "2026-05-01T09:17:00.000Z",
-        "resources": 0,
-        "location": "Princes Hwy, Dandenong",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2046503275008,
-          -37.97674225467924
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275694,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275694,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Tremont St",
-        "eventId": 260501758,
-        "id": "ESTA:260501758",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-05-01T09:11:00.000Z",
-        "updated": "2026-05-01T09:22:00.000Z",
-        "resources": 0,
-        "location": "Tremont St, Pakenham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.49300958373396,
-          -38.078085713678774
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275692,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275692,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Prairie-Rochester Rd",
-        "eventId": 260501748,
-        "id": "ESTA:260501748",
+        "eventId": 260501841,
+        "id": "ESTA:260501841",
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-05-01T09:02:00.000Z",
-        "updated": "2026-05-01T09:34:00.000Z",
+        "created": "2026-05-01T10:28:00.000Z",
+        "updated": "2026-05-01T10:36:00.000Z",
         "resources": 0,
-        "location": "Prairie-Rochester Rd, Diggora",
+        "location": "Princes Hwy, Traralgon",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -5459,35 +5648,122 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.53009607395458,
-          -36.33602770989485
+          146.53446483500304,
+          -38.19927700097406
         ]
       }
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 606283,
+        "status": "Safe",
+        "cfaId": 275711,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606283,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260550036,
-        "id": "ESTA:260550036",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-05-01T08:21:07.000Z",
-        "updated": "2026-05-01T09:45:02.000Z",
-        "resources": 1,
-        "location": "Elwood"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275711,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "The Highway -",
+        "eventId": 260501850,
+        "id": "ESTA:260501850",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-01T10:38:00.000Z",
+        "updated": "2026-05-01T10:40:00.000Z",
+        "resources": 0,
+        "location": "The Highway -, Bright",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9823484088346,
-          -37.875749254232105
+          146.97395825356094,
+          -36.73859662730037
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 275710,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275710,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Overland Dr",
+        "eventId": 260501847,
+        "id": "ESTA:260501847",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-01T10:34:00.000Z",
+        "updated": "2026-05-01T10:41:00.000Z",
+        "resources": 1,
+        "location": "Overland Dr, Narre Warren",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3025932260367,
+          -38.02030056182793
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 275706,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275706,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "High St",
+        "eventId": 260501828,
+        "id": "ESTA:260501828",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-01T10:13:00.000Z",
+        "updated": "2026-05-01T10:49:00.000Z",
+        "resources": 0,
+        "location": "High St, Bendigo",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2688884853119,
+          -36.7646072228183
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 606291,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606291,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550043,
+        "id": "ESTA:260550043",
+        "category1": "Rescue",
+        "category2": "Rescue Vehicle Into Structure",
+        "created": "2026-05-01T11:13:53.000Z",
+        "updated": "2026-05-01T11:13:53.000Z",
+        "resources": 0,
+        "location": "Donnybrook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623612886131,
+          -37.54656082221329
         ]
       }
     }
@@ -5719,7 +5995,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-01T09:54:21.710Z",
-    "featureCount": 281
+    "lastUpdated": "2026-05-01T11:16:01.484Z",
+    "featureCount": 290
   }
 }
