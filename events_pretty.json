@@ -797,7 +797,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 3002156,
@@ -806,8 +806,8 @@
         "id": 3002156,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-04-30T01:23:07.000Z",
-        "updated": "2026-04-30T01:23:07.000Z",
+        "created": "2026-05-01T22:31:20.000Z",
+        "updated": "2026-05-01T22:31:20.000Z",
         "resources": 0,
         "size": "47.34",
         "sizeFmt": "47.34 Ha.",
@@ -3195,7 +3195,7 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
+        "status": "Safe",
         "estaId": 124017389,
         "feedType": "incident",
         "source": "000",
@@ -3209,7 +3209,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-05-01T05:57:00.000Z",
-        "updated": "2026-05-01T21:49:00.000Z",
+        "updated": "2026-05-01T22:50:00.000Z",
         "resources": 0,
         "location": "Buffalo River",
         "cfaId": 275656,
@@ -3228,55 +3228,81 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 124026512,
+        "estaId": 124027070,
         "feedType": "incident",
-        "source": "OTHER",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275753,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Warringa Cr",
-        "eventId": 260502167,
-        "id": "ESTA:260502167",
+        "source": "FRV",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124027070,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne Cbd",
+        "eventId": "F260502352",
+        "id": "ESTA:260502352",
         "suppress": false,
-        "category1": "Fire",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-05-01T21:54:00.000Z",
-        "updated": "2026-05-01T21:54:00.000Z",
-        "resources": 2,
-        "location": "Warringa Cr, Hoppers Crossing",
-        "cfaId": 275753,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "created": "2026-05-01T22:50:21.000Z",
+        "updated": "2026-05-01T22:50:54.618Z",
+        "resources": 0,
+        "location": "St Kilda Rd, Melbourne Cbd"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.68666000912305,
-          -37.88338348179359
+          144.9710299843308,
+          -37.83137995730311
         ]
       }
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 124026335,
+        "status": "Safe",
+        "estaId": 124027069,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124027069,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Coburg North",
+        "eventId": "F260502351",
+        "id": "ESTA:260502351",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-05-01T22:49:46.000Z",
+        "updated": "2026-05-01T22:52:36.287Z",
+        "resources": 3,
+        "location": "Peterson Av, Coburg North"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97791775095814,
+          -37.73531183602307
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 124026982,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 275751,
+        "sourceId": 275755,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Western Hwy",
-        "eventId": 260502090,
-        "id": "ESTA:260502090",
+        "sourceTitle": "",
+        "eventId": 260502315,
+        "id": "ESTA:260502315",
         "suppress": false,
         "category1": "Fire",
         "category2": "Bushfire",
-        "created": "2026-05-01T21:31:00.000Z",
-        "updated": "2026-05-01T21:58:00.000Z",
-        "resources": 2,
-        "location": "Western Hwy, Burrumbeet",
-        "cfaId": 275751,
+        "created": "2026-05-01T22:43:00.000Z",
+        "updated": "2026-05-01T22:43:00.000Z",
+        "resources": 1,
+        "location": "Skenes Creek",
+        "cfaId": 275755,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -3284,8 +3310,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.6393368237443,
-          -37.47132626143978
+          143.71141356240423,
+          -38.72423618695572
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124027134,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606302,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550054,
+        "id": "ESTA:260550054",
+        "suppress": false,
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-05-01T22:56:30.000Z",
+        "updated": "2026-05-01T22:56:48.000Z",
+        "resources": 0,
+        "location": "Castlemaine",
+        "sesId": 606302
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.20894703568365,
+          -37.07893476037446
         ]
       }
     },
@@ -5832,6 +5888,35 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 275751,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 275751,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Western Hwy",
+        "eventId": 260502090,
+        "id": "ESTA:260502090",
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-05-01T21:31:00.000Z",
+        "updated": "2026-05-01T22:14:00.000Z",
+        "resources": 0,
+        "location": "Western Hwy, Burrumbeet",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6393368237443,
+          -37.47132626143978
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Under Control",
         "cfaId": 273183,
         "feedType": "incident",
@@ -5948,64 +6033,6 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 275749,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275749,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Penshurst-Warrnambool Rd",
-        "eventId": 260502045,
-        "id": "ESTA:260502045",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-05-01T21:01:00.000Z",
-        "updated": "2026-05-01T21:07:00.000Z",
-        "resources": 1,
-        "location": "Penshurst-Warrnambool Rd, Hawkesdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.32133155069369,
-          -38.10009285256142
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 275747,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 275747,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Piper St",
-        "eventId": 260502043,
-        "id": "ESTA:260502043",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-01T20:58:00.000Z",
-        "updated": "2026-05-01T21:18:00.000Z",
-        "resources": 0,
-        "location": "Piper St, Yarrawonga",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.00681619304152,
-          -36.01122876480015
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Under Control",
         "cfaId": 275750,
         "feedType": "incident",
@@ -6030,33 +6057,6 @@
         "coordinates": [
           145.35535110131372,
           -37.32943511597271
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "sesId": 606296,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606296,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260550047,
-        "id": "ESTA:260550047",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-05-01T21:37:13.000Z",
-        "updated": "2026-05-01T21:57:35.000Z",
-        "resources": 1,
-        "location": "Rowville"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.23478303775073,
-          -37.9298047604417
         ]
       }
     }
@@ -6288,7 +6288,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-01T21:59:41.170Z",
+    "lastUpdated": "2026-05-01T22:58:27.158Z",
     "featureCount": 280
   }
 }
