@@ -3206,7 +3206,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "estaId": 124050600,
         "feedType": "incident",
         "source": "000",
@@ -3220,8 +3220,8 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-05-03T14:29:44.000Z",
-        "updated": "2026-05-03T14:31:39.000Z",
-        "resources": 0,
+        "updated": "2026-05-03T15:08:17.000Z",
+        "resources": 1,
         "location": "Koetong",
         "sesId": 606463
       },
@@ -3237,58 +3237,32 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 124050601,
+        "estaId": 124050896,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124050601,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Truganina",
-        "eventId": "F260505183",
-        "id": "ESTA:260505183",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 276070,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Weerana Way",
+        "eventId": 260505190,
+        "id": "ESTA:260505190",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-05-03T14:28:21.000Z",
-        "updated": "2026-05-03T14:29:49.440Z",
+        "created": "2026-05-03T15:28:00.000Z",
+        "updated": "2026-05-03T15:28:00.000Z",
         "resources": 0,
-        "location": "Ohagan Way, Truganina"
+        "location": "Weerana Way, Lara",
+        "cfaId": 276070,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.70572568531324,
-          -37.82443154909503
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 124050603,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124050603,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Truganina",
-        "eventId": "F260505184",
-        "id": "ESTA:260505184",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-03T14:30:07.000Z",
-        "updated": "2026-05-03T14:30:18.519Z",
-        "resources": 0,
-        "location": "Ohagan Way, Truganina"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.70572568531324,
-          -37.82443154909503
+          144.3777338405931,
+          -38.02958034340585
         ]
       }
     },
@@ -8792,7 +8766,7 @@
         "category2": "Building Fire",
         "created": "2026-05-03T08:14:00.000Z",
         "updated": "2026-05-03T08:42:00.000Z",
-        "resources": 1,
+        "resources": 0,
         "location": "Terang",
         "size": "Small",
         "sizeFmt": "Small"
@@ -8808,7 +8782,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "cfaId": 276069,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -8817,11 +8791,11 @@
         "sourceTitle": "Ohagan Way",
         "eventId": 260505182,
         "id": "ESTA:260505182",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
+        "category1": "Fire",
+        "category2": "Other",
         "created": "2026-05-03T14:28:00.000Z",
-        "updated": "2026-05-03T14:28:00.000Z",
-        "resources": 2,
+        "updated": "2026-05-03T14:40:00.000Z",
+        "resources": 3,
         "location": "Ohagan Way, Truganina",
         "size": "Small",
         "sizeFmt": "Small"
@@ -8832,6 +8806,60 @@
         "coordinates": [
           144.7057132383596,
           -37.824444008004754
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 606465,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606465,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260505187,
+        "id": "ESTA:260505187",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-05-03T15:02:09.000Z",
+        "updated": "2026-05-03T15:09:04.000Z",
+        "resources": 2,
+        "location": "Greenvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.885154497444,
+          -37.642261284535515
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 606464,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606464,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260550212,
+        "id": "ESTA:260550212",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-05-03T14:33:17.000Z",
+        "updated": "2026-05-03T15:12:27.000Z",
+        "resources": 2,
+        "location": "Bonnie Brook"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6794292538355,
+          -37.68520718290084
         ]
       }
     }
@@ -9063,7 +9091,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-03T14:33:20.937Z",
-    "featureCount": 267
+    "lastUpdated": "2026-05-03T15:30:40.945Z",
+    "featureCount": 268
   }
 }
