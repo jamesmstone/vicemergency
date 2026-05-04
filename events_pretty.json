@@ -1717,7 +1717,36 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Responding",
+        "estaId": 124065979,
+        "feedType": "incident",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124065979,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Dallas",
+        "eventId": "F260506210",
+        "id": "ESTA:260506210",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-04T23:25:32.000Z",
+        "updated": "2026-05-04T23:26:19.796Z",
+        "resources": 0,
+        "location": "Dallas"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9378240120482,
+          -37.665570989052036
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
         "estaId": 124065278,
         "feedType": "incident",
         "source": "000",
@@ -1731,8 +1760,8 @@
         "category1": "Rescue",
         "category2": "Rescue Road Trap",
         "created": "2026-05-04T22:20:25.000Z",
-        "updated": "2026-05-04T22:32:20.000Z",
-        "resources": 7,
+        "updated": "2026-05-04T23:26:52.000Z",
+        "resources": 1,
         "location": "Humevale",
         "cfaId": 276227,
         "size": "Small",
@@ -1745,35 +1774,6 @@
         "coordinates": [
           145.18242595480683,
           -37.48859056964001
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 124065424,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124065424,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Ringwood",
-        "eventId": "F260506136",
-        "id": "ESTA:260506136",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-05-04T22:36:01.000Z",
-        "updated": "2026-05-04T22:37:16.341Z",
-        "resources": 3,
-        "location": "Summer Lane, Ringwood"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.21875236136717,
-          -37.823259644115325
         ]
       }
     },
@@ -3104,19 +3104,19 @@
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
+        "status": "Being Controlled",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "658274",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Doctors Point Rd, East Albury",
-        "id": "2026-05-05T08:10:00.0000000:658274",
+        "id": "2026-05-05T08:47:00.0000000:658274",
         "category1": "Fire",
         "category2": "Bushfire",
         "name": "Doctors Point Rd, East Albury",
         "location": "Doctors Point Rd, East Albury 2640",
-        "created": "2026-05-05T08:10:00+10:00",
-        "updated": "2026-05-05T08:10:00+10:00",
+        "created": "2026-05-05T08:47:00+10:00",
+        "updated": "2026-05-05T08:47:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -4129,24 +4129,23 @@
     },
     {
       "properties": {
-        "status": "On Scene",
+        "status": "Safe",
         "cfaId": 276226,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 606542,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 276226,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Forest Rd",
         "eventId": 260506095,
         "id": "ESTA:260506095",
-        "category1": "Rescue",
-        "category2": "Rescue Industrial Trap",
-        "created": "2026-05-04T22:09:22.000Z",
-        "updated": "2026-05-04T22:24:36.000Z",
-        "resources": 4,
-        "location": "Lara",
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2026-05-04T22:09:00.000Z",
+        "updated": "2026-05-04T22:46:00.000Z",
+        "resources": 0,
+        "location": "Forest Rd, Lara",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 606542
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -4159,21 +4158,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 276225,
+        "status": "Responding",
+        "cfaId": 276234,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 276225,
+        "sourceId": 276234,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Walpole Av",
-        "eventId": 260506075,
-        "id": "ESTA:260506075",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-05-04T21:46:00.000Z",
-        "updated": "2026-05-04T22:19:00.000Z",
+        "sourceTitle": "Alexandra Av",
+        "eventId": 260506196,
+        "id": "ESTA:260506196",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-05-04T23:15:00.000Z",
+        "updated": "2026-05-04T23:15:00.000Z",
         "resources": 2,
-        "location": "Walpole Av, Rosebud",
+        "location": "Alexandra Av, Kalimna",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -4181,8 +4180,93 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.88803329205555,
-          -38.36654095812911
+          147.96281732761133,
+          -37.87680271572197
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 276229,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 276229,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Cottles Bridge-Strathewen Rd",
+        "eventId": 260506163,
+        "id": "ESTA:260506163",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-05-04T22:53:00.000Z",
+        "updated": "2026-05-04T23:20:00.000Z",
+        "resources": 2,
+        "location": "Cottles Bridge-Strathewen Rd, Cottles Bridge",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.21873157268428,
+          -37.59419307174582
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 276233,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 276233,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Coyote Rd",
+        "eventId": 260506187,
+        "id": "ESTA:260506187",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-04T23:12:00.000Z",
+        "updated": "2026-05-04T23:29:00.000Z",
+        "resources": 2,
+        "location": "Coyote Rd, Clyde North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3447382304187,
+          -38.086787600045376
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 606544,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 606544,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260506149,
+        "id": "ESTA:260506149",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-05-04T22:44:17.000Z",
+        "updated": "2026-05-04T23:30:21.000Z",
+        "resources": 3,
+        "location": "Corio"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36427144376924,
+          -38.05619354146865
         ]
       }
     }
@@ -4414,7 +4498,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-04T22:38:40.488Z",
-    "featureCount": 205
+    "lastUpdated": "2026-05-04T23:35:20.791Z",
+    "featureCount": 208
   }
 }
