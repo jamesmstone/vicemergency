@@ -975,53 +975,24 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 124258293,
+        "status": "Not Yet Under Control",
+        "estaId": 124259297,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124258293,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Narre Warren",
-        "eventId": "F260524237",
-        "id": "ESTA:260524237",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-05-19T13:19:06.000Z",
-        "updated": "2026-05-19T13:28:36.994Z",
-        "resources": 1,
-        "location": "Link Rd, Narre Warren"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.30373900626654,
-          -38.01709296855862
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 124258378,
-        "feedType": "incident",
-        "source": "RADIO",
+        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 278217,
+        "sourceId": 278221,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Shopping Plza",
-        "eventId": 260524238,
-        "id": "ESTA:260524238",
+        "sourceTitle": "",
+        "eventId": 260524251,
+        "id": "ESTA:260524251",
         "suppress": false,
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2026-05-19T13:35:00.000Z",
-        "updated": "2026-05-19T13:35:00.000Z",
-        "resources": 0,
-        "location": "Shopping Plza, Warragul",
-        "cfaId": 278217,
+        "created": "2026-05-19T16:16:00.000Z",
+        "updated": "2026-05-19T16:16:00.000Z",
+        "resources": 5,
+        "location": "Dandenong",
+        "cfaId": 278221,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1029,8 +1000,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.93128651396768,
-          -38.16176513108012
+          145.1976404517496,
+          -37.99103593094231
         ]
       }
     },
@@ -1040,14 +1011,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/bdfa1d3835bb9e7329b0eef0f89df426",
+        "sourceId": "IDV20600/6046944bbf2148f65301904a1e2a22f2",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Gale Warning",
-        "id": "IDV20600/bdfa1d3835bb9e7329b0eef0f89df426",
+        "id": "IDV20600/6046944bbf2148f65301904a1e2a22f2",
         "category1": "Met",
         "category2": "Gale Wind",
         "name": "Gale Warning",
-        "created": "2026-05-19T12:00:00.000Z",
+        "created": "2026-05-19T14:00:00.000Z",
         "webHeadline": "Gale Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1340,14 +1311,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/babea57df2f534f1cb41dea54408f1d2",
+        "sourceId": "IDV20600/9fa13171b619a068b58d66161fbf6374",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/babea57df2f534f1cb41dea54408f1d2",
+        "id": "IDV20600/9fa13171b619a068b58d66161fbf6374",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-05-19T12:00:00.000Z",
+        "created": "2026-05-19T14:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -2333,6 +2304,35 @@
           -37.13104460784669
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 278220,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278220,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Princes Hwy",
+        "eventId": 260524248,
+        "id": "ESTA:260524248",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-05-19T15:23:00.000Z",
+        "updated": "2026-05-19T16:20:00.000Z",
+        "resources": 0,
+        "location": "Princes Hwy, Dandenong",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.20893686308807,
+          -37.97978153355054
+        ]
+      }
     }
   ],
   "properties": {
@@ -2360,53 +2360,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "Mallee": "NO FORECAST",
-            "Wimmera": "NO FORECAST",
-            "South West": "NO FORECAST",
-            "Northern Country": "NO FORECAST",
-            "North Central": "NO FORECAST",
-            "Central": "NO FORECAST",
-            "North East": "NO FORECAST",
-            "West and South Gippsland": "NO FORECAST",
-            "East Gippsland": "NO FORECAST"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2026-05-18T14:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Not Declared"
-          },
-          "asthma": {
-            "Mallee": "None",
-            "Wimmera": "None",
-            "Northern Country": "None",
-            "North East": "None",
-            "East Gippsland": "None",
-            "West and South Gippsland": "None",
-            "Central": "None",
-            "North Central": "None",
-            "South West": "None"
-          }
-        },
         {
           "fdr": {
             "Mallee": "NO FORECAST",
@@ -2535,6 +2488,53 @@
             "Central": "Not Declared",
             "North Central": "Not Declared",
             "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "Mallee": "NO FORECAST",
+            "Wimmera": "NO FORECAST",
+            "South West": "NO FORECAST",
+            "Northern Country": "NO FORECAST",
+            "North Central": "NO FORECAST",
+            "Central": "NO FORECAST",
+            "North East": "NO FORECAST",
+            "West and South Gippsland": "NO FORECAST",
+            "East Gippsland": "NO FORECAST"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2026-05-22T14:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
           }
         }
       ],
@@ -2562,7 +2562,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-19T13:37:06.280Z",
+    "lastUpdated": "2026-05-19T16:39:26.040Z",
     "featureCount": 131
   }
 }
