@@ -696,7 +696,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 102638057,
@@ -706,7 +706,7 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-05-01T05:40:00Z",
-        "updated": "2026-05-01T06:16:38.135772Z",
+        "updated": "2026-05-21T22:50:16.2475359Z",
         "resources": 0,
         "size": 0.5,
         "sizeFmt": "0.5 Ha.",
@@ -723,30 +723,65 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 124286168,
+        "status": "Safe",
+        "estaId": 124286571,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124286168,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Thornbury",
-        "eventId": "F260526230",
-        "id": "ESTA:260526230",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278524,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Burgundy Dr",
+        "eventId": 260526312,
+        "id": "ESTA:260526312",
         "suppress": false,
         "category1": "Other",
         "category2": "Other",
-        "created": "2026-05-21T22:42:55.000Z",
-        "updated": "2026-05-21T22:45:31.811Z",
+        "created": "2026-05-21T23:22:00.000Z",
+        "updated": "2026-05-21T23:24:00.000Z",
         "resources": 0,
-        "location": "Alston St, Thornbury"
+        "location": "Burgundy Dr, Wyndham Vale",
+        "cfaId": 278524,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.02042567534784,
-          -37.75554153697676
+          144.62876034958492,
+          -37.88817823218427
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "estaId": 124286558,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278523,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Kangaroo Dr",
+        "eventId": 260526310,
+        "id": "ESTA:260526310",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-05-21T23:21:00.000Z",
+        "updated": "2026-05-21T23:21:00.000Z",
+        "resources": 4,
+        "location": "Kangaroo Dr, Little River",
+        "cfaId": 278523,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.55588341702747,
+          -37.9663169765329
         ]
       }
     },
@@ -1616,110 +1651,22 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 278505,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278505,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nar Nar Goon-Longwarry Rd",
-        "eventId": 260526095,
-        "id": "ESTA:260526095",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-21T20:13:00.000Z",
-        "updated": "2026-05-21T21:46:00.000Z",
-        "resources": 0,
-        "location": "Nar Nar Goon-Longwarry Rd, Bunyip",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.71568690637997,
-          -38.098854121944264
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 278510,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278510,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Drysdale Bypa",
-        "eventId": 260526139,
-        "id": "ESTA:260526139",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-21T21:37:00.000Z",
-        "updated": "2026-05-21T22:03:00.000Z",
-        "resources": 0,
-        "location": "Drysdale Bypa, Drysdale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5811308204265,
-          -38.17658464713507
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 278512,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278512,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Hollydale Cl",
-        "eventId": 260526167,
-        "id": "ESTA:260526167",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-21T22:01:00.000Z",
-        "updated": "2026-05-21T22:16:00.000Z",
-        "resources": 0,
-        "location": "Hollydale Cl, Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.33871617281426,
-          -38.04856432901788
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
         "cfaId": 278513,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 607578,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278513,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
         "eventId": 260526183,
         "id": "ESTA:260526183",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-05-21T22:12:40.000Z",
-        "updated": "2026-05-21T22:36:47.000Z",
-        "resources": 5,
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-05-21T22:13:00.000Z",
+        "updated": "2026-05-21T23:04:00.000Z",
+        "resources": 0,
         "location": "Mount Duneed",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 607578
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -1732,31 +1679,89 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "cfaId": 278511,
+        "status": "Safe",
+        "cfaId": 278517,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 607577,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260526147,
-        "id": "ESTA:260526147",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-05-21T21:43:20.000Z",
-        "updated": "2026-05-21T22:28:49.000Z",
-        "resources": 2,
-        "location": "Romsey",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278517,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Whiters St",
+        "eventId": 260526236,
+        "id": "ESTA:260526236",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-05-21T22:47:00.000Z",
+        "updated": "2026-05-21T23:12:00.000Z",
+        "resources": 0,
+        "location": "Whiters St, Lakes Entrance",
         "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 607577
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.74252828654815,
-          -37.34334355485854
+          147.99970198141244,
+          -37.87672058532296
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 278514,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 607579,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260526231,
+        "id": "ESTA:260526231",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap Fire",
+        "created": "2026-05-21T22:45:57.000Z",
+        "updated": "2026-05-21T23:05:12.000Z",
+        "resources": 6,
+        "location": "Narre Warren East",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 607579
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36113047376543,
+          -37.961183333582106
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 278518,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278518,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260526242,
+        "id": "ESTA:260526242",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-05-21T22:51:00.000Z",
+        "updated": "2026-05-21T23:38:00.000Z",
+        "resources": 0,
+        "location": "Irymple",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.19658221533123,
+          -34.222345705954886
         ]
       }
     },
@@ -2015,7 +2020,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-21T22:45:40.486Z",
+    "lastUpdated": "2026-05-21T23:42:40.788Z",
     "featureCount": 121
   }
 }
