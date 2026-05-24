@@ -796,24 +796,24 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 124315028,
+        "status": "Safe",
+        "estaId": 124315502,
         "feedType": "incident",
-        "source": "",
+        "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 278797,
+        "sourceId": 278800,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mckenzie St",
-        "eventId": 260529916,
-        "id": "ESTA:260529916",
+        "sourceTitle": "Downey St",
+        "eventId": 260530030,
+        "id": "ESTA:260530030",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-05-23T22:49:00.000Z",
-        "updated": "2026-05-23T22:49:00.000Z",
-        "resources": 1,
-        "location": "Mckenzie St, Wonthaggi",
-        "cfaId": 278797,
+        "created": "2026-05-23T23:39:00.000Z",
+        "updated": "2026-05-23T23:46:00.000Z",
+        "resources": 0,
+        "location": "Downey St, Alexandra",
+        "cfaId": 278800,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -821,90 +821,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.5943640320745,
-          -38.60857432091155
+          145.70186110194845,
+          -37.19325328047547
         ]
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "estaId": 124315633,
         "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "651585",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Miralai Road Bondi State Forest",
-        "id": "2026-05-23T17:47:00.0000000:651585",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 278803,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Deanswood Dr",
+        "eventId": 260530062,
+        "id": "ESTA:260530062",
+        "suppress": false,
         "category1": "Fire",
-        "category2": "Fire",
-        "name": "Miralai Road Bondi State Forest",
-        "location": "Forestry Hr Miralai North Plantation, Bondio State Forest",
-        "created": "2026-05-23T17:47:00+10:00",
-        "updated": "2026-05-23T17:47:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "138 ha"
-        ]
+        "category2": "Building Fire",
+        "created": "2026-05-23T23:53:00.000Z",
+        "updated": "2026-05-24T00:05:00.000Z",
+        "resources": 3,
+        "location": "Deanswood Dr, Somerville",
+        "cfaId": 278803,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
+      "type": "Feature",
       "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.1275,
-                  -37.0679
-                ],
-                [
-                  149.1314,
-                  -37.0689
-                ],
-                [
-                  149.1284,
-                  -37.0783
-                ],
-                [
-                  149.13,
-                  -37.0787
-                ],
-                [
-                  149.1289,
-                  -37.0846
-                ],
-                [
-                  149.1273,
-                  -37.0861
-                ],
-                [
-                  149.122,
-                  -37.0854
-                ],
-                [
-                  149.1196,
-                  -37.0844
-                ],
-                [
-                  149.1237,
-                  -37.0675
-                ],
-                [
-                  149.1275,
-                  -37.0679
-                ]
-              ]
-            ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              149.125571551,
-              -37.0743627959999
-            ]
-          }
+        "type": "Point",
+        "coordinates": [
+          145.1831221135424,
+          -38.234973771416044
         ]
       }
     },
@@ -1380,6 +1330,88 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "status": "Under Control",
+        "feedType": "incident",
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "651585",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Miralai Road Bondi State Forest",
+        "id": "2026-05-23T17:47:00.0000000:651585",
+        "category1": "Fire",
+        "category2": "Fire",
+        "name": "Miralai Road Bondi State Forest",
+        "location": "Forestry Hr Miralai North Plantation, Bondio State Forest",
+        "created": "2026-05-23T17:47:00+10:00",
+        "updated": "2026-05-23T17:47:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "138 ha"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.1275,
+                  -37.0679
+                ],
+                [
+                  149.1314,
+                  -37.0689
+                ],
+                [
+                  149.1284,
+                  -37.0783
+                ],
+                [
+                  149.13,
+                  -37.0787
+                ],
+                [
+                  149.1289,
+                  -37.0846
+                ],
+                [
+                  149.1273,
+                  -37.0861
+                ],
+                [
+                  149.122,
+                  -37.0854
+                ],
+                [
+                  149.1196,
+                  -37.0844
+                ],
+                [
+                  149.1237,
+                  -37.0675
+                ],
+                [
+                  149.1275,
+                  -37.0679
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              149.125571551,
+              -37.0743627959999
+            ]
+          }
+        ]
+      }
+    },
+    {
       "properties": {
         "status": "Under Control",
         "cfaId": 264499,
@@ -1440,20 +1472,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 278793,
+        "cfaId": 278797,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 278793,
+        "sourceId": 278797,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Heathmere Cr",
-        "eventId": 260529862,
-        "id": "ESTA:260529862",
-        "category1": "Fire",
+        "sourceTitle": "Mckenzie St",
+        "eventId": 260529916,
+        "id": "ESTA:260529916",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-05-23T22:20:00.000Z",
-        "updated": "2026-05-23T22:34:00.000Z",
+        "created": "2026-05-23T22:49:00.000Z",
+        "updated": "2026-05-23T23:07:00.000Z",
         "resources": 0,
-        "location": "Heathmere Cr, Endeavour Hills",
+        "location": "Mckenzie St, Wonthaggi",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1461,95 +1493,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.26430726679556,
-          -37.969500164128405
+          145.5943640320745,
+          -38.60857432091155
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 278794,
+        "status": "On Scene",
+        "sesId": 607657,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278794,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gallaxus Av",
-        "eventId": 260529881,
-        "id": "ESTA:260529881",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-23T22:31:00.000Z",
-        "updated": "2026-05-23T22:46:00.000Z",
-        "resources": 2,
-        "location": "Gallaxus Av, Wyndham Vale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6248273762373,
-          -37.86443557577493
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 278795,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278795,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Raymond St",
-        "eventId": 260529883,
-        "id": "ESTA:260529883",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-05-23T22:32:00.000Z",
-        "updated": "2026-05-23T22:52:00.000Z",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 607657,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260551324,
+        "id": "ESTA:260551324",
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-05-23T23:38:56.000Z",
+        "updated": "2026-05-23T23:55:53.000Z",
         "resources": 1,
-        "location": "Raymond St, Tootgarook",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Hamilton"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.8568601396252,
-          -38.37572479720987
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 278798,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 278798,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Princes Hwy",
-        "eventId": 260529928,
-        "id": "ESTA:260529928",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-05-23T22:55:00.000Z",
-        "updated": "2026-05-23T22:55:00.000Z",
-        "resources": 3,
-        "location": "Princes Hwy, Springvale",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.17027346742896,
-          -37.94487823647042
+          142.02173512887683,
+          -37.742979261308605
         ]
       }
     }
@@ -1781,7 +1753,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-23T23:02:46.157Z",
-    "featureCount": 118
+    "lastUpdated": "2026-05-24T00:06:06.141Z",
+    "featureCount": 115
   }
 }
