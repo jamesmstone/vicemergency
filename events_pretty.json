@@ -642,30 +642,33 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 124392144,
+        "status": "Responding",
+        "estaId": 124392844,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124392144,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "St Kilda",
-        "eventId": "F260536131",
-        "id": "ESTA:260536131",
+        "source": "FIP",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 279605,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grandlee Dr",
+        "eventId": 260536285,
+        "id": "ESTA:260536285",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-05-29T22:32:47.000Z",
-        "updated": "2026-05-29T22:34:02.254Z",
-        "resources": 4,
-        "location": "St Kilda"
+        "category2": "Building Fire",
+        "created": "2026-05-29T23:44:00.000Z",
+        "updated": "2026-05-29T23:44:00.000Z",
+        "resources": 2,
+        "location": "Grandlee Dr, Wendouree",
+        "cfaId": 279605,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98177869043812,
-          -37.86409850675941
+          143.81205359961064,
+          -37.53545211652723
         ]
       }
     },
@@ -2577,6 +2580,94 @@
     },
     {
       "properties": {
+        "status": "Safe",
+        "cfaId": 279599,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 279599,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Unknown -",
+        "eventId": 260536170,
+        "id": "ESTA:260536170",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-05-29T22:57:00.000Z",
+        "updated": "2026-05-29T23:14:00.000Z",
+        "resources": 0,
+        "location": "Unknown -, Mooroopna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36278243175255,
+          -36.39560332891409
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "cfaId": 279600,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 607928,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260536180,
+        "id": "ESTA:260536180",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-05-29T23:02:45.000Z",
+        "updated": "2026-05-29T23:17:30.000Z",
+        "resources": 1,
+        "location": "Seaford",
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 607928
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13663945216067,
+          -38.10880471878291
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 279604,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 279604,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Chaffey Trk",
+        "eventId": 260536245,
+        "id": "ESTA:260536245",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-05-29T23:30:00.000Z",
+        "updated": "2026-05-29T23:30:00.000Z",
+        "resources": 1,
+        "location": "Chaffey Trk, Mildura",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.14517665571597,
+          -34.149962277546
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 607926,
         "feedType": "incident",
@@ -2589,8 +2680,8 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2026-05-29T21:52:21.000Z",
-        "updated": "2026-05-29T21:55:15.000Z",
-        "resources": 0,
+        "updated": "2026-05-29T23:02:07.000Z",
+        "resources": 1,
         "location": "Keysborough"
       },
       "type": "Feature",
@@ -2599,6 +2690,33 @@
         "coordinates": [
           145.15015484497704,
           -38.002428250338326
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Complete",
+        "sesId": 607929,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 607929,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260551580,
+        "id": "ESTA:260551580",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-05-29T23:44:19.000Z",
+        "updated": "2026-05-29T23:44:19.000Z",
+        "resources": 0,
+        "location": "Malvern East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0637270141408,
+          -37.86840187185036
         ]
       }
     }
@@ -2830,7 +2948,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-05-29T22:39:40.311Z",
-    "featureCount": 106
+    "lastUpdated": "2026-05-29T23:52:40.294Z",
+    "featureCount": 110
   }
 }
