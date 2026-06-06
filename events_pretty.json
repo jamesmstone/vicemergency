@@ -167,29 +167,117 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 124492424,
+        "estaId": 124492901,
         "feedType": "incident",
-        "source": "FIP",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 124492424,
+        "sourceId": 124492901,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Yarrawonga",
-        "eventId": "F260604262",
-        "id": "ESTA:260604262",
+        "sourceTitle": "Windsor",
+        "eventId": "F260604276",
+        "id": "ESTA:260604276",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-06-06T17:47:34.000Z",
-        "updated": "2026-06-06T17:47:38.080Z",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-06T19:21:39.000Z",
+        "updated": "2026-06-06T19:34:22.803Z",
         "resources": 0,
-        "location": "Piper St, Yarrawonga"
+        "location": "Albert St, Windsor"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.00682946045384,
-          -36.01121633414592
+          144.9912659694084,
+          -37.8565791271772
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124492950,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124492950,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Toorak",
+        "eventId": "F260604278",
+        "id": "ESTA:260604278",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-06-06T19:34:32.000Z",
+        "updated": "2026-06-06T19:38:00.026Z",
+        "resources": 0,
+        "location": "Canterbury Rd, Toorak"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0095390952737,
+          -37.84807174565323
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "estaId": 124492931,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 609046,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260651037,
+        "id": "ESTA:260651037",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-06-06T19:33:13.000Z",
+        "updated": "2026-06-06T19:39:39.000Z",
+        "resources": 0,
+        "location": "Bentleigh East",
+        "sesId": 609046
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05384523635675,
+          -37.92939274261884
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124492968,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124492968,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Bentleigh East",
+        "eventId": "F260604279",
+        "id": "ESTA:260604279",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-06T19:39:25.000Z",
+        "updated": "2026-06-06T19:39:59.244Z",
+        "resources": 0,
+        "location": "Mawby Rd, Bentleigh East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05385785054688,
+          -37.92939159351478
         ]
       }
     },
@@ -254,21 +342,23 @@
     },
     {
       "properties": {
-        "status": "On Scene",
-        "sesId": 609025,
+        "status": "Responding",
+        "cfaId": 280537,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 609025,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260604054,
-        "id": "ESTA:260604054",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-06-06T07:45:35.000Z",
-        "updated": "2026-06-06T15:32:48.000Z",
-        "resources": 0,
-        "location": "Stanhope"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280537,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260604270,
+        "id": "ESTA:260604270",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2026-06-06T19:02:00.000Z",
+        "updated": "2026-06-06T19:02:00.000Z",
+        "resources": 1,
+        "location": "Stanhope",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
@@ -276,6 +366,35 @@
         "coordinates": [
           144.9822114507677,
           -36.44818698712293
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 280538,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280538,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Railway Av",
+        "eventId": 260604271,
+        "id": "ESTA:260604271",
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2026-06-06T19:05:00.000Z",
+        "updated": "2026-06-06T19:07:00.000Z",
+        "resources": 0,
+        "location": "Railway Av, Horsham",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20086046649774,
+          -36.70749003528683
         ]
       }
     }
@@ -507,7 +626,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-06T17:48:00.136Z",
-    "featureCount": 87
+    "lastUpdated": "2026-06-06T19:42:19.989Z",
+    "featureCount": 91
   }
 }
