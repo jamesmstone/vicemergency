@@ -2,28 +2,240 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "status": "Going",
-        "feedType": "incident",
-        "sourceOrg": "SA/CFS",
-        "sourceId": "1708020",
-        "sourceFeed": "cfs-incident",
-        "sourceTitle": "Princes Hwy/Kangaroo Flat Rd , Wandilo",
-        "id": "1708020",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "name": "Princes Hwy/Kangaroo Flat Rd , Wandilo",
-        "created": "2026-06-07T09:43:00.000Z",
-        "updated": "2026-06-07T09:43:00.000Z",
-        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
-        "location": "Princes Hwy/Kangaroo Flat Rd , Wandilo"
-      },
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.674431296152,
-          -37.7633536091545
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              144.88626157352758,
+              -37.72642931628555
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.8859182507749,
+                  -37.71787554908153
+                ],
+                [
+                  144.88423069104041,
+                  -37.71802335656306
+                ],
+                [
+                  144.88259313837287,
+                  -37.71837816958226
+                ],
+                [
+                  144.88104591475366,
+                  -37.718931248577434
+                ],
+                [
+                  144.87962711796325,
+                  -37.71966897065517
+                ],
+                [
+                  144.87837168348733,
+                  -37.72057316544752
+                ],
+                [
+                  144.87731052428924,
+                  -37.72162156303591
+                ],
+                [
+                  144.87646976963026,
+                  -37.72278834286271
+                ],
+                [
+                  144.87587012168035,
+                  -37.724044770060296
+                ],
+                [
+                  144.87552634576215,
+                  -37.72535990347615
+                ],
+                [
+                  144.87544690677973,
+                  -37.7267013579134
+                ],
+                [
+                  144.87563376078444,
+                  -37.72803610178175
+                ],
+                [
+                  144.87608230681062,
+                  -37.729331270496864
+                ],
+                [
+                  144.87678150016637,
+                  -37.73055497559421
+                ],
+                [
+                  144.87771412439088,
+                  -37.73167708964621
+                ],
+                [
+                  144.87885721518046,
+                  -37.73266998768321
+                ],
+                [
+                  144.88018262584623,
+                  -37.733509226902626
+                ],
+                [
+                  144.88165772037877,
+                  -37.73417414797956
+                ],
+                [
+                  144.88324617705513,
+                  -37.73464838322659
+                ],
+                [
+                  144.88490888280018,
+                  -37.73492025914323
+                ],
+                [
+                  144.88660489628026,
+                  -37.73498308348957
+                ],
+                [
+                  144.88829245601474,
+                  -37.73483530985145
+                ],
+                [
+                  144.88993000868228,
+                  -37.73448057566641
+                ],
+                [
+                  144.89147723230147,
+                  -37.73392761277937
+                ],
+                [
+                  144.89289602909187,
+                  -37.73319003271823
+                ],
+                [
+                  144.89415146356777,
+                  -37.73228599194939
+                ],
+                [
+                  144.89521262276588,
+                  -37.73123774531452
+                ],
+                [
+                  144.8960533774249,
+                  -37.73007109859487
+                ],
+                [
+                  144.8966530253748,
+                  -37.72881477362861
+                ],
+                [
+                  144.89699680129297,
+                  -37.72749970156112
+                ],
+                [
+                  144.89707624027542,
+                  -37.72615826158411
+                ],
+                [
+                  144.8968893862707,
+                  -37.72482348387238
+                ],
+                [
+                  144.8964408402445,
+                  -37.72352823632309
+                ],
+                [
+                  144.89574164688875,
+                  -37.722304415117605
+                ],
+                [
+                  144.89480902266428,
+                  -37.721182159049
+                ],
+                [
+                  144.8936659318747,
+                  -37.720189106988485
+                ],
+                [
+                  144.89234052120892,
+                  -37.719349716815564
+                ],
+                [
+                  144.89086542667638,
+                  -37.718684662631475
+                ],
+                [
+                  144.88927697000003,
+                  -37.718210325153116
+                ],
+                [
+                  144.88761426425498,
+                  -37.717938387888104
+                ],
+                [
+                  144.8859182507749,
+                  -37.71787554908153
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "feedType": "warning",
+        "cap": {
+          "category": "Fire",
+          "event": "Structure Fire",
+          "eventCode": "structurFire",
+          "urgency": "Expected",
+          "severity": "Minor",
+          "certainty": "Unknown",
+          "contact": "bgee@frv.vic.gov.au",
+          "senderName": "Other Agencies",
+          "responseType": "Monitor"
+        },
+        "sourceOrg": "EMV",
+        "sourceId": "41980",
+        "sourceFeed": "cop-cap",
+        "sourceTitle": "Advice",
+        "id": "41980",
+        "category1": "Advice",
+        "category2": "Fire",
+        "status": "Minor",
+        "name": "Advice",
+        "action": "Stay Informed",
+        "statewide": "N",
+        "location": "Airport West, Essendon Fields, Niddrie",
+        "created": "2026-06-07T22:09:36+10:00",
+        "updated": "2026-06-07T22:09:35+10:00",
+        "webHeadline": null,
+        "webBody": "<div style=\"margin-bottom:20px\">This <b>Advice</b> message is being issued for <span title=\"warning_locality\" class=\"param\" contenteditable=\"false\">Airport West, Essendon Fields, Niddrie</span>.<div><div><ul><li>There is a&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[factory/house/building/vehicle]\" data-value=\"1\" data-source=\"{&quot;0&quot;:&quot;factory&quot;,&quot;1&quot;:&quot;house&quot;,&quot;2&quot;:&quot;building&quot;,&quot;3&quot;:&quot;vehicle&quot;}\" style=\"display: inline;\" data-original-title=\"\" title=\"\">house</span>&nbsp;fire <span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[in/at/on]\" data-value=\"0\" data-source=\"{&quot;0&quot;:&quot;in&quot;,&quot;1&quot;:&quot;at&quot;,&quot;2&quot;:&quot;on&quot;}\" data-original-title=\"\" title=\"\" style=\"display: inline;\">in</span>&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[road/landmark/business/building]\" data-value=\"York Street, Airport West.\" data-original-title=\"\" title=\"\" style=\"display: inline;\">York Street, Airport West.</span></li><li>Smoke will be visible from nearby roads and communities.&nbsp;</li></ul></div></div></div><div style=\"font-size: 120%; font-weight: bold; margin-bottom:20px\">There\nis currently no threat to the community, but you should continue to stay\ninformed and monitor conditions. </div><div style=\"margin-bottom:20px\"><b>What you should do:&nbsp;</b><div><ul><li>Keep the roads clear so emergency services can respond.&nbsp;</li><li><span style=\"text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">If you are sensitive to smoke or\nyou live with someone who is sensitive to smoke, you should close windows and\ndoors. Turn off heating and cooling systems.</span></li><li>To\nprevent the smell of smoke entering your home or business, close\nwindows and doors.<span style=\"font-family: Calibri, sans-serif; font-size: 11pt;\">&nbsp;&nbsp;</span></li></ul></div></div><div style=\"margin-bottom:20px\"><b>Impacts in your area:&nbsp;</b><div><ul><li>The following <span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[roads are / road is]\" data-value=\"1\" contenteditable=\"false\" style=\"display: inline;\" data-source=\"{&quot;0&quot;:&quot;roads are&quot;,&quot;1&quot;:&quot;road is&quot;}\" data-original-title=\"\" title=\"\">road is</span>&nbsp;closed:&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[List roads/streets]\" data-value=\"York Street, Airport West\" contenteditable=\"false\" style=\"display: inline;\" data-original-title=\"\" title=\"\">York Street, Airport West</span>.</li><li>Traffic in the area may be affected.</li><li>Emergency services will remain in the area.</li></ul></div></div><div style=\"margin-bottom:20px\">This message was issued\nby <span title=\"warning_issuing_agency\" class=\"param\" contenteditable=\"false\">ESTA</span>.<div><br></div><div><b>The next update is expected by </b><span title=\"warning_next_update\" class=\"param\" contenteditable=\"false\">08/06/2026 02:10 am</span><b>&nbsp;or as the situation changes.</b></div><div><br></div><div><p class=\"MsoNormal\"><b>Use multiple sources to stay informed:&nbsp;</b></p></div><div><ul><li><a href=\"http://emergency.vic.gov.au/respond/\" title=\"\" target=\"_blank\">www.emergency.vic.gov.au</a></li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/115001055007-What-is-the-VicEmergency-Hotline-\" title=\"\" target=\"_blank\" style=\"background-color: white;\">VicEmergency Hotline</a>&nbsp;- freecall 1800 226 226</li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/230492607-What-is-the-VicEmergency-app-\" title=\"\" target=\"_blank\" style=\"background-color: white;\">VicEmergency app</a></li><li><a href=\"https://www.facebook.com/vicemergency\" title=\"\" target=\"_blank\"> Facebook</a> or&nbsp;<a href=\"https://twitter.com/vicemergency\" title=\"\" target=\"_blank\" style=\"background-color: white;\">Twitter</a>&nbsp;(#vicfires)</li><li>Tune in to ABC Local Radio, commercial and designated community radio stations, or Sky News TV. </li></ul><div><b>Accessibility:</b></div></div><div>The following services can\nhelp you, or someone you know, access information during an emergency. </div><div><ul><li>To access this information in other languages call the <a href=\"https://www.tisnational.gov.au/\" title=\"\" target=\"_blank\">Translating\nand Interpreting Service</a>&nbsp;on&nbsp;131\n450&nbsp;(freecall) and ask them to call VicEmergency Hotline.</li><li>If you are deaf, hard of\nhearing, or have a speech/communication impairment contact the&nbsp;<a href=\"https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links\" title=\"\" target=\"_blank\">National\nRelay Service</a>&nbsp;and ask them to call the VicEmergency Hotline.</li></ul></div></div>",
+        "text": "ADVICE - STRUCTURE FIRE - Stay Informed\nIncident Location: Airport West\nIssue Date: Sunday 07 June 2026, 10:09 pm\nNext Update: Monday 08 June 2026, 02:10 am\n\nMore details at http://emergency.vic.gov.au/respond/#!/warning/41980/moreinfo\n\nThis Advice message is being issued for Airport West, Essendon Fields, Niddrie.\n- There is a house fire in York Street, Airport West.\n- Smoke will be visible from nearby roads and communities. \n\n\nThere is currently no threat to the community, but you should continue to stay informed and monitor conditions. \n\n",
+        "sizeFmt": null,
+        "incidentFeatures": [
+          {
+            "properties": {
+              "feedType": "incident",
+              "sourceOrg": "EMV",
+              "sourceId": "41980",
+              "sourceFeed": "cop-cap",
+              "sourceTitle": "Advice",
+              "id": "41980",
+              "category1": "Fire",
+              "category2": "Structure Fire",
+              "name": "Advice",
+              "location": "Airport West",
+              "created": "2026-06-07T22:09:36+10:00",
+              "updated": "2026-06-07T22:09:35+10:00",
+              "webHeadline": null,
+              "sizeFmt": null
+            }
+          }
         ]
       }
     },
@@ -193,93 +405,151 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 124503154,
+        "estaId": 124504038,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280628,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260605710,
-        "id": "ESTA:260605710",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-06-07T10:33:00.000Z",
-        "updated": "2026-06-07T10:48:00.000Z",
-        "resources": 1,
-        "location": "Shepparton",
-        "cfaId": 280628,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.40291182751864,
-          -36.38358987172152
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 124503330,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280629,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kangan Dr",
-        "eventId": 260605717,
-        "id": "ESTA:260605717",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-06-07T10:52:00.000Z",
-        "updated": "2026-06-07T10:52:00.000Z",
-        "resources": 0,
-        "location": "Kangan Dr, Berwick",
-        "cfaId": 280629,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.34270187620177,
-          -38.04010434046902
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 124503349,
-        "feedType": "incident",
-        "source": "PAL",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 124503349,
+        "sourceId": 124504038,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Footscray",
-        "eventId": "F260605718",
-        "id": "ESTA:260605718",
+        "sourceTitle": "Sunshine West",
+        "eventId": "F260605751",
+        "id": "ESTA:260605751",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-06-07T10:53:28.000Z",
-        "updated": "2026-06-07T10:53:49.458Z",
-        "resources": 0,
-        "location": "Joseph Rd, Footscray"
+        "category2": "Structure Fire",
+        "created": "2026-06-07T12:02:29.000Z",
+        "updated": "2026-06-07T12:13:28.775Z",
+        "resources": 3,
+        "location": "Ingram Av, Sunshine West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.90910384064546,
-          -37.80055461567533
+          144.8113546724466,
+          -37.79804783542869
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124504147,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280639,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Seventh St",
+        "eventId": 260605755,
+        "id": "ESTA:260605755",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-06-07T12:14:00.000Z",
+        "updated": "2026-06-07T12:15:00.000Z",
+        "resources": 1,
+        "location": "Seventh St, Mildura",
+        "cfaId": 280639,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.16311117972595,
+          -34.18193374514162
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 124504162,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124504162,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Glen Iris",
+        "eventId": "F260605756",
+        "id": "ESTA:260605756",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-06-07T12:15:20.000Z",
+        "updated": "2026-06-07T12:16:00.790Z",
+        "resources": 3,
+        "location": "Essex St, Glen Iris"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05950211283155,
+          -37.86277286476786
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124504196,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124504196,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Geelong",
+        "eventId": "F260605757",
+        "id": "ESTA:260605757",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-07T12:19:11.000Z",
+        "updated": "2026-06-07T12:20:55.922Z",
+        "resources": 0,
+        "location": "Myers St, Geelong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35457219697122,
+          -38.14993100337024
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124504222,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280640,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Grossmans Rd",
+        "eventId": 260605758,
+        "id": "ESTA:260605758",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-06-07T12:21:00.000Z",
+        "updated": "2026-06-07T12:21:00.000Z",
+        "resources": 0,
+        "location": "Grossmans Rd, Torquay",
+        "cfaId": 280640,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.30138015287955,
+          -38.31806268912577
         ]
       }
     },
@@ -345,78 +615,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 280623,
+        "cfaId": 280634,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 280623,
+        "sourceId": 280634,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260605675,
-        "id": "ESTA:260605675",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-06-07T09:40:00.000Z",
-        "updated": "2026-06-07T09:57:00.000Z",
-        "resources": 0,
-        "location": "Sea Lake",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.85204980668613,
-          -35.504198157979715
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 280620,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280620,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Phillip Dr",
-        "eventId": 260605644,
-        "id": "ESTA:260605644",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-06-07T09:01:00.000Z",
-        "updated": "2026-06-07T10:08:00.000Z",
-        "resources": 0,
-        "location": "Phillip Dr, Sunbury",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.69873926759337,
-          -37.56437964961927
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 280624,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280624,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Old Bridge Dr",
-        "eventId": 260605694,
-        "id": "ESTA:260605694",
+        "sourceTitle": "Eaglehawk Rd",
+        "eventId": 260605736,
+        "id": "ESTA:260605736",
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-06-07T09:55:00.000Z",
-        "updated": "2026-06-07T10:13:00.000Z",
+        "category2": "Building Fire",
+        "created": "2026-06-07T11:26:00.000Z",
+        "updated": "2026-06-07T11:26:00.000Z",
         "resources": 0,
-        "location": "Old Bridge Dr, Newhaven",
+        "location": "Eaglehawk Rd, California Gully",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -424,8 +636,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3591628104014,
-          -38.516652616627
+          144.25899774071056,
+          -36.72623239180795
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 280633,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280633,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Province Bvd",
+        "eventId": 260605731,
+        "id": "ESTA:260605731",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-07T11:20:00.000Z",
+        "updated": "2026-06-07T11:37:00.000Z",
+        "resources": 0,
+        "location": "Province Bvd, Highton",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.29995986578865,
+          -38.16162242493435
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 280636,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280636,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Jeffrey St",
+        "eventId": 260605743,
+        "id": "ESTA:260605743",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-07T11:51:00.000Z",
+        "updated": "2026-06-07T12:00:00.000Z",
+        "resources": 3,
+        "location": "Jeffrey St, Hampton Park",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2523146806771,
+          -38.03448740754278
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 280635,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 280635,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Station St",
+        "eventId": 260605740,
+        "id": "ESTA:260605740",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-07T11:48:00.000Z",
+        "updated": "2026-06-07T12:15:00.000Z",
+        "resources": 1,
+        "location": "Station St, Clarkefield",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.745361070388,
+          -37.483506482884906
         ]
       }
     }
@@ -444,7 +743,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -452,7 +750,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -468,7 +767,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -476,7 +774,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-06-06T14:00:00.000Z",
           "heat": {
@@ -657,7 +956,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-07T10:55:21.092Z",
-    "featureCount": 92
+    "lastUpdated": "2026-06-07T12:23:21.043Z",
+    "featureCount": 95
   }
 }
