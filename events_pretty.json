@@ -166,30 +166,63 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 124519775,
+        "status": "On Scene",
+        "estaId": 124520227,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124519775,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Truganina",
-        "eventId": "F260607048",
-        "id": "ESTA:260607048",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 609161,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260607055,
+        "id": "ESTA:260607055",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-06-08T17:16:13.000Z",
-        "updated": "2026-06-08T17:29:05.844Z",
+        "category1": "Rescue",
+        "category2": "Rescue Road Trap",
+        "created": "2026-06-08T19:24:53.000Z",
+        "updated": "2026-06-08T19:46:20.000Z",
         "resources": 3,
-        "location": "Truganina"
+        "location": "St Arnaud",
+        "cfaId": 280770,
+        "size": "Small",
+        "sizeFmt": "Small",
+        "sesId": 609161
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.7442688019832,
-          -37.82564197648166
+          143.26816568101248,
+          -36.588215060035175
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124520301,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124520301,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Melbourne",
+        "eventId": "F260607059",
+        "id": "ESTA:260607059",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-06-08T19:42:50.000Z",
+        "updated": "2026-06-08T19:47:29.652Z",
+        "resources": 0,
+        "location": "Melbourne"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9693171696103,
+          -37.81133647370699
         ]
       }
     },
@@ -199,14 +232,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/3521b07d8d8ca9d4e8109e412fb6b632",
+        "sourceId": "IDV20600/7198a27a02bae104b37f7e901b045c58",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/3521b07d8d8ca9d4e8109e412fb6b632",
+        "id": "IDV20600/7198a27a02bae104b37f7e901b045c58",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-06-08T14:00:00.000Z",
+        "created": "2026-06-08T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -1501,64 +1534,6 @@
           -36.00938004657845
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 280765,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280765,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Echo Loop",
-        "eventId": 260607044,
-        "id": "ESTA:260607044",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-06-08T16:26:00.000Z",
-        "updated": "2026-06-08T16:42:00.000Z",
-        "resources": 3,
-        "location": "Echo Loop, Pakenham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.48337782109417,
-          -38.10115867822448
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 280766,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 280766,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Gladesville Bvd",
-        "eventId": 260607047,
-        "id": "ESTA:260607047",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-06-08T16:59:00.000Z",
-        "updated": "2026-06-08T17:18:00.000Z",
-        "resources": 0,
-        "location": "Gladesville Bvd, Patterson Lakes",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.14430411282402,
-          -38.06685980003573
-        ]
-      }
     }
   ],
   "properties": {
@@ -1788,7 +1763,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-08T17:30:20.122Z",
-    "featureCount": 90
+    "lastUpdated": "2026-06-08T19:51:08.965Z",
+    "featureCount": 89
   }
 }
