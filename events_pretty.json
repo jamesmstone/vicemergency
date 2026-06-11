@@ -530,30 +530,60 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 124556508,
+        "status": "Safe",
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124556508,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Harrietville",
-        "eventId": "S260651323",
-        "id": "ESTA:260651323",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-06-11T19:36:08.000Z",
-        "updated": "2026-06-11T19:38:46.979Z",
+        "sourceOrg": "VIC/DEECA",
+        "sourceId": 102647055,
+        "sourceFeed": "deeca-incident",
+        "sourceTitle": "Rawson - Thomson Bridge Campground",
+        "id": 102647055,
+        "category1": "Fire",
+        "category2": "Bushfire",
+        "created": "2026-06-05T23:49:00Z",
+        "updated": "2026-06-11T21:48:26.0172814Z",
         "resources": 0,
-        "location": "Great Alpine Rd, Harrietville"
+        "size": 0.01,
+        "sizeFmt": "0.01 Ha.",
+        "location": "2Km E Of Rawson"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.0613268585304,
-          -36.89947217280711
+          146.42,
+          -37.9565
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 124556771,
+        "feedType": "incident",
+        "source": "",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 281149,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Church St",
+        "eventId": 260609299,
+        "id": "ESTA:260609299",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-06-11T21:00:00.000Z",
+        "updated": "2026-06-11T21:14:00.000Z",
+        "resources": 0,
+        "location": "Church St, Bayswater",
+        "cfaId": 281149,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26326329053234,
+          -37.83727836996903
         ]
       }
     },
@@ -1561,6 +1591,62 @@
           -37.13104460784669
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 281146,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 281146,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bolton St",
+        "eventId": 260609290,
+        "id": "ESTA:260609290",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-11T20:33:00.000Z",
+        "updated": "2026-06-11T20:42:00.000Z",
+        "resources": 1,
+        "location": "Bolton St, Eltham",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1354705150448,
+          -37.729738951269894
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 609344,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 609344,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260651324,
+        "id": "ESTA:260651324",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-06-11T20:26:10.000Z",
+        "updated": "2026-06-11T21:10:04.000Z",
+        "resources": 1,
+        "location": "Buckland"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86848676958908,
+          -36.754798541367386
+        ]
+      }
     }
   ],
   "properties": {
@@ -1790,7 +1876,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-11T19:39:00.161Z",
-    "featureCount": 90
+    "lastUpdated": "2026-06-11T21:49:20.403Z",
+    "featureCount": 93
   }
 }
