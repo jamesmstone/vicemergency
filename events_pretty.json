@@ -1047,6 +1047,32 @@
     },
     {
       "properties": {
+        "status": "Going",
+        "feedType": "incident",
+        "sourceOrg": "SA/CFS",
+        "sourceId": "1710403",
+        "sourceFeed": "cfs-incident",
+        "sourceTitle": "Glynns Rd/Pudneys Rd , Kongorong",
+        "id": "1710403",
+        "category1": "Other",
+        "category2": "Other",
+        "name": "Glynns Rd/Pudneys Rd , Kongorong",
+        "created": "2026-06-21T21:10:00.000Z",
+        "updated": "2026-06-21T21:10:00.000Z",
+        "url": "http://www.cfs.sa.gov.au/site/warnings_and_incidents.jsp",
+        "location": "Glynns Rd/Pudneys Rd , Kongorong"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.570870055252,
+          -37.9572099638972
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
@@ -1211,31 +1237,91 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 124679676,
+        "status": "Safe",
+        "estaId": 124679945,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 610007,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260651965,
-        "id": "ESTA:260651965",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124679945,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Oak Park",
+        "eventId": "F260616631",
+        "id": "ESTA:260616631",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-06-21T19:44:10.000Z",
-        "updated": "2026-06-21T19:46:51.000Z",
-        "resources": 0,
-        "location": "Stewarton",
-        "sesId": 610007
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-06-21T21:13:19.000Z",
+        "updated": "2026-06-21T21:15:18.133Z",
+        "resources": 3,
+        "location": "Station Rd, Oak Park"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.84537041313942,
-          -36.44749948923798
+          144.92087700621198,
+          -37.71748058317575
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 124679733,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 282372,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260616612,
+        "id": "ESTA:260616612",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-06-21T20:05:00.000Z",
+        "updated": "2026-06-21T21:18:00.000Z",
+        "resources": 2,
+        "location": "Newborough",
+        "cfaId": 282372,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.29345827106172,
+          -38.194090503003906
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124679978,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124679978,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Ringwood East",
+        "eventId": "F260616635",
+        "id": "ESTA:260616635",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-06-21T21:21:56.000Z",
+        "updated": "2026-06-21T21:22:53.812Z",
+        "resources": 0,
+        "location": "Dynes St, Ringwood East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2574903799901,
+          -37.80141627626012
         ]
       }
     },
@@ -1300,21 +1386,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 282371,
+        "status": "Responding",
+        "cfaId": 282376,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 282371,
+        "sourceId": 282376,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Manor Lakes Bvd",
-        "eventId": 260616611,
-        "id": "ESTA:260616611",
-        "category1": "Other",
+        "sourceTitle": "",
+        "eventId": 260616629,
+        "id": "ESTA:260616629",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-06-21T19:16:00.000Z",
-        "updated": "2026-06-21T19:27:00.000Z",
-        "resources": 0,
-        "location": "Manor Lakes Bvd, Manor Lakes",
+        "created": "2026-06-21T21:05:00.000Z",
+        "updated": "2026-06-21T21:05:00.000Z",
+        "resources": 1,
+        "location": "Bellbrae",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1322,8 +1408,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.60300133505936,
-          -37.877131260343894
+          144.26259272928968,
+          -38.33889532720508
         ]
       }
     },
@@ -1351,6 +1437,33 @@
         "coordinates": [
           148.47107815169377,
           -37.68033025436282
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 610008,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 610008,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260651966,
+        "id": "ESTA:260651966",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-06-21T19:56:41.000Z",
+        "updated": "2026-06-21T20:26:38.000Z",
+        "resources": 1,
+        "location": "Mornington"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02914491488286,
+          -38.23382209292346
         ]
       }
     }
@@ -1582,7 +1695,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-21T19:56:06.059Z",
-    "featureCount": 84
+    "lastUpdated": "2026-06-21T21:23:40.157Z",
+    "featureCount": 88
   }
 }
