@@ -1128,60 +1128,59 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 124700940,
+        "status": "Safe",
+        "estaId": 124702104,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 610079,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260652034,
-        "id": "ESTA:260652034",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124702104,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Sunshine West",
+        "eventId": "F260618015",
+        "id": "ESTA:260618015",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-06-23T11:51:40.000Z",
-        "updated": "2026-06-23T12:29:54.000Z",
-        "resources": 0,
-        "location": "Wooragee",
-        "sesId": 610079
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-06-23T15:15:07.000Z",
+        "updated": "2026-06-23T15:26:56.773Z",
+        "resources": 11,
+        "location": "Sunshine West"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.71838261774337,
-          -36.25677557770896
+          144.8165633802548,
+          -37.8164942285073
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 124701199,
+        "estaId": 124702186,
         "feedType": "incident",
-        "source": "ERROR:TypeError: Cannot read properties of undefined (reading '0')",
+        "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 124701199,
+        "sourceId": 124702186,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Collingwood",
-        "eventId": "F260617992",
-        "id": "ESTA:260617992",
+        "sourceTitle": "Clifton Hill",
+        "eventId": "F260618019",
+        "id": "ESTA:260618019",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-06-23T12:32:55.000Z",
-        "updated": "2026-06-23T12:40:21.261Z",
+        "category2": "Structure Fire",
+        "created": "2026-06-23T15:28:31.000Z",
+        "updated": "2026-06-23T15:32:12.690Z",
         "resources": 3,
-        "location": "Harmsworth St, Collingwood"
+        "location": "Smith St, Clifton Hill"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99086779583502,
-          -37.80053792739229
+          144.9857224926057,
+          -37.79168825192537
         ]
       }
     },
@@ -1214,6 +1213,93 @@
           -37.1052930929999
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 282552,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 282552,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Georgia Cr",
+        "eventId": 260618007,
+        "id": "ESTA:260618007",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-06-23T14:22:00.000Z",
+        "updated": "2026-06-23T15:01:00.000Z",
+        "resources": 0,
+        "location": "Georgia Cr, Delacombe",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8214241918163,
+          -37.590076817583466
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 282556,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 282556,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Fitzgerald Rd",
+        "eventId": 260618018,
+        "id": "ESTA:260618018",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-06-23T15:29:00.000Z",
+        "updated": "2026-06-23T15:29:00.000Z",
+        "resources": 3,
+        "location": "Fitzgerald Rd, Laverton North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.78307498139776,
+          -37.83786645430314
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 282553,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 282553,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Wicklow Dr",
+        "eventId": 260618010,
+        "id": "ESTA:260618010",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-06-23T14:43:00.000Z",
+        "updated": "2026-06-23T15:31:00.000Z",
+        "resources": 0,
+        "location": "Wicklow Dr, Melton South",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.56729243963355,
+          -37.71726108271663
+        ]
+      }
     }
   ],
   "properties": {
@@ -1241,53 +1327,6 @@
         "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
-        {
-          "fdr": {
-            "Mallee": "NO FORECAST",
-            "Wimmera": "NO FORECAST",
-            "South West": "NO FORECAST",
-            "Northern Country": "NO FORECAST",
-            "North Central": "NO FORECAST",
-            "Central": "NO FORECAST",
-            "North East": "NO FORECAST",
-            "West and South Gippsland": "NO FORECAST",
-            "East Gippsland": "NO FORECAST"
-          },
-          "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
-            "Central": "NO - RESTRICTIONS MAY APPLY",
-            "North Central": "NO - RESTRICTIONS MAY APPLY",
-            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
-            "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
-          },
-          "date": "2026-06-22T14:00:00.000Z",
-          "heat": {
-            "Mallee": "Not Declared",
-            "Wimmera": "Not Declared",
-            "Northern Country": "Not Declared",
-            "North East": "Not Declared",
-            "East Gippsland": "Not Declared",
-            "West and South Gippsland": "Not Declared",
-            "Central": "Not Declared",
-            "North Central": "Not Declared",
-            "South West": "Not Declared"
-          },
-          "asthma": {
-            "Mallee": "None",
-            "Wimmera": "None",
-            "Northern Country": "None",
-            "North East": "None",
-            "East Gippsland": "None",
-            "West and South Gippsland": "None",
-            "Central": "None",
-            "North Central": "None",
-            "South West": "None"
-          }
-        },
         {
           "fdr": {
             "Mallee": "NO FORECAST",
@@ -1416,6 +1455,53 @@
             "Central": "Not Declared",
             "North Central": "Not Declared",
             "South West": "Not Declared"
+          },
+          "asthma": {
+            "Mallee": "None",
+            "Wimmera": "None",
+            "Northern Country": "None",
+            "North East": "None",
+            "East Gippsland": "None",
+            "West and South Gippsland": "None",
+            "Central": "None",
+            "North Central": "None",
+            "South West": "None"
+          }
+        },
+        {
+          "fdr": {
+            "Mallee": "NO FORECAST",
+            "Wimmera": "NO FORECAST",
+            "South West": "NO FORECAST",
+            "Northern Country": "NO FORECAST",
+            "North Central": "NO FORECAST",
+            "Central": "NO FORECAST",
+            "North East": "NO FORECAST",
+            "West and South Gippsland": "NO FORECAST",
+            "East Gippsland": "NO FORECAST"
+          },
+          "tfb": {
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY",
+            "Central": "NO - RESTRICTIONS MAY APPLY",
+            "North Central": "NO - RESTRICTIONS MAY APPLY",
+            "Northern Country": "NO - RESTRICTIONS MAY APPLY",
+            "South West": "NO - RESTRICTIONS MAY APPLY",
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+          },
+          "date": "2026-06-26T14:00:00.000Z",
+          "heat": {
+            "Mallee": "Not Declared",
+            "Wimmera": "Not Declared",
+            "Northern Country": "Not Declared",
+            "North East": "Not Declared",
+            "East Gippsland": "Not Declared",
+            "West and South Gippsland": "Not Declared",
+            "Central": "Not Declared",
+            "North Central": "Not Declared",
+            "South West": "Not Declared"
           }
         }
       ],
@@ -1443,7 +1529,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-06-23T12:41:25.876Z",
-    "featureCount": 79
+    "lastUpdated": "2026-06-23T15:37:59.923Z",
+    "featureCount": 82
   }
 }
