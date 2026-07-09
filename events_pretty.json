@@ -1899,31 +1899,62 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 124899510,
+        "status": "Not Yet Under Control",
+        "estaId": 124899848,
         "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 611850,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260751316,
-        "id": "ESTA:260751316",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 284705,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Lancers Dr",
+        "eventId": 260706762,
+        "id": "ESTA:260706762",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-07-09T20:14:56.000Z",
-        "updated": "2026-07-09T20:15:32.000Z",
-        "resources": 0,
-        "location": "Mount Beauty",
-        "sesId": 611850
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-09T21:36:00.000Z",
+        "updated": "2026-07-09T21:36:00.000Z",
+        "resources": 9,
+        "location": "Lancers Dr, Harkness",
+        "cfaId": 284705,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.16416355498785,
-          -36.74113660954379
+          144.57206289068276,
+          -37.653108760067525
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 124899932,
+        "feedType": "incident",
+        "source": "FIP",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 124899932,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Templestowe",
+        "eventId": "F260706770",
+        "id": "ESTA:260706770",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-09T21:51:33.000Z",
+        "updated": "2026-07-09T21:51:37.154Z",
+        "resources": 0,
+        "location": "Chivers Rd, Templestowe"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.14606840921047,
+          -37.76070985046627
         ]
       }
     },
@@ -2084,6 +2115,120 @@
           -35.916955098074006
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 284698,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 284698,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260706729,
+        "id": "ESTA:260706729",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-07-09T20:25:00.000Z",
+        "updated": "2026-07-09T21:03:00.000Z",
+        "resources": 0,
+        "location": "Epping",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00575506905776,
+          -37.63531430801951
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 284702,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 284702,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Garrong Av",
+        "eventId": 260706735,
+        "id": "ESTA:260706735",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-07-09T20:50:00.000Z",
+        "updated": "2026-07-09T21:07:00.000Z",
+        "resources": 1,
+        "location": "Garrong Av, Wollert",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9948927342636,
+          -37.614880042404494
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 284703,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 284703,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Impara Ct",
+        "eventId": 260706746,
+        "id": "ESTA:260706746",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-09T21:15:00.000Z",
+        "updated": "2026-07-09T21:26:00.000Z",
+        "resources": 1,
+        "location": "Impara Ct, Leopold",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.46696849049147,
+          -38.1819522254726
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "On Scene",
+        "sesId": 611850,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 611850,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260751316,
+        "id": "ESTA:260751316",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-07-09T20:14:56.000Z",
+        "updated": "2026-07-09T21:32:08.000Z",
+        "resources": 0,
+        "location": "Mount Beauty"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.16416355498785,
+          -36.74113660954379
+        ]
+      }
     }
   ],
   "properties": {
@@ -2100,6 +2245,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2107,8 +2253,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -2124,6 +2269,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -2131,8 +2277,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-07-09T14:00:00.000Z",
           "heat": {
@@ -2313,7 +2458,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-09T20:17:39.905Z",
-    "featureCount": 72
+    "lastUpdated": "2026-07-09T21:52:00.186Z",
+    "featureCount": 77
   }
 }
