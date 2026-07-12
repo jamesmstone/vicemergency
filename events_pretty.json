@@ -2285,60 +2285,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 124935412,
+        "status": "Complete",
+        "estaId": 124935584,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 124935412,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F260709199",
-        "id": "ESTA:260709199",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 612293,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260751748,
+        "id": "ESTA:260751748",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-07-12T18:27:06.000Z",
-        "updated": "2026-07-12T18:27:58.519Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-07-12T19:27:52.000Z",
+        "updated": "2026-07-12T19:35:07.000Z",
         "resources": 0,
-        "location": "Elizabeth St, Melbourne"
+        "location": "Woori Yallock",
+        "sesId": 612293
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9596919286383,
-          -37.807328373260034
+          145.53331740986664,
+          -37.7593712647581
         ]
       }
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 124935432,
+        "status": "Safe",
+        "estaId": 124935573,
         "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 612291,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260751746,
-        "id": "ESTA:260751746",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 285092,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Euclid Rd",
+        "eventId": 260709207,
+        "id": "ESTA:260709207",
         "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-07-12T18:35:04.000Z",
-        "updated": "2026-07-12T18:35:49.000Z",
-        "resources": 0,
-        "location": "Woori Yallock",
-        "sesId": 612291
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-07-12T19:22:00.000Z",
+        "updated": "2026-07-12T19:36:00.000Z",
+        "resources": 1,
+        "location": "Euclid Rd, Kalkallo",
+        "cfaId": 285092,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.5369403863286,
-          -37.77080813029585
+          144.9591095658321,
+          -37.52841731072089
         ]
       }
     },
@@ -3643,16 +3646,16 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV21037/3211625fca98491e8bffffd7112fde5a",
+        "sourceId": "IDV21037/40ec8c3c0388f032f723d7148a68d8c9",
         "sourceFeed": "bom-idv21037",
         "sourceTitle": "Severe Weather Warning for DAMAGING WINDS",
-        "id": "IDV21037/3211625fca98491e8bffffd7112fde5a",
+        "id": "IDV21037/40ec8c3c0388f032f723d7148a68d8c9",
         "category1": "Met",
         "category2": "Weather",
         "name": "Severe Weather Warning for DAMAGING WINDS",
-        "created": "2026-07-12T12:51:42.000Z",
-        "webHeadline": "DAMAGING WINDS averaging 60 to 70 km/h with peak gusts around 100 km/h are likely to redevelop about the northeastern Victorian alpine areas above 1500 metres tonight, with BLIZZARD conditions also possible.\n\nDamaging winds and blizzard conditions are forecast to persist through to early Tuesday morn...\n",
-        "webBody": "DAMAGING WINDS averaging 60 to 70 km/h with peak gusts around 100 km/h are likely to redevelop about the northeastern Victorian alpine areas above 1500 metres tonight, with BLIZZARD conditions also possible.\n\nDamaging winds and blizzard conditions are forecast to persist through to early Tuesday morn...\n",
+        "created": "2026-07-12T18:56:26.000Z",
+        "webHeadline": "DAMAGING WINDS averaging 60 to 70 km/h with peak gusts around 100 km/h are expected about the northeastern Victorian alpine areas above 1500 metres, with BLIZZARD conditions also possible.\n\nDamaging winds and blizzard conditions are forecast to persist through to early Tuesday morning, although condi...\n",
+        "webBody": "DAMAGING WINDS averaging 60 to 70 km/h with peak gusts around 100 km/h are expected about the northeastern Victorian alpine areas above 1500 metres, with BLIZZARD conditions also possible.\n\nDamaging winds and blizzard conditions are forecast to persist through to early Tuesday morning, although condi...\n",
         "url": "http://www.bom.gov.au/products/IDV21037.shtml",
         "location": "East Gippsland, North East and West and South Gippsland"
       },
@@ -6369,6 +6372,33 @@
           }
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 612292,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 612292,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260751747,
+        "id": "ESTA:260751747",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-07-12T19:00:51.000Z",
+        "updated": "2026-07-12T19:12:35.000Z",
+        "resources": 1,
+        "location": "Halls Gap"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5417366746135,
+          -37.127393319923826
+        ]
+      }
     }
   ],
   "properties": {
@@ -6598,7 +6628,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-12T18:37:40.495Z",
-    "featureCount": 75
+    "lastUpdated": "2026-07-12T19:50:00.115Z",
+    "featureCount": 76
   }
 }
