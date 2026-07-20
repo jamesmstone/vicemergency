@@ -87,66 +87,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 125035526,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 612774,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260715921,
-        "id": "ESTA:260715921",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-07-20T16:31:11.000Z",
-        "updated": "2026-07-20T16:31:32.000Z",
-        "resources": 2,
-        "location": "Sunbury",
-        "cfaId": 286146,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 612774
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.76188990550042,
-          -37.57185751704039
-        ]
-      }
-    },
-    {
-      "properties": {
         "status": "Responding",
-        "estaId": 125035557,
+        "estaId": 125035955,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286147,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Mt Buller Rd",
-        "eventId": 260715922,
-        "id": "ESTA:260715922",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125035955,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Roxburgh Park",
+        "eventId": "F260715929",
+        "id": "ESTA:260715929",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-07-20T16:38:00.000Z",
-        "updated": "2026-07-20T16:38:00.000Z",
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-07-20T18:28:31.000Z",
+        "updated": "2026-07-20T18:30:09.757Z",
         "resources": 0,
-        "location": "Mt Buller Rd, Merrijig (Mount Buller)",
-        "cfaId": 286147,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "location": "Lynch Pl, Roxburgh Park"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.28820340888916,
-          -37.111152327419475
+          144.93034705444157,
+          -37.62966165806494
         ]
       }
     },
@@ -177,36 +141,6 @@
         "coordinates": [
           149.285701,
           -37.063372
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "feedType": "incident",
-        "sourceOrg": "NSW/RFS",
-        "sourceId": "667882",
-        "sourceFeed": "rfs-cap",
-        "sourceTitle": "Cobb Hwy, Deniliquin",
-        "id": "2026-07-21T02:21:00.0000000:667882",
-        "category1": "Other",
-        "category2": "Other Non-Urgent Alerts",
-        "name": "Cobb Hwy, Deniliquin",
-        "location": "Cobb Hwy, Deniliquin 2710",
-        "created": "2026-07-21T02:21:00+10:00",
-        "updated": "2026-07-21T02:21:00+10:00",
-        "webHeadline": "Unknown",
-        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-        "sizeFmt": [
-          "0 ha"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.910507202,
-          -35.663475037
         ]
       }
     },
@@ -307,6 +241,93 @@
               -37.111940416
             ]
           }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 286147,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286147,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Mt Buller Rd",
+        "eventId": 260715922,
+        "id": "ESTA:260715922",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-20T16:38:00.000Z",
+        "updated": "2026-07-20T17:25:00.000Z",
+        "resources": 7,
+        "location": "Mt Buller Rd, Merrijig (Mount Buller)",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.28820340888916,
+          -37.111152327419475
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 286149,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286149,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "St Cloud Ct",
+        "eventId": 260715925,
+        "id": "ESTA:260715925",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-07-20T17:23:00.000Z",
+        "updated": "2026-07-20T17:41:00.000Z",
+        "resources": 1,
+        "location": "St Cloud Ct, Cranbourne North",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29416377379377,
+          -38.072816810200045
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 286151,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286151,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Congupna East Rd",
+        "eventId": 260715928,
+        "id": "ESTA:260715928",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-07-20T17:46:00.000Z",
+        "updated": "2026-07-20T18:04:00.000Z",
+        "resources": 0,
+        "location": "Congupna East Rd, Congupna",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.48029749226873,
+          -36.299061324784006
         ]
       }
     }
@@ -538,7 +559,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-20T16:39:40.327Z",
-    "featureCount": 71
+    "lastUpdated": "2026-07-20T18:32:00.220Z",
+    "featureCount": 72
   }
 }
