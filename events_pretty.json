@@ -31,7 +31,7 @@
     },
     {
       "properties": {
-        "status": "In Progress",
+        "status": "Patrolled",
         "feedType": "incident",
         "sourceOrg": "VIC/DEECA",
         "sourceId": 3010310,
@@ -40,8 +40,8 @@
         "id": 3010310,
         "category1": "Planned Burn",
         "category2": "Planned Burn",
-        "created": "2026-07-21T02:01:36.000Z",
-        "updated": "2026-07-21T02:01:36.000Z",
+        "created": "2026-07-21T23:34:04.000Z",
+        "updated": "2026-07-21T23:34:04.000Z",
         "resources": 0,
         "size": "143.00",
         "sizeFmt": "143.00 Ha.",
@@ -115,88 +115,65 @@
     },
     {
       "properties": {
-        "status": "Patrolled",
+        "status": "Responding",
+        "estaId": 125050313,
         "feedType": "incident",
-        "sourceOrg": "VIC/DEECA",
-        "sourceId": 3026343,
-        "sourceFeed": "deeca-burns",
-        "sourceTitle": "Marysville - Depot Burn Heap",
-        "id": 3026343,
-        "category1": "Planned Burn",
-        "category2": "Planned Burn",
-        "created": "2026-07-09T23:13:56.000Z",
-        "updated": "2026-07-09T23:13:56.000Z",
-        "resources": 0,
-        "size": "0.10",
-        "sizeFmt": "0.10 Ha.",
-        "url": "https://www.ffm.vic.gov.au/bushfire-fuel-and-risk-management/planned-burning-in-victoria",
-        "location": ".1Km S Of Marysville"
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286337,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bruce St",
+        "eventId": 260716869,
+        "id": "ESTA:260716869",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-07-21T23:32:00.000Z",
+        "updated": "2026-07-21T23:32:00.000Z",
+        "resources": 1,
+        "location": "Bruce St, Leongatha",
+        "cfaId": 286337,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7432635,
-          -37.5148991
+          145.94514130292745,
+          -38.47846571950607
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 125049601,
+        "estaId": 125050344,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125049601,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Glenroy",
-        "eventId": "F260716820",
-        "id": "ESTA:260716820",
+        "source": "STATION",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286338,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Barnes Bvd",
+        "eventId": 260716873,
+        "id": "ESTA:260716873",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-07-21T22:26:37.000Z",
-        "updated": "2026-07-21T22:30:16.188Z",
-        "resources": 3,
-        "location": "Pascoe Vale Rd, Glenroy"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.91571164075623,
-          -37.70341740690711
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 125049666,
-        "feedType": "incident",
-        "source": "SES STRM",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 612825,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260752236,
-        "id": "ESTA:260752236",
-        "suppress": false,
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-07-21T22:33:37.000Z",
-        "updated": "2026-07-21T22:34:06.000Z",
+        "category2": "Other",
+        "created": "2026-07-21T23:35:00.000Z",
+        "updated": "2026-07-21T23:36:00.000Z",
         "resources": 0,
-        "location": "Caulfield South",
-        "sesId": 612825
+        "location": "Barnes Bvd, Horsham",
+        "cfaId": 286338,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.01937922946388,
-          -37.895618362216176
+          142.17544990727743,
+          -36.7290174532442
         ]
       }
     },
@@ -1597,7 +1574,7 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "cfaId": 286326,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1609,8 +1586,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-07-21T20:43:00.000Z",
-        "updated": "2026-07-21T21:16:00.000Z",
-        "resources": 2,
+        "updated": "2026-07-21T22:50:00.000Z",
+        "resources": 1,
         "location": "Mildura",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1626,21 +1603,21 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 286331,
+        "status": "Under Control",
+        "cfaId": 286334,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 286331,
+        "sourceId": 286334,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Main St",
-        "eventId": 260716778,
-        "id": "ESTA:260716778",
+        "sourceTitle": "Monash Fwy",
+        "eventId": 260716835,
+        "id": "ESTA:260716835",
         "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-07-21T21:14:00.000Z",
-        "updated": "2026-07-21T21:39:00.000Z",
-        "resources": 0,
-        "location": "Main St, Bacchus Marsh",
+        "category2": "Bushfire",
+        "created": "2026-07-21T22:48:00.000Z",
+        "updated": "2026-07-21T23:03:00.000Z",
+        "resources": 2,
+        "location": "Monash Fwy, Dandenong North",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1648,28 +1625,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.4450745704617,
-          -37.67698994129741
+          145.23076914741478,
+          -37.963863608420475
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 286332,
+        "cfaId": 286336,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 286332,
+        "sourceId": 286336,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Andrews Rd",
-        "eventId": 260716785,
-        "id": "ESTA:260716785",
-        "category1": "Fire",
+        "sourceTitle": "Bruce Cr",
+        "eventId": 260716851,
+        "id": "ESTA:260716851",
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-07-21T21:36:00.000Z",
-        "updated": "2026-07-21T21:48:00.000Z",
+        "created": "2026-07-21T23:11:00.000Z",
+        "updated": "2026-07-21T23:21:00.000Z",
         "resources": 0,
-        "location": "Andrews Rd, Longford",
+        "location": "Bruce Cr, Ferntree Gully",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -1677,27 +1654,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.09108096748295,
-          -38.180742461141215
+          145.29104724313785,
+          -37.88304290866827
         ]
       }
     },
     {
       "properties": {
-        "status": "Complete",
-        "sesId": 612824,
+        "status": "Request For Assistance",
+        "sesId": 612825,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 612824,
+        "sourceId": 612825,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260752235,
-        "id": "ESTA:260752235",
+        "eventId": 260752236,
+        "id": "ESTA:260752236",
         "category1": "Tree Down",
         "category2": "Tree Down",
-        "created": "2026-07-21T22:30:12.000Z",
-        "updated": "2026-07-21T22:30:12.000Z",
-        "resources": 0,
+        "created": "2026-07-21T22:33:37.000Z",
+        "updated": "2026-07-21T23:09:09.000Z",
+        "resources": 1,
         "location": "Caulfield South"
       },
       "type": "Feature",
@@ -1937,7 +1914,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-21T22:35:48.058Z",
-    "featureCount": 76
+    "lastUpdated": "2026-07-21T23:40:39.884Z",
+    "featureCount": 75
   }
 }
