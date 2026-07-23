@@ -114,6 +114,67 @@
       }
     },
     {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125073908,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286592,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260717992,
+        "id": "ESTA:260717992",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-07-23T21:12:00.000Z",
+        "updated": "2026-07-23T21:12:00.000Z",
+        "resources": 0,
+        "location": "Echuca",
+        "cfaId": 286592,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72968398214883,
+          -36.14051176679452
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 125073901,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125073901,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Brunswick",
+        "eventId": "F260717991",
+        "id": "ESTA:260717991",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Non Structure Fire",
+        "created": "2026-07-23T21:09:08.000Z",
+        "updated": "2026-07-23T21:15:03.392Z",
+        "resources": 3,
+        "location": "Brunswick"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96130981738577,
+          -37.76879453368538
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Warning",
@@ -1535,88 +1596,28 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "cfaId": 286589,
+        "status": "On Scene",
+        "sesId": 612948,
         "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286589,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Countess Dr",
-        "eventId": 260717975,
-        "id": "ESTA:260717975",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-07-23T18:48:00.000Z",
-        "updated": "2026-07-23T18:51:00.000Z",
-        "resources": 0,
-        "location": "Countess Dr, St Leonards",
-        "size": "Small",
-        "sizeFmt": "Small"
+        "sourceOrg": "VIC/SES",
+        "sourceId": 612948,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260752308,
+        "id": "ESTA:260752308",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-07-23T19:58:27.000Z",
+        "updated": "2026-07-23T20:41:41.000Z",
+        "resources": 1,
+        "location": "Broadmeadows"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.70429859014772,
-          -38.167857952018636
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 286587,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286587,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Jarver Cl",
-        "eventId": 260717972,
-        "id": "ESTA:260717972",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-07-23T18:15:00.000Z",
-        "updated": "2026-07-23T19:15:00.000Z",
-        "resources": 0,
-        "location": "Jarver Cl, Colac",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5882970721381,
-          -38.35294266026546
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 286590,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286590,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260717978,
-        "id": "ESTA:260717978",
-        "category1": "Fire",
-        "category2": "Bushfire",
-        "created": "2026-07-23T19:24:00.000Z",
-        "updated": "2026-07-23T19:24:00.000Z",
-        "resources": 3,
-        "location": "Wildwood",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.79564971448954,
-          -37.550062558017714
+          144.9278865150802,
+          -37.68239292177853
         ]
       }
     }
@@ -1635,7 +1636,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1643,7 +1643,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1659,7 +1660,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1667,7 +1667,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-07-23T14:00:00.000Z",
           "heat": {
@@ -1848,7 +1849,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-23T19:51:01.036Z",
+    "lastUpdated": "2026-07-23T21:16:00.360Z",
     "featureCount": 72
   }
 }
