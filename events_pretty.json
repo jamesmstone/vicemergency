@@ -87,60 +87,65 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 125098865,
+        "status": "Responding",
+        "estaId": 125099376,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 613036,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260752390,
-        "id": "ESTA:260752390",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286821,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Pattersons Rd",
+        "eventId": 260719495,
+        "id": "ESTA:260719495",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-07-25T14:58:26.000Z",
-        "updated": "2026-07-25T15:14:34.000Z",
-        "resources": 0,
-        "location": "Mckinnon",
-        "sesId": 613036
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-25T16:03:00.000Z",
+        "updated": "2026-07-25T16:03:00.000Z",
+        "resources": 4,
+        "location": "Pattersons Rd, Clyde North",
+        "cfaId": 286821,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.05235108500898,
-          -37.91056051868272
+          145.35873194196856,
+          -38.1223193810924
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 125099026,
+        "status": "Safe",
+        "estaId": 125099136,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125099026,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mulgrave",
-        "eventId": "F260719485",
-        "id": "ESTA:260719485",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286819,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260719489,
+        "id": "ESTA:260719489",
         "suppress": false,
-        "category1": "Other",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-07-25T15:13:52.000Z",
-        "updated": "2026-07-25T15:15:29.008Z",
-        "resources": 0,
-        "location": "Haverbrack Dr, Mulgrave"
+        "created": "2026-07-25T15:30:00.000Z",
+        "updated": "2026-07-25T16:11:00.000Z",
+        "resources": 3,
+        "location": "Wollert",
+        "cfaId": 286819,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.20171448454096,
-          -37.92440676731566
+          145.0330679174547,
+          -37.581051311408174
         ]
       }
     },
@@ -969,35 +974,6 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 286815,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286815,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Barnett Pl",
-        "eventId": 260719474,
-        "id": "ESTA:260719474",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-07-25T14:11:00.000Z",
-        "updated": "2026-07-25T14:31:00.000Z",
-        "resources": 0,
-        "location": "Barnett Pl, Horsham",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1829188254338,
-          -36.71729697407188
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
         "cfaId": 286816,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -1009,8 +985,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-07-25T14:22:00.000Z",
-        "updated": "2026-07-25T14:40:00.000Z",
-        "resources": 1,
+        "updated": "2026-07-25T15:22:00.000Z",
+        "resources": 0,
         "location": "Liston St, Bell Post Hill",
         "size": "Small",
         "sizeFmt": "Small"
@@ -1021,35 +997,6 @@
         "coordinates": [
           144.32760580250172,
           -38.099552183084384
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 286817,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 286817,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Murray St",
-        "eventId": 260719483,
-        "id": "ESTA:260719483",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-07-25T15:00:00.000Z",
-        "updated": "2026-07-25T15:00:00.000Z",
-        "resources": 0,
-        "location": "Murray St, Colac",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5864953945135,
-          -38.33993562331624
         ]
       }
     }
@@ -1068,6 +1015,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1075,8 +1023,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -1092,6 +1039,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -1099,8 +1047,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-07-25T14:00:00.000Z",
           "heat": {
@@ -1281,7 +1228,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-25T15:16:00.080Z",
-    "featureCount": 73
+    "lastUpdated": "2026-07-25T16:14:26.052Z",
+    "featureCount": 71
   }
 }
