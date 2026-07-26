@@ -87,7 +87,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 125111636,
         "feedType": "incident",
         "source": "SES STRM",
@@ -101,7 +101,7 @@
         "category1": "Building Damage",
         "category2": "Building Damage",
         "created": "2026-07-26T19:38:43.000Z",
-        "updated": "2026-07-26T19:45:43.000Z",
+        "updated": "2026-07-26T20:51:49.000Z",
         "resources": 0,
         "location": "Eaglehawk",
         "sesId": 613085
@@ -117,30 +117,59 @@
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 125111675,
+        "status": "Responding",
+        "estaId": 125111887,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/ESTA",
-        "sourceId": 125111675,
+        "sourceId": 125111887,
         "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Melbourne",
-        "eventId": "F260720230",
-        "id": "ESTA:260720230",
+        "sourceTitle": "North Melbourne",
+        "eventId": "F260720244",
+        "id": "ESTA:260720244",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-07-26T19:50:12.000Z",
-        "updated": "2026-07-26T19:53:22.903Z",
-        "resources": 3,
-        "location": "Melbourne"
+        "category2": "Structure Fire",
+        "created": "2026-07-26T21:03:26.000Z",
+        "updated": "2026-07-26T21:04:21.629Z",
+        "resources": 0,
+        "location": "Mark St, North Melbourne"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95950392273195,
-          -37.806293168464634
+          144.93860618086268,
+          -37.7933694602654
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125111895,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125111895,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Norlane",
+        "eventId": "F260720245",
+        "id": "ESTA:260720245",
+        "suppress": false,
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-07-26T21:02:49.000Z",
+        "updated": "2026-07-26T21:05:44.587Z",
+        "resources": 0,
+        "location": "Robin Av, Norlane"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.35036647001178,
+          -38.08440199154382
         ]
       }
     },
@@ -1192,6 +1221,35 @@
     },
     {
       "properties": {
+        "status": "Under Control",
+        "cfaId": 286943,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 286943,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260720235,
+        "id": "ESTA:260720235",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-07-26T20:25:00.000Z",
+        "updated": "2026-07-26T20:36:00.000Z",
+        "resources": 1,
+        "location": "Keysborough",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17866034759368,
+          -38.01764361859155
+        ]
+      }
+    },
+    {
+      "properties": {
         "status": "Request For Assistance",
         "sesId": 613056,
         "feedType": "incident",
@@ -1397,15 +1455,15 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
             "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
+            "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
+            "North East": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-07-29T14:00:00.000Z",
           "heat": {
@@ -1445,7 +1503,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-26T19:54:46.031Z",
-    "featureCount": 69
+    "lastUpdated": "2026-07-26T21:06:20.009Z",
+    "featureCount": 71
   }
 }
