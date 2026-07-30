@@ -2,6 +2,70 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "properties": {
+        "status": "Safe",
+        "estaId": 125160144,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 287401,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Woodland Dr",
+        "eventId": 260722490,
+        "id": "ESTA:260722490",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-07-30T15:58:00.000Z",
+        "updated": "2026-07-30T16:23:00.000Z",
+        "resources": 0,
+        "location": "Woodland Dr, Scarsdale",
+        "cfaId": 287401,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6797818137437,
+          -37.68986912873066
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "estaId": 125160375,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 287404,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Arkana Ct",
+        "eventId": 260722497,
+        "id": "ESTA:260722497",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2026-07-30T16:53:00.000Z",
+        "updated": "2026-07-30T17:01:00.000Z",
+        "resources": 0,
+        "location": "Arkana Ct, Drouin",
+        "cfaId": 287404,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.85569288875593,
+          -38.13006874260248
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "status": "Under Control",
@@ -126,93 +190,6 @@
           }
         ]
       }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "cfaId": 287394,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 287394,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Leakes Rd",
-        "eventId": 260722471,
-        "id": "ESTA:260722471",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-07-30T13:40:00.000Z",
-        "updated": "2026-07-30T13:56:00.000Z",
-        "resources": 1,
-        "location": "Leakes Rd, Aintree",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6534025679912,
-          -37.721269309424706
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 287398,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 287398,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Carrier St",
-        "eventId": 260722481,
-        "id": "ESTA:260722481",
-        "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-07-30T14:41:00.000Z",
-        "updated": "2026-07-30T14:43:00.000Z",
-        "resources": 0,
-        "location": "Carrier St, Benalla",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.98556764886166,
-          -36.54974783556336
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "cfaId": 287399,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 287399,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kangan Dr",
-        "eventId": 260722482,
-        "id": "ESTA:260722482",
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-07-30T14:46:00.000Z",
-        "updated": "2026-07-30T14:46:00.000Z",
-        "resources": 1,
-        "location": "Kangan Dr, Berwick",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3457990752879,
-          -38.0452667437336
-        ]
-      }
     }
   ],
   "properties": {
@@ -229,7 +206,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -237,7 +213,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -253,7 +230,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -261,7 +237,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-07-30T14:00:00.000Z",
           "heat": {
@@ -442,7 +419,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-07-30T15:27:20.327Z",
-    "featureCount": 63
+    "lastUpdated": "2026-07-30T17:07:20.355Z",
+    "featureCount": 62
   }
 }
