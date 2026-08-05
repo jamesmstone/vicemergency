@@ -2,142 +2,223 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "status": "Complete",
-        "estaId": 125234710,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 613632,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260850227,
-        "id": "ESTA:260850227",
-        "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-08-05T14:07:41.000Z",
-        "updated": "2026-08-05T14:30:18.000Z",
-        "resources": 0,
-        "location": "Glenroy",
-        "sesId": 613632
-      },
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92243127609174,
-          -37.701933756457024
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              144.87529352393022,
+              -37.77875108265563
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.88078668799096,
+                  -37.784280088246916
+                ],
+                [
+                  144.88267946942773,
+                  -37.78266792956012
+                ],
+                [
+                  144.8833637237951,
+                  -37.78170653349228
+                ],
+                [
+                  144.88384926305832,
+                  -37.78067236049688
+                ],
+                [
+                  144.88412413162933,
+                  -37.77959087284633
+                ],
+                [
+                  144.8841815613317,
+                  -37.77848869887652
+                ],
+                [
+                  144.88402013805552,
+                  -37.77739297745367
+                ],
+                [
+                  144.8836438365776,
+                  -37.77633068975608
+                ],
+                [
+                  144.88306192268922,
+                  -37.77532799482182
+                ],
+                [
+                  144.88134328232678,
+                  -37.77359807881154
+                ],
+                [
+                  144.88024887448228,
+                  -37.77291346136062
+                ],
+                [
+                  144.87772395968506,
+                  -37.77198879843213
+                ],
+                [
+                  144.8763556245143,
+                  -37.77177152699738
+                ],
+                [
+                  144.87357483376198,
+                  -37.771853729387935
+                ],
+                [
+                  144.87223085047768,
+                  -37.772151178552384
+                ],
+                [
+                  144.86980035986952,
+                  -37.77322232253503
+                ],
+                [
+                  144.86877369929078,
+                  -37.773969635796256
+                ],
+                [
+                  144.86790757843275,
+                  -37.774834687231575
+                ],
+                [
+                  144.86722332406538,
+                  -37.77579617267527
+                ],
+                [
+                  144.86673778480215,
+                  -37.776830413890714
+                ],
+                [
+                  144.86646291623114,
+                  -37.77791194192764
+                ],
+                [
+                  144.86640548652878,
+                  -37.779014124496854
+                ],
+                [
+                  144.86656690980496,
+                  -37.78010982189037
+                ],
+                [
+                  144.8669432112829,
+                  -37.78117205528205
+                ],
+                [
+                  144.86752512517126,
+                  -37.78217467094965
+                ],
+                [
+                  144.8692437655337,
+                  -37.783904386264936
+                ],
+                [
+                  144.87155459839911,
+                  -37.78512967975662
+                ],
+                [
+                  144.87423142334617,
+                  -37.78573063831388
+                ],
+                [
+                  144.8770122140985,
+                  -37.78564845135324
+                ],
+                [
+                  144.87835619738283,
+                  -37.7853510564947
+                ],
+                [
+                  144.88078668799096,
+                  -37.784280088246916
+                ]
+              ]
+            ]
+          }
         ]
-      }
-    },
-    {
+      },
       "properties": {
-        "status": "Safe",
-        "estaId": 125234855,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125234855,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Footscray",
-        "eventId": "F260804609",
-        "id": "ESTA:260804609",
-        "suppress": false,
-        "category1": "Fire",
+        "feedType": "warning",
+        "cap": {
+          "category": "Fire",
+          "event": "Structure Fire",
+          "eventCode": "structurFire",
+          "urgency": "Expected",
+          "severity": "Minor",
+          "certainty": "Unknown",
+          "contact": "jason.delany@frv.vic.gov.au",
+          "senderName": "Fire Rescue Victoria",
+          "responseType": "Monitor"
+        },
+        "sourceOrg": "EMV",
+        "sourceId": "42455",
+        "sourceFeed": "cop-cap",
+        "sourceTitle": "Advice",
+        "id": "42455",
+        "category1": "Advice",
         "category2": "Fire",
-        "created": "2026-08-05T14:32:05.000Z",
-        "updated": "2026-08-05T14:33:55.507Z",
-        "resources": 0,
-        "location": "Wolverhampton St, Footscray"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89105448472554,
-          -37.79844648577925
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 125234860,
-        "feedType": "incident",
-        "source": "STATION",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125234860,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Newborough",
-        "eventId": "F260804610",
-        "id": "ESTA:260804610",
-        "suppress": false,
-        "category1": "Hazardous Material",
-        "category2": "Hazardous Material",
-        "created": "2026-08-05T14:31:06.000Z",
-        "updated": "2026-08-05T14:35:23.327Z",
-        "resources": 0,
-        "location": "Monash Rd, Newborough"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.28672607159953,
-          -38.187048736763835
+        "status": "Minor",
+        "name": "Advice",
+        "action": "Stay Informed",
+        "statewide": "N",
+        "location": "Maidstone, Braybrook, West Footscray, Avondale Heights, Maribyrnong",
+        "created": "2026-08-06T01:07:15+10:00",
+        "updated": "2026-08-06T01:07:16+10:00",
+        "webHeadline": null,
+        "webBody": "<div style=\"margin-bottom:20px\">This <b>Advice</b> message is being issued for <span title=\"warning_locality\" class=\"param\" contenteditable=\"false\">Avondale Heights, Maidstone, Maribyrnong, Braybrook, West Footscray</span>.<div><div><ul><li>There is a&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[factory/house/building/vehicle]\" data-value=\"2\" data-source=\"{&quot;0&quot;:&quot;factory&quot;,&quot;1&quot;:&quot;house&quot;,&quot;2&quot;:&quot;building&quot;,&quot;3&quot;:&quot;vehicle&quot;}\" style=\"display: inline;\" data-original-title=\"\" title=\"\">building</span>&nbsp;fire <span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[in/at/on]\" data-value=\"2\" data-source=\"{&quot;0&quot;:&quot;in&quot;,&quot;1&quot;:&quot;at&quot;,&quot;2&quot;:&quot;on&quot;}\" data-original-title=\"\" title=\"\" style=\"display: inline;\">on</span>&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[road/landmark/business/building]\" data-value=\"Hampstead Road, Maidstone\" data-original-title=\"\" title=\"\" style=\"display: inline;\">Hampstead Road, Maidstone</span>.</li><li>Smoke will be visible from nearby roads and communities.&nbsp;</li></ul></div></div></div><div style=\"font-size: 120%; font-weight: bold; margin-bottom:20px\">There\nis currently no threat to the community, but you should continue to stay\ninformed and monitor conditions. </div><div style=\"margin-bottom:20px\"><b>What you should do:&nbsp;</b><div><ul><li>Keep the roads clear so emergency services can respond.&nbsp;</li><li><span style=\"text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">If you are sensitive to smoke or\nyou live with someone who is sensitive to smoke, you should close windows and\ndoors. Turn off heating and cooling systems.</span></li><li>To\nprevent the smell of smoke entering your home or business, close\nwindows and doors.<span style=\"font-family: Calibri, sans-serif; font-size: 11pt;\">&nbsp;&nbsp;</span></li></ul></div></div><div style=\"margin-bottom:20px\"><b>Impacts in your area:&nbsp;</b><div><ul><li>The following <span class=\"editable editable-click editable-unsaved\" data-type=\"select\" data-emptytext=\"[roads are / road is]\" data-value=\"0\" contenteditable=\"false\" style=\"display: inline;\" data-source=\"{&quot;0&quot;:&quot;roads are&quot;,&quot;1&quot;:&quot;road is&quot;}\" data-original-title=\"\" title=\"\">roads are</span>&nbsp;closed:&nbsp;<span class=\"editable editable-click editable-unsaved\" data-type=\"text\" data-emptytext=\"[List roads/streets]\" data-value=\"Hampstead Rd and Emu Rd, Maidstone\" contenteditable=\"false\" style=\"display: inline;\" data-original-title=\"\" title=\"\">Hampstead Rd and Emu Rd, Maidstone</span>.</li><li>Traffic in the area will be affected.</li><li>Emergency services will remain in the area.</li></ul></div></div><div style=\"margin-bottom:20px\">This message was issued\nby <span title=\"warning_issuing_agency\" class=\"param\" contenteditable=\"false\">Fire Rescue Victoria</span>.<div><br></div><div><b>The next update is expected by&nbsp;<span title=\"warning_next_update\" class=\"param\" contenteditable=\"false\">06/08/2026 06:10 am</span>&nbsp;</b><b>or as the situation changes.</b></div><div><br></div><div><p class=\"MsoNormal\"><b>Use multiple sources to stay informed:&nbsp;</b></p></div><div><ul><li><a href=\"http://emergency.vic.gov.au/respond/\" title=\"\" target=\"_blank\">www.emergency.vic.gov.au</a></li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/115001055007-What-is-the-VicEmergency-Hotline-\" title=\"\" target=\"_blank\" style=\"background-color: white;\">VicEmergency Hotline</a>&nbsp;- freecall 1800 226 226</li><li><a href=\"https://vicemergency.zendesk.com/hc/en-gb/articles/230492607-What-is-the-VicEmergency-app-\" title=\"\" target=\"_blank\" style=\"background-color: white;\">VicEmergency app</a></li><li><a href=\"https://www.facebook.com/vicemergency\" title=\"\" target=\"_blank\"> Facebook</a></li><li>Tune in to ABC Local Radio, commercial and designated community radio stations, or News24 TV. </li></ul><div><b>Accessibility:</b></div></div><div>The following services can\nhelp you, or someone you know, access information during an emergency. </div><div><ul><li>To access this information in other languages, call the <a href=\"https://www.tisnational.gov.au/\" title=\"\" target=\"_blank\">Translating\nand Interpreting Service</a>&nbsp;on&nbsp;131\n450&nbsp;(freecall) and ask them to call VicEmergency Hotline.</li><li>If you are deaf, hard of\nhearing, or have a speech/communication impairment, contact the&nbsp;<a href=\"https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links\" title=\"\" target=\"_blank\">National\nRelay Service</a>&nbsp;and ask them to call the VicEmergency Hotline.</li></ul></div></div>",
+        "text": "ADVICE - STRUCTURE FIRE - Stay Informed\nIncident Location: Hampstead Rd, Maidstone\nIssue Date: Thursday 06 August 2026, 01:07 am\nNext Update: Thursday 06 August 2026, 06:10 am\n\nMore details at http://emergency.vic.gov.au/respond/#!/warning/42455/moreinfo\n\nThis Advice message is being issued for Avondale Heights, Maidstone, Maribyrnong, Braybrook, West Footscray.\n- There is a building fire on Hampstead Road, Maidstone.\n- Smoke will be visible from nearby roads and communities. \n\n\nThere is currently no threat to the community, but you should continue to stay informed and monitor conditions. \n\n",
+        "sizeFmt": null,
+        "incidentFeatures": [
+          {
+            "properties": {
+              "feedType": "incident",
+              "sourceOrg": "EMV",
+              "sourceId": "42455",
+              "sourceFeed": "cop-cap",
+              "sourceTitle": "Advice",
+              "id": "42455",
+              "category1": "Fire",
+              "category2": "Structure Fire",
+              "name": "Advice",
+              "location": "Hampstead Rd, Maidstone",
+              "created": "2026-08-06T01:07:15+10:00",
+              "updated": "2026-08-06T01:07:16+10:00",
+              "webHeadline": null,
+              "sizeFmt": null
+            }
+          }
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 125234824,
-        "feedType": "incident",
-        "source": "FIP",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125234824,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Maidstone",
-        "eventId": "F260804607",
-        "id": "ESTA:260804607",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-08-05T14:25:23.000Z",
-        "updated": "2026-08-05T14:35:40.294Z",
-        "resources": 12,
-        "location": "Hampstead Rd, Maidstone"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.87549379553934,
-          -37.7787994648443
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
-        "estaId": 125234733,
+        "estaId": 125235287,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 288187,
+        "sourceId": 288190,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Kalkee Rd",
-        "eventId": 260804602,
-        "id": "ESTA:260804602",
+        "sourceTitle": "Curlew Cr",
+        "eventId": 260804623,
+        "id": "ESTA:260804623",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-08-05T14:11:00.000Z",
-        "updated": "2026-08-05T14:23:00.000Z",
-        "resources": 2,
-        "location": "Kalkee Rd, Horsham",
-        "cfaId": 288187,
+        "created": "2026-08-05T15:51:00.000Z",
+        "updated": "2026-08-05T16:11:00.000Z",
+        "resources": 0,
+        "location": "Curlew Cr, Norlane",
+        "cfaId": 288190,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -145,14 +226,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.20091869809906,
-          -36.7004402582018
+          144.3525121624818,
+          -38.08650160801326
         ]
       }
     },
     {
       "properties": {
         "status": "Under Control",
+        "cfaId": 288188,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 288188,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Taggerty Cr",
+        "eventId": 260804615,
+        "id": "ESTA:260804615",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-05T15:03:00.000Z",
+        "updated": "2026-08-05T15:18:00.000Z",
+        "resources": 1,
+        "location": "Taggerty Cr, Meadow Heights",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92392682342293,
+          -37.65684662519444
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 288182,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -164,8 +274,8 @@
         "category1": "Fire",
         "category2": "Building Fire",
         "created": "2026-08-05T13:30:00.000Z",
-        "updated": "2026-08-05T13:49:00.000Z",
-        "resources": 9,
+        "updated": "2026-08-05T15:58:00.000Z",
+        "resources": 1,
         "location": "Mcdonald St, Melton South",
         "size": "Small",
         "sizeFmt": "Small"
@@ -182,20 +292,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 288183,
+        "cfaId": 288189,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 288183,
+        "sourceId": 288189,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Allan St",
-        "eventId": 260804595,
-        "id": "ESTA:260804595",
-        "category1": "Other",
+        "sourceTitle": "Kitchener St",
+        "eventId": 260804617,
+        "id": "ESTA:260804617",
+        "category1": "Fire",
         "category2": "Other",
-        "created": "2026-08-05T13:41:00.000Z",
-        "updated": "2026-08-05T14:02:00.000Z",
-        "resources": 0,
-        "location": "Allan St, Noble Park",
+        "created": "2026-08-05T15:17:00.000Z",
+        "updated": "2026-08-05T16:18:00.000Z",
+        "resources": 3,
+        "location": "Kitchener St, Broadmeadows",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -203,64 +313,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.1717377820314,
-          -37.96660151728663
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "cfaId": 288184,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 288184,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260804596,
-        "id": "ESTA:260804596",
-        "category1": "Accident / Rescue",
-        "category2": "Road Accident",
-        "created": "2026-08-05T13:41:00.000Z",
-        "updated": "2026-08-05T14:11:00.000Z",
-        "resources": 0,
-        "location": "Fernbank",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.34259141661715,
-          -37.90356715311195
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "On Scene",
-        "sesId": 613631,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 613631,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260850226,
-        "id": "ESTA:260850226",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-08-05T13:17:30.000Z",
-        "updated": "2026-08-05T14:26:49.000Z",
-        "resources": 2,
-        "location": "Olinda"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.35821882492644,
-          -37.852582639922176
+          144.92210559087673,
+          -37.68231820154724
         ]
       }
     }
@@ -279,6 +333,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -286,8 +341,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -303,6 +357,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -310,8 +365,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-08-05T14:00:00.000Z",
           "heat": {
@@ -492,7 +546,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-05T14:40:20.104Z",
-    "featureCount": 67
+    "lastUpdated": "2026-08-05T16:20:06.068Z",
+    "featureCount": 63
   }
 }
