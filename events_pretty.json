@@ -52981,7 +52981,7 @@
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Safe",
         "estaId": 125298233,
         "feedType": "incident",
         "source": "000",
@@ -52995,8 +52995,8 @@
         "category1": "Fire",
         "category2": "Other",
         "created": "2026-08-10T16:22:00.000Z",
-        "updated": "2026-08-10T16:22:00.000Z",
-        "resources": 3,
+        "updated": "2026-08-10T17:06:00.000Z",
+        "resources": 0,
         "location": "Beaconsfield",
         "cfaId": 288828,
         "size": "Small",
@@ -53013,62 +53013,31 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 125298217,
+        "status": "Request For Assistance",
+        "estaId": 125298551,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 288827,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260808786,
-        "id": "ESTA:260808786",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 614216,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260850802,
+        "id": "ESTA:260850802",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-08-10T16:18:00.000Z",
-        "updated": "2026-08-10T16:25:00.000Z",
-        "resources": 3,
-        "location": "Dandenong",
-        "cfaId": 288827,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2049063007072,
-          -37.98118900384755
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 125298277,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125298277,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Docklands",
-        "eventId": "F260808789",
-        "id": "ESTA:260808789",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-08-10T16:28:50.000Z",
-        "updated": "2026-08-10T16:28:58.232Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-08-10T17:31:58.000Z",
+        "updated": "2026-08-10T17:33:58.000Z",
         "resources": 0,
-        "location": "Collins St, Docklands"
+        "location": "Gembrook",
+        "sesId": 614216
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.95277709331293,
-          -37.81866307799236
+          145.5655717278185,
+          -37.96033954868604
         ]
       }
     },
@@ -55159,20 +55128,20 @@
     {
       "properties": {
         "status": "Safe",
-        "cfaId": 288826,
+        "cfaId": 288827,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 288826,
+        "sourceId": 288827,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Torres St",
-        "eventId": 260808778,
-        "id": "ESTA:260808778",
+        "sourceTitle": "Birdwood Av",
+        "eventId": 260808786,
+        "id": "ESTA:260808786",
         "category1": "Fire",
         "category2": "Building Fire",
-        "created": "2026-08-10T15:34:00.000Z",
-        "updated": "2026-08-10T15:47:00.000Z",
-        "resources": 0,
-        "location": "Torres St, Newborough",
+        "created": "2026-08-10T16:18:00.000Z",
+        "updated": "2026-08-10T16:45:00.000Z",
+        "resources": 3,
+        "location": "Birdwood Av, Dandenong",
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -55180,8 +55149,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.29708389515994,
-          -38.1911381593069
+          145.205149040455,
+          -37.98103950788194
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "cfaId": 288831,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 288831,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "High St",
+        "eventId": 260808795,
+        "id": "ESTA:260808795",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-10T17:31:00.000Z",
+        "updated": "2026-08-10T17:31:00.000Z",
+        "resources": 3,
+        "location": "High St, Melton West",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.56351543807358,
+          -37.68503978256291
         ]
       }
     },
@@ -55269,27 +55267,27 @@
     {
       "properties": {
         "status": "On Scene",
-        "sesId": 614207,
+        "sesId": 614214,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
-        "sourceId": 614207,
+        "sourceId": 614214,
         "sourceFeed": "ses-incident",
         "sourceTitle": "Undefined",
-        "eventId": 260808759,
-        "id": "ESTA:260808759",
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-08-10T12:45:00.000Z",
-        "updated": "2026-08-10T13:15:00.000Z",
+        "eventId": 260850800,
+        "id": "ESTA:260850800",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-08-10T16:32:45.000Z",
+        "updated": "2026-08-10T17:12:55.000Z",
         "resources": 2,
-        "location": "Drouin South"
+        "location": "East Bendigo"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.82916300228626,
-          -38.165225328529
+          144.30513307125082,
+          -36.75473712145177
         ]
       }
     }
@@ -55310,13 +55308,13 @@
       "tfb": {
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
         "Central": "NO - RESTRICTIONS MAY APPLY",
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -55334,13 +55332,13 @@
           "tfb": {
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
             "Central": "NO - RESTRICTIONS MAY APPLY",
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-08-10T14:00:00.000Z",
           "heat": {
@@ -55521,7 +55519,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-10T16:32:00.655Z",
+    "lastUpdated": "2026-08-10T17:36:00.446Z",
     "featureCount": 102
   }
 }
