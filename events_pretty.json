@@ -16225,7 +16225,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
+        "status": "Complete",
         "estaId": 125336517,
         "feedType": "incident",
         "source": "000",
@@ -16239,7 +16239,7 @@
         "category1": "Tree Down",
         "category2": "Tree Down",
         "created": "2026-08-13T19:30:54.000Z",
-        "updated": "2026-08-13T19:31:42.000Z",
+        "updated": "2026-08-13T20:06:16.000Z",
         "resources": 0,
         "location": "Heathcote South",
         "sesId": 614447
@@ -16255,30 +16255,63 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 125336531,
+        "status": "Complete",
+        "estaId": 125336431,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125336531,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Mount Martha",
-        "eventId": "F260810308",
-        "id": "ESTA:260810308",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 614444,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260851004,
+        "id": "ESTA:260851004",
         "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-08-13T19:32:30.000Z",
-        "updated": "2026-08-13T19:33:28.458Z",
+        "category1": "Tree Down",
+        "category2": "Tree Down",
+        "created": "2026-08-13T19:07:46.000Z",
+        "updated": "2026-08-13T20:11:34.000Z",
         "resources": 0,
-        "location": "Mount Martha"
+        "location": "Esmond",
+        "sesId": 614444
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9874250872913,
-          -38.29271896185181
+          146.20090461537836,
+          -36.068449556654635
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125336651,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289198,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Judd Av",
+        "eventId": 260810316,
+        "id": "ESTA:260810316",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-13T20:12:00.000Z",
+        "updated": "2026-08-13T20:12:00.000Z",
+        "resources": 2,
+        "location": "Judd Av, Merrigum",
+        "cfaId": 289198,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12814625766657,
+          -36.36864724597304
         ]
       }
     },
@@ -16584,28 +16617,30 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 614444,
+        "status": "Under Control",
+        "cfaId": 289197,
         "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 614444,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260851004,
-        "id": "ESTA:260851004",
-        "category1": "Tree Down",
-        "category2": "Tree Down",
-        "created": "2026-08-13T19:07:46.000Z",
-        "updated": "2026-08-13T19:27:29.000Z",
-        "resources": 2,
-        "location": "Esmond"
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289197,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260810308,
+        "id": "ESTA:260810308",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-08-13T19:33:00.000Z",
+        "updated": "2026-08-13T20:01:00.000Z",
+        "resources": 10,
+        "location": "Mount Martha",
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.20090461537836,
-          -36.068449556654635
+          144.98740777049292,
+          -38.292731593750176
         ]
       }
     }
@@ -16624,7 +16659,6 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
-        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -16632,7 +16666,8 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+        "Mallee": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -16648,7 +16683,6 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
-            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -16656,7 +16690,8 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
+            "Mallee": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-08-13T14:00:00.000Z",
           "heat": {
@@ -16837,7 +16872,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-13T19:33:40.269Z",
-    "featureCount": 20
+    "lastUpdated": "2026-08-13T20:20:00.136Z",
+    "featureCount": 21
   }
 }
