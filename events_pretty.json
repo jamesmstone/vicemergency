@@ -16225,56 +16225,53 @@
     },
     {
       "properties": {
-        "status": "Under Control",
-        "estaId": 125335972,
+        "status": "Safe",
+        "estaId": 125335900,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 289194,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Nolan Av",
-        "eventId": 260810297,
-        "id": "ESTA:260810297",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125335900,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Jan Juc",
+        "eventId": "F260810295",
+        "id": "ESTA:260810295",
         "suppress": false,
         "category1": "Fire",
         "category2": "Other",
-        "created": "2026-08-13T17:07:00.000Z",
-        "updated": "2026-08-13T17:22:00.000Z",
-        "resources": 5,
-        "location": "Nolan Av, Mooroolbark",
-        "cfaId": 289194,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "created": "2026-08-13T16:42:12.000Z",
+        "updated": "2026-08-13T18:16:57.343Z",
+        "resources": 0,
+        "location": "Domain Rd, Jan Juc"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.33447767263135,
-          -37.782719829469976
+          144.29694926896835,
+          -38.351587873702414
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 125335900,
+        "status": "Responding",
+        "estaId": 125336273,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 289192,
+        "sourceId": 289196,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Domain Rd",
-        "eventId": 260810295,
-        "id": "ESTA:260810295",
+        "sourceTitle": "Waterview Bvd",
+        "eventId": 260810303,
+        "id": "ESTA:260810303",
         "suppress": false,
         "category1": "Fire",
-        "category2": "Other",
-        "created": "2026-08-13T16:43:00.000Z",
-        "updated": "2026-08-13T17:24:00.000Z",
+        "category2": "Building Fire",
+        "created": "2026-08-13T18:17:00.000Z",
+        "updated": "2026-08-13T18:17:00.000Z",
         "resources": 3,
-        "location": "Domain Rd, Jan Juc",
-        "cfaId": 289192,
+        "location": "Waterview Bvd, Craigieburn",
+        "cfaId": 289196,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -16282,8 +16279,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.29694297451107,
-          -38.35159496483056
+          144.90854057964478,
+          -37.585443491407716
         ]
       }
     },
@@ -16293,14 +16290,14 @@
         "status": "Warning",
         "feedType": "incident",
         "sourceOrg": "AU/BOM",
-        "sourceId": "IDV20600/e33dbf7a62739a4ecfc9e193312bbd65",
+        "sourceId": "IDV20600/8dc255ddaba31667c3d81ec294b5521b",
         "sourceFeed": "bom-idv20600",
         "sourceTitle": "Strong Wind Warning",
-        "id": "IDV20600/e33dbf7a62739a4ecfc9e193312bbd65",
+        "id": "IDV20600/8dc255ddaba31667c3d81ec294b5521b",
         "category1": "Met",
         "category2": "Strong Wind",
         "name": "Strong Wind Warning",
-        "created": "2026-08-13T14:00:00.000Z",
+        "created": "2026-08-13T18:00:00.000Z",
         "webHeadline": "Strong Wind Warning",
         "webBody": null,
         "url": "http://www.bom.gov.au/vic/warnings/marinewind.shtml",
@@ -16586,6 +16583,64 @@
           }
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 289194,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289194,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Nolan Av",
+        "eventId": 260810297,
+        "id": "ESTA:260810297",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-13T17:07:00.000Z",
+        "updated": "2026-08-13T17:26:00.000Z",
+        "resources": 0,
+        "location": "Nolan Av, Mooroolbark",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33447767263135,
+          -37.782719829469976
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Not Yet Under Control",
+        "cfaId": 289195,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289195,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Boundary Rd",
+        "eventId": 260810302,
+        "id": "ESTA:260810302",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-13T18:08:00.000Z",
+        "updated": "2026-08-13T18:08:00.000Z",
+        "resources": 3,
+        "location": "Boundary Rd, Dingley Village",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11035735123855,
+          -37.98310501192251
+        ]
+      }
     }
   ],
   "properties": {
@@ -16815,7 +16870,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-13T17:25:45.484Z",
-    "featureCount": 19
+    "lastUpdated": "2026-08-13T18:25:40.374Z",
+    "featureCount": 21
   }
 }
