@@ -13227,54 +13227,114 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 125365277,
+        "status": "Unknown",
+        "estaId": 125361811,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 614538,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260851097,
-        "id": "ESTA:260851097",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125361811,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Loch Valley",
+        "eventId": "F260812584",
+        "id": "ESTA:260812584",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-08-15T22:32:11.000Z",
-        "updated": "2026-08-15T22:51:59.000Z",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-08-15T13:16:58.000Z",
+        "updated": "2026-08-15T23:13:46.769Z",
         "resources": 0,
-        "location": "South Yarra",
-        "sesId": 614538
+        "location": "Loch Valley Rd, Loch Valley"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.98611989232285,
-          -37.84119979623913
+          145.99352071930073,
+          -37.82048270387501
         ]
       }
     },
     {
       "properties": {
         "status": "Safe",
-        "estaId": 125365119,
+        "estaId": 125365634,
         "feedType": "incident",
-        "source": "000",
+        "source": "FIRE",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289474,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260812837,
+        "id": "ESTA:260812837",
+        "suppress": false,
+        "category1": "Accident / Rescue",
+        "category2": "Rescue",
+        "created": "2026-08-15T23:16:00.000Z",
+        "updated": "2026-08-15T23:19:00.000Z",
+        "resources": 0,
+        "location": "Sassafras",
+        "cfaId": 289474,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3536817707649,
+          -37.862892311926885
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125365712,
+        "feedType": "incident",
+        "source": "FIRE",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289475,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260812847,
+        "id": "ESTA:260812847",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-08-15T23:26:00.000Z",
+        "updated": "2026-08-15T23:26:00.000Z",
+        "resources": 0,
+        "location": "Sassafras",
+        "cfaId": 289475,
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3536817707649,
+          -37.862892311926885
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 289470,
+        "feedType": "incident",
         "sourceOrg": "VIC/CFA",
         "sourceId": 289470,
         "sourceFeed": "cfa-incident",
         "sourceTitle": "Walara Dr",
         "eventId": 260812740,
         "id": "ESTA:260812740",
-        "suppress": false,
         "category1": "Accident / Rescue",
         "category2": "Road Accident",
         "created": "2026-08-15T22:12:00.000Z",
         "updated": "2026-08-15T22:54:00.000Z",
-        "resources": 2,
+        "resources": 1,
         "location": "Walara Dr, Mount Martha",
-        "cfaId": 289470,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -13284,35 +13344,6 @@
         "coordinates": [
           145.01799174259304,
           -38.275978021514184
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Not Yet Under Control",
-        "cfaId": 289471,
-        "feedType": "incident",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 289471,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Wells St",
-        "eventId": 260812770,
-        "id": "ESTA:260812770",
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-08-15T22:29:00.000Z",
-        "updated": "2026-08-15T22:29:00.000Z",
-        "resources": 2,
-        "location": "Wells St, Frankston",
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.1232309169981,
-          -38.14383539226077
         ]
       }
     },
@@ -13571,7 +13602,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-15T22:57:45.683Z",
-    "featureCount": 18
+    "lastUpdated": "2026-08-15T23:27:40.406Z",
+    "featureCount": 19
   }
 }
