@@ -13201,24 +13201,82 @@
     },
     {
       "properties": {
-        "status": "Not Yet Under Control",
-        "estaId": 125376811,
+        "status": "Safe",
+        "estaId": 125376926,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125376926,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Brunswick East",
+        "eventId": "F260813893",
+        "id": "ESTA:260813893",
+        "suppress": false,
+        "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-08-16T20:36:43.000Z",
+        "updated": "2026-08-16T20:45:45.352Z",
+        "resources": 3,
+        "location": "Brunswick East"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97885884302107,
+          -37.76961685550916
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125376944,
+        "feedType": "incident",
+        "source": "000",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125376944,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Highton",
+        "eventId": "F260813894",
+        "id": "ESTA:260813894",
+        "suppress": false,
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-08-16T20:43:03.000Z",
+        "updated": "2026-08-16T20:46:06.559Z",
+        "resources": 0,
+        "location": "Colac Rd, Highton"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3203027456016,
+          -38.19542573000207
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125376997,
         "feedType": "incident",
         "source": "000",
         "sourceOrg": "VIC/CFA",
-        "sourceId": 289586,
+        "sourceId": 289589,
         "sourceFeed": "cfa-incident",
-        "sourceTitle": "Monash Av",
-        "eventId": 260813887,
-        "id": "ESTA:260813887",
+        "sourceTitle": "",
+        "eventId": 260813898,
+        "id": "ESTA:260813898",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-08-16T20:03:00.000Z",
-        "updated": "2026-08-16T20:03:00.000Z",
-        "resources": 4,
-        "location": "Monash Av, Nyah West",
-        "cfaId": 289586,
+        "category1": "Accident / Rescue",
+        "category2": "Washaway",
+        "created": "2026-08-16T20:55:00.000Z",
+        "updated": "2026-08-16T20:55:00.000Z",
+        "resources": 0,
+        "location": "Lyndhurst",
+        "cfaId": 289589,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -13226,41 +13284,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.35708081768362,
-          -35.184929401786725
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
-        "estaId": 125376634,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 614570,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260813880,
-        "id": "ESTA:260813880",
-        "suppress": false,
-        "category1": "Rescue",
-        "category2": "Rescue Road Trap",
-        "created": "2026-08-16T18:58:01.000Z",
-        "updated": "2026-08-16T19:16:20.000Z",
-        "resources": 4,
-        "location": "Portarlington",
-        "cfaId": 289585,
-        "size": "Small",
-        "sizeFmt": "Small",
-        "sesId": 614570
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.64774866992752,
-          -38.161313771126416
+          145.24242905800028,
+          -38.06289838149862
         ]
       }
     },
@@ -13291,6 +13316,64 @@
         "coordinates": [
           144.93804,
           -35.459657001
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 289585,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289585,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Queenscliff Rd",
+        "eventId": 260813880,
+        "id": "ESTA:260813880",
+        "category1": "Accident / Rescue",
+        "category2": "Road Accident",
+        "created": "2026-08-16T18:58:00.000Z",
+        "updated": "2026-08-16T20:24:00.000Z",
+        "resources": 0,
+        "location": "Queenscliff Rd, Portarlington",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.64774866992752,
+          -38.161313771126416
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Under Control",
+        "cfaId": 289586,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 289586,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Monash Av",
+        "eventId": 260813887,
+        "id": "ESTA:260813887",
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-16T20:03:00.000Z",
+        "updated": "2026-08-16T20:33:00.000Z",
+        "resources": 5,
+        "location": "Monash Av, Nyah West",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.35708081768362,
+          -35.184929401786725
         ]
       }
     }
@@ -13522,7 +13605,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-16T20:32:05.830Z",
-    "featureCount": 16
+    "lastUpdated": "2026-08-16T20:57:25.441Z",
+    "featureCount": 19
   }
 }
