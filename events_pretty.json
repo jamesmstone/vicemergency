@@ -6240,50 +6240,77 @@
     {
       "properties": {
         "status": "Responding",
-        "estaId": 125453645,
+        "estaId": 125453817,
         "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 290300,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Craigie Rd",
-        "eventId": 260818733,
-        "id": "ESTA:260818733",
+        "source": "PAL",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125453817,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Mitcham",
+        "eventId": "F260818736",
+        "id": "ESTA:260818736",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-08-22T17:22:00.000Z",
-        "updated": "2026-08-22T17:22:00.000Z",
-        "resources": 1,
-        "location": "Craigie Rd, Mount Martha",
-        "cfaId": 290300,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Hazardous Material",
+        "category2": "Hazardous Material",
+        "created": "2026-08-22T17:54:32.000Z",
+        "updated": "2026-08-22T17:55:27.337Z",
+        "resources": 0,
+        "location": "Mitcham Rd, Mitcham"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0289323456587,
-          -38.25438223179007
+          145.1943508324433,
+          -37.82699930691338
         ]
       }
     },
     {
       "properties": {
-        "status": "Not Yet Controlled",
+        "status": "Request For Assistance",
+        "estaId": 125453820,
+        "feedType": "incident",
+        "source": "SES STRM",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 615037,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260851584,
+        "id": "ESTA:260851584",
+        "suppress": false,
+        "category1": "Building Damage",
+        "category2": "Building Damage",
+        "created": "2026-08-22T17:56:07.000Z",
+        "updated": "2026-08-22T17:56:07.000Z",
+        "resources": 0,
+        "location": "Cowes",
+        "sesId": 615037
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2425514149604,
+          -38.454801483463335
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Being Controlled",
         "feedType": "incident",
         "sourceOrg": "NSW/RFS",
         "sourceId": "672599",
         "sourceFeed": "rfs-cap",
         "sourceTitle": "Kywong-Howlong Rd, Howlong",
-        "id": "2026-08-23T03:22:00.0000000:672599",
+        "id": "2026-08-23T03:23:00.0000000:672599",
         "category1": "Transport",
         "category2": "Motor Vehicle Accident",
         "name": "Kywong-Howlong Rd, Howlong",
         "location": "Kywong Howlong Rd, Howlong 2643",
-        "created": "2026-08-23T03:22:00+10:00",
-        "updated": "2026-08-23T03:22:00+10:00",
+        "created": "2026-08-23T03:23:00+10:00",
+        "updated": "2026-08-23T03:23:00+10:00",
         "webHeadline": "Unknown",
         "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "sizeFmt": [
@@ -6360,34 +6387,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "sesId": 615033,
-        "feedType": "incident",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 615033,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260851580,
-        "id": "ESTA:260851580",
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-08-22T15:17:46.000Z",
-        "updated": "2026-08-22T15:51:36.000Z",
-        "resources": 1,
-        "location": "Cowes"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2425514149604,
-          -38.454801483463335
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Request For Assistance",
+        "status": "On Scene",
         "sesId": 615036,
         "feedType": "incident",
         "sourceOrg": "VIC/SES",
@@ -6399,8 +6399,8 @@
         "category1": "Flooding",
         "category2": "Flooding",
         "created": "2026-08-22T17:10:15.000Z",
-        "updated": "2026-08-22T17:14:45.000Z",
-        "resources": 0,
+        "updated": "2026-08-22T17:48:03.000Z",
+        "resources": 1,
         "location": "Clifton Springs"
       },
       "type": "Feature",
@@ -6640,7 +6640,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-22T17:28:45.376Z",
+    "lastUpdated": "2026-08-22T17:57:25.372Z",
     "featureCount": 17
   }
 }
