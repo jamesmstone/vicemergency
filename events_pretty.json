@@ -6239,60 +6239,63 @@
     },
     {
       "properties": {
-        "status": "Complete",
-        "estaId": 125453412,
+        "status": "Responding",
+        "estaId": 125453645,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 615035,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260851582,
-        "id": "ESTA:260851582",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 290300,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Craigie Rd",
+        "eventId": 260818733,
+        "id": "ESTA:260818733",
         "suppress": false,
-        "category1": "Building Damage",
-        "category2": "Building Damage",
-        "created": "2026-08-22T16:34:38.000Z",
-        "updated": "2026-08-22T16:47:46.000Z",
-        "resources": 0,
-        "location": "Hillside (Greater Melbourne)",
-        "sesId": 615035
+        "category1": "Fire",
+        "category2": "Building Fire",
+        "created": "2026-08-22T17:22:00.000Z",
+        "updated": "2026-08-22T17:22:00.000Z",
+        "resources": 1,
+        "location": "Craigie Rd, Mount Martha",
+        "cfaId": 290300,
+        "size": "Small",
+        "sizeFmt": "Small"
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.75558986083382,
-          -37.70155115065526
+          145.0289323456587,
+          -38.25438223179007
         ]
       }
     },
     {
       "properties": {
-        "status": "Safe",
-        "estaId": 125453407,
+        "status": "Not Yet Controlled",
         "feedType": "incident",
-        "source": "RADIO",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125453407,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Shepparton",
-        "eventId": "F260818728",
-        "id": "ESTA:260818728",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Non Structure Fire",
-        "created": "2026-08-22T16:33:39.000Z",
-        "updated": "2026-08-22T16:55:50.077Z",
-        "resources": 1,
-        "location": "Mcgill St, Shepparton"
+        "sourceOrg": "NSW/RFS",
+        "sourceId": "672599",
+        "sourceFeed": "rfs-cap",
+        "sourceTitle": "Kywong-Howlong Rd, Howlong",
+        "id": "2026-08-23T03:22:00.0000000:672599",
+        "category1": "Transport",
+        "category2": "Motor Vehicle Accident",
+        "name": "Kywong-Howlong Rd, Howlong",
+        "location": "Kywong Howlong Rd, Howlong 2643",
+        "created": "2026-08-23T03:22:00+10:00",
+        "updated": "2026-08-23T03:22:00+10:00",
+        "webHeadline": "Unknown",
+        "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "sizeFmt": [
+          "0 ha"
+        ]
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4290143643263,
-          -36.363919811053634
+          146.663921,
+          -35.940352
         ]
       }
     },
@@ -6379,6 +6382,33 @@
         "coordinates": [
           145.2425514149604,
           -38.454801483463335
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 615036,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 615036,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260851583,
+        "id": "ESTA:260851583",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-08-22T17:10:15.000Z",
+        "updated": "2026-08-22T17:14:45.000Z",
+        "resources": 0,
+        "location": "Clifton Springs"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58156353528688,
+          -38.15210239461862
         ]
       }
     }
@@ -6610,7 +6640,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-22T16:59:00.514Z",
-    "featureCount": 16
+    "lastUpdated": "2026-08-22T17:28:45.376Z",
+    "featureCount": 17
   }
 }
