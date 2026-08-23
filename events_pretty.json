@@ -43585,39 +43585,37 @@
     },
     {
       "properties": {
-        "status": "Responding",
-        "estaId": 125466200,
+        "status": "Request For Assistance",
+        "estaId": 125466253,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 290406,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Marigold St",
-        "eventId": 260819835,
-        "id": "ESTA:260819835",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 615079,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260851625,
+        "id": "ESTA:260851625",
         "suppress": false,
-        "category1": "Fire",
-        "category2": "Building Fire",
-        "created": "2026-08-23T18:35:00.000Z",
-        "updated": "2026-08-23T18:35:00.000Z",
-        "resources": 2,
-        "location": "Marigold St, Wendouree",
-        "cfaId": 290406,
-        "size": "Small",
-        "sizeFmt": "Small"
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-08-23T18:49:36.000Z",
+        "updated": "2026-08-23T18:56:03.000Z",
+        "resources": 0,
+        "location": "St Kilda",
+        "sesId": 615079
       },
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.82322780153342,
-          -37.52691340034533
+          144.9714893142207,
+          -37.865036919961206
         ]
       }
     },
     {
       "properties": {
-        "status": "Responding",
+        "status": "Under Control",
         "estaId": 125466207,
         "feedType": "incident",
         "source": "000",
@@ -43631,8 +43629,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-08-23T18:38:00.000Z",
-        "updated": "2026-08-23T18:38:00.000Z",
-        "resources": 1,
+        "updated": "2026-08-23T18:55:00.000Z",
+        "resources": 2,
         "location": "Hermsley Rd, Curlewis",
         "cfaId": 290407,
         "size": "Small",
@@ -43650,23 +43648,52 @@
     {
       "properties": {
         "status": "Safe",
-        "estaId": 125466168,
+        "estaId": 125466268,
         "feedType": "incident",
         "source": "000",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 290405,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "",
-        "eventId": 260819834,
-        "id": "ESTA:260819834",
+        "sourceOrg": "VIC/ESTA",
+        "sourceId": 125466268,
+        "sourceFeed": "esta-cad-event",
+        "sourceTitle": "Albanvale",
+        "eventId": "F260819840",
+        "id": "ESTA:260819840",
         "suppress": false,
         "category1": "Fire",
+        "category2": "Structure Fire",
+        "created": "2026-08-23T18:53:47.000Z",
+        "updated": "2026-08-23T18:57:15.664Z",
+        "resources": 3,
+        "location": "Trafalgar St, Albanvale"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.77193813990385,
+          -37.74180534366879
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Responding",
+        "estaId": 125466284,
+        "feedType": "incident",
+        "source": "",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 290408,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bayview Rd",
+        "eventId": 260819841,
+        "id": "ESTA:260819841",
+        "suppress": false,
+        "category1": "Other",
         "category2": "Other",
-        "created": "2026-08-23T18:26:00.000Z",
-        "updated": "2026-08-23T18:37:00.000Z",
-        "resources": 1,
-        "location": "Tarneit",
-        "cfaId": 290405,
+        "created": "2026-08-23T18:59:00.000Z",
+        "updated": "2026-08-23T18:59:00.000Z",
+        "resources": 0,
+        "location": "Bayview Rd, Belgrave",
+        "cfaId": 290408,
         "size": "Small",
         "sizeFmt": "Small"
       },
@@ -43674,8 +43701,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6752894653639,
-          -37.81757527571142
+          145.36055993940815,
+          -37.91259121782996
         ]
       }
     },
@@ -43710,7 +43737,36 @@
     },
     {
       "properties": {
-        "status": "Under Control",
+        "status": "Safe",
+        "cfaId": 290405,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 290405,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "",
+        "eventId": 260819834,
+        "id": "ESTA:260819834",
+        "category1": "Fire",
+        "category2": "Other",
+        "created": "2026-08-23T18:26:00.000Z",
+        "updated": "2026-08-23T18:37:00.000Z",
+        "resources": 0,
+        "location": "Tarneit",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6752894653639,
+          -37.81757527571142
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Safe",
         "cfaId": 290404,
         "feedType": "incident",
         "sourceOrg": "VIC/CFA",
@@ -43722,8 +43778,8 @@
         "category1": "Other",
         "category2": "Other",
         "created": "2026-08-23T18:15:00.000Z",
-        "updated": "2026-08-23T18:31:00.000Z",
-        "resources": 1,
+        "updated": "2026-08-23T18:44:00.000Z",
+        "resources": 0,
         "location": "Jamieson St, Myrtleford",
         "size": "Small",
         "sizeFmt": "Small"
@@ -43965,7 +44021,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-23T18:41:00.212Z",
-    "featureCount": 22
+    "lastUpdated": "2026-08-23T19:03:00.205Z",
+    "featureCount": 24
   }
 }
