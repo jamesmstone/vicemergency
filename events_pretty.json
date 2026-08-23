@@ -43585,37 +43585,7 @@
     },
     {
       "properties": {
-        "status": "Request For Assistance",
-        "estaId": 125466253,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/SES",
-        "sourceId": 615079,
-        "sourceFeed": "ses-incident",
-        "sourceTitle": "Undefined",
-        "eventId": 260851625,
-        "id": "ESTA:260851625",
-        "suppress": false,
-        "category1": "Flooding",
-        "category2": "Flooding",
-        "created": "2026-08-23T18:49:36.000Z",
-        "updated": "2026-08-23T18:56:03.000Z",
-        "resources": 0,
-        "location": "St Kilda",
-        "sesId": 615079
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9714893142207,
-          -37.865036919961206
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Under Control",
+        "status": "Safe",
         "estaId": 125466207,
         "feedType": "incident",
         "source": "000",
@@ -43629,8 +43599,8 @@
         "category1": "Fire",
         "category2": "Bushfire",
         "created": "2026-08-23T18:38:00.000Z",
-        "updated": "2026-08-23T18:55:00.000Z",
-        "resources": 2,
+        "updated": "2026-08-23T19:09:00.000Z",
+        "resources": 0,
         "location": "Hermsley Rd, Curlewis",
         "cfaId": 290407,
         "size": "Small",
@@ -43642,67 +43612,6 @@
         "coordinates": [
           144.51365841993888,
           -38.176904635903654
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Safe",
-        "estaId": 125466268,
-        "feedType": "incident",
-        "source": "000",
-        "sourceOrg": "VIC/ESTA",
-        "sourceId": 125466268,
-        "sourceFeed": "esta-cad-event",
-        "sourceTitle": "Albanvale",
-        "eventId": "F260819840",
-        "id": "ESTA:260819840",
-        "suppress": false,
-        "category1": "Fire",
-        "category2": "Structure Fire",
-        "created": "2026-08-23T18:53:47.000Z",
-        "updated": "2026-08-23T18:57:15.664Z",
-        "resources": 3,
-        "location": "Trafalgar St, Albanvale"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.77193813990385,
-          -37.74180534366879
-        ]
-      }
-    },
-    {
-      "properties": {
-        "status": "Responding",
-        "estaId": 125466284,
-        "feedType": "incident",
-        "source": "",
-        "sourceOrg": "VIC/CFA",
-        "sourceId": 290408,
-        "sourceFeed": "cfa-incident",
-        "sourceTitle": "Bayview Rd",
-        "eventId": 260819841,
-        "id": "ESTA:260819841",
-        "suppress": false,
-        "category1": "Other",
-        "category2": "Other",
-        "created": "2026-08-23T18:59:00.000Z",
-        "updated": "2026-08-23T18:59:00.000Z",
-        "resources": 0,
-        "location": "Bayview Rd, Belgrave",
-        "cfaId": 290408,
-        "size": "Small",
-        "sizeFmt": "Small"
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.36055993940815,
-          -37.91259121782996
         ]
       }
     },
@@ -43792,6 +43701,62 @@
           -36.55659604776803
         ]
       }
+    },
+    {
+      "properties": {
+        "status": "Safe",
+        "cfaId": 290408,
+        "feedType": "incident",
+        "sourceOrg": "VIC/CFA",
+        "sourceId": 290408,
+        "sourceFeed": "cfa-incident",
+        "sourceTitle": "Bayview Rd",
+        "eventId": 260819841,
+        "id": "ESTA:260819841",
+        "category1": "Other",
+        "category2": "Other",
+        "created": "2026-08-23T18:59:00.000Z",
+        "updated": "2026-08-23T19:14:00.000Z",
+        "resources": 0,
+        "location": "Bayview Rd, Belgrave",
+        "size": "Small",
+        "sizeFmt": "Small"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36055993940815,
+          -37.91259121782996
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": "Request For Assistance",
+        "sesId": 615079,
+        "feedType": "incident",
+        "sourceOrg": "VIC/SES",
+        "sourceId": 615079,
+        "sourceFeed": "ses-incident",
+        "sourceTitle": "Undefined",
+        "eventId": 260851625,
+        "id": "ESTA:260851625",
+        "category1": "Flooding",
+        "category2": "Flooding",
+        "created": "2026-08-23T18:49:36.000Z",
+        "updated": "2026-08-23T19:24:03.000Z",
+        "resources": 1,
+        "location": "St Kilda"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9714893142207,
+          -37.865036919961206
+        ]
+      }
     }
   ],
   "properties": {
@@ -43808,6 +43773,7 @@
         "East Gippsland": "NO FORECAST"
       },
       "tfb": {
+        "Mallee": "NO - RESTRICTIONS MAY APPLY",
         "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
         "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -43815,8 +43781,7 @@
         "North Central": "NO - RESTRICTIONS MAY APPLY",
         "Northern Country": "NO - RESTRICTIONS MAY APPLY",
         "South West": "NO - RESTRICTIONS MAY APPLY",
-        "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-        "Mallee": "NO - RESTRICTIONS MAY APPLY"
+        "Wimmera": "NO - RESTRICTIONS MAY APPLY"
       },
       "forecasts": [
         {
@@ -43832,6 +43797,7 @@
             "East Gippsland": "NO FORECAST"
           },
           "tfb": {
+            "Mallee": "NO - RESTRICTIONS MAY APPLY",
             "East Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "West and South Gippsland": "NO - RESTRICTIONS MAY APPLY",
             "North East": "NO - RESTRICTIONS MAY APPLY",
@@ -43839,8 +43805,7 @@
             "North Central": "NO - RESTRICTIONS MAY APPLY",
             "Northern Country": "NO - RESTRICTIONS MAY APPLY",
             "South West": "NO - RESTRICTIONS MAY APPLY",
-            "Wimmera": "NO - RESTRICTIONS MAY APPLY",
-            "Mallee": "NO - RESTRICTIONS MAY APPLY"
+            "Wimmera": "NO - RESTRICTIONS MAY APPLY"
           },
           "date": "2026-08-23T14:00:00.000Z",
           "heat": {
@@ -44021,7 +43986,7 @@
       }
     },
     "notices": [],
-    "lastUpdated": "2026-08-23T19:03:00.205Z",
-    "featureCount": 24
+    "lastUpdated": "2026-08-23T19:29:00.052Z",
+    "featureCount": 23
   }
 }
